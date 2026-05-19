@@ -1,0 +1,51 @@
+{
+  "_comment": "Quellen für BVB-Aladin. tier: 1=Insider, 2=Etabliert, 3=Offiziell, 4=Boulevard/Fan, 5=Social. credibility 0-10.",
+  "rss": [
+    {"id": "kicker_bvb",         "name": "kicker BVB",             "url": "https://newsfeed.kicker.de/team/borussia-dortmund",                                       "tier": 2, "credibility": 8,  "lang": "de"},
+    {"id": "kicker_bundesliga",  "name": "kicker Bundesliga",      "url": "https://newsfeed.kicker.de/news/bundesliga",                                              "tier": 2, "credibility": 8,  "lang": "de", "filter_bvb": true},
+    {"id": "ruhr24_bvb",         "name": "RUHR24 BVB",             "url": "https://www.ruhr24.de/sport/bvb/rssfeed.rdf",                                             "tier": 2, "credibility": 7,  "lang": "de"},
+    {"id": "rn_bvb",             "name": "Ruhr Nachrichten BVB",   "url": "https://www.ruhrnachrichten.de/sport/bvb/feed/",                                          "tier": 2, "credibility": 8,  "lang": "de"},
+    {"id": "tm_bvb",             "name": "Transfermarkt BVB",      "url": "https://www.transfermarkt.de/borussia-dortmund/news/verein/16/rss",                       "tier": 2, "credibility": 8,  "lang": "de"},
+    {"id": "schwatzgelb",        "name": "Schwatzgelb",            "url": "https://www.schwatzgelb.de/index.php?option=com_obrss&task=feed&id=1&format=feed",        "tier": 4, "credibility": 6,  "lang": "de"},
+    {"id": "caughtoffside",      "name": "CaughtOffside",          "url": "https://www.caughtoffside.com/feed/",                                                     "tier": 4, "credibility": 5,  "lang": "en", "filter_bvb": true}
+  ],
+  "nitter": {
+    "_comment": "X/Twitter via Nitter-Mirrors als RSS. Multiple instances als Fallback. Tier-1 Insider + @BVB als Offiziell-Quelle.",
+    "instances": [
+      "https://nitter.net",
+      "https://nitter.privacydev.net",
+      "https://nitter.poast.org",
+      "https://nitter.cz"
+    ],
+    "accounts": [
+      {"id": "x_plettenberg", "handle": "Plettigoal",      "name": "Florian Plettenberg (Sky)",  "tier": 1, "credibility": 10, "lang": "de"},
+      {"id": "x_berger",      "handle": "berger_pj",       "name": "Patrick Berger",             "tier": 1, "credibility": 9,  "lang": "de"},
+      {"id": "x_falk",        "handle": "cfbayern",        "name": "Christian Falk (BILD)",      "tier": 1, "credibility": 9,  "lang": "de"},
+      {"id": "x_romano",      "handle": "FabrizioRomano",  "name": "Fabrizio Romano",            "tier": 1, "credibility": 10, "lang": "en"},
+      {"id": "x_ornstein",    "handle": "David_Ornstein",  "name": "David Ornstein (Athletic)",  "tier": 1, "credibility": 10, "lang": "en"},
+      {"id": "x_bvb",         "handle": "BVB",             "name": "BVB (offiziell)",            "tier": 3, "credibility": 10, "lang": "de"}
+    ],
+    "filter_bvb_for_non_bvb_accounts": true
+  },
+  "bvb_keywords": [
+    "bvb", "borussia dortmund", "dortmund", "schwarz-gelb", "schwarzgelb",
+    "kovac", "nuri sahin", "ricken", "kehl", "watzke",
+    "guirassy", "adeyemi", "bynoe-gittens", "gittens", "brandt", "reyna",
+    "sabitzer", "ozcan", "groß", "nmecha", "anton", "schlotterbeck",
+    "süle", "bensebaini", "ryerson", "kobel", "meyer", "emre can",
+    "couto", "yan couto", "duranville", "beier", "chukwuemeka",
+    "moukoko", "haller", "anselmino",
+    "signal iduna park", "westfalenstadion"
+  ],
+  "negative_keywords": [
+    "borussia mönchengladbach", "gladbach", "mönchengladbach",
+    "vfl borussia", "fohlen"
+  ],
+  "categories": {
+    "transfers": ["transfer", "wechsel", "verpflichtung", "abgang", "zugang", "ablöse", "vertrag", "verlängert", "verlängerung", "leihe", "interesse", "gerücht", "deal", "signed", "joins", "loan"],
+    "injury":    ["verletzung", "verletzt", "ausfall", "ausfällt", "muskel", "kreuzband", "ot", "reha", "fit", "comeback", "kabine"],
+    "matchday":  ["aufstellung", "anpfiff", "abpfiff", "tor", "elfmeter", "rote karte", "gelbe karte", "spielbericht", "noten", "stimmen", "pressekonferenz"],
+    "official":  ["offiziell", "bekannt gegeben", "mitteilung", "statement", "klub teilt mit"],
+    "background": ["analyse", "interview", "porträt", "hintergrund", "kommentar", "kolumne", "taktik"]
+  }
+}

@@ -1,0 +1,57 @@
+name: Refresh BVB News
+
+on:
+  schedule:
+    # Alle 30 Minuten. GitHub Actions Cron ist nicht 100% pünktlich (manchmal +5-20 min Verzögerung).
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}  # Manueller Trigger via GitHub UI
+  push:
+    branches: [main]
+    paths:
+      - "fetcher.py"
+      - "scorer.py"
+      - "data/sources.json"
+      - ".github/workflows/refresh-news.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch news
+        run: python fetcher.py
+        continue-on-error: false
+
+      - name: Score & cluster
+        run: python scorer.py
+
+      - name: Commit news.json (only if changed)
+        run: |
+          git config user.name  "bvb-aladin-bot"
+          git config user.email "bvb-aladin-bot@users.noreply.github.com"
+          git add data/news.json data/raw_items.json
+          if git diff --cached --quiet; then
+            echo "no changes — skipping commit"
+          else
+            git commit -m "chore: refresh news $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

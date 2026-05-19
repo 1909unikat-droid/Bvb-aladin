@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <title>BVB-Aladin</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <style>
+    :root {
+      --bg: #0b0b0c;
+      --bg-elev: #15171a;
+      --bg-card: #1c1f24;
+      --fg: #f5f5f0;
+      --muted: #8c8f96;
+      --yellow: #fde100;
+      --yellow-soft: #fff064;
+      --red: #ff5757;
+      --green: #5bd97a;
+      --border: #2a2d33;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased; }
+    a { color: inherit; text-decoration: none; }
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: linear-gradient(180deg, #000 0%, #0b0b0c 100%);
+      border-bottom: 1px solid var(--border);
+      padding: env(safe-area-inset-top, 12px) 16px 0 16px;
+    }
+    .h-row { display: flex; align-items: center; justify-content: space-between; padding: 12px 0 10px 0; }
+    .brand { display: flex; align-items: center; gap: 10px; }
+    .logo { width: 34px; height: 34px; border-radius: 8px; background: var(--yellow); display:flex; align-items:center; justify-content:center; font-weight: 900; color: #000; }
+    .brand h1 { font-size: 18px; font-weight: 800; letter-spacing: 0.2px; margin: 0; }
+    .brand small { color: var(--muted); font-size: 11px; display: block; margin-top: 2px;}
+    .btn {
+      background: var(--bg-elev); color: var(--fg); border: 1px solid var(--border);
+      padding: 8px 12px; border-radius: 8px; font-size: 13px; cursor: pointer;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .btn:hover { border-color: var(--yellow); }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .tabs { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0 12px 0; scrollbar-width: none; }
+    .tabs::-webkit-scrollbar { display: none; }
+    .tab {
+      flex: 0 0 auto; padding: 8px 14px; border-radius: 999px; font-size: 13px;
+      background: var(--bg-elev); border: 1px solid var(--border); color: var(--muted);
+      cursor: pointer; white-space: nowrap;
+    }
+    .tab.active { background: var(--yellow); color: #000; border-color: var(--yellow); font-weight: 700; }
+    main { padding: 14px 16px 80px 16px; max-width: 760px; margin: 0 auto; }
+    .meta-bar { font-size: 12px; color: var(--muted); margin: 4px 0 14px 0; display:flex; justify-content:space-between; flex-wrap: wrap; gap: 8px;}
+    .card {
+      display: block;
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 14px 14px 12px 14px; margin-bottom: 10px;
+      position: relative; overflow: hidden;
+    }
+    .card.tier-1 { border-left: 3px solid var(--yellow); }
+    .card.tier-3 { border-left: 3px solid var(--green); }
+    .card.tier-4 { border-left: 3px solid #6a6e76; }
+    .card-head { display: flex; gap: 10px; align-items: flex-start; justify-content: space-between; margin-bottom: 6px; }
+    .title { font-size: 15.5px; font-weight: 700; line-height: 1.35; }
+    .score-badge {
+      flex-shrink: 0; min-width: 44px; text-align: center;
+      background: #000; border: 1px solid var(--border);
+      border-radius: 8px; padding: 4px 8px;
+      font-size: 13px; font-weight: 800; color: var(--yellow);
+    }
+    .score-badge.hot { background: var(--yellow); color: #000; border-color: var(--yellow); }
+    .summary { font-size: 13px; color: #c9ccd2; line-height: 1.45; margin: 4px 0 8px 0; }
+    .footer-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 11.5px; color: var(--muted); }
+    .pill { background: var(--bg-elev); padding: 3px 8px; border-radius: 999px; border: 1px solid var(--border); }
+    .pill.cat { background: #25272c; color: #fff064; }
+    .pill.tier-1 { color: var(--yellow); border-color: rgba(253,225,0,0.4); }
+    .pill.tier-3 { color: var(--green); border-color: rgba(91,217,122,0.35); }
+    .confirms { font-size: 11px; color: var(--muted); margin-top: 6px; }
+    .confirms b { color: var(--yellow-soft); }
+    .empty { text-align: center; color: var(--muted); padding: 60px 20px; }
+    .empty .loader { width: 28px; height: 28px; border: 3px solid var(--border); border-top-color: var(--yellow); border-radius: 50%; animation: spin 0.9s linear infinite; margin: 0 auto 12px;}
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .toast { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%);
+      background: var(--bg-elev); border: 1px solid var(--border); padding: 10px 16px;
+      border-radius: 10px; font-size: 13px; box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+      opacity: 0; pointer-events: none; transition: opacity .2s; }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="h-row">
+      <div class="brand">
+        <div class="logo">B</div>
+        <div>
+          <h1>BVB-Aladin</h1>
+          <small id="meta-updated">lädt…</small>
+        </div>
+      </div>
+      <button class="btn" id="btn-refresh" title="Neu laden (rate-limited 1×/min)">↻ Refresh</button>
+    </div>
+    <div class="tabs" id="tabs"></div>
+  </header>
+
+  <main>
+    <div class="meta-bar" id="meta-bar"></div>
+    <div id="list"><div class="empty"><div class="loader"></div>Lade News…</div></div>
+  </main>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const TABS = [
+      { id: "hot",        label: "🔥 Hot",       filter: it => it.score >= 6.0 },
+      { id: "all",        label: "Alle",         filter: () => true },
+      { id: "transfers",  label: "Transfers",    filter: it => it.category === "transfers" },
+      { id: "official",   label: "Offiziell",    filter: it => it.category === "official" },
+      { id: "injury",     label: "Verletzungen", filter: it => it.category === "injury" },
+      { id: "matchday",   label: "Matchday",     filter: it => it.category === "matchday" },
+      { id: "background", label: "Hintergrund",  filter: it => it.category === "background" },
+      { id: "insider",    label: "Tier-1 Insider", filter: it => it.tier === 1 },
+    ];
+
+    let state = { tab: "hot", data: null };
+
+    function fmtTime(iso) {
+      if (!iso) return "—";
+      const d = new Date(iso);
+      const now = new Date();
+      const diffM = Math.max(0, Math.round((now - d) / 60000));
+      if (diffM < 1)   return "gerade eben";
+      if (diffM < 60)  return diffM + " Min";
+      const h = Math.round(diffM / 60);
+      if (h < 24) return h + " h";
+      const days = Math.round(h / 24);
+      if (days < 7) return days + " Tage";
+      return d.toLocaleDateString("de-DE");
+    }
+
+    function escapeHtml(s) {
+      return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    }
+
+    function renderTabs() {
+      const el = document.getElementById("tabs");
+      const counts = countsByTab(state.data?.items || []);
+      el.innerHTML = TABS.map(t => `
+        <div class="tab ${t.id === state.tab ? "active" : ""}" data-tab="${t.id}">
+          ${t.label}<span style="opacity:.6;margin-left:6px">${counts[t.id] || 0}</span>
+        </div>
+      `).join("");
+      el.querySelectorAll(".tab").forEach(node => {
+        node.addEventListener("click", () => {
+          state.tab = node.dataset.tab;
+          renderTabs();
+          renderList();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+    }
+
+    function countsByTab(items) {
+      const out = {};
+      for (const t of TABS) out[t.id] = items.filter(t.filter).length;
+      return out;
+    }
+
+    function renderMeta() {
+      const m = document.getElementById("meta-bar");
+      if (!state.data) { m.innerHTML = ""; return; }
+      const s = state.data.stats || {};
+      m.innerHTML = `
+        <span>${s.total || 0} Stories aus ${s.sources_ok || 0} Quellen
+          ${s.sources_fail ? `<span style="color:var(--red)"> (${s.sources_fail} fail)</span>` : ""}
+        </span>
+        <span>Tier 1: ${(s.by_tier && s.by_tier["1"]) || 0} · Offiziell: ${(s.by_category && s.by_category.official) || 0}</span>
+      `;
+      document.getElementById("meta-updated").textContent =
+        "Stand: " + (state.data.updated_at ? new Date(state.data.updated_at).toLocaleString("de-DE") : "—");
+    }
+
+    function renderList() {
+      const list = document.getElementById("list");
+      if (!state.data) return;
+      const tab = TABS.find(t => t.id === state.tab);
+      const items = (state.data.items || []).filter(tab.filter);
+      if (items.length === 0) {
+        list.innerHTML = `<div class="empty">Keine Treffer in dieser Kategorie.</div>`;
+        return;
+      }
+      list.innerHTML = items.map(it => {
+        const hot = it.score >= 8.0;
+        const tierClass = `tier-${it.tier}`;
+        const confirms = it.confirmation_count > 1
+          ? `<div class="confirms">✓ <b>${it.confirmation_count}</b> Quellen bestätigen: ${
+              it.confirmations.slice(0,4).map(c => escapeHtml(c.source)).join(" · ")
+            }${it.confirmations.length > 4 ? " …" : ""}</div>`
+          : "";
+        const kindIcon = it.kind === "x" ? "𝕏 " : "";
+
+        // Titel kappen (X-Tweets sind oft sehr lang)
+        const titleMax = it.kind === "x" ? 140 : 180;
+        const titleShort = it.title.length > titleMax
+          ? it.title.slice(0, titleMax).replace(/\s+\S*$/, "") + "…"
+          : it.title;
+
+        // Summary nur zeigen, wenn nicht praktisch identisch zum Titel (X-Tweets!)
+        const titleNorm = it.title.toLowerCase().replace(/\s+/g, " ").trim();
+        const summaryNorm = (it.summary || "").toLowerCase().replace(/\s+/g, " ").trim();
+        const showSummary = it.summary && !titleNorm.startsWith(summaryNorm.slice(0, 60))
+          && !summaryNorm.startsWith(titleNorm.slice(0, 60));
+        const summaryShort = showSummary
+          ? (it.summary.length > 200 ? escapeHtml(it.summary.slice(0, 200)) + "…" : escapeHtml(it.summary))
+          : "";
+
+        return `
+          <a class="card ${tierClass}" href="${escapeHtml(it.url)}" target="_blank" rel="noopener">
+            <div class="card-head">
+              <div class="title">${escapeHtml(titleShort)}</div>
+              <div class="score-badge ${hot ? "hot" : ""}">${it.score.toFixed(1)}</div>
+            </div>
+            ${summaryShort ? `<div class="summary">${summaryShort}</div>` : ""}
+            <div class="footer-row">
+              <span class="pill cat">${escapeHtml(it.category)}</span>
+              <span class="pill ${tierClass}">T${it.tier} · ${kindIcon}${escapeHtml(it.source)}</span>
+              <span>${fmtTime(it.published)}</span>
+            </div>
+            ${confirms}
+          </a>
+        `;
+      }).join("");
+    }
+
+    function showToast(msg, ms = 2500) {
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), ms);
+    }
+
+    async function loadNews() {
+      // Lädt direkt /data/news.json — funktioniert sowohl lokal (über update_server)
+      // als auch statisch deployed (z.B. Vercel) ohne Backend.
+      try {
+        const r = await fetch("/data/news.json?_=" + Date.now());
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        state.data = await r.json();
+        renderTabs();
+        renderMeta();
+        renderList();
+      } catch (e) {
+        document.getElementById("list").innerHTML =
+          `<div class="empty">Fehler: ${escapeHtml(e.message)}<br><br>
+           <button class="btn" onclick="loadNews()">Erneut versuchen</button></div>`;
+      }
+    }
+
+    async function triggerRefresh() {
+      // Auf statischem Hosting (Vercel) gibt es kein /api/refresh — dann nur news.json neu laden.
+      // Lokal triggert das auch einen Server-seitigen Fetch.
+      const btn = document.getElementById("btn-refresh");
+      btn.disabled = true; btn.textContent = "⏳ Lade…";
+      try {
+        try {
+          const r = await fetch("/api/refresh", { signal: AbortSignal.timeout(60_000) });
+          if (r.ok) {
+            const data = await r.json();
+            if (data.ok) showToast("News aktualisiert");
+            else showToast("Refresh: " + (data.error || "Fehler"));
+          }
+        } catch (_) { /* statisches Hosting: /api/refresh nicht verfügbar — egal */ }
+        await loadNews();
+      } finally {
+        btn.disabled = false; btn.textContent = "↻ Refresh";
+      }
+    }
+
+    document.getElementById("btn-refresh").addEventListener("click", triggerRefresh);
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js").catch(() => {});
+    }
+
+    loadNews();
+    setInterval(loadNews, 60_000);  // alle 60 s neu vom Server holen (Server refresht selbst alle 30 min)
+  </script>
+</body>
+</html>
