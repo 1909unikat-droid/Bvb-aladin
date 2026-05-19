@@ -8,18 +8,16 @@
     {"id": "tm_bvb",             "name": "Transfermarkt BVB",      "url": "https://www.transfermarkt.de/borussia-dortmund/news/verein/16/rss",                       "tier": 2, "credibility": 8,  "lang": "de"},
     {"id": "tm_geruechte",       "name": "Transfermarkt Gerüchte", "url": "https://www.transfermarkt.de/rss/news",                                                   "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
     {"id": "fussballtransfers",  "name": "fussballtransfers.com",  "url": "https://www.fussballtransfers.com/rss-feed",                                              "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
-    {"id": "schwatzgelb",        "name": "Schwatzgelb",            "url": "https://www.schwatzgelb.de/index.php?option=com_obrss&task=feed&id=1&format=feed",        "tier": 4, "credibility": 6,  "lang": "de"},
+    {"id": "schwatzgelb",        "name": "Schwatzgelb",            "url": "https://www.schwatzgelb.de/feed-de.rss",                                                  "tier": 4, "credibility": 6,  "lang": "de"},
     {"id": "caughtoffside",      "name": "CaughtOffside",          "url": "https://www.caughtoffside.com/feed/",                                                     "tier": 4, "credibility": 5,  "lang": "en", "filter_bvb": true},
     {"id": "reddit_bvb",         "name": "Reddit r/borussiadortmund","url": "https://www.reddit.com/r/borussiadortmund/.rss",                                        "tier": 5, "credibility": 4,  "lang": "en"},
     {"id": "11freunde",          "name": "11Freunde",              "url": "https://11freunde.de/feed",                                                               "tier": 2, "credibility": 8,  "lang": "de", "filter_bvb": true},
     {"id": "yt_bvb_official",    "name": "YouTube BVB (offiziell)","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK8rTVgp3-MebXkmeJcQb1Q",            "tier": 3, "credibility": 9,  "lang": "de", "kind": "youtube"},
     {"id": "yt_bvb_nachrichten", "name": "YouTube BVB Nachrichten","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXJ17NhCh7lAdiBeV8j1PIw",            "tier": 4, "credibility": 5,  "lang": "de", "kind": "youtube"},
     {"id": "yt_rn_bvb",          "name": "YouTube Ruhr Nachr. BVB","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8hZjh5wvroEwP2GCJSS84g",            "tier": 2, "credibility": 8,  "lang": "de", "kind": "youtube"},
-    {"id": "yt_borussen_tv",     "name": "YouTube Borussen.TV",    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCk4T1ib5yDKZidgUbNI3sJg",            "tier": 4, "credibility": 6,  "lang": "de", "kind": "youtube"},
     {"id": "pod_bvb_offiziell",  "name": "BVB-Podcast (offiziell)","url": "https://bvb.podigee.io/feed/mp3",                                                         "tier": 3, "credibility": 9,  "lang": "de", "kind": "podcast"},
-    {"id": "pod_bvb_daily",      "name": "Borussia Dortmund Daily","url": "https://borussia-dortmund-daily.podigee.io/feed/mp3",                                     "tier": 4, "credibility": 5,  "lang": "en", "kind": "podcast"},
     {"id": "pod_rn_bvb",         "name": "BVB-Podcast Ruhr Nachr.","url": "https://rnbvb.podigee.io/feed/mp3",                                                       "tier": 2, "credibility": 8,  "lang": "de", "kind": "podcast"},
-    {"id": "pod_vonne_sued",     "name": "vonne Süd (Fan-Podcast)","url": "https://meinblock.podigee.io/feed/mp3",                                                   "tier": 4, "credibility": 6,  "lang": "de", "kind": "podcast"}
+    {"id": "pod_auffeohren",     "name": "Auffe Ohren (Schwatzgelb)","url": "https://auffeohren.podigee.io/feed/mp3",                                                "tier": 3, "credibility": 7,  "lang": "de", "kind": "podcast"}
   ],
   "nitter": {
     "_comment": "X/Twitter via Nitter-Mirrors als RSS. Multiple instances als Fallback. Tier-1 Insider + @BVB als Offiziell-Quelle.",
