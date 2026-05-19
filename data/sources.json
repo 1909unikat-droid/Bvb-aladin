@@ -6,8 +6,20 @@
     {"id": "ruhr24_bvb",         "name": "RUHR24 BVB",             "url": "https://www.ruhr24.de/sport/bvb/rssfeed.rdf",                                             "tier": 2, "credibility": 7,  "lang": "de"},
     {"id": "rn_bvb",             "name": "Ruhr Nachrichten BVB",   "url": "https://www.ruhrnachrichten.de/sport/bvb/feed/",                                          "tier": 2, "credibility": 8,  "lang": "de"},
     {"id": "tm_bvb",             "name": "Transfermarkt BVB",      "url": "https://www.transfermarkt.de/borussia-dortmund/news/verein/16/rss",                       "tier": 2, "credibility": 8,  "lang": "de"},
+    {"id": "tm_geruechte",       "name": "Transfermarkt Gerüchte", "url": "https://www.transfermarkt.de/rss/news",                                                   "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
+    {"id": "fussballtransfers",  "name": "fussballtransfers.com",  "url": "https://www.fussballtransfers.com/rss-feed",                                              "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
     {"id": "schwatzgelb",        "name": "Schwatzgelb",            "url": "https://www.schwatzgelb.de/index.php?option=com_obrss&task=feed&id=1&format=feed",        "tier": 4, "credibility": 6,  "lang": "de"},
-    {"id": "caughtoffside",      "name": "CaughtOffside",          "url": "https://www.caughtoffside.com/feed/",                                                     "tier": 4, "credibility": 5,  "lang": "en", "filter_bvb": true}
+    {"id": "caughtoffside",      "name": "CaughtOffside",          "url": "https://www.caughtoffside.com/feed/",                                                     "tier": 4, "credibility": 5,  "lang": "en", "filter_bvb": true},
+    {"id": "reddit_bvb",         "name": "Reddit r/borussiadortmund","url": "https://www.reddit.com/r/borussiadortmund/.rss",                                        "tier": 5, "credibility": 4,  "lang": "en"},
+    {"id": "11freunde",          "name": "11Freunde",              "url": "https://11freunde.de/feed",                                                               "tier": 2, "credibility": 8,  "lang": "de", "filter_bvb": true},
+    {"id": "yt_bvb_official",    "name": "YouTube BVB (offiziell)","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK8rTVgp3-MebXkmeJcQb1Q",            "tier": 3, "credibility": 9,  "lang": "de", "kind": "youtube"},
+    {"id": "yt_bvb_nachrichten", "name": "YouTube BVB Nachrichten","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXJ17NhCh7lAdiBeV8j1PIw",            "tier": 4, "credibility": 5,  "lang": "de", "kind": "youtube"},
+    {"id": "yt_rn_bvb",          "name": "YouTube Ruhr Nachr. BVB","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8hZjh5wvroEwP2GCJSS84g",            "tier": 2, "credibility": 8,  "lang": "de", "kind": "youtube"},
+    {"id": "yt_borussen_tv",     "name": "YouTube Borussen.TV",    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCk4T1ib5yDKZidgUbNI3sJg",            "tier": 4, "credibility": 6,  "lang": "de", "kind": "youtube"},
+    {"id": "pod_bvb_offiziell",  "name": "BVB-Podcast (offiziell)","url": "https://bvb.podigee.io/feed/mp3",                                                         "tier": 3, "credibility": 9,  "lang": "de", "kind": "podcast"},
+    {"id": "pod_bvb_daily",      "name": "Borussia Dortmund Daily","url": "https://borussia-dortmund-daily.podigee.io/feed/mp3",                                     "tier": 4, "credibility": 5,  "lang": "en", "kind": "podcast"},
+    {"id": "pod_rn_bvb",         "name": "BVB-Podcast Ruhr Nachr.","url": "https://rnbvb.podigee.io/feed/mp3",                                                       "tier": 2, "credibility": 8,  "lang": "de", "kind": "podcast"},
+    {"id": "pod_vonne_sued",     "name": "vonne Süd (Fan-Podcast)","url": "https://meinblock.podigee.io/feed/mp3",                                                   "tier": 4, "credibility": 6,  "lang": "de", "kind": "podcast"}
   ],
   "nitter": {
     "_comment": "X/Twitter via Nitter-Mirrors als RSS. Multiple instances als Fallback. Tier-1 Insider + @BVB als Offiziell-Quelle.",
@@ -23,7 +35,16 @@
       {"id": "x_falk",        "handle": "cfbayern",        "name": "Christian Falk (BILD)",      "tier": 1, "credibility": 9,  "lang": "de"},
       {"id": "x_romano",      "handle": "FabrizioRomano",  "name": "Fabrizio Romano",            "tier": 1, "credibility": 10, "lang": "en"},
       {"id": "x_ornstein",    "handle": "David_Ornstein",  "name": "David Ornstein (Athletic)",  "tier": 1, "credibility": 10, "lang": "en"},
-      {"id": "x_bvb",         "handle": "BVB",             "name": "BVB (offiziell)",            "tier": 3, "credibility": 10, "lang": "de"}
+      {"id": "x_bvb",         "handle": "BVB",             "name": "BVB (offiziell)",            "tier": 3, "credibility": 10, "lang": "de"},
+      {"id": "x_sky_jesco",   "handle": "Sky_Jesco",       "name": "Jesco von Eichmann (Sky)",   "tier": 1, "credibility": 9,  "lang": "de"},
+      {"id": "x_simschu",     "handle": "SimSchu",         "name": "Simon Schulze (kicker)",     "tier": 1, "credibility": 9,  "lang": "de"},
+      {"id": "x_skysportde",  "handle": "SkySportDE",      "name": "Sky Sport News DE",          "tier": 2, "credibility": 8,  "lang": "de"},
+      {"id": "x_bild_sport",  "handle": "BILD_Sport",      "name": "BILD Sport",                 "tier": 2, "credibility": 7,  "lang": "de"},
+      {"id": "x_sport1",      "handle": "SPORT1",          "name": "SPORT1",                     "tier": 2, "credibility": 7,  "lang": "de"},
+      {"id": "x_dpa_sport",   "handle": "dpa_sport",       "name": "dpa Sport",                  "tier": 3, "credibility": 8,  "lang": "de"},
+      {"id": "x_arooobvb",    "handle": "AroooBVB",        "name": "Arooo BVB",                  "tier": 4, "credibility": 5,  "lang": "de"},
+      {"id": "x_borussia0977","handle": "Borussia0977",    "name": "Borussia 09",                "tier": 4, "credibility": 5,  "lang": "de"},
+      {"id": "x_bvbnewsblog", "handle": "bvbnewsblog",     "name": "BVB-Newsblog",               "tier": 4, "credibility": 6,  "lang": "de"}
     ],
     "filter_bvb_for_non_bvb_accounts": true
   },
