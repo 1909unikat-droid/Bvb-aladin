@@ -44,11 +44,16 @@ jobs:
       - name: Score & cluster
         run: python scorer.py
 
+      - name: Mirror news.json into web/public/data (for Next.js deploy)
+        run: |
+          mkdir -p web/public/data
+          cp data/news.json web/public/data/news.json
+
       - name: Commit news.json (only if changed)
         run: |
           git config user.name  "bvb-aladin-bot"
           git config user.email "bvb-aladin-bot@users.noreply.github.com"
-          git add data/news.json data/raw_items.json
+          git add data/news.json data/raw_items.json web/public/data/news.json
           if git diff --cached --quiet; then
             echo "no changes — skipping commit"
           else
