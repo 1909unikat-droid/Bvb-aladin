@@ -45,6 +45,23 @@ POSITION_GROUP_MAP: dict[str, str] = {
     "bg_Sturm":      "Angriff",
 }
 
+POSITION_DETAIL_TO_GROUP: dict[str, str] = {
+    "Torwart":              "Tor",
+    "Innenverteidiger":     "Abwehr",
+    "Linker Verteidiger":   "Abwehr",
+    "Rechter Verteidiger":  "Abwehr",
+    "Defensives Mittelfeld":"Mittelfeld",
+    "Zentrales Mittelfeld": "Mittelfeld",
+    "Offensives Mittelfeld":"Mittelfeld",
+    "Linkes Mittelfeld":    "Mittelfeld",
+    "Rechtes Mittelfeld":   "Mittelfeld",
+    "Linksaußen":           "Angriff",
+    "Rechtsaußen":          "Angriff",
+    "Hängende Spitze":      "Angriff",
+    "Mittelstürmer":        "Angriff",
+    "Angreifer":            "Angriff",
+}
+
 POSITION_SHORT: dict[str, str] = {
     "Torwart":                  "TW",
     "Innenverteidiger":         "IV",
@@ -113,6 +130,7 @@ NATIONALITY_FLAG: dict[str, str] = {
     "Uruguay":               "🇺🇾",
     "Mexiko":                "🇲🇽",
     "USA":                   "🇺🇸",
+    "Vereinigte Staaten":    "🇺🇸",
     "Japan":                 "🇯🇵",
     "Korea, Süd":            "🇰🇷",
     "Australien":            "🇦🇺",
@@ -125,21 +143,25 @@ NATIONALITY_FLAG: dict[str, str] = {
 
 
 def parse_market_value(raw: str) -> Optional[str]:
-    """'40,00 Mio. €' → '40 Mio. €', '800 Tsd. €' → '800 Tsd. €'."""
+    """'40,00 Mio. €' → '40 Mio. €', '800 Tsd. €' → '800 Tsd. €'. Non-values → None."""
     raw = raw.strip()
-    if not raw or raw == "-":
+    if not raw or raw in ("-", "?", "k.A."):
         return None
-    # Remove trailing whitespace/newlines
     raw = re.sub(r"\s+", " ", raw)
+    # Must contain € to be a market value
+    if "€" not in raw:
+        return None
     # Normalise: "40,00 Mio. €" → "40 Mio. €"
     m = re.match(r"([\d]+),(\d+)\s*(Mio|Tsd)\.\s*€", raw)
     if m:
         mio_int = m.group(1)
         decimals = m.group(2).rstrip("0")
         unit = m.group(3)
-        value = f"{mio_int},{decimals} {unit}. €" if decimals else f"{mio_int} {unit}. €"
-        return value
-    return raw
+        return f"{mio_int},{decimals} {unit}. €" if decimals else f"{mio_int} {unit}. €"
+    # Already clean format like "7 Mio. €" or "500 Tsd. €"
+    if re.search(r"\d+\s*(Mio|Tsd)\.\s*€", raw):
+        return raw
+    return None
 
 
 def parse_squad_value(soup: BeautifulSoup) -> Optional[str]:
@@ -303,6 +325,134 @@ def squad_value_sum(players: list[dict]) -> str:
     return f"{total_mio:,.0f} Mio. €".replace(",", ".")
 
 
+def fetch_transfers(season: str, session: requests.Session) -> tuple[list[dict], set[int]]:
+    """Scrape TM transfers page for BVB. Returns (incoming_players, outgoing_tm_ids)."""
+    url = f"https://www.transfermarkt.de/borussia-dortmund/transfers/verein/16/saison_id/{season}"
+    try:
+        resp = session.get(url, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+    except Exception as exc:
+        print(f"  [FAIL] transfers {season} — {exc}", file=sys.stderr)
+        return [], set()
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    tables = soup.find_all("table", class_="items")
+    if not tables:
+        print(f"  [INFO] transfers {season} — no items tables found", file=sys.stderr)
+        return [], set()
+
+    # Find Zugänge and Abgänge tables by scanning preceding headings
+    zugaenge_table: Optional[object] = None
+    abgaenge_table: Optional[object] = None
+    for table in tables:
+        heading_el = table.find_previous(["h2", "h3"])
+        if not heading_el:
+            continue
+        heading_text = heading_el.get_text(strip=True)
+        if "Zugang" in heading_text and zugaenge_table is None:
+            zugaenge_table = table
+        elif "Abgang" in heading_text and abgaenge_table is None:
+            abgaenge_table = table
+
+    # Fallback: first = arrivals, second = departures
+    if zugaenge_table is None and tables:
+        zugaenge_table = tables[0]
+    if abgaenge_table is None and len(tables) > 1:
+        abgaenge_table = tables[1]
+
+    def _parse_transfer_row(row, id_base: int) -> Optional[dict]:
+        inline = row.select_one("table.inline-table")
+        name_a = inline.select_one("td.hauptlink a") if inline else row.select_one("td.hauptlink a")
+        if not name_a:
+            return None
+        name = name_a.get_text(strip=True)
+        if not name:
+            return None
+
+        href = name_a.get("href", "")
+        tm_m = re.search(r"/spieler/(\d+)", href)
+        tm_id_val = int(tm_m.group(1)) if tm_m else 0
+
+        position_detail = ""
+        if inline:
+            for td in inline.select("tr td:not(.hauptlink)"):
+                text = td.get_text(strip=True)
+                if text and text not in name:
+                    position_detail = text
+                    break
+
+        position_group = "Mittelfeld"
+        for detail, grp in POSITION_DETAIL_TO_GROUP.items():
+            if detail in position_detail:
+                position_group = grp
+                break
+        position_short = POSITION_SHORT.get(position_detail, position_detail[:2].upper() if position_detail else "?")
+
+        age = 0
+        nationality = "?"
+        flag = "🏳️"
+        market_value = None
+        for td in row.find_all("td", recursive=False):
+            txt = td.get_text(strip=True)
+            if not age:
+                try:
+                    v = int(txt)
+                    if 15 <= v <= 45:
+                        age = v
+                except ValueError:
+                    pass
+            if nationality == "?":
+                for img in td.find_all("img"):
+                    src = img.get("src", img.get("data-src", ""))
+                    # Flag images on TM have "flagge" in the URL
+                    if "flagge" in src or "flags" in src:
+                        nat = img.get("title", img.get("alt", ""))
+                        if nat and nat != "?":
+                            nationality = nat
+                            flag = NATIONALITY_FLAG.get(nat, "🏳️")
+                            break
+
+        mv_td = row.select_one("td.rechts") or row.select_one("td.hauptlink.rechts")
+        if mv_td:
+            market_value = parse_market_value(mv_td.get_text(strip=True))
+
+        return {
+            "id": id_base,
+            "tm_id": tm_id_val,
+            "name": name,
+            "number": 0,
+            "positionGroup": position_group,
+            "positionShort": position_short,
+            "positionDetail": position_detail,
+            "nationality": nationality,
+            "flag": flag,
+            "age": age,
+            "contract": "",
+            "marketValue": market_value,
+        }
+
+    incoming: list[dict] = []
+    if zugaenge_table:
+        for i, row in enumerate(zugaenge_table.select("tbody tr")):
+            p = _parse_transfer_row(row, 8000 + i)
+            if p:
+                incoming.append(p)
+    print(f"  [ok] transfers {season} Zugänge → {len(incoming)} Spieler", file=sys.stderr)
+
+    outgoing_ids: set[int] = set()
+    if abgaenge_table:
+        for row in abgaenge_table.select("tbody tr"):
+            name_a = row.select_one("td.hauptlink a") or (row.select_one("table.inline-table td.hauptlink a") if row.select_one("table.inline-table") else None)
+            if name_a:
+                href = name_a.get("href", "")
+                tm_m = re.search(r"/spieler/(\d+)", href)
+                if tm_m:
+                    outgoing_ids.add(int(tm_m.group(1)))
+    print(f"  [ok] transfers {season} Abgänge → {len(outgoing_ids)} Spieler", file=sys.stderr)
+
+    return incoming, outgoing_ids
+
+
 def _build_teams(teams_scraped: list[tuple[dict, list[dict]]], fallback_file: Path) -> list[dict]:
     """Convert (team_def, players) pairs to output dicts, falling back to cached data if empty."""
     teams_out = []
@@ -379,15 +529,41 @@ def main() -> int:
         scraped_2026.append((team, players))
         time.sleep(1.5)
 
+    # Fetch transfers (Zugänge + Abgänge) for 2026/27
+    time.sleep(1.5)
+    incoming_2026, outgoing_ids_2026 = fetch_transfers("2026", session)
+    time.sleep(1.5)
+
     if has_real_2026_data:
-        # TM has published 2026/27 data — write real data
+        # TM kader page already published — use it directly
         teams_2026 = _build_teams(scraped_2026, SQUAD_2026_FILE)
         pending = False
     else:
-        # TM hasn't published yet — copy 2025 data as placeholder
-        print("  [pending] saison_id/2026 empty on TM — using 2025 data as placeholder", file=sys.stderr)
-        teams_2026 = [dict(t) for t in teams_2025]  # shallow copy is fine for JSON
+        # TM kader page not yet published — build from 2025 + transfers
+        teams_2026 = [dict(t) for t in teams_2025]
         pending = True
+
+    # Apply transfers to Profis squad regardless
+    profis_idx = next((i for i, t in enumerate(teams_2026) if t["id"] == "profis"), None)
+    if profis_idx is not None and (incoming_2026 or outgoing_ids_2026):
+        base = [p for p in teams_2026[profis_idx]["players"] if p.get("tm_id", 0) not in outgoing_ids_2026]
+        existing_ids = {p.get("tm_id", 0) for p in base}
+        for np in incoming_2026:
+            if np.get("tm_id", 0) not in existing_ids and np.get("tm_id", 0) != 0:
+                base.append(np)
+                existing_ids.add(np["tm_id"])
+        # Re-number
+        for i, p in enumerate(base, 1):
+            p["id"] = i
+        teams_2026[profis_idx] = dict(teams_2026[profis_idx])
+        teams_2026[profis_idx]["players"] = base
+        teams_2026[profis_idx]["squadValue"] = squad_value_sum(base)
+        if incoming_2026:
+            pending = False  # We have real transfer data — not a blind copy anymore
+        print(
+            f"  [transfers applied] +{len(incoming_2026)} Zugänge, -{len(outgoing_ids_2026)} Abgänge → {len(base)} Profis",
+            file=sys.stderr,
+        )
 
     payload_2026 = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
