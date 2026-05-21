@@ -100,7 +100,11 @@ def cluster_items(items: list[dict], threshold: float = 0.45) -> list[list[dict]
     cluster_of: list[int] = [-1] * len(items)
     for i, fp in enumerate(fps):
         placed = False
+        kind_i = items[i].get("kind", "rss")
         for ci, members in enumerate(clusters):
+            # Nur gleiche Arten clustern (podcast↔podcast, youtube↔youtube, rss↔rss)
+            if items[members[0]].get("kind", "rss") != kind_i:
+                continue
             # vergleiche mit Repräsentant (erstes Member)
             if jaccard(fp, fps[members[0]]) >= threshold:
                 members.append(i)
