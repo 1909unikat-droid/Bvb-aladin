@@ -1,0 +1,50 @@
+name: Refresh BVB Squad
+
+on:
+  schedule:
+    # Täglich um 05:00 UTC (07:00 MESZ) — TM-Daten ändern sich selten
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}  # Manueller Trigger via GitHub UI
+  push:
+    branches: [main]
+    paths:
+      - "squad_fetcher.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-squad
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch squad from Transfermarkt
+        run: python squad_fetcher.py
+
+      - name: Commit squad data (only if changed)
+        run: |
+          git config user.name  "bvb-aladin-bot"
+          git config user.email "bvb-aladin-bot@users.noreply.github.com"
+          git add data/squad.json data/squad_2026.json
+          if git diff --cached --quiet; then
+            echo "no changes — skipping commit"
+          else
+            git commit -m "chore: refresh squad $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
