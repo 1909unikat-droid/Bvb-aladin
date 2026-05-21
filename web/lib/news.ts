@@ -8,6 +8,7 @@ export interface FilterState {
   tier?: Tier;
   query?: string;
   sinceHours?: number;
+  extraSourceIds?: string[]; // always include these source_ids regardless of kind
 }
 
 export function filterItems(items: NewsItem[], f: FilterState): NewsItem[] {
@@ -15,7 +16,7 @@ export function filterItems(items: NewsItem[], f: FilterState): NewsItem[] {
   const cutoff = f.sinceHours ? Date.now() - f.sinceHours * 3600_000 : null;
   return items.filter((it) => {
     if (f.category && it.category !== f.category) return false;
-    if (f.kind && it.kind !== f.kind) return false;
+    if (f.kind && it.kind !== f.kind && !f.extraSourceIds?.includes(it.source_id)) return false;
     if (f.tier && it.tier !== f.tier) return false;
     if (cutoff && it.published) {
       const t = new Date(it.published).getTime();

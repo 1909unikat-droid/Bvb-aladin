@@ -7,7 +7,7 @@ export default function Page() {
       eyebrow="Audio"
       title="Podcasts"
       description="Offizieller BVB-Podcast, Ruhr Nachrichten, vonne Süd & mehr."
-      filter={{ kind: "podcast" }}
+      filter={{ kind: "podcast", extraSourceIds: ["yt_poehlerz"] }}
     />
   );
 }
