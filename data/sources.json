@@ -17,7 +17,11 @@
     {"id": "yt_rn_bvb",          "name": "YouTube Ruhr Nachr. BVB","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8hZjh5wvroEwP2GCJSS84g",            "tier": 2, "credibility": 8,  "lang": "de", "kind": "youtube"},
     {"id": "pod_bvb_offiziell",  "name": "BVB-Podcast (offiziell)","url": "https://bvb.podigee.io/feed/mp3",                                                         "tier": 3, "credibility": 9,  "lang": "de", "kind": "podcast"},
     {"id": "pod_rn_bvb",         "name": "BVB-Podcast Ruhr Nachr.","url": "https://rnbvb.podigee.io/feed/mp3",                                                       "tier": 2, "credibility": 8,  "lang": "de", "kind": "podcast"},
-    {"id": "pod_auffeohren",     "name": "Auffe Ohren (Schwatzgelb)","url": "https://auffeohren.podigee.io/feed/mp3",                                                "tier": 3, "credibility": 7,  "lang": "de", "kind": "podcast"}
+    {"id": "pod_auffeohren",     "name": "Auffe Ohren (Schwatzgelb)","url": "https://auffeohren.podigee.io/feed/mp3",                                                "tier": 3, "credibility": 7,  "lang": "de", "kind": "podcast"},
+    {"id": "pod_auffesuerd",     "name": "Auffe Süd (Sky Sport)",       "url": "https://cdn.audiorella.com/podcasts/1498-auffe-sud-der-bvb-podcast-von-sky-sport/feed.rss",  "tier": 1, "credibility": 9, "lang": "de", "kind": "podcast"},
+    {"id": "pod_schwarzgelberunde","name": "Schwarzgelbe Runde",        "url": "https://schwarzgelberunde.podigee.io/feed/mp3",                                                 "tier": 4, "credibility": 7, "lang": "de", "kind": "podcast"},
+    {"id": "pod_bvb_kompakt",    "name": "BVB kompakt (WAZ/RN)",        "url": "https://bvb-kompakt.podigee.io/feed/mp3",                                                       "tier": 2, "credibility": 8, "lang": "de", "kind": "podcast"},
+    {"id": "yt_poehlerz",        "name": "Die Pöhlerz (YouTube)",       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2KiIiSaU9k-4glCgb637Yg",               "tier": 4, "credibility": 6, "lang": "de", "kind": "youtube"}
   ],
   "nitter": {
     "_comment": "X/Twitter via Nitter-Mirrors als RSS. Multiple instances als Fallback. Tier-1 Insider + @BVB als Offiziell-Quelle.",
