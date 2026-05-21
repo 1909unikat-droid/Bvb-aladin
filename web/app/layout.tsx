@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { BottomNav } from "@/components/BottomNav";
 import { CurtainReveal } from "@/components/CurtainReveal";
+import { LenisProvider } from "@/components/motion/LenisProvider";
 
 export const metadata: Metadata = {
   title: {
@@ -33,23 +34,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="de" className="dark">
       <body className="min-h-screen bg-asphalt-950 text-neutral-100 antialiased">
-        <CurtainReveal />
-        <a
-          href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-bvb-yellow focus:text-black focus:px-3 focus:py-2 focus:rounded"
-        >
-          Zum Inhalt springen
-        </a>
-        <Header />
-        <main id="main" className="pb-24 md:pb-12">
-          {children}
-        </main>
-        <BottomNav />
-        <footer className="border-t border-asphalt-700 mt-12 py-6 text-xs text-neutral-500 text-center">
-          BVB Hub · Fan-Projekt · Keine offizielle Borussia-Dortmund-Seite ·{" "}
-          <a href="/impressum" className="hover:text-bvb-yellow">Impressum</a> ·{" "}
-          <a href="/datenschutz" className="hover:text-bvb-yellow">Datenschutz</a>
-        </footer>
+        <LenisProvider>
+          <CurtainReveal />
+          <a
+            href="#main"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-bvb-yellow focus:text-black focus:px-3 focus:py-2 focus:rounded"
+          >
+            Zum Inhalt springen
+          </a>
+          <Header />
+          <main id="main" className="pb-24 md:pb-12">
+            {children}
+          </main>
+          <BottomNav />
+          <footer className="border-t border-asphalt-700 mt-12 py-6 text-xs text-neutral-500 text-center">
+            BVB Hub · Fan-Projekt · Keine offizielle Borussia-Dortmund-Seite ·{" "}
+            <a href="/about" className="hover:text-bvb-yellow">Quellen</a> ·{" "}
+            <a href="/impressum" className="hover:text-bvb-yellow">Impressum</a> ·{" "}
+            <a href="/datenschutz" className="hover:text-bvb-yellow">Datenschutz</a>
+          </footer>
+        </LenisProvider>
       </body>
     </html>
   );

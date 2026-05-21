@@ -23,7 +23,9 @@ export async function FilteredPage({
   hero = true
 }: Props) {
   const feed = await fetchFeedServer();
-  const items = filterItems(feed.items, filter).sort((a, b) => b.score - a.score);
+  const items = filterItems(feed.items, filter).sort(
+    (a, b) => new Date(b.published ?? 0).getTime() - new Date(a.published ?? 0).getTime()
+  );
   return (
     <section className="mx-auto max-w-7xl px-4 pt-8">
       <SectionHeader

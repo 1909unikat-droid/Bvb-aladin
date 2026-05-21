@@ -1,15 +1,16 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Newspaper, ArrowRightLeft, Mic2, MoreHorizontal } from "lucide-react";
+import { Newspaper, ArrowRightLeft, Users, CalendarDays, MoreHorizontal } from "lucide-react";
 import { cn } from "@/lib/cn";
 import { motion } from "framer-motion";
 
 const ITEMS = [
   { href: "/", label: "Aktuelles", icon: Newspaper },
   { href: "/transfers", label: "Transfers", icon: ArrowRightLeft },
+  { href: "/kader", label: "Kader", icon: Users },
+  { href: "/termine", label: "Termine", icon: CalendarDays },
   { href: "/insider", label: "Insider", icon: MoreHorizontal },
-  { href: "/podcasts", label: "Podcasts", icon: Mic2 }
 ];
 
 export function BottomNav() {
@@ -19,7 +20,7 @@ export function BottomNav() {
       aria-label="Mobile Navigation"
       className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t border-asphalt-700 bg-asphalt-950/95 backdrop-blur-md"
     >
-      <ul className="grid grid-cols-4 max-w-md mx-auto">
+      <ul className="grid grid-cols-5 max-w-lg mx-auto">
         {ITEMS.map((it) => {
           const active = pathname === it.href;
           const Icon = it.icon;

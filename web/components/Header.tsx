@@ -2,21 +2,56 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { ROUTES } from "@/lib/routes";
 import { cn } from "@/lib/cn";
 import { LiveDot } from "@/components/LiveDot";
 import { RefreshButton } from "@/components/RefreshButton";
+import { Wordmark09 } from "@/components/ui/Wordmark09";
+import { NavDropdown } from "@/components/nav/NavDropdown";
 
 export function Header() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
+  const navRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  // Magnetic nav: shift active pill slightly toward cursor
+  useEffect(() => {
+    const nav = navRef.current;
+    if (!nav) return;
+    const onMove = (e: MouseEvent) => {
+      const links = nav.querySelectorAll<HTMLAnchorElement>("a");
+      links.forEach((link) => {
+        const r = link.getBoundingClientRect();
+        const cx = r.left + r.width / 2;
+        const cy = r.top + r.height / 2;
+        const dx = (e.clientX - cx) / r.width;
+        const dy = (e.clientY - cy) / r.height;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        if (dist < 1.2) {
+          const strength = (1 - dist) * 5;
+          link.style.transform = `translate(${dx * strength}px, ${dy * strength}px)`;
+        } else {
+          link.style.transform = "";
+        }
+      });
+    };
+    const onLeave = () => {
+      nav.querySelectorAll<HTMLAnchorElement>("a").forEach((l) => (l.style.transform = ""));
+    };
+    nav.addEventListener("mousemove", onMove);
+    nav.addEventListener("mouseleave", onLeave);
+    return () => {
+      nav.removeEventListener("mousemove", onMove);
+      nav.removeEventListener("mouseleave", onLeave);
+    };
   }, []);
 
   return (
@@ -28,21 +63,35 @@ export function Header() {
           : "bg-transparent border-b border-transparent"
       )}
     >
-      <div className="mx-auto max-w-7xl px-4 py-3 flex items-center gap-4">
-        <Link href="/" className="flex items-center gap-2 group" aria-label="BVB Hub Startseite">
-          <Wordmark scrolled={scrolled} />
+      <div className="mx-auto max-w-[1600px] px-4 py-3 flex items-center gap-4">
+        <Link href="/" className="flex items-center gap-2 group shrink-0" aria-label="BVB Hub Startseite">
+          <Wordmark09 scrolled={scrolled} />
           <LiveDot />
         </Link>
 
-        <nav className="hidden md:flex items-center gap-1 ml-4" aria-label="Hauptnavigation">
+        <nav
+          ref={navRef}
+          className="hidden md:flex items-center gap-0.5 ml-2 overflow-x-auto scrollbar-hide"
+          aria-label="Hauptnavigation"
+        >
           {ROUTES.map((r) => {
+            if (r.children) {
+              return (
+                <NavDropdown
+                  key={r.href}
+                  href={r.href}
+                  label={r.label}
+                  children={r.children}
+                />
+              );
+            }
             const active = pathname === r.href;
             return (
               <Link
                 key={r.href}
                 href={r.href}
                 className={cn(
-                  "relative px-3 py-1.5 text-sm font-medium rounded-full transition-colors",
+                  "relative px-2.5 py-1.5 text-sm font-medium rounded-full transition-colors whitespace-nowrap",
                   active ? "text-black" : "text-neutral-300 hover:text-white"
                 )}
               >
@@ -59,30 +108,10 @@ export function Header() {
           })}
         </nav>
 
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto flex items-center gap-2 shrink-0">
           <RefreshButton />
         </div>
       </div>
     </header>
-  );
-}
-
-function Wordmark({ scrolled }: { scrolled: boolean }) {
-  return (
-    <div className="flex items-center gap-1.5">
-      <div
-        className={cn(
-          "h-7 w-7 rounded-md grid place-items-center bg-bvb-yellow text-black font-black tracking-tighter transition-all",
-          scrolled ? "scale-90" : "scale-100"
-        )}
-        style={{ fontFamily: "var(--font-display)" }}
-      >
-        <span className="text-[15px] leading-none">09</span>
-      </div>
-      <div className="flex flex-col leading-none">
-        <span className="text-bvb-yellow font-black tracking-wider text-sm">BVB</span>
-        <span className="text-neutral-400 text-[10px] tracking-[0.2em] uppercase">Hub</span>
-      </div>
-    </div>
   );
 }

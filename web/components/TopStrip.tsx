@@ -13,6 +13,7 @@ export function TopStrip({ items }: { items: NewsItem[] }) {
       <div
         className="flex gap-3 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-2"
         role="list"
+        aria-label="Top-Stories horizontal scrollen"
       >
         {items.map((it, i) => (
           <div key={it.id} role="listitem">

@@ -2,13 +2,17 @@
 import { motion } from "framer-motion";
 import { LiveDot } from "./LiveDot";
 import { SuedtribueneChant } from "./SuedtribueneChant";
+import { StadiumWireframeLazy } from "./hero/StadiumWireframeLazy";
+import { ScrollChoreo } from "./motion/ScrollChoreo";
+import type { NewsItem } from "@/types/news";
 
 interface Props {
   totalItems: number;
   updatedAt: string;
+  topItems?: NewsItem[];
 }
 
-export function Hero({ totalItems, updatedAt }: Props) {
+export function Hero({ totalItems, updatedAt, topItems = [] }: Props) {
   const updated = (() => {
     try {
       return new Date(updatedAt).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" });
@@ -17,6 +21,14 @@ export function Hero({ totalItems, updatedAt }: Props) {
 
   return (
     <section className="relative overflow-hidden noise">
+      {/* GSAP scroll choreo — no DOM output */}
+      <ScrollChoreo topItems={topItems} />
+
+      {/* 3D Stadium — absolute behind all content */}
+      <div className="absolute inset-0 pointer-events-none">
+        <StadiumWireframeLazy />
+      </div>
+
       <div
         aria-hidden
         className="absolute inset-0 opacity-[0.06] stripes-y"

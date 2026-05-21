@@ -14,7 +14,8 @@ export function ScoreBar({ score }: { score: number }) {
         <motion.span
           key={i}
           initial={{ scaleY: 0.4, opacity: 0.3 }}
-          animate={{ scaleY: 1, opacity: i < segs ? 1 : 0.18 }}
+          whileInView={{ scaleY: 1, opacity: i < segs ? 1 : 0.18 }}
+          viewport={{ once: true, margin: "-10px" }}
           transition={{ duration: 0.6, delay: 0.04 * i, ease: "easeOut" }}
           className={`h-3 w-[3px] rounded-sm origin-bottom ${i < segs ? "bg-bvb-yellow" : "bg-asphalt-500"}`}
         />
