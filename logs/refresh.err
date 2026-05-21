@@ -1,0 +1,54 @@
+WARNING: You are using pip version 21.2.4; however, version 26.0.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+/Users/jenssteffen/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+== RSS sources ==
+  [ok]  kicker BVB                     -> 20 entries
+  [ok]  kicker Bundesliga              -> 20 entries
+  [ok]  RUHR24 BVB                     -> 40 entries
+  [ok]  Ruhr Nachrichten BVB           -> 12 entries
+  [ok]  Transfermarkt BVB              -> 0 entries
+  [ok]  Transfermarkt Gerüchte         -> 10 entries
+  [ok]  fussballtransfers.com          -> 50 entries
+  [ok]  Schwatzgelb                    -> 20 entries
+  [ok]  CaughtOffside                  -> 10 entries
+  [ok]  Reddit r/borussiadortmund      -> 25 entries
+  [ok]  11Freunde                      -> 60 entries
+  [ok]  YouTube BVB (offiziell)        -> 15 entries
+  [ok]  YouTube BVB Nachrichten        -> 15 entries
+  [ok]  YouTube Ruhr Nachr. BVB        -> 15 entries
+  [ok]  BVB-Podcast (offiziell)        -> 247 entries
+  [ok]  BVB-Podcast Ruhr Nachr.        -> 548 entries
+  [ok]  Auffe Ohren (Schwatzgelb)      -> 249 entries
+  [ok]  Auffe Süd (Sky Sport)          -> 54 entries
+  [ok]  Schwarzgelbe Runde             -> 33 entries
+  [ok]  BVB kompakt (WAZ/RN)           -> 1792 entries
+  [ok]  Die Pöhlerz (YouTube)          -> 15 entries
+== X / Nitter ==
+  [ok]  X/Plettigoal           -> 20 tweets, 2 BVB-relevant
+  [ok]  X/berger_pj            -> 19 tweets, 6 BVB-relevant
+  [ok]  X/cfbayern             -> 20 tweets, 0 BVB-relevant
+  [ok]  X/FabrizioRomano       -> 19 tweets, 1 BVB-relevant
+  [ok]  X/David_Ornstein       -> 20 tweets, 0 BVB-relevant
+  [ok]  X/BVB                  -> 20 tweets, 20 BVB-relevant
+  [ok]  X/Sky_Jesco            -> 20 tweets, 16 BVB-relevant
+  [ok]  X/SimSchu              -> 1 tweets, 0 BVB-relevant
+  [ok]  X/SkySportDE           -> 20 tweets, 2 BVB-relevant
+  [ok]  X/BILD_Sport           -> 20 tweets, 1 BVB-relevant
+  [ok]  X/SPORT1               -> 20 tweets, 4 BVB-relevant
+  [ok]  X/dpa_sport            -> 20 tweets, 4 BVB-relevant
+  [ok]  X/AroooBVB             -> 20 tweets, 20 BVB-relevant
+  [ok]  X/Borussia0977         -> 20 tweets, 17 BVB-relevant
+  [ok]  X/bvbnewsblog          -> 20 tweets, 20 BVB-relevant
+  [ok]  X/lafonateBVB          -> 19 tweets, 15 BVB-relevant
+  [ok]  X/gabumnn              -> 19 tweets, 6 BVB-relevant
+  [ok]  X/ScoutingByJaden      -> 20 tweets, 10 BVB-relevant
+  [ok]  X/bvbnewsflash         -> 20 tweets, 19 BVB-relevant
+  [ok]  X/kicker_BVB           -> 20 tweets, 20 BVB-relevant
+  [FAIL] X/RuhrnachrichtenBVB   -> all nitter mirrors failed
+  [ok]  X/SchwatzgelbDE        -> 20 tweets, 15 BVB-relevant
+
+fetched 3304 items (rss ok/fail 21/0, x ok/fail 21/1) in 12.46s -> /Users/jenssteffen/Claude/Claude neuer Account/bvb-aladin/data/raw_items.json
+scored 291 clusters from 3304 raw items. top tier 1 count: 11, official: 22
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
