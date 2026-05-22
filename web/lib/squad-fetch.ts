@@ -50,10 +50,12 @@ function mapTeam(t: TmTeam): SquadDef {
     players: t.players.map(
       (p): Player => ({
         id: p.id,
+        tmId: p.tm_id || undefined,
         name: p.name,
         number: p.number,
         positionGroup: p.positionGroup as Player["positionGroup"],
         positionShort: p.positionShort,
+        positionDetail: p.positionDetail,
         nationality: p.nationality,
         flag: p.flag,
         age: p.age,

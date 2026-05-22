@@ -3,12 +3,14 @@ export type TeamId = "profis" | "u23" | "u19" | "amateur";
 
 export interface Player {
   id: number;
+  tmId?: number;        // Transfermarkt Spieler-ID
   name: string;
   number: number;
   positionGroup: PositionGroup;
-  positionShort: string; // TW, IV, LA, RA, ZM, ST …
-  nationality: string; // DE, EN flag emoji
-  flag: string; // emoji flag
+  positionShort: string;
+  positionDetail?: string;
+  nationality: string;
+  flag: string;
   age: number;
   since: number;
   contract: string;
