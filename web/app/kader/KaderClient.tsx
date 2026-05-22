@@ -1,8 +1,10 @@
 "use client";
+import { useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { type SquadDef, type Player, type PositionGroup, type TeamId } from "@/lib/squad-data";
 import { cn } from "@/lib/cn";
+import { PlayerModal } from "./PlayerModal";
 
 const TEAM_IDS: TeamId[] = ["profis", "u23", "u19", "amateur"];
 const GROUPS: PositionGroup[] = ["Tor", "Abwehr", "Mittelfeld", "Angriff"];
@@ -19,7 +21,7 @@ function totalSquadValue(players: Player[]): string {
   return `${total.toLocaleString("de-DE")} Mio. €`;
 }
 
-function PlayerCard({ player }: { player: Player }) {
+function PlayerCard({ player, onClick }: { player: Player; onClick: () => void }) {
   return (
     <motion.div
       layout
@@ -27,7 +29,8 @@ function PlayerCard({ player }: { player: Player }) {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -6 }}
       transition={{ duration: 0.2 }}
-      className="group relative flex items-center gap-3 rounded-xl border border-asphalt-700 bg-asphalt-900 px-4 py-3 hover:border-bvb-yellow/40 hover:bg-asphalt-800 transition-colors"
+      onClick={onClick}
+      className="group relative flex items-center gap-3 rounded-xl border border-asphalt-700 bg-asphalt-900 px-4 py-3 hover:border-bvb-yellow/40 hover:bg-asphalt-800 transition-colors cursor-pointer"
     >
       {/* Jersey Number */}
       <span className="w-8 shrink-0 text-center text-xl font-black text-bvb-yellow/60 group-hover:text-bvb-yellow transition-colors">
@@ -84,6 +87,7 @@ const SEASONS = [
 ];
 
 export function KaderClient({ squads, season, pending = false }: { squads: SquadDef[]; season: string; pending?: boolean }) {
+  const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
   const searchParams = useSearchParams();
   const router = useRouter();
   const teamId = (searchParams.get("team") ?? "profis") as TeamId;
@@ -196,7 +200,7 @@ export function KaderClient({ squads, season, pending = false }: { squads: Squad
                 </h2>
                 <div className="grid gap-2 sm:grid-cols-2">
                   {players.map((p) => (
-                    <PlayerCard key={p.id} player={p} />
+                    <PlayerCard key={p.id} player={p} onClick={() => setSelectedPlayer(p)} />
                   ))}
                 </div>
               </section>
@@ -208,6 +212,8 @@ export function KaderClient({ squads, season, pending = false }: { squads: Squad
       <p className="mt-10 text-xs text-neutral-700 text-center">
         Kaderdaten manuell gepflegt · Marktwerte laut transfermarkt.de · Keine Gewähr auf Aktualität
       </p>
+
+      <PlayerModal player={selectedPlayer} onClose={() => setSelectedPlayer(null)} />
     </main>
   );
 }
