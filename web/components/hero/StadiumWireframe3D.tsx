@@ -1,161 +1,189 @@
 "use client";
-
 import { useRef, useMemo } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 
-/**
- * Signal Iduna Park (Westfalenstadion) — Low-Poly Wireframe in BVB-Yellow.
- * Charakteristisch: rechteckiger Grundriss, Südtribüne (Yellow Wall) deutlich höher.
- */
-function WestfalenstadionGeometry() {
-  const groupRef = useRef<THREE.Group>(null);
-
-  const geometry = useMemo(() => {
-    const pts: THREE.Vector3[] = [];
-
-    // Hilfsfunktion: Linie hinzufügen
-    const line = (
-      ax: number, ay: number, az: number,
-      bx: number, by: number, bz: number
-    ) => {
-      pts.push(new THREE.Vector3(ax, ay, az), new THREE.Vector3(bx, by, bz));
-    };
-
-    // ── Grundriss-Kontur (rectanguläreres Stadion-Shape) ──────────────────
-    // Maße: Breite (E-W) = 2.6, Länge (N-S) = 2.0, Eckenradius = 0.42
-    const W = 2.6, L = 2.0, R = 0.42;
-    const SEGS = 10; // Punkte pro Ecke
-
-    // Alle Grundriss-Punkte aufbauen (4 abgerundete Ecken)
-    const corners: [number, number, number][] = [
-      [W - R,  L - R, -Math.PI / 2], // NE
-      [-(W-R), L - R,  0           ], // NW
-      [-(W-R),-(L-R),  Math.PI / 2 ], // SW
-      [ W - R,-(L-R),  Math.PI     ], // SE
-    ];
-
-    const basePts: [number, number][] = [];
-    for (const [cx, cy, startA] of corners) {
-      for (let i = 0; i <= SEGS; i++) {
-        const a = startA + (i / SEGS) * (Math.PI / 2);
-        basePts.push([cx + Math.cos(a) * R, cy + Math.sin(a) * R]);
-      }
+/** Stadion-Grundriss-Punkte (XZ-Ebene, Y = oben) */
+function mkContour(w: number, h: number, r: number, seg = 8): [number, number][] {
+  const pts: [number, number][] = [];
+  for (const [cx, cz, a0] of [
+    [w - r,  h - r, -Math.PI / 2],
+    [-(w-r), h - r,  0           ],
+    [-(w-r),-(h-r),  Math.PI / 2 ],
+    [w - r, -(h-r),  Math.PI     ],
+  ] as [number, number, number][]) {
+    for (let i = 0; i <= seg; i++) {
+      const a = a0 + (i / seg) * (Math.PI / 2);
+      pts.push([cx + Math.cos(a) * r, cz + Math.sin(a) * r]);
     }
-    const N = basePts.length;
+  }
+  return pts;
+}
 
-    // Wandhöhe je Punkt:
-    // Südtribüne = y < -(L*0.55) → deutlich höher (Yellow Wall)
-    // Nordtribüne = y > +(L*0.55) → etwas niedriger
-    const wallH = (y: number): number => {
-      if (y < -(L * 0.55)) {
-        const t = Math.min(1, (-(y + L * 0.55)) / (L * 0.35));
-        return 0.62 + t * 0.38; // max ~1.00 für Südtribüne
-      }
-      if (y > (L * 0.55)) return 0.56; // Nordtribüne leicht niedriger
-      return 0.62; // Ost/West-Tribünen
-    };
+const YELLOW = new THREE.Color("#fde100");
+const DARK   = new THREE.Color("#1c1c1c");
 
-    // ── Bodenlinie ────────────────────────────────────────────────────────
-    for (let i = 0; i < N; i++) {
-      const [x0, y0] = basePts[i]!;
-      const [x1, y1] = basePts[(i + 1) % N]!;
-      line(x0, y0, 0, x1, y1, 0);
-    }
+/** Ring-Mesh: innere Kontur auf Y=0, äußere Kontur erhöht — mit Vertex-Farben */
+function buildBowl(
+  inner: [number, number][],
+  outer: [number, number][],
+  hFn:   (z: number) => number,
+  cFn:   (z: number, isOuter: boolean) => THREE.Color,
+) {
+  const N = inner.length;
+  const pos: number[] = [], col: number[] = [], idx: number[] = [];
+  for (let i = 0; i < N; i++) {
+    const j = (i + 1) % N;
+    const [ix0, iz0] = inner[i]!, [ix1, iz1] = inner[j]!;
+    const [ox0, oz0] = outer[i]!, [ox1, oz1] = outer[j]!;
+    const oy0 = hFn(oz0), oy1 = hFn(oz1);
+    const b = pos.length / 3;
+    pos.push(ix0, 0, iz0, ix1, 0, iz1, ox0, oy0, oz0, ox1, oy1, oz1);
+    for (const c of [
+      cFn(iz0, false), cFn(iz1, false),
+      cFn(oz0, true),  cFn(oz1, true),
+    ]) col.push(c.r, c.g, c.b);
+    idx.push(b, b+2, b+1, b+1, b+2, b+3);
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute("position", new THREE.Float32BufferAttribute(pos, 3));
+  geo.setAttribute("color",    new THREE.Float32BufferAttribute(col, 3));
+  geo.setIndex(idx);
+  geo.computeVertexNormals();
+  return geo;
+}
 
-    // Roof-Punkte: leicht nach innen versetzt
-    const INSET = 0.16;
-    const roofPts: [number, number, number][] = basePts.map(([x, y]) => {
-      const dist = Math.sqrt(x * x + y * y);
-      const ix = dist > 0.01 ? x - (x / dist) * INSET : x;
-      const iy = dist > 0.01 ? y - (y / dist) * INSET : y;
-      return [ix, iy, wallH(y)];
-    });
+/** Dach-Ring: gleichmäßig über den Tribünen */
+function buildRoof(
+  inner: [number, number][],
+  outer: [number, number][],
+  hFn:  (z: number) => number,
+) {
+  const N = inner.length;
+  const pos: number[] = [], idx: number[] = [];
+  for (let i = 0; i < N; i++) {
+    const j = (i + 1) % N;
+    const [ix0, iz0] = inner[i]!, [ix1, iz1] = inner[j]!;
+    const [ox0, oz0] = outer[i]!, [ox1, oz1] = outer[j]!;
+    const iy0 = hFn(iz0), iy1 = hFn(iz1);
+    const oy0 = hFn(oz0), oy1 = hFn(oz1);
+    const b = pos.length / 3;
+    pos.push(ix0, iy0, iz0, ix1, iy1, iz1, ox0, oy0, oz0, ox1, oy1, oz1);
+    idx.push(b, b+2, b+1, b+1, b+2, b+3);
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute("position", new THREE.Float32BufferAttribute(pos, 3));
+  geo.setIndex(idx);
+  geo.computeVertexNormals();
+  return geo;
+}
 
-    // ── Dachkante (obere Außenkante) ──────────────────────────────────────
-    for (let i = 0; i < N; i++) {
-      const [x0, y0, z0] = roofPts[i]!;
-      const [x1, y1, z1] = roofPts[(i + 1) % N]!;
-      line(x0, y0, z0, x1, y1, z1);
-    }
+/* ── Hauptkomponente ──────────────────────────────────────────────────── */
+function Westfalenstadion() {
+  const ref = useRef<THREE.Group>(null);
+  useFrame((_, dt) => { if (ref.current) ref.current.rotation.y -= dt * 0.22; });
 
-    // ── Wand-Stützen (Boden → Dach, jeden 3. Punkt) ──────────────────────
-    for (let i = 0; i < N; i += 3) {
-      const [fx, fy] = basePts[i]!;
-      const [rx, ry, rz] = roofPts[i]!;
-      line(fx, fy, 0, rx, ry, rz);
-    }
+  const { bowl, roof, pitchGeo, lineGeo } = useMemo(() => {
+    const SUDZ = 1.15; // z > SUDZ = Südtribüne (Yellow Wall)
 
-    // ── Tribünen-Profil: diagonale Streben (zeigen Steilheit der Sitzreihen)
-    for (let i = 1; i < N; i += 6) {
-      const [fx, fy] = basePts[i]!;
-      const [rx, ry, rz] = roofPts[i]!;
-      // Innenkante am Boden (Spielfeld-Seite)
-      const inF = 0.55;
-      const dist = Math.sqrt(fx * fx + fy * fy);
-      if (dist < 0.01) continue;
-      const mx = fx - (fx / dist) * (dist * inF);
-      const my = fy - (fy / dist) * (dist * inF);
-      // Tribünen-Profil-Linie (Boden-innen → Dach-außen)
-      line(mx, my, 0.04, rx, ry, rz);
-    }
+    // Tribünen-Konturen
+    const inner = mkContour(1.30, 0.95, 0.22);
+    const outer = mkContour(2.25, 1.70, 0.32);
 
-    // ── Spielfeld-Markierungen ────────────────────────────────────────────
-    const z = 0.02;
-    const pw = 1.45, pl = 1.85; // Spielfeld-Hälfte Breite/Länge
+    // Höhe: Südtribüne höher, Nordtribüne etwas niedriger
+    const hFn = (z: number) =>
+      z >  SUDZ ? 0.95 :
+      z < -SUDZ ? 0.55 : 0.62;
 
-    // Spielfeld-Rand
-    line(-pw, -pl, z,  pw, -pl, z);
-    line( pw, -pl, z,  pw,  pl, z);
-    line( pw,  pl, z, -pw,  pl, z);
-    line(-pw,  pl, z, -pw, -pl, z);
+    // Farbe: Südtribüne außen gelb (Yellow Wall!)
+    const cFn = (z: number, isOuter: boolean): THREE.Color =>
+      (isOuter && z > SUDZ * 0.75) ? YELLOW : DARK;
 
+    const bowl = buildBowl(inner, outer, hFn, cFn);
+
+    // Dach-Konturen
+    const roofI = mkContour(2.10, 1.58, 0.28);
+    const roofO = mkContour(2.58, 1.92, 0.35);
+    const roofHFn = (z: number) =>
+      z >  SUDZ ? 1.02 :
+      z < -SUDZ ? 0.60 : 0.68;
+    const roof = buildRoof(roofI, roofO, roofHFn);
+
+    // Spielfeld-Geometrie (XZ-Plane)
+    const pitchShape = new THREE.Shape([
+      new THREE.Vector2(-1.05, -0.68),
+      new THREE.Vector2( 1.05, -0.68),
+      new THREE.Vector2( 1.05,  0.68),
+      new THREE.Vector2(-1.05,  0.68),
+    ]);
+    const pitchGeo = new THREE.ShapeGeometry(pitchShape);
+    pitchGeo.applyMatrix4(new THREE.Matrix4().makeRotationX(-Math.PI / 2));
+
+    // Spielfeld-Linien: Mittellinie + Mittelkreis-Punkte
+    const linePts: THREE.Vector3[] = [];
     // Mittellinie
-    line(-pw, 0, z, pw, 0, z);
-
+    linePts.push(new THREE.Vector3(-1.05, 0.003, 0), new THREE.Vector3(1.05, 0.003, 0));
     // Mittelkreis
-    const CR = 0.43, MC = 40;
-    for (let i = 0; i < MC; i++) {
-      const a0 = (i / MC) * Math.PI * 2;
-      const a1 = ((i + 1) / MC) * Math.PI * 2;
-      line(Math.cos(a0) * CR, Math.sin(a0) * CR, z,
-           Math.cos(a1) * CR, Math.sin(a1) * CR, z);
+    const CR = 0.42, SEG = 48;
+    for (let i = 0; i < SEG; i++) {
+      const a0 = (i / SEG) * Math.PI * 2;
+      const a1 = ((i + 1) / SEG) * Math.PI * 2;
+      linePts.push(
+        new THREE.Vector3(Math.cos(a0) * CR, 0.003, Math.sin(a0) * CR),
+        new THREE.Vector3(Math.cos(a1) * CR, 0.003, Math.sin(a1) * CR),
+      );
     }
-
-    // Strafräume (Süd / Nord)
-    for (const [sy, sg] of [[-pl, 1], [pl, -1]] as [number, number][]) {
+    // Strafraum Nord + Süd
+    for (const sz of [-0.68, 0.68] as number[]) {
+      const sg = sz < 0 ? 1 : -1;
       const bw = 0.55, bd = 0.34;
-      line(-bw, sy, z,  bw, sy, z);
-      line(-bw, sy, z, -bw, sy + sg * bd, z);
-      line( bw, sy, z,  bw, sy + sg * bd, z);
-      line(-bw, sy + sg * bd, z, bw, sy + sg * bd, z);
-      // 5m-Raum
-      line(-0.27, sy, z,  0.27, sy, z);
-      line(-0.27, sy, z, -0.27, sy + sg * 0.14, z);
-      line( 0.27, sy, z,  0.27, sy + sg * 0.14, z);
-      line(-0.27, sy + sg * 0.14, z, 0.27, sy + sg * 0.14, z);
+      linePts.push(
+        new THREE.Vector3(-bw, 0.003, sz), new THREE.Vector3(bw, 0.003, sz),
+        new THREE.Vector3(-bw, 0.003, sz), new THREE.Vector3(-bw, 0.003, sz + sg * bd),
+        new THREE.Vector3( bw, 0.003, sz), new THREE.Vector3( bw, 0.003, sz + sg * bd),
+        new THREE.Vector3(-bw, 0.003, sz + sg * bd), new THREE.Vector3(bw, 0.003, sz + sg * bd),
+      );
     }
+    const lineGeo = new THREE.BufferGeometry().setFromPoints(linePts);
 
-    // Eckfahnen
-    for (const [cx, cy] of [[-pw, -pl], [pw, -pl], [pw, pl], [-pw, pl]] as [number, number][]) {
-      line(cx, cy, z, cx, cy, z + 0.14);
-    }
-
-    return new THREE.BufferGeometry().setFromPoints(pts);
+    return { bowl, roof, pitchGeo, lineGeo };
   }, []);
 
-  useFrame((_, delta) => {
-    if (groupRef.current) {
-      groupRef.current.rotation.z += delta * 0.10;
-    }
-  });
-
   return (
-    <group ref={groupRef} rotation={[-Math.PI / 2.8, 0, 0]}>
-      <lineSegments geometry={geometry}>
-        <lineBasicMaterial color="#fde100" linewidth={1.2} transparent opacity={0.72} />
+    <group ref={ref}>
+      {/* Bodenplatte */}
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.01, 0]}>
+        <planeGeometry args={[7, 6]} />
+        <meshStandardMaterial color="#0a0a0a" roughness={1} />
+      </mesh>
+
+      {/* Spielfeld grün */}
+      <mesh geometry={pitchGeo}>
+        <meshStandardMaterial color="#2d6b1c" roughness={0.9} />
+      </mesh>
+
+      {/* Spielfeld-Streifen */}
+      {([-0.525, 0, 0.525] as number[]).map((x) => (
+        <mesh key={x} position={[x, 0.001, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+          <planeGeometry args={[0.35, 1.36]} />
+          <meshStandardMaterial color="#285f18" roughness={0.9} transparent opacity={0.45} />
+        </mesh>
+      ))}
+
+      {/* Spielfeld-Linien */}
+      <lineSegments geometry={lineGeo}>
+        <lineBasicMaterial color="white" transparent opacity={0.55} />
       </lineSegments>
+
+      {/* Tribünen-Bowl (Südtribüne gelb, Rest dunkel) */}
+      <mesh geometry={bowl}>
+        <meshStandardMaterial vertexColors roughness={0.75} side={THREE.DoubleSide} />
+      </mesh>
+
+      {/* Dach (metallisch) */}
+      <mesh geometry={roof}>
+        <meshStandardMaterial color="#2a2a2a" metalness={0.55} roughness={0.4} side={THREE.DoubleSide} />
+      </mesh>
     </group>
   );
 }
@@ -163,23 +191,15 @@ function WestfalenstadionGeometry() {
 export default function StadiumWireframe3D() {
   return (
     <Canvas
-      camera={{ position: [0, 0, 6], fov: 42 }}
+      camera={{ position: [0, 6.5, 2.2], fov: 38 }}
       gl={{ antialias: true, alpha: true }}
       style={{ width: "100%", height: "100%" }}
       aria-hidden
     >
-      <ambientLight intensity={0.3} />
-      <pointLight position={[4, 4, 6]} intensity={1.4} color="#fde100" />
-      <pointLight position={[-3, -3, 5]} intensity={0.35} color="#ffffff" />
-      <WestfalenstadionGeometry />
-      <OrbitControls
-        enableZoom={false}
-        enablePan={false}
-        autoRotate
-        autoRotateSpeed={0.5}
-        maxPolarAngle={Math.PI / 1.8}
-        minPolarAngle={Math.PI / 4}
-      />
+      <ambientLight intensity={0.75} />
+      <directionalLight position={[3, 10, 1]} intensity={1.0} castShadow={false} />
+      <pointLight position={[0, 3, 1.5]} intensity={0.6} color="#fde100" />
+      <Westfalenstadion />
     </Canvas>
   );
 }
