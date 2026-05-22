@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import type { Player } from "@/lib/squad-data";
 
 const tmPhoto = (tmId: number) =>
-  `https://img.a.transfermarkt.technology/portrait/big/${tmId}.jpg`;
+  `https://tmssl.akamaized.net/portrait/big/${tmId}.jpg`;
 const tmProfile = (tmId: number) =>
   `https://www.transfermarkt.de/spieler/profil/spieler/${tmId}`;
 
