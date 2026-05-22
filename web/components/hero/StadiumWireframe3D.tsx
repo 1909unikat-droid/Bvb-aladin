@@ -59,8 +59,8 @@ function WestfalenstadionGeometry() {
 
     // ── Bodenlinie ────────────────────────────────────────────────────────
     for (let i = 0; i < N; i++) {
-      const [x0, y0] = basePts[i];
-      const [x1, y1] = basePts[(i + 1) % N];
+      const [x0, y0] = basePts[i]!;
+      const [x1, y1] = basePts[(i + 1) % N]!;
       line(x0, y0, 0, x1, y1, 0);
     }
 
@@ -75,22 +75,22 @@ function WestfalenstadionGeometry() {
 
     // ── Dachkante (obere Außenkante) ──────────────────────────────────────
     for (let i = 0; i < N; i++) {
-      const [x0, y0, z0] = roofPts[i];
-      const [x1, y1, z1] = roofPts[(i + 1) % N];
+      const [x0, y0, z0] = roofPts[i]!;
+      const [x1, y1, z1] = roofPts[(i + 1) % N]!;
       line(x0, y0, z0, x1, y1, z1);
     }
 
     // ── Wand-Stützen (Boden → Dach, jeden 3. Punkt) ──────────────────────
     for (let i = 0; i < N; i += 3) {
-      const [fx, fy] = basePts[i];
-      const [rx, ry, rz] = roofPts[i];
+      const [fx, fy] = basePts[i]!;
+      const [rx, ry, rz] = roofPts[i]!;
       line(fx, fy, 0, rx, ry, rz);
     }
 
     // ── Tribünen-Profil: diagonale Streben (zeigen Steilheit der Sitzreihen)
     for (let i = 1; i < N; i += 6) {
-      const [fx, fy] = basePts[i];
-      const [rx, ry, rz] = roofPts[i];
+      const [fx, fy] = basePts[i]!;
+      const [rx, ry, rz] = roofPts[i]!;
       // Innenkante am Boden (Spielfeld-Seite)
       const inF = 0.55;
       const dist = Math.sqrt(fx * fx + fy * fy);
@@ -138,7 +138,7 @@ function WestfalenstadionGeometry() {
     }
 
     // Eckfahnen
-    for (const [cx, cy] of [[-pw, -pl], [pw, -pl], [pw, pl], [-pw, pl]]) {
+    for (const [cx, cy] of [[-pw, -pl], [pw, -pl], [pw, pl], [-pw, pl]] as [number, number][]) {
       line(cx, cy, z, cx, cy, z + 0.14);
     }
 
