@@ -56,6 +56,7 @@ export function PlayerModal({
                     src={tmPhoto(player.tmId)}
                     alt={player.name}
                     fill
+                    unoptimized
                     className="object-cover object-top"
                     sizes="448px"
                   />

@@ -24,8 +24,8 @@ export function Hero({ totalItems, updatedAt, topItems = [] }: Props) {
       {/* GSAP scroll choreo — no DOM output */}
       <ScrollChoreo topItems={topItems} />
 
-      {/* 3D Stadium — absolute behind all content */}
-      <div className="absolute inset-0 pointer-events-none">
+      {/* 3D Stadium — desktop: absolute background; mobile: inside grid column */}
+      <div className="hidden md:block absolute inset-0 pointer-events-none">
         <StadiumWireframeLazy />
       </div>
 
@@ -86,7 +86,14 @@ export function Hero({ totalItems, updatedAt, topItems = [] }: Props) {
           transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
           className="md:col-span-5 flex justify-center md:justify-end"
         >
-          <SuedtribueneChant />
+          {/* Mobile: 3D Stadium inline (no overlap with text) */}
+          <div className="md:hidden relative h-56 w-full rounded-2xl overflow-hidden">
+            <StadiumWireframeLazy />
+          </div>
+          {/* Desktop: Yellow Wall animation */}
+          <div className="hidden md:block">
+            <SuedtribueneChant />
+          </div>
         </motion.div>
       </div>
     </section>
