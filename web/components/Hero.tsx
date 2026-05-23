@@ -86,14 +86,7 @@ export function Hero({ totalItems, updatedAt, topItems = [] }: Props) {
           transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
           className="md:col-span-5 flex justify-center md:justify-end"
         >
-          {/* Mobile: 3D Stadium inline (no overlap with text) */}
-          <div className="md:hidden relative h-56 w-full rounded-2xl overflow-hidden">
-            <StadiumWireframeLazy />
-          </div>
-          {/* Desktop: Yellow Wall animation */}
-          <div className="hidden md:block">
-            <SuedtribueneChant />
-          </div>
+          <SuedtribueneChant />
         </motion.div>
       </div>
     </section>

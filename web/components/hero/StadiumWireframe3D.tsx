@@ -23,7 +23,6 @@ function mkContour(w: number, h: number, r: number, seg = 8): [number, number][]
 const YELLOW = new THREE.Color("#fde100");
 const DARK   = new THREE.Color("#1c1c1c");
 
-/** Ring-Mesh: innere Kontur auf Y=0, äußere Kontur erhöht — mit Vertex-Farben */
 function buildBowl(
   inner: [number, number][],
   outer: [number, number][],
@@ -53,7 +52,6 @@ function buildBowl(
   return geo;
 }
 
-/** Dach-Ring: gleichmäßig über den Tribünen */
 function buildRoof(
   inner: [number, number][],
   outer: [number, number][],
@@ -78,38 +76,51 @@ function buildRoof(
   return geo;
 }
 
+/* ── Flutlichtmast ──────────────────────────────────────────────────────── */
+function Pylon({ x, z }: { x: number; z: number }) {
+  return (
+    <group position={[x, 0, z]}>
+      {/* Mast */}
+      <mesh position={[0, 1.3, 0]}>
+        <cylinderGeometry args={[0.05, 0.08, 2.6, 6]} />
+        <meshStandardMaterial color="#3d3d3d" metalness={0.7} roughness={0.3} />
+      </mesh>
+      {/* Lichtbalken */}
+      <mesh position={[0, 2.62, 0]} rotation={[0, 0, 0]}>
+        <boxGeometry args={[0.45, 0.12, 0.18]} />
+        <meshStandardMaterial color="#b0b0b0" metalness={0.9} roughness={0.15} emissive="#fffff0" emissiveIntensity={0.5} />
+      </mesh>
+    </group>
+  );
+}
+
 /* ── Hauptkomponente ──────────────────────────────────────────────────── */
 function Westfalenstadion() {
   const ref = useRef<THREE.Group>(null);
-  useFrame((_, dt) => { if (ref.current) ref.current.rotation.y -= dt * 0.22; });
+  useFrame((_, dt) => { if (ref.current) ref.current.rotation.y -= dt * 0.18; });
 
   const { bowl, roof, pitchGeo, lineGeo } = useMemo(() => {
-    const SUDZ = 1.15; // z > SUDZ = Südtribüne (Yellow Wall)
+    const SUDZ = 1.15;
 
-    // Tribünen-Konturen
     const inner = mkContour(1.30, 0.95, 0.22);
     const outer = mkContour(2.25, 1.70, 0.32);
 
-    // Höhe: Südtribüne höher, Nordtribüne etwas niedriger
     const hFn = (z: number) =>
-      z >  SUDZ ? 0.95 :
-      z < -SUDZ ? 0.55 : 0.62;
+      z >  SUDZ ? 1.05 :
+      z < -SUDZ ? 0.65 : 0.72;
 
-    // Farbe: Südtribüne außen gelb (Yellow Wall!)
     const cFn = (z: number, isOuter: boolean): THREE.Color =>
-      (isOuter && z > SUDZ * 0.75) ? YELLOW : DARK;
+      (isOuter && z > SUDZ * 0.7) ? YELLOW : DARK;
 
     const bowl = buildBowl(inner, outer, hFn, cFn);
 
-    // Dach-Konturen
     const roofI = mkContour(2.10, 1.58, 0.28);
-    const roofO = mkContour(2.58, 1.92, 0.35);
+    const roofO = mkContour(2.60, 1.94, 0.36);
     const roofHFn = (z: number) =>
-      z >  SUDZ ? 1.02 :
-      z < -SUDZ ? 0.60 : 0.68;
+      z >  SUDZ ? 1.14 :
+      z < -SUDZ ? 0.72 : 0.80;
     const roof = buildRoof(roofI, roofO, roofHFn);
 
-    // Spielfeld-Geometrie (XZ-Plane)
     const pitchShape = new THREE.Shape([
       new THREE.Vector2(-1.05, -0.68),
       new THREE.Vector2( 1.05, -0.68),
@@ -119,11 +130,8 @@ function Westfalenstadion() {
     const pitchGeo = new THREE.ShapeGeometry(pitchShape);
     pitchGeo.applyMatrix4(new THREE.Matrix4().makeRotationX(-Math.PI / 2));
 
-    // Spielfeld-Linien: Mittellinie + Mittelkreis-Punkte
     const linePts: THREE.Vector3[] = [];
-    // Mittellinie
     linePts.push(new THREE.Vector3(-1.05, 0.003, 0), new THREE.Vector3(1.05, 0.003, 0));
-    // Mittelkreis
     const CR = 0.42, SEG = 48;
     for (let i = 0; i < SEG; i++) {
       const a0 = (i / SEG) * Math.PI * 2;
@@ -133,7 +141,6 @@ function Westfalenstadion() {
         new THREE.Vector3(Math.cos(a1) * CR, 0.003, Math.sin(a1) * CR),
       );
     }
-    // Strafraum Nord + Süd
     for (const sz of [-0.68, 0.68] as number[]) {
       const sg = sz < 0 ? 1 : -1;
       const bw = 0.55, bd = 0.34;
@@ -149,20 +156,24 @@ function Westfalenstadion() {
     return { bowl, roof, pitchGeo, lineGeo };
   }, []);
 
+  const pylons: [number, number][] = [
+    [-2.45, -1.88],
+    [ 2.45, -1.88],
+    [-2.45,  1.88],
+    [ 2.45,  1.88],
+  ];
+
   return (
     <group ref={ref}>
-      {/* Bodenplatte */}
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.01, 0]}>
-        <planeGeometry args={[7, 6]} />
+        <planeGeometry args={[8, 7]} />
         <meshStandardMaterial color="#0a0a0a" roughness={1} />
       </mesh>
 
-      {/* Spielfeld grün */}
       <mesh geometry={pitchGeo}>
         <meshStandardMaterial color="#2d6b1c" roughness={0.9} />
       </mesh>
 
-      {/* Spielfeld-Streifen */}
       {([-0.525, 0, 0.525] as number[]).map((x) => (
         <mesh key={x} position={[x, 0.001, 0]} rotation={[-Math.PI / 2, 0, 0]}>
           <planeGeometry args={[0.35, 1.36]} />
@@ -170,20 +181,21 @@ function Westfalenstadion() {
         </mesh>
       ))}
 
-      {/* Spielfeld-Linien */}
       <lineSegments geometry={lineGeo}>
-        <lineBasicMaterial color="white" transparent opacity={0.55} />
+        <lineBasicMaterial color="white" transparent opacity={0.6} />
       </lineSegments>
 
-      {/* Tribünen-Bowl (Südtribüne gelb, Rest dunkel) */}
       <mesh geometry={bowl}>
         <meshStandardMaterial vertexColors roughness={0.75} side={THREE.DoubleSide} />
       </mesh>
 
-      {/* Dach (metallisch) */}
       <mesh geometry={roof}>
-        <meshStandardMaterial color="#2a2a2a" metalness={0.55} roughness={0.4} side={THREE.DoubleSide} />
+        <meshStandardMaterial color="#252525" metalness={0.6} roughness={0.35} side={THREE.DoubleSide} />
       </mesh>
+
+      {pylons.map(([px, pz], i) => (
+        <Pylon key={i} x={px} z={pz} />
+      ))}
     </group>
   );
 }
@@ -191,14 +203,15 @@ function Westfalenstadion() {
 export default function StadiumWireframe3D() {
   return (
     <Canvas
-      camera={{ position: [0, 6.5, 2.2], fov: 38 }}
+      camera={{ position: [0, 3.2, 6.2], fov: 44 }}
       gl={{ antialias: true, alpha: true }}
       style={{ width: "100%", height: "100%" }}
       aria-hidden
     >
-      <ambientLight intensity={0.75} />
-      <directionalLight position={[3, 10, 1]} intensity={1.0} castShadow={false} />
-      <pointLight position={[0, 3, 1.5]} intensity={0.6} color="#fde100" />
+      <ambientLight intensity={0.55} />
+      <directionalLight position={[2, 6, 5]} intensity={1.2} castShadow={false} />
+      <directionalLight position={[-3, 4, -2]} intensity={0.4} color="#c0c8ff" />
+      <pointLight position={[0, 2.5, 2]} intensity={0.8} color="#fde100" />
       <Westfalenstadion />
     </Canvas>
   );
