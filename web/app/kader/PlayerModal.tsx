@@ -78,8 +78,16 @@ export function PlayerModal({
                     className="absolute inset-0 w-full h-full object-cover object-top"
                   />
                 ) : (
-                  <div className="absolute inset-0 flex items-center justify-center text-7xl opacity-30">
-                    {player.flag}
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <svg viewBox="0 0 80 110" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      className="w-28 h-28 opacity-[0.18] text-bvb-yellow" aria-hidden>
+                      <circle cx="40" cy="18" r="14" fill="currentColor"/>
+                      <path d="M18 44 C20 36 28 32 40 32 C52 32 60 36 62 44 L68 84 L52 84 L50 62 L30 62 L28 84 L12 84 Z" fill="currentColor"/>
+                      <path d="M18 44 L6 70 L16 73 L26 50 Z" fill="currentColor"/>
+                      <path d="M62 44 L74 70 L64 73 L54 50 Z" fill="currentColor"/>
+                      <rect x="26" y="84" width="12" height="22" rx="3" fill="currentColor"/>
+                      <rect x="42" y="84" width="12" height="22" rx="3" fill="currentColor"/>
+                    </svg>
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-asphalt-900 via-asphalt-900/20 to-transparent" />

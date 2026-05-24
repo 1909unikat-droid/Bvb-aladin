@@ -180,6 +180,15 @@ def main() -> int:
     now = now_utc()
 
     items = raw.get("items", [])
+
+    # Dedup raw items by ID (same URL+title from multiple fetches → keep highest credibility)
+    seen_ids: dict[str, dict] = {}
+    for it in items:
+        existing = seen_ids.get(it["id"])
+        if existing is None or it["credibility"] > existing["credibility"]:
+            seen_ids[it["id"]] = it
+    items = list(seen_ids.values())
+
     # Filter: Items ohne Datum behalten, aber Items älter als 14 Tage raus.
     cutoff_h = 14 * 24
     fresh = []
@@ -194,6 +203,15 @@ def main() -> int:
     clusters = cluster_items(fresh)
     ranked = [score_cluster(c, keywords, categories, now) for c in clusters]
     ranked.sort(key=lambda x: x["score"], reverse=True)
+
+    # Safety dedup by ID (edge case: same-kind items mit identischer URL+title landen in 2 Clustern)
+    seen_out: set[str] = set()
+    deduped: list[dict] = []
+    for it in ranked:
+        if it["id"] not in seen_out:
+            seen_out.add(it["id"])
+            deduped.append(it)
+    ranked = deduped
 
     by_tier = Counter(it["tier"] for it in ranked)
     by_cat = Counter(it["category"] for it in ranked)
