@@ -21,7 +21,7 @@ function mkContour(w: number, h: number, r: number, seg = 8): [number, number][]
 }
 
 const YELLOW = new THREE.Color("#fde100");
-const DARK   = new THREE.Color("#1c1c1c");
+const DARK   = new THREE.Color("#3a3a3a");
 
 function buildBowl(
   inner: [number, number][],
@@ -208,10 +208,10 @@ export default function StadiumWireframe3D() {
       style={{ width: "100%", height: "100%" }}
       aria-hidden
     >
-      <ambientLight intensity={0.55} />
-      <directionalLight position={[2, 6, 5]} intensity={1.2} castShadow={false} />
-      <directionalLight position={[-3, 4, -2]} intensity={0.4} color="#c0c8ff" />
-      <pointLight position={[0, 2.5, 2]} intensity={0.8} color="#fde100" />
+      <ambientLight intensity={1.1} />
+      <directionalLight position={[2, 6, 5]} intensity={2.0} castShadow={false} />
+      <directionalLight position={[-3, 4, -2]} intensity={0.8} color="#c0c8ff" />
+      <pointLight position={[0, 2.5, 2]} intensity={1.6} color="#fde100" />
       <Westfalenstadion />
     </Canvas>
   );

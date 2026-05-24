@@ -1,12 +1,26 @@
 "use client";
-import Image from "next/image";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Player } from "@/lib/squad-data";
 
-const tmPhoto = (tmId: number) =>
-  `https://tmssl.akamaized.net/portrait/big/${tmId}.jpg`;
 const tmProfile = (tmId: number) =>
   `https://www.transfermarkt.de/spieler/profil/spieler/${tmId}`;
+
+const tmCdn = (tmId: number) =>
+  `https://img.a.transfermarkt.technology/portrait/big/${tmId}.jpg`;
+
+function useResolvedPhotoUrl(tmId: number | undefined): string | null {
+  const [url, setUrl] = useState<string | null>(null);
+  useEffect(() => {
+    if (!tmId) return;
+    setUrl(null);
+    fetch(`/api/tm-photo?id=${tmId}&url=1`)
+      .then((r) => r.ok ? r.json() : null)
+      .then((data) => { setUrl(data?.url ?? tmCdn(tmId)); })
+      .catch(() => { setUrl(tmCdn(tmId)); });
+  }, [tmId]);
+  return url;
+}
 
 export function PlayerModal({
   player,
@@ -15,6 +29,10 @@ export function PlayerModal({
   player: Player | null;
   onClose: () => void;
 }) {
+  const photoUrl = useResolvedPhotoUrl(player?.tmId);
+  const [imgFailed, setImgFailed] = useState(false);
+  useEffect(() => { setImgFailed(false); }, [player?.tmId]);
+
   return (
     <AnimatePresence>
       {player && (
@@ -51,14 +69,13 @@ export function PlayerModal({
 
               {/* Photo */}
               <div className="relative h-56 bg-asphalt-800 flex items-end">
-                {player.tmId ? (
-                  <Image
-                    src={tmPhoto(player.tmId)}
+                {photoUrl && !imgFailed ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={photoUrl}
                     alt={player.name}
-                    fill
-                    unoptimized
-                    className="object-cover object-top"
-                    sizes="448px"
+                    onError={() => setImgFailed(true)}
+                    className="absolute inset-0 w-full h-full object-cover object-top"
                   />
                 ) : (
                   <div className="absolute inset-0 flex items-center justify-center text-7xl opacity-30">

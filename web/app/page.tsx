@@ -14,7 +14,10 @@ export default async function HomePage() {
   const feed = await fetchFeedServer();
   const byDate = (a: { published?: string }, b: { published?: string }) =>
     new Date(b.published ?? 0).getTime() - new Date(a.published ?? 0).getTime();
-  const items = [...feed.items].sort(byDate);
+  const seen = new Set<string>();
+  const items = [...feed.items]
+    .filter((it) => { if (seen.has(it.id)) return false; seen.add(it.id); return true; })
+    .sort(byDate);
   const top = items.slice(0, 8);
   const rest = items.slice(0, 60);
 
