@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T08:34:51.927557+00:00",
+  "updated_at": "2026-05-28T08:38:42.713263+00:00",
   "season": "2026",
   "pending": false,
   "teams": [
@@ -7,7 +7,7 @@
       "id": "profis",
       "label": "Profis",
       "league": "Bundesliga",
-      "squadValue": "501 Mio. €",
+      "squadValue": "499 Mio. €",
       "players": [
         {
           "id": 1,
@@ -35,7 +35,7 @@
           "flag": "🇩🇪",
           "age": 35,
           "contract": "2027",
-          "marketValue": "800 Tsd. €"
+          "marketValue": "500 Tsd. €"
         },
         {
           "id": 3,
@@ -49,7 +49,7 @@
           "flag": "🇩🇪",
           "age": 33,
           "contract": "2027",
-          "marketValue": "400 Tsd. €"
+          "marketValue": "300 Tsd. €"
         },
         {
           "id": 4,
@@ -95,6 +95,20 @@
         },
         {
           "id": 7,
+          "tm_id": 1074990,
+          "name": "Luca Reggiani",
+          "number": 49,
+          "positionGroup": "Abwehr",
+          "positionShort": "IV",
+          "positionDetail": "Innenverteidiger",
+          "nationality": "Italien",
+          "flag": "🇮🇹",
+          "age": 18,
+          "contract": "-",
+          "marketValue": "10 Mio. €"
+        },
+        {
+          "id": 8,
           "tm_id": 284732,
           "name": "Ramy Bensebaini",
           "number": 5,
@@ -108,20 +122,6 @@
           "marketValue": "7 Mio. €"
         },
         {
-          "id": 8,
-          "tm_id": 1074990,
-          "name": "Luca Reggiani",
-          "number": 49,
-          "positionGroup": "Abwehr",
-          "positionShort": "IV",
-          "positionDetail": "Innenverteidiger",
-          "nationality": "Italien",
-          "flag": "🇮🇹",
-          "age": 18,
-          "contract": "-",
-          "marketValue": "5 Mio. €"
-        },
-        {
           "id": 9,
           "tm_id": 119296,
           "name": "Emre Can",
@@ -133,7 +133,7 @@
           "flag": "🇩🇪",
           "age": 32,
           "contract": "2027",
-          "marketValue": "4 Mio. €"
+          "marketValue": "3 Mio. €"
         },
         {
           "id": 10,
@@ -217,7 +217,7 @@
           "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
           "age": 20,
           "contract": "2030",
-          "marketValue": "30 Mio. €"
+          "marketValue": "40 Mio. €"
         },
         {
           "id": 16,
@@ -245,7 +245,7 @@
           "flag": "🇦🇹",
           "age": 32,
           "contract": "2027",
-          "marketValue": "7 Mio. €"
+          "marketValue": "6 Mio. €"
         },
         {
           "id": 18,
@@ -259,7 +259,7 @@
           "flag": "🇧🇷",
           "age": 23,
           "contract": "2030",
-          "marketValue": "20 Mio. €"
+          "marketValue": "17 Mio. €"
         },
         {
           "id": 19,
@@ -273,7 +273,7 @@
           "flag": "🇩🇪",
           "age": 24,
           "contract": "2027",
-          "marketValue": "50 Mio. €"
+          "marketValue": "40 Mio. €"
         },
         {
           "id": 20,
@@ -287,24 +287,10 @@
           "flag": "🇮🇹",
           "age": 18,
           "contract": "2029",
-          "marketValue": "3 Mio. €"
+          "marketValue": "15 Mio. €"
         },
         {
           "id": 21,
-          "tm_id": 270541,
-          "name": "Serhou Guirassy",
-          "number": 9,
-          "positionGroup": "Angriff",
-          "positionShort": "ST",
-          "positionDetail": "Mittelstürmer",
-          "nationality": "Guinea",
-          "flag": "🇬🇳",
-          "age": 30,
-          "contract": "2028",
-          "marketValue": "40 Mio. €"
-        },
-        {
-          "id": 22,
           "tm_id": 578392,
           "name": "Maximilian Beier",
           "number": 14,
@@ -318,6 +304,20 @@
           "marketValue": "40 Mio. €"
         },
         {
+          "id": 22,
+          "tm_id": 270541,
+          "name": "Serhou Guirassy",
+          "number": 9,
+          "positionGroup": "Angriff",
+          "positionShort": "ST",
+          "positionDetail": "Mittelstürmer",
+          "nationality": "Guinea",
+          "flag": "🇬🇳",
+          "age": 30,
+          "contract": "2028",
+          "marketValue": "32 Mio. €"
+        },
+        {
           "id": 23,
           "tm_id": 505653,
           "name": "Fábio Silva",
@@ -329,7 +329,7 @@
           "flag": "🇵🇹",
           "age": 23,
           "contract": "2030",
-          "marketValue": "28 Mio. €"
+          "marketValue": "22 Mio. €"
         },
         {
           "id": 24,
