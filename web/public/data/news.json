@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T16:34:22.337060+00:00",
+  "updated_at": "2026-06-01T16:36:53.286254+00:00",
   "items": [
     {
       "id": "0c193bbc0b5f763f",
@@ -24,7 +24,7 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.875,
+        "recency": 0.873,
         "specificity": 0.5,
         "relevance": 1.0
       }
@@ -39,7 +39,7 @@
       "source_id": "x_romano",
       "tier": 1,
       "kind": "x",
-      "score": 7.18,
+      "score": 7.17,
       "category": "injury",
       "confirmations": [
         {
@@ -52,16 +52,16 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.993,
+        "recency": 0.991,
         "specificity": 0.4,
         "relevance": 0.667
       }
     },
     {
-      "id": "22c5537eb0cf2eff",
+      "id": "fe55dc305fd9f162",
       "title": "BVB-Podcast 542: Guirassy-Alarm, das Nmecha-Kuriosum und das Frauen-Drama",
       "summary": "Guirassy-Alarm in Dortmund, das Kuriosum um Felix Nmecha und das Drama der BVB-Frauen am letzten Spieltag. Der BVB-Podcast.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-podcast-guirassy-nmecha-drama-frauen-dortmund-folge-542-w-2002089467/",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-podcast-guirassy-nmecha-drama-frauen-dortmund-folge-542-w1202078-2002089467/",
       "published": "2026-06-01T16:33:07+00:00",
       "source": "Ruhr Nachrichten BVB",
       "source_id": "rn_bvb",
@@ -72,7 +72,7 @@
       "confirmations": [
         {
           "source": "Ruhr Nachrichten BVB",
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-podcast-guirassy-nmecha-drama-frauen-dortmund-folge-542-w-2002089467/",
+          "url": "https://www.ruhrnachrichten.de/bvb/bvb-podcast-guirassy-nmecha-drama-frauen-dortmund-folge-542-w1202078-2002089467/",
           "tier": 2
         }
       ],
@@ -80,7 +80,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.999,
+        "recency": 0.998,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -108,7 +108,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.997,
+        "recency": 0.996,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -136,7 +136,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.997,
+        "recency": 0.996,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -164,7 +164,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.894,
+        "recency": 0.893,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -179,7 +179,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.96,
+      "score": 5.95,
       "category": "other",
       "confirmations": [
         {
@@ -192,8 +192,36 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.907,
+        "recency": 0.906,
         "specificity": 0.4,
+        "relevance": 0.667
+      }
+    },
+    {
+      "id": "3adeb623420d73f2",
+      "title": "Nach verpasstem Aufstieg: BVB-Trainer deutet weitere Transfers an",
+      "summary": "Die Aufstiegschance ist weg – doch die BVB-Frauen planen groß: Trainer Markus Högner kündigt nach dem Saisonende weitere Verstärkungen an.",
+      "url": "https://www.ruhr24.de/bvb/bvb-trainer-transfer-frauen-markus-hoegner-ziel-aufstieg-popp-walkling-maier-borussia-dortmund-94332319.html",
+      "published": "2026-06-01T16:24:41+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.93,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/bvb/bvb-trainer-transfer-frauen-markus-hoegner-ziel-aufstieg-popp-walkling-maier-borussia-dortmund-94332319.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.992,
+        "specificity": 0.2,
         "relevance": 0.667
       }
     },
@@ -220,7 +248,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.822,
+        "recency": 0.82,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -248,7 +276,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.773,
+        "recency": 0.772,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -276,7 +304,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.593,
+        "recency": 0.592,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -291,7 +319,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.78,
+      "score": 5.77,
       "category": "matchday",
       "confirmations": [
         {
@@ -304,9 +332,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.743,
+        "recency": 0.742,
         "specificity": 0.2,
         "relevance": 0.667
+      }
+    },
+    {
+      "id": "b439284a35d51ac1",
+      "title": "Quereinsteiger in wichtigem NRW-Job dringend gesucht – bis zu 3.600 Euro möglich",
+      "summary": "NRW will mehr Menschen für den Quereinstieg auf der Schiene gewinnen. Die Qualifizierung für den Job dauert in der Regel neun bis zwölf Monate.",
+      "url": "https://www.ruhr24.de/nrw/quereinsteiger-nrw-lokfuehrer-gesucht-gehalt-ausbildung-bahnen-jobs-triebwagenfuerer-stellen-anzeige-94332314.html",
+      "published": "2026-06-01T16:22:37+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.76,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/nrw/quereinsteiger-nrw-lokfuehrer-gesucht-gehalt-ausbildung-bahnen-jobs-triebwagenfuerer-stellen-anzeige-94332314.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.991,
+        "specificity": 0.7,
+        "relevance": 0.0
       }
     },
     {
@@ -319,7 +375,7 @@
       "source_id": "x_bvb",
       "tier": 3,
       "kind": "x",
-      "score": 5.77,
+      "score": 5.76,
       "category": "official",
       "confirmations": [
         {
@@ -332,37 +388,9 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.72,
+        "recency": 0.719,
         "specificity": 0.2,
         "relevance": 0.0
-      }
-    },
-    {
-      "id": "9b37fcce659d7cf9",
-      "title": "BVB sortiert aus: 4 Profis müssen gehen",
-      "summary": "Vergangene Saison hat Borussia Dortmund vier Profis verliehen. Beim BVB besitzt das Quartett wohl keine Zukunft mehr. Das sind die Gründe.",
-      "url": "https://www.ruhr24.de/bvb/bvb-news-transfer-entscheidung-leihspieler-ramaj-duranville-waetjen-campbell-borussia-dortmund-94331073.html",
-      "published": "2026-06-01T08:46:22+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.76,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-news-transfer-entscheidung-leihspieler-ramaj-duranville-waetjen-campbell-borussia-dortmund-94331073.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.741,
-        "specificity": 0.2,
-        "relevance": 1.0
       }
     },
     {
@@ -375,7 +403,7 @@
       "source_id": "x_plettenberg",
       "tier": 1,
       "kind": "x",
-      "score": 5.74,
+      "score": 5.73,
       "category": "transfers",
       "confirmations": [
         {
@@ -388,7 +416,7 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.439,
+        "recency": 0.438,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -416,7 +444,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.786,
+        "recency": 0.785,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -444,7 +472,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.904,
+        "recency": 0.902,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -472,7 +500,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.81,
+        "recency": 0.808,
         "specificity": 0.7,
         "relevance": 1.0
       }
@@ -500,7 +528,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.687,
+        "recency": 0.686,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -566,7 +594,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.735,
+        "recency": 0.733,
         "specificity": 0.7,
         "relevance": 0.0
       }
@@ -594,7 +622,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.804,
+        "recency": 0.802,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -622,7 +650,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.845,
+        "recency": 0.843,
         "specificity": 0.7,
         "relevance": 0.0
       }
@@ -637,7 +665,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.44,
+      "score": 5.43,
       "category": "other",
       "confirmations": [
         {
@@ -650,7 +678,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.913,
+        "recency": 0.912,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -678,7 +706,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.829,
+        "recency": 0.828,
         "specificity": 0.7,
         "relevance": 0.0
       }
@@ -706,7 +734,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.65,
+        "recency": 0.649,
         "specificity": 0.7,
         "relevance": 0.333
       }
@@ -762,7 +790,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.351,
+        "recency": 0.35,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -790,7 +818,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.86,
+        "recency": 0.858,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -818,7 +846,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.923,
+        "recency": 0.922,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -907,7 +935,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.46,
+        "recency": 0.459,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -935,7 +963,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.968,
+        "recency": 0.967,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -978,7 +1006,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.2,
+      "score": 5.19,
       "category": "other",
       "confirmations": [
         {
@@ -991,7 +1019,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.961,
+        "recency": 0.96,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1019,7 +1047,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.809,
+        "recency": 0.808,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1047,7 +1075,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.383,
+        "recency": 0.382,
         "specificity": 0.7,
         "relevance": 1.0
       }
@@ -1075,7 +1103,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.955,
+        "recency": 0.953,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1103,7 +1131,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.778,
+        "recency": 0.777,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1131,7 +1159,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.94,
+        "recency": 0.938,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1146,7 +1174,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.14,
+      "score": 5.13,
       "category": "other",
       "confirmations": [
         {
@@ -1159,35 +1187,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.931,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "6492b694622fa0ab",
-      "title": "Torwart-Transfer: Ex-Schalker vor Wechsel zum SC Paderborn",
-      "summary": "Einem ehemaligen Schalke-Torhüter winkt aufgrund eines Domino-Effekts der Sprung in die Bundesliga. Beim S04 war er vor wenigen Jahren nur Ersatzspieler.",
-      "url": "https://www.ruhr24.de/s04/fc-schalke-04-transfer-news-torwart-ron-thorben-hoffmann-eintracht-braunschweig-sc-paderborn-s04-94331981.html",
-      "published": "2026-06-01T14:34:30+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.13,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/s04/fc-schalke-04-transfer-news-torwart-ron-thorben-hoffmann-eintracht-braunschweig-sc-paderborn-s04-94331981.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.926,
+        "recency": 0.93,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1215,9 +1215,37 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.355,
+        "recency": 0.354,
         "specificity": 0.7,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "6492b694622fa0ab",
+      "title": "Torwart-Transfer: Ex-Schalker vor Wechsel zum SC Paderborn",
+      "summary": "Einem ehemaligen Schalke-Torhüter winkt aufgrund eines Domino-Effekts der Sprung in die Bundesliga. Beim S04 war er vor wenigen Jahren nur Ersatzspieler.",
+      "url": "https://www.ruhr24.de/s04/fc-schalke-04-transfer-news-torwart-ron-thorben-hoffmann-eintracht-braunschweig-sc-paderborn-s04-94331981.html",
+      "published": "2026-06-01T14:34:30+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.12,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/s04/fc-schalke-04-transfer-news-torwart-ron-thorben-hoffmann-eintracht-braunschweig-sc-paderborn-s04-94331981.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.924,
+        "specificity": 0.2,
+        "relevance": 0.0
       }
     },
     {
@@ -1243,7 +1271,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.915,
+        "recency": 0.913,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1258,7 +1286,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.1,
+      "score": 5.09,
       "category": "other",
       "confirmations": [
         {
@@ -1277,6 +1305,34 @@
       }
     },
     {
+      "id": "73ca0ee89516de28",
+      "title": "Medien: Rüdiger hat unterschrieben",
+      "summary": "Antonio Rüdiger (33) bleibt Real Madrid erhalten. Laut ‚Sky‘ hat der Innenverteidiger bereits seine Unterschrift unter einen neuen Einjahresvertrag bis 2027 unterzeichnet. Die Fixmeldung soll nach den (…)",
+      "url": "https://www.fussballtransfers.com/a8860156728066272445-medien-ruediger-hat-unterschrieben",
+      "published": "2026-06-01T05:05:52+00:00",
+      "source": "fussballtransfers.com",
+      "source_id": "fussballtransfers",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.09,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "fussballtransfers.com",
+          "url": "https://www.fussballtransfers.com/a8860156728066272445-medien-ruediger-hat-unterschrieben",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.642,
+        "specificity": 0.4,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "53c7fadb2dca5ae3",
       "title": "BVB sucht Schmelzer-Ersatz | Titelchancen für BVB-Frauen! | Fehlende Millionen",
       "summary": "Wir sprechen heute über Marcel Schmelzer. Für ihn und seine Stelle sucht Borussia Dortmund nämlich einen Ersatz. Außerdem wird klar, wieviel Geld dem BVB in der Champions League durch die Lappen geht. Und die Frauen Abteilungen haben auch noch große Titelchancen. Das und noch mehr bei BVB kompakt!",
@@ -1286,7 +1342,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 5.1,
+      "score": 5.09,
       "category": "other",
       "confirmations": [
         {
@@ -1314,7 +1370,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.09,
+      "score": 5.08,
       "category": "other",
       "confirmations": [
         {
@@ -1327,37 +1383,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.906,
+        "recency": 0.904,
         "specificity": 0.2,
         "relevance": 0.0
-      }
-    },
-    {
-      "id": "73ca0ee89516de28",
-      "title": "Medien: Rüdiger hat unterschrieben",
-      "summary": "Antonio Rüdiger (33) bleibt Real Madrid erhalten. Laut ‚Sky‘ hat der Innenverteidiger bereits seine Unterschrift unter einen neuen Einjahresvertrag bis 2027 unterzeichnet. Die Fixmeldung soll nach den (…)",
-      "url": "https://www.fussballtransfers.com/a8860156728066272445-medien-ruediger-hat-unterschrieben",
-      "published": "2026-06-01T05:05:52+00:00",
-      "source": "fussballtransfers.com",
-      "source_id": "fussballtransfers",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.09,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "fussballtransfers.com",
-          "url": "https://www.fussballtransfers.com/a8860156728066272445-medien-ruediger-hat-unterschrieben",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.643,
-        "specificity": 0.4,
-        "relevance": 0.333
       }
     },
     {
@@ -1383,7 +1411,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.898,
+        "recency": 0.896,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1411,7 +1439,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.889,
+        "recency": 0.887,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1439,7 +1467,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.872,
+        "recency": 0.87,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1472,7 +1500,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.5,
-        "recency": 0.413,
+        "recency": 0.412,
         "specificity": 0.5,
         "relevance": 0.667
       }
@@ -1500,7 +1528,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.852,
+        "recency": 0.85,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1612,7 +1640,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.77,
+        "recency": 0.768,
         "specificity": 0.4,
         "relevance": 0.667
       }
@@ -1640,7 +1668,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.85,
+        "recency": 0.848,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1668,7 +1696,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.848,
+        "recency": 0.847,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1683,7 +1711,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.97,
+      "score": 4.96,
       "category": "other",
       "confirmations": [
         {
@@ -1696,7 +1724,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.846,
+        "recency": 0.845,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1724,7 +1752,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.842,
+        "recency": 0.841,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1739,7 +1767,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.94,
+      "score": 4.93,
       "category": "other",
       "confirmations": [
         {
@@ -1752,7 +1780,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.83,
+        "recency": 0.829,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1780,7 +1808,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.828,
+        "recency": 0.827,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1808,7 +1836,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.824,
+        "recency": 0.822,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1836,36 +1864,8 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.297,
+        "recency": 0.296,
         "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "4548989d509a5e91",
-      "title": "Wie ein Tischler seinen Lastwagen in ein glamouröses Wohnmobil verwandelte",
-      "summary": "Ein britischer Tischler kaufte einen alten Lastwagen – und baute ihn in zwölf Wochen zu einem vollwertigen Wohnmobil mit Luxusausstattung um.",
-      "url": "https://www.ruhr24.de/verbraucher/wie-ein-tischler-seinen-lastwagen-in-ein-glamouroeses-wohnmobil-verwandelte-zr-94331874.html",
-      "published": "2026-06-01T14:09:15+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.9,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/wie-ein-tischler-seinen-lastwagen-in-ein-glamouroeses-wohnmobil-verwandelte-zr-94331874.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.911,
-        "specificity": 0.0,
         "relevance": 0.0
       }
     },
@@ -1892,7 +1892,7 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.286,
+        "recency": 0.285,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1920,9 +1920,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.469,
+        "recency": 0.468,
         "specificity": 0.2,
         "relevance": 0.333
+      }
+    },
+    {
+      "id": "4548989d509a5e91",
+      "title": "Wie ein Tischler seinen Lastwagen in ein glamouröses Wohnmobil verwandelte",
+      "summary": "Ein britischer Tischler kaufte einen alten Lastwagen – und baute ihn in zwölf Wochen zu einem vollwertigen Wohnmobil mit Luxusausstattung um.",
+      "url": "https://www.ruhr24.de/verbraucher/wie-ein-tischler-seinen-lastwagen-in-ein-glamouroeses-wohnmobil-verwandelte-zr-94331874.html",
+      "published": "2026-06-01T14:09:15+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.89,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/wie-ein-tischler-seinen-lastwagen-in-ein-glamouroeses-wohnmobil-verwandelte-zr-94331874.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.91,
+        "specificity": 0.0,
+        "relevance": 0.0
       }
     },
     {
@@ -1948,7 +1976,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.808,
+        "recency": 0.807,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1976,7 +2004,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.816,
+        "recency": 0.814,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -2004,7 +2032,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.904,
+        "recency": 0.903,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -2032,7 +2060,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.805,
+        "recency": 0.803,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2060,7 +2088,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.802,
+        "recency": 0.8,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2088,7 +2116,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.33,
+        "recency": 0.329,
         "specificity": 0.5,
         "relevance": 1.0
       }
@@ -2172,7 +2200,35 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.779,
+        "recency": 0.778,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "2ab6dd5fff3e5550",
+      "title": "Trump wütet nach Papst-Treffen – „nutzlos“",
+      "summary": "Trump greift Papst Leo XIV. auf Truth Social an – weil der Pontifex Chicagos Bürgermeister Brandon Johnson empfangen hat.",
+      "url": "https://www.ruhr24.de/schlagzeilen/donald-trump-news-papst-leo-xivtruth-social-x-brandon-johnson-usa-washington-94331266.html",
+      "published": "2026-06-01T10:00:06+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.83,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/schlagzeilen/donald-trump-news-papst-leo-xivtruth-social-x-brandon-johnson-usa-washington-94331266.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.775,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2271,7 +2327,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.81,
+      "score": 4.78,
       "category": "other",
       "confirmations": [
         {
@@ -2284,7 +2340,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.768,
+        "recency": 0.767,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2312,7 +2368,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.765,
+        "recency": 0.764,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2368,63 +2424,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.757,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "ff7dc3b3f47e71e7",
-      "title": "Hund folgt einem überall hin: Was wirklich hinter dem Schatten-Modus steckt",
-      "summary": "Kaum aufgestanden, ist der Hund schon da – sogar vor der Badezimmertür. Viele halten das für pure Gewohnheit, doch dahinter stecken tiefere Mechanismen.",
-      "url": "https://www.ruhr24.de/verbraucher/hund-folgt-einem-ueberall-hin-was-wirklich-hinter-dem-schatten-modus-steckt-zr-94331589.html",
-      "published": "2026-06-01T12:21:09+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.78,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/hund-folgt-einem-ueberall-hin-was-wirklich-hinter-dem-schatten-modus-steckt-zr-94331589.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.85,
-        "specificity": 0.0,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "d2df93ccfa4099e1",
-      "title": "Platz 8 bis 18: Schalke-Boss Frank Baumann macht Transfer-Ansage",
-      "summary": "Schalke 04 will sich in der Bundesliga etablieren. Frank Baumann verrät, wo er die Transfer-Konkurrenz sieht und in welchen Ländern der S04 sucht.",
-      "url": "https://www.ruhr24.de/s04/fc-schalke-04-transfer-news-frank-baumann-abgaenge-zugaenge-japan-edin-dzeko-gelsenkirchen-s04-94331130.html",
-      "published": "2026-06-01T09:07:52+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.78,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/s04/fc-schalke-04-transfer-news-frank-baumann-abgaenge-zugaenge-japan-edin-dzeko-gelsenkirchen-s04-94331130.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.751,
+        "recency": 0.755,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2452,17 +2452,45 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.77,
+        "recency": 0.769,
         "specificity": 0.2,
         "relevance": 0.667
       }
     },
     {
-      "id": "9ef44a15d3faa5c6",
-      "title": "Wechseljahre bei Männern: So erkennen Sie die Symptome der Andropause",
-      "summary": "Auch Männer durchleben eine Phase der hormonellen Umstellung. Das kann zu unterschiedlichen Veränderungen im Körper und in der Psyche führen. Nur wer die Symptome der Andropause kennt, kann sich ein klares Bild machen.",
-      "url": "https://www.ruhr24.de/verbraucher/wechesljahre-bei-maennern-so-erkennen-sie-die-symptome-der-andropause-zr-94331110.html",
-      "published": "2026-06-01T09:00:01+00:00",
+      "id": "ff7dc3b3f47e71e7",
+      "title": "Hund folgt einem überall hin: Was wirklich hinter dem Schatten-Modus steckt",
+      "summary": "Kaum aufgestanden, ist der Hund schon da – sogar vor der Badezimmertür. Viele halten das für pure Gewohnheit, doch dahinter stecken tiefere Mechanismen.",
+      "url": "https://www.ruhr24.de/verbraucher/hund-folgt-einem-ueberall-hin-was-wirklich-hinter-dem-schatten-modus-steckt-zr-94331589.html",
+      "published": "2026-06-01T12:21:09+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.77,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/hund-folgt-einem-ueberall-hin-was-wirklich-hinter-dem-schatten-modus-steckt-zr-94331589.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.849,
+        "specificity": 0.0,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "d2df93ccfa4099e1",
+      "title": "Platz 8 bis 18: Schalke-Boss Frank Baumann macht Transfer-Ansage",
+      "summary": "Schalke 04 will sich in der Bundesliga etablieren. Frank Baumann verrät, wo er die Transfer-Konkurrenz sieht und in welchen Ländern der S04 sucht.",
+      "url": "https://www.ruhr24.de/s04/fc-schalke-04-transfer-news-frank-baumann-abgaenge-zugaenge-japan-edin-dzeko-gelsenkirchen-s04-94331130.html",
+      "published": "2026-06-01T09:07:52+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
@@ -2472,7 +2500,7 @@
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/wechesljahre-bei-maennern-so-erkennen-sie-die-symptome-der-andropause-zr-94331110.html",
+          "url": "https://www.ruhr24.de/s04/fc-schalke-04-transfer-news-frank-baumann-abgaenge-zugaenge-japan-edin-dzeko-gelsenkirchen-s04-94331130.html",
           "tier": 2
         }
       ],
@@ -2480,7 +2508,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.747,
+        "recency": 0.75,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2536,7 +2564,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.332,
+        "recency": 0.331,
         "specificity": 0.7,
         "relevance": 0.667
       }
@@ -2648,7 +2676,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.379,
+        "recency": 0.378,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -2663,7 +2691,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 4.69,
+      "score": 4.68,
       "category": "transfers",
       "confirmations": [
         {
@@ -2761,34 +2789,6 @@
         "credibility": 1.0,
         "confirmation": 0.25,
         "recency": 0.0,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "62e124c45155cba5",
-      "title": "🗣️Ole #Book arbeitet aktuell parallel an weiteren Verstärkungen für den Kader. Im Idealfall sollen die nächsten Personalien noch vor dem Start der WM abgeschlossen werden. 🗞️@WAZ_Redaktion #BVB",
-      "summary": "🗣️Ole #Book arbeitet aktuell parallel an weiteren Verstärkungen für den Kader. Im Idealfall sollen die nächsten Personalien noch vor dem Start der WM abgeschlossen werden. 🗞️ @WAZ_Redaktion #BVB",
-      "url": "https://nitter.net/AroooBVB/status/2061428992381485259#m",
-      "published": "2026-06-01T12:45:45+00:00",
-      "source": "Arooo BVB",
-      "source_id": "x_arooobvb",
-      "tier": 4,
-      "kind": "x",
-      "score": 4.64,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "Arooo BVB",
-          "url": "https://nitter.net/AroooBVB/status/2061428992381485259#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.864,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -2931,6 +2931,34 @@
         "recency": 0.0,
         "specificity": 0.2,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "62e124c45155cba5",
+      "title": "🗣️Ole #Book arbeitet aktuell parallel an weiteren Verstärkungen für den Kader. Im Idealfall sollen die nächsten Personalien noch vor dem Start der WM abgeschlossen werden. 🗞️@WAZ_Redaktion #BVB",
+      "summary": "🗣️Ole #Book arbeitet aktuell parallel an weiteren Verstärkungen für den Kader. Im Idealfall sollen die nächsten Personalien noch vor dem Start der WM abgeschlossen werden. 🗞️ @WAZ_Redaktion #BVB",
+      "url": "https://nitter.net/AroooBVB/status/2061428992381485259#m",
+      "published": "2026-06-01T12:45:45+00:00",
+      "source": "Arooo BVB",
+      "source_id": "x_arooobvb",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.63,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "Arooo BVB",
+          "url": "https://nitter.net/AroooBVB/status/2061428992381485259#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.862,
+        "specificity": 0.2,
+        "relevance": 0.333
       }
     },
     {
@@ -3101,7 +3129,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.464,
+        "recency": 0.463,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -3129,7 +3157,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.64,
+        "recency": 0.639,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3185,35 +3213,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.441,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "427ca17e8239f169",
-      "title": "RT by @gabumnn: Toter Vergleich, Nmecha viel besser",
-      "summary": "Toter Vergleich, Nmecha viel besser",
-      "url": "https://nitter.net/DChukwuemekaSZN/status/2061393505889509437#m",
-      "published": "2026-06-01T10:24:45+00:00",
-      "source": "gabumnn",
-      "source_id": "x_gabumnn",
-      "tier": 4,
-      "kind": "x",
-      "score": 4.49,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "gabumnn",
-          "url": "https://nitter.net/DChukwuemekaSZN/status/2061393505889509437#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.789,
+        "recency": 0.44,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3275,6 +3275,34 @@
       }
     },
     {
+      "id": "427ca17e8239f169",
+      "title": "RT by @gabumnn: Toter Vergleich, Nmecha viel besser",
+      "summary": "Toter Vergleich, Nmecha viel besser",
+      "url": "https://nitter.net/DChukwuemekaSZN/status/2061393505889509437#m",
+      "published": "2026-06-01T10:24:45+00:00",
+      "source": "gabumnn",
+      "source_id": "x_gabumnn",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.48,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "gabumnn",
+          "url": "https://nitter.net/DChukwuemekaSZN/status/2061393505889509437#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.788,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "4c261076b45593f7",
       "title": "BVB-Kandidat: 23-Millionen-Angebot für Yohanna",
       "summary": "Brighton &amp;amp; Hove Albion beschäftigt sich offenbar intensiv mit Zadok Yohanna. Wie die schwedische Zeitung ‚Expressen‘ berichtet, bereitet das Team von Fabian Hürzeler ein Angebot für den (…)",
@@ -3297,7 +3325,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.426,
+        "recency": 0.425,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3325,7 +3353,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.245,
+        "recency": 0.244,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3353,7 +3381,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.304,
+        "recency": 0.303,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -3409,7 +3437,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.409,
+        "recency": 0.408,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -3829,7 +3857,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.932,
+        "recency": 0.93,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -3862,7 +3890,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.5,
-        "recency": 0.164,
+        "recency": 0.163,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -3952,34 +3980,6 @@
       }
     },
     {
-      "id": "164f3ca567d3e1af",
-      "title": "RT by @gabumnn: Ich weiß das viele Bayern Fans mich deshalb hassen aber Nmecha ist der beste Mittelfeldspieler der Bundesliga & einer der 5 besten Mittelfeldspieler der Welt. Man sieht es nur nicht, weil Dortmund insgesamt einfach zu wenig Qualität hat. Es gibt so wenige Dinge die er nicht kann.",
-      "summary": "Ich weiß das viele Bayern Fans mich deshalb hassen aber Nmecha ist der beste Mittelfeldspieler der Bundesliga &amp; einer der 5 besten Mittelfeldspieler der Welt. Man sieht es nur nicht, weil Dortmund insgesamt einfach zu wenig Qualität hat. Es gibt so wenige Dinge die er nicht kann.",
-      "url": "https://nitter.net/garcon29__/status/2061170809037545481#m",
-      "published": "2026-05-31T19:39:50+00:00",
-      "source": "gabumnn",
-      "source_id": "x_gabumnn",
-      "tier": 4,
-      "kind": "x",
-      "score": 4.14,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "gabumnn",
-          "url": "https://nitter.net/garcon29__/status/2061170809037545481#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.447,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
       "id": "e356a49704cc2ae8",
       "title": "BVB empfängt AS Rom zur Saisoneröffnung",
       "summary": "&#32; submitted by &#32; /u/Chazy89 [link] &#32; [comments]",
@@ -4002,7 +4002,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.887,
+        "recency": 0.886,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -4033,6 +4033,34 @@
         "recency": 0.0,
         "specificity": 0.4,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "164f3ca567d3e1af",
+      "title": "RT by @gabumnn: Ich weiß das viele Bayern Fans mich deshalb hassen aber Nmecha ist der beste Mittelfeldspieler der Bundesliga & einer der 5 besten Mittelfeldspieler der Welt. Man sieht es nur nicht, weil Dortmund insgesamt einfach zu wenig Qualität hat. Es gibt so wenige Dinge die er nicht kann.",
+      "summary": "Ich weiß das viele Bayern Fans mich deshalb hassen aber Nmecha ist der beste Mittelfeldspieler der Bundesliga &amp; einer der 5 besten Mittelfeldspieler der Welt. Man sieht es nur nicht, weil Dortmund insgesamt einfach zu wenig Qualität hat. Es gibt so wenige Dinge die er nicht kann.",
+      "url": "https://nitter.net/garcon29__/status/2061170809037545481#m",
+      "published": "2026-05-31T19:39:50+00:00",
+      "source": "gabumnn",
+      "source_id": "x_gabumnn",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.13,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "gabumnn",
+          "url": "https://nitter.net/garcon29__/status/2061170809037545481#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.446,
+        "specificity": 0.2,
+        "relevance": 0.667
       }
     },
     {
@@ -4544,7 +4572,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.456,
+        "recency": 0.455,
         "specificity": 0.0,
         "relevance": 0.667
       }
@@ -4941,7 +4969,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.309,
+        "recency": 0.308,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -5081,7 +5109,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.692,
+        "recency": 0.691,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -5109,7 +5137,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.453,
+        "recency": 0.452,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -5516,7 +5544,7 @@
       "source_id": "yt_poehlerz",
       "tier": 4,
       "kind": "youtube",
-      "score": 3.53,
+      "score": 3.52,
       "category": "other",
       "confirmations": [
         {
@@ -5781,7 +5809,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.342,
+        "recency": 0.341,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -6509,7 +6537,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.275,
+        "recency": 0.274,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -6608,7 +6636,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 2.92,
+      "score": 2.91,
       "category": "other",
       "confirmations": [
         {
@@ -6845,7 +6873,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.266,
+        "recency": 0.265,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -7097,7 +7125,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.054,
+        "recency": 0.053,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -7125,7 +7153,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.185,
+        "recency": 0.184,
         "specificity": 0.2,
         "relevance": 0.0
       }
