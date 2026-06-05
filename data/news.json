@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T19:15:59.803926+00:00",
+  "updated_at": "2026-06-05T19:19:19.974815+00:00",
   "items": [
     {
       "id": "33703cfb172133ac",
@@ -11,7 +11,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 6.85,
+      "score": 6.84,
       "category": "injury",
       "confirmations": [
         {
@@ -29,7 +29,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.5,
-        "recency": 0.957,
+        "recency": 0.955,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -44,7 +44,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.39,
+      "score": 6.38,
       "category": "other",
       "confirmations": [
         {
@@ -57,7 +57,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.882,
+        "recency": 0.88,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -72,7 +72,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 6.31,
+      "score": 6.3,
       "category": "injury",
       "confirmations": [
         {
@@ -90,7 +90,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.5,
-        "recency": 0.686,
+        "recency": 0.684,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -123,7 +123,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.674,
+        "recency": 0.672,
         "specificity": 0.5,
         "relevance": 0.667
       }
@@ -151,7 +151,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.928,
+        "recency": 0.926,
         "specificity": 0.7,
         "relevance": 0.333
       }
@@ -179,37 +179,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.818,
+        "recency": 0.817,
         "specificity": 0.2,
         "relevance": 1.0
-      }
-    },
-    {
-      "id": "cf9d4016785b9cb5",
-      "title": "Transfer-Hammer um BVB-Flirt Said El Mala: Für Köln kommt es jetzt knüppeldick",
-      "summary": "Insgesamt 50 Millionen Euro lagen für den 1. FC Köln auf dem Tisch. Dann sprach Said El Mala ein Machtwort. Und der BVB hört ganz genau hin.",
-      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-said-el-mala-wechsel-geplatzt-fc-brentford-abloese-handgelb-boni-borussia-dortmund-94338602.html",
-      "published": "2026-06-05T16:22:02+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.9,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-said-el-mala-wechsel-geplatzt-fc-brentford-abloese-handgelb-boni-borussia-dortmund-94338602.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.894,
-        "specificity": 0.7,
-        "relevance": 0.333
       }
     },
     {
@@ -235,8 +207,36 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.873,
+        "recency": 0.871,
         "specificity": 0.4,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "cf9d4016785b9cb5",
+      "title": "Transfer-Hammer um BVB-Flirt Said El Mala: Für Köln kommt es jetzt knüppeldick",
+      "summary": "Insgesamt 50 Millionen Euro lagen für den 1. FC Köln auf dem Tisch. Dann sprach Said El Mala ein Machtwort. Und der BVB hört ganz genau hin.",
+      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-said-el-mala-wechsel-geplatzt-fc-brentford-abloese-handgelb-boni-borussia-dortmund-94338602.html",
+      "published": "2026-06-05T16:22:02+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.89,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-said-el-mala-wechsel-geplatzt-fc-brentford-abloese-handgelb-boni-borussia-dortmund-94338602.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.892,
+        "specificity": 0.7,
         "relevance": 0.333
       }
     },
@@ -250,7 +250,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.86,
+      "score": 5.85,
       "category": "other",
       "confirmations": [
         {
@@ -263,7 +263,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.782,
+        "recency": 0.78,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -278,7 +278,7 @@
       "source_id": "11freunde",
       "tier": 2,
       "kind": "rss",
-      "score": 5.86,
+      "score": 5.85,
       "category": "other",
       "confirmations": [
         {
@@ -291,7 +291,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.848,
+        "recency": 0.847,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -319,7 +319,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.951,
+        "recency": 0.949,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -347,7 +347,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.993,
+        "recency": 0.991,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -375,9 +375,37 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.65,
+        "recency": 0.649,
         "specificity": 0.0,
         "relevance": 0.333
+      }
+    },
+    {
+      "id": "774addb5edb5d537",
+      "title": "Bitterer Pflege-Hammer – 1,7 Millionen droht jetzt weniger Rente",
+      "summary": "Wer sich aufopfert, muss mit Einbußen rechnen: Die Pflegereform will Millionen Pflegenden an die Rente.",
+      "url": "https://www.ruhr24.de/service/rente/rente-pflege-hammer-millionen-weniger-rentembeitraege-nina-warken-pflegereform-kuerzung-94338717.html",
+      "published": "2026-06-05T19:00:44+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.75,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/service/rente/rente-pflege-hammer-millionen-weniger-rentembeitraege-nina-warken-pflegereform-kuerzung-94338717.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.988,
+        "specificity": 0.7,
+        "relevance": 0.0
       }
     },
     {
@@ -390,7 +418,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.74,
+      "score": 5.73,
       "category": "transfers",
       "confirmations": [
         {
@@ -403,7 +431,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.555,
+        "recency": 0.554,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -431,7 +459,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.715,
+        "recency": 0.713,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -487,7 +515,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.852,
+        "recency": 0.851,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -515,7 +543,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.928,
+        "recency": 0.926,
         "specificity": 0.7,
         "relevance": 0.0
       }
@@ -543,7 +571,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.746,
+        "recency": 0.744,
         "specificity": 0.4,
         "relevance": 0.667
       }
@@ -558,7 +586,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.61,
+      "score": 5.6,
       "category": "other",
       "confirmations": [
         {
@@ -571,9 +599,37 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.916,
+        "recency": 0.915,
         "specificity": 0.0,
         "relevance": 0.0
+      }
+    },
+    {
+      "id": "108dcd94f6081c18",
+      "title": "R to @LafonateBVB: Positionsgetreu wäre natürlich auch Adeyemi eine Option. Aber wenn es nach mir geht, hat El Mala es sich am meisten verdient.",
+      "summary": "Positionsgetreu wäre natürlich auch Adeyemi eine Option. Aber wenn es nach mir geht, hat El Mala es sich am meisten verdient.",
+      "url": "https://nitter.net/LafonateBVB/status/2062966507512971581#m",
+      "published": "2026-06-05T18:35:18+00:00",
+      "source": "lafonateBVB",
+      "source_id": "x_lafonatebvb",
+      "tier": 4,
+      "kind": "x",
+      "score": 5.54,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "lafonateBVB",
+          "url": "https://nitter.net/LafonateBVB/status/2062966507512971581#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.972,
+        "specificity": 0.2,
+        "relevance": 0.667
       }
     },
     {
@@ -586,7 +642,7 @@
       "source_id": "x_lafonatebvb",
       "tier": 4,
       "kind": "x",
-      "score": 5.55,
+      "score": 5.54,
       "category": "transfers",
       "confirmations": [
         {
@@ -599,7 +655,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.81,
+        "recency": 0.809,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -642,7 +698,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 5.52,
+      "score": 5.51,
       "category": "transfers",
       "confirmations": [
         {
@@ -655,37 +711,9 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.796,
+        "recency": 0.794,
         "specificity": 0.2,
         "relevance": 1.0
-      }
-    },
-    {
-      "id": "5560b166df8465f1",
-      "title": "Gänsehaut bei Italien-Sieg: Historisches Debüt für BVB-Profi Inacio – Mane überzeugt sofort",
-      "summary": "Gänsehaut-Momente: Die BVB-Profis Mane und Inacio feiern ihr Debüt für Italiens A-Nationalmannschaft. Einer von ihnen schreibt dabei sogar Fußball-Geschichte.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-talente-mane-inacio-italien-debuet-nationalmannschaft-reggiani-duarte-w1203441-2002092234/",
-      "published": "2026-06-05T12:05:00+00:00",
-      "source": "Ruhr Nachrichten BVB",
-      "source_id": "rn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.48,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "Ruhr Nachrichten BVB",
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-talente-mane-inacio-italien-debuet-nationalmannschaft-reggiani-duarte-w1203441-2002092234/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.758,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -711,7 +739,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.686,
+        "recency": 0.684,
         "specificity": 0.7,
         "relevance": 0.333
       }
@@ -749,36 +777,36 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.75,
-        "recency": 0.318,
+        "recency": 0.317,
         "specificity": 0.2,
         "relevance": 0.667
       }
     },
     {
-      "id": "8ca6bad1ff6841c9",
-      "title": "Transfer-Missverständnis: BVB winken plötzlich 25 Millionen für Bankdrücker",
-      "summary": "Dem BVB winkt unter Umständen ein warmer Geldregen. Ein Spieler, der in der abgelaufenen Saison kaum Spielzeit hatte, könnte viel Kohle einbringen.",
-      "url": "https://www.ruhr24.de/bvb/bvb-transfer-yan-couto-abgang-como-angebot-25-millionen-euro-wechsel-vertrag-borussia-dortmund-94337463.html",
-      "published": "2026-06-05T09:02:46+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
+      "id": "5560b166df8465f1",
+      "title": "Gänsehaut bei Italien-Sieg: Historisches Debüt für BVB-Profi Inacio – Mane überzeugt sofort",
+      "summary": "Gänsehaut-Momente: Die BVB-Profis Mane und Inacio feiern ihr Debüt für Italiens A-Nationalmannschaft. Einer von ihnen schreibt dabei sogar Fußball-Geschichte.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-talente-mane-inacio-italien-debuet-nationalmannschaft-reggiani-duarte-w1203441-2002092234/",
+      "published": "2026-06-05T12:05:00+00:00",
+      "source": "Ruhr Nachrichten BVB",
+      "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.46,
-      "category": "transfers",
+      "score": 5.47,
+      "category": "matchday",
       "confirmations": [
         {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-transfer-yan-couto-abgang-como-angebot-25-millionen-euro-wechsel-vertrag-borussia-dortmund-94337463.html",
+          "source": "Ruhr Nachrichten BVB",
+          "url": "https://www.ruhrnachrichten.de/bvb/bvb-talente-mane-inacio-italien-debuet-nationalmannschaft-reggiani-duarte-w1203441-2002092234/",
           "tier": 2
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.7,
+        "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.675,
-        "specificity": 0.7,
+        "recency": 0.757,
+        "specificity": 0.2,
         "relevance": 0.333
       }
     },
@@ -792,7 +820,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.46,
+      "score": 5.45,
       "category": "transfers",
       "confirmations": [
         {
@@ -805,7 +833,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.749,
+        "recency": 0.747,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -833,7 +861,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.918,
+        "recency": 0.916,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -848,7 +876,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.4,
+      "score": 5.39,
       "category": "other",
       "confirmations": [
         {
@@ -861,7 +889,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.894,
+        "recency": 0.893,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -889,7 +917,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.631,
+        "recency": 0.63,
         "specificity": 0.7,
         "relevance": 1.0
       }
@@ -917,36 +945,8 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.838,
+        "recency": 0.836,
         "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "161358fd167909da",
-      "title": "😯 The last one is BEAST MODE for a reason! 🤣",
-      "summary": "",
-      "url": "https://www.youtube.com/shorts/tstscFG-wUk",
-      "published": "2026-06-05T12:00:21+00:00",
-      "source": "YouTube BVB (offiziell)",
-      "source_id": "yt_bvb_official",
-      "tier": 3,
-      "kind": "youtube",
-      "score": 5.29,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "YouTube BVB (offiziell)",
-          "url": "https://www.youtube.com/shorts/tstscFG-wUk",
-          "tier": 3
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.9,
-        "confirmation": 0.25,
-        "recency": 0.756,
-        "specificity": 0.0,
         "relevance": 0.0
       }
     },
@@ -973,8 +973,36 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.854,
+        "recency": 0.852,
         "specificity": 0.5,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "161358fd167909da",
+      "title": "😯 The last one is BEAST MODE for a reason! 🤣",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/tstscFG-wUk",
+      "published": "2026-06-05T12:00:21+00:00",
+      "source": "YouTube BVB (offiziell)",
+      "source_id": "yt_bvb_official",
+      "tier": 3,
+      "kind": "youtube",
+      "score": 5.28,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "YouTube BVB (offiziell)",
+          "url": "https://www.youtube.com/shorts/tstscFG-wUk",
+          "tier": 3
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.9,
+        "confirmation": 0.25,
+        "recency": 0.754,
+        "specificity": 0.0,
         "relevance": 0.0
       }
     },
@@ -1001,7 +1029,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.306,
+        "recency": 0.305,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1029,7 +1057,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.806,
+        "recency": 0.804,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1057,7 +1085,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.807,
+        "recency": 0.805,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1085,7 +1113,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.973,
+        "recency": 0.971,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1113,7 +1141,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.957,
+        "recency": 0.955,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1169,7 +1197,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.918,
+        "recency": 0.916,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1225,7 +1253,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.732,
+        "recency": 0.731,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1253,7 +1281,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.888,
+        "recency": 0.887,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1337,7 +1365,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.377,
+        "recency": 0.376,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1365,7 +1393,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.535,
+        "recency": 0.533,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1380,7 +1408,7 @@
       "source_id": "x_bild_sport",
       "tier": 2,
       "kind": "x",
-      "score": 5.01,
+      "score": 5.0,
       "category": "other",
       "confirmations": [
         {
@@ -1393,7 +1421,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.799,
+        "recency": 0.797,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -1421,7 +1449,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.792,
+        "recency": 0.79,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -1553,7 +1581,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.96,
+      "score": 4.95,
       "category": "injury",
       "confirmations": [
         {
@@ -1566,7 +1594,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.842,
+        "recency": 0.84,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1594,7 +1622,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.824,
+        "recency": 0.822,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1622,35 +1650,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.82,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "c870fca1b2f3c3a0",
-      "title": "Hautkrebs-Risiko durch Gelnägel: Das sollten Sie unbedingt wissen",
-      "summary": "Shellac- und Gelnägel sind beliebt, können aber Haut und Nägel schädigen. Erfahren Sie, welche Risiken bestehen und wie Sie Ihre Nägel schützen.",
-      "url": "https://www.ruhr24.de/verbraucher/shellac-und-gelnaegel-diese-risiken-sollten-sie-kennen-krebs-haut-zr-94337501.html",
-      "published": "2026-06-05T14:00:00+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.91,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/shellac-und-gelnaegel-diese-risiken-sollten-sie-kennen-krebs-haut-zr-94337501.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.816,
+        "recency": 0.818,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1678,9 +1678,37 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.319,
+        "recency": 0.318,
         "specificity": 0.2,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "c870fca1b2f3c3a0",
+      "title": "Hautkrebs-Risiko durch Gelnägel: Das sollten Sie unbedingt wissen",
+      "summary": "Shellac- und Gelnägel sind beliebt, können aber Haut und Nägel schädigen. Erfahren Sie, welche Risiken bestehen und wie Sie Ihre Nägel schützen.",
+      "url": "https://www.ruhr24.de/verbraucher/shellac-und-gelnaegel-diese-risiken-sollten-sie-kennen-krebs-haut-zr-94337501.html",
+      "published": "2026-06-05T14:00:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.9,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/shellac-und-gelnaegel-diese-risiken-sollten-sie-kennen-krebs-haut-zr-94337501.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.815,
+        "specificity": 0.2,
+        "relevance": 0.0
       }
     },
     {
@@ -1706,7 +1734,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.797,
+        "recency": 0.795,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1734,7 +1762,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.811,
+        "recency": 0.809,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1762,7 +1790,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.811,
+        "recency": 0.809,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1852,34 +1880,6 @@
       }
     },
     {
-      "id": "e084327a37efce94",
-      "title": "Absagen-Flut bringt Trump auf 180: „Wollen keine talentlosen Sänger“",
-      "summary": "Stars sagen ihm reihenweise ab. Nun dreht Trump den Spieß anlässlich der US-Jubiläumsfeier kurzerhand um – mit einer Programmänderung.",
-      "url": "https://www.ruhr24.de/schlagzeilen/donald-trump-250-geburtstag-usa-konzert-reihe-commodores-bret-michaels-milli-vanilli-94338349.html",
-      "published": "2026-06-05T15:30:10+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.81,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/schlagzeilen/donald-trump-250-geburtstag-usa-konzert-reihe-commodores-bret-michaels-milli-vanilli-94338349.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.865,
-        "specificity": 0.0,
-        "relevance": 0.0
-      }
-    },
-    {
       "id": "c9f11f4a9e295cc5",
       "title": "Kurioser Unfall im Ruhrgebiet: Autofahrer donnert plötzlich in Küche",
       "summary": "Böses Erwachen für Bewohner eines Mehrfamilienhauses in Essen: Ein ungebetener Gast krachte mitten durch ihre Außenwand.",
@@ -1902,8 +1902,36 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.768,
+        "recency": 0.767,
         "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "e084327a37efce94",
+      "title": "Absagen-Flut bringt Trump auf 180: „Wollen keine talentlosen Sänger“",
+      "summary": "Stars sagen ihm reihenweise ab. Nun dreht Trump den Spieß anlässlich der US-Jubiläumsfeier kurzerhand um – mit einer Programmänderung.",
+      "url": "https://www.ruhr24.de/schlagzeilen/donald-trump-250-geburtstag-usa-konzert-reihe-commodores-bret-michaels-milli-vanilli-94338349.html",
+      "published": "2026-06-05T15:30:10+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.8,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/schlagzeilen/donald-trump-250-geburtstag-usa-konzert-reihe-commodores-bret-michaels-milli-vanilli-94338349.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.863,
+        "specificity": 0.0,
         "relevance": 0.0
       }
     },
@@ -1930,7 +1958,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.755,
+        "recency": 0.753,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1958,7 +1986,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.754,
+        "recency": 0.752,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1986,7 +2014,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.753,
+        "recency": 0.751,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2014,7 +2042,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.752,
+        "recency": 0.751,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2029,7 +2057,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.77,
+      "score": 4.76,
       "category": "transfers",
       "confirmations": [
         {
@@ -2042,7 +2070,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.746,
+        "recency": 0.744,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2070,7 +2098,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.744,
+        "recency": 0.743,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2098,7 +2126,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.743,
+        "recency": 0.741,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2126,7 +2154,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.737,
+        "recency": 0.735,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2141,7 +2169,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.75,
+      "score": 4.74,
       "category": "other",
       "confirmations": [
         {
@@ -2154,7 +2182,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.736,
+        "recency": 0.735,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2182,7 +2210,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.733,
+        "recency": 0.732,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2210,7 +2238,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.051,
+        "recency": 0.05,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -2238,7 +2266,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.728,
+        "recency": 0.726,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2281,7 +2309,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.72,
+      "score": 4.71,
       "category": "transfers",
       "confirmations": [
         {
@@ -2292,9 +2320,9 @@
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.7,
+        "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.722,
+        "recency": 0.72,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2350,7 +2378,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.704,
+        "recency": 0.703,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2378,7 +2406,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.703,
+        "recency": 0.701,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2509,6 +2537,34 @@
       "category": "injury",
       "confirmations": [
         {
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/eine-woche-vor-dem-supercup-bvb-empfaengt-die-roma-1224459/artikel#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.02,
+        "specificity": 0.2,
+        "relevance": 1.0
+      }
+    },
+    {
+      "id": "51cdeb85ad478ceb",
+      "title": "Verbraucherzentrale warnt vor Fakeshops für WM-Trikots",
+      "summary": "Kurz vor der WM warnt die Verbraucherzentrale Rheinland-Pfalz vor Fakeshops, die im Internet sehr günstig Fußball-Trikots anbieten. Die Shops sitzen meist in China, Käuferinnen und Käufer droht der Verlust des Geldes.",
+      "url": "https://www.ruhr24.de/verbraucher/verbraucherzentrale-warnt-vor-fakeshops-fuer-wm-trikots-zr-94337580.html",
+      "published": "2026-06-05T09:45:01+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.66,
+      "category": "injury",
+      "confirmations": [
+        {
           "source": "RUHR24 BVB",
           "url": "https://www.ruhr24.de/verbraucher/verbraucherzentrale-warnt-vor-fakeshops-fuer-wm-trikots-zr-94337580.html",
           "tier": 2
@@ -2518,7 +2574,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.693,
+        "recency": 0.692,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2630,7 +2686,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.695,
+        "recency": 0.694,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -2686,35 +2742,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.684,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "c232ece74c6bd3b2",
-      "title": "Deutschland-Premiere: Billigairline startet erste Langstrecke zu Traumziel",
-      "summary": "Noch läuft der Sommerflugplan – doch Düsseldorf plant schon den Winter. Corendon Airlines kündigt eine Karibik-Premiere ab dem Rhein-Airport an.",
-      "url": "https://www.ruhr24.de/verbraucher/deutschland-premiere-billigairline-startet-erste-langstrecke-zu-traumziel-zr-94335074.html",
-      "published": "2026-06-05T09:17:00+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.64,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/deutschland-premiere-billigairline-startet-erste-langstrecke-zu-traumziel-zr-94335074.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.681,
+        "recency": 0.682,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2742,7 +2770,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.417,
+        "recency": 0.416,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -2776,6 +2804,34 @@
       }
     },
     {
+      "id": "c232ece74c6bd3b2",
+      "title": "Deutschland-Premiere: Billigairline startet erste Langstrecke zu Traumziel",
+      "summary": "Noch läuft der Sommerflugplan – doch Düsseldorf plant schon den Winter. Corendon Airlines kündigt eine Karibik-Premiere ab dem Rhein-Airport an.",
+      "url": "https://www.ruhr24.de/verbraucher/deutschland-premiere-billigairline-startet-erste-langstrecke-zu-traumziel-zr-94335074.html",
+      "published": "2026-06-05T09:17:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.63,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/deutschland-premiere-billigairline-startet-erste-langstrecke-zu-traumziel-zr-94335074.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.679,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
       "id": "96f5f464106e2254",
       "title": "Verkaufsoffener Sonntag in NRW: 8 Städte öffnen am 7. Juni die Geschäfte",
       "summary": "Feste, Märkte und sogar eine Drehorgel-Wallfahrt: Am 7. Juni lohnt sich in NRW der Sonntagsbummel gleich in mehreren Städten.",
@@ -2798,7 +2854,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.679,
+        "recency": 0.677,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2826,7 +2882,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.337,
+        "recency": 0.336,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -2938,7 +2994,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.675,
+        "recency": 0.673,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -3005,6 +3061,34 @@
       }
     },
     {
+      "id": "87ea0b3be1903331",
+      "title": "Ein Redaktionsgespräch über den aktuellen BVB: Zwischen Pflichttermin und Leidenschaft",
+      "summary": "Der BVB qualifiziert sich souverän für die Champions League und entfacht dennoch keine Euphorie. Wir begeben uns auf Spurensuche und gewähren euch exklusive Einblicke in unseren internen Redaktionschat.",
+      "url": "https://www.schwatzgelb.de/artikel/2026/unsa-senf/zwischen-pflichttermin-und-leidenschaft-ein-redaktionsgespraech-ueber-den-aktuellen-bvb",
+      "published": "2026-06-05T07:05:00+00:00",
+      "source": "Schwatzgelb",
+      "source_id": "schwatzgelb",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.51,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Schwatzgelb",
+          "url": "https://www.schwatzgelb.de/artikel/2026/unsa-senf/zwischen-pflichttermin-und-leidenschaft-ein-redaktionsgespraech-ueber-den-aktuellen-bvb",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.624,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "e5eaad73dc330e3e",
       "title": "Kennet #Eichhorn und sein Berater verlangen bei einem möglichen Transfer ein Handgeld von 10 Mio € . Ihre Argumentation ist der Spieler habe einen Marktwert von 20 Mio €, deshalb sei die Forderung völlig marktüblich. Beim BVB sieht man das allerdings anders dort hält man die Summe für zu hoch. Die Haltung in der Chefetage ist eindeutig: Wenn Eichhorn seine sportliche Entwicklung in den Vordergrund stellt, sollte er sich für Borussia Dortmund entscheiden. Falls Geld für ihn wichtiger ist, sei der #BVB nicht der passende Verein. Ein Gesamtpaket von 20 Mio € wird Borussia Dortmund für den Transfer nicht bezahlen. 🗞️ @SPORTBILD via @bvbnewsblog #BVB",
       "summary": "Kennet #Eichhorn und sein Berater verlangen bei einem möglichen Transfer ein Handgeld von 10 Mio € . Ihre Argumentation ist der Spieler habe einen Marktwert von 20 Mio €, deshalb sei die Forderung völlig marktüblich. Beim BVB sieht man das allerdings anders dort hält man die Summe für zu hoch. Die Haltung in der Chefetage ist eindeutig: Wenn Eichhorn seine sportliche Entwicklung in den Vordergrund stellt, sollte er sich für Borussia Dortmund entscheiden. Falls Geld für ihn wichtiger ist, sei der",
@@ -3014,7 +3098,7 @@
       "source_id": "x_lafonatebvb",
       "tier": 4,
       "kind": "x",
-      "score": 4.52,
+      "score": 4.51,
       "category": "transfers",
       "confirmations": [
         {
@@ -3111,7 +3195,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.272,
+        "recency": 0.271,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -3271,7 +3355,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.43,
+      "score": 4.42,
       "category": "other",
       "confirmations": [
         {
@@ -3284,7 +3368,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.676,
+        "recency": 0.675,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -3340,7 +3424,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.237,
+        "recency": 0.236,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -3368,7 +3452,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.29,
+        "recency": 0.289,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -3383,7 +3467,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 4.38,
+      "score": 4.37,
       "category": "other",
       "confirmations": [
         {
@@ -3396,7 +3480,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.3,
+        "recency": 0.299,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -3681,7 +3765,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.134,
+        "recency": 0.133,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3765,7 +3849,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.31,
+        "recency": 0.309,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -3793,7 +3877,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.134,
+        "recency": 0.133,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -3933,7 +4017,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.455,
+        "recency": 0.454,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -4101,7 +4185,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.089,
+        "recency": 0.088,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4303,34 +4387,6 @@
       }
     },
     {
-      "id": "396cdf4e8aeb8aaf",
-      "title": "Karim #Adeyemi widerspricht diesen Darstellungen jedoch deutlich: „Viele Dinge erfahre ich selbst oft erst über die Medien oder weil sie mir zugeschickt werden und sie entsprechen einfach nicht der Wahrheit. Zum Beispiel, wenn es um Gehaltsforderungen oder sowas geht.“ Statt öffentlicher Diskussionen wünscht sich Adeyemi vor allem offene Gespräche mit den Verantwortlichen: „Für mich ist wichtig, dass man sich mit mir und meinem Management zusammensetzt und offen spricht egal, ob die Antwort am Ende Ja oder Nein lautet. Wenn mir jemand sagt, dass es nicht passt, respektiere ich das genauso wie eine positive Entscheidung.“ Zudem betont der Offensivspieler: „Am Ende möchte ich einfach weiterhin Wertschätzung spüren und auf dem Platz alles geben.“ Wie es langfristig mit Adeyemi in Dortmund weitergeht, dürfte sich in den kommenden Wochen entscheiden. 🗞️ @RNBVB #BVB",
-      "summary": "Karim #Adeyemi widerspricht diesen Darstellungen jedoch deutlich: „Viele Dinge erfahre ich selbst oft erst über die Medien oder weil sie mir zugeschickt werden und sie entsprechen einfach nicht der Wahrheit. Zum Beispiel, wenn es um Gehaltsforderungen oder sowas geht.“ Statt öffentlicher Diskussionen wünscht sich Adeyemi vor allem offene Gespräche mit den Verantwortlichen: „Für mich ist wichtig, dass man sich mit mir und meinem Management zusammensetzt und offen spricht egal, ob die Antwort am E",
-      "url": "https://nitter.net/LafonateBVB/status/2061802748329242694#m",
-      "published": "2026-06-02T13:30:56+00:00",
-      "source": "lafonateBVB",
-      "source_id": "x_lafonatebvb",
-      "tier": 4,
-      "kind": "x",
-      "score": 4.03,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "lafonateBVB",
-          "url": "https://nitter.net/LafonateBVB/status/2061802748329242694#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.05,
-        "specificity": 0.2,
-        "relevance": 1.0
-      }
-    },
-    {
       "id": "179297a02c8e312e",
       "title": "📢 | Marcel Sabitzer soll keinesfalls abgegeben werden und ist fest für die kommende Saison eingeplant. 🗞️@SPORTBILD",
       "summary": "📢 | Marcel Sabitzer soll keinesfalls abgegeben werden und ist fest für die kommende Saison eingeplant. 🗞️ @SPORTBILD",
@@ -4386,7 +4442,35 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.046,
+        "recency": 0.045,
+        "specificity": 0.2,
+        "relevance": 1.0
+      }
+    },
+    {
+      "id": "396cdf4e8aeb8aaf",
+      "title": "Karim #Adeyemi widerspricht diesen Darstellungen jedoch deutlich: „Viele Dinge erfahre ich selbst oft erst über die Medien oder weil sie mir zugeschickt werden und sie entsprechen einfach nicht der Wahrheit. Zum Beispiel, wenn es um Gehaltsforderungen oder sowas geht.“ Statt öffentlicher Diskussionen wünscht sich Adeyemi vor allem offene Gespräche mit den Verantwortlichen: „Für mich ist wichtig, dass man sich mit mir und meinem Management zusammensetzt und offen spricht egal, ob die Antwort am Ende Ja oder Nein lautet. Wenn mir jemand sagt, dass es nicht passt, respektiere ich das genauso wie eine positive Entscheidung.“ Zudem betont der Offensivspieler: „Am Ende möchte ich einfach weiterhin Wertschätzung spüren und auf dem Platz alles geben.“ Wie es langfristig mit Adeyemi in Dortmund weitergeht, dürfte sich in den kommenden Wochen entscheiden. 🗞️ @RNBVB #BVB",
+      "summary": "Karim #Adeyemi widerspricht diesen Darstellungen jedoch deutlich: „Viele Dinge erfahre ich selbst oft erst über die Medien oder weil sie mir zugeschickt werden und sie entsprechen einfach nicht der Wahrheit. Zum Beispiel, wenn es um Gehaltsforderungen oder sowas geht.“ Statt öffentlicher Diskussionen wünscht sich Adeyemi vor allem offene Gespräche mit den Verantwortlichen: „Für mich ist wichtig, dass man sich mit mir und meinem Management zusammensetzt und offen spricht egal, ob die Antwort am E",
+      "url": "https://nitter.net/LafonateBVB/status/2061802748329242694#m",
+      "published": "2026-06-02T13:30:56+00:00",
+      "source": "lafonateBVB",
+      "source_id": "x_lafonatebvb",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.02,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "lafonateBVB",
+          "url": "https://nitter.net/LafonateBVB/status/2061802748329242694#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.05,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4755,7 +4839,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.009,
+        "recency": 0.008,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4923,7 +5007,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.948,
+        "recency": 0.946,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -4966,7 +5050,7 @@
       "source_id": "x_borussia0977",
       "tier": 4,
       "kind": "x",
-      "score": 3.88,
+      "score": 3.87,
       "category": "transfers",
       "confirmations": [
         {
@@ -5152,7 +5236,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.053,
+        "recency": 0.052,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -5208,7 +5292,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.624,
+        "recency": 0.622,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -5223,7 +5307,7 @@
       "source_id": "x_arooobvb",
       "tier": 4,
       "kind": "x",
-      "score": 3.67,
+      "score": 3.66,
       "category": "other",
       "confirmations": [
         {
@@ -5325,7 +5409,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.798,
+        "recency": 0.796,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -5493,7 +5577,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.169,
+        "recency": 0.168,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -5829,7 +5913,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.045,
+        "recency": 0.044,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6152,7 +6236,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.21,
+      "score": 3.2,
       "category": "other",
       "confirmations": [
         {
@@ -6165,7 +6249,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.157,
+        "recency": 0.156,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -6501,7 +6585,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.138,
+        "recency": 0.137,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -7388,8 +7472,8 @@
     },
     "by_category": {
       "injury": 38,
-      "other": 125,
-      "transfers": 71,
+      "other": 126,
+      "transfers": 70,
       "official": 13,
       "matchday": 12,
       "background": 2
