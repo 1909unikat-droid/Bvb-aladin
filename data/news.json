@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T15:42:04.799058+00:00",
+  "updated_at": "2026-06-11T15:55:30.708861+00:00",
   "items": [
     {
       "id": "9c2a0c86ccf2a908",
@@ -11,7 +11,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 6.8,
+      "score": 6.79,
       "category": "other",
       "confirmations": [
         {
@@ -24,7 +24,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.931,
+        "recency": 0.923,
         "specificity": 0.5,
         "relevance": 0.667
       }
@@ -39,7 +39,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.22,
+      "score": 6.21,
       "category": "transfers",
       "confirmations": [
         {
@@ -52,7 +52,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.799,
+        "recency": 0.792,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -67,7 +67,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.22,
+      "score": 6.2,
       "category": "transfers",
       "confirmations": [
         {
@@ -80,7 +80,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.796,
+        "recency": 0.789,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -95,7 +95,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 6.21,
+      "score": 6.2,
       "category": "other",
       "confirmations": [
         {
@@ -108,7 +108,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.97,
+        "recency": 0.961,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -123,7 +123,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.04,
+      "score": 6.03,
       "category": "transfers",
       "confirmations": [
         {
@@ -136,35 +136,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.876,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
-      "id": "86ff5a8dfc0028f9",
-      "title": "Transfer fix: BVB-Team bedient sich bei Bundesliga-Absteiger",
-      "summary": "Die BVB-Frauen bedienen sich in der Bundesliga. Dortmunds Trainer Markus Högner hat die neue Spielerin schon über zehn Jahre trainiert.",
-      "url": "https://www.ruhr24.de/bvb/bvb-news-frauen-transfer-neuzugang-jacqueline-meissner-sgs-essen-bundesliga-borussia-dortmund-94346902.html",
-      "published": "2026-06-11T13:36:00+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.79,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-news-frauen-transfer-neuzugang-jacqueline-meissner-sgs-essen-bundesliga-borussia-dortmund-94346902.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.922,
+        "recency": 0.868,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -179,7 +151,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 5.79,
+      "score": 5.78,
       "category": "injury",
       "confirmations": [
         {
@@ -192,9 +164,37 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.935,
+        "recency": 0.927,
         "specificity": 0.2,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "86ff5a8dfc0028f9",
+      "title": "Transfer fix: BVB-Team bedient sich bei Bundesliga-Absteiger",
+      "summary": "Die BVB-Frauen bedienen sich in der Bundesliga. Dortmunds Trainer Markus Högner hat die neue Spielerin schon über zehn Jahre trainiert.",
+      "url": "https://www.ruhr24.de/bvb/bvb-news-frauen-transfer-neuzugang-jacqueline-meissner-sgs-essen-bundesliga-borussia-dortmund-94346902.html",
+      "published": "2026-06-11T13:36:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.77,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/bvb/bvb-news-frauen-transfer-neuzugang-jacqueline-meissner-sgs-essen-bundesliga-borussia-dortmund-94346902.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.914,
+        "specificity": 0.2,
+        "relevance": 0.667
       }
     },
     {
@@ -207,7 +207,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.76,
+      "score": 5.75,
       "category": "other",
       "confirmations": [
         {
@@ -220,7 +220,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.803,
+        "recency": 0.796,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -235,7 +235,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.68,
+      "score": 5.67,
       "category": "official",
       "confirmations": [
         {
@@ -248,42 +248,9 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.778,
+        "recency": 0.771,
         "specificity": 0.7,
         "relevance": 0.0
-      }
-    },
-    {
-      "id": "169ba497cf6b226f",
-      "title": "Podcast-Tipp: Hansi, was hat Geld aus Fußball gemacht?",
-      "summary": "Hansi Küpper ist seit 1989 im Geschäft – über 35 Jahre Bundesliga, Champions League, DFB-Pokal. In der Hafenbar spricht die Stimme des deutschen Fußballs über die berühmte Schalke-Fehlansage von 2001, seinen Hass auf den Videobeweis und die Frage, ob der moderne Fußball überhaupt noch gerecht ist. Dazu: die Nacht in der Hamburger Kneipe, das WM-Finale im Wald und ein BVB-Quiz, das selbst ihn ins Schwitzen bringt. 📸 Folgt uns: Hafenbar: https://www.instagram.com/hafenbar_podcast Hansi Küpper: htt",
-      "url": "https://rnbvb.podigee.io/554-podcast-tipp-hansi-was-hat-geld-aus-fussball-gemacht",
-      "published": "2026-06-10T22:59:00+00:00",
-      "source": "BVB-Podcast Ruhr Nachr.",
-      "source_id": "pod_rn_bvb",
-      "tier": 2,
-      "kind": "podcast",
-      "score": 5.63,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "BVB-Podcast Ruhr Nachr.",
-          "url": "https://rnbvb.podigee.io/554-podcast-tipp-hansi-was-hat-geld-aus-fussball-gemacht",
-          "tier": 2
-        },
-        {
-          "source": "BVB kompakt (WAZ/RN)",
-          "url": "https://bvb-kompakt.podigee.io/1820-gast-was-ist-der-titel",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 2,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.5,
-        "recency": 0.525,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -315,6 +282,39 @@
       }
     },
     {
+      "id": "169ba497cf6b226f",
+      "title": "Podcast-Tipp: Hansi, was hat Geld aus Fußball gemacht?",
+      "summary": "Hansi Küpper ist seit 1989 im Geschäft – über 35 Jahre Bundesliga, Champions League, DFB-Pokal. In der Hafenbar spricht die Stimme des deutschen Fußballs über die berühmte Schalke-Fehlansage von 2001, seinen Hass auf den Videobeweis und die Frage, ob der moderne Fußball überhaupt noch gerecht ist. Dazu: die Nacht in der Hamburger Kneipe, das WM-Finale im Wald und ein BVB-Quiz, das selbst ihn ins Schwitzen bringt. 📸 Folgt uns: Hafenbar: https://www.instagram.com/hafenbar_podcast Hansi Küpper: htt",
+      "url": "https://rnbvb.podigee.io/554-podcast-tipp-hansi-was-hat-geld-aus-fussball-gemacht",
+      "published": "2026-06-10T22:59:00+00:00",
+      "source": "BVB-Podcast Ruhr Nachr.",
+      "source_id": "pod_rn_bvb",
+      "tier": 2,
+      "kind": "podcast",
+      "score": 5.62,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB-Podcast Ruhr Nachr.",
+          "url": "https://rnbvb.podigee.io/554-podcast-tipp-hansi-was-hat-geld-aus-fussball-gemacht",
+          "tier": 2
+        },
+        {
+          "source": "BVB kompakt (WAZ/RN)",
+          "url": "https://bvb-kompakt.podigee.io/1820-gast-was-ist-der-titel",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 2,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.5,
+        "recency": 0.521,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "6d9b824651959139",
       "title": "BVB winkt Millionen-Prämie von der FIFA: Dortmund stellt zehn WM-Fahrer",
       "summary": "Die FIFA erhöht die Zahlungen an Vereine für WM-Spieler deutlich. Borussia Dortmund winken mehrere Millionen Euro. So viel Geld kassiert der BVB.",
@@ -324,7 +324,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.58,
+      "score": 5.57,
       "category": "other",
       "confirmations": [
         {
@@ -337,7 +337,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.477,
+        "recency": 0.473,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -352,7 +352,7 @@
       "source_id": "11freunde",
       "tier": 2,
       "kind": "rss",
-      "score": 5.57,
+      "score": 5.55,
       "category": "other",
       "confirmations": [
         {
@@ -370,7 +370,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.805,
+        "recency": 0.798,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -385,7 +385,7 @@
       "source_id": "yt_rn_bvb",
       "tier": 2,
       "kind": "youtube",
-      "score": 5.55,
+      "score": 5.54,
       "category": "other",
       "confirmations": [
         {
@@ -398,7 +398,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.798,
+        "recency": 0.791,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -413,7 +413,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 5.52,
+      "score": 5.51,
       "category": "transfers",
       "confirmations": [
         {
@@ -426,7 +426,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.613,
+        "recency": 0.608,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -441,7 +441,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.51,
+      "score": 5.5,
       "category": "other",
       "confirmations": [
         {
@@ -454,7 +454,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.953,
+        "recency": 0.945,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -469,7 +469,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.46,
+      "score": 5.45,
       "category": "other",
       "confirmations": [
         {
@@ -482,7 +482,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.76,
+        "recency": 0.753,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -497,7 +497,7 @@
       "source_id": "x_plettenberg",
       "tier": 1,
       "kind": "x",
-      "score": 5.42,
+      "score": 5.41,
       "category": "injury",
       "confirmations": [
         {
@@ -510,7 +510,7 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.38,
+        "recency": 0.377,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -525,7 +525,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.38,
+      "score": 5.37,
       "category": "other",
       "confirmations": [
         {
@@ -538,7 +538,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.887,
+        "recency": 0.88,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -553,7 +553,7 @@
       "source_id": "x_arooobvb",
       "tier": 4,
       "kind": "x",
-      "score": 5.36,
+      "score": 5.35,
       "category": "transfers",
       "confirmations": [
         {
@@ -566,7 +566,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.978,
+        "recency": 0.969,
         "specificity": 0.7,
         "relevance": 0.333
       }
@@ -581,7 +581,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.33,
+      "score": 5.31,
       "category": "other",
       "confirmations": [
         {
@@ -594,7 +594,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.927,
+        "recency": 0.919,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -609,7 +609,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 5.32,
+      "score": 5.31,
       "category": "transfers",
       "confirmations": [
         {
@@ -622,37 +622,9 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.337,
+        "recency": 0.334,
         "specificity": 0.2,
         "relevance": 0.667
-      }
-    },
-    {
-      "id": "519e607c220257a9",
-      "title": "BVB-Fans aufgepasst: Diese WM-Termine und TV-Übertragungen müsst ihr kennen",
-      "summary": "Wann spielen die BVB-Profis bei der WM 2026? RUHR24 liefert eine Übersicht zu den wichtigsten Terminen in den USA, Kanada und Mexiko.",
-      "url": "https://www.ruhr24.de/bvb/bvb-wm-2026-termine-uebertragung-tv-stream-spiele-dfb-schlotterbeck-nmecha-kobel-borussia-dortmund-94346504.html",
-      "published": "2026-06-11T11:10:42+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.29,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-wm-2026-termine-uebertragung-tv-stream-spiele-dfb-schlotterbeck-nmecha-kobel-borussia-dortmund-94346504.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.84,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -684,21 +656,21 @@
       }
     },
     {
-      "id": "99dfe04de69066ad",
-      "title": "Ab 15. Juni fahren vier Wochen keine Züge auf wichtiger Sauerland-Strecke",
-      "summary": "Pendler und Ausflügler im Sauerland müssen sich auf längere Fahrzeiten einstellen. Auf der Oberen Ruhrtalbahn setzt die Deutsche Bahn Busse ein.",
-      "url": "https://www.ruhr24.de/nrw/bahn-sperrung-sauerland-meschede-froendenberg-bestwig-re57-re17-ersatzverkehr-bus-montag-wochen-94347164.html",
-      "published": "2026-06-11T15:11:00+00:00",
+      "id": "519e607c220257a9",
+      "title": "BVB-Fans aufgepasst: Diese WM-Termine und TV-Übertragungen müsst ihr kennen",
+      "summary": "Wann spielen die BVB-Profis bei der WM 2026? RUHR24 liefert eine Übersicht zu den wichtigsten Terminen in den USA, Kanada und Mexiko.",
+      "url": "https://www.ruhr24.de/bvb/bvb-wm-2026-termine-uebertragung-tv-stream-spiele-dfb-schlotterbeck-nmecha-kobel-borussia-dortmund-94346504.html",
+      "published": "2026-06-11T11:10:42+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.24,
+      "score": 5.27,
       "category": "other",
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/nrw/bahn-sperrung-sauerland-meschede-froendenberg-bestwig-re57-re17-ersatzverkehr-bus-montag-wochen-94347164.html",
+          "url": "https://www.ruhr24.de/bvb/bvb-wm-2026-termine-uebertragung-tv-stream-spiele-dfb-schlotterbeck-nmecha-kobel-borussia-dortmund-94346504.html",
           "tier": 2
         }
       ],
@@ -706,9 +678,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.98,
+        "recency": 0.833,
         "specificity": 0.2,
-        "relevance": 0.0
+        "relevance": 0.333
       }
     },
     {
@@ -734,7 +706,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.148,
+        "recency": 0.147,
         "specificity": 0.5,
         "relevance": 0.667
       }
@@ -762,9 +734,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.303,
+        "recency": 0.3,
         "specificity": 0.2,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "99dfe04de69066ad",
+      "title": "Ab 15. Juni fahren vier Wochen keine Züge auf wichtiger Sauerland-Strecke",
+      "summary": "Pendler und Ausflügler im Sauerland müssen sich auf längere Fahrzeiten einstellen. Auf der Oberen Ruhrtalbahn setzt die Deutsche Bahn Busse ein.",
+      "url": "https://www.ruhr24.de/nrw/bahn-sperrung-sauerland-meschede-froendenberg-bestwig-re57-re17-ersatzverkehr-bus-montag-wochen-94347164.html",
+      "published": "2026-06-11T15:11:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.22,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/nrw/bahn-sperrung-sauerland-meschede-froendenberg-bestwig-re57-re17-ersatzverkehr-bus-montag-wochen-94347164.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.972,
+        "specificity": 0.2,
+        "relevance": 0.0
       }
     },
     {
@@ -777,7 +777,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.22,
+      "score": 5.21,
       "category": "transfers",
       "confirmations": [
         {
@@ -790,7 +790,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.973,
+        "recency": 0.965,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -833,7 +833,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 5.19,
+      "score": 5.18,
       "category": "other",
       "confirmations": [
         {
@@ -846,7 +846,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.189,
+        "recency": 0.188,
         "specificity": 0.7,
         "relevance": 0.333
       }
@@ -861,7 +861,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.18,
+      "score": 5.16,
       "category": "other",
       "confirmations": [
         {
@@ -874,7 +874,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.951,
+        "recency": 0.943,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -889,7 +889,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.15,
+      "score": 5.14,
       "category": "other",
       "confirmations": [
         {
@@ -902,7 +902,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.939,
+        "recency": 0.931,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -917,7 +917,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.14,
+      "score": 5.12,
       "category": "other",
       "confirmations": [
         {
@@ -930,7 +930,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.931,
+        "recency": 0.923,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -945,7 +945,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.13,
+      "score": 5.12,
       "category": "other",
       "confirmations": [
         {
@@ -958,7 +958,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.929,
+        "recency": 0.922,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -973,7 +973,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.13,
+      "score": 5.12,
       "category": "other",
       "confirmations": [
         {
@@ -986,35 +986,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.929,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "32171c91f5e63d36",
-      "title": "Darum ist eine halbe Orange im Abfluss der Küchenspüle nützlich",
-      "summary": "Eine Orange in der Spüle soll helfen, den Abfluss zu reinigen. Der Lifehack ist schnell angewendet – aber es gibt Details, die über den Putz-Erfolg entscheiden.",
-      "url": "https://www.ruhr24.de/verbraucher/darum-ist-eine-halbe-orange-im-abfluss-der-kuechenspuele-nuetzlich-zr-94346930.html",
-      "published": "2026-06-11T13:43:14+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.13,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/darum-ist-eine-halbe-orange-im-abfluss-der-kuechenspuele-nuetzlich-zr-94346930.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.927,
+        "recency": 0.921,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1042,17 +1014,17 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.425,
+        "recency": 0.421,
         "specificity": 0.2,
         "relevance": 1.0
       }
     },
     {
-      "id": "c7353ac5d83245d6",
-      "title": "Warum Sie das Kurzwaschprogramm besser meiden sollten",
-      "summary": "Das Kurzwaschprogramm klingt praktisch, ist aber meist weder sparsam noch umweltfreundlich. Erfahren Sie die besten Alternativen.",
-      "url": "https://www.ruhr24.de/verbraucher/warum-sie-das-kurzwaschprogramm-besser-meiden-sollten-zr-94346883.html",
-      "published": "2026-06-11T13:31:06+00:00",
+      "id": "32171c91f5e63d36",
+      "title": "Darum ist eine halbe Orange im Abfluss der Küchenspüle nützlich",
+      "summary": "Eine Orange in der Spüle soll helfen, den Abfluss zu reinigen. Der Lifehack ist schnell angewendet – aber es gibt Details, die über den Putz-Erfolg entscheiden.",
+      "url": "https://www.ruhr24.de/verbraucher/darum-ist-eine-halbe-orange-im-abfluss-der-kuechenspuele-nuetzlich-zr-94346930.html",
+      "published": "2026-06-11T13:43:14+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
@@ -1062,7 +1034,7 @@
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/warum-sie-das-kurzwaschprogramm-besser-meiden-sollten-zr-94346883.html",
+          "url": "https://www.ruhr24.de/verbraucher/darum-ist-eine-halbe-orange-im-abfluss-der-kuechenspuele-nuetzlich-zr-94346930.html",
           "tier": 2
         }
       ],
@@ -1098,7 +1070,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.243,
+        "recency": 0.241,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1126,27 +1098,27 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.243,
+        "recency": 0.241,
         "specificity": 0.2,
         "relevance": 1.0
       }
     },
     {
-      "id": "e3b0207d482a78ef",
-      "title": "„Noch Luft nach oben“ bei Julian Nagelsmann: Jörg Wontorra fällt deutliches Urteil im MDR",
-      "summary": "Jörg Wontorra bei „Riverboat“ zu Gast. Kurz vor dem Start der Fußball-WM fand er deutliche Worte zum Bundestrainer Julian Nagelsmann.",
-      "url": "https://www.ruhr24.de/tv-streaming/tv-news/riverboat-mdr-neue-folgen-gaeste-joerg-wontorra-julian-nagelsmann-fussball-wm-programm-tv-94346781.html",
-      "published": "2026-06-11T13:10:00+00:00",
+      "id": "c7353ac5d83245d6",
+      "title": "Warum Sie das Kurzwaschprogramm besser meiden sollten",
+      "summary": "Das Kurzwaschprogramm klingt praktisch, ist aber meist weder sparsam noch umweltfreundlich. Erfahren Sie die besten Alternativen.",
+      "url": "https://www.ruhr24.de/verbraucher/warum-sie-das-kurzwaschprogramm-besser-meiden-sollten-zr-94346883.html",
+      "published": "2026-06-11T13:31:06+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.09,
-      "category": "matchday",
+      "score": 5.1,
+      "category": "other",
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/tv-streaming/tv-news/riverboat-mdr-neue-folgen-gaeste-joerg-wontorra-julian-nagelsmann-fussball-wm-programm-tv-94346781.html",
+          "url": "https://www.ruhr24.de/verbraucher/warum-sie-das-kurzwaschprogramm-besser-meiden-sollten-zr-94346883.html",
           "tier": 2
         }
       ],
@@ -1154,7 +1126,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.907,
+        "recency": 0.911,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1169,7 +1141,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 5.09,
+      "score": 5.08,
       "category": "other",
       "confirmations": [
         {
@@ -1182,27 +1154,27 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.757,
+        "recency": 0.751,
         "specificity": 0.2,
         "relevance": 1.0
       }
     },
     {
-      "id": "358d628f09823af6",
-      "title": "Nicht anfassen? Was Sie tun sollten, wenn Sie einen Jungvogel finden",
-      "summary": "Jungvogel am Boden gefunden? Ein NABU-Experte erklärt im Video, wann Hilfe nötig ist – und wann nicht.",
-      "url": "https://www.ruhr24.de/verbraucher/nicht-anfassen-was-sie-tun-sollten-wenn-sie-einen-jungvogel-finden-zr-94346769.html",
-      "published": "2026-06-11T12:53:50+00:00",
+      "id": "e3b0207d482a78ef",
+      "title": "„Noch Luft nach oben“ bei Julian Nagelsmann: Jörg Wontorra fällt deutliches Urteil im MDR",
+      "summary": "Jörg Wontorra bei „Riverboat“ zu Gast. Kurz vor dem Start der Fußball-WM fand er deutliche Worte zum Bundestrainer Julian Nagelsmann.",
+      "url": "https://www.ruhr24.de/tv-streaming/tv-news/riverboat-mdr-neue-folgen-gaeste-joerg-wontorra-julian-nagelsmann-fussball-wm-programm-tv-94346781.html",
+      "published": "2026-06-11T13:10:00+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
       "score": 5.07,
-      "category": "other",
+      "category": "matchday",
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/nicht-anfassen-was-sie-tun-sollten-wenn-sie-einen-jungvogel-finden-zr-94346769.html",
+          "url": "https://www.ruhr24.de/tv-streaming/tv-news/riverboat-mdr-neue-folgen-gaeste-joerg-wontorra-julian-nagelsmann-fussball-wm-programm-tv-94346781.html",
           "tier": 2
         }
       ],
@@ -1210,7 +1182,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.898,
+        "recency": 0.899,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1225,7 +1197,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.07,
+      "score": 5.06,
       "category": "other",
       "confirmations": [
         {
@@ -1238,7 +1210,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.799,
+        "recency": 0.792,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -1253,7 +1225,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 5.07,
+      "score": 5.06,
       "category": "transfers",
       "confirmations": [
         {
@@ -1266,9 +1238,37 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.381,
+        "recency": 0.378,
         "specificity": 0.2,
         "relevance": 0.333
+      }
+    },
+    {
+      "id": "358d628f09823af6",
+      "title": "Nicht anfassen? Was Sie tun sollten, wenn Sie einen Jungvogel finden",
+      "summary": "Jungvogel am Boden gefunden? Ein NABU-Experte erklärt im Video, wann Hilfe nötig ist – und wann nicht.",
+      "url": "https://www.ruhr24.de/verbraucher/nicht-anfassen-was-sie-tun-sollten-wenn-sie-einen-jungvogel-finden-zr-94346769.html",
+      "published": "2026-06-11T12:53:50+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.05,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/nicht-anfassen-was-sie-tun-sollten-wenn-sie-einen-jungvogel-finden-zr-94346769.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.89,
+        "specificity": 0.2,
+        "relevance": 0.0
       }
     },
     {
@@ -1281,7 +1281,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.06,
+      "score": 5.04,
       "category": "other",
       "confirmations": [
         {
@@ -1294,7 +1294,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.892,
+        "recency": 0.884,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1309,7 +1309,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.06,
+      "score": 5.04,
       "category": "other",
       "confirmations": [
         {
@@ -1322,7 +1322,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.89,
+        "recency": 0.882,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1337,7 +1337,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.04,
+      "score": 5.02,
       "category": "other",
       "confirmations": [
         {
@@ -1350,7 +1350,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.882,
+        "recency": 0.874,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1365,7 +1365,7 @@
       "source_id": "pod_schwarzgelberunde",
       "tier": 4,
       "kind": "podcast",
-      "score": 5.03,
+      "score": 5.02,
       "category": "injury",
       "confirmations": [
         {
@@ -1378,7 +1378,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.375,
+        "recency": 0.372,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1393,7 +1393,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.01,
+      "score": 4.99,
       "category": "other",
       "confirmations": [
         {
@@ -1406,7 +1406,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.867,
+        "recency": 0.86,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1440,62 +1440,6 @@
       }
     },
     {
-      "id": "c54f5a24bf25a4ac",
-      "title": "Zwei neue TV-Sender starten ab sofort kostenlos für alle",
-      "summary": "waipu.tv startet pünktlich zur WM zwei neue Kanäle – und die sind für alle Nutzer sofort gratis verfügbar.",
-      "url": "https://www.ruhr24.de/tv-streaming/zwei-neu-tv-sender-start-ab-sofort-kostenlos-fuer-alle-waiputv-kunden-fussball-wm-pro-check-stream-94346994.html",
-      "published": "2026-06-11T14:30:00+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.98,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/tv-streaming/zwei-neu-tv-sender-start-ab-sofort-kostenlos-fuer-alle-waiputv-kunden-fussball-wm-pro-check-stream-94346994.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.955,
-        "specificity": 0.0,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "44488939290d3545",
-      "title": "Doppelter Abschied bei „München Mord“ – diese Schauspieler sind nie wieder in der ZDF-Serie zu sehen",
-      "summary": "Bei „München Mord“ verändert sich die Besetzung. Zuschauer müssen künftig auf zwei langjährige Schauspieler verzichten.",
-      "url": "https://www.ruhr24.de/ratgeberthemen/doppelter-abschied-bei-muenchen-mord-diese-schauspieler-sind-nie-wieder-in-der-zdf-serie-zu-sehen-94345414.html",
-      "published": "2026-06-11T11:32:00+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.98,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/ratgeberthemen/doppelter-abschied-bei-muenchen-mord-diese-schauspieler-sind-nie-wieder-in-der-zdf-serie-zu-sehen-94345414.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.852,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
       "id": "0620bfceafc729f9",
       "title": "\"Spielt seit Jahren eine seiner besten Saisons!\" | BVB x FUSSBALL MML | Lars Ricken im Podcast",
       "summary": "Micky Beisenherz, Maik Nöcker und Lucas Vogelsang sind zu Gast bei einer Mitarbeiterveranstaltung von Borussia Dortmund und haben sich ganz zufällig Lars Ricken aus der Zuhörerschaft in ihre Mitte geholt, um mit unserem Sport-Geschäftsführer über die vergangene Saison fachzusimpeln und einen vorsichtigen Blick in die Zukunft zu werfen. Schaut und hört gerne rein – hier im Video oder überall, wo es Podcasts gibt im Audiostream! 🎧 Präsentiert von Pluto TV | Jetzt unbedingt Pluto TV und \"The Yellow",
@@ -1524,6 +1468,62 @@
       }
     },
     {
+      "id": "c54f5a24bf25a4ac",
+      "title": "Zwei neue TV-Sender starten ab sofort kostenlos für alle",
+      "summary": "waipu.tv startet pünktlich zur WM zwei neue Kanäle – und die sind für alle Nutzer sofort gratis verfügbar.",
+      "url": "https://www.ruhr24.de/tv-streaming/zwei-neu-tv-sender-start-ab-sofort-kostenlos-fuer-alle-waiputv-kunden-fussball-wm-pro-check-stream-94346994.html",
+      "published": "2026-06-11T14:30:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.97,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/tv-streaming/zwei-neu-tv-sender-start-ab-sofort-kostenlos-fuer-alle-waiputv-kunden-fussball-wm-pro-check-stream-94346994.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.947,
+        "specificity": 0.0,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "44488939290d3545",
+      "title": "Doppelter Abschied bei „München Mord“ – diese Schauspieler sind nie wieder in der ZDF-Serie zu sehen",
+      "summary": "Bei „München Mord“ verändert sich die Besetzung. Zuschauer müssen künftig auf zwei langjährige Schauspieler verzichten.",
+      "url": "https://www.ruhr24.de/ratgeberthemen/doppelter-abschied-bei-muenchen-mord-diese-schauspieler-sind-nie-wieder-in-der-zdf-serie-zu-sehen-94345414.html",
+      "published": "2026-06-11T11:32:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.96,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/ratgeberthemen/doppelter-abschied-bei-muenchen-mord-diese-schauspieler-sind-nie-wieder-in-der-zdf-serie-zu-sehen-94345414.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.844,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
       "id": "7ff73698baf32a09",
       "title": "Pizzakarton ins Altpapier oder nicht? Experte klärt auf",
       "summary": "Vielerorts liest man, Pizzakartons gehören nicht ins Altpapier – doch das stimmt nicht. Erfahren Sie hier, wo Ihr Pizzakarton wirklich hingehört und was Sie dabei beachten müssen.",
@@ -1533,7 +1533,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.96,
+      "score": 4.95,
       "category": "other",
       "confirmations": [
         {
@@ -1546,7 +1546,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.843,
+        "recency": 0.836,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1669,6 +1669,62 @@
       }
     },
     {
+      "id": "766ab720300a5ede",
+      "title": "„Herablassend“: Baerbock nach UN-Schlappe im Kreuzfeuer",
+      "summary": "Deutschlands außenpolitischer Kurs stieß afrikanischen Staatsmännern sauer auf. Ein Ex-Präsident fand gegenüber Annalena Baerbock deutliche Worte.",
+      "url": "https://www.ruhr24.de/schlagzeilen/annalena-baerbock-un-generalversammlung-botswana-mokgweetsi-masisi-connemann-ampel-aussenministerin-94346474.html",
+      "published": "2026-06-11T11:00:27+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.93,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/schlagzeilen/annalena-baerbock-un-generalversammlung-botswana-mokgweetsi-masisi-connemann-ampel-aussenministerin-94346474.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.827,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "7885de49b9656f14",
+      "title": "Einer der bekanntesten Wälder Deutschlands: NRW bekommt neuen Urwald",
+      "summary": "Einst Ort eines der größten Polizeieinsätze in NRW und Symbol des Widerstandes. Und in Zukunft? Das passiert jetzt im Hambacher Forst.",
+      "url": "https://www.ruhr24.de/nrw/nrw-hambacher-forst-wald-urwald-natur-rwe-polizeieinsatz-loop-see-radfahren-wandern-deutschland-94346463.html",
+      "published": "2026-06-11T10:53:29+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.92,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/nrw/nrw-hambacher-forst-wald-urwald-natur-rwe-polizeieinsatz-loop-see-radfahren-wandern-deutschland-94346463.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.824,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
       "id": "e3ddc37f58b615b5",
       "title": "Neuer Schalke-Stürmer im Anflug: Freiburg-Profi ist schon beim Medizincheck",
       "summary": "Der FC Schalke 04 schlägt erneut auf dem Transfermarkt zu. Ein Stürmer steht unmittelbar vor der Unterschrift – als frisch gebackener Meister.",
@@ -1678,7 +1734,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.93,
+      "score": 4.92,
       "category": "transfers",
       "confirmations": [
         {
@@ -1691,36 +1747,8 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.828,
+        "recency": 0.821,
         "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "641e07d4b2181c3c",
-      "title": "Windows 7 auf zwei Monitoren: So erweitern Sie den Desktop sofort",
-      "summary": "Ein zweiter Bildschirm erleichtert Homeoffice, Tabellen und Internetrecherche. Erkennt das System den Monitor nicht, helfen Anzeigeeinstellungen und Kabelprüfung.",
-      "url": "https://www.ruhr24.de/verbraucher/windows-auf-zwei-monitoren-so-erweitern-sie-den-desktop-sofort-zr-94346838.html",
-      "published": "2026-06-11T13:18:41+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.9,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/windows-auf-zwei-monitoren-so-erweitern-sie-den-desktop-sofort-zr-94346838.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.912,
-        "specificity": 0.0,
         "relevance": 0.0
       }
     },
@@ -1734,7 +1762,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.9,
+      "score": 4.89,
       "category": "transfers",
       "confirmations": [
         {
@@ -1747,9 +1775,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.302,
+        "recency": 0.3,
         "specificity": 0.2,
         "relevance": 0.667
+      }
+    },
+    {
+      "id": "641e07d4b2181c3c",
+      "title": "Windows 7 auf zwei Monitoren: So erweitern Sie den Desktop sofort",
+      "summary": "Ein zweiter Bildschirm erleichtert Homeoffice, Tabellen und Internetrecherche. Erkennt das System den Monitor nicht, helfen Anzeigeeinstellungen und Kabelprüfung.",
+      "url": "https://www.ruhr24.de/verbraucher/windows-auf-zwei-monitoren-so-erweitern-sie-den-desktop-sofort-zr-94346838.html",
+      "published": "2026-06-11T13:18:41+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.88,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/windows-auf-zwei-monitoren-so-erweitern-sie-den-desktop-sofort-zr-94346838.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.904,
+        "specificity": 0.0,
+        "relevance": 0.0
       }
     },
     {
@@ -1762,7 +1818,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.89,
+      "score": 4.88,
       "category": "other",
       "confirmations": [
         {
@@ -1775,7 +1831,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.808,
+        "recency": 0.801,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1790,7 +1846,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.88,
+      "score": 4.87,
       "category": "other",
       "confirmations": [
         {
@@ -1803,7 +1859,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.805,
+        "recency": 0.798,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1818,7 +1874,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.88,
+      "score": 4.87,
       "category": "matchday",
       "confirmations": [
         {
@@ -1831,7 +1887,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.802,
+        "recency": 0.795,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1846,7 +1902,7 @@
       "source_id": "yt_poehlerz",
       "tier": 4,
       "kind": "youtube",
-      "score": 4.88,
+      "score": 4.87,
       "category": "transfers",
       "confirmations": [
         {
@@ -1859,7 +1915,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.479,
+        "recency": 0.475,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1902,7 +1958,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.86,
+      "score": 4.85,
       "category": "other",
       "confirmations": [
         {
@@ -1915,7 +1971,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.794,
+        "recency": 0.788,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1930,7 +1986,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.86,
+      "score": 4.85,
       "category": "other",
       "confirmations": [
         {
@@ -1943,7 +1999,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.794,
+        "recency": 0.787,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1976,7 +2032,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.5,
-        "recency": 0.067,
+        "recency": 0.066,
         "specificity": 0.7,
         "relevance": 1.0
       }
@@ -1991,7 +2047,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.81,
+      "score": 4.8,
       "category": "other",
       "confirmations": [
         {
@@ -2004,7 +2060,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.768,
+        "recency": 0.761,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2019,7 +2075,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.8,
+      "score": 4.78,
       "category": "other",
       "confirmations": [
         {
@@ -2032,65 +2088,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.861,
+        "recency": 0.853,
         "specificity": 0.0,
         "relevance": 0.0
-      }
-    },
-    {
-      "id": "119f9cd62a3b32e4",
-      "title": "Sebastian Kehl wechselt nicht zu Tottenham. Entscheidung steht jetzt seitens Kehl!🚨 ▶️ Gab konkrete Gespräche, aber keinen Konsens über die zukünftige gemeinsame strategische Ausrichtung bei den Spurs. ▶️ Wie am 22. April enthüllt, war Kehl für die Spurs der Top-Kandidat, um eine neue Direktoren-Rolle zu übernehmen. Seitdem gab es Gespräche. ▶️ Kehl sollte den Kader bauen, nah an der Mannschaft sein. War für Gespräche auch vor Ort. Jetzt die Absage. ▶️ Noch mehr Hintergründe dazu am Donnerstag in Transfer Update - die Show #SkyTransfer #Kehl #Tottenham",
-      "summary": "Sebastian Kehl wechselt nicht zu Tottenham. Entscheidung steht jetzt seitens Kehl!🚨 ▶️ Gab konkrete Gespräche, aber keinen Konsens über die zukünftige gemeinsame strategische Ausrichtung bei den Spurs. ▶️ Wie am 22. April enthüllt, war Kehl für die Spurs der Top-Kandidat, um eine neue Direktoren-Rolle zu übernehmen. Seitdem gab es Gespräche. ▶️ Kehl sollte den Kader bauen, nah an der Mannschaft sein. War für Gespräche auch vor Ort. Jetzt die Absage. ▶️ Noch mehr Hintergründe dazu am Donnerstag i",
-      "url": "https://nitter.net/SkySportDE/status/2064733896005034448#m",
-      "published": "2026-06-10T15:38:16+00:00",
-      "source": "Sky Sport News DE",
-      "source_id": "x_skysportde",
-      "tier": 2,
-      "kind": "x",
-      "score": 4.75,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "Sky Sport News DE",
-          "url": "https://nitter.net/SkySportDE/status/2064733896005034448#m",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.396,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "c2ea4b239ee62788",
-      "title": "Fenerbahçe are set to hold talks this week with Borussia Dortmund to formalise the verbal agreement they have reached regarding Serhou Guirassy. Guirassy is awaiting news that the agreement has been finalised in writing. He will then travel to Istanbul with his agent. 🗞 @yagosabuncuoglu #BVB",
-      "summary": "Fenerbahçe are set to hold talks this week with Borussia Dortmund to formalise the verbal agreement they have reached regarding Serhou Guirassy. Guirassy is awaiting news that the agreement has been finalised in writing. He will then travel to Istanbul with his agent. 🗞 @yagosabuncuoglu #BVB",
-      "url": "https://nitter.net/bvbnewsblog/status/2064750914364203472#m",
-      "published": "2026-06-10T16:45:53+00:00",
-      "source": "BVB-Newsblog",
-      "source_id": "x_bvbnewsblog",
-      "tier": 4,
-      "kind": "x",
-      "score": 4.75,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "BVB-Newsblog",
-          "url": "https://nitter.net/bvbnewsblog/status/2064750914364203472#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.413,
-        "specificity": 0.2,
-        "relevance": 1.0
       }
     },
     {
@@ -2116,7 +2116,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.059,
+        "recency": 0.058,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -2150,6 +2150,62 @@
       }
     },
     {
+      "id": "119f9cd62a3b32e4",
+      "title": "Sebastian Kehl wechselt nicht zu Tottenham. Entscheidung steht jetzt seitens Kehl!🚨 ▶️ Gab konkrete Gespräche, aber keinen Konsens über die zukünftige gemeinsame strategische Ausrichtung bei den Spurs. ▶️ Wie am 22. April enthüllt, war Kehl für die Spurs der Top-Kandidat, um eine neue Direktoren-Rolle zu übernehmen. Seitdem gab es Gespräche. ▶️ Kehl sollte den Kader bauen, nah an der Mannschaft sein. War für Gespräche auch vor Ort. Jetzt die Absage. ▶️ Noch mehr Hintergründe dazu am Donnerstag in Transfer Update - die Show #SkyTransfer #Kehl #Tottenham",
+      "summary": "Sebastian Kehl wechselt nicht zu Tottenham. Entscheidung steht jetzt seitens Kehl!🚨 ▶️ Gab konkrete Gespräche, aber keinen Konsens über die zukünftige gemeinsame strategische Ausrichtung bei den Spurs. ▶️ Wie am 22. April enthüllt, war Kehl für die Spurs der Top-Kandidat, um eine neue Direktoren-Rolle zu übernehmen. Seitdem gab es Gespräche. ▶️ Kehl sollte den Kader bauen, nah an der Mannschaft sein. War für Gespräche auch vor Ort. Jetzt die Absage. ▶️ Noch mehr Hintergründe dazu am Donnerstag i",
+      "url": "https://nitter.net/SkySportDE/status/2064733896005034448#m",
+      "published": "2026-06-10T15:38:16+00:00",
+      "source": "Sky Sport News DE",
+      "source_id": "x_skysportde",
+      "tier": 2,
+      "kind": "x",
+      "score": 4.74,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "Sky Sport News DE",
+          "url": "https://nitter.net/SkySportDE/status/2064733896005034448#m",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.392,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "c2ea4b239ee62788",
+      "title": "Fenerbahçe are set to hold talks this week with Borussia Dortmund to formalise the verbal agreement they have reached regarding Serhou Guirassy. Guirassy is awaiting news that the agreement has been finalised in writing. He will then travel to Istanbul with his agent. 🗞 @yagosabuncuoglu #BVB",
+      "summary": "Fenerbahçe are set to hold talks this week with Borussia Dortmund to formalise the verbal agreement they have reached regarding Serhou Guirassy. Guirassy is awaiting news that the agreement has been finalised in writing. He will then travel to Istanbul with his agent. 🗞 @yagosabuncuoglu #BVB",
+      "url": "https://nitter.net/bvbnewsblog/status/2064750914364203472#m",
+      "published": "2026-06-10T16:45:53+00:00",
+      "source": "BVB-Newsblog",
+      "source_id": "x_bvbnewsblog",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.74,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB-Newsblog",
+          "url": "https://nitter.net/bvbnewsblog/status/2064750914364203472#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.41,
+        "specificity": 0.2,
+        "relevance": 1.0
+      }
+    },
+    {
       "id": "2989455e547149e0",
       "title": "Beamtenbund will Betriebsrente als wichtige Säule im System stärken",
       "summary": "Der dbb erhofft sich eine Stärkung der Altersvorsorge durch eine verpflichtende Betriebsrente.",
@@ -2159,7 +2215,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.71,
+      "score": 4.7,
       "category": "other",
       "confirmations": [
         {
@@ -2172,35 +2228,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.817,
-        "specificity": 0.0,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "c546ba3ccd277fc6",
-      "title": "Rente kaufen: Ab wann sich der legale Trick wirklich lohnt",
-      "summary": "Kaum jemand weiß es, aber es ist legal: Man kann sich Rente kaufen – und die Rechnung lohnt sich für viele tatsächlich.",
-      "url": "https://www.ruhr24.de/verbraucher/rente-kaufen-ab-wann-sich-der-legale-trick-wirklich-lohnt-zr-94345918.html",
-      "published": "2026-06-11T10:00:00+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.68,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/rente-kaufen-ab-wann-sich-der-legale-trick-wirklich-lohnt-zr-94345918.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.803,
+        "recency": 0.81,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -2228,17 +2256,17 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.379,
+        "recency": 0.376,
         "specificity": 0.2,
         "relevance": 1.0
       }
     },
     {
-      "id": "5bb0828b8498fd7f",
-      "title": "Jeder dritte Rentner nimmt lebenslange Einbußen in Kauf – so vermeiden Sie den Abschlag",
-      "summary": "30 Prozent der Deutschen gehen früher in Rente. Das ist mit Abschlägen verbunden, die sich mit einer Sonderzahlung aber umgehen lassen. Wann sich das lohnt.",
-      "url": "https://www.ruhr24.de/verbraucher/frueher-in-rente-abschlag-vermeiden-ab-wann-sich-das-lohnt-zr-94346318.html",
-      "published": "2026-06-11T09:50:11+00:00",
+      "id": "c546ba3ccd277fc6",
+      "title": "Rente kaufen: Ab wann sich der legale Trick wirklich lohnt",
+      "summary": "Kaum jemand weiß es, aber es ist legal: Man kann sich Rente kaufen – und die Rechnung lohnt sich für viele tatsächlich.",
+      "url": "https://www.ruhr24.de/verbraucher/rente-kaufen-ab-wann-sich-der-legale-trick-wirklich-lohnt-zr-94345918.html",
+      "published": "2026-06-11T10:00:00+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
@@ -2248,7 +2276,7 @@
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/frueher-in-rente-abschlag-vermeiden-ab-wann-sich-das-lohnt-zr-94346318.html",
+          "url": "https://www.ruhr24.de/verbraucher/rente-kaufen-ab-wann-sich-der-legale-trick-wirklich-lohnt-zr-94345918.html",
           "tier": 2
         }
       ],
@@ -2256,7 +2284,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.798,
+        "recency": 0.796,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -2287,6 +2315,34 @@
         "recency": 0.008,
         "specificity": 0.2,
         "relevance": 0.333
+      }
+    },
+    {
+      "id": "5bb0828b8498fd7f",
+      "title": "Jeder dritte Rentner nimmt lebenslange Einbußen in Kauf – so vermeiden Sie den Abschlag",
+      "summary": "30 Prozent der Deutschen gehen früher in Rente. Das ist mit Abschlägen verbunden, die sich mit einer Sonderzahlung aber umgehen lassen. Wann sich das lohnt.",
+      "url": "https://www.ruhr24.de/verbraucher/frueher-in-rente-abschlag-vermeiden-ab-wann-sich-das-lohnt-zr-94346318.html",
+      "published": "2026-06-11T09:50:11+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.66,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/frueher-in-rente-abschlag-vermeiden-ab-wann-sich-das-lohnt-zr-94346318.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.791,
+        "specificity": 0.0,
+        "relevance": 0.0
       }
     },
     {
@@ -2327,7 +2383,7 @@
       "source_id": "x_arooobvb",
       "tier": 4,
       "kind": "x",
-      "score": 4.66,
+      "score": 4.65,
       "category": "transfers",
       "confirmations": [
         {
@@ -2340,7 +2396,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.978,
+        "recency": 0.969,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -2648,37 +2704,9 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.158,
+        "recency": 0.157,
         "specificity": 0.2,
         "relevance": 0.667
-      }
-    },
-    {
-      "id": "427bbc3429c9c51f",
-      "title": "Nach dem Verkauf meines Rasenmähers wurde der Rasen sattgrün",
-      "summary": "Lärm, Abgase, Schnittgutberge – und das jede Woche. Immer mehr Gartenbesitzer in Deutschland fragen sich, ob es auch ohne Rasenmäher geht.",
-      "url": "https://www.ruhr24.de/verbraucher/nach-dem-verkauf-meines-rasenmaehers-wurde-der-rasen-sattgruen-zr-94346192.html",
-      "published": "2026-06-11T08:46:47+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.61,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/nach-dem-verkauf-meines-rasenmaehers-wurde-der-rasen-sattgruen-zr-94346192.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.766,
-        "specificity": 0.0,
-        "relevance": 0.0
       }
     },
     {
@@ -2691,7 +2719,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 4.61,
+      "score": 4.6,
       "category": "other",
       "confirmations": [
         {
@@ -2704,7 +2732,35 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.417,
+        "recency": 0.414,
+        "specificity": 0.0,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "427bbc3429c9c51f",
+      "title": "Nach dem Verkauf meines Rasenmähers wurde der Rasen sattgrün",
+      "summary": "Lärm, Abgase, Schnittgutberge – und das jede Woche. Immer mehr Gartenbesitzer in Deutschland fragen sich, ob es auch ohne Rasenmäher geht.",
+      "url": "https://www.ruhr24.de/verbraucher/nach-dem-verkauf-meines-rasenmaehers-wurde-der-rasen-sattgruen-zr-94346192.html",
+      "published": "2026-06-11T08:46:47+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.59,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/nach-dem-verkauf-meines-rasenmaehers-wurde-der-rasen-sattgruen-zr-94346192.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.759,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -2719,7 +2775,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.57,
+      "score": 4.56,
       "category": "other",
       "confirmations": [
         {
@@ -2732,9 +2788,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.304,
+        "recency": 0.301,
         "specificity": 0.2,
         "relevance": 0.333
+      }
+    },
+    {
+      "id": "f5cc376c398be57d",
+      "title": "🛑 You CAN‘T stop JOBE 🙅 #FIFACWC",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/MJLMdp4XX5c",
+      "published": "2026-06-10T15:09:03+00:00",
+      "source": "YouTube BVB (offiziell)",
+      "source_id": "yt_bvb_official",
+      "tier": 3,
+      "kind": "youtube",
+      "score": 4.55,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "YouTube BVB (offiziell)",
+          "url": "https://www.youtube.com/shorts/MJLMdp4XX5c",
+          "tier": 3
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.9,
+        "confirmation": 0.25,
+        "recency": 0.385,
+        "specificity": 0.0,
+        "relevance": 0.0
       }
     },
     {
@@ -2747,7 +2831,7 @@
       "source_id": "x_bild_sport",
       "tier": 2,
       "kind": "x",
-      "score": 4.56,
+      "score": 4.55,
       "category": "transfers",
       "confirmations": [
         {
@@ -2760,7 +2844,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.475,
+        "recency": 0.471,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -2775,7 +2859,7 @@
       "source_id": "x_lafonatebvb",
       "tier": 4,
       "kind": "x",
-      "score": 4.56,
+      "score": 4.55,
       "category": "transfers",
       "confirmations": [
         {
@@ -2788,7 +2872,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.132,
+        "recency": 0.131,
         "specificity": 0.9,
         "relevance": 0.667
       }
@@ -2844,7 +2928,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.065,
+        "recency": 0.064,
         "specificity": 0.7,
         "relevance": 1.0
       }
@@ -2928,7 +3012,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.097,
+        "recency": 0.096,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -3012,7 +3096,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.02,
+        "recency": 0.019,
         "specificity": 0.7,
         "relevance": 1.0
       }
@@ -3040,7 +3124,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.264,
+        "recency": 0.262,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -3055,7 +3139,7 @@
       "source_id": "x_bvbnewsflash",
       "tier": 4,
       "kind": "x",
-      "score": 4.45,
+      "score": 4.44,
       "category": "transfers",
       "confirmations": [
         {
@@ -3068,7 +3152,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.494,
+        "recency": 0.49,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -3124,7 +3208,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.402,
+        "recency": 0.398,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3139,7 +3223,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 4.39,
+      "score": 4.37,
       "category": "injury",
       "confirmations": [
         {
@@ -3152,7 +3236,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.864,
+        "recency": 0.856,
         "specificity": 0.3,
         "relevance": 0.333
       }
@@ -3208,7 +3292,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.123,
+        "recency": 0.122,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -3381,7 +3465,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.198,
+        "recency": 0.197,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -3396,7 +3480,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 4.32,
+      "score": 4.31,
       "category": "transfers",
       "confirmations": [
         {
@@ -3409,37 +3493,9 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.196,
+        "recency": 0.194,
         "specificity": 0.2,
         "relevance": 1.0
-      }
-    },
-    {
-      "id": "4f1eea37b4cd9d83",
-      "title": "„Der DHB gehört nach Dortmund“: Begeisterung über Pläne für „Handball-Campus“",
-      "summary": "Der Deutsche Handball-Bund will eine neue Zentrale in Dortmund und ein Leistungszentrum für Frauen-Handball einrichten. In der Politik gibt es dafür Beifall.",
-      "url": "https://www.ruhrnachrichten.de/dortmund/dhb-handball-dortmund-handball-campus-bvb-sporthalle-strobelallee-sportausschuss-w1204973-2002099858/",
-      "published": "2026-06-09T17:32:03+00:00",
-      "source": "Ruhr Nachrichten BVB",
-      "source_id": "rn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.3,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Ruhr Nachrichten BVB",
-          "url": "https://www.ruhrnachrichten.de/dortmund/dhb-handball-dortmund-handball-campus-bvb-sporthalle-strobelallee-sportausschuss-w1204973-2002099858/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.169,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -3468,6 +3524,34 @@
         "recency": 0.006,
         "specificity": 0.2,
         "relevance": 0.667
+      }
+    },
+    {
+      "id": "4f1eea37b4cd9d83",
+      "title": "„Der DHB gehört nach Dortmund“: Begeisterung über Pläne für „Handball-Campus“",
+      "summary": "Der Deutsche Handball-Bund will eine neue Zentrale in Dortmund und ein Leistungszentrum für Frauen-Handball einrichten. In der Politik gibt es dafür Beifall.",
+      "url": "https://www.ruhrnachrichten.de/dortmund/dhb-handball-dortmund-handball-campus-bvb-sporthalle-strobelallee-sportausschuss-w1204973-2002099858/",
+      "published": "2026-06-09T17:32:03+00:00",
+      "source": "Ruhr Nachrichten BVB",
+      "source_id": "rn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.29,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Ruhr Nachrichten BVB",
+          "url": "https://www.ruhrnachrichten.de/dortmund/dhb-handball-dortmund-handball-campus-bvb-sporthalle-strobelallee-sportausschuss-w1204973-2002099858/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.168,
+        "specificity": 0.2,
+        "relevance": 0.333
       }
     },
     {
@@ -3549,7 +3633,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.054,
+        "recency": 0.053,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -3582,7 +3666,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.5,
-        "recency": 0.121,
+        "recency": 0.12,
         "specificity": 0.7,
         "relevance": 0.333
       }
@@ -3597,7 +3681,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.25,
+      "score": 4.24,
       "category": "matchday",
       "confirmations": [
         {
@@ -3610,7 +3694,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.144,
+        "recency": 0.143,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3638,7 +3722,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.153,
+        "recency": 0.151,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -3672,6 +3756,39 @@
       }
     },
     {
+      "id": "090d745fe1f5eb09",
+      "title": "❌ Kennet #Eichhorn entscheidet sich gegen einem wechsel zum BVB! Der 16-Jährige wechselt zu Bayer Leverkusen 🗞️ @Plettigoal #BVB",
+      "summary": "❌ Kennet #Eichhorn entscheidet sich gegen einem wechsel zum BVB! Der 16-Jährige wechselt zu Bayer Leverkusen 🗞️ @Plettigoal #BVB",
+      "url": "https://nitter.net/Borussia0977/status/2064661160096350511#m",
+      "published": "2026-06-10T10:49:14+00:00",
+      "source": "Borussia 09",
+      "source_id": "x_borussia0977",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.19,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "Borussia 09",
+          "url": "https://nitter.net/Borussia0977/status/2064661160096350511#m",
+          "tier": 4
+        },
+        {
+          "source": "Arooo BVB",
+          "url": "https://nitter.net/AroooBVB/status/2064660221096595750#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 2,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.5,
+        "recency": 0.326,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "9e732aae52884365",
       "title": "Negotiations are at an advanced stage between Como and Borussia Dortmund regarding Yan Couto. The player has already expressed an interest in the move. 🗞 @MatteMoretto #BVB",
       "summary": "Negotiations are at an advanced stage between Como and Borussia Dortmund regarding Yan Couto. The player has already expressed an interest in the move. 🗞 @MatteMoretto #BVB",
@@ -3681,7 +3798,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 4.2,
+      "score": 4.19,
       "category": "injury",
       "confirmations": [
         {
@@ -3694,7 +3811,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.136,
+        "recency": 0.135,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -3742,7 +3859,7 @@
       "source_id": "x_borussia0977",
       "tier": 4,
       "kind": "x",
-      "score": 4.19,
+      "score": 4.18,
       "category": "transfers",
       "confirmations": [
         {
@@ -3760,7 +3877,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.5,
-        "recency": 0.159,
+        "recency": 0.158,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -3850,6 +3967,34 @@
       }
     },
     {
+      "id": "bb032190e6adcca7",
+      "title": "🗣️Sollte der #BVB bei Herthas Toptalent Kennet Eichhorn leer ausgehen, ist Milton #Delgado (20,ZDM) die absolute Wunsch-Alternative. Ablöse ca. 10 bis 15 Millionen Euro. 🗞️@SkySportDE",
+      "summary": "🗣️Sollte der #BVB bei Herthas Toptalent Kennet Eichhorn leer ausgehen, ist Milton #Delgado (20,ZDM) die absolute Wunsch-Alternative. Ablöse ca. 10 bis 15 Millionen Euro. 🗞️ @SkySportDE",
+      "url": "https://nitter.net/AroooBVB/status/2064717310170939679#m",
+      "published": "2026-06-10T14:32:21+00:00",
+      "source": "Arooo BVB",
+      "source_id": "x_arooobvb",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.16,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "Arooo BVB",
+          "url": "https://nitter.net/AroooBVB/status/2064717310170939679#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.376,
+        "specificity": 0.7,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "c7a589a9e040fa6e",
       "title": "🗣️Der #BVB plant keine VVL für #Bensebaini und #Sabitzer . Beide Profis sind für die kommende Saison als wichtige Kaderspieler eingeplant. Weder Bensebaini noch Sabitzer stehen auf einer internen Streichliste. Und auch die Spieler haben keine Wechselabsichten hinterlegt. 🗞️rn",
       "summary": "🗣️Der #BVB plant keine VVL für #Bensebaini und #Sabitzer . Beide Profis sind für die kommende Saison als wichtige Kaderspieler eingeplant. Weder Bensebaini noch Sabitzer stehen auf einer internen Streichliste. Und auch die Spieler haben keine Wechselabsichten hinterlegt. 🗞️rn",
@@ -3859,7 +4004,7 @@
       "source_id": "x_arooobvb",
       "tier": 4,
       "kind": "x",
-      "score": 4.16,
+      "score": 4.15,
       "category": "transfers",
       "confirmations": [
         {
@@ -3872,7 +4017,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.292,
+        "recency": 0.289,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4157,7 +4302,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.142,
+        "recency": 0.141,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -4172,7 +4317,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 4.09,
+      "score": 4.08,
       "category": "other",
       "confirmations": [
         {
@@ -4185,7 +4330,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.081,
+        "recency": 0.08,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4200,7 +4345,7 @@
       "source_id": "x_arooobvb",
       "tier": 4,
       "kind": "x",
-      "score": 4.08,
+      "score": 4.07,
       "category": "other",
       "confirmations": [
         {
@@ -4213,7 +4358,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.419,
+        "recency": 0.416,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -4228,7 +4373,7 @@
       "source_id": "x_arooobvb",
       "tier": 4,
       "kind": "x",
-      "score": 4.08,
+      "score": 4.07,
       "category": "other",
       "confirmations": [
         {
@@ -4241,7 +4386,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.25,
+        "recency": 0.248,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4269,7 +4414,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.066,
+        "recency": 0.065,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4297,7 +4442,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.063,
+        "recency": 0.062,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4353,7 +4498,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.064,
+        "recency": 0.063,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4381,7 +4526,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.061,
+        "recency": 0.06,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4437,7 +4582,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.06,
+        "recency": 0.059,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4465,7 +4610,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.39,
+        "recency": 0.387,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -4480,7 +4625,7 @@
       "source_id": "x_borussia0977",
       "tier": 4,
       "kind": "x",
-      "score": 4.02,
+      "score": 4.01,
       "category": "injury",
       "confirmations": [
         {
@@ -4493,7 +4638,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.137,
+        "recency": 0.136,
         "specificity": 0.7,
         "relevance": 0.667
       }
@@ -4508,7 +4653,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 3.99,
+      "score": 3.98,
       "category": "other",
       "confirmations": [
         {
@@ -4521,7 +4666,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.197,
+        "recency": 0.195,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -4536,7 +4681,7 @@
       "source_id": "x_lafonatebvb",
       "tier": 4,
       "kind": "x",
-      "score": 3.98,
+      "score": 3.97,
       "category": "transfers",
       "confirmations": [
         {
@@ -4549,7 +4694,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.461,
+        "recency": 0.457,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -4633,7 +4778,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.002,
+        "recency": 0.001,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -4806,7 +4951,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.5,
-        "recency": 0.305,
+        "recency": 0.302,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -4877,7 +5022,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 3.92,
+      "score": 3.91,
       "category": "other",
       "confirmations": [
         {
@@ -4890,7 +5035,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.329,
+        "recency": 0.326,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -4918,7 +5063,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.26,
+        "recency": 0.257,
         "specificity": 0.0,
         "relevance": 0.667
       }
@@ -4946,7 +5091,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.065,
+        "recency": 0.064,
         "specificity": 0.7,
         "relevance": 0.667
       }
@@ -5002,7 +5147,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.138,
+        "recency": 0.136,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -5030,36 +5175,8 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.13,
+        "recency": 0.129,
         "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
-      "id": "c07b6c2a6e1b9756",
-      "title": "Interesse aus der Wüste: #Guirassy trifft Saudi-Entscheidung https://www.bild.de/sport/fussball/borussia-dortmund-interesse-aus-der-wueste-guirassy-trifft-saudi-entscheidung-6a25dda28d84dbd8a4ed82f5?cid=social.bildsocial.exactagconverter.acquisition..6a25dda28d84dbd8a4ed82f5.free.twitter.haupt",
-      "summary": "Interesse aus der Wüste: #Guirassy trifft Saudi-Entscheidung bild.de/sport/fussball/borus…",
-      "url": "https://nitter.net/BILD_Sport/status/2063898124775551413#m",
-      "published": "2026-06-08T08:17:12+00:00",
-      "source": "BILD Sport",
-      "source_id": "x_bild_sport",
-      "tier": 2,
-      "kind": "x",
-      "score": 3.84,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "BILD Sport",
-          "url": "https://nitter.net/BILD_Sport/status/2063898124775551413#m",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.047,
-        "specificity": 0.0,
         "relevance": 0.667
       }
     },
@@ -5176,6 +5293,34 @@
       }
     },
     {
+      "id": "c07b6c2a6e1b9756",
+      "title": "Interesse aus der Wüste: #Guirassy trifft Saudi-Entscheidung https://www.bild.de/sport/fussball/borussia-dortmund-interesse-aus-der-wueste-guirassy-trifft-saudi-entscheidung-6a25dda28d84dbd8a4ed82f5?cid=social.bildsocial.exactagconverter.acquisition..6a25dda28d84dbd8a4ed82f5.free.twitter.haupt",
+      "summary": "Interesse aus der Wüste: #Guirassy trifft Saudi-Entscheidung bild.de/sport/fussball/borus…",
+      "url": "https://nitter.net/BILD_Sport/status/2063898124775551413#m",
+      "published": "2026-06-08T08:17:12+00:00",
+      "source": "BILD Sport",
+      "source_id": "x_bild_sport",
+      "tier": 2,
+      "kind": "x",
+      "score": 3.83,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "BILD Sport",
+          "url": "https://nitter.net/BILD_Sport/status/2063898124775551413#m",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.047,
+        "specificity": 0.0,
+        "relevance": 0.667
+      }
+    },
+    {
       "id": "86bcdc346c9cab79",
       "title": "RT by @gabumnn: New gen BVB FT User denken Eichhorn tut uns weh Haben aber die Cherki Ära auf Twitter nicht mitbekommen",
       "summary": "New gen BVB FT User denken Eichhorn tut uns weh Haben aber die Cherki Ära auf Twitter nicht mitbekommen",
@@ -5185,7 +5330,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.82,
+      "score": 3.81,
       "category": "other",
       "confirmations": [
         {
@@ -5198,7 +5343,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.457,
+        "recency": 0.453,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -5213,7 +5358,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.79,
+      "score": 3.78,
       "category": "other",
       "confirmations": [
         {
@@ -5226,7 +5371,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.347,
+        "recency": 0.344,
         "specificity": 0.4,
         "relevance": 0.667
       }
@@ -5254,7 +5399,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.181,
+        "recency": 0.18,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -5269,7 +5414,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.76,
+      "score": 3.75,
       "category": "other",
       "confirmations": [
         {
@@ -5282,7 +5427,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.869,
+        "recency": 0.862,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -5297,7 +5442,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.76,
+      "score": 3.75,
       "category": "transfers",
       "confirmations": [
         {
@@ -5310,7 +5455,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.424,
+        "recency": 0.42,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -5325,7 +5470,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.76,
+      "score": 3.75,
       "category": "transfers",
       "confirmations": [
         {
@@ -5338,7 +5483,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.326,
+        "recency": 0.323,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -5353,7 +5498,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.74,
+      "score": 3.73,
       "category": "other",
       "confirmations": [
         {
@@ -5366,7 +5511,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.415,
+        "recency": 0.411,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -5394,7 +5539,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.064,
+        "recency": 0.063,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -5422,7 +5567,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.065,
+        "recency": 0.064,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -5450,7 +5595,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.061,
+        "recency": 0.06,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -5478,7 +5623,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.063,
+        "recency": 0.062,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -5590,7 +5735,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.111,
+        "recency": 0.11,
         "specificity": 0.0,
         "relevance": 0.667
       }
@@ -5717,7 +5862,7 @@
       "source_id": "x_borussia0977",
       "tier": 4,
       "kind": "x",
-      "score": 3.57,
+      "score": 3.56,
       "category": "other",
       "confirmations": [
         {
@@ -5730,7 +5875,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.33,
+        "recency": 0.327,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -5758,7 +5903,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.25,
+        "recency": 0.248,
         "specificity": 0.0,
         "relevance": 0.667
       }
@@ -5773,7 +5918,7 @@
       "source_id": "schwatzgelb",
       "tier": 4,
       "kind": "rss",
-      "score": 3.51,
+      "score": 3.5,
       "category": "other",
       "confirmations": [
         {
@@ -5786,7 +5931,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.291,
+        "recency": 0.289,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -5814,7 +5959,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.368,
+        "recency": 0.365,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -5829,7 +5974,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.39,
+      "score": 3.38,
       "category": "background",
       "confirmations": [
         {
@@ -5842,7 +5987,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.339,
+        "recency": 0.336,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -6137,7 +6282,7 @@
       "source_id": "x_arooobvb",
       "tier": 4,
       "kind": "x",
-      "score": 3.21,
+      "score": 3.2,
       "category": "other",
       "confirmations": [
         {
@@ -6150,7 +6295,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.25,
+        "recency": 0.248,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -6178,7 +6323,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.139,
+        "recency": 0.138,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -6305,7 +6450,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.0,
+      "score": 2.99,
       "category": "other",
       "confirmations": [
         {
@@ -6318,7 +6463,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.386,
+        "recency": 0.383,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -6346,7 +6491,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.134,
+        "recency": 0.133,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -6473,7 +6618,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 2.86,
+      "score": 2.85,
       "category": "transfers",
       "confirmations": [
         {
@@ -6486,7 +6631,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.149,
+        "recency": 0.148,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6570,7 +6715,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.012,
+        "recency": 0.011,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -6682,7 +6827,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.045,
+        "recency": 0.044,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -6822,7 +6967,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.182,
+        "recency": 0.18,
         "specificity": 0.0,
         "relevance": 0.0
       }
