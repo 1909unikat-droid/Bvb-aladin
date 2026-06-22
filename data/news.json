@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T21:23:33.600086+00:00",
+  "updated_at": "2026-06-22T21:54:10.960990+00:00",
   "items": [
     {
       "id": "5768fdc0cae5942d",
@@ -11,7 +11,7 @@
       "source_id": "x_bvb",
       "tier": 3,
       "kind": "x",
-      "score": 6.73,
+      "score": 6.7,
       "category": "official",
       "confirmations": [
         {
@@ -24,7 +24,7 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.701,
+        "recency": 0.687,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -39,7 +39,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 6.67,
+      "score": 6.64,
       "category": "injury",
       "confirmations": [
         {
@@ -57,7 +57,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.5,
-        "recency": 0.699,
+        "recency": 0.686,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -72,7 +72,7 @@
       "source_id": "x_plettenberg",
       "tier": 1,
       "kind": "x",
-      "score": 6.34,
+      "score": 6.32,
       "category": "injury",
       "confirmations": [
         {
@@ -85,7 +85,7 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.676,
+        "recency": 0.663,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -100,7 +100,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 6.29,
+      "score": 6.26,
       "category": "injury",
       "confirmations": [
         {
@@ -118,7 +118,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.5,
-        "recency": 0.677,
+        "recency": 0.664,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -133,7 +133,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.28,
+      "score": 6.25,
       "category": "other",
       "confirmations": [
         {
@@ -146,36 +146,8 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.929,
+        "recency": 0.911,
         "specificity": 0.0,
-        "relevance": 1.0
-      }
-    },
-    {
-      "id": "d7a0d91234fc20ee",
-      "title": "Episode #E545: Das Schlotterbeck-Drama und die Folgen – besonderes Dortmund-Jubiläum",
-      "summary": "Schlotterbeck-Drama bei der WM – das hat sowohl für den DFB als auch für Borussia Dortmund massive Folgen. Und: Ein schwarzgelbes Jubiläum, das den Weg in die europäische Spitze geebnet hat. Der BVB-Podcast. Die bösen Befürchtungen haben sich bestätigt: Nico Schlotterbeck hat sich beim 2:1-Sieg der deutschen Nationalmannschaft gegen die Elfenbeinküste einen Bänderriss im Sprunggelenk zugezogen und fällt laut DFB „mehrere Monate“ aus. Welche Folgen hat das für Borussia Dortmund? Ist ein möglicher",
-      "url": "https://rnbvb.podigee.io/556-e545",
-      "published": "2026-06-22T15:53:00+00:00",
-      "source": "BVB-Podcast Ruhr Nachr.",
-      "source_id": "pod_rn_bvb",
-      "tier": 2,
-      "kind": "podcast",
-      "score": 6.24,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "BVB-Podcast Ruhr Nachr.",
-          "url": "https://rnbvb.podigee.io/556-e545",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.809,
-        "specificity": 0.2,
         "relevance": 1.0
       }
     },
@@ -212,9 +184,37 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.75,
-        "recency": 0.171,
+        "recency": 0.168,
         "specificity": 0.2,
         "relevance": 0.667
+      }
+    },
+    {
+      "id": "d7a0d91234fc20ee",
+      "title": "Episode #E545: Das Schlotterbeck-Drama und die Folgen – besonderes Dortmund-Jubiläum",
+      "summary": "Schlotterbeck-Drama bei der WM – das hat sowohl für den DFB als auch für Borussia Dortmund massive Folgen. Und: Ein schwarzgelbes Jubiläum, das den Weg in die europäische Spitze geebnet hat. Der BVB-Podcast. Die bösen Befürchtungen haben sich bestätigt: Nico Schlotterbeck hat sich beim 2:1-Sieg der deutschen Nationalmannschaft gegen die Elfenbeinküste einen Bänderriss im Sprunggelenk zugezogen und fällt laut DFB „mehrere Monate“ aus. Welche Folgen hat das für Borussia Dortmund? Ist ein möglicher",
+      "url": "https://rnbvb.podigee.io/556-e545",
+      "published": "2026-06-22T15:53:00+00:00",
+      "source": "BVB-Podcast Ruhr Nachr.",
+      "source_id": "pod_rn_bvb",
+      "tier": 2,
+      "kind": "podcast",
+      "score": 6.21,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "BVB-Podcast Ruhr Nachr.",
+          "url": "https://rnbvb.podigee.io/556-e545",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.793,
+        "specificity": 0.2,
+        "relevance": 1.0
       }
     },
     {
@@ -227,7 +227,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.16,
+      "score": 6.13,
       "category": "injury",
       "confirmations": [
         {
@@ -240,7 +240,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.765,
+        "recency": 0.751,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -255,7 +255,7 @@
       "source_id": "yt_rn_bvb",
       "tier": 2,
       "kind": "youtube",
-      "score": 6.16,
+      "score": 6.13,
       "category": "transfers",
       "confirmations": [
         {
@@ -268,7 +268,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.767,
+        "recency": 0.752,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -283,7 +283,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.1,
+      "score": 6.07,
       "category": "injury",
       "confirmations": [
         {
@@ -296,7 +296,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.737,
+        "recency": 0.723,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -311,7 +311,7 @@
       "source_id": "x_plettenberg",
       "tier": 1,
       "kind": "x",
-      "score": 6.07,
+      "score": 6.04,
       "category": "injury",
       "confirmations": [
         {
@@ -324,36 +324,8 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.704,
+        "recency": 0.69,
         "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "0036d6c08ddc8624",
-      "title": "10 Millionen: Werder & Gladbach im Transfer-Duell",
-      "summary": "Zwischen Werder Bremen und Borussia Mönchengladbach könnte es zum Transferduell kommen. Beide Bundesliga-Vertreter haben es offenbar auf den selben Spieler aus Italien abgesehen.Wer bei den großen (…)",
-      "url": "https://www.fussballtransfers.com/a8896914466423377071-10-millionen-werder-gladbach-im-transfer-duell",
-      "published": "2026-06-22T19:56:00+00:00",
-      "source": "fussballtransfers.com",
-      "source_id": "fussballtransfers",
-      "tier": 2,
-      "kind": "rss",
-      "score": 6.0,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "fussballtransfers.com",
-          "url": "https://www.fussballtransfers.com/a8896914466423377071-10-millionen-werder-gladbach-im-transfer-duell",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.945,
-        "specificity": 0.7,
         "relevance": 0.333
       }
     },
@@ -367,7 +339,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 5.99,
+      "score": 5.97,
       "category": "injury",
       "confirmations": [
         {
@@ -380,9 +352,37 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.675,
+        "recency": 0.662,
         "specificity": 0.2,
         "relevance": 0.667
+      }
+    },
+    {
+      "id": "0036d6c08ddc8624",
+      "title": "10 Millionen: Werder & Gladbach im Transfer-Duell",
+      "summary": "Zwischen Werder Bremen und Borussia Mönchengladbach könnte es zum Transferduell kommen. Beide Bundesliga-Vertreter haben es offenbar auf den selben Spieler aus Italien abgesehen.Wer bei den großen (…)",
+      "url": "https://www.fussballtransfers.com/a8896914466423377071-10-millionen-werder-gladbach-im-transfer-duell",
+      "published": "2026-06-22T19:56:00+00:00",
+      "source": "fussballtransfers.com",
+      "source_id": "fussballtransfers",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.96,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "fussballtransfers.com",
+          "url": "https://www.fussballtransfers.com/a8896914466423377071-10-millionen-werder-gladbach-im-transfer-duell",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.927,
+        "specificity": 0.7,
+        "relevance": 0.333
       }
     },
     {
@@ -395,7 +395,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.96,
+      "score": 5.93,
       "category": "injury",
       "confirmations": [
         {
@@ -408,7 +408,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.836,
+        "recency": 0.82,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -423,7 +423,7 @@
       "source_id": "kicker_bundesliga",
       "tier": 2,
       "kind": "rss",
-      "score": 5.89,
+      "score": 5.85,
       "category": "transfers",
       "confirmations": [
         {
@@ -436,7 +436,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.966,
+        "recency": 0.947,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -451,7 +451,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.86,
+      "score": 5.83,
       "category": "other",
       "confirmations": [
         {
@@ -464,7 +464,35 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.617,
+        "recency": 0.605,
+        "specificity": 0.2,
+        "relevance": 1.0
+      }
+    },
+    {
+      "id": "3df9c1d1ff1890a0",
+      "title": "Strandurlaub, Roadtrip, wilde Tiere: Die BVB-Profis Silva, Bellingham und Co. im Urlaub",
+      "summary": "Strandurlaub, Roadtrip, wilde Tiere - so verbringen die BVB-Profis Silva, Bellingham, Guirassy, Meyer und Co. ihre fußballerische Auszeit.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-bilder-dortmund-profis-silva-guirassy-meyer-und-co-im-urlaub-w1210304-2002113057/",
+      "published": "2026-06-22T08:41:00+00:00",
+      "source": "Ruhr Nachrichten BVB",
+      "source_id": "rn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.83,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Ruhr Nachrichten BVB",
+          "url": "https://www.ruhrnachrichten.de/bvb/bvb-bilder-dortmund-profis-silva-guirassy-meyer-und-co-im-urlaub-w1210304-2002113057/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.601,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -479,7 +507,7 @@
       "source_id": "x_falk",
       "tier": 1,
       "kind": "x",
-      "score": 5.86,
+      "score": 5.83,
       "category": "injury",
       "confirmations": [
         {
@@ -492,36 +520,36 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.676,
+        "recency": 0.663,
         "specificity": 0.4,
         "relevance": 0.333
       }
     },
     {
-      "id": "3df9c1d1ff1890a0",
-      "title": "Strandurlaub, Roadtrip, wilde Tiere: Die BVB-Profis Silva, Bellingham und Co. im Urlaub",
-      "summary": "Strandurlaub, Roadtrip, wilde Tiere - so verbringen die BVB-Profis Silva, Bellingham, Guirassy, Meyer und Co. ihre fußballerische Auszeit.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-bilder-dortmund-profis-silva-guirassy-meyer-und-co-im-urlaub-w1210304-2002113057/",
-      "published": "2026-06-22T08:41:00+00:00",
-      "source": "Ruhr Nachrichten BVB",
-      "source_id": "rn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.85,
-      "category": "other",
+      "id": "45328e61f43afdef",
+      "title": "📢| Juventus interessiert sich für Serhou Guirassy. Der italienische Klub hat sich bereits bei Borussia Dortmund bezüglich des guineischen Nationalspielers erkundigt. Der BVB fordert 40 Mio. € Ablöse. 🗞️ @_Morik92_",
+      "summary": "📢| Juventus interessiert sich für Serhou Guirassy. Der italienische Klub hat sich bereits bei Borussia Dortmund bezüglich des guineischen Nationalspielers erkundigt. Der BVB fordert 40 Mio. € Ablöse. 🗞️ @_Morik92_",
+      "url": "https://nitter.net/bvbnewsflash/status/2069002278787252340#m",
+      "published": "2026-06-22T10:19:18+00:00",
+      "source": "BVB Newsflash",
+      "source_id": "x_bvbnewsflash",
+      "tier": 4,
+      "kind": "x",
+      "score": 5.71,
+      "category": "transfers",
       "confirmations": [
         {
-          "source": "Ruhr Nachrichten BVB",
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-bilder-dortmund-profis-silva-guirassy-meyer-und-co-im-urlaub-w1210304-2002113057/",
-          "tier": 2
+          "source": "BVB Newsflash",
+          "url": "https://nitter.net/bvbnewsflash/status/2069002278787252340#m",
+          "tier": 4
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.8,
+        "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.613,
-        "specificity": 0.2,
+        "recency": 0.64,
+        "specificity": 0.7,
         "relevance": 1.0
       }
     },
@@ -535,7 +563,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 5.73,
+      "score": 5.7,
       "category": "injury",
       "confirmations": [
         {
@@ -548,36 +576,8 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.729,
+        "recency": 0.714,
         "specificity": 0.2,
-        "relevance": 1.0
-      }
-    },
-    {
-      "id": "45328e61f43afdef",
-      "title": "📢| Juventus interessiert sich für Serhou Guirassy. Der italienische Klub hat sich bereits bei Borussia Dortmund bezüglich des guineischen Nationalspielers erkundigt. Der BVB fordert 40 Mio. € Ablöse. 🗞️ @_Morik92_",
-      "summary": "📢| Juventus interessiert sich für Serhou Guirassy. Der italienische Klub hat sich bereits bei Borussia Dortmund bezüglich des guineischen Nationalspielers erkundigt. Der BVB fordert 40 Mio. € Ablöse. 🗞️ @_Morik92_",
-      "url": "https://nitter.net/bvbnewsflash/status/2069002278787252340#m",
-      "published": "2026-06-22T10:19:18+00:00",
-      "source": "BVB Newsflash",
-      "source_id": "x_bvbnewsflash",
-      "tier": 4,
-      "kind": "x",
-      "score": 5.73,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "BVB Newsflash",
-          "url": "https://nitter.net/bvbnewsflash/status/2069002278787252340#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.653,
-        "specificity": 0.7,
         "relevance": 1.0
       }
     },
@@ -591,7 +591,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.7,
+      "score": 5.66,
       "category": "transfers",
       "confirmations": [
         {
@@ -604,7 +604,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.878,
+        "recency": 0.861,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -619,7 +619,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 5.61,
+      "score": 5.59,
       "category": "injury",
       "confirmations": [
         {
@@ -632,9 +632,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.492,
+        "recency": 0.483,
         "specificity": 0.2,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "42a05097664343df",
+      "title": "BVB-Präsident Hans-Joachim Watzke feiert heute seinen 67. Geburtstag. Herzlichen Glückwunsch! 🎉👏",
+      "summary": "BVB-Präsident Hans-Joachim Watzke feiert heute seinen 67. Geburtstag. Herzlichen Glückwunsch! 🎉👏",
+      "url": "https://nitter.net/BVB/status/2068640196707356967#m",
+      "published": "2026-06-21T10:20:31+00:00",
+      "source": "BVB (offiziell)",
+      "source_id": "x_bvb",
+      "tier": 3,
+      "kind": "x",
+      "score": 5.5,
+      "category": "official",
+      "confirmations": [
+        {
+          "source": "BVB (offiziell)",
+          "url": "https://nitter.net/BVB/status/2068640196707356967#m",
+          "tier": 3
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 1.0,
+        "confirmation": 0.25,
+        "recency": 0.254,
+        "specificity": 0.2,
+        "relevance": 0.667
       }
     },
     {
@@ -647,7 +675,7 @@
       "source_id": "x_skysportde",
       "tier": 2,
       "kind": "x",
-      "score": 5.53,
+      "score": 5.5,
       "category": "injury",
       "confirmations": [
         {
@@ -660,7 +688,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.784,
+        "recency": 0.769,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -675,7 +703,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.52,
+      "score": 5.49,
       "category": "transfers",
       "confirmations": [
         {
@@ -688,7 +716,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.874,
+        "recency": 0.857,
         "specificity": 0.7,
         "relevance": 0.0
       }
@@ -703,7 +731,7 @@
       "source_id": "11freunde",
       "tier": 2,
       "kind": "rss",
-      "score": 5.52,
+      "score": 5.49,
       "category": "injury",
       "confirmations": [
         {
@@ -716,37 +744,9 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.782,
+        "recency": 0.767,
         "specificity": 0.2,
         "relevance": 0.333
-      }
-    },
-    {
-      "id": "42a05097664343df",
-      "title": "BVB-Präsident Hans-Joachim Watzke feiert heute seinen 67. Geburtstag. Herzlichen Glückwunsch! 🎉👏",
-      "summary": "BVB-Präsident Hans-Joachim Watzke feiert heute seinen 67. Geburtstag. Herzlichen Glückwunsch! 🎉👏",
-      "url": "https://nitter.net/BVB/status/2068640196707356967#m",
-      "published": "2026-06-21T10:20:31+00:00",
-      "source": "BVB (offiziell)",
-      "source_id": "x_bvb",
-      "tier": 3,
-      "kind": "x",
-      "score": 5.51,
-      "category": "official",
-      "confirmations": [
-        {
-          "source": "BVB (offiziell)",
-          "url": "https://nitter.net/BVB/status/2068640196707356967#m",
-          "tier": 3
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 1.0,
-        "confirmation": 0.25,
-        "recency": 0.259,
-        "specificity": 0.2,
-        "relevance": 0.667
       }
     },
     {
@@ -759,7 +759,7 @@
       "source_id": "x_skysportde",
       "tier": 2,
       "kind": "x",
-      "score": 5.51,
+      "score": 5.48,
       "category": "other",
       "confirmations": [
         {
@@ -772,7 +772,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.775,
+        "recency": 0.76,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -787,7 +787,7 @@
       "source_id": "x_borussia0977",
       "tier": 4,
       "kind": "x",
-      "score": 5.5,
+      "score": 5.47,
       "category": "other",
       "confirmations": [
         {
@@ -805,7 +805,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.5,
-        "recency": 0.65,
+        "recency": 0.637,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -820,7 +820,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.49,
+      "score": 5.46,
       "category": "transfers",
       "confirmations": [
         {
@@ -833,7 +833,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.831,
+        "recency": 0.815,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -848,7 +848,7 @@
       "source_id": "x_skysportde",
       "tier": 2,
       "kind": "x",
-      "score": 5.49,
+      "score": 5.46,
       "category": "injury",
       "confirmations": [
         {
@@ -861,7 +861,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.767,
+        "recency": 0.753,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -876,7 +876,7 @@
       "source_id": "x_lafonatebvb",
       "tier": 4,
       "kind": "x",
-      "score": 5.47,
+      "score": 5.46,
       "category": "injury",
       "confirmations": [
         {
@@ -899,7 +899,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.75,
-        "recency": 0.316,
+        "recency": 0.309,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -914,7 +914,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.46,
+      "score": 5.43,
       "category": "injury",
       "confirmations": [
         {
@@ -927,7 +927,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.761,
+        "recency": 0.746,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -942,7 +942,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.42,
+      "score": 5.39,
       "category": "injury",
       "confirmations": [
         {
@@ -955,7 +955,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.729,
+        "recency": 0.715,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -970,7 +970,7 @@
       "source_id": "tm_geruechte",
       "tier": 2,
       "kind": "rss",
-      "score": 5.41,
+      "score": 5.38,
       "category": "transfers",
       "confirmations": [
         {
@@ -983,7 +983,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.799,
+        "recency": 0.784,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -998,7 +998,7 @@
       "source_id": "x_skysportde",
       "tier": 2,
       "kind": "x",
-      "score": 5.41,
+      "score": 5.38,
       "category": "injury",
       "confirmations": [
         {
@@ -1011,7 +1011,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.725,
+        "recency": 0.711,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1026,7 +1026,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 5.35,
+      "score": 5.33,
       "category": "injury",
       "confirmations": [
         {
@@ -1039,37 +1039,9 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.353,
+        "recency": 0.346,
         "specificity": 0.2,
         "relevance": 0.667
-      }
-    },
-    {
-      "id": "53459db9dd085897",
-      "title": "SV Werder: Mbangula-Interesse ausgeplaudert",
-      "summary": "Peter Niemeyer zufolge weckt Samuel Mbangula (22) andernorts Begehrlichkeiten. Gegenüber der vereinsnahen ‚DeichStube‘ nimmt Werder Bremens Lizenzbereichsleiter kein Blatt vor den Mund: „Wir haben (…)",
-      "url": "https://www.fussballtransfers.com/a4689364930464098652-sv-werder-mbangula-interesse-ausgeplaudert",
-      "published": "2026-06-22T17:29:39+00:00",
-      "source": "fussballtransfers.com",
-      "source_id": "fussballtransfers",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.33,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "fussballtransfers.com",
-          "url": "https://www.fussballtransfers.com/a4689364930464098652-sv-werder-mbangula-interesse-ausgeplaudert",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.861,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -1082,7 +1054,7 @@
       "source_id": "x_bvbnewsflash",
       "tier": 4,
       "kind": "x",
-      "score": 5.33,
+      "score": 5.31,
       "category": "injury",
       "confirmations": [
         {
@@ -1095,9 +1067,37 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.705,
+        "recency": 0.691,
         "specificity": 0.2,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "53459db9dd085897",
+      "title": "SV Werder: Mbangula-Interesse ausgeplaudert",
+      "summary": "Peter Niemeyer zufolge weckt Samuel Mbangula (22) andernorts Begehrlichkeiten. Gegenüber der vereinsnahen ‚DeichStube‘ nimmt Werder Bremens Lizenzbereichsleiter kein Blatt vor den Mund: „Wir haben (…)",
+      "url": "https://www.fussballtransfers.com/a4689364930464098652-sv-werder-mbangula-interesse-ausgeplaudert",
+      "published": "2026-06-22T17:29:39+00:00",
+      "source": "fussballtransfers.com",
+      "source_id": "fussballtransfers",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.3,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "fussballtransfers.com",
+          "url": "https://www.fussballtransfers.com/a4689364930464098652-sv-werder-mbangula-interesse-ausgeplaudert",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.844,
+        "specificity": 0.2,
+        "relevance": 0.333
       }
     },
     {
@@ -1110,7 +1110,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 5.31,
+      "score": 5.3,
       "category": "injury",
       "confirmations": [
         {
@@ -1123,7 +1123,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.167,
+        "recency": 0.163,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1138,7 +1138,7 @@
       "source_id": "x_skysportde",
       "tier": 2,
       "kind": "x",
-      "score": 5.31,
+      "score": 5.28,
       "category": "injury",
       "confirmations": [
         {
@@ -1151,7 +1151,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.676,
+        "recency": 0.663,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1166,7 +1166,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.3,
+      "score": 5.27,
       "category": "injury",
       "confirmations": [
         {
@@ -1179,7 +1179,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.679,
+        "recency": 0.666,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1194,7 +1194,7 @@
       "source_id": "x_berger",
       "tier": 1,
       "kind": "x",
-      "score": 5.25,
+      "score": 5.24,
       "category": "injury",
       "confirmations": [
         {
@@ -1207,7 +1207,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.305,
+        "recency": 0.299,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1222,7 +1222,7 @@
       "source_id": "x_borussia0977",
       "tier": 4,
       "kind": "x",
-      "score": 5.25,
+      "score": 5.23,
       "category": "injury",
       "confirmations": [
         {
@@ -1240,7 +1240,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.5,
-        "recency": 0.694,
+        "recency": 0.68,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1255,7 +1255,7 @@
       "source_id": "yt_poehlerz",
       "tier": 4,
       "kind": "youtube",
-      "score": 5.22,
+      "score": 5.19,
       "category": "injury",
       "confirmations": [
         {
@@ -1268,70 +1268,9 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.814,
+        "recency": 0.798,
         "specificity": 0.2,
         "relevance": 0.667
-      }
-    },
-    {
-      "id": "bef6e83a5f96ec97",
-      "title": "🇦🇹 Marcel Sabitzer starts for Austria vs. Argentina. #BVB",
-      "summary": "🇦🇹 Marcel Sabitzer starts for Austria vs. Argentina. #BVB",
-      "url": "https://nitter.net/bvbnewsblog/status/2069086277970928027#m",
-      "published": "2026-06-22T15:53:05+00:00",
-      "source": "BVB-Newsblog",
-      "source_id": "x_bvbnewsblog",
-      "tier": 4,
-      "kind": "x",
-      "score": 5.21,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "BVB-Newsblog",
-          "url": "https://nitter.net/bvbnewsblog/status/2069086277970928027#m",
-          "tier": 4
-        },
-        {
-          "source": "BVB-Newsblog",
-          "url": "https://nitter.net/bvbnewsblog/status/2067073204435214564#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.809,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
-      "id": "52f305c62bec22c1",
-      "title": "„In meiner Etage ist es einsam“: Neven Subotic gab alles für andere – und vergaß sich selbst",
-      "summary": "Sein Leben lang hat Neven Subotic alles gegeben – für den Fußball, für seine Stiftung. Doch privat fühlt sich der Ex-BVB-Star oft allein. Das will er nun ändern.",
-      "url": "https://www.ruhrnachrichten.de/dortmund/ex-bvb-star-neven-subotic-einsamkeit-neuanfang-stiftung-wellfair-leben-in-dortmund-w1202046-2002108153/",
-      "published": "2026-06-22T08:43:00+00:00",
-      "source": "Ruhr Nachrichten BVB",
-      "source_id": "rn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.19,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "Ruhr Nachrichten BVB",
-          "url": "https://www.ruhrnachrichten.de/dortmund/ex-bvb-star-neven-subotic-einsamkeit-neuanfang-stiftung-wellfair-leben-in-dortmund-w1202046-2002108153/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.614,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -1363,6 +1302,67 @@
       }
     },
     {
+      "id": "bef6e83a5f96ec97",
+      "title": "🇦🇹 Marcel Sabitzer starts for Austria vs. Argentina. #BVB",
+      "summary": "🇦🇹 Marcel Sabitzer starts for Austria vs. Argentina. #BVB",
+      "url": "https://nitter.net/bvbnewsblog/status/2069086277970928027#m",
+      "published": "2026-06-22T15:53:05+00:00",
+      "source": "BVB-Newsblog",
+      "source_id": "x_bvbnewsblog",
+      "tier": 4,
+      "kind": "x",
+      "score": 5.18,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB-Newsblog",
+          "url": "https://nitter.net/bvbnewsblog/status/2069086277970928027#m",
+          "tier": 4
+        },
+        {
+          "source": "BVB-Newsblog",
+          "url": "https://nitter.net/bvbnewsblog/status/2067073204435214564#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.793,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
+    },
+    {
+      "id": "52f305c62bec22c1",
+      "title": "„In meiner Etage ist es einsam“: Neven Subotic gab alles für andere – und vergaß sich selbst",
+      "summary": "Sein Leben lang hat Neven Subotic alles gegeben – für den Fußball, für seine Stiftung. Doch privat fühlt sich der Ex-BVB-Star oft allein. Das will er nun ändern.",
+      "url": "https://www.ruhrnachrichten.de/dortmund/ex-bvb-star-neven-subotic-einsamkeit-neuanfang-stiftung-wellfair-leben-in-dortmund-w1202046-2002108153/",
+      "published": "2026-06-22T08:43:00+00:00",
+      "source": "Ruhr Nachrichten BVB",
+      "source_id": "rn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.16,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "Ruhr Nachrichten BVB",
+          "url": "https://www.ruhrnachrichten.de/dortmund/ex-bvb-star-neven-subotic-einsamkeit-neuanfang-stiftung-wellfair-leben-in-dortmund-w1202046-2002108153/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.602,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "70edd191c5ad93cd",
       "title": "Wegen Cannabis-Geruch: Nachbar hinterlässt Droh-Zettel – und sorgt für Lacher",
       "summary": "Der Geruch von Cannabis kann so manche Nachbarn stören – in einem Fall hat der Nachbar sogar genaue Vorstellungen, wann geraucht werden darf und wann nicht.",
@@ -1372,7 +1372,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.18,
+      "score": 5.14,
       "category": "other",
       "confirmations": [
         {
@@ -1385,35 +1385,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.951,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "73bb818b1e15c2a6",
-      "title": "Letzte Chance für Steuererklärung: Wer jetzt noch handelt, kann Geld zurückerhalten",
-      "summary": "Viele lassen jedes Jahr Geld beim Finanzamt liegen. Für ein Steuerjahr endet die Frist allerdings schon bald – wer jetzt nicht handelt, verliert es.",
-      "url": "https://www.ruhr24.de/service/steuererklaerung-letzte-chance-2026-2022-geld-zurueckerhalten-finanzen-finanzamt-elster-apps-94363780.html",
-      "published": "2026-06-22T19:58:29+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.17,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/service/steuererklaerung-letzte-chance-2026-2022-geld-zurueckerhalten-finanzen-finanzamt-elster-apps-94363780.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.947,
+        "recency": 0.933,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1428,7 +1400,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 5.16,
+      "score": 5.14,
       "category": "injury",
       "confirmations": [
         {
@@ -1441,9 +1413,37 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.678,
+        "recency": 0.665,
         "specificity": 0.4,
         "relevance": 0.333
+      }
+    },
+    {
+      "id": "73bb818b1e15c2a6",
+      "title": "Letzte Chance für Steuererklärung: Wer jetzt noch handelt, kann Geld zurückerhalten",
+      "summary": "Viele lassen jedes Jahr Geld beim Finanzamt liegen. Für ein Steuerjahr endet die Frist allerdings schon bald – wer jetzt nicht handelt, verliert es.",
+      "url": "https://www.ruhr24.de/service/steuererklaerung-letzte-chance-2026-2022-geld-zurueckerhalten-finanzen-finanzamt-elster-apps-94363780.html",
+      "published": "2026-06-22T19:58:29+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.13,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/service/steuererklaerung-letzte-chance-2026-2022-geld-zurueckerhalten-finanzen-finanzamt-elster-apps-94363780.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.928,
+        "specificity": 0.2,
+        "relevance": 0.0
       }
     },
     {
@@ -1456,7 +1456,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.13,
+      "score": 5.11,
       "category": "matchday",
       "confirmations": [
         {
@@ -1469,7 +1469,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.418,
+        "recency": 0.41,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1484,7 +1484,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.12,
+      "score": 5.1,
       "category": "other",
       "confirmations": [
         {
@@ -1497,9 +1497,37 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.674,
+        "recency": 0.661,
         "specificity": 0.0,
         "relevance": 0.0
+      }
+    },
+    {
+      "id": "9d8ab7427206deb2",
+      "title": "Mohamed Salah hat Ägyptens Fußballer zum historischen ersten Sieg bei einer WM geschossen. 🔥 Der 34-Jährige erzielte beim 3:1 gegen Außenseiter Neuseeland den wichtigen zweiten Treffer und machte mit seiner Mannschaften einen großen Schritt in Richtung K.o.-Phase. #SkySport #Salah #FussballWM",
+      "summary": "Mohamed Salah hat Ägyptens Fußballer zum historischen ersten Sieg bei einer WM geschossen. 🔥 Der 34-Jährige erzielte beim 3:1 gegen Außenseiter Neuseeland den wichtigen zweiten Treffer und machte mit seiner Mannschaften einen großen Schritt in Richtung K.o.-Phase. #SkySport #Salah #FussballWM",
+      "url": "https://nitter.net/SkySportDE/status/2068952364988469491#m",
+      "published": "2026-06-22T07:00:57+00:00",
+      "source": "Sky Sport News DE",
+      "source_id": "x_skysportde",
+      "tier": 2,
+      "kind": "x",
+      "score": 5.09,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "Sky Sport News DE",
+          "url": "https://nitter.net/SkySportDE/status/2068952364988469491#m",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.564,
+        "specificity": 0.2,
+        "relevance": 0.333
       }
     },
     {
@@ -1512,7 +1540,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.11,
+      "score": 5.08,
       "category": "other",
       "confirmations": [
         {
@@ -1525,35 +1553,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.918,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "ad81b5946aef4505",
-      "title": "Wissen viele nicht: Diese gemütliche Altstadt im Ruhrgebiet hat eine „Zwergengasse“",
-      "summary": "Eine kleine, aber feine Altstadt erwarten Besucher am äußersten Rand des Ruhrgebiets. Gemütliche Gassen, historische Plätze und ein Schloss locken nach Moers.",
-      "url": "https://www.ruhr24.de/nrw/freizeit-in-nrw/altstadt-nrw-ruhrgebiet-moers-gassen-geheimtipp-ausflugstipp-mittelalter-niederrhein-94363763.html",
-      "published": "2026-06-22T19:07:10+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.11,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/nrw/freizeit-in-nrw/altstadt-nrw-ruhrgebiet-moers-gassen-geheimtipp-ausflugstipp-mittelalter-niederrhein-94363763.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.916,
+        "recency": 0.901,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1568,7 +1568,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 5.11,
+      "score": 5.08,
       "category": "injury",
       "confirmations": [
         {
@@ -1581,55 +1581,27 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.751,
+        "recency": 0.736,
         "specificity": 0.2,
         "relevance": 0.333
       }
     },
     {
-      "id": "9d8ab7427206deb2",
-      "title": "Mohamed Salah hat Ägyptens Fußballer zum historischen ersten Sieg bei einer WM geschossen. 🔥 Der 34-Jährige erzielte beim 3:1 gegen Außenseiter Neuseeland den wichtigen zweiten Treffer und machte mit seiner Mannschaften einen großen Schritt in Richtung K.o.-Phase. #SkySport #Salah #FussballWM",
-      "summary": "Mohamed Salah hat Ägyptens Fußballer zum historischen ersten Sieg bei einer WM geschossen. 🔥 Der 34-Jährige erzielte beim 3:1 gegen Außenseiter Neuseeland den wichtigen zweiten Treffer und machte mit seiner Mannschaften einen großen Schritt in Richtung K.o.-Phase. #SkySport #Salah #FussballWM",
-      "url": "https://nitter.net/SkySportDE/status/2068952364988469491#m",
-      "published": "2026-06-22T07:00:57+00:00",
-      "source": "Sky Sport News DE",
-      "source_id": "x_skysportde",
-      "tier": 2,
-      "kind": "x",
-      "score": 5.11,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "Sky Sport News DE",
-          "url": "https://nitter.net/SkySportDE/status/2068952364988469491#m",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.575,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "7fe67073ba6badf3",
-      "title": "Neuer Streamingdienst aus Deutschland startet kostenlos – was er anders macht als Netflix",
-      "summary": "Kein Abo, kein Mainstream: Ein neues Streaming-Angebot will Arthouse- und Festivalfilme dauerhaft sichtbar halten.",
-      "url": "https://www.ruhr24.de/tv-streaming/neu-streamingdienst-deutschland-start-kostenlos-anders-netflix-directors-collection-youtube-stream-94363740.html",
-      "published": "2026-06-22T18:31:00+00:00",
+      "id": "ad81b5946aef4505",
+      "title": "Wissen viele nicht: Diese gemütliche Altstadt im Ruhrgebiet hat eine „Zwergengasse“",
+      "summary": "Eine kleine, aber feine Altstadt erwarten Besucher am äußersten Rand des Ruhrgebiets. Gemütliche Gassen, historische Plätze und ein Schloss locken nach Moers.",
+      "url": "https://www.ruhr24.de/nrw/freizeit-in-nrw/altstadt-nrw-ruhrgebiet-moers-gassen-geheimtipp-ausflugstipp-mittelalter-niederrhein-94363763.html",
+      "published": "2026-06-22T19:07:10+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
       "score": 5.07,
-      "category": "injury",
+      "category": "matchday",
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/tv-streaming/neu-streamingdienst-deutschland-start-kostenlos-anders-netflix-directors-collection-youtube-stream-94363740.html",
+          "url": "https://www.ruhr24.de/nrw/freizeit-in-nrw/altstadt-nrw-ruhrgebiet-moers-gassen-geheimtipp-ausflugstipp-mittelalter-niederrhein-94363763.html",
           "tier": 2
         }
       ],
@@ -1637,65 +1609,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.895,
+        "recency": 0.898,
         "specificity": 0.2,
         "relevance": 0.0
-      }
-    },
-    {
-      "id": "24d866b298979499",
-      "title": "Dortmunder Radler stinksauer wegen Verbannung von Kaiserstraße – Stadt sagt: “schieben”",
-      "summary": "Dortmund hat den nördlichen Gehweg der Kaiserstraße für Radfahrende gesperrt. Ein RUHR24-Reel zur Thematik löste eine Welle der Empörung aus.",
-      "url": "https://www.ruhr24.de/dortmund/dortmund-radler-fahradfahrer-stinksauer-verbannt-kaiserstrasse-stadt-meinung-sperrung-kaiserviertel-94363017.html",
-      "published": "2026-06-22T13:07:50+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.06,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/dortmund/dortmund-radler-fahradfahrer-stinksauer-verbannt-kaiserstrasse-stadt-meinung-sperrung-kaiserviertel-94363017.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.727,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "04ce4e9fc61a5279",
-      "title": "Was it Timmy the Whale? | Fake Me Out with Weidenfeller, Großkreutz and Lünschermann",
-      "summary": "A new episode of the game where the aim is to lead the others down the wrong track. One of the three contestants quickly falls behind. The outcome isn’t decided until the very last question – and that one is ‘incredibly difficult’. ▶ Subscribe & hit the bell: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Twitch: https://www.twitch.tv/bvb_official Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Facebook: https://facebook.com/BVB TikTok: https://www.tiktok.com/@bvb ",
-      "url": "https://www.youtube.com/watch?v=VWpI4RG8S5w",
-      "published": "2026-06-19T19:00:38+00:00",
-      "source": "YouTube BVB (offiziell)",
-      "source_id": "yt_bvb_official",
-      "tier": 3,
-      "kind": "youtube",
-      "score": 5.06,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "YouTube BVB (offiziell)",
-          "url": "https://www.youtube.com/watch?v=VWpI4RG8S5w",
-          "tier": 3
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.9,
-        "confirmation": 0.25,
-        "recency": 0.057,
-        "specificity": 0.5,
-        "relevance": 0.667
       }
     },
     {
@@ -1732,6 +1648,90 @@
       }
     },
     {
+      "id": "04ce4e9fc61a5279",
+      "title": "Was it Timmy the Whale? | Fake Me Out with Weidenfeller, Großkreutz and Lünschermann",
+      "summary": "A new episode of the game where the aim is to lead the others down the wrong track. One of the three contestants quickly falls behind. The outcome isn’t decided until the very last question – and that one is ‘incredibly difficult’. ▶ Subscribe & hit the bell: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Twitch: https://www.twitch.tv/bvb_official Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Facebook: https://facebook.com/BVB TikTok: https://www.tiktok.com/@bvb ",
+      "url": "https://www.youtube.com/watch?v=VWpI4RG8S5w",
+      "published": "2026-06-19T19:00:38+00:00",
+      "source": "YouTube BVB (offiziell)",
+      "source_id": "yt_bvb_official",
+      "tier": 3,
+      "kind": "youtube",
+      "score": 5.05,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "YouTube BVB (offiziell)",
+          "url": "https://www.youtube.com/watch?v=VWpI4RG8S5w",
+          "tier": 3
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.9,
+        "confirmation": 0.25,
+        "recency": 0.056,
+        "specificity": 0.5,
+        "relevance": 0.667
+      }
+    },
+    {
+      "id": "7fe67073ba6badf3",
+      "title": "Neuer Streamingdienst aus Deutschland startet kostenlos – was er anders macht als Netflix",
+      "summary": "Kein Abo, kein Mainstream: Ein neues Streaming-Angebot will Arthouse- und Festivalfilme dauerhaft sichtbar halten.",
+      "url": "https://www.ruhr24.de/tv-streaming/neu-streamingdienst-deutschland-start-kostenlos-anders-netflix-directors-collection-youtube-stream-94363740.html",
+      "published": "2026-06-22T18:31:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.03,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/tv-streaming/neu-streamingdienst-deutschland-start-kostenlos-anders-netflix-directors-collection-youtube-stream-94363740.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.878,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "24d866b298979499",
+      "title": "Dortmunder Radler stinksauer wegen Verbannung von Kaiserstraße – Stadt sagt: “schieben”",
+      "summary": "Dortmund hat den nördlichen Gehweg der Kaiserstraße für Radfahrende gesperrt. Ein RUHR24-Reel zur Thematik löste eine Welle der Empörung aus.",
+      "url": "https://www.ruhr24.de/dortmund/dortmund-radler-fahradfahrer-stinksauer-verbannt-kaiserstrasse-stadt-meinung-sperrung-kaiserviertel-94363017.html",
+      "published": "2026-06-22T13:07:50+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.03,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/dortmund/dortmund-radler-fahradfahrer-stinksauer-verbannt-kaiserstrasse-stadt-meinung-sperrung-kaiserviertel-94363017.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.713,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "5db1a1b65e1c5071",
       "title": "Wie Sie eine Excel-Zelle teilweise löschen",
       "summary": "Nicht immer möchten Sie den kompletten Inhalt einer Excel-Zelle entfernen. Häufig soll lediglich die Formatierung zurückgesetzt, eine Notiz gelöscht oder nur der Zellinhalt entfernt werden, ohne andere Eigenschaften zu verändern. Dafür bietet Excel verschiedene Löschfunktionen, die deutlich flexibler sind als die einfache ENTF-Taste.",
@@ -1741,7 +1741,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.04,
+      "score": 5.01,
       "category": "injury",
       "confirmations": [
         {
@@ -1754,7 +1754,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.883,
+        "recency": 0.865,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -1769,7 +1769,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 5.04,
+      "score": 5.01,
       "category": "injury",
       "confirmations": [
         {
@@ -1782,7 +1782,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.713,
+        "recency": 0.7,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -1797,7 +1797,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.02,
+      "score": 4.99,
       "category": "other",
       "confirmations": [
         {
@@ -1810,7 +1810,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.774,
+        "recency": 0.759,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -1825,7 +1825,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.01,
+      "score": 4.98,
       "category": "other",
       "confirmations": [
         {
@@ -1838,7 +1838,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.767,
+        "recency": 0.752,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -1853,7 +1853,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.0,
+      "score": 4.97,
       "category": "other",
       "confirmations": [
         {
@@ -1866,93 +1866,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.864,
+        "recency": 0.847,
         "specificity": 0.2,
         "relevance": 0.0
-      }
-    },
-    {
-      "id": "607c0855695d4a7a",
-      "title": "Windows-Anmeldungen überwachen: Unbefugte Zugriffe erkennen",
-      "summary": "Wer wissen möchte, ob sich jemand ohne Erlaubnis am eigenen Windows-PC anmeldet, kann die Windows-Überwachungsfunktion nutzen. Sie protokolliert sowohl erfolgreiche als auch fehlgeschlagene Anmeldeversuche und hilft dabei, verdächtige Aktivitäten nachzuvollziehen. Besonders auf gemeinsam genutzten Computern oder im beruflichen Umfeld kann diese Funktion einen wichtigen Beitrag zur Sicherheit leisten.",
-      "url": "https://www.ruhr24.de/verbraucher/windows-anmeldungen-ueberwachen-unbefugte-zugriffe-erkennen-zr-94363592.html",
-      "published": "2026-06-22T17:11:00+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.98,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/windows-anmeldungen-ueberwachen-unbefugte-zugriffe-erkennen-zr-94363592.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.85,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "05d2a9931c25c019",
-      "title": "WM-Spiel vor Absage?",
-      "summary": "Hinter dem heutigen WM-Spiel Frankreich gegen den Irak (23 Uhr) stehen große Fragezeichen. Für den Austragunsgort Philadelphia liegt eine amtliche Unwetterwarnung vor. Laut ‚CBS‘ wird davor gewarnt, (…)",
-      "url": "https://www.fussballtransfers.com/a4037015259689679274-wm-spiel-vor-absage",
-      "published": "2026-06-22T11:27:13+00:00",
-      "source": "fussballtransfers.com",
-      "source_id": "fussballtransfers",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.97,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "fussballtransfers.com",
-          "url": "https://www.fussballtransfers.com/a4037015259689679274-wm-spiel-vor-absage",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.682,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "7a7a936ceccdb7f2",
-      "title": "Helene Fischer im Video: Ihr hautenges Bühnenoutfit sorgt für Aufmerksamkeit",
-      "summary": "Helene Fischer tourt durch Deutschland – und die erste große Hitzewelle des Jahres macht auch der Schlagerkönigin zu schaffen.",
-      "url": "https://www.ruhr24.de/promis/helene-fischers-buehnenoutfit-unerwartete-reaktion-bei-hitzewelle-zr-94362741.html",
-      "published": "2026-06-22T11:18:05+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.96,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/promis/helene-fischers-buehnenoutfit-unerwartete-reaktion-bei-hitzewelle-zr-94362741.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.678,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -1978,65 +1894,93 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.165,
+        "recency": 0.161,
         "specificity": 0.2,
         "relevance": 1.0
       }
     },
     {
-      "id": "9d6f1b1fef51952a",
-      "title": "Nico Schlotterbeck has torn a ligament in his left ankle and will be out of action for at least 8 weeks. 🗞 @BILD #BVB",
-      "summary": "Nico Schlotterbeck has torn a ligament in his left ankle and will be out of action for at least 8 weeks. 🗞 @BILD #BVB",
-      "url": "https://nitter.net/bvbnewsblog/status/2069015630712299675#m",
-      "published": "2026-06-22T11:12:21+00:00",
-      "source": "BVB-Newsblog",
-      "source_id": "x_bvbnewsblog",
-      "tier": 4,
-      "kind": "x",
+      "id": "05d2a9931c25c019",
+      "title": "WM-Spiel vor Absage?",
+      "summary": "Hinter dem heutigen WM-Spiel Frankreich gegen den Irak (23 Uhr) stehen große Fragezeichen. Für den Austragunsgort Philadelphia liegt eine amtliche Unwetterwarnung vor. Laut ‚CBS‘ wird davor gewarnt, (…)",
+      "url": "https://www.fussballtransfers.com/a4037015259689679274-wm-spiel-vor-absage",
+      "published": "2026-06-22T11:27:13+00:00",
+      "source": "fussballtransfers.com",
+      "source_id": "fussballtransfers",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.95,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "fussballtransfers.com",
+          "url": "https://www.fussballtransfers.com/a4037015259689679274-wm-spiel-vor-absage",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.669,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "607c0855695d4a7a",
+      "title": "Windows-Anmeldungen überwachen: Unbefugte Zugriffe erkennen",
+      "summary": "Wer wissen möchte, ob sich jemand ohne Erlaubnis am eigenen Windows-PC anmeldet, kann die Windows-Überwachungsfunktion nutzen. Sie protokolliert sowohl erfolgreiche als auch fehlgeschlagene Anmeldeversuche und hilft dabei, verdächtige Aktivitäten nachzuvollziehen. Besonders auf gemeinsam genutzten Computern oder im beruflichen Umfeld kann diese Funktion einen wichtigen Beitrag zur Sicherheit leisten.",
+      "url": "https://www.ruhr24.de/verbraucher/windows-anmeldungen-ueberwachen-unbefugte-zugriffe-erkennen-zr-94363592.html",
+      "published": "2026-06-22T17:11:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
       "score": 4.94,
       "category": "injury",
       "confirmations": [
         {
-          "source": "BVB-Newsblog",
-          "url": "https://nitter.net/bvbnewsblog/status/2069015630712299675#m",
-          "tier": 4
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/windows-anmeldungen-ueberwachen-unbefugte-zugriffe-erkennen-zr-94363592.html",
+          "tier": 2
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.6,
+        "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.676,
+        "recency": 0.834,
         "specificity": 0.2,
-        "relevance": 0.667
+        "relevance": 0.0
       }
     },
     {
-      "id": "5e03f568b6b1358d",
-      "title": "Felix Nmecha auf der großen WM Bühne",
-      "summary": "Sportlich trumpft Felix Nmecha bei der Weltmeisterschaft in den USA auf. Doch gleichzeitig kochen erneut Diskussionen seiner Person abseits des Platzes hoch. Der Bericht eines Betroffenen.",
-      "url": "https://www.schwatzgelb.de/artikel/2026/eua-senf/felix-nmecha-auf-der-grossen-wm-buehne",
-      "published": "2026-06-22T11:00:00+00:00",
-      "source": "Schwatzgelb",
-      "source_id": "schwatzgelb",
-      "tier": 4,
+      "id": "7a7a936ceccdb7f2",
+      "title": "Helene Fischer im Video: Ihr hautenges Bühnenoutfit sorgt für Aufmerksamkeit",
+      "summary": "Helene Fischer tourt durch Deutschland – und die erste große Hitzewelle des Jahres macht auch der Schlagerkönigin zu schaffen.",
+      "url": "https://www.ruhr24.de/promis/helene-fischers-buehnenoutfit-unerwartete-reaktion-bei-hitzewelle-zr-94362741.html",
+      "published": "2026-06-22T11:18:05+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
       "kind": "rss",
-      "score": 4.93,
-      "category": "other",
+      "score": 4.94,
+      "category": "injury",
       "confirmations": [
         {
-          "source": "Schwatzgelb",
-          "url": "https://www.schwatzgelb.de/artikel/2026/eua-senf/felix-nmecha-auf-der-grossen-wm-buehne",
-          "tier": 4
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/promis/helene-fischers-buehnenoutfit-unerwartete-reaktion-bei-hitzewelle-zr-94362741.html",
+          "tier": 2
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.6,
+        "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.67,
+        "recency": 0.665,
         "specificity": 0.2,
-        "relevance": 0.667
+        "relevance": 0.333
       }
     },
     {
@@ -2068,6 +2012,62 @@
       }
     },
     {
+      "id": "9d6f1b1fef51952a",
+      "title": "Nico Schlotterbeck has torn a ligament in his left ankle and will be out of action for at least 8 weeks. 🗞 @BILD #BVB",
+      "summary": "Nico Schlotterbeck has torn a ligament in his left ankle and will be out of action for at least 8 weeks. 🗞 @BILD #BVB",
+      "url": "https://nitter.net/bvbnewsblog/status/2069015630712299675#m",
+      "published": "2026-06-22T11:12:21+00:00",
+      "source": "BVB-Newsblog",
+      "source_id": "x_bvbnewsblog",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.92,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "BVB-Newsblog",
+          "url": "https://nitter.net/bvbnewsblog/status/2069015630712299675#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.662,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
+    },
+    {
+      "id": "5e03f568b6b1358d",
+      "title": "Felix Nmecha auf der großen WM Bühne",
+      "summary": "Sportlich trumpft Felix Nmecha bei der Weltmeisterschaft in den USA auf. Doch gleichzeitig kochen erneut Diskussionen seiner Person abseits des Platzes hoch. Der Bericht eines Betroffenen.",
+      "url": "https://www.schwatzgelb.de/artikel/2026/eua-senf/felix-nmecha-auf-der-grossen-wm-buehne",
+      "published": "2026-06-22T11:00:00+00:00",
+      "source": "Schwatzgelb",
+      "source_id": "schwatzgelb",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.91,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Schwatzgelb",
+          "url": "https://www.schwatzgelb.de/artikel/2026/eua-senf/felix-nmecha-auf-der-grossen-wm-buehne",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.657,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
+    },
+    {
       "id": "d2cb0f8bd87b8bca",
       "title": "ZDF-Moderator Lege geht nach 7 Jahren – „Nachfolger wird es schwer haben“",
       "summary": "Sebastian Lege verlässt das ZDF und beendet seine Arbeit für „besseresser“. Zuschauer reagieren deutlich auf den Abschied.",
@@ -2077,7 +2077,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.92,
+      "score": 4.89,
       "category": "matchday",
       "confirmations": [
         {
@@ -2090,7 +2090,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.825,
+        "recency": 0.809,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2105,7 +2105,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.91,
+      "score": 4.88,
       "category": "other",
       "confirmations": [
         {
@@ -2118,7 +2118,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.817,
+        "recency": 0.801,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2133,7 +2133,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.89,
+      "score": 4.86,
       "category": "matchday",
       "confirmations": [
         {
@@ -2146,7 +2146,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.81,
+        "recency": 0.794,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2161,68 +2161,12 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.89,
+      "score": 4.86,
       "category": "other",
       "confirmations": [
         {
           "source": "RUHR24 BVB",
           "url": "https://www.ruhr24.de/schlagzeilen/tankrabatt-diesel-preis-gesunken-tankstelle-auto-adac-sprit-benzin-vorkriegsniveau-94363557.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.81,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "52762b66eefec974",
-      "title": "Lkw mit Gefahrgut könnte jeden Moment explodieren – Ortschaft wird evakuiert",
-      "summary": "Ein havarierter Lkw versetzt eine ganze Region in Alarmbereitschaft. Fachleute ringen gegen die Uhr – mit ungewissem Ausgang.",
-      "url": "https://www.ruhr24.de/schlagzeilen/lkw-gefahrenguttransporter-a8-goeppingen-autobahn-explosion-evakuierung-polizei-ortschaft-94363737.html",
-      "published": "2026-06-22T18:25:15+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.86,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/textdateien-automatisch-in-excel-importieren-und-aktualisieren-zr-94363587.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.892,
-        "specificity": 0.0,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "395d0e7ec7e3a7ce",
-      "title": "Debatte ums Gendern im Video: Hella von Sinnen hält Mike Krüger den Spiegel vor",
-      "summary": "Komiker Mike Krüger lehnt Gendern ab – Entertainerin Hella von Sinnen widerspricht ihm im Podcast vehement.",
-      "url": "https://www.ruhr24.de/promis/hella-von-sinnen-widerspricht-mike-krueger-wenn-es-um-gendern-geht-zr-94363485.html",
-      "published": "2026-06-22T15:24:36+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.86,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/promis/hella-von-sinnen-widerspricht-mike-krueger-wenn-es-um-gendern-geht-zr-94363485.html",
           "tier": 2
         }
       ],
@@ -2264,6 +2208,62 @@
       }
     },
     {
+      "id": "395d0e7ec7e3a7ce",
+      "title": "Debatte ums Gendern im Video: Hella von Sinnen hält Mike Krüger den Spiegel vor",
+      "summary": "Komiker Mike Krüger lehnt Gendern ab – Entertainerin Hella von Sinnen widerspricht ihm im Podcast vehement.",
+      "url": "https://www.ruhr24.de/promis/hella-von-sinnen-widerspricht-mike-krueger-wenn-es-um-gendern-geht-zr-94363485.html",
+      "published": "2026-06-22T15:24:36+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.83,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/promis/hella-von-sinnen-widerspricht-mike-krueger-wenn-es-um-gendern-geht-zr-94363485.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.779,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "52762b66eefec974",
+      "title": "Lkw mit Gefahrgut könnte jeden Moment explodieren – Ortschaft wird evakuiert",
+      "summary": "Ein havarierter Lkw versetzt eine ganze Region in Alarmbereitschaft. Fachleute ringen gegen die Uhr – mit ungewissem Ausgang.",
+      "url": "https://www.ruhr24.de/schlagzeilen/lkw-gefahrenguttransporter-a8-goeppingen-autobahn-explosion-evakuierung-polizei-ortschaft-94363737.html",
+      "published": "2026-06-22T18:25:15+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.82,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/schlagzeilen/lkw-gefahrenguttransporter-a8-goeppingen-autobahn-explosion-evakuierung-polizei-ortschaft-94363737.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.875,
+        "specificity": 0.0,
+        "relevance": 0.0
+      }
+    },
+    {
       "id": "5cd65a258d27b0e2",
       "title": "Pläne der Rentenkommission: Neue Kapitalrente würde Arbeitnehmer direkt im Geldbeutel treffen",
       "summary": "Kapitalrente statt nur Umlage: Was die geplante Rentenreform bedeutet, wie viel monatlich in die neuen Fonds fließen würde – und was das für Sie ändern würde.",
@@ -2273,7 +2273,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.84,
+      "score": 4.81,
       "category": "other",
       "confirmations": [
         {
@@ -2286,65 +2286,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.781,
+        "recency": 0.766,
         "specificity": 0.2,
         "relevance": 0.0
-      }
-    },
-    {
-      "id": "6b7c32d245b50e5e",
-      "title": "WM 2026: DFB-Team: Schlotterbeck verletzt! Wie baut Nagelsmann jetzt um?",
-      "summary": "Undav gut, alles gut? Nicht wirklich: Denn Julian Nagelsmann muss nun auf den schmerzahften Ausfall von Nico Schlotterbeck reagieren. Wie das gelingen kann? Wir sprechen drüber im Podcast „11FREUNDE am Abend“.",
-      "url": "https://www.11freunde.de/wm/wm-2026-dfb-team-schlotterbeck-verletzt-wie-baut-nagelsmann-jetzt-um-a-8e3b6e0c-b09b-4490-aadf-872f9cda19d9#ref=rss",
-      "published": "2026-06-21T14:58:00+00:00",
-      "source": "11Freunde",
-      "source_id": "11freunde",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.78,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "11Freunde",
-          "url": "https://www.11freunde.de/wm/wm-2026-dfb-team-schlotterbeck-verletzt-wie-baut-nagelsmann-jetzt-um-a-8e3b6e0c-b09b-4490-aadf-872f9cda19d9#ref=rss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.31,
-        "specificity": 0.4,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "666627af48f61475",
-      "title": "🧠 GENIUS first touch by JOBE ☄️",
-      "summary": "😮‍💨 This first touch + ☄️ this finish = ⚽️ First BVB-Goal by Jobe Bellingham #shorts #bvb #bellingham",
-      "url": "https://www.youtube.com/shorts/CnsuCoT7Za4",
-      "published": "2026-06-21T08:00:07+00:00",
-      "source": "YouTube BVB (offiziell)",
-      "source_id": "yt_bvb_official",
-      "tier": 3,
-      "kind": "youtube",
-      "score": 4.78,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "YouTube BVB (offiziell)",
-          "url": "https://www.youtube.com/shorts/CnsuCoT7Za4",
-          "tier": 3
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.9,
-        "confirmation": 0.25,
-        "recency": 0.237,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -2376,6 +2320,90 @@
       }
     },
     {
+      "id": "6b7c32d245b50e5e",
+      "title": "WM 2026: DFB-Team: Schlotterbeck verletzt! Wie baut Nagelsmann jetzt um?",
+      "summary": "Undav gut, alles gut? Nicht wirklich: Denn Julian Nagelsmann muss nun auf den schmerzahften Ausfall von Nico Schlotterbeck reagieren. Wie das gelingen kann? Wir sprechen drüber im Podcast „11FREUNDE am Abend“.",
+      "url": "https://www.11freunde.de/wm/wm-2026-dfb-team-schlotterbeck-verletzt-wie-baut-nagelsmann-jetzt-um-a-8e3b6e0c-b09b-4490-aadf-872f9cda19d9#ref=rss",
+      "published": "2026-06-21T14:58:00+00:00",
+      "source": "11Freunde",
+      "source_id": "11freunde",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.77,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "11Freunde",
+          "url": "https://www.11freunde.de/wm/wm-2026-dfb-team-schlotterbeck-verletzt-wie-baut-nagelsmann-jetzt-um-a-8e3b6e0c-b09b-4490-aadf-872f9cda19d9#ref=rss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.304,
+        "specificity": 0.4,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "666627af48f61475",
+      "title": "🧠 GENIUS first touch by JOBE ☄️",
+      "summary": "😮‍💨 This first touch + ☄️ this finish = ⚽️ First BVB-Goal by Jobe Bellingham #shorts #bvb #bellingham",
+      "url": "https://www.youtube.com/shorts/CnsuCoT7Za4",
+      "published": "2026-06-21T08:00:07+00:00",
+      "source": "YouTube BVB (offiziell)",
+      "source_id": "yt_bvb_official",
+      "tier": 3,
+      "kind": "youtube",
+      "score": 4.77,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "YouTube BVB (offiziell)",
+          "url": "https://www.youtube.com/shorts/CnsuCoT7Za4",
+          "tier": 3
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.9,
+        "confirmation": 0.25,
+        "recency": 0.232,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "cf1e73a851c24fb8",
+      "title": "Kylian Mbappe hat erneut den Einfluss von Bayerns Michael Olise auf das Spiel der französischen Nationalmannschaft gelobt.🇫🇷💪✨ ➡️\"Sein Profil passt sehr gut zu jedem von uns, er hat zu allen eine sehr gute Verbindung. Wir haben durch ihn sehr viel Rotation im Spiel\", sagte Mbappe weiter. ➡️Olise sei \"ein großartiger Spieler. Er hat die Fähigkeit und Qualität, um etwas zu kreieren und etwas anderes zu machen. Wir sind sehr glücklich, dass wir ihn an Bord haben.\" ℹ️Beim 3:1-Auftaktsieg gegen Senegal hatte Bayerns Offensivspieler zwei Treffer für Mbappe aufgelegt. #SkySport #WM2026 #Mbappe #Olise",
+      "summary": "Kylian Mbappe hat erneut den Einfluss von Bayerns Michael Olise auf das Spiel der französischen Nationalmannschaft gelobt.🇫🇷💪✨ ➡️\"Sein Profil passt sehr gut zu jedem von uns, er hat zu allen eine sehr gute Verbindung. Wir haben durch ihn sehr viel Rotation im Spiel\", sagte Mbappe weiter. ➡️Olise sei \"ein großartiger Spieler. Er hat die Fähigkeit und Qualität, um etwas zu kreieren und etwas anderes zu machen. Wir sind sehr glücklich, dass wir ihn an Bord haben.\" ℹ️Beim 3:1-Auftaktsieg gegen Seneg",
+      "url": "https://nitter.net/SkySportDE/status/2068815675041157578#m",
+      "published": "2026-06-21T21:57:48+00:00",
+      "source": "Sky Sport News DE",
+      "source_id": "x_skysportde",
+      "tier": 2,
+      "kind": "x",
+      "score": 4.75,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "Sky Sport News DE",
+          "url": "https://nitter.net/SkySportDE/status/2068815675041157578#m",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.398,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "664a367f53d130e6",
       "title": "12 Hunderassen, die gute Laune und Freude ausstrahlen",
       "summary": "Zwölf Vierbeiner, die echte Freudenspender sind – denn einige Hunde heben die Stimmung im Handumdrehen. Erfahren Sie hier, welche Rassen das schaffen:",
@@ -2385,7 +2413,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.77,
+      "score": 4.74,
       "category": "other",
       "confirmations": [
         {
@@ -2398,7 +2426,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.748,
+        "recency": 0.734,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2413,7 +2441,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.77,
+      "score": 4.74,
       "category": "transfers",
       "confirmations": [
         {
@@ -2426,7 +2454,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.748,
+        "recency": 0.733,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2441,7 +2469,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.77,
+      "score": 4.74,
       "category": "other",
       "confirmations": [
         {
@@ -2454,37 +2482,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.747,
+        "recency": 0.732,
         "specificity": 0.2,
         "relevance": 0.0
-      }
-    },
-    {
-      "id": "cf1e73a851c24fb8",
-      "title": "Kylian Mbappe hat erneut den Einfluss von Bayerns Michael Olise auf das Spiel der französischen Nationalmannschaft gelobt.🇫🇷💪✨ ➡️\"Sein Profil passt sehr gut zu jedem von uns, er hat zu allen eine sehr gute Verbindung. Wir haben durch ihn sehr viel Rotation im Spiel\", sagte Mbappe weiter. ➡️Olise sei \"ein großartiger Spieler. Er hat die Fähigkeit und Qualität, um etwas zu kreieren und etwas anderes zu machen. Wir sind sehr glücklich, dass wir ihn an Bord haben.\" ℹ️Beim 3:1-Auftaktsieg gegen Senegal hatte Bayerns Offensivspieler zwei Treffer für Mbappe aufgelegt. #SkySport #WM2026 #Mbappe #Olise",
-      "summary": "Kylian Mbappe hat erneut den Einfluss von Bayerns Michael Olise auf das Spiel der französischen Nationalmannschaft gelobt.🇫🇷💪✨ ➡️\"Sein Profil passt sehr gut zu jedem von uns, er hat zu allen eine sehr gute Verbindung. Wir haben durch ihn sehr viel Rotation im Spiel\", sagte Mbappe weiter. ➡️Olise sei \"ein großartiger Spieler. Er hat die Fähigkeit und Qualität, um etwas zu kreieren und etwas anderes zu machen. Wir sind sehr glücklich, dass wir ihn an Bord haben.\" ℹ️Beim 3:1-Auftaktsieg gegen Seneg",
-      "url": "https://nitter.net/SkySportDE/status/2068815675041157578#m",
-      "published": "2026-06-21T21:57:48+00:00",
-      "source": "Sky Sport News DE",
-      "source_id": "x_skysportde",
-      "tier": 2,
-      "kind": "x",
-      "score": 4.77,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "Sky Sport News DE",
-          "url": "https://nitter.net/SkySportDE/status/2068815675041157578#m",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.406,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -2497,7 +2497,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 4.76,
+      "score": 4.73,
       "category": "transfers",
       "confirmations": [
         {
@@ -2510,7 +2510,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.869,
+        "recency": 0.852,
         "specificity": 0.0,
         "relevance": 1.0
       }
@@ -2525,7 +2525,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.74,
+      "score": 4.71,
       "category": "injury",
       "confirmations": [
         {
@@ -2538,7 +2538,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.834,
+        "recency": 0.817,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -2553,7 +2553,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.73,
+      "score": 4.7,
       "category": "injury",
       "confirmations": [
         {
@@ -2566,7 +2566,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.728,
+        "recency": 0.714,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2581,7 +2581,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.73,
+      "score": 4.7,
       "category": "injury",
       "confirmations": [
         {
@@ -2594,7 +2594,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.728,
+        "recency": 0.714,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2609,7 +2609,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.71,
+      "score": 4.7,
       "category": "transfers",
       "confirmations": [
         {
@@ -2622,7 +2622,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.04,
+        "recency": 0.039,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -2650,93 +2650,9 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.039,
+        "recency": 0.038,
         "specificity": 0.2,
         "relevance": 1.0
-      }
-    },
-    {
-      "id": "0222488a57a4657d",
-      "title": "Bundeswehr läutet „Zeitenwende“ ein – vor Putins Haustür",
-      "summary": "Deutschland verstärkt seine militärische Präsenz im Baltikum massiv. Derweil sendet ein Verbündeter von Wladimir Putin Friedenssignale.",
-      "url": "https://www.ruhr24.de/schlagzeilen/bundeswehr-litauen-soldaten-wladimir-putin-russland-ukraine-krieg-belarus-aktuell-berlin-94362896.html",
-      "published": "2026-06-22T12:19:12+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.69,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/schlagzeilen/bundeswehr-litauen-soldaten-wladimir-putin-russland-ukraine-krieg-belarus-aktuell-berlin-94362896.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.705,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "a3148bbb620fe4fd",
-      "title": "Die Sommer-Neuzugänge der Bundesligisten im Überblick",
-      "summary": "Die Planungen der Bundesligisten für die Saison 2026/27 laufen. Diese Neuzugänge haben die 18 Klubs bereits offiziell präsentiert.",
-      "url": "https://www.kicker.de/die-sommer-neuzugaenge-der-bundesligisten-im-ueberblick-954971/artikel#omrss",
-      "published": "2026-06-21T12:18:00+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.69,
-      "category": "official",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/die-sommer-neuzugaenge-der-bundesligisten-im-ueberblick-954971/artikel#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.28,
-        "specificity": 0.7,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "b87a8801b1d4d1b5",
-      "title": "BVB: Vier klare Anforderungen an den neuen Zehner",
-      "summary": "Bekannt ist: Der BVB will in diesem Sommer einen neuen Spielmacher verpflichten. Dabei geht es Sportchef Ole Book bei der Suche nicht primär um den Faktor Scorerwerte.Der Name Jadon Sancho (26) (…)",
-      "url": "https://www.fussballtransfers.com/a4438085516750018574-bvb-vier-klare-anforderungen-an-den-neuen-zehner",
-      "published": "2026-06-22T05:31:36+00:00",
-      "source": "fussballtransfers.com",
-      "source_id": "fussballtransfers",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.69,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "fussballtransfers.com",
-          "url": "https://www.fussballtransfers.com/a4438085516750018574-bvb-vier-klare-anforderungen-an-den-neuen-zehner",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.707,
-        "specificity": 0.2,
-        "relevance": 0.0
       }
     },
     {
@@ -2762,7 +2678,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.031,
+        "recency": 0.03,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -2777,7 +2693,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.68,
+      "score": 4.67,
       "category": "official",
       "confirmations": [
         {
@@ -2790,83 +2706,27 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.28,
+        "recency": 0.274,
         "specificity": 0.7,
         "relevance": 0.0
       }
     },
     {
-      "id": "63b710321382a9f2",
-      "title": "Puppenkopf-Trick: Tesla-Besitzer in China überlisten Autopilot mit simpler Methode",
-      "summary": "Kein Fahrer, kein Problem? In China kursiert offenbar ein Trick, der Teslas Autopilot-Überwachung narrt. Das Werkzeug dafür kostet nur wenige Euro und passt in jede Hand.",
-      "url": "https://www.ruhr24.de/verbraucher/puppenkopf-trick-tesla-besitzer-fuehren-autopilot-in-die-irre-zr-94362868.html",
-      "published": "2026-06-22T12:10:54+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.68,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/puppenkopf-trick-tesla-besitzer-fuehren-autopilot-in-die-irre-zr-94362868.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.701,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "e715aee20aa69dfa",
-      "title": "NABU rät: 40cm-„Schlange“ mit einer Zutat in den Garten locken – sie frisst alle Schnecken",
-      "summary": "Wer Nacktschnecken im Beet bekämpfen will, braucht kein Schneckenkorn. Die Blindschleiche erledigt das kostenlos – wenn man ihr das Richtige bietet.",
-      "url": "https://www.ruhr24.de/service/garten/nabu-schlange-zutat-anlocken-schnecken-blindschleiche-nuetzling-fressen-kompost-versteck-reptil-94362861.html",
-      "published": "2026-06-22T12:06:27+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.67,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/service/garten/nabu-schlange-zutat-anlocken-schnecken-blindschleiche-nuetzling-fressen-kompost-versteck-reptil-94362861.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.699,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "ee6644bb115fa49e",
-      "title": "Großes Bayern-Dilemma: Olise nicht zu durchschauen",
-      "summary": "Beim FC Bayern plant man langfristig mit Michael Olise. Der Standpunkt zu einem möglichen Verkauf ist zwar eindeutig, der Spieler selbst sendet allerdings keine klaren Signale.Ob nun 200 oder 500 (…)",
-      "url": "https://www.fussballtransfers.com/a1742571486787643958-grosses-bayern-dilemma-olise-nicht-zu-durchschauen",
-      "published": "2026-06-22T05:02:40+00:00",
+      "id": "b87a8801b1d4d1b5",
+      "title": "BVB: Vier klare Anforderungen an den neuen Zehner",
+      "summary": "Bekannt ist: Der BVB will in diesem Sommer einen neuen Spielmacher verpflichten. Dabei geht es Sportchef Ole Book bei der Suche nicht primär um den Faktor Scorerwerte.Der Name Jadon Sancho (26) (…)",
+      "url": "https://www.fussballtransfers.com/a4438085516750018574-bvb-vier-klare-anforderungen-an-den-neuen-zehner",
+      "published": "2026-06-22T05:31:36+00:00",
       "source": "fussballtransfers.com",
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
       "score": 4.67,
-      "category": "other",
+      "category": "matchday",
       "confirmations": [
         {
           "source": "fussballtransfers.com",
-          "url": "https://www.fussballtransfers.com/a1742571486787643958-grosses-bayern-dilemma-olise-nicht-zu-durchschauen",
+          "url": "https://www.fussballtransfers.com/a4438085516750018574-bvb-vier-klare-anforderungen-an-den-neuen-zehner",
           "tier": 2
         }
       ],
@@ -2874,9 +2734,37 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.533,
+        "recency": 0.532,
         "specificity": 0.2,
         "relevance": 0.333
+      }
+    },
+    {
+      "id": "0222488a57a4657d",
+      "title": "Bundeswehr läutet „Zeitenwende“ ein – vor Putins Haustür",
+      "summary": "Deutschland verstärkt seine militärische Präsenz im Baltikum massiv. Derweil sendet ein Verbündeter von Wladimir Putin Friedenssignale.",
+      "url": "https://www.ruhr24.de/schlagzeilen/bundeswehr-litauen-soldaten-wladimir-putin-russland-ukraine-krieg-belarus-aktuell-berlin-94362896.html",
+      "published": "2026-06-22T12:19:12+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.66,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/schlagzeilen/bundeswehr-litauen-soldaten-wladimir-putin-russland-ukraine-krieg-belarus-aktuell-berlin-94362896.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.691,
+        "specificity": 0.2,
+        "relevance": 0.0
       }
     },
     {
@@ -2889,7 +2777,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 4.67,
+      "score": 4.66,
       "category": "other",
       "confirmations": [
         {
@@ -2902,37 +2790,9 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.112,
+        "recency": 0.11,
         "specificity": 0.0,
         "relevance": 0.667
-      }
-    },
-    {
-      "id": "4d6f3a6d6559b7e6",
-      "title": "Ist das Mats Hummels? Annika Kärsten-Hoenigs Bruder sorgt für Verwirrung im Netz",
-      "summary": "Ein Foto von Annika Kärsten-Hoenig hat ihre Follower in helle Aufregung versetzt – denn der Mann an ihrer Seite erinnert viele verblüffend an einen deutschen Fußball-Star.",
-      "url": "https://www.ruhr24.de/promis/mats-hummels-lookalike-annikas-bruder-verwirrt-das-netz-zr-94362837.html",
-      "published": "2026-06-22T11:56:31+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.66,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/promis/mats-hummels-lookalike-annikas-bruder-verwirrt-das-netz-zr-94362837.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.695,
-        "specificity": 0.2,
-        "relevance": 0.0
       }
     },
     {
@@ -2987,6 +2847,90 @@
         "credibility": 1.0,
         "confirmation": 0.25,
         "recency": 0.001,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "63b710321382a9f2",
+      "title": "Puppenkopf-Trick: Tesla-Besitzer in China überlisten Autopilot mit simpler Methode",
+      "summary": "Kein Fahrer, kein Problem? In China kursiert offenbar ein Trick, der Teslas Autopilot-Überwachung narrt. Das Werkzeug dafür kostet nur wenige Euro und passt in jede Hand.",
+      "url": "https://www.ruhr24.de/verbraucher/puppenkopf-trick-tesla-besitzer-fuehren-autopilot-in-die-irre-zr-94362868.html",
+      "published": "2026-06-22T12:10:54+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.65,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/puppenkopf-trick-tesla-besitzer-fuehren-autopilot-in-die-irre-zr-94362868.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.688,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "e715aee20aa69dfa",
+      "title": "NABU rät: 40cm-„Schlange“ mit einer Zutat in den Garten locken – sie frisst alle Schnecken",
+      "summary": "Wer Nacktschnecken im Beet bekämpfen will, braucht kein Schneckenkorn. Die Blindschleiche erledigt das kostenlos – wenn man ihr das Richtige bietet.",
+      "url": "https://www.ruhr24.de/service/garten/nabu-schlange-zutat-anlocken-schnecken-blindschleiche-nuetzling-fressen-kompost-versteck-reptil-94362861.html",
+      "published": "2026-06-22T12:06:27+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.65,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/service/garten/nabu-schlange-zutat-anlocken-schnecken-blindschleiche-nuetzling-fressen-kompost-versteck-reptil-94362861.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.686,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "ee6644bb115fa49e",
+      "title": "Großes Bayern-Dilemma: Olise nicht zu durchschauen",
+      "summary": "Beim FC Bayern plant man langfristig mit Michael Olise. Der Standpunkt zu einem möglichen Verkauf ist zwar eindeutig, der Spieler selbst sendet allerdings keine klaren Signale.Ob nun 200 oder 500 (…)",
+      "url": "https://www.fussballtransfers.com/a1742571486787643958-grosses-bayern-dilemma-olise-nicht-zu-durchschauen",
+      "published": "2026-06-22T05:02:40+00:00",
+      "source": "fussballtransfers.com",
+      "source_id": "fussballtransfers",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.65,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "fussballtransfers.com",
+          "url": "https://www.fussballtransfers.com/a1742571486787643958-grosses-bayern-dilemma-olise-nicht-zu-durchschauen",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.522,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3048,21 +2992,21 @@
       }
     },
     {
-      "id": "38c4fd5388a22823",
-      "title": "Gefahr für Putin? Neue Partei will Kreml-Chef stürzen",
-      "summary": "In Berlin hat ein russischer Oppositioneller eine Exil-Partei gegründet. Doch selbst in den eigenen Reihen gibt es Skepsis.",
-      "url": "https://www.ruhr24.de/schlagzeilen/wladimir-putin-news-russland-friedliches-ukraine-krieg-partei-ilja-jaschin-kreml-moskau-berlin-94362743.html",
-      "published": "2026-06-22T11:18:33+00:00",
+      "id": "4d6f3a6d6559b7e6",
+      "title": "Ist das Mats Hummels? Annika Kärsten-Hoenigs Bruder sorgt für Verwirrung im Netz",
+      "summary": "Ein Foto von Annika Kärsten-Hoenig hat ihre Follower in helle Aufregung versetzt – denn der Mann an ihrer Seite erinnert viele verblüffend an einen deutschen Fußball-Star.",
+      "url": "https://www.ruhr24.de/promis/mats-hummels-lookalike-annikas-bruder-verwirrt-das-netz-zr-94362837.html",
+      "published": "2026-06-22T11:56:31+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
       "score": 4.64,
-      "category": "other",
+      "category": "injury",
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/schlagzeilen/wladimir-putin-news-russland-friedliches-ukraine-krieg-partei-ilja-jaschin-kreml-moskau-berlin-94362743.html",
+          "url": "https://www.ruhr24.de/promis/mats-hummels-lookalike-annikas-bruder-verwirrt-das-netz-zr-94362837.html",
           "tier": 2
         }
       ],
@@ -3070,7 +3014,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.68,
+        "recency": 0.681,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -3101,34 +3045,6 @@
         "recency": 0.0,
         "specificity": 0.2,
         "relevance": 1.0
-      }
-    },
-    {
-      "id": "38c4fd5388a22823",
-      "title": "Gefahr für Putin? Neue Partei will Kreml-Chef stürzen",
-      "summary": "In Berlin hat ein russischer Oppositioneller eine Exil-Partei gegründet. Doch selbst in den eigenen Reihen gibt es Skepsis.",
-      "url": "https://www.ruhr24.de/schlagzeilen/wladimir-putin-news-russland-friedliches-ukraine-krieg-partei-ilja-jaschin-kreml-moskau-berlin-94362743.html",
-      "published": "2026-06-22T11:18:33+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.63,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/schlagzeilen/wladimir-putin-news-russland-friedliches-ukraine-krieg-partei-ilja-jaschin-kreml-moskau-berlin-94362743.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.678,
-        "specificity": 0.2,
-        "relevance": 0.0
       }
     },
     {
@@ -3384,62 +3300,6 @@
       }
     },
     {
-      "id": "bd893b9e3db99799",
-      "title": "Dank Sky-Deal: RTL holt die Formel 1 noch 9 Mal kostenlos ins TV-Programm",
-      "summary": "Nach Monaco und Barcelona geht die Formel 1 weiter kostenlos im TV. RTL kündigt die nächsten Übertragungen an.",
-      "url": "https://www.ruhr24.de/tv-streaming/tv-news/sky-deal-rtl-formel1-kostenlos-tv-programm-rennen-sport-spa-zandvoort-madrid-las-vegas-94362714.html",
-      "published": "2026-06-22T11:05:17+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.62,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/tv-streaming/tv-news/sky-deal-rtl-formel1-kostenlos-tv-programm-rennen-sport-spa-zandvoort-madrid-las-vegas-94362714.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.672,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "a67a435578467add",
-      "title": "Mehr Schalke-Macht: Kaderplaner Maximilian Lüftl steigt beim S04 auf",
-      "summary": "Maximilian Lüftl kam am 2. Januar als neuer „Leiter Scouting und Transfers“ zum FC Schalke 04. Zum 1. Juli schafft der S04 eine neue Position für ihn.",
-      "url": "https://www.ruhr24.de/s04/fc-schalke-04-maximilian-lueftl-direktor-transfers-scouting-job-aufgaben-frank-baumann-s04-94362713.html",
-      "published": "2026-06-22T11:04:23+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.62,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/s04/fc-schalke-04-maximilian-lueftl-direktor-transfers-scouting-job-aufgaben-frank-baumann-s04-94362713.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.672,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
       "id": "441b2eed9e0c87e7",
       "title": "🤯 Paco has us all going wild | Leverkusen 2–4 BVB",
       "summary": "Paco Alcacer didn’t stay at BVB for long. But the Spaniard did leave a few highlights in his year and a half here. Take his second Bundesliga match, for instance – away at Leverkusen. He came on as a substitute for the closing stages and, almost single-handedly, turned the game around from 2-0 to 2-4. Here’s a look back at the whole madness. ▶ Subscribe & hit the bell: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Twitch: https://www.twitch.tv/bvb_official Twitter: https://twitter.com/BVB In",
@@ -3462,17 +3322,17 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.007,
+        "recency": 0.006,
         "specificity": 0.5,
         "relevance": 0.333
       }
     },
     {
-      "id": "f024fa24c521164a",
-      "title": "Sinkender GdB: Wann die Schwerbehindertenrente gestrichen werden kann",
-      "summary": "Wenn der Grad der Behinderung gesenkt wird, kann das für schwerbehinderte Rentner Folgen haben. Aber kann die Schwerbehindertenrente gestrichen werden?",
-      "url": "https://www.ruhr24.de/verbraucher/sinkender-gdb-wann-die-schwerbehindertenrente-gestrichen-werden-kann-zr-94358384.html",
-      "published": "2026-06-22T10:50:53+00:00",
+      "id": "38c4fd5388a22823",
+      "title": "Gefahr für Putin? Neue Partei will Kreml-Chef stürzen",
+      "summary": "In Berlin hat ein russischer Oppositioneller eine Exil-Partei gegründet. Doch selbst in den eigenen Reihen gibt es Skepsis.",
+      "url": "https://www.ruhr24.de/schlagzeilen/wladimir-putin-news-russland-friedliches-ukraine-krieg-partei-ilja-jaschin-kreml-moskau-berlin-94362743.html",
+      "published": "2026-06-22T11:18:33+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
@@ -3482,7 +3342,7 @@
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/sinkender-gdb-wann-die-schwerbehindertenrente-gestrichen-werden-kann-zr-94358384.html",
+          "url": "https://www.ruhr24.de/schlagzeilen/wladimir-putin-news-russland-friedliches-ukraine-krieg-partei-ilja-jaschin-kreml-moskau-berlin-94362743.html",
           "tier": 2
         }
       ],
@@ -3490,7 +3350,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.666,
+        "recency": 0.665,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -3505,7 +3365,7 @@
       "source_id": "kicker_bundesliga",
       "tier": 2,
       "kind": "rss",
-      "score": 4.6,
+      "score": 4.59,
       "category": "injury",
       "confirmations": [
         {
@@ -3518,17 +3378,73 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.321,
+        "recency": 0.315,
         "specificity": 0.2,
         "relevance": 0.333
       }
     },
     {
-      "id": "26e66e3c85417621",
-      "title": "Bluttat in NRW: Jugendliche in Litauen gefasst",
-      "summary": "Monatelang war sie auf der Flucht – nun hat die Polizei sie eingeholt. Sie soll einen Bekannten erstochen haben.",
-      "url": "https://www.ruhr24.de/schlagzeilen/nrw-news-nachrichten-polizei-castrop-rauxel-litauen-jugendliche-messer-tot-getoetet-94363189.html",
-      "published": "2026-06-22T13:58:56+00:00",
+      "id": "bd893b9e3db99799",
+      "title": "Dank Sky-Deal: RTL holt die Formel 1 noch 9 Mal kostenlos ins TV-Programm",
+      "summary": "Nach Monaco und Barcelona geht die Formel 1 weiter kostenlos im TV. RTL kündigt die nächsten Übertragungen an.",
+      "url": "https://www.ruhr24.de/tv-streaming/tv-news/sky-deal-rtl-formel1-kostenlos-tv-programm-rennen-sport-spa-zandvoort-madrid-las-vegas-94362714.html",
+      "published": "2026-06-22T11:05:17+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.59,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/tv-streaming/tv-news/sky-deal-rtl-formel1-kostenlos-tv-programm-rennen-sport-spa-zandvoort-madrid-las-vegas-94362714.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.659,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "a67a435578467add",
+      "title": "Mehr Schalke-Macht: Kaderplaner Maximilian Lüftl steigt beim S04 auf",
+      "summary": "Maximilian Lüftl kam am 2. Januar als neuer „Leiter Scouting und Transfers“ zum FC Schalke 04. Zum 1. Juli schafft der S04 eine neue Position für ihn.",
+      "url": "https://www.ruhr24.de/s04/fc-schalke-04-maximilian-lueftl-direktor-transfers-scouting-job-aufgaben-frank-baumann-s04-94362713.html",
+      "published": "2026-06-22T11:04:23+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.59,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/s04/fc-schalke-04-maximilian-lueftl-direktor-transfers-scouting-job-aufgaben-frank-baumann-s04-94362713.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.659,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "f024fa24c521164a",
+      "title": "Sinkender GdB: Wann die Schwerbehindertenrente gestrichen werden kann",
+      "summary": "Wenn der Grad der Behinderung gesenkt wird, kann das für schwerbehinderte Rentner Folgen haben. Aber kann die Schwerbehindertenrente gestrichen werden?",
+      "url": "https://www.ruhr24.de/verbraucher/sinkender-gdb-wann-die-schwerbehindertenrente-gestrichen-werden-kann-zr-94358384.html",
+      "published": "2026-06-22T10:50:53+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
@@ -3538,7 +3454,7 @@
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/schlagzeilen/nrw-news-nachrichten-polizei-castrop-rauxel-litauen-jugendliche-messer-tot-getoetet-94363189.html",
+          "url": "https://www.ruhr24.de/verbraucher/sinkender-gdb-wann-die-schwerbehindertenrente-gestrichen-werden-kann-zr-94358384.html",
           "tier": 2
         }
       ],
@@ -3546,8 +3462,8 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.752,
-        "specificity": 0.0,
+        "recency": 0.653,
+        "specificity": 0.2,
         "relevance": 0.0
       }
     },
@@ -3585,21 +3501,21 @@
       }
     },
     {
-      "id": "c901bc709156b5d9",
-      "title": "Aldi-Produkt kann krank machen: Rückruf in 6 Bundesländern ausgerufen",
-      "summary": "Ein falsches Etikett auf einem Produkt sorgt für einen Rückruf bei Aldi. Was müssen Kunden des Discounters jetzt beachten?",
-      "url": "https://www.ruhr24.de/service/rueckrufe-warnungen/produkt-aldi-nord-dip-chio-cheese-kaese-6-bundeslaender-milch-allergie-unvertraeglichkeit-94363165.html",
-      "published": "2026-06-22T13:51:27+00:00",
+      "id": "26e66e3c85417621",
+      "title": "Bluttat in NRW: Jugendliche in Litauen gefasst",
+      "summary": "Monatelang war sie auf der Flucht – nun hat die Polizei sie eingeholt. Sie soll einen Bekannten erstochen haben.",
+      "url": "https://www.ruhr24.de/schlagzeilen/nrw-news-nachrichten-polizei-castrop-rauxel-litauen-jugendliche-messer-tot-getoetet-94363189.html",
+      "published": "2026-06-22T13:58:56+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.57,
+      "score": 4.55,
       "category": "other",
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/service/rueckrufe-warnungen/produkt-aldi-nord-dip-chio-cheese-kaese-6-bundeslaender-milch-allergie-unvertraeglichkeit-94363165.html",
+          "url": "https://www.ruhr24.de/schlagzeilen/nrw-news-nachrichten-polizei-castrop-rauxel-litauen-jugendliche-messer-tot-getoetet-94363189.html",
           "tier": 2
         }
       ],
@@ -3607,7 +3523,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.748,
+        "recency": 0.737,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -3635,8 +3551,36 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.114,
+        "recency": 0.111,
         "specificity": 0.2,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "c901bc709156b5d9",
+      "title": "Aldi-Produkt kann krank machen: Rückruf in 6 Bundesländern ausgerufen",
+      "summary": "Ein falsches Etikett auf einem Produkt sorgt für einen Rückruf bei Aldi. Was müssen Kunden des Discounters jetzt beachten?",
+      "url": "https://www.ruhr24.de/service/rueckrufe-warnungen/produkt-aldi-nord-dip-chio-cheese-kaese-6-bundeslaender-milch-allergie-unvertraeglichkeit-94363165.html",
+      "published": "2026-06-22T13:51:27+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.54,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/service/rueckrufe-warnungen/produkt-aldi-nord-dip-chio-cheese-kaese-6-bundeslaender-milch-allergie-unvertraeglichkeit-94363165.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.734,
+        "specificity": 0.0,
         "relevance": 0.0
       }
     },
@@ -3663,7 +3607,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.1,
+        "recency": 0.098,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -3691,65 +3635,9 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.021,
+        "recency": 0.02,
         "specificity": 0.7,
         "relevance": 1.0
-      }
-    },
-    {
-      "id": "90b873bd0243cc20",
-      "title": "🅰️ Matchwinner-Assist von Felix beim Last-Minute-Sieg gegen die Elfenbeinküste! 👏🇩🇪",
-      "summary": "🅰️ Matchwinner-Assist von Felix beim Last-Minute-Sieg gegen die Elfenbeinküste! 👏🇩🇪",
-      "url": "https://nitter.net/BVB/status/2068468768452292841#m",
-      "published": "2026-06-20T22:59:19+00:00",
-      "source": "BVB (offiziell)",
-      "source_id": "x_bvb",
-      "tier": 3,
-      "kind": "x",
-      "score": 4.46,
-      "category": "official",
-      "confirmations": [
-        {
-          "source": "BVB (offiziell)",
-          "url": "https://nitter.net/BVB/status/2068468768452292841#m",
-          "tier": 3
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 1.0,
-        "confirmation": 0.25,
-        "recency": 0.167,
-        "specificity": 0.0,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "1d991c2333b9169f",
-      "title": "▶️ Real ade, muss er wohl beim BVB bleiben. Falls sich doch noch einer meldet, schnell verkaufen, da zu verletzungsanfällig. Er hat ja schließlich eine Ausstiegsklausel.😉 #BVB #Schlotterbeck",
-      "summary": "▶️ Real ade, muss er wohl beim BVB bleiben. Falls sich doch noch einer meldet, schnell verkaufen, da zu verletzungsanfällig. Er hat ja schließlich eine Ausstiegsklausel.😉 #BVB #Schlotterbeck",
-      "url": "https://nitter.net/Borussia0977/status/2069033772696088811#m",
-      "published": "2026-06-22T12:24:26+00:00",
-      "source": "Borussia 09",
-      "source_id": "x_borussia0977",
-      "tier": 4,
-      "kind": "x",
-      "score": 4.46,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "Borussia 09",
-          "url": "https://nitter.net/Borussia0977/status/2069033772696088811#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.708,
-        "specificity": 0.0,
-        "relevance": 0.667
       }
     },
     {
@@ -3775,37 +3663,37 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.018,
+        "recency": 0.017,
         "specificity": 0.7,
         "relevance": 1.0
       }
     },
     {
-      "id": "75a2a7a5f3e1947c",
-      "title": "WM-Spiel heute: Deutschland gegen Elfenbeinküste | Wie war der Auftakt der BVB-Profis bei der WM? | Dortmund plant Verka",
-      "summary": "Heute steht das zweite Spiel in der WM für Deutschland an. Was ein Sieg bedeutet und wann Anpfiff ist, darüber sprechen wir gleich noch. Außerdem besprechen wir wie bisher so der Auftakt der BVB-Spieler bei ihren Nationalmannschaften war und welchen Verkauf der BVB wohl schon in den nächsten Wochen plant.",
-      "url": "https://bvb-kompakt.podigee.io/1827-wm-spiel-heute-deutschland-gegen-elfenbeinkuste-wie-war-der-auftakt-der-bvb-profis-bei-der-wm-dortmund-plant-verka",
-      "published": "2026-06-20T03:00:00+00:00",
-      "source": "BVB kompakt (WAZ/RN)",
-      "source_id": "pod_bvb_kompakt",
-      "tier": 2,
-      "kind": "podcast",
+      "id": "90b873bd0243cc20",
+      "title": "🅰️ Matchwinner-Assist von Felix beim Last-Minute-Sieg gegen die Elfenbeinküste! 👏🇩🇪",
+      "summary": "🅰️ Matchwinner-Assist von Felix beim Last-Minute-Sieg gegen die Elfenbeinküste! 👏🇩🇪",
+      "url": "https://nitter.net/BVB/status/2068468768452292841#m",
+      "published": "2026-06-20T22:59:19+00:00",
+      "source": "BVB (offiziell)",
+      "source_id": "x_bvb",
+      "tier": 3,
+      "kind": "x",
       "score": 4.45,
-      "category": "matchday",
+      "category": "official",
       "confirmations": [
         {
-          "source": "BVB kompakt (WAZ/RN)",
-          "url": "https://bvb-kompakt.podigee.io/1827-wm-spiel-heute-deutschland-gegen-elfenbeinkuste-wie-war-der-auftakt-der-bvb-profis-bei-der-wm-dortmund-plant-verka",
-          "tier": 2
+          "source": "BVB (offiziell)",
+          "url": "https://nitter.net/BVB/status/2068468768452292841#m",
+          "tier": 3
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.8,
+        "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.078,
-        "specificity": 0.2,
-        "relevance": 0.667
+        "recency": 0.164,
+        "specificity": 0.0,
+        "relevance": 0.0
       }
     },
     {
@@ -3893,59 +3781,59 @@
       }
     },
     {
-      "id": "b5b4667c596aad62",
-      "title": "Rückruf wegen verstecktem Allergen: Warum dieser Rewe-Aufschnitt jetzt heikel werden kann",
-      "summary": "Ein falsch gekennzeichnetes Wurstprodukt sorgt für Alarm. Für bestimmte Menschen kann der Verzehr ernste Folgen haben.",
-      "url": "https://www.ruhr24.de/verbraucher/rueckruf-wegen-verstecktem-allergen-warum-dieser-rewe-aufschnitt-jetzt-heikel-werden-kann-zr-94362761.html",
-      "published": "2026-06-22T11:22:30+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
+      "id": "75a2a7a5f3e1947c",
+      "title": "WM-Spiel heute: Deutschland gegen Elfenbeinküste | Wie war der Auftakt der BVB-Profis bei der WM? | Dortmund plant Verka",
+      "summary": "Heute steht das zweite Spiel in der WM für Deutschland an. Was ein Sieg bedeutet und wann Anpfiff ist, darüber sprechen wir gleich noch. Außerdem besprechen wir wie bisher so der Auftakt der BVB-Spieler bei ihren Nationalmannschaften war und welchen Verkauf der BVB wohl schon in den nächsten Wochen plant.",
+      "url": "https://bvb-kompakt.podigee.io/1827-wm-spiel-heute-deutschland-gegen-elfenbeinkuste-wie-war-der-auftakt-der-bvb-profis-bei-der-wm-dortmund-plant-verka",
+      "published": "2026-06-20T03:00:00+00:00",
+      "source": "BVB kompakt (WAZ/RN)",
+      "source_id": "pod_bvb_kompakt",
       "tier": 2,
-      "kind": "rss",
-      "score": 4.43,
-      "category": "other",
+      "kind": "podcast",
+      "score": 4.44,
+      "category": "matchday",
       "confirmations": [
         {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/verbraucher/rueckruf-wegen-verstecktem-allergen-warum-dieser-rewe-aufschnitt-jetzt-heikel-werden-kann-zr-94362761.html",
+          "source": "BVB kompakt (WAZ/RN)",
+          "url": "https://bvb-kompakt.podigee.io/1827-wm-spiel-heute-deutschland-gegen-elfenbeinkuste-wie-war-der-auftakt-der-bvb-profis-bei-der-wm-dortmund-plant-verka",
           "tier": 2
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.7,
+        "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.68,
-        "specificity": 0.0,
-        "relevance": 0.0
+        "recency": 0.076,
+        "specificity": 0.2,
+        "relevance": 0.667
       }
     },
     {
-      "id": "a2c7d84fbeb98727",
-      "title": "Erste Untersuchung bereits im Stadion: Schlimme Befürchtung bei #Schlotterbeck https://www.bild.de/sport/fussball/wm-2026-stadion-untersuchung-schlimme-befuerchtung-bei-schlotterbeck-6a37f3c1e6546062eaa73e1a?cid=social.bildsocial.exactagconverter.acquisition.bild_plus.6a37f3c1e6546062eaa73e1a.plus.twitter.haupt",
-      "summary": "Erste Untersuchung bereits im Stadion: Schlimme Befürchtung bei #Schlotterbeck bild.de/sport/fussball/wm-20… Link WM 2026: Stadion-Untersuchung – Schlimme Befürchtung bei Schlotterbeck WM 2026: Nico Schlotterbeck noch im Stadion untersucht. Das ist jetzt der schlimme Verdacht bild.de",
-      "url": "https://nitter.net/BILD_Sport/status/2068713722374201360#m",
-      "published": "2026-06-21T15:12:40+00:00",
-      "source": "BILD Sport",
-      "source_id": "x_bild_sport",
-      "tier": 2,
+      "id": "1d991c2333b9169f",
+      "title": "▶️ Real ade, muss er wohl beim BVB bleiben. Falls sich doch noch einer meldet, schnell verkaufen, da zu verletzungsanfällig. Er hat ja schließlich eine Ausstiegsklausel.😉 #BVB #Schlotterbeck",
+      "summary": "▶️ Real ade, muss er wohl beim BVB bleiben. Falls sich doch noch einer meldet, schnell verkaufen, da zu verletzungsanfällig. Er hat ja schließlich eine Ausstiegsklausel.😉 #BVB #Schlotterbeck",
+      "url": "https://nitter.net/Borussia0977/status/2069033772696088811#m",
+      "published": "2026-06-22T12:24:26+00:00",
+      "source": "Borussia 09",
+      "source_id": "x_borussia0977",
+      "tier": 4,
       "kind": "x",
       "score": 4.43,
       "category": "injury",
       "confirmations": [
         {
-          "source": "BILD Sport",
-          "url": "https://nitter.net/BILD_Sport/status/2068713722374201360#m",
-          "tier": 2
+          "source": "Borussia 09",
+          "url": "https://nitter.net/Borussia0977/status/2069033772696088811#m",
+          "tier": 4
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.7,
+        "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.313,
-        "specificity": 0.4,
-        "relevance": 0.333
+        "recency": 0.694,
+        "specificity": 0.0,
+        "relevance": 0.667
       }
     },
     {
@@ -3977,31 +3865,59 @@
       }
     },
     {
-      "id": "3eedb5daf809bac6",
-      "title": "RT by @gabumnn: Selbst 120 Millionen Euro sind viel zu wenig, dieser Assist macht mich sprachlos. Felix Nmecha ist ohne einen minimalen Zweifel der beste deutsche Mittelfeldspieler. Weltklasse durch und durch der Typ. Darf sportlich keine zwei Meinungen geben. #GERCIV 🇩🇪🇨🇮",
-      "summary": "Selbst 120 Millionen Euro sind viel zu wenig, dieser Assist macht mich sprachlos. Felix Nmecha ist ohne einen minimalen Zweifel der beste deutsche Mittelfeldspieler. Weltklasse durch und durch der Typ. Darf sportlich keine zwei Meinungen geben. #GERCIV 🇩🇪🇨🇮 BVB Newsblog (@bvbnewsblog) Should any club attempt to sign Felix Nmecha this summer, Lars Ricken and Ole Book have set a minimum fee of 120 million euros. 🗞 @BILD #BVB — https://nitter.net/bvbnewsblog/status/2066837833856258376#m",
-      "url": "https://nitter.net/AIiBVB/status/2068454397105807794#m",
-      "published": "2026-06-20T22:02:12+00:00",
-      "source": "gabumnn",
-      "source_id": "x_gabumnn",
-      "tier": 4,
+      "id": "a2c7d84fbeb98727",
+      "title": "Erste Untersuchung bereits im Stadion: Schlimme Befürchtung bei #Schlotterbeck https://www.bild.de/sport/fussball/wm-2026-stadion-untersuchung-schlimme-befuerchtung-bei-schlotterbeck-6a37f3c1e6546062eaa73e1a?cid=social.bildsocial.exactagconverter.acquisition.bild_plus.6a37f3c1e6546062eaa73e1a.plus.twitter.haupt",
+      "summary": "Erste Untersuchung bereits im Stadion: Schlimme Befürchtung bei #Schlotterbeck bild.de/sport/fussball/wm-20… Link WM 2026: Stadion-Untersuchung – Schlimme Befürchtung bei Schlotterbeck WM 2026: Nico Schlotterbeck noch im Stadion untersucht. Das ist jetzt der schlimme Verdacht bild.de",
+      "url": "https://nitter.net/BILD_Sport/status/2068713722374201360#m",
+      "published": "2026-06-21T15:12:40+00:00",
+      "source": "BILD Sport",
+      "source_id": "x_bild_sport",
+      "tier": 2,
       "kind": "x",
-      "score": 4.4,
-      "category": "other",
+      "score": 4.42,
+      "category": "injury",
       "confirmations": [
         {
-          "source": "gabumnn",
-          "url": "https://nitter.net/AIiBVB/status/2068454397105807794#m",
-          "tier": 4
+          "source": "BILD Sport",
+          "url": "https://nitter.net/BILD_Sport/status/2068713722374201360#m",
+          "tier": 2
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.5,
+        "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.161,
-        "specificity": 0.7,
-        "relevance": 1.0
+        "recency": 0.307,
+        "specificity": 0.4,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "b5b4667c596aad62",
+      "title": "Rückruf wegen verstecktem Allergen: Warum dieser Rewe-Aufschnitt jetzt heikel werden kann",
+      "summary": "Ein falsch gekennzeichnetes Wurstprodukt sorgt für Alarm. Für bestimmte Menschen kann der Verzehr ernste Folgen haben.",
+      "url": "https://www.ruhr24.de/verbraucher/rueckruf-wegen-verstecktem-allergen-warum-dieser-rewe-aufschnitt-jetzt-heikel-werden-kann-zr-94362761.html",
+      "published": "2026-06-22T11:22:30+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.41,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/verbraucher/rueckruf-wegen-verstecktem-allergen-warum-dieser-rewe-aufschnitt-jetzt-heikel-werden-kann-zr-94362761.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.667,
+        "specificity": 0.0,
+        "relevance": 0.0
       }
     },
     {
@@ -4027,9 +3943,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.051,
+        "recency": 0.05,
         "specificity": 0.2,
         "relevance": 0.667
+      }
+    },
+    {
+      "id": "3eedb5daf809bac6",
+      "title": "RT by @gabumnn: Selbst 120 Millionen Euro sind viel zu wenig, dieser Assist macht mich sprachlos. Felix Nmecha ist ohne einen minimalen Zweifel der beste deutsche Mittelfeldspieler. Weltklasse durch und durch der Typ. Darf sportlich keine zwei Meinungen geben. #GERCIV 🇩🇪🇨🇮",
+      "summary": "Selbst 120 Millionen Euro sind viel zu wenig, dieser Assist macht mich sprachlos. Felix Nmecha ist ohne einen minimalen Zweifel der beste deutsche Mittelfeldspieler. Weltklasse durch und durch der Typ. Darf sportlich keine zwei Meinungen geben. #GERCIV 🇩🇪🇨🇮 BVB Newsblog (@bvbnewsblog) Should any club attempt to sign Felix Nmecha this summer, Lars Ricken and Ole Book have set a minimum fee of 120 million euros. 🗞 @BILD #BVB — https://nitter.net/bvbnewsblog/status/2066837833856258376#m",
+      "url": "https://nitter.net/AIiBVB/status/2068454397105807794#m",
+      "published": "2026-06-20T22:02:12+00:00",
+      "source": "gabumnn",
+      "source_id": "x_gabumnn",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.39,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "gabumnn",
+          "url": "https://nitter.net/AIiBVB/status/2068454397105807794#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.158,
+        "specificity": 0.7,
+        "relevance": 1.0
       }
     },
     {
@@ -4042,7 +3986,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 4.35,
+      "score": 4.34,
       "category": "background",
       "confirmations": [
         {
@@ -4055,7 +3999,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.195,
+        "recency": 0.192,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -4223,7 +4167,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.163,
+        "recency": 0.16,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -4266,7 +4210,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 4.21,
+      "score": 4.2,
       "category": "injury",
       "confirmations": [
         {
@@ -4279,7 +4223,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.311,
+        "recency": 0.305,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -4294,7 +4238,7 @@
       "source_id": "x_bvbnewsblog",
       "tier": 4,
       "kind": "x",
-      "score": 4.21,
+      "score": 4.2,
       "category": "injury",
       "confirmations": [
         {
@@ -4307,7 +4251,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.141,
+        "recency": 0.139,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4346,34 +4290,6 @@
       }
     },
     {
-      "id": "17cb545f701ea795",
-      "title": "R to @AroooBVB: Er soll behutsam an sein Umfeld herangeführt werden. Vor dem Trainingsstart der Profis trainiert er bei der U23,um sich an die körperlichen und taktischen Anforderungen zu gewöhnen. Zudem wurde er durch einen Integration Manager monatelang auf das Leben in Europa vorbereitet. 2/2",
-      "summary": "Er soll behutsam an sein Umfeld herangeführt werden. Vor dem Trainingsstart der Profis trainiert er bei der U23,um sich an die körperlichen und taktischen Anforderungen zu gewöhnen. Zudem wurde er durch einen Integration Manager monatelang auf das Leben in Europa vorbereitet. 2/2",
-      "url": "https://nitter.net/AroooBVB/status/2068986105970454672#m",
-      "published": "2026-06-22T09:15:02+00:00",
-      "source": "Arooo BVB",
-      "source_id": "x_arooobvb",
-      "tier": 4,
-      "kind": "x",
-      "score": 4.16,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Arooo BVB",
-          "url": "https://nitter.net/AroooBVB/status/2068986105970454672#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.627,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
       "id": "0b33389ae66afe68",
       "title": "Pure elegance. ✨",
       "summary": "Opponent definitely needs a hydration break after that 🥶 #shorts #bvb #worldcup",
@@ -4398,6 +4314,34 @@
         "confirmation": 0.25,
         "recency": 0.016,
         "specificity": 0.0,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "17cb545f701ea795",
+      "title": "R to @AroooBVB: Er soll behutsam an sein Umfeld herangeführt werden. Vor dem Trainingsstart der Profis trainiert er bei der U23,um sich an die körperlichen und taktischen Anforderungen zu gewöhnen. Zudem wurde er durch einen Integration Manager monatelang auf das Leben in Europa vorbereitet. 2/2",
+      "summary": "Er soll behutsam an sein Umfeld herangeführt werden. Vor dem Trainingsstart der Profis trainiert er bei der U23,um sich an die körperlichen und taktischen Anforderungen zu gewöhnen. Zudem wurde er durch einen Integration Manager monatelang auf das Leben in Europa vorbereitet. 2/2",
+      "url": "https://nitter.net/AroooBVB/status/2068986105970454672#m",
+      "published": "2026-06-22T09:15:02+00:00",
+      "source": "Arooo BVB",
+      "source_id": "x_arooobvb",
+      "tier": 4,
+      "kind": "x",
+      "score": 4.14,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Arooo BVB",
+          "url": "https://nitter.net/AroooBVB/status/2068986105970454672#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.614,
+        "specificity": 0.2,
         "relevance": 0.333
       }
     },
@@ -4709,7 +4653,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.052,
+        "recency": 0.051,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -4821,7 +4765,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.02,
+        "recency": 0.019,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -5020,34 +4964,6 @@
         "recency": 0.006,
         "specificity": 0.2,
         "relevance": 1.0
-      }
-    },
-    {
-      "id": "89eba353595c2cbf",
-      "title": "The kit numbers for the 26/27 season for BvB Frauen have been set",
-      "summary": "&#32; submitted by &#32; /u/spherocytes [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1ucn6mh/the_kit_numbers_for_the_2627_season_for_bvb/",
-      "published": "2026-06-22T15:08:33+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.93,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1ucn6mh/the_kit_numbers_for_the_2627_season_for_bvb/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.786,
-        "specificity": 0.0,
-        "relevance": 0.333
       }
     },
     {
@@ -5269,7 +5185,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.165,
+        "recency": 0.162,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -5297,37 +5213,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.045,
+        "recency": 0.044,
         "specificity": 0.4,
         "relevance": 0.0
       }
     },
     {
-      "id": "74dc6d31a183b615",
-      "title": "According to Julian Nagelsmann, Nico Schlotterbeck is suspected to have sustained a ligament injury in the game vs. Ivory Coast. #BVB",
-      "summary": "According to Julian Nagelsmann, Nico Schlotterbeck is suspected to have sustained a ligament injury in the game vs. Ivory Coast. #BVB",
-      "url": "https://nitter.net/bvbnewsblog/status/2068463360505413669#m",
-      "published": "2026-06-20T22:37:49+00:00",
-      "source": "BVB-Newsblog",
-      "source_id": "x_bvbnewsblog",
-      "tier": 4,
-      "kind": "x",
-      "score": 3.92,
-      "category": "injury",
+      "id": "89eba353595c2cbf",
+      "title": "The kit numbers for the 26/27 season for BvB Frauen have been set",
+      "summary": "&#32; submitted by &#32; /u/spherocytes [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1ucn6mh/the_kit_numbers_for_the_2627_season_for_bvb/",
+      "published": "2026-06-22T15:08:33+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 3.9,
+      "category": "other",
       "confirmations": [
         {
-          "source": "BVB-Newsblog",
-          "url": "https://nitter.net/bvbnewsblog/status/2068463360505413669#m",
-          "tier": 4
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1ucn6mh/the_kit_numbers_for_the_2627_season_for_bvb/",
+          "tier": 5
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.6,
+        "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.166,
-        "specificity": 0.2,
-        "relevance": 0.667
+        "recency": 0.771,
+        "specificity": 0.0,
+        "relevance": 0.333
       }
     },
     {
@@ -5424,7 +5340,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.73,
+      "score": 3.7,
       "category": "injury",
       "confirmations": [
         {
@@ -5442,7 +5358,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.684,
+        "recency": 0.671,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -5490,7 +5406,7 @@
       "source_id": "x_arooobvb",
       "tier": 4,
       "kind": "x",
-      "score": 3.66,
+      "score": 3.65,
       "category": "other",
       "confirmations": [
         {
@@ -5559,7 +5475,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.022,
+        "recency": 0.021,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -5587,7 +5503,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.015,
+        "recency": 0.014,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -5615,7 +5531,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.015,
+        "recency": 0.014,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -5705,39 +5621,6 @@
       }
     },
     {
-      "id": "f9d2f99f41db2a7f",
-      "title": "Weekly Discussion Thread (22/06/2026)",
-      "summary": "Welcome to our weekly discussion thread! You're worried about our squad for the next season? You're confused about why we did so poorly/well? You're excited about the transfer window / the rebuild / the summer break? Feel free to use this space to discuss all things football/soccer related in here - anything related to our club that you feel doesn't warrant a separate thread, or any football-related observation you want to share! If you want to discuss a rumour / article, please include a link! ",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1ucddp5/weekly_discussion_thread_22062026/",
-      "published": "2026-06-22T07:00:11+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.58,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1ucddp5/weekly_discussion_thread_22062026/",
-          "tier": 5
-        },
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1u694wg/weekly_discussion_thread_15062026/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.576,
-        "specificity": 0.4,
-        "relevance": 0.0
-      }
-    },
-    {
       "id": "2295f2c5410035e4",
       "title": "🗣️Nico #Schlotterbeck und Felix #Nmecha stehen beide auf der Liste von Real Madrid. José Mourinho ist ein großer Bewunderer des BVB-Duos und hat bereits Informationen über beide Spieler eingeholt. 🗞️@berger_pj #BVB",
       "summary": "🗣️Nico #Schlotterbeck und Felix #Nmecha stehen beide auf der Liste von Real Madrid. José Mourinho ist ein großer Bewunderer des BVB-Duos und hat bereits Informationen über beide Spieler eingeholt. 🗞️ @berger_pj #BVB",
@@ -5803,7 +5686,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.57,
+      "score": 3.55,
       "category": "transfers",
       "confirmations": [
         {
@@ -5821,7 +5704,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.575,
+        "recency": 0.563,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -5849,7 +5732,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.017,
+        "recency": 0.016,
         "specificity": 0.4,
         "relevance": 0.333
       }
@@ -5911,34 +5794,6 @@
       }
     },
     {
-      "id": "dcf3578c3350cb7c",
-      "title": "Deutschland hat Felix #Nmecha und Deniz #Undav . #DFB #fifaworldcup",
-      "summary": "Deutschland hat Felix #Nmecha und Deniz #Undav . #DFB #fifaworldcup",
-      "url": "https://nitter.net/LafonateBVB/status/2068463257342370265#m",
-      "published": "2026-06-20T22:37:25+00:00",
-      "source": "lafonateBVB",
-      "source_id": "x_lafonatebvb",
-      "tier": 4,
-      "kind": "x",
-      "score": 3.39,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "lafonateBVB",
-          "url": "https://nitter.net/LafonateBVB/status/2068463257342370265#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.165,
-        "specificity": 0.0,
-        "relevance": 0.333
-      }
-    },
-    {
       "id": "23e28b5c0e50bcc9",
       "title": "🅰️ #BVB",
       "summary": "🅰️ #BVB",
@@ -5961,6 +5816,34 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
+        "recency": 0.158,
+        "specificity": 0.0,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "dcf3578c3350cb7c",
+      "title": "Deutschland hat Felix #Nmecha und Deniz #Undav . #DFB #fifaworldcup",
+      "summary": "Deutschland hat Felix #Nmecha und Deniz #Undav . #DFB #fifaworldcup",
+      "url": "https://nitter.net/LafonateBVB/status/2068463257342370265#m",
+      "published": "2026-06-20T22:37:25+00:00",
+      "source": "lafonateBVB",
+      "source_id": "x_lafonatebvb",
+      "tier": 4,
+      "kind": "x",
+      "score": 3.38,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "lafonateBVB",
+          "url": "https://nitter.net/LafonateBVB/status/2068463257342370265#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
         "recency": 0.162,
         "specificity": 0.0,
         "relevance": 0.333
@@ -5976,7 +5859,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.37,
+      "score": 3.36,
       "category": "other",
       "confirmations": [
         {
@@ -5989,7 +5872,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.231,
+        "recency": 0.227,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6017,7 +5900,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.05,
+        "recency": 0.049,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -6032,7 +5915,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.29,
+      "score": 3.28,
       "category": "injury",
       "confirmations": [
         {
@@ -6045,7 +5928,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.367,
+        "recency": 0.36,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6135,34 +6018,6 @@
       }
     },
     {
-      "id": "c52a4dff88ca2fbe",
-      "title": "RT by @gabumnn: Felix Nmecha ist DER Mittelfeldspieler der der Deutschen Natio seit 20 Jahren fehlt. Felix Nmecha ist HIM.",
-      "summary": "Felix Nmecha ist DER Mittelfeldspieler der der Deutschen Natio seit 20 Jahren fehlt. Felix Nmecha ist HIM.",
-      "url": "https://nitter.net/gabumnn/status/2068475440046477665#m",
-      "published": "2026-06-20T23:25:49+00:00",
-      "source": "gabumnn",
-      "source_id": "x_gabumnn",
-      "tier": 4,
-      "kind": "x",
-      "score": 3.25,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "gabumnn",
-          "url": "https://nitter.net/gabumnn/status/2068475440046477665#m",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.17,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
       "id": "d1a8cf22ad4fa4c1",
       "title": "Beim #BVB heißt es man will #Nmecha nur bei einem außergewöhnlich gutem Angebot verkaufen. Die Bayern wollen Olise auch dann nicht verkaufen. Warum fahrt ihr nicht die gleiche Schiene wie die Bayern @BVB ? Nmecha ist eine Säule des Vereins. #RealMadrid",
       "summary": "Beim #BVB heißt es man will #Nmecha nur bei einem außergewöhnlich gutem Angebot verkaufen. Die Bayern wollen Olise auch dann nicht verkaufen. Warum fahrt ihr nicht die gleiche Schiene wie die Bayern @BVB ? Nmecha ist eine Säule des Vereins. #RealMadrid",
@@ -6219,6 +6074,34 @@
       }
     },
     {
+      "id": "c52a4dff88ca2fbe",
+      "title": "RT by @gabumnn: Felix Nmecha ist DER Mittelfeldspieler der der Deutschen Natio seit 20 Jahren fehlt. Felix Nmecha ist HIM.",
+      "summary": "Felix Nmecha ist DER Mittelfeldspieler der der Deutschen Natio seit 20 Jahren fehlt. Felix Nmecha ist HIM.",
+      "url": "https://nitter.net/gabumnn/status/2068475440046477665#m",
+      "published": "2026-06-20T23:25:49+00:00",
+      "source": "gabumnn",
+      "source_id": "x_gabumnn",
+      "tier": 4,
+      "kind": "x",
+      "score": 3.24,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "gabumnn",
+          "url": "https://nitter.net/gabumnn/status/2068475440046477665#m",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.167,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "4db0322fa44baba6",
       "title": "The two Dortmund starters for Germany tonight against Curaçao have scored.",
       "summary": "Both Nmecha and Schlotterbeck scored tonight. As a Dutchman living in Houston supporting Dortmund, I feel a little conflicted, but I'm genuinely happy for both of them. &#32; submitted by &#32; /u/Ok_Shopping_3292 [link] &#32; [comments]",
@@ -6256,7 +6139,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.23,
+      "score": 3.22,
       "category": "other",
       "confirmations": [
         {
@@ -6269,7 +6152,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.161,
+        "recency": 0.158,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6284,7 +6167,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.23,
+      "score": 3.22,
       "category": "matchday",
       "confirmations": [
         {
@@ -6297,7 +6180,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.161,
+        "recency": 0.158,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6312,7 +6195,7 @@
       "source_id": "x_gabumnn",
       "tier": 4,
       "kind": "x",
-      "score": 3.22,
+      "score": 3.21,
       "category": "other",
       "confirmations": [
         {
@@ -6325,7 +6208,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.155,
+        "recency": 0.152,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6340,7 +6223,7 @@
       "source_id": "yt_poehlerz",
       "tier": 4,
       "kind": "youtube",
-      "score": 3.07,
+      "score": 3.06,
       "category": "other",
       "confirmations": [
         {
@@ -6353,7 +6236,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.173,
+        "recency": 0.169,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -6424,7 +6307,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.04,
+      "score": 3.03,
       "category": "injury",
       "confirmations": [
         {
@@ -6437,35 +6320,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.239,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "43f31835406086d6",
-      "title": "I've been so wrong about this transfer",
-      "summary": "I thought we overpaid pretty heavily for him, but he has been great on the pitch, and if he continues to play like this at the World Cup, we might get three to four times what we paid. I'd love to see him in Dortmund for at least another season, but that buyout option might make it tough. &#32; submitted by &#32; /u/alfi_k [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1ubk4u6/ive_been_so_wrong_about_this_transfer/",
-      "published": "2026-06-21T07:54:49+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.03,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1ubk4u6/ive_been_so_wrong_about_this_transfer/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.236,
+        "recency": 0.235,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6493,7 +6348,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.162,
+        "recency": 0.158,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -6521,7 +6376,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.162,
+        "recency": 0.158,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -6549,8 +6404,36 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.162,
+        "recency": 0.159,
         "specificity": 0.0,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "43f31835406086d6",
+      "title": "I've been so wrong about this transfer",
+      "summary": "I thought we overpaid pretty heavily for him, but he has been great on the pitch, and if he continues to play like this at the World Cup, we might get three to four times what we paid. I'd love to see him in Dortmund for at least another season, but that buyout option might make it tough. &#32; submitted by &#32; /u/alfi_k [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1ubk4u6/ive_been_so_wrong_about_this_transfer/",
+      "published": "2026-06-21T07:54:49+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 3.02,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1ubk4u6/ive_been_so_wrong_about_this_transfer/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.232,
+        "specificity": 0.2,
         "relevance": 0.333
       }
     },
@@ -6577,7 +6460,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.049,
+        "recency": 0.048,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -6607,34 +6490,6 @@
         "confirmation": 0.25,
         "recency": 0.006,
         "specificity": 0.3,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "b526fcabb612653e",
-      "title": "Schlotterbeck could be out of the World Cup",
-      "summary": "🚨🇩🇪 Nico Schlotterbeck World Cup could be over due to an injury. &#x200b; “Nico is suspected to have sustained a ligament injury. It's not looking good”, says Julian Nagelsmann. &#32; submitted by &#32; /u/LostVillager1 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1ubhjqj/schlotterbeck_could_be_out_of_the_world_cup/",
-      "published": "2026-06-21T05:22:55+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 2.99,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1ubhjqj/schlotterbeck_could_be_out_of_the_world_cup/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.214,
-        "specificity": 0.2,
         "relevance": 0.333
       }
     },
@@ -6695,6 +6550,34 @@
       }
     },
     {
+      "id": "b526fcabb612653e",
+      "title": "Schlotterbeck could be out of the World Cup",
+      "summary": "🚨🇩🇪 Nico Schlotterbeck World Cup could be over due to an injury. &#x200b; “Nico is suspected to have sustained a ligament injury. It's not looking good”, says Julian Nagelsmann. &#32; submitted by &#32; /u/LostVillager1 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1ubhjqj/schlotterbeck_could_be_out_of_the_world_cup/",
+      "published": "2026-06-21T05:22:55+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 2.98,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1ubhjqj/schlotterbeck_could_be_out_of_the_world_cup/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.21,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "04496d10f4aec441",
       "title": "Borrusia Dortmund - Aris Saloniki relation",
       "summary": "Good morning everyone, I am currently during bachelor degree studies and my thesis is about transnational/international relations between football fans/ultras from European integration perspective. As one of examples of such relations I choose relation between fans of Borussia Dortmund and Aris Saloniki - but due to me being from Poland I had hard time collecting information about the relation and clubs. Maybe you can help me with this challenge. What am I looking for: historical outline of the ",
@@ -6717,7 +6600,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.046,
+        "recency": 0.045,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -6745,7 +6628,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.015,
+        "recency": 0.014,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -6872,7 +6755,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 2.88,
+      "score": 2.87,
       "category": "matchday",
       "confirmations": [
         {
@@ -6885,7 +6768,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.228,
+        "recency": 0.224,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -7012,7 +6895,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 2.6,
+      "score": 2.59,
       "category": "other",
       "confirmations": [
         {
@@ -7053,7 +6936,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.036,
+        "recency": 0.035,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -7068,7 +6951,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 2.45,
+      "score": 2.44,
       "category": "other",
       "confirmations": [
         {
@@ -7081,7 +6964,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.044,
+        "recency": 0.043,
         "specificity": 0.0,
         "relevance": 0.333
       }
@@ -7228,13 +7111,13 @@
     }
   ],
   "stats": {
-    "total": 250,
-    "raw_total": 3334,
-    "clusters": 250,
+    "total": 251,
+    "raw_total": 3340,
+    "clusters": 251,
     "by_tier": {
       "3": 25,
       "1": 10,
-      "2": 108,
+      "2": 109,
       "4": 85,
       "5": 22
     },
@@ -7242,11 +7125,11 @@
       "official": 12,
       "injury": 74,
       "other": 87,
-      "transfers": 61,
+      "transfers": 62,
       "matchday": 14,
       "background": 2
     },
-    "sources_ok": 39,
-    "sources_fail": 4
+    "sources_ok": 41,
+    "sources_fail": 2
   }
 }
