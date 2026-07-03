@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T08:00:05.378973+00:00",
+  "updated_at": "2026-07-03T07:55:28.367079+00:00",
   "season": "2026",
   "pending": false,
   "teams": [
@@ -7,7 +7,7 @@
       "id": "profis",
       "label": "Profis",
       "league": "Bundesliga",
-      "squadValue": "519 Mio. €",
+      "squadValue": "514 Mio. €",
       "players": [
         {
           "id": 1,
@@ -221,6 +221,20 @@
         },
         {
           "id": 16,
+          "tm_id": 627228,
+          "name": "Yan Couto",
+          "number": 2,
+          "positionGroup": "Abwehr",
+          "positionShort": "RV",
+          "positionDetail": "Rechter Verteidiger",
+          "nationality": "Brasilien",
+          "flag": "🇧🇷",
+          "age": 24,
+          "contract": "2030",
+          "marketValue": "17 Mio. €"
+        },
+        {
+          "id": 17,
           "tm_id": 1141179,
           "name": "Mussa Kaba",
           "number": 0,
@@ -234,7 +248,7 @@
           "marketValue": "200 Tsd. €"
         },
         {
-          "id": 17,
+          "id": 18,
           "tm_id": 406640,
           "name": "Felix Nmecha",
           "number": 8,
@@ -248,7 +262,7 @@
           "marketValue": "50 Mio. €"
         },
         {
-          "id": 18,
+          "id": 19,
           "tm_id": 796297,
           "name": "Jobe Bellingham",
           "number": 7,
@@ -262,7 +276,7 @@
           "marketValue": "40 Mio. €"
         },
         {
-          "id": 19,
+          "id": 20,
           "tm_id": 659459,
           "name": "Carney Chukwuemeka",
           "number": 17,
@@ -276,7 +290,7 @@
           "marketValue": "20 Mio. €"
         },
         {
-          "id": 20,
+          "id": 21,
           "tm_id": 106987,
           "name": "Marcel Sabitzer",
           "number": 20,
@@ -290,10 +304,10 @@
           "marketValue": "6 Mio. €"
         },
         {
-          "id": 21,
+          "id": 22,
           "tm_id": 884810,
           "name": "Kjell Wätjen",
-          "number": 0,
+          "number": 38,
           "positionGroup": "Mittelfeld",
           "positionShort": "ZM",
           "positionDetail": "Zentrales Mittelfeld",
@@ -302,20 +316,6 @@
           "age": 20,
           "contract": "2028",
           "marketValue": "2,5 Mio. €"
-        },
-        {
-          "id": 22,
-          "tm_id": 627228,
-          "name": "Yan Couto",
-          "number": 2,
-          "positionGroup": "Mittelfeld",
-          "positionShort": "RM",
-          "positionDetail": "Rechtes Mittelfeld",
-          "nationality": "Brasilien",
-          "flag": "🇧🇷",
-          "age": 24,
-          "contract": "2030",
-          "marketValue": "17 Mio. €"
         },
         {
           "id": 23,
@@ -333,17 +333,17 @@
         },
         {
           "id": 24,
-          "tm_id": 819215,
-          "name": "Julien Duranville",
-          "number": 0,
+          "tm_id": 1193849,
+          "name": "Mathis Albert",
+          "number": 41,
           "positionGroup": "Angriff",
           "positionShort": "LA",
           "positionDetail": "Linksaußen",
-          "nationality": "Belgien",
-          "flag": "🇧🇪",
-          "age": 20,
-          "contract": "2028",
-          "marketValue": "6 Mio. €"
+          "nationality": "Vereinigte Staaten",
+          "flag": "🇺🇸",
+          "age": 17,
+          "contract": "2027",
+          "marketValue": "300 Tsd. €"
         },
         {
           "id": 25,
@@ -363,7 +363,7 @@
           "id": 26,
           "tm_id": 866579,
           "name": "Cole Campbell",
-          "number": 0,
+          "number": 37,
           "positionGroup": "Angriff",
           "positionShort": "RA",
           "positionDetail": "Rechtsaußen",
@@ -442,6 +442,20 @@
           "age": 18,
           "contract": "",
           "marketValue": "7 Mio. €"
+        },
+        {
+          "id": 32,
+          "tm_id": 819215,
+          "name": "Julien Duranville",
+          "number": 0,
+          "positionGroup": "Angriff",
+          "positionShort": "LA",
+          "positionDetail": "Linksaußen",
+          "nationality": "Belgien",
+          "flag": "🇧🇪",
+          "age": 20,
+          "contract": "",
+          "marketValue": null
         }
       ]
     },
