@@ -10,6 +10,7 @@ on:
     paths:
       - "fetcher.py"
       - "scorer.py"
+      - "rumors_fetcher.py"
       - "data/sources.json"
       - ".github/workflows/refresh-news.yml"
 
@@ -44,16 +45,21 @@ jobs:
       - name: Score & cluster
         run: python scorer.py
 
-      - name: Mirror news.json into web/public/data (for Next.js deploy)
+      - name: Fetch transfer rumors (Transfermarkt)
+        run: python rumors_fetcher.py || echo "rumors skipped"
+        continue-on-error: true
+
+      - name: Mirror news.json + rumors.json into web/public/data (for Next.js deploy)
         run: |
           mkdir -p web/public/data
           cp data/news.json web/public/data/news.json
+          if [ -f data/rumors.json ]; then cp data/rumors.json web/public/data/rumors.json; fi
 
       - name: Commit news.json (only if changed)
         run: |
           git config user.name  "bvb-aladin-bot"
           git config user.email "bvb-aladin-bot@users.noreply.github.com"
-          git add data/news.json data/raw_items.json web/public/data/news.json
+          git add data/news.json data/raw_items.json web/public/data/news.json data/rumors.json web/public/data/rumors.json
           if git diff --cached --quiet; then
             echo "no changes — skipping commit"
           else
