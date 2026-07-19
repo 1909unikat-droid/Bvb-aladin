@@ -22,17 +22,12 @@ mkdir -p web/public/data
 cp data/news.json web/public/data/news.json
 if [ -f data/rumors.json ]; then cp data/rumors.json web/public/data/rumors.json; fi
 
-# Commit + Push (nur wenn Änderungen vorhanden)
-/usr/bin/git config user.name  "bvb-aladin-bot"
-/usr/bin/git config user.email "bvb-aladin-bot@users.noreply.github.com"
-/usr/bin/git add data/news.json data/raw_items.json web/public/data/news.json data/rumors.json web/public/data/rumors.json
-if /usr/bin/git diff --cached --quiet; then
-    echo "no changes — skip commit"
-else
-    /usr/bin/git commit -m "chore: refresh news $(date -u +%Y-%m-%dT%H:%MZ)"
-    /usr/bin/git pull --rebase --autostash --strategy-option=theirs
-    /usr/bin/git push
-    echo "pushed"
-fi
+# Veröffentlichung:
+# - news.json publiziert AUSSCHLIESSLICH die GitHub Action (alle 30 min) —
+#   lokal wird NICHT mehr committet/gepusht (die alte Parallel-Historie
+#   liegt archiviert auf dem lokalen main; nie von hier pushen!).
+# - rumors.json kann NUR der Mac liefern (Transfermarkt blockt die
+#   Action-IPs mit HTTP 202) → gezielter Upload via Contents-API:
+./push_rumors.sh || echo "rumors push skipped"
 
 echo "=== done ==="
