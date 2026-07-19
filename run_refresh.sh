@@ -14,14 +14,18 @@ echo "=== $(date -u +%Y-%m-%dT%H:%MZ) refresh start ==="
 /usr/bin/python3 fetcher.py
 /usr/bin/python3 scorer.py
 
-# news.json in web/public/data spiegeln
+# Transfer-Gerüchte (Transfermarkt) — failsafe, darf den Lauf nie scheitern lassen
+/usr/bin/python3 rumors_fetcher.py || echo "rumors skipped"
+
+# news.json + rumors.json in web/public/data spiegeln
 mkdir -p web/public/data
 cp data/news.json web/public/data/news.json
+if [ -f data/rumors.json ]; then cp data/rumors.json web/public/data/rumors.json; fi
 
 # Commit + Push (nur wenn Änderungen vorhanden)
 /usr/bin/git config user.name  "bvb-aladin-bot"
 /usr/bin/git config user.email "bvb-aladin-bot@users.noreply.github.com"
-/usr/bin/git add data/news.json data/raw_items.json web/public/data/news.json
+/usr/bin/git add data/news.json data/raw_items.json web/public/data/news.json data/rumors.json web/public/data/rumors.json
 if /usr/bin/git diff --cached --quiet; then
     echo "no changes — skip commit"
 else
