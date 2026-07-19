@@ -64,5 +64,7 @@ jobs:
             echo "no changes — skipping commit"
           else
             git commit -m "chore: refresh news $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # Der Mac pusht rumors.json via Contents-API — Race abfedern:
+            git pull --rebase --autostash || true
+            git push || (git pull --rebase --autostash && git push)
           fi
