@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T08:42:16.067150+00:00",
+  "generated_at": "2026-07-31T09:12:46.603956+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 25,
   "rumors": [
@@ -15,6 +15,12 @@
       "tmUrl": "https://www.transfermarkt.de/k-karetsas-pros-mporoysia-ntortmoynt-/thread/forum/154/thread_id/1165963/post_id/3401335#3401335",
       "sources": [
         {
+          "name": "Ruhr Nachrichten BVB",
+          "tier": 2,
+          "url": "https://www.ruhrnachrichten.de/bvb/bvb-darum-wird-der-karetsas-transfer-spaeter-vermeldet-w1228098-2002167153/",
+          "published": "2026-07-31T09:06:00+00:00"
+        },
+        {
           "name": "Patrick Berger",
           "tier": 1,
           "url": "https://nitter.net/berger_pj/status/2081769038837932477#m",
@@ -23,26 +29,20 @@
         {
           "name": "Ruhr Nachrichten BVB",
           "tier": 2,
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-darum-wird-der-karetsas-transfer-spaeter-vermeldet-w1228098-2002167153/",
-          "published": "2026-07-30T17:50:20+00:00"
-        },
-        {
-          "name": "Ruhr Nachrichten BVB",
-          "tier": 2,
           "url": "https://www.ruhrnachrichten.de/bvb/exklusive-bvb-bilder-hier-kommt-karetsas-zum-medizincheck-w1227184-2002164676/",
           "published": "2026-07-30T09:57:00+00:00"
-        },
-        {
-          "name": "Borussia 09",
-          "tier": 4,
-          "url": "https://nitter.net/Borussia0977/status/2082925377924505872#m",
-          "published": "2026-07-30T20:24:43+00:00"
         },
         {
           "name": "fussballtransfers.com",
           "tier": 2,
           "url": "https://www.fussballtransfers.com/a165831686948482767-bvb-karetsas-hat-unterschrieben",
           "published": "2026-07-30T18:41:58+00:00"
+        },
+        {
+          "name": "Borussia 09",
+          "tier": 4,
+          "url": "https://nitter.net/Borussia0977/status/2082925377924505872#m",
+          "published": "2026-07-30T20:24:43+00:00"
         },
         {
           "name": "BVB-Newsblog",
@@ -87,16 +87,16 @@
           "published": "2026-07-28T15:30:26+00:00"
         },
         {
-          "name": "BVB kompakt (WAZ/RN)",
-          "tier": 2,
-          "url": "https://bvb-kompakt.podigee.io/1865-karetsas-deal-perfekt-millionenpoker-um-el-mala-japan-hype-bei-bvb-ankunft",
-          "published": "2026-07-28T03:00:00+00:00"
-        },
-        {
           "name": "lafonateBVB",
           "tier": 4,
           "url": "https://nitter.net/LafonateBVB/status/2082378054001623471#m",
           "published": "2026-07-29T08:09:51+00:00"
+        },
+        {
+          "name": "BVB kompakt (WAZ/RN)",
+          "tier": 2,
+          "url": "https://bvb-kompakt.podigee.io/1865-karetsas-deal-perfekt-millionenpoker-um-el-mala-japan-hype-bei-bvb-ankunft",
+          "published": "2026-07-28T03:00:00+00:00"
         },
         {
           "name": "kicker BVB",
@@ -243,7 +243,7 @@
           "published": "2026-07-27T09:45:44+00:00"
         }
       ],
-      "lastMention": "2026-07-30T20:24:43+00:00"
+      "lastMention": "2026-07-31T09:06:00+00:00"
     },
     {
       "player": "Said El Mala",
@@ -254,7 +254,7 @@
       "direction": "in",
       "probability": 59,
       "tmProbability": 36,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-said-el-mala-zu-borussia-dortmund-/thread/forum/154/thread_id/1087529/post_id/3401460#3401460",
+      "tmUrl": "https://www.transfermarkt.de/wechselt-said-el-mala-zu-borussia-dortmund-/thread/forum/154/thread_id/1087529/post_id/3401654#3401654",
       "sources": [
         {
           "name": "BILD Sport",
@@ -347,16 +347,16 @@
           "published": "2026-07-27T17:51:46+00:00"
         },
         {
-          "name": "Arooo BVB",
-          "tier": 4,
-          "url": "https://nitter.net/AroooBVB/status/2082474649359647219#m",
-          "published": "2026-07-29T14:33:41+00:00"
-        },
-        {
           "name": "lafonateBVB",
           "tier": 4,
           "url": "https://nitter.net/LafonateBVB/status/2081683744935534732#m",
           "published": "2026-07-27T10:10:55+00:00"
+        },
+        {
+          "name": "Arooo BVB",
+          "tier": 4,
+          "url": "https://nitter.net/AroooBVB/status/2082474649359647219#m",
+          "published": "2026-07-29T14:33:41+00:00"
         }
       ],
       "lastMention": "2026-07-31T07:21:39+00:00"
@@ -412,26 +412,6 @@
         }
       ],
       "lastMention": "2026-07-30T16:33:33+00:00"
-    },
-    {
-      "player": "Fisnik Asllani",
-      "age": 23,
-      "position": "Mittelstürmer",
-      "marketValue": "35,00 Mio. €",
-      "currentClub": "TSG 1899 Hoffenheim",
-      "direction": "in",
-      "probability": 46,
-      "tmProbability": 32,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-fisnik-asllani-zu-borussia-dortmund-/thread/forum/154/thread_id/1199378/post_id/3392980#3392980",
-      "sources": [
-        {
-          "name": "RUHR24 BVB",
-          "tier": 2,
-          "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-fisnik-asllani-tsg-hoffenheim-rb-leipzig-barcelona-guirassy-borussia-dortmund-94422228.html",
-          "published": "2026-07-30T14:24:46+00:00"
-        }
-      ],
-      "lastMention": "2026-07-30T14:24:46+00:00"
     },
     {
       "player": "Jadon Sancho",
@@ -535,6 +515,19 @@
       "probability": 24,
       "tmProbability": 34,
       "tmUrl": "https://www.transfermarkt.de/wechselt-marc-casado-zu-borussia-dortmund-/thread/forum/154/thread_id/1189768/post_id/3387478#3387478",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Fisnik Asllani",
+      "age": 23,
+      "position": "Mittelstürmer",
+      "marketValue": "35,00 Mio. €",
+      "currentClub": "TSG 1899 Hoffenheim",
+      "direction": "in",
+      "probability": 22,
+      "tmProbability": 32,
+      "tmUrl": "https://www.transfermarkt.de/wechselt-fisnik-asllani-zu-borussia-dortmund-/thread/forum/154/thread_id/1199378/post_id/3392980#3392980",
       "sources": [],
       "lastMention": null
     },
