@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T04:04:49.429983+00:00",
+  "generated_at": "2026-08-11T12:42:00.422525+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 25,
   "rumors": [
@@ -10,10 +10,16 @@
       "marketValue": "45,00 Mio. €",
       "currentClub": "1.FC Köln",
       "direction": "in",
-      "probability": 61,
-      "tmProbability": 41,
+      "probability": 62,
+      "tmProbability": 42,
       "tmUrl": "https://www.transfermarkt.de/wechselt-said-el-mala-zu-borussia-dortmund-/thread/forum/154/thread_id/1087529/post_id/3405658#3405658",
       "sources": [
+        {
+          "name": "fussballtransfers.com",
+          "tier": 2,
+          "url": "https://www.fussballtransfers.com/a6669203236703201945-bvb-der-neue-zeitplan-bei-el-mala",
+          "published": "2026-08-11T12:30:22+00:00"
+        },
         {
           "name": "YouTube Ruhr Nachr. BVB",
           "tier": 2,
@@ -37,12 +43,6 @@
           "tier": 2,
           "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-said-el-mala-wechsel-abloese-fc-koeln-forderung-50-millionen-borussia-dortmund-94437510.html",
           "published": "2026-08-10T18:05:05+00:00"
-        },
-        {
-          "name": "BVB kompakt (WAZ/RN)",
-          "tier": 2,
-          "url": "https://bvb-kompakt.podigee.io/1879-neue-bier-marke-im-stadion-verhandlungen-um-said-el-mala-nach-dem-testspiel",
-          "published": "2026-08-11T03:00:00+00:00"
         },
         {
           "name": "lafonateBVB",
@@ -75,6 +75,12 @@
           "published": "2026-08-09T17:32:17+00:00"
         },
         {
+          "name": "BVB kompakt (WAZ/RN)",
+          "tier": 2,
+          "url": "https://bvb-kompakt.podigee.io/1879-neue-bier-marke-im-stadion-verhandlungen-um-said-el-mala-nach-dem-testspiel",
+          "published": "2026-08-11T03:00:00+00:00"
+        },
+        {
           "name": "YouTube Ruhr Nachr. BVB",
           "tier": 2,
           "url": "https://www.youtube.com/watch?v=DkiL79fKtwg",
@@ -87,34 +93,10 @@
           "published": "2026-08-03T14:40:00+00:00"
         },
         {
-          "name": "Arooo BVB",
-          "tier": 4,
-          "url": "https://nitter.net/AroooBVB/status/2086829485966442665#m",
-          "published": "2026-08-10T14:58:15+00:00"
-        },
-        {
           "name": "lafonateBVB",
           "tier": 4,
           "url": "https://nitter.net/LafonateBVB/status/2086086893167423718#m",
           "published": "2026-08-08T13:47:27+00:00"
-        },
-        {
-          "name": "Die Pöhlerz (YouTube)",
-          "tier": 4,
-          "url": "https://www.youtube.com/shorts/756MpThUTDk",
-          "published": "2026-08-10T14:30:09+00:00"
-        },
-        {
-          "name": "Arooo BVB",
-          "tier": 4,
-          "url": "https://nitter.net/AroooBVB/status/2086829489586164211#m",
-          "published": "2026-08-10T14:58:16+00:00"
-        },
-        {
-          "name": "BVB Newsflash",
-          "tier": 4,
-          "url": "https://nitter.net/bvbnewsflash/status/2086818840751509834#m",
-          "published": "2026-08-10T14:15:57+00:00"
         },
         {
           "name": "Schwarzgelbe Runde",
@@ -129,10 +111,22 @@
           "published": "2026-07-29T19:11:34+00:00"
         },
         {
+          "name": "Arooo BVB",
+          "tier": 4,
+          "url": "https://nitter.net/AroooBVB/status/2086829485966442665#m",
+          "published": "2026-08-10T14:58:15+00:00"
+        },
+        {
           "name": "BVB kompakt (WAZ/RN)",
           "tier": 2,
           "url": "https://bvb-kompakt.podigee.io/1872-neue-episode",
           "published": "2026-08-04T03:00:00+00:00"
+        },
+        {
+          "name": "Die Pöhlerz (YouTube)",
+          "tier": 4,
+          "url": "https://www.youtube.com/shorts/756MpThUTDk",
+          "published": "2026-08-10T14:30:09+00:00"
         },
         {
           "name": "gabumnn",
@@ -141,16 +135,22 @@
           "published": "2026-08-08T12:29:43+00:00"
         },
         {
+          "name": "Arooo BVB",
+          "tier": 4,
+          "url": "https://nitter.net/AroooBVB/status/2086829489586164211#m",
+          "published": "2026-08-10T14:58:16+00:00"
+        },
+        {
+          "name": "BVB Newsflash",
+          "tier": 4,
+          "url": "https://nitter.net/bvbnewsflash/status/2086818840751509834#m",
+          "published": "2026-08-10T14:15:57+00:00"
+        },
+        {
           "name": "BVB-Newsblog",
           "tier": 4,
           "url": "https://nitter.net/bvbnewsblog/status/2086180650415948221#m",
           "published": "2026-08-08T20:00:01+00:00"
-        },
-        {
-          "name": "lafonateBVB",
-          "tier": 4,
-          "url": "https://nitter.net/LafonateBVB/status/2086510861162516876#m",
-          "published": "2026-08-09T17:52:09+00:00"
         },
         {
           "name": "BVB Newsflash",
@@ -179,20 +179,8 @@
         {
           "name": "lafonateBVB",
           "tier": 4,
-          "url": "https://nitter.net/LafonateBVB/status/2085718416980062434#m",
-          "published": "2026-08-07T13:23:16+00:00"
-        },
-        {
-          "name": "Arooo BVB",
-          "tier": 4,
-          "url": "https://nitter.net/AroooBVB/status/2086041112381145129#m",
-          "published": "2026-08-08T10:45:32+00:00"
-        },
-        {
-          "name": "Borussia 09",
-          "tier": 4,
-          "url": "https://nitter.net/Borussia0977/status/2086038104616386603#m",
-          "published": "2026-08-08T10:33:35+00:00"
+          "url": "https://nitter.net/LafonateBVB/status/2086510861162516876#m",
+          "published": "2026-08-09T17:52:09+00:00"
         },
         {
           "name": "BVB-Newsblog",
@@ -207,13 +195,25 @@
           "published": "2026-08-07T09:34:47+00:00"
         },
         {
+          "name": "Arooo BVB",
+          "tier": 4,
+          "url": "https://nitter.net/AroooBVB/status/2086041112381145129#m",
+          "published": "2026-08-08T10:45:32+00:00"
+        },
+        {
+          "name": "Borussia 09",
+          "tier": 4,
+          "url": "https://nitter.net/Borussia0977/status/2086038104616386603#m",
+          "published": "2026-08-08T10:33:35+00:00"
+        },
+        {
           "name": "Borussia 09",
           "tier": 4,
           "url": "https://nitter.net/Borussia0977/status/2085670545303965865#m",
           "published": "2026-08-07T10:13:02+00:00"
         }
       ],
-      "lastMention": "2026-08-11T03:00:00+00:00"
+      "lastMention": "2026-08-11T12:30:22+00:00"
     },
     {
       "player": "Giannis Konstantelias",
@@ -288,26 +288,6 @@
       "lastMention": "2026-08-10T15:56:58+00:00"
     },
     {
-      "player": "Tommy Marqués",
-      "age": 19,
-      "position": "Defensives Mittelfeld",
-      "marketValue": "3,00 Mio. €",
-      "currentClub": "FC Barcelona",
-      "direction": "in",
-      "probability": 30,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/tommy-marques-zu-borussia-dortmund-/thread/forum/154/thread_id/1203100/post_id/3405833#3405833",
-      "sources": [
-        {
-          "name": "lafonateBVB",
-          "tier": 4,
-          "url": "https://nitter.net/LafonateBVB/status/2085780632655770023#m",
-          "published": "2026-08-07T17:30:29+00:00"
-        }
-      ],
-      "lastMention": "2026-08-07T17:30:29+00:00"
-    },
-    {
       "player": "Nicolò Tresoldi",
       "age": 21,
       "position": "Mittelstürmer",
@@ -321,17 +301,24 @@
       "lastMention": null
     },
     {
-      "player": "Ibrahim Mbaye",
-      "age": 18,
-      "position": "Rechtsaußen",
-      "marketValue": "30,00 Mio. €",
-      "currentClub": "Paris Saint-Germain",
+      "player": "Tommy Marqués",
+      "age": 19,
+      "position": "Defensives Mittelfeld",
+      "marketValue": "3,00 Mio. €",
+      "currentClub": "FC Barcelona",
       "direction": "in",
-      "probability": 26,
-      "tmProbability": 36,
-      "tmUrl": "https://www.transfermarkt.de/ibrahim-mbaye-to-borussia-dortmund-/thread/forum/154/thread_id/1199666/post_id/3405435#3405435",
-      "sources": [],
-      "lastMention": null
+      "probability": 29,
+      "tmProbability": 29,
+      "tmUrl": "https://www.transfermarkt.de/tommy-marques-zu-borussia-dortmund-/thread/forum/154/thread_id/1203100/post_id/3405833#3405833",
+      "sources": [
+        {
+          "name": "lafonateBVB",
+          "tier": 4,
+          "url": "https://nitter.net/LafonateBVB/status/2085780632655770023#m",
+          "published": "2026-08-07T17:30:29+00:00"
+        }
+      ],
+      "lastMention": "2026-08-07T17:30:29+00:00"
     },
     {
       "player": "Marcel Regula",
@@ -347,15 +334,15 @@
       "lastMention": null
     },
     {
-      "player": "Valentín Gómez",
-      "age": 23,
-      "position": "Innenverteidiger",
-      "marketValue": "12,00 Mio. €",
-      "currentClub": "Real Betis Sevilla",
+      "player": "Ibrahim Mbaye",
+      "age": 18,
+      "position": "Rechtsaußen",
+      "marketValue": "30,00 Mio. €",
+      "currentClub": "Paris Saint-Germain",
       "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/valentin-gomez-zu-borussia-dortmund-/thread/forum/154/thread_id/1203193/post_id/3406005#3406005",
+      "probability": 21,
+      "tmProbability": 31,
+      "tmUrl": "https://www.transfermarkt.de/ibrahim-mbaye-to-borussia-dortmund-/thread/forum/154/thread_id/1199666/post_id/3405435#3405435",
       "sources": [],
       "lastMention": null
     },
@@ -564,6 +551,19 @@
       "probability": 9,
       "tmProbability": 19,
       "tmUrl": "https://www.transfermarkt.de/rayane-bounida-zu-borussia-dortmund-/thread/forum/154/thread_id/1200389/post_id/3398398#3398398",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Valentín Gómez",
+      "age": 23,
+      "position": "Innenverteidiger",
+      "marketValue": "12,00 Mio. €",
+      "currentClub": "Real Betis Sevilla",
+      "direction": "in",
+      "probability": 7,
+      "tmProbability": 17,
+      "tmUrl": "https://www.transfermarkt.de/valentin-gomez-zu-borussia-dortmund-/thread/forum/154/thread_id/1203193/post_id/3406005#3406005",
       "sources": [],
       "lastMention": null
     }
