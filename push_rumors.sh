@@ -18,13 +18,26 @@ push_file() {
   local path="$1"
   [ -f "$path" ] || { echo "[rumors-push] $path fehlt — skip"; return 0; }
 
-  local local_sha remote_sha
-  local_sha=$(git hash-object "$path" 2>/dev/null) || return 0
+  local remote_sha
   remote_sha=$(gh api "repos/$REPO/contents/$path?ref=$BRANCH" -q .sha 2>/dev/null || echo "")
 
-  if [ -n "$remote_sha" ] && [ "$local_sha" = "$remote_sha" ]; then
-    echo "[rumors-push] $path unverändert — skip"
-    return 0
+  # Content-aware skip: compare WITHOUT the generated_at timestamp. Every run
+  # rewrites the timestamp, and pushing it 48x/day burned through Vercel's
+  # 100-deploys/day account limit — only real rumor changes may deploy.
+  if [ -n "$remote_sha" ]; then
+    local local_norm remote_norm
+    local_norm=$(python3 -c '
+import json,sys
+d=json.load(open(sys.argv[1])); d.pop("generated_at",None)
+print(json.dumps(d,sort_keys=True))' "$path" 2>/dev/null || echo "L")
+    remote_norm=$(gh api "repos/$REPO/contents/$path?ref=$BRANCH" -H "Accept: application/vnd.github.raw" 2>/dev/null | python3 -c '
+import json,sys
+d=json.load(sys.stdin); d.pop("generated_at",None)
+print(json.dumps(d,sort_keys=True))' 2>/dev/null || echo "R")
+    if [ "$local_norm" = "$remote_norm" ] && [ "$local_norm" != "L" ]; then
+      echo "[rumors-push] $path inhaltlich unverändert — skip (kein Deploy)"
+      return 0
+    fi
   fi
 
   local b64
