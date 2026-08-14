@@ -11,6 +11,8 @@ on:
       - "fetcher.py"
       - "scorer.py"
       - "rumors_fetcher.py"
+      - "injuries_fetcher.py"
+      - "vibe_history.py"
       - "data/sources.json"
       - ".github/workflows/refresh-news.yml"
 
@@ -49,17 +51,39 @@ jobs:
         run: python rumors_fetcher.py || echo "rumors skipped"
         continue-on-error: true
 
-      - name: Mirror news.json + rumors.json into web/public/data (for Next.js deploy)
+      # Wie bei den Gerüchten: TM antwortet Action-IPs oft mit HTTP 202 — dann
+      # bleibt injuries.json unangetastet und der Mac liefert sie via
+      # push_rumors.sh nach. Der Schritt ist trotzdem drin, damit die Action
+      # allein lauffähig bleibt, falls TM sie doch bedient.
+      - name: Fetch injuries & suspensions (Transfermarkt)
+        run: python injuries_fetcher.py || echo "injuries skipped"
+        continue-on-error: true
+
+      - name: Update vibe history
+        run: python vibe_history.py || echo "vibe history skipped"
+        continue-on-error: true
+
+      - name: Mirror data files into web/public/data (for Next.js deploy)
         run: |
           mkdir -p web/public/data
           cp data/news.json web/public/data/news.json
-          if [ -f data/rumors.json ]; then cp data/rumors.json web/public/data/rumors.json; fi
+          if [ -f data/rumors.json ];       then cp data/rumors.json       web/public/data/rumors.json;       fi
+          if [ -f data/injuries.json ];     then cp data/injuries.json     web/public/data/injuries.json;     fi
+          if [ -f data/vibe_history.json ]; then cp data/vibe_history.json web/public/data/vibe_history.json; fi
 
       - name: Commit news.json (only if changed)
         run: |
           git config user.name  "bvb-aladin-bot"
           git config user.email "bvb-aladin-bot@users.noreply.github.com"
-          git add data/news.json data/raw_items.json web/public/data/news.json data/rumors.json web/public/data/rumors.json
+          # Nur existierende Dateien stagen — ein fehlendes Zusatz-File (TM
+          # geblockt) darf den News-Commit nicht mit "pathspec did not match"
+          # abbrechen.
+          for f in data/news.json data/raw_items.json web/public/data/news.json \
+                   data/rumors.json web/public/data/rumors.json \
+                   data/injuries.json web/public/data/injuries.json \
+                   data/vibe_history.json web/public/data/vibe_history.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
           if git diff --cached --quiet; then
             echo "no changes — skipping commit"
           else

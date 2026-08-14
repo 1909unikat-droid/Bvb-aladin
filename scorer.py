@@ -142,7 +142,7 @@ def score_cluster(cluster: list[dict], keywords: list[str], categories: dict, no
     if rep["source_id"] in ("bvb_official", "x_bvb"):
         category = "official"
 
-    return {
+    out = {
         "id": rep["id"],
         "title": rep["title"],
         "summary": rep["summary"],
@@ -167,6 +167,10 @@ def score_cluster(cluster: list[dict], keywords: list[str], categories: dict, no
             "relevance": round(rel, 3),
         },
     }
+    # Optionales Feld: Bild des Lead-Items (Repräsentant des Clusters).
+    if rep.get("image"):
+        out["image"] = rep["image"]
+    return out
 
 
 def main() -> int:

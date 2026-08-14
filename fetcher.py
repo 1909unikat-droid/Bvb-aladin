@@ -9,7 +9,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 
 import feedparser
 import requests
@@ -56,6 +56,88 @@ def make_id(url: str, title: str) -> str:
     return h[:16]
 
 
+# --- Bild-Extraktion ------------------------------------------------------
+# Feeds liefern Bilder in vier Dialekten: media:content, media:thumbnail,
+# <enclosure>, itunes:image — plus ein <img> im HTML-Body. YouTube-Feeds haben
+# keine echte URL, das Thumbnail wird aus der Video-ID abgeleitet.
+IMG_SRC_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
+
+# Tracking-Pixel sind praktisch immer GIFs oder tragen einen dieser Marker im
+# Pfad. Die Größe (<1 KB) lässt sich ohne Extra-Request nicht prüfen — dieser
+# Namens-Filter ist die billige Näherung, die im Zweifel lieber verwirft.
+TRACKER_HINTS = ("1x1", "pixel", "spacer", "beacon", "/track", "blank.")
+
+
+def clean_image_url(url: str | None) -> str | None:
+    """https-Bild-URL oder None (http, GIF-Tracker und Zählpixel fliegen raus)."""
+    u = (url or "").strip()
+    if not u.startswith("https://"):
+        return None
+    low = u.lower()
+    if ".gif" in low or any(h in low for h in TRACKER_HINTS):
+        return None
+    return u
+
+
+def _media_urls(entry, key: str) -> list[tuple[int, str]]:
+    """(Breite, URL) aus media:content / media:thumbnail — Nicht-Bilder raus."""
+    out: list[tuple[int, str]] = []
+    for m in entry.get(key) or []:
+        if not isinstance(m, dict):
+            continue
+        medium = (m.get("medium") or "").lower()
+        mtype = (m.get("type") or "").lower()
+        if medium and medium != "image":
+            continue
+        if mtype and not mtype.startswith("image/"):
+            continue
+        try:
+            width = int(str(m.get("width") or 0))
+        except ValueError:
+            width = 0
+        out.append((width, m.get("url") or ""))
+    return out
+
+
+def extract_image(entry) -> str | None:
+    """Beste Bild-URL eines Feed-Items. None, wenn der Feed keins mitliefert."""
+    video_id = entry.get("yt_videoid")
+    if video_id:
+        return f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+
+    # media:content / media:thumbnail — größte Variante gewinnt.
+    candidates = _media_urls(entry, "media_content") + _media_urls(entry, "media_thumbnail")
+    for _, url in sorted(candidates, key=lambda c: c[0], reverse=True):
+        img = clean_image_url(url)
+        if img:
+            return img
+
+    for enc in (entry.get("enclosures") or []) + (entry.get("links") or []):
+        if not isinstance(enc, dict):
+            continue
+        if not (enc.get("type") or "").lower().startswith("image/"):
+            continue
+        img = clean_image_url(enc.get("href") or enc.get("url"))
+        if img:
+            return img
+
+    itunes = entry.get("image")
+    if isinstance(itunes, dict):
+        img = clean_image_url(itunes.get("href"))
+        if img:
+            return img
+
+    # Letzter Ausweg: erstes <img> im HTML-Body.
+    bodies = [c.get("value", "") for c in (entry.get("content") or []) if isinstance(c, dict)]
+    bodies += [entry.get("summary", ""), entry.get("description", "")]
+    for body in bodies:
+        for m in IMG_SRC_RE.finditer(body or ""):
+            img = clean_image_url(m.group(1))
+            if img:
+                return img
+    return None
+
+
 def fetch_rss(feed_url: str) -> list[dict]:
     """Return parsed feed entries; raise on hard failure."""
     r = requests.get(feed_url, headers=HEADERS, timeout=TIMEOUT)
@@ -71,7 +153,7 @@ def to_item(entry, source: dict) -> dict | None:
         return None
     summary = strip_html(entry.get("summary", "") or entry.get("description", ""))
     published = parse_dt(entry)
-    return {
+    item = {
         "id": make_id(link, title),
         "title": title,
         "summary": summary[:500],
@@ -85,6 +167,11 @@ def to_item(entry, source: dict) -> dict | None:
         "lang": source.get("lang", "de"),
         "kind": source.get("kind", "rss"),
     }
+    # Optionales Feld: nur setzen, wenn der Feed wirklich ein Bild liefert.
+    image = extract_image(entry)
+    if image:
+        item["image"] = image
+    return item
 
 
 def fetch_rss_sources(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict], int, int]:
@@ -120,6 +207,54 @@ def fetch_nitter_account(handle: str, instances: list[str]) -> list[dict] | None
         except Exception:
             continue
     return None
+
+
+def fetch_nitter_search(query: str, instances: list[str]) -> list[dict] | None:
+    """Nitter-Volltextsuche über dieselbe Mirror-Kette wie die Accounts."""
+    for inst in instances:
+        url = f"{inst.rstrip('/')}/search/rss?f=tweets&q={quote(query)}"
+        try:
+            entries = fetch_rss(url)
+            if entries:
+                return entries
+        except Exception:
+            continue
+    return None
+
+
+def fetch_x_searches(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict], int, int]:
+    """Nitter-Suchen. Treffer sind Fremd-Tweets -> IMMER auf BVB-Keywords filtern."""
+    nitter = sources.get("nitter", {})
+    searches = nitter.get("searches", [])
+    instances = nitter.get("instances", [])
+    items, ok, fail = [], 0, 0
+    for s in searches:
+        src = {
+            "id": s["id"],
+            "name": s.get("name") or f"X-Suche: {s['query']}",
+            "tier": s["tier"],
+            "credibility": s["credibility"],
+            "lang": s.get("lang", "de"),
+            "kind": "x",
+        }
+        entries = fetch_nitter_search(s["query"], instances)
+        if entries is None:
+            fail += 1
+            print(f"  [FAIL] X-Suche/{s['query']:15s} -> all nitter mirrors failed", file=sys.stderr)
+            continue
+        kept = 0
+        for e in entries:
+            it = to_item(e, src)
+            if not it:
+                continue
+            blob = f"{it['title']} {it['summary']}"
+            if not text_contains_any(blob, bvb_keywords):
+                continue
+            items.append(it)
+            kept += 1
+        ok += 1
+        print(f"  [ok]  X-Suche/{s['query']:15s} -> {len(entries)} tweets, {kept} BVB-relevant", file=sys.stderr)
+    return items, ok, fail
 
 
 def fetch_x_sources(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict], int, int]:
@@ -171,6 +306,10 @@ def main() -> int:
 
     print("== X / Nitter ==", file=sys.stderr)
     x_items, x_ok, x_fail = fetch_x_sources(sources, bvb_keywords)
+    s_items, s_ok, s_fail = fetch_x_searches(sources, bvb_keywords)
+    x_items += s_items
+    x_ok += s_ok
+    x_fail += s_fail
 
     items = rss_items + x_items
 
