@@ -32,7 +32,11 @@ mkdir -p "$STATE_DIR" 2>/dev/null
 command -v gh >/dev/null 2>&1 || { echo "[rumors-push] gh fehlt — skip"; exit 0; }
 
 # Gibt zwei Zeilen aus: Zeile 1 = Signatur (ohne volatile Felder),
-# Zeile 2 = Norm (nur Timestamps entfernt). Args: Dateipfad oder '-' (stdin).
+# Zeile 2 = Norm (nur Timestamps entfernt). Arg: Dateipfad.
+# ACHTUNG: bewusst KEIN stdin-Modus — das Heredoc belegt bereits stdin
+# des python3-Aufrufs (gepipte Daten kämen nie an, JSON-Parse fiele
+# immer fehl → fail-closed hätte ALLE Pushes blockiert; live gesehen
+# am 14.08. 18:53Z).
 normalize() {
   python3 - "$1" <<'PY'
 import json, sys
@@ -47,8 +51,8 @@ def strip(obj, keys):
         return [strip(v, keys) for v in obj]
     return obj
 
-src = sys.stdin if sys.argv[1] == "-" else open(sys.argv[1])
-d = json.load(src)
+with open(sys.argv[1]) as src:
+    d = json.load(src)
 print(json.dumps(strip(d, TIMESTAMPS | VOLATILE), sort_keys=True))
 print(json.dumps(strip(d, TIMESTAMPS), sort_keys=True))
 PY
@@ -63,13 +67,16 @@ push_file() {
   remote_sha=$(gh api "repos/$REPO/contents/$path?ref=$BRANCH" -q .sha 2>/dev/null || echo "")
 
   if [ -n "$remote_sha" ]; then
-    local local_out remote_raw remote_out
+    local local_out remote_tmp remote_out
     local_out=$(normalize "$path" 2>/dev/null) || { echo "[rumors-push] $path lokal unlesbar — skip"; return 0; }
-    remote_raw=$(gh api "repos/$REPO/contents/$path?ref=$BRANCH" -H "Accept: application/vnd.github.raw" 2>/dev/null)
+    remote_tmp=$(mktemp) || return 0
+    gh api "repos/$REPO/contents/$path?ref=$BRANCH" -H "Accept: application/vnd.github.raw" >"$remote_tmp" 2>/dev/null
     # Fail-closed: Remote existiert (sha da), aber Raw-Fetch klemmt → nicht
     # blind pushen, nächster Lauf versucht es wieder.
-    remote_out=$(printf '%s' "$remote_raw" | normalize - 2>/dev/null) || {
+    remote_out=$(normalize "$remote_tmp" 2>/dev/null) || {
+      rm -f "$remote_tmp"
       echo "[rumors-push] $path Remote-Fetch klemmt — skip (retry nächster Lauf)"; return 0; }
+    rm -f "$remote_tmp"
 
     local sig_l norm_l sig_r norm_r
     sig_l=$(sed -n 1p <<<"$local_out");  norm_l=$(sed -n 2p <<<"$local_out")
