@@ -20,9 +20,12 @@ Aufbautraining / Infekt klingt, wird daraus "doubt".
 
 FAILSAFE (wie rumors_fetcher.py): HTTP != 200, Netzwerk-/Parse-Fehler oder eine
 Seite ohne die erwartete Box -> data/injuries.json bleibt unangetastet, Warnung
-nach stderr, Exit 0. AUSNAHME: Box vorhanden, aber keine Spieler-Zeile — das ist
-keine Störung, sondern die Information "gesunde Truppe" und wird als
-players: [] mit frischem updated_at geschrieben.
+nach stderr, Exit 0. AUSNAHME: Box vorhanden UND mindestens eine Tabelle mit
+'Spieler'-Header geparst, aber keine Spieler-Zeile — das ist keine Störung,
+sondern die Information "gesunde Truppe" und wird als players: [] mit frischem
+updated_at geschrieben. Box ohne erkennbare Spieler-Tabelle (TM-Markup-Drift)
+zählt dagegen als Störung: sonst wäre "Scraper blind" von "alle fit" nicht mehr
+zu unterscheiden.
 """
 from __future__ import annotations
 
@@ -103,18 +106,24 @@ def find_box(soup: BeautifulSoup):
     return None
 
 
-def parse_players(box) -> list[dict]:
+def parse_players(box) -> tuple[list[dict], int]:
     """Spieler-Zeilen der Box parsen. Wirft nicht — überspringt kaputte Zeilen.
 
     Die Tabelle mischt Abschnitts-Überschriften (einzelne Zelle, z.B.
     'Verletzungen' / 'Gesperrte Spieler') mit Datenzeilen
     (Spieler | Alter | Grund | seit | bis voraussichtlich | verpasste Spiele).
+
+    Returns (Spieler, Anzahl Tabellen mit erkanntem 'Spieler'-Header). Die
+    Zahl unterscheidet "niemand verletzt" (Tabelle da, 0 Zeilen) von
+    "Markup verstanden wir nicht mehr" (0 Tabellen) — siehe Modul-Docstring.
     """
     players: list[dict] = []
+    tables = 0
     for table in box.select("div.responsive-table table"):
         heads = [th.get_text(strip=True).lower() for th in table.select("thead th")]
         if "spieler" not in heads:
             continue
+        tables += 1
         section = ""
         for row in table.select("tbody > tr"):
             tds = row.find_all("td", recursive=False)
@@ -142,7 +151,7 @@ def parse_players(box) -> list[dict]:
             if expected and expected != "-":
                 entry["expectedReturn"] = expected
             players.append(entry)
-    return players
+    return players, tables
 
 
 def main() -> int:
@@ -157,10 +166,17 @@ def main() -> int:
             print("  [WARN] TM box 'Sperren und Verletzungen' not found — "
                   "leaving injuries.json untouched", file=sys.stderr)
             return 0
-        players = parse_players(box)
+        players, tables = parse_players(box)
     except Exception as exc:
         print(f"  [WARN] TM parse error: {type(exc).__name__}: {exc} — "
               f"leaving injuries.json untouched", file=sys.stderr)
+        return 0
+
+    # Box da, aber keine Tabelle mit 'Spieler'-Header: Markup-Drift, kein
+    # "alle fit". players: [] jetzt zu schreiben würde echte Ausfälle löschen.
+    if not tables:
+        print("  [WARN] TM box without a 'Spieler' table (markup drift?) — "
+              "leaving injuries.json untouched", file=sys.stderr)
         return 0
 
     payload = {

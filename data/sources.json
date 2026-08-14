@@ -3,7 +3,7 @@
   "rss": [
     {"id": "kicker_bvb",         "name": "kicker BVB",             "url": "https://newsfeed.kicker.de/team/borussia-dortmund",                                       "tier": 2, "credibility": 8,  "lang": "de"},
     {"id": "kicker_bundesliga",  "name": "kicker Bundesliga",      "url": "https://newsfeed.kicker.de/news/bundesliga",                                              "tier": 2, "credibility": 8,  "lang": "de", "filter_bvb": true},
-    {"id": "ruhr24_bvb",         "name": "RUHR24 BVB",             "url": "https://www.ruhr24.de/sport/bvb/rssfeed.rdf",                                             "tier": 2, "credibility": 7,  "lang": "de"},
+    {"id": "ruhr24_bvb",         "name": "RUHR24 BVB",             "url": "https://www.ruhr24.de/sport/bvb/rssfeed.rdf",                                             "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
     {"id": "rn_bvb",             "name": "Ruhr Nachrichten BVB",   "url": "https://www.ruhrnachrichten.de/sport/bvb/feed/",                                          "tier": 2, "credibility": 8,  "lang": "de"},
     {"id": "tm_bvb",             "name": "Transfermarkt BVB",      "url": "https://www.transfermarkt.de/borussia-dortmund/news/verein/16/rss",                       "tier": 2, "credibility": 8,  "lang": "de"},
     {"id": "tm_geruechte",       "name": "Transfermarkt Gerüchte", "url": "https://www.transfermarkt.de/rss/news",                                                   "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
@@ -66,7 +66,7 @@
       {"id": "x_rn_bvb",      "handle": "RuhrnachrichtenBVB","name": "Ruhr Nachrichten BVB",     "tier": 2, "credibility": 8,  "lang": "de"},
       {"id": "x_schwatzgelb", "handle": "SchwatzgelbDE",   "name": "Schwatzgelb",                "tier": 4, "credibility": 6,  "lang": "de"},
       {"id": "x_kolsberger",  "handle": "SKolsberger",     "name": "Sebastian Kolsberger (BILD)","tier": 1, "credibility": 9,  "lang": "de"},
-      {"id": "x_dersch",      "handle": "MatthiasDersch",  "name": "Matthias Dersch (kicker)",   "tier": 2, "credibility": 8,  "lang": "de"}
+      {"id": "x_dersch",      "handle": "MatthiasDersch",  "name": "Matthias Dersch (kicker)",   "tier": 1, "credibility": 8,  "lang": "de"}
     ],
     "_searches_comment": "Nitter-Volltextsuchen ({instance}/search/rss?f=tweets&q=…). Ergebnisse sind ungefiltertes Social-Rauschen -> IMMER gegen bvb_keywords gefiltert, Tier 5. STAND 2026-08-14: kein erreichbarer Mirror liefert Such-RSS (nitter.net antwortet 200 mit leerem Body, poast/cz 403 Bot-Check, privacydev tot) — der Pfad ist gebaut und failsafe, liefert aber aktuell 0 Items.",
     "searches": [
@@ -78,7 +78,7 @@
     "bvb", "borussia dortmund", "dortmund", "schwarz-gelb", "schwarzgelb",
     "kovac", "nuri sahin", "ricken", "kehl", "watzke",
     "guirassy", "adeyemi", "bynoe-gittens", "gittens", "brandt", "reyna",
-    "sabitzer", "ozcan", "groß", "nmecha", "anton", "schlotterbeck",
+    "sabitzer", "ozcan", "pascal groß", "nmecha", "anton", "schlotterbeck",
     "süle", "bensebaini", "ryerson", "kobel", "meyer", "emre can",
     "couto", "yan couto", "duranville", "beier", "chukwuemeka",
     "moukoko", "haller", "anselmino",

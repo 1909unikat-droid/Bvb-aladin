@@ -30,7 +30,13 @@ Zwei Quell-Pfade:
         wird verworfen (das ist der Zugang von damals).
 
 Wahrscheinlichkeits-Score (0..100), transparent:
-    base    = TM-Wechselwahrscheinlichkeit in % (Spalte "Wertung"), sonst DEFAULT_BASE (30)
+    base    = TM-Prozentwert der jeweiligen Quelle, sonst DEFAULT_BASE (30).
+              ACHTUNG, zwei verschiedene Skalen: Zugänge tragen die Spalte
+              "Wertung" aus der Vereins-Gerüchteküche (Redaktions-/Community-
+              Wertung des Gerüchts), Abgänge die "Usereinschätzung" aus dem
+              Gerüchtearchiv des Spieler-Profils. Beide sind Prozentwerte,
+              aber nicht gegeneinander geeicht — ein 60% aus dem Archiv ist
+              nicht dasselbe wie ein 60% aus der Gerüchteküche.
     + Tier-Bonus  : Tier-1-Insider-Nennung (Romano/Plettenberg/Berger/Ornstein/Falk ...)
                     in news.json -> +TIER1_BONUS, je weitere Tier-1-Quelle +TIER1_EXTRA
                     (gedeckelt bei TIER1_MAX); sonst falls Tier-2-Medium -> +TIER2_BONUS
@@ -395,6 +401,68 @@ def load_news_transfers() -> list[dict]:
     return [it for it in items if it.get("category") == "transfers"]
 
 
+# Wortgrenzen für Namens-Matching: explizite Lookarounds auf eine Namens-
+# Zeichenklasse statt \b, damit die Grenze unabhängig von den Randzeichen des
+# Namens definiert ist (Bindestrich/Apostroph/Punkt in "Bynoe-Gittens",
+# "N'Dicka", "St. Juste" verschieben \b). "Fort" trifft damit nicht mehr in
+# "fortgeschritten" oder "Fortuna", "Groß" nicht in "Großkreutz".
+NAME_CHARS = "0-9A-Za-zÄÖÜäöüß"
+# Nach diesen Zeichen (oder am Titelanfang) ist ein großgeschriebenes Wort
+# nur Satzanfang, kein Hinweis auf einen Vornamen.
+SENTENCE_BREAKS = ":;.!?\"'„“”»«()[]|/-–—"
+PREV_WORD_RE = re.compile(r"([A-Za-zÄÖÜäöüß]+)\s+$")
+
+
+def name_pattern(term: str) -> re.Pattern:
+    """Case-insensitiver Wortgrenzen-Match für einen (diakritikafreien) Namen."""
+    return re.compile(rf"(?<![{NAME_CHARS}]){re.escape(term)}(?![{NAME_CHARS}])",
+                      re.IGNORECASE)
+
+
+def title_mentions_player(title: str, player: str) -> bool:
+    """Nennt dieser Titel den Spieler? Nachname NUR mit Wortgrenzen.
+
+    Der frühere reine Substring-Match zog "fortgeschritten" als Beleg für ein
+    Héctor-Fort-Gerücht heran (4 von 8 "Quellen" waren solche Wort-Teile).
+    Regeln, in dieser Reihenfolge:
+      1. voller Name im Titel                     -> Treffer (eindeutig)
+      2. Nachname fehlt (mit Wortgrenzen)         -> kein Treffer
+      3. eigener Vorname steht irgendwo im Titel  -> Treffer
+      4. direkt davor ein fremder, großgeschriebener Namens-Token
+         -> verworfen ("Reunion with Jude Bellingham" zählt nicht für Jobe)
+      5. sonst (bloßer Nachname)                  -> Treffer
+
+    REST-LIMITATION Namensgleiche (Jobe/Jude Bellingham): trennbar sind sie
+    nur über den Vornamen. Steht im Titel bloß "Bellingham", oder der fremde
+    Vorname am Satzanfang ("...#ARSBVB: Jude Bellingham"), wo ohnehin jedes
+    Wort groß beginnt, bleibt der Treffer stehen — bewusst konservativ:
+    lieber eine Quelle zu viel als eine echte verloren.
+    """
+    flat = strip_accents(title)      # Diakritika weg, Groß/Klein bleibt stehen
+    full = strip_accents(player)
+    if name_pattern(full).search(flat):
+        return True
+
+    surname = surname_of(full)
+    if len(surname) < 4:
+        return False
+    match = name_pattern(surname).search(flat)
+    if match is None:
+        return False
+
+    given = full.split()[:-len(surname.split())]
+    if any(name_pattern(g).search(flat) for g in given if len(g) > 2):
+        return True
+
+    prev = PREV_WORD_RE.search(flat[:match.start()])
+    if prev is None or not prev.group(1)[:1].isupper():
+        return True                  # kein Vorname davor -> Nachname zählt
+    before = flat[:prev.start()].rstrip()
+    if not before or before[-1] in SENTENCE_BREAKS:
+        return True                  # Satzanfang, nicht zwingend ein Vorname
+    return False                     # fremder Vorname direkt vor dem Nachnamen
+
+
 def cross_reference(rumor: dict, transfers: list[dict], now: datetime) -> tuple[list[dict], str | None, int | None]:
     """Passende news.json-Transfer-Items finden.
 
@@ -403,16 +471,11 @@ def cross_reference(rumor: dict, transfers: list[dict], now: datetime) -> tuple[
     - lastMention: jüngstes published unter den Matches (ISO) oder None
     - best_tier: niedrigster (bester) Tier über Match-Items UND deren Bestätigungen
     """
-    surname = strip_accents(surname_of(rumor["player"])).lower()
-    if len(surname) < 4:
-        return [], None, None
-
     sources: list[dict] = []
     tiers: list[int] = []
     latest: datetime | None = None
     for it in transfers:
-        title_norm = strip_accents(it.get("title", "")).lower()
-        if surname not in title_norm:
+        if not title_mentions_player(it.get("title", ""), rumor["player"]):
             continue
         sources.append({
             "name": it.get("source", ""),
@@ -509,7 +572,16 @@ def main() -> int:
         return 0
 
     # Abgänge sind ein Zusatz — schlägt der Pfad fehl, bleiben die Zugänge stehen.
-    rumors.extend(fetch_outgoing_rumors(now))
+    # Dedup: listet die Vereins-Gerüchteküche ausnahmsweise doch einen BVB-Spieler
+    # (parse_rumors vergibt dann selbst direction="out"), stünde er sonst zweimal
+    # in rumors.json. Der bestehende Eintrag gewinnt.
+    known = {strip_accents(r["player"]).lower() for r in rumors}
+    for r in fetch_outgoing_rumors(now):
+        key = strip_accents(r["player"]).lower()
+        if key in known:
+            continue
+        known.add(key)
+        rumors.append(r)
 
     payload = build_payload(rumors, now)
     RUMORS_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

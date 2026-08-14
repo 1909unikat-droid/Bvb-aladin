@@ -65,7 +65,10 @@ IMG_SRC_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
 # Tracking-Pixel sind praktisch immer GIFs oder tragen einen dieser Marker im
 # Pfad. Die Größe (<1 KB) lässt sich ohne Extra-Request nicht prüfen — dieser
 # Namens-Filter ist die billige Näherung, die im Zweifel lieber verwirft.
-TRACKER_HINTS = ("1x1", "pixel", "spacer", "beacon", "/track", "blank.")
+TRACKER_HINTS = ("pixel", "spacer", "beacon", "/track", "blank.")
+# '1x1' nur als eigenständiges Dimensions-Token — als Substring steckt es auch
+# in legitimen Größen-Suffixen (foto-961x1024.jpg wäre sonst rausgeflogen).
+TRACKER_1X1_RE = re.compile(r"(?<!\d)1x1(?!\d)")
 
 
 def clean_image_url(url: str | None) -> str | None:
@@ -74,7 +77,7 @@ def clean_image_url(url: str | None) -> str | None:
     if not u.startswith("https://"):
         return None
     low = u.lower()
-    if ".gif" in low or any(h in low for h in TRACKER_HINTS):
+    if ".gif" in low or TRACKER_1X1_RE.search(low) or any(h in low for h in TRACKER_HINTS):
         return None
     return u
 
