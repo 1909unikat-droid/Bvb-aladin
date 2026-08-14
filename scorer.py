@@ -2,6 +2,7 @@
 """BVB-Aladin Scorer — dedupe, kategorisiert, scort und schreibt news.json."""
 from __future__ import annotations
 
+import functools
 import json
 import math
 import re
@@ -54,12 +55,29 @@ def jaccard(a: set[str], b: set[str]) -> float:
     return len(a & b) / len(a | b)
 
 
+@functools.lru_cache(maxsize=256)
+def _keyword_pattern(needle: str) -> re.Pattern:
+    """Wortgrenzen statt Substring: "tor" darf "Investor"/"Motor" nicht treffen.
+
+    Einzel-Keyword-Variante von fetcher._keyword_pattern (dort Alternation),
+    weil categorize()/player_relevance() Treffer pro Keyword zählen.
+    Optionales Genitiv-s deckt "Guirassys"/"Watzkes"/"Dortmunds" ab.
+    Lookarounds statt \\b, damit auch Keywords mit Nicht-Wort-Randzeichen
+    (z. B. "#bvb") korrekt begrenzt würden; \\w ist in Python Unicode-aware (ä/ö/ü/ß).
+    """
+    return re.compile(rf"(?<!\w){re.escape(needle.lower())}s?(?!\w)")
+
+
+def keyword_hits(text_l: str, keywords: list[str]) -> int:
+    return sum(1 for k in keywords if _keyword_pattern(k).search(text_l))
+
+
 def categorize(text: str, categories: dict) -> str:
     text_l = text.lower()
     best = "other"
     best_hits = 0
     for cat, kws in categories.items():
-        hits = sum(1 for k in kws if k in text_l)
+        hits = keyword_hits(text_l, kws)
         if hits > best_hits:
             best, best_hits = cat, hits
     return best
@@ -81,8 +99,7 @@ def specificity_score(text: str) -> float:
 
 def player_relevance(text: str, keywords: list[str]) -> float:
     """Anzahl Treffer (Spieler/Funktionäre) → 0..1."""
-    text_l = text.lower()
-    hits = sum(1 for k in keywords if k.lower() in text_l)
+    hits = keyword_hits(text.lower(), keywords)
     return min(hits / 3.0, 1.0)  # 3+ Treffer = max
 
 
