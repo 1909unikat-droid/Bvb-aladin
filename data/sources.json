@@ -1,43 +1,328 @@
 {
   "_comment": "Quellen für BVB-Aladin. tier: 1=Insider, 2=Etabliert, 3=Offiziell, 4=Boulevard/Fan, 5=Social. credibility 0-10.",
   "rss": [
-    {"id": "kicker_bvb",         "name": "kicker BVB",             "url": "https://newsfeed.kicker.de/team/borussia-dortmund",                                       "tier": 2, "credibility": 8,  "lang": "de"},
-    {"id": "kicker_bundesliga",  "name": "kicker Bundesliga",      "url": "https://newsfeed.kicker.de/news/bundesliga",                                              "tier": 2, "credibility": 8,  "lang": "de", "filter_bvb": true},
-    {"id": "ruhr24_bvb",         "name": "RUHR24 BVB",             "url": "https://www.ruhr24.de/sport/bvb/rssfeed.rdf",                                             "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
-    {"id": "rn_bvb",             "name": "Ruhr Nachrichten BVB",   "url": "https://www.ruhrnachrichten.de/sport/bvb/feed/",                                          "tier": 2, "credibility": 8,  "lang": "de"},
-    {"id": "tm_bvb",             "name": "Transfermarkt BVB",      "url": "https://www.transfermarkt.de/borussia-dortmund/news/verein/16/rss",                       "tier": 2, "credibility": 8,  "lang": "de"},
-    {"id": "tm_geruechte",       "name": "Transfermarkt Gerüchte", "url": "https://www.transfermarkt.de/rss/news",                                                   "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
-    {"id": "fussballtransfers",  "name": "fussballtransfers.com",  "url": "https://www.fussballtransfers.com/rss-feed",                                              "tier": 2, "credibility": 7,  "lang": "de", "filter_bvb": true},
-    {"id": "schwatzgelb",        "name": "Schwatzgelb",            "url": "https://www.schwatzgelb.de/feed-de.rss",                                                  "tier": 4, "credibility": 6,  "lang": "de"},
-    {"id": "caughtoffside",      "name": "CaughtOffside",          "url": "https://www.caughtoffside.com/feed/",                                                     "tier": 4, "credibility": 5,  "lang": "en", "filter_bvb": true},
-    {"id": "reddit_bvb",         "name": "Reddit r/borussiadortmund","url": "https://www.reddit.com/r/borussiadortmund/.rss",                                        "tier": 5, "credibility": 4,  "lang": "en"},
-    {"id": "11freunde",          "name": "11Freunde",              "url": "https://11freunde.de/feed",                                                               "tier": 2, "credibility": 8,  "lang": "de", "filter_bvb": true},
-    {"id": "yt_bvb_official",    "name": "YouTube BVB (offiziell)","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK8rTVgp3-MebXkmeJcQb1Q",            "tier": 3, "credibility": 9,  "lang": "de", "kind": "youtube"},
-    {"id": "yt_bvb_nachrichten", "name": "YouTube BVB Nachrichten","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXJ17NhCh7lAdiBeV8j1PIw",            "tier": 4, "credibility": 5,  "lang": "de", "kind": "youtube"},
-    {"id": "yt_rn_bvb",          "name": "YouTube Ruhr Nachr. BVB","url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8hZjh5wvroEwP2GCJSS84g",            "tier": 2, "credibility": 8,  "lang": "de", "kind": "youtube"},
-    {"id": "pod_bvb_offiziell",  "name": "BVB-Podcast (offiziell)","url": "https://bvb.podigee.io/feed/mp3",                                                         "tier": 3, "credibility": 9,  "lang": "de", "kind": "podcast"},
-    {"id": "pod_rn_bvb",         "name": "BVB-Podcast Ruhr Nachr.","url": "https://rnbvb.podigee.io/feed/mp3",                                                       "tier": 2, "credibility": 8,  "lang": "de", "kind": "podcast"},
-    {"id": "pod_auffeohren",     "name": "Auffe Ohren (Schwatzgelb)","url": "https://auffeohren.podigee.io/feed/mp3",                                                "tier": 3, "credibility": 7,  "lang": "de", "kind": "podcast"},
-    {"id": "pod_auffesuerd",     "name": "Auffe Süd (Sky Sport)",       "url": "https://cdn.audiorella.com/podcasts/1498-auffe-sud-der-bvb-podcast-von-sky-sport/feed.rss",  "tier": 1, "credibility": 9, "lang": "de", "kind": "podcast"},
-    {"id": "pod_schwarzgelberunde","name": "Schwarzgelbe Runde",        "url": "https://schwarzgelberunde.podigee.io/feed/mp3",                                                 "tier": 4, "credibility": 7, "lang": "de", "kind": "podcast"},
-    {"id": "pod_bvb_kompakt",    "name": "BVB kompakt (WAZ/RN)",        "url": "https://bvb-kompakt.podigee.io/feed/mp3",                                                       "tier": 2, "credibility": 8, "lang": "de", "kind": "podcast"},
-    {"id": "yt_poehlerz",        "name": "Die Pöhlerz (YouTube)",       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2KiIiSaU9k-4glCgb637Yg",               "tier": 4, "credibility": 6, "lang": "de", "kind": "youtube"},
-    {"id": "sportschau_bl",      "name": "Sportschau Bundesliga",       "url": "https://www.sportschau.de/fussball/bundesliga/index~rss2.xml",                                  "tier": 2, "credibility": 8, "lang": "de", "filter_bvb": true},
-    {"id": "sportschau_pokal",   "name": "Sportschau DFB-Pokal",        "url": "https://www.sportschau.de/fussball/dfbpokal/index~rss2.xml",                                    "tier": 2, "credibility": 8, "lang": "de", "filter_bvb": true},
-    {"id": "sportschau_cl",      "name": "Sportschau Champions League", "url": "https://www.sportschau.de/fussball/championsleague/index~rss2.xml",                              "tier": 2, "credibility": 8, "lang": "de", "filter_bvb": true},
-    {"id": "kicker_pokal",       "name": "kicker DFB-Pokal",            "url": "https://newsfeed.kicker.de/news/dfb-pokal",                                                     "tier": 2, "credibility": 8, "lang": "de", "filter_bvb": true},
-    {"id": "bulinews_bvb",       "name": "Bulinews Dortmund",           "url": "https://bulinews.com/rss.xml?team=dortmund",                                                    "tier": 2, "credibility": 7, "lang": "en"},
-    {"id": "ggfn_bvb",           "name": "Get German Football News BVB","url": "https://www.getfootballnewsgermany.com/tag/borussia-dortmund/feed/",                             "tier": 2, "credibility": 7, "lang": "en"},
-    {"id": "bvbbuzz",            "name": "BVB Buzz",                    "url": "https://bvbbuzz.com/feed",                                                                      "tier": 4, "credibility": 5, "lang": "en"},
-    {"id": "fearthewall",        "name": "Fear The Wall",               "url": "https://www.fearthewall.com/rss/current.xml",                                                   "tier": 4, "credibility": 6, "lang": "en"},
-    {"id": "pod_yellowwallpod",  "name": "Yellowwallpod",               "url": "https://feeds.soundcloud.com/users/soundcloud:users:204629180/sounds.rss",                       "tier": 4, "credibility": 6, "lang": "en", "kind": "podcast"},
-    {"id": "yt_bvb_analyse",     "name": "BVB Analyse (YouTube)",       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKXoMTxjQrD4Z-xSiP0hikA",                   "tier": 4, "credibility": 5, "lang": "de", "kind": "youtube"},
-    {"id": "bbc_bvb",            "name": "BBC Sport BVB",               "url": "https://feeds.bbci.co.uk/sport/football/teams/borussia-dortmund/rss.xml",                        "tier": 2, "credibility": 8, "lang": "en"},
-    {"id": "yt_sportschau",      "name": "Sportschau (YouTube)",        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRFsyeKu07-LnHDG44O6uCA",                   "tier": 3, "credibility": 8, "lang": "de", "kind": "youtube", "filter_bvb": true},
-    {"id": "waz_sport",          "name": "WAZ Sport",                   "url": "https://www.waz.de/sport/rss",                                                                  "tier": 2, "credibility": 7, "lang": "de", "filter_bvb": true},
-    {"id": "dfl_presse",         "name": "DFL Presse",                  "url": "https://www.dfl.de/de/feed/",                                                                   "tier": 3, "credibility": 9, "lang": "de", "filter_bvb": true},
-    {"id": "reddit_soccer_bvb",  "name": "Reddit r/soccer (Dortmund)",  "url": "https://www.reddit.com/r/soccer/search.rss?q=Dortmund&restrict_sr=on&sort=new",                   "tier": 5, "credibility": 4, "lang": "en"},
-    {"id": "bsky_schwatzgelb",   "name": "Schwatzgelb (Bluesky)",       "url": "https://bsky.app/profile/schwatzgelb.de/rss",                                                    "tier": 4, "credibility": 6, "lang": "de"}
+    {
+      "id": "kicker_bvb",
+      "name": "kicker BVB",
+      "url": "https://newsfeed.kicker.de/team/borussia-dortmund",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de"
+    },
+    {
+      "id": "kicker_bundesliga",
+      "name": "kicker Bundesliga",
+      "url": "https://newsfeed.kicker.de/news/bundesliga",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "ruhr24_bvb",
+      "name": "RUHR24 BVB",
+      "url": "https://www.ruhr24.de/sport/bvb/rssfeed.rdf",
+      "tier": 2,
+      "credibility": 7,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "rn_bvb",
+      "name": "Ruhr Nachrichten BVB",
+      "url": "https://www.ruhrnachrichten.de/sport/bvb/feed/",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de"
+    },
+    {
+      "id": "tm_bvb",
+      "name": "Transfermarkt BVB",
+      "url": "https://www.transfermarkt.de/borussia-dortmund/news/verein/16/rss",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de"
+    },
+    {
+      "id": "tm_geruechte",
+      "name": "Transfermarkt Gerüchte",
+      "url": "https://www.transfermarkt.de/rss/news",
+      "tier": 2,
+      "credibility": 7,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "fussballtransfers",
+      "name": "fussballtransfers.com",
+      "url": "https://www.fussballtransfers.com/rss-feed",
+      "tier": 2,
+      "credibility": 7,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "schwatzgelb",
+      "name": "Schwatzgelb",
+      "url": "https://www.schwatzgelb.de/feed-de.rss",
+      "tier": 4,
+      "credibility": 6,
+      "lang": "de"
+    },
+    {
+      "id": "caughtoffside",
+      "name": "CaughtOffside",
+      "url": "https://www.caughtoffside.com/feed/",
+      "tier": 4,
+      "credibility": 5,
+      "lang": "en",
+      "filter_bvb": true
+    },
+    {
+      "id": "reddit_bvb",
+      "name": "Reddit r/borussiadortmund",
+      "url": "https://www.reddit.com/r/borussiadortmund/.rss",
+      "tier": 5,
+      "credibility": 4,
+      "lang": "en"
+    },
+    {
+      "id": "11freunde",
+      "name": "11Freunde",
+      "url": "https://11freunde.de/feed",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "yt_bvb_official",
+      "name": "YouTube BVB (offiziell)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK8rTVgp3-MebXkmeJcQb1Q",
+      "tier": 3,
+      "credibility": 9,
+      "lang": "de",
+      "kind": "youtube"
+    },
+    {
+      "id": "yt_bvb_nachrichten",
+      "name": "YouTube BVB Nachrichten",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXJ17NhCh7lAdiBeV8j1PIw",
+      "tier": 4,
+      "credibility": 5,
+      "lang": "de",
+      "kind": "youtube"
+    },
+    {
+      "id": "yt_rn_bvb",
+      "name": "YouTube Ruhr Nachr. BVB",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8hZjh5wvroEwP2GCJSS84g",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "kind": "youtube"
+    },
+    {
+      "id": "pod_bvb_offiziell",
+      "name": "BVB-Podcast (offiziell)",
+      "url": "https://bvb.podigee.io/feed/mp3",
+      "tier": 3,
+      "credibility": 9,
+      "lang": "de",
+      "kind": "podcast"
+    },
+    {
+      "id": "pod_rn_bvb",
+      "name": "BVB-Podcast Ruhr Nachr.",
+      "url": "https://rnbvb.podigee.io/feed/mp3",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "kind": "podcast"
+    },
+    {
+      "id": "pod_auffeohren",
+      "name": "Auffe Ohren (Schwatzgelb)",
+      "url": "https://auffeohren.podigee.io/feed/mp3",
+      "tier": 3,
+      "credibility": 7,
+      "lang": "de",
+      "kind": "podcast"
+    },
+    {
+      "id": "pod_auffesuerd",
+      "name": "Auffe Süd (Sky Sport)",
+      "url": "https://cdn.audiorella.com/podcasts/1498-auffe-sud-der-bvb-podcast-von-sky-sport/feed.rss",
+      "tier": 1,
+      "credibility": 9,
+      "lang": "de",
+      "kind": "podcast"
+    },
+    {
+      "id": "pod_schwarzgelberunde",
+      "name": "Schwarzgelbe Runde",
+      "url": "https://schwarzgelberunde.podigee.io/feed/mp3",
+      "tier": 4,
+      "credibility": 7,
+      "lang": "de",
+      "kind": "podcast"
+    },
+    {
+      "id": "pod_bvb_kompakt",
+      "name": "BVB kompakt (WAZ/RN)",
+      "url": "https://bvb-kompakt.podigee.io/feed/mp3",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "kind": "podcast"
+    },
+    {
+      "id": "yt_poehlerz",
+      "name": "Die Pöhlerz (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2KiIiSaU9k-4glCgb637Yg",
+      "tier": 4,
+      "credibility": 6,
+      "lang": "de",
+      "kind": "youtube"
+    },
+    {
+      "id": "sportschau_bl",
+      "name": "Sportschau Bundesliga",
+      "url": "https://www.sportschau.de/fussball/bundesliga/index~rss2.xml",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "sportschau_pokal",
+      "name": "Sportschau DFB-Pokal",
+      "url": "https://www.sportschau.de/fussball/dfbpokal/index~rss2.xml",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "sportschau_cl",
+      "name": "Sportschau Champions League",
+      "url": "https://www.sportschau.de/fussball/championsleague/index~rss2.xml",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "kicker_pokal",
+      "name": "kicker DFB-Pokal",
+      "url": "https://newsfeed.kicker.de/news/dfb-pokal",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "bulinews_bvb",
+      "name": "Bulinews Dortmund",
+      "url": "https://bulinews.com/rss.xml?team=dortmund",
+      "tier": 2,
+      "credibility": 7,
+      "lang": "en"
+    },
+    {
+      "id": "ggfn_bvb",
+      "name": "Get German Football News BVB",
+      "url": "https://www.getfootballnewsgermany.com/tag/borussia-dortmund/feed/",
+      "tier": 2,
+      "credibility": 7,
+      "lang": "en"
+    },
+    {
+      "id": "bvbbuzz",
+      "name": "BVB Buzz",
+      "url": "https://bvbbuzz.com/feed",
+      "tier": 4,
+      "credibility": 5,
+      "lang": "en"
+    },
+    {
+      "id": "fearthewall",
+      "name": "Fear The Wall",
+      "url": "https://www.fearthewall.com/rss/current.xml",
+      "tier": 4,
+      "credibility": 6,
+      "lang": "en"
+    },
+    {
+      "id": "pod_yellowwallpod",
+      "name": "Yellowwallpod",
+      "url": "https://feeds.soundcloud.com/users/soundcloud:users:204629180/sounds.rss",
+      "tier": 4,
+      "credibility": 6,
+      "lang": "en",
+      "kind": "podcast"
+    },
+    {
+      "id": "yt_bvb_analyse",
+      "name": "BVB Analyse (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKXoMTxjQrD4Z-xSiP0hikA",
+      "tier": 4,
+      "credibility": 5,
+      "lang": "de",
+      "kind": "youtube"
+    },
+    {
+      "id": "bbc_bvb",
+      "name": "BBC Sport BVB",
+      "url": "https://feeds.bbci.co.uk/sport/football/teams/borussia-dortmund/rss.xml",
+      "tier": 2,
+      "credibility": 8,
+      "lang": "en"
+    },
+    {
+      "id": "yt_sportschau",
+      "name": "Sportschau (YouTube)",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRFsyeKu07-LnHDG44O6uCA",
+      "tier": 3,
+      "credibility": 8,
+      "lang": "de",
+      "kind": "youtube",
+      "filter_bvb": true
+    },
+    {
+      "id": "waz_sport",
+      "name": "WAZ Sport",
+      "url": "https://www.waz.de/sport/rss",
+      "tier": 2,
+      "credibility": 7,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "dfl_presse",
+      "name": "DFL Presse",
+      "url": "https://www.dfl.de/de/feed/",
+      "tier": 3,
+      "credibility": 9,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "reddit_soccer_bvb",
+      "name": "Reddit r/soccer (Dortmund)",
+      "url": "https://www.reddit.com/r/soccer/search.rss?q=Dortmund&restrict_sr=on&sort=new",
+      "tier": 5,
+      "credibility": 4,
+      "lang": "en"
+    },
+    {
+      "id": "bsky_schwatzgelb",
+      "name": "Schwatzgelb (Bluesky)",
+      "url": "https://bsky.app/profile/schwatzgelb.de/rss",
+      "tier": 4,
+      "credibility": 6,
+      "lang": "de"
+    }
   ],
   "nitter": {
     "_comment": "X/Twitter via Nitter-Mirrors als RSS. Multiple instances als Fallback. Tier-1 Insider + @BVB als Offiziell-Quelle.",
@@ -48,54 +333,301 @@
       "https://nitter.cz"
     ],
     "accounts": [
-      {"id": "x_plettenberg", "handle": "Plettigoal",      "name": "Florian Plettenberg (Sky)",  "tier": 1, "credibility": 10, "lang": "de"},
-      {"id": "x_berger",      "handle": "berger_pj",       "name": "Patrick Berger",             "tier": 1, "credibility": 9,  "lang": "de"},
-      {"id": "x_falk",        "handle": "cfbayern",        "name": "Christian Falk (BILD)",      "tier": 1, "credibility": 9,  "lang": "de"},
-      {"id": "x_romano",      "handle": "FabrizioRomano",  "name": "Fabrizio Romano",            "tier": 1, "credibility": 10, "lang": "en"},
-      {"id": "x_ornstein",    "handle": "David_Ornstein",  "name": "David Ornstein (Athletic)",  "tier": 1, "credibility": 10, "lang": "en"},
-      {"id": "x_bvb",         "handle": "BVB",             "name": "BVB (offiziell)",            "tier": 3, "credibility": 10, "lang": "de"},
-      {"id": "x_sky_jesco",   "handle": "Sky_Jesco",       "name": "Jesco von Eichmann (Sky)",   "tier": 1, "credibility": 9,  "lang": "de"},
-      {"id": "x_hinze",       "handle": "philipphinze24",  "name": "Philipp Hinze (Sky)",        "tier": 1, "credibility": 9,  "lang": "de"},
-      {"id": "x_skysportde",  "handle": "SkySportDE",      "name": "Sky Sport News DE",          "tier": 2, "credibility": 8,  "lang": "de"},
-      {"id": "x_bild_sport",  "handle": "BILD_Sport",      "name": "BILD Sport",                 "tier": 2, "credibility": 7,  "lang": "de"},
-      {"id": "x_sport1",      "handle": "SPORT1",          "name": "SPORT1",                     "tier": 2, "credibility": 7,  "lang": "de"},
-      {"id": "x_arooobvb",    "handle": "AroooBVB",        "name": "Arooo BVB",                  "tier": 4, "credibility": 5,  "lang": "de"},
-      {"id": "x_borussia0977","handle": "Borussia0977",    "name": "Borussia 09",                "tier": 4, "credibility": 5,  "lang": "de"},
-      {"id": "x_bvbnewsblog", "handle": "bvbnewsblog",     "name": "BVB-Newsblog",               "tier": 4, "credibility": 6,  "lang": "de"},
-      {"id": "x_lafonatebvb", "handle": "lafonateBVB",     "name": "lafonateBVB",                "tier": 4, "credibility": 6,  "lang": "de"},
-      {"id": "x_gabumnn",     "handle": "gabumnn",         "name": "gabumnn",                    "tier": 4, "credibility": 5,  "lang": "de"},
-      {"id": "x_jadenscout",  "handle": "ScoutingByJaden", "name": "Scouting by Jaden",          "tier": 4, "credibility": 5,  "lang": "en"},
-      {"id": "x_bvbnewsflash","handle": "bvbnewsflash",    "name": "BVB Newsflash",              "tier": 4, "credibility": 6,  "lang": "de"},
-      {"id": "x_rn_bvb",      "handle": "RNBVB",           "name": "Ruhr Nachrichten BVB",       "tier": 2, "credibility": 8,  "lang": "de"},
-      {"id": "x_kolsberger",  "handle": "SKolsberger",     "name": "Sebastian Kolsberger (BILD)","tier": 1, "credibility": 9,  "lang": "de"},
-      {"id": "x_optafranz",   "handle": "OptaFranz",       "name": "OptaFranz (Opta-Statistik)", "tier": 2, "credibility": 8,  "lang": "de"},
-      {"id": "x_bvb_fanb",    "handle": "BVB_Fanb",        "name": "BVB Fanbeauftragte",         "tier": 2, "credibility": 8,  "lang": "de"}
+      {
+        "id": "x_plettenberg",
+        "handle": "Plettigoal",
+        "name": "Florian Plettenberg (Sky)",
+        "tier": 1,
+        "credibility": 10,
+        "lang": "de"
+      },
+      {
+        "id": "x_berger",
+        "handle": "berger_pj",
+        "name": "Patrick Berger",
+        "tier": 1,
+        "credibility": 9,
+        "lang": "de"
+      },
+      {
+        "id": "x_falk",
+        "handle": "cfbayern",
+        "name": "Christian Falk (BILD)",
+        "tier": 1,
+        "credibility": 9,
+        "lang": "de"
+      },
+      {
+        "id": "x_romano",
+        "handle": "FabrizioRomano",
+        "name": "Fabrizio Romano",
+        "tier": 1,
+        "credibility": 10,
+        "lang": "en"
+      },
+      {
+        "id": "x_ornstein",
+        "handle": "David_Ornstein",
+        "name": "David Ornstein (Athletic)",
+        "tier": 1,
+        "credibility": 10,
+        "lang": "en"
+      },
+      {
+        "id": "x_bvb",
+        "handle": "BVB",
+        "name": "BVB (offiziell)",
+        "tier": 3,
+        "credibility": 10,
+        "lang": "de"
+      },
+      {
+        "id": "x_sky_jesco",
+        "handle": "Sky_Jesco",
+        "name": "Jesco von Eichmann (Sky)",
+        "tier": 1,
+        "credibility": 9,
+        "lang": "de"
+      },
+      {
+        "id": "x_hinze",
+        "handle": "philipphinze24",
+        "name": "Philipp Hinze (Sky)",
+        "tier": 1,
+        "credibility": 9,
+        "lang": "de"
+      },
+      {
+        "id": "x_skysportde",
+        "handle": "SkySportDE",
+        "name": "Sky Sport News DE",
+        "tier": 2,
+        "credibility": 8,
+        "lang": "de"
+      },
+      {
+        "id": "x_bild_sport",
+        "handle": "BILD_Sport",
+        "name": "BILD Sport",
+        "tier": 2,
+        "credibility": 7,
+        "lang": "de"
+      },
+      {
+        "id": "x_sport1",
+        "handle": "SPORT1",
+        "name": "SPORT1",
+        "tier": 2,
+        "credibility": 7,
+        "lang": "de"
+      },
+      {
+        "id": "x_arooobvb",
+        "handle": "AroooBVB",
+        "name": "Arooo BVB",
+        "tier": 4,
+        "credibility": 5,
+        "lang": "de"
+      },
+      {
+        "id": "x_borussia0977",
+        "handle": "Borussia0977",
+        "name": "Borussia 09",
+        "tier": 4,
+        "credibility": 5,
+        "lang": "de"
+      },
+      {
+        "id": "x_bvbnewsblog",
+        "handle": "bvbnewsblog",
+        "name": "BVB-Newsblog",
+        "tier": 4,
+        "credibility": 6,
+        "lang": "de"
+      },
+      {
+        "id": "x_lafonatebvb",
+        "handle": "lafonateBVB",
+        "name": "lafonateBVB",
+        "tier": 4,
+        "credibility": 6,
+        "lang": "de"
+      },
+      {
+        "id": "x_gabumnn",
+        "handle": "gabumnn",
+        "name": "gabumnn",
+        "tier": 4,
+        "credibility": 5,
+        "lang": "de"
+      },
+      {
+        "id": "x_jadenscout",
+        "handle": "ScoutingByJaden",
+        "name": "Scouting by Jaden",
+        "tier": 4,
+        "credibility": 5,
+        "lang": "en"
+      },
+      {
+        "id": "x_bvbnewsflash",
+        "handle": "bvbnewsflash",
+        "name": "BVB Newsflash",
+        "tier": 4,
+        "credibility": 6,
+        "lang": "de"
+      },
+      {
+        "id": "x_rn_bvb",
+        "handle": "RNBVB",
+        "name": "Ruhr Nachrichten BVB",
+        "tier": 2,
+        "credibility": 8,
+        "lang": "de"
+      },
+      {
+        "id": "x_kolsberger",
+        "handle": "SKolsberger",
+        "name": "Sebastian Kolsberger (BILD)",
+        "tier": 1,
+        "credibility": 9,
+        "lang": "de"
+      },
+      {
+        "id": "x_optafranz",
+        "handle": "OptaFranz",
+        "name": "OptaFranz (Opta-Statistik)",
+        "tier": 2,
+        "credibility": 8,
+        "lang": "de"
+      },
+      {
+        "id": "x_bvb_fanb",
+        "handle": "BVB_Fanb",
+        "name": "BVB Fanbeauftragte",
+        "tier": 2,
+        "credibility": 8,
+        "lang": "de"
+      }
     ],
     "_searches_comment": "Nitter-Volltextsuchen ({instance}/search/rss?f=tweets&q=…). Ergebnisse sind ungefiltertes Social-Rauschen -> IMMER gegen bvb_keywords gefiltert, Tier 5. STAND 2026-08-14: kein erreichbarer Mirror liefert Such-RSS (nitter.net antwortet 200 mit leerem Body, poast/cz 403 Bot-Check, privacydev tot) — der Pfad ist gebaut und failsafe, liefert aber aktuell 0 Items.",
     "searches": [
-      {"id": "x_search_bvb_transfer", "query": "BVB transfer", "tier": 5, "credibility": 3}
+      {
+        "id": "x_search_bvb_transfer",
+        "query": "BVB transfer",
+        "tier": 5,
+        "credibility": 3
+      }
     ],
     "filter_bvb_for_non_bvb_accounts": true
   },
   "bvb_keywords": [
-    "bvb", "borussia dortmund", "dortmund", "schwarz-gelb", "schwarzgelb",
-    "kovac", "nuri sahin", "ricken", "kehl", "watzke",
-    "guirassy", "adeyemi", "bynoe-gittens", "gittens", "brandt", "reyna",
-    "sabitzer", "ozcan", "pascal groß", "nmecha", "anton", "schlotterbeck",
-    "süle", "bensebaini", "ryerson", "kobel", "meyer", "emre can",
-    "couto", "yan couto", "duranville", "beier", "chukwuemeka",
-    "moukoko", "haller", "anselmino",
-    "signal iduna park", "westfalenstadion"
+    "bvb",
+    "borussia dortmund",
+    "dortmund",
+    "schwarz-gelb",
+    "schwarzgelb",
+    "kovac",
+    "nuri sahin",
+    "ricken",
+    "kehl",
+    "watzke",
+    "guirassy",
+    "adeyemi",
+    "bynoe-gittens",
+    "gittens",
+    "brandt",
+    "reyna",
+    "sabitzer",
+    "ozcan",
+    "pascal groß",
+    "nmecha",
+    "anton",
+    "schlotterbeck",
+    "süle",
+    "bensebaini",
+    "ryerson",
+    "kobel",
+    "alexander meyer",
+    "emre can",
+    "couto",
+    "yan couto",
+    "duranville",
+    "beier",
+    "chukwuemeka",
+    "moukoko",
+    "haller",
+    "anselmino",
+    "signal iduna park",
+    "westfalenstadion"
   ],
   "negative_keywords": [
-    "borussia mönchengladbach", "gladbach", "mönchengladbach",
-    "vfl borussia", "fohlen"
+    "borussia mönchengladbach",
+    "gladbach",
+    "mönchengladbach",
+    "vfl borussia",
+    "fohlen"
   ],
   "categories": {
-    "transfers": ["transfer", "wechsel", "verpflichtung", "abgang", "zugang", "ablöse", "vertrag", "verlängert", "verlängerung", "leihe", "interesse", "gerücht", "deal", "signed", "joins", "loan"],
-    "injury":    ["verletzung", "verletzt", "ausfall", "ausfällt", "muskel", "kreuzband", "ot", "reha", "fit", "comeback", "kabine"],
-    "matchday":  ["aufstellung", "anpfiff", "abpfiff", "tor", "elfmeter", "rote karte", "gelbe karte", "spielbericht", "noten", "stimmen", "pressekonferenz"],
-    "official":  ["offiziell", "bekannt gegeben", "mitteilung", "statement", "klub teilt mit"],
-    "background": ["analyse", "interview", "porträt", "hintergrund", "kommentar", "kolumne", "taktik"]
+    "transfers": [
+      "transfer",
+      "wechsel",
+      "verpflichtung",
+      "abgang",
+      "zugang",
+      "ablöse",
+      "vertrag",
+      "verlängert",
+      "verlängerung",
+      "leihe",
+      "interesse",
+      "gerücht",
+      "deal",
+      "signed",
+      "joins",
+      "loan"
+    ],
+    "injury": [
+      "verletzung",
+      "verletzt",
+      "ausfall",
+      "ausfällt",
+      "muskel",
+      "kreuzband",
+      "ot",
+      "reha",
+      "fit",
+      "comeback",
+      "kabine"
+    ],
+    "matchday": [
+      "aufstellung",
+      "anpfiff",
+      "abpfiff",
+      "tor",
+      "elfmeter",
+      "rote karte",
+      "gelbe karte",
+      "spielbericht",
+      "noten",
+      "stimmen",
+      "pressekonferenz"
+    ],
+    "official": [
+      "offiziell",
+      "bekannt gegeben",
+      "mitteilung",
+      "statement",
+      "klub teilt mit"
+    ],
+    "background": [
+      "analyse",
+      "interview",
+      "porträt",
+      "hintergrund",
+      "kommentar",
+      "kolumne",
+      "taktik"
+    ]
   }
 }
