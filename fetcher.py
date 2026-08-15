@@ -25,6 +25,9 @@ STATE_FILE = ROOT / "data" / "source_state.json"
 STALE_AFTER_DAYS = 30
 # 0 Items in so vielen Läufen in Folge = kein transienter Fetch-Fehler mehr.
 EMPTY_RUNS_ALARM = 2
+# Ununterbrochene Abruf-Fehler bis zum Alarm (~10 h bei Lauf alle 30 min) —
+# hoch genug, dass Wartungsfenster und Mirror-Ausfälle nicht anschlagen.
+FAIL_RUNS_ALARM = 20
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) "
@@ -163,12 +166,41 @@ def extract_image(entry) -> str | None:
     return None
 
 
+# Reddit drosselt zwei Feeds desselben Hosts in schneller Folge mit HTTP 429
+# (live gesehen: reddit_soccer_bvb lieferte dadurch dauerhaft nichts). Ein
+# Mindestabstand pro Host kostet nur bei Mehrfach-Feeds eines Anbieters Zeit.
+HOST_MIN_GAP_S = 3.0
+RATE_LIMIT_COOLDOWN_S = 8.0
+_last_host_hit: dict[str, float] = {}
+
+
 def fetch_rss(feed_url: str) -> list[dict]:
-    """Return parsed feed entries; raise on hard failure."""
-    r = requests.get(feed_url, headers=HEADERS, timeout=TIMEOUT)
-    r.raise_for_status()
-    fp = feedparser.parse(r.content)
-    return fp.entries or []
+    """Return parsed feed entries; raise on hard failure.
+
+    Bei HTTP 429 wird einmal nachgefasst (Reddits Burst-Limit greift schon bei
+    zwei Feeds desselben Hosts); ein zweites 429 gilt als Fehlschlag, damit ein
+    gedrosselter Anbieter den Lauf nicht ausbremst.
+    """
+    host = urlparse(feed_url).netloc
+    for attempt in (0, 1):
+        wait = HOST_MIN_GAP_S - (time.time() - _last_host_hit.get(host, 0.0))
+        if wait > 0:
+            time.sleep(wait)
+        _last_host_hit[host] = time.time()
+        r = requests.get(feed_url, headers=HEADERS, timeout=TIMEOUT)
+        if r.status_code == 429 and attempt == 0:
+            # Retry-After respektieren, aber gedeckelt — der Lauf hat ein Budget.
+            try:
+                cooldown = min(float(r.headers.get("Retry-After", RATE_LIMIT_COOLDOWN_S)), 15.0)
+            except ValueError:
+                cooldown = RATE_LIMIT_COOLDOWN_S
+            print(f"  [429] {host} gedrosselt — {cooldown:.0f}s warten, ein Versuch", file=sys.stderr)
+            time.sleep(cooldown)
+            continue
+        r.raise_for_status()
+        fp = feedparser.parse(r.content)
+        return fp.entries or []
+    return []
 
 
 def to_item(entry, source: dict) -> dict | None:
@@ -384,10 +416,14 @@ def _parse_state_dt(s: str | None) -> datetime | None:
 def check_freshness(freshness: dict, now: datetime) -> list[dict]:
     """Verstummte Quellen finden und den Wächter-State fortschreiben.
 
-    Alarm gibt es aus zwei Gründen:
+    Alarm gibt es aus drei Gründen:
       (a) das neueste je gesehene Item ist älter als STALE_AFTER_DAYS,
       (b) die Quelle lieferte noch nie ein Item und war EMPTY_RUNS_ALARM Läufe
-          in Folge leer (toter Handle, 404-Feed).
+          in Folge leer (toter Handle, 404-Feed),
+      (c) der Abruf scheitert seit FAIL_RUNS_ALARM Läufen ununterbrochen
+          (dauerhaft gedrosselt oder weggefallen). Ohne (c) fiele eine Quelle,
+          die IMMER mit Fehler antwortet, still hinten runter — Fehlläufe
+          zählen bei (b) bewusst nicht mit, damit kurze Ausfälle ruhig bleiben.
     Das gemerkte Datum überlebt Läufe: ein einzelner Netz- oder Mirror-Fehler
     kann eine lebende Quelle deshalb nicht fälschlich stumm schalten.
     """
@@ -412,14 +448,30 @@ def check_freshness(freshness: dict, now: datetime) -> list[dict]:
             empty_runs = old_empty  # Fetch-Fehler: Zähler einfrieren, nicht werten
         else:
             empty_runs = old_empty + 1
+        old_fail = old.get("fail_runs")
+        old_fail = old_fail if isinstance(old_fail, int) else 0
+        fail_runs = old_fail + 1 if seen.get("failed") else 0
         since = old.get("since")
         since = since if isinstance(since, str) else now.isoformat()
-        state[sid] = {"newest_item": newest, "empty_runs": empty_runs, "since": since}
+        state[sid] = {
+            "newest_item": newest,
+            "empty_runs": empty_runs,
+            "fail_runs": fail_runs,
+            "since": since,
+        }
 
         reference = _parse_state_dt(newest) or _parse_state_dt(since)
         days_silent = max(int((now - reference).total_seconds() // 86400), 0) if reference else 0
-        if (newest and days_silent > STALE_AFTER_DAYS) or (not newest and empty_runs >= EMPTY_RUNS_ALARM):
-            stale.append({"id": sid, "newest_item": newest, "days_silent": days_silent})
+        alarm = (
+            (newest and days_silent > STALE_AFTER_DAYS)
+            or (not newest and empty_runs >= EMPTY_RUNS_ALARM)
+            or fail_runs >= FAIL_RUNS_ALARM
+        )
+        if alarm:
+            entry = {"id": sid, "newest_item": newest, "days_silent": days_silent}
+            if fail_runs >= FAIL_RUNS_ALARM:
+                entry["fail_runs"] = fail_runs
+            stale.append(entry)
 
     try:
         # Atomar (tmp + replace): überlappende Läufe dürfen keinen zerrissenen
