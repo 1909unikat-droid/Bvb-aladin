@@ -31,7 +31,13 @@
     {"id": "bvbbuzz",            "name": "BVB Buzz",                    "url": "https://bvbbuzz.com/feed",                                                                      "tier": 4, "credibility": 5, "lang": "en"},
     {"id": "fearthewall",        "name": "Fear The Wall",               "url": "https://www.fearthewall.com/rss/current.xml",                                                   "tier": 4, "credibility": 6, "lang": "en"},
     {"id": "pod_yellowwallpod",  "name": "Yellowwallpod",               "url": "https://feeds.soundcloud.com/users/soundcloud:users:204629180/sounds.rss",                       "tier": 4, "credibility": 6, "lang": "en", "kind": "podcast"},
-    {"id": "yt_bvb_analyse",     "name": "BVB Analyse (YouTube)",       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKXoMTxjQrD4Z-xSiP0hikA",                   "tier": 4, "credibility": 5, "lang": "de", "kind": "youtube"}
+    {"id": "yt_bvb_analyse",     "name": "BVB Analyse (YouTube)",       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKXoMTxjQrD4Z-xSiP0hikA",                   "tier": 4, "credibility": 5, "lang": "de", "kind": "youtube"},
+    {"id": "bbc_bvb",            "name": "BBC Sport BVB",               "url": "https://feeds.bbci.co.uk/sport/football/teams/borussia-dortmund/rss.xml",                        "tier": 2, "credibility": 8, "lang": "en"},
+    {"id": "yt_sportschau",      "name": "Sportschau (YouTube)",        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRFsyeKu07-LnHDG44O6uCA",                   "tier": 3, "credibility": 8, "lang": "de", "kind": "youtube", "filter_bvb": true},
+    {"id": "waz_sport",          "name": "WAZ Sport",                   "url": "https://www.waz.de/sport/rss",                                                                  "tier": 2, "credibility": 7, "lang": "de", "filter_bvb": true},
+    {"id": "dfl_presse",         "name": "DFL Presse",                  "url": "https://www.dfl.de/de/feed/",                                                                   "tier": 3, "credibility": 9, "lang": "de", "filter_bvb": true},
+    {"id": "reddit_soccer_bvb",  "name": "Reddit r/soccer (Dortmund)",  "url": "https://www.reddit.com/r/soccer/search.rss?q=Dortmund&restrict_sr=on&sort=new",                   "tier": 5, "credibility": 4, "lang": "en"},
+    {"id": "bsky_schwatzgelb",   "name": "Schwatzgelb (Bluesky)",       "url": "https://bsky.app/profile/schwatzgelb.de/rss",                                                    "tier": 4, "credibility": 6, "lang": "de"}
   ],
   "nitter": {
     "_comment": "X/Twitter via Nitter-Mirrors als RSS. Multiple instances als Fallback. Tier-1 Insider + @BVB als Offiziell-Quelle.",
@@ -49,12 +55,10 @@
       {"id": "x_ornstein",    "handle": "David_Ornstein",  "name": "David Ornstein (Athletic)",  "tier": 1, "credibility": 10, "lang": "en"},
       {"id": "x_bvb",         "handle": "BVB",             "name": "BVB (offiziell)",            "tier": 3, "credibility": 10, "lang": "de"},
       {"id": "x_sky_jesco",   "handle": "Sky_Jesco",       "name": "Jesco von Eichmann (Sky)",   "tier": 1, "credibility": 9,  "lang": "de"},
-      {"id": "x_simschu",     "handle": "SimSchu",         "name": "Simon Schulze (kicker)",     "tier": 1, "credibility": 9,  "lang": "de"},
       {"id": "x_hinze",       "handle": "philipphinze24",  "name": "Philipp Hinze (Sky)",        "tier": 1, "credibility": 9,  "lang": "de"},
       {"id": "x_skysportde",  "handle": "SkySportDE",      "name": "Sky Sport News DE",          "tier": 2, "credibility": 8,  "lang": "de"},
       {"id": "x_bild_sport",  "handle": "BILD_Sport",      "name": "BILD Sport",                 "tier": 2, "credibility": 7,  "lang": "de"},
       {"id": "x_sport1",      "handle": "SPORT1",          "name": "SPORT1",                     "tier": 2, "credibility": 7,  "lang": "de"},
-      {"id": "x_dpa_sport",   "handle": "dpa_sport",       "name": "dpa Sport",                  "tier": 3, "credibility": 8,  "lang": "de"},
       {"id": "x_arooobvb",    "handle": "AroooBVB",        "name": "Arooo BVB",                  "tier": 4, "credibility": 5,  "lang": "de"},
       {"id": "x_borussia0977","handle": "Borussia0977",    "name": "Borussia 09",                "tier": 4, "credibility": 5,  "lang": "de"},
       {"id": "x_bvbnewsblog", "handle": "bvbnewsblog",     "name": "BVB-Newsblog",               "tier": 4, "credibility": 6,  "lang": "de"},
@@ -62,11 +66,10 @@
       {"id": "x_gabumnn",     "handle": "gabumnn",         "name": "gabumnn",                    "tier": 4, "credibility": 5,  "lang": "de"},
       {"id": "x_jadenscout",  "handle": "ScoutingByJaden", "name": "Scouting by Jaden",          "tier": 4, "credibility": 5,  "lang": "en"},
       {"id": "x_bvbnewsflash","handle": "bvbnewsflash",    "name": "BVB Newsflash",              "tier": 4, "credibility": 6,  "lang": "de"},
-      {"id": "x_kicker_bvb",  "handle": "kicker_BVB",      "name": "kicker BVB",                 "tier": 2, "credibility": 8,  "lang": "de"},
-      {"id": "x_rn_bvb",      "handle": "RuhrnachrichtenBVB","name": "Ruhr Nachrichten BVB",     "tier": 2, "credibility": 8,  "lang": "de"},
-      {"id": "x_schwatzgelb", "handle": "SchwatzgelbDE",   "name": "Schwatzgelb",                "tier": 4, "credibility": 6,  "lang": "de"},
+      {"id": "x_rn_bvb",      "handle": "RNBVB",           "name": "Ruhr Nachrichten BVB",       "tier": 2, "credibility": 8,  "lang": "de"},
       {"id": "x_kolsberger",  "handle": "SKolsberger",     "name": "Sebastian Kolsberger (BILD)","tier": 1, "credibility": 9,  "lang": "de"},
-      {"id": "x_dersch",      "handle": "MatthiasDersch",  "name": "Matthias Dersch (kicker)",   "tier": 1, "credibility": 8,  "lang": "de"}
+      {"id": "x_optafranz",   "handle": "OptaFranz",       "name": "OptaFranz (Opta-Statistik)", "tier": 2, "credibility": 8,  "lang": "de"},
+      {"id": "x_bvb_fanb",    "handle": "BVB_Fanb",        "name": "BVB Fanbeauftragte",         "tier": 2, "credibility": 8,  "lang": "de"}
     ],
     "_searches_comment": "Nitter-Volltextsuchen ({instance}/search/rss?f=tweets&q=…). Ergebnisse sind ungefiltertes Social-Rauschen -> IMMER gegen bvb_keywords gefiltert, Tier 5. STAND 2026-08-14: kein erreichbarer Mirror liefert Such-RSS (nitter.net antwortet 200 mit leerem Body, poast/cz 403 Bot-Check, privacydev tot) — der Pfad ist gebaut und failsafe, liefert aber aktuell 0 Items.",
     "searches": [

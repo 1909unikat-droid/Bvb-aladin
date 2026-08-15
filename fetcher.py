@@ -17,6 +17,12 @@ import requests
 ROOT = Path(__file__).parent
 SOURCES_FILE = ROOT / "data" / "sources.json"
 RAW_FILE = ROOT / "data" / "raw_items.json"
+STATE_FILE = ROOT / "data" / "source_state.json"
+
+# Frische-Wächter: ab wann gilt eine Quelle als verstummt.
+STALE_AFTER_DAYS = 30
+# 0 Items in so vielen Läufen in Folge = kein transienter Fetch-Fehler mehr.
+EMPTY_RUNS_ALARM = 2
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) "
@@ -108,12 +114,13 @@ def extract_image(entry) -> str | None:
     if video_id:
         return f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
 
-    # media:content / media:thumbnail — größte Variante gewinnt.
-    candidates = _media_urls(entry, "media_content") + _media_urls(entry, "media_thumbnail")
-    for _, url in sorted(candidates, key=lambda c: c[0], reverse=True):
-        img = clean_image_url(url)
-        if img:
-            return img
+    # media:content ist das Vollbild, media:thumbnail nur die Vorschau — erst alle
+    # media:content-Kandidaten (größte Breite zuerst), Thumbnails nur als Fallback.
+    for key in ("media_content", "media_thumbnail"):
+        for _, url in sorted(_media_urls(entry, key), key=lambda c: c[0], reverse=True):
+            img = clean_image_url(url)
+            if img:
+                return img
 
     for enc in (entry.get("enclosures") or []) + (entry.get("links") or []):
         if not isinstance(enc, dict):
@@ -152,9 +159,13 @@ def fetch_rss(feed_url: str) -> list[dict]:
 def to_item(entry, source: dict) -> dict | None:
     title = strip_html(entry.get("title", "")).strip()
     link = (entry.get("link") or "").strip()
+    summary = strip_html(entry.get("summary", "") or entry.get("description", ""))
+    if not title:
+        # Bluesky-RSS liefert Posts ganz ohne <title>. Ohne diesen Fallback fiele
+        # die komplette Quelle stumm durchs Raster (alle Items -> None).
+        title = summary[:120].strip()
     if not title or not link:
         return None
-    summary = strip_html(entry.get("summary", "") or entry.get("description", ""))
     published = parse_dt(entry)
     item = {
         "id": make_id(link, title),
@@ -177,11 +188,12 @@ def to_item(entry, source: dict) -> dict | None:
     return item
 
 
-def fetch_rss_sources(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict], int, int]:
+def fetch_rss_sources(sources: dict, bvb_keywords: list[str], freshness: dict) -> tuple[list[dict], int, int]:
     items, ok, fail = [], 0, 0
     for src in sources["rss"]:
         try:
             entries = fetch_rss(src["url"])
+            record_freshness(freshness, src["id"], entries)
             for e in entries:
                 it = to_item(e, src)
                 if not it:
@@ -195,6 +207,7 @@ def fetch_rss_sources(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict
             print(f"  [ok]  {src['name']:30s} -> {len(entries)} entries", file=sys.stderr)
         except Exception as exc:
             fail += 1
+            record_freshness(freshness, src["id"], None)
             print(f"  [FAIL] {src['name']:30s} -> {type(exc).__name__}: {exc}", file=sys.stderr)
     return items, ok, fail
 
@@ -225,7 +238,7 @@ def fetch_nitter_search(query: str, instances: list[str]) -> list[dict] | None:
     return None
 
 
-def fetch_x_searches(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict], int, int]:
+def fetch_x_searches(sources: dict, bvb_keywords: list[str], freshness: dict) -> tuple[list[dict], int, int]:
     """Nitter-Suchen. Treffer sind Fremd-Tweets -> IMMER auf BVB-Keywords filtern."""
     nitter = sources.get("nitter", {})
     searches = nitter.get("searches", [])
@@ -241,6 +254,7 @@ def fetch_x_searches(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict]
             "kind": "x",
         }
         entries = fetch_nitter_search(s["query"], instances)
+        record_freshness(freshness, s["id"], entries)
         if entries is None:
             fail += 1
             print(f"  [FAIL] X-Suche/{s['query']:15s} -> all nitter mirrors failed", file=sys.stderr)
@@ -260,7 +274,7 @@ def fetch_x_searches(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict]
     return items, ok, fail
 
 
-def fetch_x_sources(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict], int, int]:
+def fetch_x_sources(sources: dict, bvb_keywords: list[str], freshness: dict) -> tuple[list[dict], int, int]:
     nitter = sources.get("nitter", {})
     accounts = nitter.get("accounts", [])
     instances = nitter.get("instances", [])
@@ -276,6 +290,7 @@ def fetch_x_sources(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict],
             "kind": "x",
         }
         entries = fetch_nitter_account(acc["handle"], instances)
+        record_freshness(freshness, acc["id"], entries)
         if entries is None:
             fail += 1
             print(f"  [FAIL] X/{acc['handle']:20s} -> all nitter mirrors failed", file=sys.stderr)
@@ -298,18 +313,105 @@ def fetch_x_sources(sources: dict, bvb_keywords: list[str]) -> tuple[list[dict],
     return items, ok, fail
 
 
+# --- Quellen-Frische-Wächter ---------------------------------------------
+# Tote Accounts (404-Handle, seit Jahren stiller Reporter) liefern still 0 oder
+# uralte Items und fallen im Log zwischen 40 [ok]-Zeilen nicht auf. Der Wächter
+# merkt sich pro Quelle das neueste je gesehene Item und meldet Verstummte.
+
+
+def record_freshness(freshness: dict, source_id: str, entries: list | None) -> None:
+    """Neuestes Item-Datum einer Quelle festhalten — VOR den BVB-Filtern.
+
+    Gemessen wird "sendet die Quelle überhaupt noch?", nicht "liefert sie BVB":
+    sonst schlüge der Wächter auf gefilterten Feeds an jedem ruhigen BVB-Tag an.
+    """
+    newest = None
+    for e in entries or []:
+        dt = parse_dt(e)
+        if dt and (newest is None or dt > newest):
+            newest = dt
+    freshness[source_id] = {"newest": newest, "count": len(entries or [])}
+
+
+def load_state() -> dict:
+    """Gemerkter Stand des letzten Laufs. Fehlt/kaputt -> leer (kein Abbruch)."""
+    if not STATE_FILE.exists():
+        return {}
+    try:
+        data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        sources = data.get("sources") if isinstance(data, dict) else None
+        return sources if isinstance(sources, dict) else {}
+    except Exception as exc:
+        print(f"  [WARN] source_state.json unlesbar ({type(exc).__name__}) — Wächter startet neu",
+              file=sys.stderr)
+        return {}
+
+
+def _parse_state_dt(s: str | None) -> datetime | None:
+    try:
+        return datetime.fromisoformat(s) if s else None
+    except ValueError:
+        return None
+
+
+def check_freshness(freshness: dict, now: datetime) -> list[dict]:
+    """Verstummte Quellen finden und den Wächter-State fortschreiben.
+
+    Alarm gibt es aus zwei Gründen:
+      (a) das neueste je gesehene Item ist älter als STALE_AFTER_DAYS,
+      (b) die Quelle lieferte noch nie ein Item und war EMPTY_RUNS_ALARM Läufe
+          in Folge leer (toter Handle, 404-Feed).
+    Das gemerkte Datum überlebt Läufe: ein einzelner Netz- oder Mirror-Fehler
+    kann eine lebende Quelle deshalb nicht fälschlich stumm schalten.
+    """
+    previous = load_state()
+    state: dict[str, dict] = {}
+    stale: list[dict] = []
+
+    for sid, seen in sorted(freshness.items()):
+        old = previous.get(sid) if isinstance(previous.get(sid), dict) else {}
+        # ISO-Strings mit identischem UTC-Offset -> lexikographischer Vergleich reicht.
+        newest = old.get("newest_item")
+        if seen["newest"] and (not newest or seen["newest"] > newest):
+            newest = seen["newest"]
+        empty_runs = 0 if seen["count"] else int(old.get("empty_runs") or 0) + 1
+        since = old.get("since") or now.isoformat()
+        state[sid] = {"newest_item": newest, "empty_runs": empty_runs, "since": since}
+
+        reference = _parse_state_dt(newest) or _parse_state_dt(since)
+        days_silent = max(int((now - reference).total_seconds() // 86400), 0) if reference else 0
+        if (newest and days_silent > STALE_AFTER_DAYS) or (not newest and empty_runs >= EMPTY_RUNS_ALARM):
+            stale.append({"id": sid, "newest_item": newest, "days_silent": days_silent})
+
+    try:
+        STATE_FILE.write_text(
+            json.dumps({"updated_at": now.isoformat(), "sources": state},
+                       ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+    except OSError as exc:
+        print(f"  [WARN] source_state.json nicht schreibbar: {exc}", file=sys.stderr)
+
+    stale.sort(key=lambda s: s["days_silent"], reverse=True)
+    for s in stale:
+        print(f"  [WARN] Quelle {s['id']} still seit {s['days_silent']} Tagen", file=sys.stderr)
+    return stale
+
+
 def main() -> int:
     started = time.time()
     sources = load_sources()
     bvb_keywords = sources.get("bvb_keywords", [])
     negative = sources.get("negative_keywords", [])
 
+    freshness: dict[str, dict] = {}
+
     print("== RSS sources ==", file=sys.stderr)
-    rss_items, rss_ok, rss_fail = fetch_rss_sources(sources, bvb_keywords)
+    rss_items, rss_ok, rss_fail = fetch_rss_sources(sources, bvb_keywords, freshness)
 
     print("== X / Nitter ==", file=sys.stderr)
-    x_items, x_ok, x_fail = fetch_x_sources(sources, bvb_keywords)
-    s_items, s_ok, s_fail = fetch_x_searches(sources, bvb_keywords)
+    x_items, x_ok, x_fail = fetch_x_sources(sources, bvb_keywords, freshness)
+    s_items, s_ok, s_fail = fetch_x_searches(sources, bvb_keywords, freshness)
     x_items += s_items
     x_ok += s_ok
     x_fail += s_fail
@@ -326,11 +428,15 @@ def main() -> int:
             continue
         cleaned.append(it)
 
+    print("== Quellen-Frische ==", file=sys.stderr)
+    stale = check_freshness(freshness, datetime.now(timezone.utc))
+
     payload = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "duration_s": round(time.time() - started, 2),
         "sources_ok": rss_ok + x_ok,
         "sources_fail": rss_fail + x_fail,
+        "stale_sources": stale,
         "items": cleaned,
     }
     RAW_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")

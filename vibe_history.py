@@ -18,7 +18,9 @@ Formel (identisch zur TS-Vorlage):
 
 Output data/vibe_history.json (Vertrag mit der Fanpage):
     {"updated_at": ISO, "days": [{"date": "YYYY-MM-DD", "score": int, "label": str}]}
-    Ein Eintrag pro Kalendertag (UTC) — der letzte Lauf des Tages gewinnt.
+    Ein Eintrag pro Kalendertag (Europe/Berlin) — der letzte Lauf des Tages gewinnt.
+    Der Tagesstempel folgt bewusst der Ortszeit: unter UTC schrieben die Läufe
+    zwischen 00:00 und 01:59 MESZ noch auf den Slot des Vortages.
     Es werden die letzten KEEP_DAYS Tage aufsteigend sortiert gehalten.
 
 FAILSAFE: Fehlt/kaputt ist news.json, bleibt vibe_history.json unangetastet und
@@ -32,10 +34,14 @@ import math
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).parent
 NEWS_FILE = ROOT / "data" / "news.json"
 HISTORY_FILE = ROOT / "data" / "vibe_history.json"
+
+# Tagesgrenze der Historie: Ortszeit, nicht UTC (siehe Modul-Docstring).
+LOCAL_TZ = ZoneInfo("Europe/Berlin")
 
 HALF_LIFE_H = 8.0
 ACTIVITY_CEILING = 40
@@ -139,7 +145,7 @@ def main() -> int:
 
     now = now_utc()
     score, label = compute_vibe(news.get("items", []), now)
-    today = now.date().isoformat()
+    today = now.astimezone(LOCAL_TZ).date().isoformat()
     days = upsert_day(load_history(), today, score, label)
 
     payload = {"updated_at": now.isoformat(), "days": days}

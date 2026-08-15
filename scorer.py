@@ -167,9 +167,11 @@ def score_cluster(cluster: list[dict], keywords: list[str], categories: dict, no
             "relevance": round(rel, 3),
         },
     }
-    # Optionales Feld: Bild des Lead-Items (Repräsentant des Clusters).
-    if rep.get("image"):
-        out["image"] = rep["image"]
+    # Optionales Feld: Bild des Lead-Items — hat der Repräsentant keins, zählt das
+    # erste Bild der übrigen Cluster-Mitglieder (cluster ist rep-first sortiert).
+    image = next((c["image"] for c in cluster if c.get("image")), None)
+    if image:
+        out["image"] = image
     return out
 
 
@@ -230,6 +232,8 @@ def main() -> int:
             "by_category": dict(by_cat),
             "sources_ok": raw.get("sources_ok", 0),
             "sources_fail": raw.get("sources_fail", 0),
+            # Verstummte Quellen (Frische-Wächter im fetcher) — reine Diagnose.
+            "stale_sources": raw.get("stale_sources", []),
         },
     }
     NEWS_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
