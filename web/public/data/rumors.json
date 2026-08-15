@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:26:46.988474+00:00",
+  "generated_at": "2026-08-15T20:59:41.767121+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 48,
   "rumors": [
@@ -45,16 +45,16 @@
           "published": "2026-08-15T11:41:44+00:00"
         },
         {
-          "name": "lafonateBVB",
-          "tier": 4,
-          "url": "https://nitter.net/LafonateBVB/status/2088284449699938663#m",
-          "published": "2026-08-14T15:19:45+00:00"
-        },
-        {
           "name": "BVB-Newsblog",
           "tier": 4,
           "url": "https://nitter.net/bvbnewsblog/status/2088280119324352856#m",
           "published": "2026-08-14T15:02:33+00:00"
+        },
+        {
+          "name": "lafonateBVB",
+          "tier": 4,
+          "url": "https://nitter.net/LafonateBVB/status/2088284449699938663#m",
+          "published": "2026-08-14T15:19:45+00:00"
         },
         {
           "name": "Arooo BVB",
@@ -78,8 +78,8 @@
       "marketValue": "25,00 Mio. €",
       "currentClub": "PSV Eindhoven",
       "direction": "in",
-      "probability": 57,
-      "tmProbability": 43,
+      "probability": 59,
+      "tmProbability": 45,
       "tmUrl": "https://www.transfermarkt.de/joey-veerman-zu-borussia-dortmund-/thread/forum/154/thread_id/1203426/post_id/3409122#3409122",
       "sources": [
         {
@@ -223,8 +223,8 @@
       "marketValue": "18,00 Mio. €",
       "currentClub": "Vereinslos",
       "direction": "in",
-      "probability": 33,
-      "tmProbability": 33,
+      "probability": 34,
+      "tmProbability": 34,
       "tmUrl": "https://www.transfermarkt.de/jadon-sancho-zu-borussia-dortmund-/thread/forum/154/thread_id/1200072/post_id/3408842#3408842",
       "sources": [
         {
@@ -283,14 +283,27 @@
       "lastMention": null
     },
     {
+      "player": "Ibrahim Mbaye",
+      "age": 18,
+      "position": "Rechtsaußen",
+      "marketValue": "30,00 Mio. €",
+      "currentClub": "Paris Saint-Germain",
+      "direction": "in",
+      "probability": 21,
+      "tmProbability": 31,
+      "tmUrl": "https://www.transfermarkt.de/ibrahim-mbaye-to-borussia-dortmund-/thread/forum/154/thread_id/1199666/post_id/3405435#3405435",
+      "sources": [],
+      "lastMention": null
+    },
+    {
       "player": "Christopher Nkunku",
       "age": 28,
       "position": "Mittelstürmer",
       "marketValue": "25,00 Mio. €",
       "currentClub": "AC Mailand",
       "direction": "in",
-      "probability": 21,
-      "tmProbability": 13,
+      "probability": 20,
+      "tmProbability": 12,
       "tmUrl": "https://www.transfermarkt.de/c-nkunku-zu-borussia-dortmund-/thread/forum/154/thread_id/1203774/post_id/3409167#3409167",
       "sources": [
         {
@@ -307,32 +320,6 @@
         }
       ],
       "lastMention": "2026-08-15T15:38:12+00:00"
-    },
-    {
-      "player": "Fisnik Asllani",
-      "age": 24,
-      "position": "Mittelstürmer",
-      "marketValue": "35,00 Mio. €",
-      "currentClub": "TSG 1899 Hoffenheim",
-      "direction": "in",
-      "probability": 21,
-      "tmProbability": 31,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-fisnik-asllani-zu-borussia-dortmund-/thread/forum/154/thread_id/1199378/post_id/3408758#3408758",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Ibrahim Mbaye",
-      "age": 18,
-      "position": "Rechtsaußen",
-      "marketValue": "30,00 Mio. €",
-      "currentClub": "Paris Saint-Germain",
-      "direction": "in",
-      "probability": 21,
-      "tmProbability": 31,
-      "tmUrl": "https://www.transfermarkt.de/ibrahim-mbaye-to-borussia-dortmund-/thread/forum/154/thread_id/1199666/post_id/3405435#3405435",
-      "sources": [],
-      "lastMention": null
     },
     {
       "player": "Kévin Denkey",
@@ -673,6 +660,19 @@
       "lastMention": null
     },
     {
+      "player": "Fisnik Asllani",
+      "age": 24,
+      "position": "Mittelstürmer",
+      "marketValue": "35,00 Mio. €",
+      "currentClub": "TSG 1899 Hoffenheim",
+      "direction": "in",
+      "probability": 19,
+      "tmProbability": 29,
+      "tmUrl": "https://www.transfermarkt.de/wechselt-fisnik-asllani-zu-borussia-dortmund-/thread/forum/154/thread_id/1199378/post_id/3408758#3408758",
+      "sources": [],
+      "lastMention": null
+    },
+    {
       "player": "Ethan Nwaneri",
       "age": 19,
       "position": "Offensives Mittelfeld",
@@ -797,7 +797,7 @@
       "currentClub": "FC Villarreal",
       "direction": "in",
       "probability": 5,
-      "tmProbability": 4,
+      "tmProbability": 3,
       "tmUrl": "https://www.transfermarkt.de/alberto-moleiro-zu-borussia-dortmund-/thread/forum/154/thread_id/1203817/post_id/3408756#3408756",
       "sources": [],
       "lastMention": null
@@ -810,7 +810,7 @@
       "currentClub": "Real Betis Sevilla",
       "direction": "in",
       "probability": 5,
-      "tmProbability": 13,
+      "tmProbability": 11,
       "tmUrl": "https://www.transfermarkt.de/abde-ezzalzouli-zu-borussia-dortmund-/thread/forum/154/thread_id/1203816/post_id/3408755#3408755",
       "sources": [],
       "lastMention": null
