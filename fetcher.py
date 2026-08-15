@@ -2,6 +2,7 @@
 """BVB-Aladin Fetcher — sammelt News aus RSS + X(via Nitter) und schreibt Roh-Items."""
 from __future__ import annotations
 
+import functools
 import hashlib
 import html
 import json
@@ -36,9 +37,22 @@ def load_sources() -> dict:
     return json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
 
 
+@functools.lru_cache(maxsize=8)
+def _keyword_pattern(needles: tuple[str, ...]) -> re.Pattern:
+    """Wortgrenzen statt Substring: "groß" darf "große"/"Großteil" nicht treffen.
+
+    Optionales Genitiv-s deckt "Guirassys"/"Watzkes"/"Dortmunds" ab.
+    Lookarounds statt \\b, damit auch Keywords mit Nicht-Wort-Randzeichen
+    (z. B. "#bvb") korrekt begrenzt würden; \\w ist in Python Unicode-aware (ä/ö/ü/ß).
+    """
+    alt = "|".join(re.escape(n.lower()) for n in needles)
+    return re.compile(rf"(?<!\w)(?:{alt})s?(?!\w)")
+
+
 def text_contains_any(text: str, needles: list[str]) -> bool:
-    t = text.lower()
-    return any(n.lower() in t for n in needles)
+    if not needles:
+        return False
+    return _keyword_pattern(tuple(needles)).search(text.lower()) is not None
 
 
 def strip_html(s: str) -> str:
@@ -450,7 +464,9 @@ def main() -> int:
     cleaned: list[dict] = []
     for it in items:
         blob = f"{it['title']} {it['summary']}".lower()
-        has_bvb = any(k.lower() in blob for k in bvb_keywords)
+        has_bvb = text_contains_any(blob, bvb_keywords)
+        # Negative bewusst weiter Substring: soll Komposita wie "Gladbach-Coach"
+        # und "Mönchengladbachs" großzügig fangen — droppt nur ohne BVB-Match.
         has_neg = any(n.lower() in blob for n in negative)
         if has_neg and not has_bvb:
             continue
