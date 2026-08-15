@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:44:34.295684+00:00",
+  "generated_at": "2026-08-15T18:16:59.342475+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 48,
   "rumors": [
@@ -15,6 +15,12 @@
       "tmUrl": "https://www.transfermarkt.de/wechselt-hector-fort-zu-borussia-dortmund-/thread/forum/154/thread_id/1086375/post_id/3408920#3408920",
       "sources": [
         {
+          "name": "lafonateBVB",
+          "tier": 4,
+          "url": "https://nitter.net/LafonateBVB/status/2088689348485009702#m",
+          "published": "2026-08-15T18:08:41+00:00"
+        },
+        {
           "name": "fussballtransfers.com",
           "tier": 2,
           "url": "https://www.fussballtransfers.com/a7814037893477910994-fort-poker-alle-zeichen-auf-dortmund",
@@ -27,16 +33,16 @@
           "published": "2026-08-15T11:41:44+00:00"
         },
         {
-          "name": "lafonateBVB",
-          "tier": 4,
-          "url": "https://nitter.net/LafonateBVB/status/2088284449699938663#m",
-          "published": "2026-08-14T15:19:45+00:00"
-        },
-        {
           "name": "BVB-Newsblog",
           "tier": 4,
           "url": "https://nitter.net/bvbnewsblog/status/2088280119324352856#m",
           "published": "2026-08-14T15:02:33+00:00"
+        },
+        {
+          "name": "lafonateBVB",
+          "tier": 4,
+          "url": "https://nitter.net/LafonateBVB/status/2088284449699938663#m",
+          "published": "2026-08-14T15:19:45+00:00"
         },
         {
           "name": "Arooo BVB",
@@ -51,7 +57,7 @@
           "published": "2026-08-14T16:02:25+00:00"
         }
       ],
-      "lastMention": "2026-08-15T11:41:44+00:00"
+      "lastMention": "2026-08-15T18:08:41+00:00"
     },
     {
       "player": "Joey Veerman",
@@ -75,12 +81,6 @@
           "tier": 4,
           "url": "https://nitter.net/Borussia0977/status/2088681777967583597#m",
           "published": "2026-08-15T17:38:36+00:00"
-        },
-        {
-          "name": "lafonateBVB",
-          "tier": 4,
-          "url": "https://nitter.net/LafonateBVB/status/2087816614930432315#m",
-          "published": "2026-08-13T08:20:45+00:00"
         },
         {
           "name": "BVB kompakt (WAZ/RN)",
@@ -110,8 +110,8 @@
       "marketValue": "22,00 Mio. €",
       "currentClub": "PAOK Thessaloniki",
       "direction": "in",
-      "probability": 51,
-      "tmProbability": 31,
+      "probability": 52,
+      "tmProbability": 32,
       "tmUrl": "https://www.transfermarkt.de/wechselt-giannis-konstantelias-zu-borussia-dortmund-/thread/forum/154/thread_id/1064296/post_id/3408940#3408940",
       "sources": [
         {
@@ -125,12 +125,6 @@
           "tier": 2,
           "url": "https://www.kicker.de/nach-el-mala-aus-konstantelias-im-bvb-fokus-1243233/artikel#omrss",
           "published": "2026-08-15T10:19:08+00:00"
-        },
-        {
-          "name": "Reddit r/soccer (Dortmund)",
-          "tier": 5,
-          "url": "https://www.reddit.com/r/soccer/comments/1vp56wk/gazzetta_giannis_konstantelias_is_borussia/",
-          "published": "2026-08-15T15:06:29+00:00"
         },
         {
           "name": "Scouting by Jaden",
@@ -151,7 +145,7 @@
           "published": "2026-08-10T14:15:57+00:00"
         }
       ],
-      "lastMention": "2026-08-15T15:06:29+00:00"
+      "lastMention": "2026-08-15T10:19:08+00:00"
     },
     {
       "player": "Karim Adeyemi",
@@ -228,26 +222,6 @@
       "lastMention": null
     },
     {
-      "player": "Tommy Marqués",
-      "age": 19,
-      "position": "Defensives Mittelfeld",
-      "marketValue": "3,00 Mio. €",
-      "currentClub": "FC Barcelona",
-      "direction": "in",
-      "probability": 22,
-      "tmProbability": 22,
-      "tmUrl": "https://www.transfermarkt.de/tommy-marques-zu-borussia-dortmund-/thread/forum/154/thread_id/1203100/post_id/3405833#3405833",
-      "sources": [
-        {
-          "name": "Reddit r/soccer (Dortmund)",
-          "tier": 5,
-          "url": "https://www.reddit.com/r/soccer/comments/1vi4yev/mundo_deportivo_manchester_city_are_interested_in/",
-          "published": "2026-08-07T16:12:51+00:00"
-        }
-      ],
-      "lastMention": "2026-08-07T16:12:51+00:00"
-    },
-    {
       "player": "Cristiano Júnior",
       "age": 16,
       "position": "Mittelstürmer",
@@ -257,6 +231,19 @@
       "probability": 22,
       "tmProbability": 32,
       "tmUrl": "https://www.transfermarkt.de/cristiano-junior-zu-borussia-dortmund-/thread/forum/154/thread_id/1191803/post_id/3358060#3358060",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Fisnik Asllani",
+      "age": 24,
+      "position": "Mittelstürmer",
+      "marketValue": "35,00 Mio. €",
+      "currentClub": "TSG 1899 Hoffenheim",
+      "direction": "in",
+      "probability": 21,
+      "tmProbability": 31,
+      "tmUrl": "https://www.transfermarkt.de/wechselt-fisnik-asllani-zu-borussia-dortmund-/thread/forum/154/thread_id/1199378/post_id/3408758#3408758",
       "sources": [],
       "lastMention": null
     },
@@ -296,19 +283,6 @@
       "probability": 21,
       "tmProbability": 31,
       "tmUrl": "https://www.transfermarkt.de/ibrahim-mbaye-to-borussia-dortmund-/thread/forum/154/thread_id/1199666/post_id/3405435#3405435",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Fisnik Asllani",
-      "age": 24,
-      "position": "Mittelstürmer",
-      "marketValue": "35,00 Mio. €",
-      "currentClub": "TSG 1899 Hoffenheim",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": 30,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-fisnik-asllani-zu-borussia-dortmund-/thread/forum/154/thread_id/1199378/post_id/3408758#3408758",
       "sources": [],
       "lastMention": null
     },
@@ -703,6 +677,19 @@
       "lastMention": null
     },
     {
+      "player": "Tommy Marqués",
+      "age": 19,
+      "position": "Defensives Mittelfeld",
+      "marketValue": "3,00 Mio. €",
+      "currentClub": "FC Barcelona",
+      "direction": "in",
+      "probability": 12,
+      "tmProbability": 22,
+      "tmUrl": "https://www.transfermarkt.de/tommy-marques-zu-borussia-dortmund-/thread/forum/154/thread_id/1203100/post_id/3405833#3405833",
+      "sources": [],
+      "lastMention": null
+    },
+    {
       "player": "Matías Soulé",
       "age": 23,
       "position": "Rechtsaußen",
@@ -729,6 +716,19 @@
       "lastMention": null
     },
     {
+      "player": "Vasilije Kostov",
+      "age": 18,
+      "position": "Offensives Mittelfeld",
+      "marketValue": "25,00 Mio. €",
+      "currentClub": "Roter Stern Belgrad",
+      "direction": "in",
+      "probability": 11,
+      "tmProbability": 21,
+      "tmUrl": "https://www.transfermarkt.de/wechselt-vasilije-kostov-zu-borussia-dortmund-/thread/forum/154/thread_id/1186713/post_id/3364998#3364998",
+      "sources": [],
+      "lastMention": null
+    },
+    {
       "player": "Rayane Bounida",
       "age": 20,
       "position": "Offensives Mittelfeld",
@@ -738,19 +738,6 @@
       "probability": 9,
       "tmProbability": 19,
       "tmUrl": "https://www.transfermarkt.de/rayane-bounida-zu-borussia-dortmund-/thread/forum/154/thread_id/1200389/post_id/3398398#3398398",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Vasilije Kostov",
-      "age": 18,
-      "position": "Offensives Mittelfeld",
-      "marketValue": "25,00 Mio. €",
-      "currentClub": "Roter Stern Belgrad",
-      "direction": "in",
-      "probability": 8,
-      "tmProbability": 18,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-vasilije-kostov-zu-borussia-dortmund-/thread/forum/154/thread_id/1186713/post_id/3364998#3364998",
       "sources": [],
       "lastMention": null
     },
