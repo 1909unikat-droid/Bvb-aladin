@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import re
 import sys
@@ -163,7 +164,12 @@ def to_item(entry, source: dict) -> dict | None:
     if not title:
         # Bluesky-RSS liefert Posts ganz ohne <title>. Ohne diesen Fallback fiele
         # die komplette Quelle stumm durchs Raster (alle Items -> None).
-        title = summary[:120].strip()
+        # Entities zuerst auflösen (strip_html lässt sie stehen), dann an einer
+        # Wortgrenze kürzen — sonst endet der Titel mitten in "&amp;".
+        fallback = html.unescape(summary).strip()
+        if len(fallback) > 120:
+            fallback = fallback[:120].rsplit(" ", 1)[0]
+        title = fallback.strip()
     if not title or not link:
         return None
     published = parse_dt(entry)
@@ -330,7 +336,13 @@ def record_freshness(freshness: dict, source_id: str, entries: list | None) -> N
         dt = parse_dt(e)
         if dt and (newest is None or dt > newest):
             newest = dt
-    freshness[source_id] = {"newest": newest, "count": len(entries or [])}
+    # entries is None = Fetch-FEHLER (Mirror/Netz) — zählt nicht als "Feed leer",
+    # sonst meldet eine Stunde Nitter-Ausfall frisch deployte Quellen als stale.
+    freshness[source_id] = {
+        "newest": newest,
+        "count": len(entries or []),
+        "failed": entries is None,
+    }
 
 
 def load_state() -> dict:
@@ -348,9 +360,10 @@ def load_state() -> dict:
 
 
 def _parse_state_dt(s: str | None) -> datetime | None:
+    # TypeError mit abfangen: ein handeditierter State kann Nicht-Strings tragen.
     try:
         return datetime.fromisoformat(s) if s else None
-    except ValueError:
+    except (ValueError, TypeError):
         return None
 
 
@@ -370,12 +383,23 @@ def check_freshness(freshness: dict, now: datetime) -> list[dict]:
 
     for sid, seen in sorted(freshness.items()):
         old = previous.get(sid) if isinstance(previous.get(sid), dict) else {}
-        # ISO-Strings mit identischem UTC-Offset -> lexikographischer Vergleich reicht.
+        # ISO-Strings mit identischem UTC-Offset -> lexikographischer Vergleich
+        # reicht. Nicht-String-Werte (handeditierter State) -> wie fehlend.
         newest = old.get("newest_item")
+        if not isinstance(newest, str):
+            newest = None
         if seen["newest"] and (not newest or seen["newest"] > newest):
             newest = seen["newest"]
-        empty_runs = 0 if seen["count"] else int(old.get("empty_runs") or 0) + 1
-        since = old.get("since") or now.isoformat()
+        old_empty = old.get("empty_runs")
+        old_empty = old_empty if isinstance(old_empty, int) else 0
+        if seen["count"]:
+            empty_runs = 0
+        elif seen.get("failed"):
+            empty_runs = old_empty  # Fetch-Fehler: Zähler einfrieren, nicht werten
+        else:
+            empty_runs = old_empty + 1
+        since = old.get("since")
+        since = since if isinstance(since, str) else now.isoformat()
         state[sid] = {"newest_item": newest, "empty_runs": empty_runs, "since": since}
 
         reference = _parse_state_dt(newest) or _parse_state_dt(since)
@@ -384,11 +408,15 @@ def check_freshness(freshness: dict, now: datetime) -> list[dict]:
             stale.append({"id": sid, "newest_item": newest, "days_silent": days_silent})
 
     try:
-        STATE_FILE.write_text(
+        # Atomar (tmp + replace): überlappende Läufe dürfen keinen zerrissenen
+        # State hinterlassen — der Reset kostete sonst das newest-Gedächtnis.
+        tmp = STATE_FILE.with_suffix(".tmp")
+        tmp.write_text(
             json.dumps({"updated_at": now.isoformat(), "sources": state},
                        ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
+        tmp.replace(STATE_FILE)
     except OSError as exc:
         print(f"  [WARN] source_state.json nicht schreibbar: {exc}", file=sys.stderr)
 
@@ -429,7 +457,14 @@ def main() -> int:
         cleaned.append(it)
 
     print("== Quellen-Frische ==", file=sys.stderr)
-    stale = check_freshness(freshness, datetime.now(timezone.utc))
+    # Der Wächter ist Diagnose, nie Blocker: ein kaputter State darf den
+    # Fetch-Lauf (und damit news.json) nicht mit in den Abgrund reißen.
+    try:
+        stale = check_freshness(freshness, datetime.now(timezone.utc))
+    except Exception as exc:
+        print(f"  [WARN] Frische-Wächter übersprungen ({type(exc).__name__}: {exc})",
+              file=sys.stderr)
+        stale = []
 
     payload = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),

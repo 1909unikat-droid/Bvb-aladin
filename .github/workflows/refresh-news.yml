@@ -69,8 +69,13 @@ jobs:
           # Nur existierende Dateien stagen — ein fehlendes Zusatz-File darf den
           # News-Commit nicht mit "pathspec did not match" abbrechen.
           # rumors.json/injuries.json stehen bewusst NICHT hier (Publisher-Split).
+          # source_state.json mit committen: der Frische-Wächter braucht das
+          # Gedächtnis des Vorlaufs — ein frischer Checkout hätte sonst nie
+          # 2 leere Läufe in Folge (Alarm für tote Handles bliebe stumm).
+          # Läuft im selben Commit wie news.json mit — kein Extra-Deploy.
           for f in data/news.json data/raw_items.json web/public/data/news.json \
-                   data/vibe_history.json web/public/data/vibe_history.json; do
+                   data/vibe_history.json web/public/data/vibe_history.json \
+                   data/source_state.json; do
             if [ -f "$f" ]; then git add "$f"; fi
           done
           if git diff --cached --quiet; then
