@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T11:31:33.735039+00:00",
+  "generated_at": "2026-08-16T12:03:50.852825+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 48,
   "rumors": [
@@ -10,8 +10,8 @@
       "marketValue": "22,00 Mio. €",
       "currentClub": "PAOK Thessaloniki",
       "direction": "in",
-      "probability": 79,
-      "tmProbability": 50,
+      "probability": 80,
+      "tmProbability": 51,
       "tmUrl": "https://www.transfermarkt.de/wechselt-giannis-konstantelias-zu-borussia-dortmund-/thread/forum/154/thread_id/1064296/post_id/3409397#3409397",
       "sources": [
         {
@@ -31,6 +31,12 @@
           "tier": 1,
           "url": "https://nitter.net/berger_pj/status/2088913655265980427#m",
           "published": "2026-08-16T09:00:00+00:00"
+        },
+        {
+          "name": "WAZ Sport",
+          "tier": 2,
+          "url": "https://www.waz.de/sport/borussia-dortmund/article412874350/erste-bvb-bilder-vom-flughafen-el-mala-alternative-ist-schon-in-dortmund.html",
+          "published": "2026-08-16T11:28:00+00:00"
         },
         {
           "name": "fussballtransfers.com",
@@ -135,12 +141,6 @@
           "published": "2026-08-15T21:11:51+00:00"
         },
         {
-          "name": "Reddit r/soccer (Dortmund)",
-          "tier": 5,
-          "url": "https://www.reddit.com/r/soccer/comments/1vp56wk/gazzetta_giannis_konstantelias_is_borussia/",
-          "published": "2026-08-15T15:06:29+00:00"
-        },
-        {
           "name": "Scouting by Jaden",
           "tier": 4,
           "url": "https://nitter.net/ScoutingByJaden/status/2088546211221365156#m",
@@ -153,7 +153,7 @@
           "published": "2026-08-10T14:15:57+00:00"
         }
       ],
-      "lastMention": "2026-08-16T10:45:19+00:00"
+      "lastMention": "2026-08-16T11:28:00+00:00"
     },
     {
       "player": "Héctor Fort",
@@ -223,6 +223,18 @@
       "tmUrl": "https://www.transfermarkt.de/joey-veerman-zu-borussia-dortmund-/thread/forum/154/thread_id/1203426/post_id/3409241#3409241",
       "sources": [
         {
+          "name": "BVB-Newsblog",
+          "tier": 4,
+          "url": "https://nitter.net/bvbnewsblog/status/2088958877370888411#m",
+          "published": "2026-08-16T11:59:42+00:00"
+        },
+        {
+          "name": "lafonateBVB",
+          "tier": 4,
+          "url": "https://nitter.net/LafonateBVB/status/2088959280720281605#m",
+          "published": "2026-08-16T12:01:18+00:00"
+        },
+        {
           "name": "kicker Bundesliga",
           "tier": 2,
           "url": "https://www.kicker.de/transferticker-953155/artikel#omrss",
@@ -235,10 +247,22 @@
           "published": "2026-08-16T06:34:21+00:00"
         },
         {
+          "name": "Arooo BVB",
+          "tier": 4,
+          "url": "https://nitter.net/AroooBVB/status/2088959004680544749#m",
+          "published": "2026-08-16T12:00:12+00:00"
+        },
+        {
           "name": "Ruhr Nachrichten BVB",
           "tier": 2,
           "url": "https://nitter.net/RNBVB/status/2088879681596473544#m",
           "published": "2026-08-16T06:45:00+00:00"
+        },
+        {
+          "name": "gabumnn",
+          "tier": 4,
+          "url": "https://nitter.net/gabumnn/status/2088958142814027803#m",
+          "published": "2026-08-16T11:56:46+00:00"
         },
         {
           "name": "Ruhr Nachrichten BVB",
@@ -277,7 +301,33 @@
           "published": "2026-08-14T03:00:00+00:00"
         }
       ],
-      "lastMention": "2026-08-16T11:27:24+00:00"
+      "lastMention": "2026-08-16T12:01:18+00:00"
+    },
+    {
+      "player": "Jadon Sancho",
+      "age": 26,
+      "position": "Linksaußen",
+      "marketValue": "18,00 Mio. €",
+      "currentClub": "Vereinslos",
+      "direction": "in",
+      "probability": 47,
+      "tmProbability": 33,
+      "tmUrl": "https://www.transfermarkt.de/jadon-sancho-zu-borussia-dortmund-/thread/forum/154/thread_id/1200072/post_id/3408842#3408842",
+      "sources": [
+        {
+          "name": "RUHR24 BVB",
+          "tier": 2,
+          "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-jadon-sancho-vereinslos-klubsuche-wechsel-geruecht-rueckkehr-borussia-dortmund-94445584.html",
+          "published": "2026-08-16T11:15:22+00:00"
+        },
+        {
+          "name": "Schwarzgelbe Runde",
+          "tier": 4,
+          "url": "https://schwarzgelberunde.podigee.io/44-e43",
+          "published": "2026-08-06T15:54:08+00:00"
+        }
+      ],
+      "lastMention": "2026-08-16T11:15:22+00:00"
     },
     {
       "player": "Karim Adeyemi",
@@ -305,26 +355,6 @@
       ],
       "lastMention": "2026-08-15T19:34:48+00:00",
       "interestedClub": "FC Barcelona"
-    },
-    {
-      "player": "Jadon Sancho",
-      "age": 26,
-      "position": "Linksaußen",
-      "marketValue": "18,00 Mio. €",
-      "currentClub": "Vereinslos",
-      "direction": "in",
-      "probability": 33,
-      "tmProbability": 33,
-      "tmUrl": "https://www.transfermarkt.de/jadon-sancho-zu-borussia-dortmund-/thread/forum/154/thread_id/1200072/post_id/3408842#3408842",
-      "sources": [
-        {
-          "name": "Schwarzgelbe Runde",
-          "tier": 4,
-          "url": "https://schwarzgelberunde.podigee.io/44-e43",
-          "published": "2026-08-06T15:54:08+00:00"
-        }
-      ],
-      "lastMention": "2026-08-06T15:54:08+00:00"
     },
     {
       "player": "Yeremay Hernández",
