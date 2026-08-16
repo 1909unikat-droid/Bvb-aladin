@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:09:21.061711+00:00",
+  "generated_at": "2026-08-16T07:13:49.134573+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 48,
   "rumors": [
@@ -45,16 +45,16 @@
           "published": "2026-08-15T11:41:44+00:00"
         },
         {
-          "name": "BVB-Newsblog",
-          "tier": 4,
-          "url": "https://nitter.net/bvbnewsblog/status/2088280119324352856#m",
-          "published": "2026-08-14T15:02:33+00:00"
-        },
-        {
           "name": "lafonateBVB",
           "tier": 4,
           "url": "https://nitter.net/LafonateBVB/status/2088284449699938663#m",
           "published": "2026-08-14T15:19:45+00:00"
+        },
+        {
+          "name": "BVB-Newsblog",
+          "tier": 4,
+          "url": "https://nitter.net/bvbnewsblog/status/2088280119324352856#m",
+          "published": "2026-08-14T15:02:33+00:00"
         },
         {
           "name": "Arooo BVB",
@@ -76,6 +76,18 @@
       "tmProbability": 47,
       "tmUrl": "https://www.transfermarkt.de/joey-veerman-zu-borussia-dortmund-/thread/forum/154/thread_id/1203426/post_id/3409241#3409241",
       "sources": [
+        {
+          "name": "fussballtransfers.com",
+          "tier": 2,
+          "url": "https://www.fussballtransfers.com/a8942187065643251618-muessen-tempo-machen-veerman-stoesst-die-bvb-tuer-weit-auf",
+          "published": "2026-08-16T06:34:21+00:00"
+        },
+        {
+          "name": "Ruhr Nachrichten BVB",
+          "tier": 2,
+          "url": "https://nitter.net/RNBVB/status/2088879681596473544#m",
+          "published": "2026-08-16T06:45:00+00:00"
+        },
         {
           "name": "Ruhr Nachrichten BVB",
           "tier": 2,
@@ -113,7 +125,7 @@
           "published": "2026-08-14T03:00:00+00:00"
         }
       ],
-      "lastMention": "2026-08-15T19:46:10+00:00"
+      "lastMention": "2026-08-16T06:45:00+00:00"
     },
     {
       "player": "Giannis Konstantelias",
@@ -157,16 +169,16 @@
           "published": "2026-08-15T23:02:52+00:00"
         },
         {
+          "name": "Arooo BVB",
+          "tier": 4,
+          "url": "https://nitter.net/AroooBVB/status/2088883253323116773#m",
+          "published": "2026-08-16T06:59:11+00:00"
+        },
+        {
           "name": "lafonateBVB",
           "tier": 4,
           "url": "https://nitter.net/LafonateBVB/status/2088735445748162606#m",
           "published": "2026-08-15T21:11:51+00:00"
-        },
-        {
-          "name": "Reddit r/soccer (Dortmund)",
-          "tier": 5,
-          "url": "https://www.reddit.com/r/soccer/comments/1vp56wk/gazzetta_giannis_konstantelias_is_borussia/",
-          "published": "2026-08-15T15:06:29+00:00"
         },
         {
           "name": "Get German Football News BVB",
@@ -187,7 +199,7 @@
           "published": "2026-08-10T14:15:57+00:00"
         }
       ],
-      "lastMention": "2026-08-15T23:02:52+00:00"
+      "lastMention": "2026-08-16T06:59:11+00:00"
     },
     {
       "player": "Karim Adeyemi",
@@ -294,26 +306,6 @@
         }
       ],
       "lastMention": "2026-08-15T15:38:12+00:00"
-    },
-    {
-      "player": "Tommy Marqués",
-      "age": 19,
-      "position": "Defensives Mittelfeld",
-      "marketValue": "3,00 Mio. €",
-      "currentClub": "FC Barcelona",
-      "direction": "in",
-      "probability": 22,
-      "tmProbability": 22,
-      "tmUrl": "https://www.transfermarkt.de/tommy-marques-zu-borussia-dortmund-/thread/forum/154/thread_id/1203100/post_id/3405833#3405833",
-      "sources": [
-        {
-          "name": "Reddit r/soccer (Dortmund)",
-          "tier": 5,
-          "url": "https://www.reddit.com/r/soccer/comments/1vi4yev/mundo_deportivo_manchester_city_are_interested_in/",
-          "published": "2026-08-07T16:12:51+00:00"
-        }
-      ],
-      "lastMention": "2026-08-07T16:12:51+00:00"
     },
     {
       "player": "Cristiano Júnior",
@@ -741,6 +733,19 @@
       "probability": 14,
       "tmProbability": 24,
       "tmUrl": "https://www.transfermarkt.de/nick-woltemade-zu-borussia-dortmund-/thread/forum/154/thread_id/1190565/post_id/3360007#3360007",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Tommy Marqués",
+      "age": 19,
+      "position": "Defensives Mittelfeld",
+      "marketValue": "3,00 Mio. €",
+      "currentClub": "FC Barcelona",
+      "direction": "in",
+      "probability": 12,
+      "tmProbability": 22,
+      "tmUrl": "https://www.transfermarkt.de/tommy-marques-zu-borussia-dortmund-/thread/forum/154/thread_id/1203100/post_id/3405833#3405833",
       "sources": [],
       "lastMention": null
     },
