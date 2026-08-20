@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-20T17:59:15.701482+00:00",
-  "duration_s": 309.43,
+  "fetched_at": "2026-08-20T18:32:03.363477+00:00",
+  "duration_s": 293.46,
   "sources_ok": 37,
   "sources_fail": 22,
   "stale_sources": [
@@ -38,13 +38,19 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 5,
-      "fail_runs": 178
+      "fail_runs": 179
+    },
+    {
+      "id": "x_lafonatebvb",
+      "newest_item": "2026-08-19T14:33:54+00:00",
+      "days_silent": 1,
+      "fail_runs": 20
     },
     {
       "id": "x_romano",
       "newest_item": "2026-08-20T01:30:43+00:00",
       "days_silent": 0,
-      "fail_runs": 20
+      "fail_runs": 21
     }
   ],
   "items": [
@@ -416,21 +422,6 @@
       "image": "https://www.ruhr24.de/assets/images/41/728/41728336-niko-kovac-auf-einer-bvb-pk-2ginPaFjR3ef.jpg"
     },
     {
-      "id": "12723d31b2bb5503",
-      "title": "Mit 37 Jahren: BVB-Liebling setzt seine Karriere in Frankreich fort",
-      "summary": "Ein Ex-BVB-Star setzt seine Welttournee fort. Mit 37 Jahren wechselt der einstige Fan-Liebling zum siebten Mal in seiner Karriere das Land.",
-      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-axel-witsel-wechsel-ogc-nizza-frankreich-vertrag-alter-borussia-dortmund-94452145.html",
-      "published": "2026-08-20T11:02:53+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/43/772/43772722-marco-reus-axel-witsel-und-jadon-sancho-unterhalten-sich-2wMkFO6LhRef.jpg"
-    },
-    {
       "id": "7b8b2020bbfcb4c2",
       "title": "El Mala verlängert nach Dortmund-Aus beim 1. FC Köln: BVB-News",
       "summary": "Personelle Überraschung beim 1. FC Köln. Said El Mala verlängert seinen Vertrag bis 2031, nachdem sein Wechsel zu Borussia Dortmund geplatzt war. Alle BVB-News.",
@@ -446,21 +437,6 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/20/17/630_0900_6714793_-320x160.jpg"
     },
     {
-      "id": "88054f1084d3713e",
-      "title": "Jetzt im Livestream: Der Saisonstart der BVB-Frauen gegen Arminia Bielefeld",
-      "summary": "Saisonstart für die BVB-Frauen! Borussia Dortmund empfängt Arminia Bielefeld zum Regionalliga-Auftakt – wir zeigen das Spiel jetzt live im Stream.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-frauen-saisonstart-gegen-arminia-bielefeld-live-im-stream-w1236889-2002192220/",
-      "published": "2026-08-20T16:45:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/20/17/630_0900_6714809_-320x160.jpg"
-    },
-    {
       "id": "db8ab6f5bbd4e165",
       "title": "BVB-Frauen gegen Arminia Bielefeld: Regionalliga-Eröffnungsspiel jetzt im Livestream",
       "summary": "In der Regionalliga trifft Borussia Dortmund auf die Frauen von Arminia Bielefeld. Wir zeigen das Spiel live am Donnerstag ab 19 Uhr.",
@@ -474,6 +450,21 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/18/12/630_0900_6701697_-315x160.jpg"
+    },
+    {
+      "id": "88054f1084d3713e",
+      "title": "Jetzt im Livestream: Der Saisonstart der BVB-Frauen gegen Arminia Bielefeld",
+      "summary": "Saisonstart für die BVB-Frauen! Borussia Dortmund empfängt Arminia Bielefeld zum Regionalliga-Auftakt – wir zeigen das Spiel jetzt live im Stream.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-frauen-saisonstart-gegen-arminia-bielefeld-live-im-stream-w1236889-2002192220/",
+      "published": "2026-08-20T16:45:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/20/17/630_0900_6714809_-320x160.jpg"
     },
     {
       "id": "b13e00a4ca9e55e1",
@@ -611,8 +602,23 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/17/15/630_0900_6698623_-320x160.jpg"
     },
     {
-      "id": "2ff8e5a808a1efa1",
-      "title": "Paukenschlag: El Mala verkündet überraschende Entscheidung",
+      "id": "2041284f1d0e0b19",
+      "title": "Musiala nicht im Bayern-Kader",
+      "summary": "Jamala Musiala wird nach seinem erneuten Zusammenbruch am Dienstag im Testspiel gegen den 1. FC Heidenheim nicht im Kader für den Supercup gegen Borussia Dortmund (Samstag, 20:30 Uhr) stehen. Das (…)",
+      "url": "https://www.fussballtransfers.com/a7928160639400450215-musiala-nicht-im-bayern-kader",
+      "published": "2026-08-20T17:42:31+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/dpaphotosnine791433.jpg"
+    },
+    {
+      "id": "ec05d38d7e8d4626",
+      "title": "Paukenschlag: El Mala verlängert beim 1. FC Köln",
       "summary": "Nach Borussia Dortmund ist auch ein Transfer zu RB Leipzig vom Tisch. Said El Mala bleibt beim 1. FC Köln.Es fehlten nicht allzu viele Millionen, dann wäre Said El Mala (19) zu Borussia Dortmund (…)",
       "url": "https://www.fussballtransfers.com/a5000178097701963880-paukenschlag-el-mala-verkuendet-ueberraschende-entscheidung",
       "published": "2026-08-20T17:04:42+00:00",
@@ -1014,21 +1020,6 @@
       "kind": "rss"
     },
     {
-      "id": "a38149443db5ddb5",
-      "title": "BvB Dortmund Frauen's first game of the regular season is today",
-      "summary": "The game is at 19 UHR (1 PM EST). It will be streamed live on PlutoTV. &#32; submitted by &#32; /u/spherocytes [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vteurd/bvb_dortmund_frauens_first_game_of_the_regular/",
-      "published": "2026-08-20T09:44:20+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://preview.redd.it/5jbjhacb2ikh1.jpeg?width=640&crop=smart&auto=webp&s=52d07a1a45ab8873a586dacb5f17204871ff9050"
-    },
-    {
       "id": "3007e71d86b932f2",
       "title": "📺 Where to watch Borussia Dortmund vs FC Bayern München",
       "summary": "📺 Here is a list of countries and TV stations that shows the match between: Borussia Dortmund vs FC Bayern München. 🌍 Check out the BVB Worldmap for Broadcasting information, Pubs and Fanclubs in your area. 🗺️ PlacetoBVB Worldmap: https://placetobvb.bvb.de/de 📻 Listen to BVB Netradio (in german) 🔖 Weblinks in this list are broken on purpose. Remove the space in the top level domain to make them work again. Country TV Station/App/Webpage \\ Local Kickoff time]) Albania: Tring Sport 2Tring \\ Thu, 2",
@@ -1042,6 +1033,21 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://preview.redd.it/012cgee7hkkh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=5211e1d316773f8feaca6f0bcd9f62f9b0324221"
+    },
+    {
+      "id": "a38149443db5ddb5",
+      "title": "BvB Dortmund Frauen's first game of the regular season is today",
+      "summary": "The game is at 19 UHR (1 PM EST). It will be streamed live on PlutoTV. &#32; submitted by &#32; /u/spherocytes [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vteurd/bvb_dortmund_frauens_first_game_of_the_regular/",
+      "published": "2026-08-20T09:44:20+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://preview.redd.it/5jbjhacb2ikh1.jpeg?width=640&crop=smart&auto=webp&s=52d07a1a45ab8873a586dacb5f17204871ff9050"
     },
     {
       "id": "f40fd0e9ebed0ba5",
@@ -55145,11 +55151,11 @@
       "image": "https://img.sparknews.funkemedien.de/412919446/412919446_1787234128_v16_9_600.jpeg"
     },
     {
-      "id": "c311003243c3ca62",
-      "title": "BVB-Frauen live! Druckvoller Beginn von Dortmund, Maier scheitert an DSC-Keeperin",
+      "id": "409a4af78243b97c",
+      "title": "BVB-Frauen live! Wer sonst? Popp köpft Dortmund gegen Bielefeld in Front",
       "summary": "In der vergangenen Spielzeit spielten die BVB-Frauen gegen Arminia Bielefeld zweimal nur unentschieden. Gelingt mit Alex Popp zum Saisonstart der erste Sieg? Das Spiel live im Ticker.",
       "url": "https://www.waz.de/sport/borussia-dortmund/article412912049/liga-auftakt-live-bvb-frauen-starten-gegen-arminia-bielefeld-in-die-neue-saison.html",
-      "published": "2026-08-20T16:47:00+00:00",
+      "published": "2026-08-20T17:50:00+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55157,7 +55163,7 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412919218/412919218_1787235786_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/412921536/412921536_1787248441_v16_9_600.jpeg"
     },
     {
       "id": "d8d52370b292ac24",
@@ -56069,66 +56075,6 @@
       "lang": "de",
       "kind": "x",
       "image": "https://nitter.net/pic/media%2FHP_qIuMXAAEpj9s.jpg"
-    },
-    {
-      "id": "479ab1c432400b36",
-      "title": "5 – @BVB-Neuzugang Joey Veerman spielte in der vergangenen Saison in der UEFA Champions League fünf linienbrechende Pässe, die zu Toren führten, das war geteilter Bestwert mit Brügges Hans Vanaken. Maestro.",
-      "summary": "5 – @BVB -Neuzugang Joey Veerman spielte in der vergangenen Saison in der UEFA Champions League fünf linienbrechende Pässe, die zu Toren führten, das war geteilter Bestwert mit Brügges Hans Vanaken. Maestro.",
-      "url": "https://nitter.net/OptaFranz/status/2089695593056575633#m",
-      "published": "2026-08-18T12:47:08+00:00",
-      "source_id": "x_optafranz",
-      "source_name": "OptaFranz (Opta-Statistik)",
-      "tier": 2,
-      "credibility": 8,
-      "host": "nitter.net",
-      "lang": "de",
-      "kind": "x",
-      "image": "https://nitter.net/pic/media%2FHQAWyRJXMAAjsA6.jpg"
-    },
-    {
-      "id": "ac8a5cdbf4cbd714",
-      "title": "26 - Giannis Konstantelias ging in der Vorsaison in der griechischen Super League 26-mal im gegnerischen Strafraum ins Eins-gegen-Eins - öfter als jeder andere Spieler. Beim @BVB kam in der Bundesliga-Vorsaison kein Spieler auf mehr als 10 solcher Aktionen. Wirbel.",
-      "summary": "26 - Giannis Konstantelias ging in der Vorsaison in der griechischen Super League 26-mal im gegnerischen Strafraum ins Eins-gegen-Eins - öfter als jeder andere Spieler. Beim @BVB kam in der Bundesliga-Vorsaison kein Spieler auf mehr als 10 solcher Aktionen. Wirbel. Borussia Dortmund (@BVB) Giannis Konstantelias spielt in Zukunft für Schwarzgelb! 🇬🇷 Der 23-Jährige Mittelfeldspieler wechselt vom griechischen Erstligisten PAOK Thessaloniki nach Dortmund und hat einen Vertrag bis zum 30. Juni 2031 u",
-      "url": "https://nitter.net/OptaFranz/status/2089355984284119406#m",
-      "published": "2026-08-17T14:17:39+00:00",
-      "source_id": "x_optafranz",
-      "source_name": "OptaFranz (Opta-Statistik)",
-      "tier": 2,
-      "credibility": 8,
-      "host": "nitter.net",
-      "lang": "de",
-      "kind": "x",
-      "image": "https://nitter.net/pic/media%2FHP7eHIKWoAAJYoI.jpg"
-    },
-    {
-      "id": "b8000b20bb770612",
-      "title": "192 – Mit Julian Brandt, Marc ter Stegen, Tjark Ernst, Ferdinand Pohl, Lasse Wilhelm und Osman Turay debütierten am 1. Spieltag sechs Deutsche in der niederländischen Eredivisie – damit kamen 192 Deutsche in der Eredivisie zum Einsatz, mehr ausländische Eredivisie-Spieler stellt nur Belgien (293). Nachbar. @ADODenHaag",
-      "summary": "192 – Mit Julian Brandt, Marc ter Stegen, Tjark Ernst, Ferdinand Pohl, Lasse Wilhelm und Osman Turay debütierten am 1. Spieltag sechs Deutsche in der niederländischen Eredivisie – damit kamen 192 Deutsche in der Eredivisie zum Einsatz, mehr ausländische Eredivisie-Spieler stellt nur Belgien (293). Nachbar. @ADODenHaag",
-      "url": "https://nitter.net/OptaFranz/status/2086718909504159902#m",
-      "published": "2026-08-10T07:38:52+00:00",
-      "source_id": "x_optafranz",
-      "source_name": "OptaFranz (Opta-Statistik)",
-      "tier": 2,
-      "credibility": 8,
-      "host": "nitter.net",
-      "lang": "de",
-      "kind": "x",
-      "image": "https://nitter.net/pic/media%2FHPWDOgJXAAAk63p.jpg"
-    },
-    {
-      "id": "67756a93eed572a3",
-      "title": "10 - Spieler mit den meisten Vorlagen, ohne selbst ein Tor zu erzielen, in den Top-10-Ligen in der Saison 2025/26: 🥇 Julian Ryerson - 15 Vorlagen, 0 Tore 🥈 Konstantinos Karetsas - 10 Vorlagen, 0 Tore Selbstlos.",
-      "summary": "10 - Spieler mit den meisten Vorlagen, ohne selbst ein Tor zu erzielen, in den Top-10-Ligen in der Saison 2025/26: 🥇 Julian Ryerson - 15 Vorlagen, 0 Tore 🥈 Konstantinos Karetsas - 10 Vorlagen, 0 Tore Selbstlos. Borussia Dortmund (@BVB) ✍️ Borussia Dortmund verpflichtet das 18-jährige griechische Talent Konstantinos Karetsas vom KRC Genk. Der Offensivspieler unterschreibt beim BVB einen Vertrag bis 30.06.2031. — https://nitter.net/BVB/status/2084225693768909136#m",
-      "url": "https://nitter.net/OptaFranz/status/2084238445136711838#m",
-      "published": "2026-08-03T11:22:23+00:00",
-      "source_id": "x_optafranz",
-      "source_name": "OptaFranz (Opta-Statistik)",
-      "tier": 2,
-      "credibility": 8,
-      "host": "nitter.net",
-      "lang": "de",
-      "kind": "x",
-      "image": "https://nitter.net/pic/media%2FHOymr-JXsAEslIg.jpg"
     }
   ]
 }
