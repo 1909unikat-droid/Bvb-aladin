@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-21T17:56:35.188393+00:00",
-  "duration_s": 173.97,
+  "fetched_at": "2026-08-21T18:29:08.023376+00:00",
+  "duration_s": 212.6,
   "sources_ok": 36,
   "sources_fail": 23,
   "stale_sources": [
@@ -8,7 +8,7 @@
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
       "days_silent": 106,
-      "fail_runs": 50
+      "fail_runs": 51
     },
     {
       "id": "pod_bvb_offiziell",
@@ -19,7 +19,7 @@
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
       "days_silent": 61,
-      "fail_runs": 50
+      "fail_runs": 51
     },
     {
       "id": "pod_auffeohren",
@@ -29,7 +29,8 @@
     {
       "id": "x_sport1",
       "newest_item": "2026-07-18T19:25:01+00:00",
-      "days_silent": 33
+      "days_silent": 33,
+      "fail_runs": 20
     },
     {
       "id": "tm_geruechte",
@@ -40,91 +41,97 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 6,
-      "fail_runs": 210
+      "fail_runs": 211
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
       "days_silent": 5,
-      "fail_runs": 39
+      "fail_runs": 40
     },
     {
       "id": "x_bvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 2,
-      "fail_runs": 45
+      "fail_runs": 46
     },
     {
       "id": "x_falk",
       "newest_item": "2026-08-19T12:13:33+00:00",
       "days_silent": 2,
-      "fail_runs": 39
+      "fail_runs": 40
     },
     {
       "id": "x_gabumnn",
       "newest_item": "2026-08-19T13:47:25+00:00",
       "days_silent": 2,
-      "fail_runs": 20
+      "fail_runs": 21
     },
     {
       "id": "x_lafonatebvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 2,
-      "fail_runs": 51
+      "fail_runs": 52
     },
     {
       "id": "x_berger",
       "newest_item": "2026-08-20T17:53:52+00:00",
       "days_silent": 1,
-      "fail_runs": 30
+      "fail_runs": 31
+    },
+    {
+      "id": "x_bvb_fanb",
+      "newest_item": "2026-08-20T07:43:42+00:00",
+      "days_silent": 1,
+      "fail_runs": 20
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
       "days_silent": 1,
-      "fail_runs": 37
+      "fail_runs": 38
     },
     {
       "id": "x_hinze",
       "newest_item": "2026-08-20T15:29:31+00:00",
       "days_silent": 1,
-      "fail_runs": 22
+      "fail_runs": 23
     },
     {
       "id": "x_optafranz",
       "newest_item": "2026-08-20T11:53:46+00:00",
       "days_silent": 1,
-      "fail_runs": 32
+      "fail_runs": 33
     },
     {
       "id": "x_plettenberg",
       "newest_item": "2026-08-20T17:30:31+00:00",
       "days_silent": 1,
-      "fail_runs": 31
+      "fail_runs": 32
     },
     {
       "id": "x_rn_bvb",
       "newest_item": "2026-08-20T12:27:25+00:00",
       "days_silent": 1,
-      "fail_runs": 37
+      "fail_runs": 38
     },
     {
       "id": "x_bvbnewsblog",
       "newest_item": "2026-08-20T18:38:33+00:00",
       "days_silent": 0,
-      "fail_runs": 20
+      "fail_runs": 21
     },
     {
       "id": "x_romano",
       "newest_item": "2026-08-20T23:25:40+00:00",
       "days_silent": 0,
-      "fail_runs": 20
+      "fail_runs": 21
     },
     {
       "id": "x_skysportde",
       "newest_item": "2026-08-20T20:33:38+00:00",
       "days_silent": 0,
-      "fail_runs": 26
+      "fail_runs": 27
     }
   ],
   "items": [
@@ -409,6 +416,20 @@
       "kind": "rss"
     },
     {
+      "id": "b55bd1b81137cf8e",
+      "title": "Fort will zum BVB - Atletico wird wegen Alvarez wieder deutlich",
+      "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
+      "url": "https://www.kicker.de/transferticker-953155/artikel#omrss",
+      "published": "2026-08-21T18:16:38+00:00",
+      "source_id": "kicker_bundesliga",
+      "source_name": "kicker Bundesliga",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
+    {
       "id": "0373432dd4e00718",
       "title": "Kompany: \"Es gibt nichts Schöneres, als einen Titel in Dortmund zu gewinnen\"",
       "summary": "Am Samstag reisen die Bayern zum Supercup nach Dortmund, wahrscheinlich mit voller Kapelle. Trainer Vincent Kompany sieht das Positive am Auswärtsspiel.",
@@ -442,20 +463,6 @@
       "summary": "Borussia Dortmund fährt im Geschäftsjahr 2025/26 einen dicken Verlust ein. Sinkende TV-Einnahmen durch das frühe Aus in der Champions League führt der BVB als Grund dafür an.",
       "url": "https://www.kicker.de/der-bvb-schreibt-rote-zahlen-komplexes-geschaeftsjahr-1245513/artikel#omrss",
       "published": "2026-08-21T10:48:17+00:00",
-      "source_id": "kicker_bundesliga",
-      "source_name": "kicker Bundesliga",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "f897b302f81df960",
-      "title": "Fort will zum BVB wechseln - Verlässt Demirovic den VfB noch?",
-      "summary": "Wer wechselt wohin? Wer ist wo im Gespräch? Wer verlängert? In unserem Transferticker bleibst du auf dem Laufenden.",
-      "url": "https://www.kicker.de/transferticker-953155/artikel#omrss",
-      "published": "2026-08-21T09:56:28+00:00",
       "source_id": "kicker_bundesliga",
       "source_name": "kicker Bundesliga",
       "tier": 2,
@@ -55535,21 +55542,6 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://img.sparknews.funkemedien.de/412902181/412902181_1787079704_v16_9_600.jpeg"
-    },
-    {
-      "id": "f44dd96a3532d797",
-      "title": "BVB vor erstem Pflichtspiel: Dieses Talent hat es jetzt ganz schwer",
-      "summary": "Der Dortmunder Kader füllt sich nach und nach. Am Samstag steht das erste Pflichtspiel an. Nun zeigt sich auch, welche Talente nah dran sind.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412901225/bvb-vor-erstem-pflichtspiel-dieses-talent-hat-es-jetzt-ganz-schwer.html",
-      "published": "2026-08-19T04:00:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412900598/412900598_1787118895_v16_9_600.jpeg"
     },
     {
       "id": "60188fe55954b152",
