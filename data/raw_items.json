@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-21T10:02:15.814449+00:00",
-  "duration_s": 115.93,
+  "fetched_at": "2026-08-21T10:57:16.804398+00:00",
+  "duration_s": 124.6,
   "sources_ok": 36,
   "sources_fail": 23,
   "stale_sources": [
@@ -8,7 +8,7 @@
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
       "days_silent": 105,
-      "fail_runs": 39
+      "fail_runs": 40
     },
     {
       "id": "pod_bvb_offiziell",
@@ -19,7 +19,7 @@
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
       "days_silent": 61,
-      "fail_runs": 39
+      "fail_runs": 40
     },
     {
       "id": "pod_auffeohren",
@@ -40,58 +40,78 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 5,
-      "fail_runs": 199
+      "fail_runs": 200
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
       "days_silent": 4,
-      "fail_runs": 28
+      "fail_runs": 29
     },
     {
       "id": "x_bvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 1,
-      "fail_runs": 34
+      "fail_runs": 35
     },
     {
       "id": "x_falk",
       "newest_item": "2026-08-19T12:13:33+00:00",
       "days_silent": 1,
-      "fail_runs": 28
+      "fail_runs": 29
     },
     {
       "id": "x_lafonatebvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 1,
-      "fail_runs": 40
+      "fail_runs": 41
+    },
+    {
+      "id": "x_berger",
+      "newest_item": "2026-08-20T17:53:52+00:00",
+      "days_silent": 0,
+      "fail_runs": 20
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
       "days_silent": 0,
-      "fail_runs": 26
+      "fail_runs": 27
     },
     {
       "id": "x_optafranz",
       "newest_item": "2026-08-20T11:53:46+00:00",
       "days_silent": 0,
-      "fail_runs": 21
+      "fail_runs": 22
     },
     {
       "id": "x_plettenberg",
       "newest_item": "2026-08-20T17:30:31+00:00",
       "days_silent": 0,
-      "fail_runs": 20
+      "fail_runs": 21
     },
     {
       "id": "x_rn_bvb",
       "newest_item": "2026-08-20T12:27:25+00:00",
       "days_silent": 0,
-      "fail_runs": 26
+      "fail_runs": 27
     }
   ],
   "items": [
+    {
+      "id": "ebe81107f344686c",
+      "title": "Bundesliga-Management-Index: \"Die Liga rückt enger zusammen\"",
+      "summary": "Mehr Spannung für die Bundesliga? Zumindest im diesjährigen Bundesliga-Management-Index geht es knapper zu als noch im Vorjahr. Die Studie unterzieht die 36 Erst- und Zweitligisten einem umfangreichen Management-Check.",
+      "url": "https://www.kicker.de/bundesliga-management-index-die-liga-rueckt-enger-zusammen-1242856/artikel#omrss",
+      "published": "2026-08-21T10:00:00+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
     {
       "id": "a3148bbb620fe4fd",
       "title": "Die Sommer-Neuzugänge der Bundesligisten im Überblick",
@@ -359,32 +379,19 @@
       "kind": "rss"
     },
     {
-      "id": "606891c61736c854",
-      "title": "Dortmunder Doppelpack: Konstantelias und Veerman sollen kommen",
-      "summary": "Said El Mala kommt nicht, dafür geht es bei Giannis Konstantelias und Joey Veerman offenbar schnell: Die Transferbemühungen von Borussia Dortmund nehmen Fahrt auf.",
-      "url": "https://www.kicker.de/dortmunder-doppelpack-konstantelias-und-veerman-sollen-kommen-1243333/artikel#omrss",
-      "published": "2026-08-16T12:45:00+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
+      "id": "5962b48d1871db41",
+      "title": "„Bemühungen intensiviert“: Abgang von BVB-Star immer wahrscheinlicher",
+      "summary": "Die Kaderplanung beim BVB für diesen Sommer steht kurz vor dem Abschluss. Ein Profi könnte den Klub aber noch in Richtung Italien verlassen.",
+      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-luca-reggiani-abgang-inter-mailand-kontakt-hector-fort-wechsel-borussia-dortmund-94453821.html",
+      "published": "2026-08-21T10:38:51+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
+      "credibility": 7,
+      "host": "www.ruhr24.de",
       "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "2f37a30ef142da1d",
-      "title": "Ricken zu bisheriger BVB-Transferphase: \"Haben unsere Hausaufgaben gemacht\"",
-      "summary": "Am Samstag trifft Borussia Dortmund gleich im ersten Pflichtspiel der neuen Saison im Supercup auf den FC Bayern. Auf der Pressekonferenz am Donnerstagmittag äußerten sich Trainer Niko Kovac und Sport-Geschäftsführer Lars Ricken zu den bisherigen Transferaktivitäten.",
-      "url": "https://www.kicker.de/ricken-zu-bisheriger-bvb-transferphase-haben-unsere-hausaufgaben-gemacht-1245250/artikel#omrss",
-      "published": "2026-08-20T13:12:17+00:00",
-      "source_id": "kicker_bundesliga",
-      "source_name": "kicker Bundesliga",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/796/43796551-marcel-sabitzer-und-luca-reggiani-schauen-nachdenklich-1byUa0g6OBef.jpg"
     },
     {
       "id": "2de42a79c265d3fa",
@@ -462,9 +469,24 @@
       "image": "https://www.ruhr24.de/assets/images/43/784/43784870-ein-bvb-spieler-jubelt-2xJCbzIIqtef.jpg"
     },
     {
-      "id": "94c2bbd0937ce69f",
-      "title": "Frühes CL-Aus schlägt sich deutlich nieder: BVB-Bilanzpressekonferenz live",
-      "summary": "Der BVB präsentiert seine vorläufigen Zahlen für das Geschäftsjahr 25/26. Das frühe CL-Aus schlägt sich deutlich nieder. Die Bilanz-Pressekonferenz live.",
+      "id": "de9d2c9e7a321a3a",
+      "title": "Polizei Dortmund ändert Strategie bei BVB-Spielen: Einsatz nur bei „Gefahr für Leib und Leben“",
+      "summary": "Weniger Polizeipräsenz bei BVB-Spielen: Die Behörde will nur noch bei akuten Gefahren eingreifen und überlässt Stadion-Sicherheit und Fanmärsche dem Verein.",
+      "url": "https://www.ruhrnachrichten.de/dortmund/polizei-dortmund-strategiewechsel-bvb-spiele-fanmaersche-stadion-sicherheit-w1237442-2002193420/",
+      "published": "2026-08-21T09:09:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/21/09/630_0900_6716043_-320x160.jpg"
+    },
+    {
+      "id": "292dbbf2dd39b9d8",
+      "title": "BVB verkündet Millionen-Verlust: Dortmund zahlt Aktionären keine Dividende",
+      "summary": "Der BVB verkündet einen Millionen-Verlust für das Geschäftsjahr 25/26. Das frühe CL-Aus schlägt sich deutlich nieder. Dividende wird voraussichtlich nicht gezahlt.",
       "url": "https://www.ruhrnachrichten.de/bvb/aus-champions-league-bvb-bilanzpressekonferenz-live-geschaeftszahlen-w1237347-2002193125/",
       "published": "2026-08-21T08:00:00+00:00",
       "source_id": "rn_bvb",
@@ -627,19 +649,19 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/18/14/630_0900_6702687_-320x160.jpg"
     },
     {
-      "id": "bb945f6674cf1703",
-      "title": "BVB als Titelverteidiger beim Premier League Cup: Drei England-Duelle vor Weihnachten",
-      "summary": "Der BVB geht in der neuen Saison als Titelverteidiger beim Premier League International Cup an den Start. Gegner, Termine, Modus - alle wichtigen Infos.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-premier-league-international-cup-2026-2027-gegner-termine-kader-w1232465-2002182536/",
-      "published": "2026-08-20T07:13:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
+      "id": "329dbee902b40de0",
+      "title": "BVB bestätigt 21-Millionen-Verlust",
+      "summary": "Borussia Dortmund muss im Geschäftsjahr 2025/26 einen herben Verlust hinnehmen. „73 Punkte von Borussia Dortmund in der Bundesliga sind ein dickes Brett. Aber in der Champions League und im Pokal (…)",
+      "url": "https://www.fussballtransfers.com/a5972086611338144819-bvb-bestaetigt-21-millionen-verlust",
+      "published": "2026-08-21T10:47:07+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/12/08/630_0900_6666864_-320x160.jpg"
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/lars-ricken-niko-kovac-und-carsten-cramer-2526.jpg"
     },
     {
       "id": "a7625f52d7ba9d0f",
@@ -1119,6 +1141,21 @@
       "image": "https://preview.redd.it/012cgee7hkkh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=5211e1d316773f8feaca6f0bcd9f62f9b0324221"
     },
     {
+      "id": "5d46516b2228cea1",
+      "title": "Unterschriften identifizeren",
+      "summary": "Leute, könnt ihr mir vielleicht helfen, die Unterschriften den Spielern zuzuordnen? Ich glaube, ich habe schon zwei gefunden. &#32; submitted by &#32; /u/Subject-Joke6139 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vucy3s/unterschriften_identifizeren/",
+      "published": "2026-08-21T10:50:49+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://preview.redd.it/i7sccjdmkpkh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=03a528d290b9a391bf64568dc7d0d65499f081c1"
+    },
+    {
       "id": "e628d716560775c1",
       "title": "Free Talk Friday (21/08/2026)",
       "summary": "Welcome to this week's open thread! What's up? Talk about anything, or something else! &#32; submitted by &#32; /u/AutoModerator [link] &#32; [comments]",
@@ -1392,21 +1429,6 @@
       "image": "https://external-preview.redd.it/cmwCQsTbEw94AxAPH8bfnuKvUpzz6BMIwjmiUZJhiIQ.jpeg?width=640&crop=smart&auto=webp&s=415f66eeaadb850a76bd626fb2fac59ea3c188a1"
     },
     {
-      "id": "76d250448aadfaee",
-      "title": "BVB leiht Diant Ramaj an den FC Kopenhagen aus",
-      "summary": "&#32; submitted by &#32; /u/Chazy89 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vqpm8o/bvb_leiht_diant_ramaj_an_den_fc_kopenhagen_aus/",
-      "published": "2026-08-17T11:26:08+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://external-preview.redd.it/4Vz6ktIrQLbCSDmCg--mtTLNK_CzqNSRKTa-4irrmtk.jpeg?width=640&crop=smart&auto=webp&s=a119df60db7bfb9c0b6b777c9873e47156cabfe5"
-    },
-    {
       "id": "bc769c107f2f339b",
       "title": "Niklas Süle: Tor und deutliche Niederlage beim Kreisliga-Debüt für den SV Tiefenbach",
       "summary": "Mit seinem Engagement beim Kreisligisten SV Tiefenbach hat Niklas Süle reichlich Trubel ausgelöst. Beim Einstand gelingt ihm gleich ein Tor. Die herbe Niederlage kann das aber nicht verhindern.",
@@ -1452,11 +1474,26 @@
       "image": "https://cdn.prod.www.11freunde.de/images/e7e8ddb3-8f15-40a4-83e8-1aa9ccb64185_w1920_r1.778_fpx50_fpy52.9.jpg"
     },
     {
-      "id": "6cb910715355c357",
-      "title": "Live: Bilanzpressekonferenz - Geschäftszahlen für das Geschäftsjahr 2025/26",
+      "id": "d7382d22b00cf246",
+      "title": "GIANNIS IS HERE! 😍🇬🇷",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/RYX5EjGnyZ8",
+      "published": "2026-08-21T10:34:06+00:00",
+      "source_id": "yt_bvb_official",
+      "source_name": "YouTube BVB (offiziell)",
+      "tier": 3,
+      "credibility": 9,
+      "host": "www.youtube.com",
+      "lang": "de",
+      "kind": "youtube",
+      "image": "https://i.ytimg.com/vi/RYX5EjGnyZ8/hqdefault.jpg"
+    },
+    {
+      "id": "615d53426533ee1f",
+      "title": "Bilanzpressekonferenz - Geschäftszahlen für das Geschäftsjahr 2025/26",
       "summary": "Carsten Cramer (Sprecher der Geschäftsführung) und Thomas Treß (Geschäftsführer) stellen die Zahlen für das Geschäftsjahr 2025/26 vor und ordnen sie ein. Hier seht ihr die PK live. ▶ Abonnieren & die Glocke aktivieren: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Facebook: https://facebook.com/BVB Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Twitch: https://www.twitch.tv/bvb_official TikTok: BVB Website: https://www.bvb.de/ #BVB",
       "url": "https://www.youtube.com/watch?v=T0SFLxFDEZ8",
-      "published": "2026-08-20T07:40:54+00:00",
+      "published": "2026-08-21T10:07:00+00:00",
       "source_id": "yt_bvb_official",
       "source_name": "YouTube BVB (offiziell)",
       "tier": 3,
@@ -1660,21 +1697,6 @@
       "lang": "de",
       "kind": "youtube",
       "image": "https://i.ytimg.com/vi/x8anguJItms/hqdefault.jpg"
-    },
-    {
-      "id": "20b6e5939aac30da",
-      "title": "ReLive: BVB-Frauen - AS Rom | Saisoneröffnung 2026/27",
-      "summary": "Zum Auftakt der schwarzgelben Saisoneröffnung treffen die BVB-Frauen um Neuzugang Alex Popp auf die italienischen Double-Siegrinnen von der AS Rom. Hier seht ihr die Partie live und in voller Länge. Martin Ammeling und Stephan Gabele kommentieren die Begegnung für euch. ▶ Abonnieren & die Glocke aktivieren: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Facebook: https://facebook.com/BVB Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Twitch: https://www.twitch.tv/",
-      "url": "https://www.youtube.com/watch?v=-hqYj_NGRNE",
-      "published": "2026-08-15T13:08:18+00:00",
-      "source_id": "yt_bvb_official",
-      "source_name": "YouTube BVB (offiziell)",
-      "tier": 3,
-      "credibility": 9,
-      "host": "www.youtube.com",
-      "lang": "de",
-      "kind": "youtube",
-      "image": "https://i.ytimg.com/vi/-hqYj_NGRNE/hqdefault.jpg"
     },
     {
       "id": "dda3339fa0a8fd4c",
@@ -46349,18 +46371,19 @@
       "kind": "rss"
     },
     {
-      "id": "b25bcb5d608e7098",
-      "title": "DFB legt fest: FIFA-Schiedsrichter Schlager pfeift Supercup zwischen Bayern und BVB",
-      "summary": "Mit dem Supercup-Finale steigen der FC Bayern und Borussia Dortmund am kommenden Samstag in die Saison 2026/27 ein, der Schiedsrichter für diese Partie steht nun auch fest: Daniel Schlager.",
-      "url": "https://www.kicker.de/dfb-legt-fest-fifa-schiedsrichter-schlager-pfeift-supercup-zwischen-bayern-und-bvb-1244209/artikel#omrss",
-      "published": "2026-08-17T16:38:41+00:00",
-      "source_id": "kicker_pokal",
-      "source_name": "kicker DFB-Pokal",
+      "id": "b613f1b83ae92fc4",
+      "title": "Kompany confirms Musiala will miss Supercup clash with \"quality\" Dortmund side",
+      "summary": "The 23-year-old alongside Lennart Karl will not feature for Bayern at the Westfalenstadion tomorrow evening.",
+      "url": "https://bulinews.com/kompany-confirms-musiala-miss-supercup-clash-quality-dortmund-side",
+      "published": "2026-08-21T10:09:00+00:00",
+      "source_id": "bulinews_bvb",
+      "source_name": "Bulinews Dortmund",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
+      "credibility": 7,
+      "host": "bulinews.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://bulinews.com/i/1280/19868.jpg"
     },
     {
       "id": "29c39672d2ed217a",
@@ -47096,21 +47119,6 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://bulinews.com/i/1280/19601.jpg"
-    },
-    {
-      "id": "4de84be402238b0f",
-      "title": "Köln line up potential El Mala replacement in Dortmund-linked Polish winger",
-      "summary": "FC Köln chief Kessler is waiting to see if Said El Mala departs before the deal is finalized for the 19-year-old Polish replacement.",
-      "url": "https://bulinews.com/koln-line-potential-mala-replacement-dortmund-linked-polish-winger",
-      "published": "2026-08-12T09:22:00+00:00",
-      "source_id": "bulinews_bvb",
-      "source_name": "Bulinews Dortmund",
-      "tier": 2,
-      "credibility": 7,
-      "host": "bulinews.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://bulinews.com/i/1280/19596.jpg"
     },
     {
       "id": "922dc502da6d6908",
@@ -55233,6 +55241,21 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c47/live/85680480-b69e-11f0-b2a1-6f537f66f9aa.jpg"
     },
     {
+      "id": "4329f2a6a440c404",
+      "title": "BVB zwischen Super-Verlust und Supercup: „Herausfordernd, kompliziert, komplex“",
+      "summary": "Kein Ticket mehr zu bekommen, die Vorfreude groß wie lange nicht. Dafür 21,7 Millionen Euro Verlust: Vor dem Supercup zeigt Dortmund zwei sehr verschiedene Gesichter.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412923583/bvb-zwischen-superverlust-und-supercup-herausfordernd-kompliziert-komplex.html",
+      "published": "2026-08-21T10:33:30+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412925351/412925351_1787306824_v16_9_600.jpeg"
+    },
+    {
       "id": "7de61f6b8c556189",
       "title": "83 Millionen Euro im DFB-Pokal – So viel können die Revierklubs kassieren",
       "summary": "Der DFB schüttet acht Millionen Euro mehr aus als im Vorjahr. Für BVB, Schalke, RWE, MSV und Bochum geht es um viel Geld.",
@@ -55501,6 +55524,20 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://media.bundesliga-gruppe.de/sites/2/2026/08/6E5A5054_16x9.jpg"
+    },
+    {
+      "id": "bc66cc783db4436d",
+      "title": "[Brand Finance] World's most valuable and strongest football club brands in 2026. Football’s elite pull further ahead: Global brand value hits €23.9 billion as Real Madrid retains top spot.",
+      "summary": "The world’s 50 most valuable football club brands reach a combined brand value of EUR23.9 billion and enterprise value of EUR79.7 billion, marking the strongest year of growth in the ranking’s history The top 10 clubs now account for more than 60% of the ranking’s total brand value, reinforcing a widening gap between football's global elite and the rest Real Madrid CF remains the world’s most valuable and strongest football club brand, FC Barcelona retains second place, and Arsenal FC enters the",
+      "url": "https://www.reddit.com/r/soccer/comments/1vubskm/brand_finance_worlds_most_valuable_and_strongest/",
+      "published": "2026-08-21T09:49:45+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
     },
     {
       "id": "a480c5ea71dd652d",
@@ -55830,20 +55867,6 @@
       "summary": "&#32; submitted by &#32; /u/ElevensMelody [link] &#32; [comments]",
       "url": "https://www.reddit.com/r/soccer/comments/1vlis7w/ben_jacobs_newcastle_united_showing_an_interest/",
       "published": "2026-08-11T14:19:38+00:00",
-      "source_id": "reddit_soccer_bvb",
-      "source_name": "Reddit r/soccer (Dortmund)",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
-      "id": "2d766755a07dc800",
-      "title": "[Throwback] Top 10 Most Expensive Summer Signings from 5 years ago, 2021/22 season.",
-      "summary": "&#32; submitted by &#32; /u/MeteorFalls297 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/soccer/comments/1vliql2/throwback_top_10_most_expensive_summer_signings/",
-      "published": "2026-08-11T14:17:52+00:00",
       "source_id": "reddit_soccer_bvb",
       "source_name": "Reddit r/soccer (Dortmund)",
       "tier": 5,
