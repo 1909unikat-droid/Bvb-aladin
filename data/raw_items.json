@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-21T09:30:10.918425+00:00",
-  "duration_s": 116.44,
+  "fetched_at": "2026-08-21T10:02:15.814449+00:00",
+  "duration_s": 115.93,
   "sources_ok": 36,
   "sources_fail": 23,
   "stale_sources": [
@@ -8,7 +8,7 @@
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
       "days_silent": 105,
-      "fail_runs": 38
+      "fail_runs": 39
     },
     {
       "id": "pod_bvb_offiziell",
@@ -19,7 +19,7 @@
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
       "days_silent": 61,
-      "fail_runs": 38
+      "fail_runs": 39
     },
     {
       "id": "pod_auffeohren",
@@ -40,41 +40,47 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 5,
-      "fail_runs": 198
+      "fail_runs": 199
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
       "days_silent": 4,
-      "fail_runs": 27
+      "fail_runs": 28
     },
     {
       "id": "x_bvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 1,
-      "fail_runs": 33
+      "fail_runs": 34
     },
     {
       "id": "x_falk",
       "newest_item": "2026-08-19T12:13:33+00:00",
       "days_silent": 1,
-      "fail_runs": 27
+      "fail_runs": 28
     },
     {
       "id": "x_lafonatebvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 1,
-      "fail_runs": 39
+      "fail_runs": 40
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
       "days_silent": 0,
-      "fail_runs": 25
+      "fail_runs": 26
     },
     {
       "id": "x_optafranz",
       "newest_item": "2026-08-20T11:53:46+00:00",
+      "days_silent": 0,
+      "fail_runs": 21
+    },
+    {
+      "id": "x_plettenberg",
+      "newest_item": "2026-08-20T17:30:31+00:00",
       "days_silent": 0,
       "fail_runs": 20
     },
@@ -82,7 +88,7 @@
       "id": "x_rn_bvb",
       "newest_item": "2026-08-20T12:27:25+00:00",
       "days_silent": 0,
-      "fail_runs": 25
+      "fail_runs": 26
     }
   ],
   "items": [
@@ -379,6 +385,21 @@
       "host": "www.kicker.de",
       "lang": "de",
       "kind": "rss"
+    },
+    {
+      "id": "2de42a79c265d3fa",
+      "title": "BVB-Bilanz-PK im Live-Ticker: Cramer berichtet von 21 Millionen Euro Verlust",
+      "summary": "Beim BVB findet heute die Bilanzpressekonferenz statt. RUHR24 berichtet im Live-Ticker aus dem Signal Iduna Park.",
+      "url": "https://www.ruhr24.de/bvb/bvb-bilanz-pk-live-ticker-neuzugang-pressekonferez-heute-carsten-cramer-borussia-dortmund-94453636.html",
+      "published": "2026-08-21T09:29:34+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.ruhr24.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/795/43795660-die-neue-bvb-direktorin-kommunikation-schlesinger-und-geschaeftsfuehrer-sprecher-cramer-2kQwZmNGZsef.jpg"
     },
     {
       "id": "ea385caf67a1b493",
@@ -1431,6 +1452,21 @@
       "image": "https://cdn.prod.www.11freunde.de/images/e7e8ddb3-8f15-40a4-83e8-1aa9ccb64185_w1920_r1.778_fpx50_fpy52.9.jpg"
     },
     {
+      "id": "6cb910715355c357",
+      "title": "Live: Bilanzpressekonferenz - Geschäftszahlen für das Geschäftsjahr 2025/26",
+      "summary": "Carsten Cramer (Sprecher der Geschäftsführung) und Thomas Treß (Geschäftsführer) stellen die Zahlen für das Geschäftsjahr 2025/26 vor und ordnen sie ein. Hier seht ihr die PK live. ▶ Abonnieren & die Glocke aktivieren: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Facebook: https://facebook.com/BVB Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Twitch: https://www.twitch.tv/bvb_official TikTok: BVB Website: https://www.bvb.de/ #BVB",
+      "url": "https://www.youtube.com/watch?v=T0SFLxFDEZ8",
+      "published": "2026-08-20T07:40:54+00:00",
+      "source_id": "yt_bvb_official",
+      "source_name": "YouTube BVB (offiziell)",
+      "tier": 3,
+      "credibility": 9,
+      "host": "www.youtube.com",
+      "lang": "de",
+      "kind": "youtube",
+      "image": "https://i.ytimg.com/vi/T0SFLxFDEZ8/hqdefault.jpg"
+    },
+    {
       "id": "24167d99a3f3b86b",
       "title": "WOW 🤩 What a stunner by our U16 🤩",
       "summary": "Justin Ejodamen from our U16s has really pulled off a cracking goal! #shorts",
@@ -1459,21 +1495,6 @@
       "lang": "de",
       "kind": "youtube",
       "image": "https://i.ytimg.com/vi/Qnb9TJC4LqA/hqdefault.jpg"
-    },
-    {
-      "id": "6cb910715355c357",
-      "title": "Live: Bilanzpressekonferenz - Geschäftszahlen für das Geschäftsjahr 2025/26",
-      "summary": "Carsten Cramer (Sprecher der Geschäftsführung) und Thomas Treß (Geschäftsführer) stellen die Zahlen für das Geschäftsjahr 2025/26 vor und ordnen sie ein. Hier seht ihr die PK live. ▶ Abonnieren & die Glocke aktivieren: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Facebook: https://facebook.com/BVB Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Twitch: https://www.twitch.tv/bvb_official TikTok: BVB Website: https://www.bvb.de/ #BVB",
-      "url": "https://www.youtube.com/watch?v=T0SFLxFDEZ8",
-      "published": "2026-08-20T07:40:54+00:00",
-      "source_id": "yt_bvb_official",
-      "source_name": "YouTube BVB (offiziell)",
-      "tier": 3,
-      "credibility": 9,
-      "host": "www.youtube.com",
-      "lang": "de",
-      "kind": "youtube",
-      "image": "https://i.ytimg.com/vi/T0SFLxFDEZ8/hqdefault.jpg"
     },
     {
       "id": "787a7064f208c253",
@@ -47232,6 +47253,21 @@
       "kind": "rss"
     },
     {
+      "id": "761433f96c782287",
+      "title": "Where do Borussia Dortmund stand in the German Supercup? See these stats",
+      "summary": "The BVB are gunning for their seventh title in the cup...",
+      "url": "https://bvbbuzz.com/where-do-borussia-dortmund-stand-in-the-german-supercup-see-these-stats-01m0fzz25reh?utm_source=RSS",
+      "published": "2026-08-21T09:30:00+00:00",
+      "source_id": "bvbbuzz",
+      "source_name": "BVB Buzz",
+      "tier": 4,
+      "credibility": 5,
+      "host": "bvbbuzz.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6701,h_3769,x_0,y_327/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0g03eb6xgeabhvgnh.jpg"
+    },
+    {
       "id": "cae5484c00373849",
       "title": "\"A lot has to happen\" - Kovac acknowledges gap between Dortmund and Bayern",
       "summary": "The sides finished 16 points apart last Bundesliga season...",
@@ -48565,21 +48601,6 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4000,h_2250,x_0,y_145/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01kzh6y3y0cq9yyp8qkj.jpg"
-    },
-    {
-      "id": "3f567996b0d524da",
-      "title": "Dortmund team news vs Arsenal: Anton, Ryerson and Kobel to miss; Prates in line for debut",
-      "summary": "Borussia Dortmund to miss three World Cup stars for London trip.",
-      "url": "https://bvbbuzz.com/dortmund-team-news-vs-arsenal-anton-ryerson-and-kobel-to-miss-prates-in-line-for-debut-01kzh52sfrz4?utm_source=RSS",
-      "published": "2026-08-08T20:30:00+00:00",
-      "source_id": "bvbbuzz",
-      "source_name": "BVB Buzz",
-      "tier": 4,
-      "credibility": 5,
-      "host": "bvbbuzz.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4540,h_2553,x_0,y_388/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01kzh566wqqgzpyhzn85.jpg"
     },
     {
       "id": "c3cf2167a2a2820a",
@@ -55212,21 +55233,6 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c47/live/85680480-b69e-11f0-b2a1-6f537f66f9aa.jpg"
     },
     {
-      "id": "b0334bded6f283b5",
-      "title": "Book-Transfers als Gamechanger: Kommt jetzt der neue BVB-Hype?",
-      "summary": "Die Transfers von Borussia Dortmund machen Lust auf mehr – aber warum eigentlich? Die Analyse in einer neuen Folge von „Echte Tiefe“.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412917455/book-transfers-als-gamechanger-kommt-jetzt-der-neue-bvb-hype.html",
-      "published": "2026-08-20T12:09:09+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412917351/412917351_1787226901_v16_9_600.jpeg"
-    },
-    {
       "id": "7de61f6b8c556189",
       "title": "83 Millionen Euro im DFB-Pokal – So viel können die Revierklubs kassieren",
       "summary": "Der DFB schüttet acht Millionen Euro mehr aus als im Vorjahr. Für BVB, Schalke, RWE, MSV und Bochum geht es um viel Geld.",
@@ -55315,6 +55321,21 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://img.sparknews.funkemedien.de/412917126/412917126_1787225999_v16_9_600.jpeg"
+    },
+    {
+      "id": "b0334bded6f283b5",
+      "title": "Book-Transfers als Gamechanger: Kommt jetzt der neue BVB-Hype?",
+      "summary": "Die Transfers von Borussia Dortmund machen Lust auf mehr – aber warum eigentlich? Die Analyse in einer neuen Folge von „Echte Tiefe“.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412917455/book-transfers-als-gamechanger-kommt-jetzt-der-neue-bvb-hype.html",
+      "published": "2026-08-20T12:09:09+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412917351/412917351_1787226901_v16_9_600.jpeg"
     },
     {
       "id": "6d3e9bfd2e2c385d",
