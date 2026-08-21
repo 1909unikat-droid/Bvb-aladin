@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-21T07:41:13.160835+00:00",
-  "duration_s": 315.01,
+  "fetched_at": "2026-08-21T08:32:14.993946+00:00",
+  "duration_s": 108.4,
   "sources_ok": 36,
   "sources_fail": 23,
   "stale_sources": [
@@ -8,7 +8,7 @@
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
       "days_silent": 105,
-      "fail_runs": 36
+      "fail_runs": 37
     },
     {
       "id": "pod_bvb_offiziell",
@@ -19,7 +19,7 @@
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
       "days_silent": 61,
-      "fail_runs": 36
+      "fail_runs": 37
     },
     {
       "id": "pod_auffeohren",
@@ -40,46 +40,60 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 5,
-      "fail_runs": 196
+      "fail_runs": 197
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
       "days_silent": 4,
-      "fail_runs": 25
+      "fail_runs": 26
     },
     {
       "id": "x_bvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 1,
-      "fail_runs": 31
+      "fail_runs": 32
     },
     {
       "id": "x_falk",
       "newest_item": "2026-08-19T12:13:33+00:00",
       "days_silent": 1,
-      "fail_runs": 25
+      "fail_runs": 26
     },
     {
       "id": "x_lafonatebvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 1,
-      "fail_runs": 37
+      "fail_runs": 38
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
       "days_silent": 0,
-      "fail_runs": 23
+      "fail_runs": 24
     },
     {
       "id": "x_rn_bvb",
       "newest_item": "2026-08-20T12:27:25+00:00",
       "days_silent": 0,
-      "fail_runs": 23
+      "fail_runs": 24
     }
   ],
   "items": [
+    {
+      "id": "192f739b3a2b4eb3",
+      "title": "Warum steigen Bayern und Dortmund erst später in den DFB-Pokal ein?",
+      "summary": "Von Freitag bis Montag wird die 1. DFB-Pokal-Runde ausgetragen. Der FC Bayern und Borussia Dortmund starten erst Anfang September in den Wettbewerb. Warum ist das so?",
+      "url": "https://www.kicker.de/warum-steigen-bayern-und-dortmund-erst-spaeter-in-den-dfb-pokal-ein-1245424/artikel#omrss",
+      "published": "2026-08-21T07:32:29+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
     {
       "id": "2f37a30ef142da1d",
       "title": "Ricken zu bisheriger BVB-Transferphase: \"Haben unsere Hausaufgaben gemacht\"",
@@ -347,20 +361,6 @@
       "kind": "rss"
     },
     {
-      "id": "805f2488fbac8ca4",
-      "title": "\"Lasst euch überraschen\": Kovac scherzt über BVB-Transferplanung",
-      "summary": "Nach dem Test gegen die Roma war die Transferplanung des BVB das präsente Thema. Nach dem Ende der Thematik rund um Said El Mala konzentriert sich Schwarz-Gelb nun auf andere Personalien.",
-      "url": "https://www.kicker.de/lasst-euch-ueberraschen-kovac-scherzt-ueber-bvb-transferplanung-1243400/video#omrss",
-      "published": "2026-08-15T19:00:08+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
       "id": "2f37a30ef142da1d",
       "title": "Ricken zu bisheriger BVB-Transferphase: \"Haben unsere Hausaufgaben gemacht\"",
       "summary": "Am Samstag trifft Borussia Dortmund gleich im ersten Pflichtspiel der neuen Saison im Supercup auf den FC Bayern. Auf der Pressekonferenz am Donnerstagmittag äußerten sich Trainer Niko Kovac und Sport-Geschäftsführer Lars Ricken zu den bisherigen Transferaktivitäten.",
@@ -387,6 +387,21 @@
       "host": "www.kicker.de",
       "lang": "de",
       "kind": "rss"
+    },
+    {
+      "id": "ea385caf67a1b493",
+      "title": "BVB gegen FC Bayern im Supercup: Jürgen Klopp gibt Comeback",
+      "summary": "Der BVB und der FC Bayern kämpfen um den ersten Titel der Saison. RUHR24 berichtet live vom Supercup. Vorher steht auch Jürgen Klopp im Mittelpunkt.",
+      "url": "https://www.ruhr24.de/bvb/bvb-fc-bayern-muenchen-supercup-live-ticker-juergen-klopp-comeback-bundestrainer-borussia-dortmund-94453426.html",
+      "published": "2026-08-21T08:04:27+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.ruhr24.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/774/43774974-juergen-klopp-bei-seiner-antritts-pk-beim-dfb-zwischen-dem-bvb-und-bayern-wappen-2c8neUvBsCef.jpg"
     },
     {
       "id": "3dc57031df6318b4",
@@ -449,19 +464,19 @@
       "image": "https://www.ruhr24.de/assets/images/43/785/43785493-joey-veerman-traegt-einen-graufarbenen-pulli-und-lacht-2j7tM05woCef.jpg"
     },
     {
-      "id": "ce54c1991dcaaeb3",
-      "title": "Immer mehr Metzgereien in Dortmund schließen: Michael Ehlert gibt nicht auf",
-      "summary": "Seit nunmehr 50 Jahren befindet sich der Fleischerbetrieb unweit der Hörder Brücke. Die Branche steckt mitten in einer Krise, doch es gibt auch Hoffnung.",
-      "url": "https://www.ruhr24.de/dortmund/metzgereien-dortmund-schliessen-michael-ehlert-krise-zander-klube-fleischer-azubis-nachwuchs-mangel-94452479.html",
-      "published": "2026-08-20T13:13:44+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
+      "id": "94c2bbd0937ce69f",
+      "title": "Frühes CL-Aus schlägt sich deutlich nieder: BVB-Bilanzpressekonferenz live",
+      "summary": "Der BVB präsentiert seine vorläufigen Zahlen für das Geschäftsjahr 25/26. Das frühe CL-Aus schlägt sich deutlich nieder. Die Bilanz-Pressekonferenz live.",
+      "url": "https://www.ruhrnachrichten.de/bvb/aus-champions-league-bvb-bilanzpressekonferenz-live-geschaeftszahlen-w1237347-2002193125/",
+      "published": "2026-08-21T08:00:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
       "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/43/761/43761522-blick-auf-den-metzgermeister-vor-der-theke-2sbP7lwEsUef.jpg"
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/20/22/630_0900_6715124_-320x160.jpg"
     },
     {
       "id": "c89b150912b6b587",
@@ -629,19 +644,19 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/12/08/630_0900_6666864_-320x160.jpg"
     },
     {
-      "id": "c7ec2f04a28ad49c",
-      "title": "Papa Torwart, Tochter BVB-Torjägerin: Ramona Maier und „Magic Moments“ in Dortmund",
-      "summary": "Der Papa von BVB-Angreiferin Ramona Maier war Torwart, die 30-Jährige soll für Borussia Dortmund viele Tore schießen. Wie sich durch Arbeit ein Traum erfüllte.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-torjaegerin-ramona-maier-puzzle-stueck-magic-moments-in-dortmund-w1236505-2002191852/",
-      "published": "2026-08-20T04:00:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
+      "id": "a7625f52d7ba9d0f",
+      "title": "Drei Transfer-Spuren bei Tapsoba | Brandt zeigt seine Weltklasse",
+      "summary": "Während Bayer Leverkusen um Edmond Tapsoba bangen muss, glänzt Julian Brandt im Trikot von Ajax Amsterdam. Die FT-Presseschau am Freitag.## 50 Millionen für Tapsoba? Edmond Tapsoba gehört bei Bayer (…)",
+      "url": "https://www.fussballtransfers.com/a8342400309364770472-drei-transfer-spuren-bei-tapsoba-brandt-zeigt-seine-weltklasse",
+      "published": "2026-08-21T07:36:31+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/19/13/630_0900_6707813_-320x160.jpg"
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/ps-bild-21-08.jpg"
     },
     {
       "id": "2041284f1d0e0b19",
@@ -1034,11 +1049,11 @@
       "image": "https://www.schwatzgelb.de/imager/bvb-fotos_de/storage/files/2813/1200/BIEL5016_a12e44e3210bc53d16e237a7c4555e81.jpg"
     },
     {
-      "id": "e628d716560775c1",
-      "title": "Free Talk Friday (21/08/2026)",
-      "summary": "Welcome to this week's open thread! What's up? Talk about anything, or something else! &#32; submitted by &#32; /u/AutoModerator [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vu8w2x/free_talk_friday_21082026/",
-      "published": "2026-08-21T07:00:12+00:00",
+      "id": "8cee72a0a5c58006",
+      "title": "Pre Game Thread: FC Bayern München (Franz-Beckenbauer-Supercup)",
+      "summary": "Competition: Franz-Beckenbauer-Supercup , Time: Saturday 22/08/26 20:30 CEST Location: Westfalenstadion, Dortmund Referee: Daniel Schlager , Rastatt TV Schedule: livesoccertv Pre-Game Presser: YouTube Borussia Dortmund: Coach: Niko Kovac League position: Current Form: ( wiki ) Current Bans/Injuries: ︀︀Can(Inj), Schlotterbeck(Inj). Possible lineup: Kobel Gadou - Anton - Bensebaini Ryerson - Bellingham - Nmecha - Svensson Karetsas - Inacio Guirassy FC Bayern München: Coach: Vincent Kompany League ",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vua89q/pre_game_thread_fc_bayern_münchen/",
+      "published": "2026-08-21T08:18:54+00:00",
       "source_id": "reddit_bvb",
       "source_name": "Reddit r/borussiadortmund",
       "tier": 5,
@@ -1048,11 +1063,11 @@
       "kind": "rss"
     },
     {
-      "id": "2d5ca61d206e9249",
-      "title": "Weekly Discussion Thread (17/08/2026)",
-      "summary": "Welcome to our weekly discussion thread! You're worried about our squad for the next season? You're confused about why we did so poorly/well? You're excited about the transfer window / the rebuild / the summer break? Feel free to use this space to discuss all things football/soccer related in here - anything related to our club that you feel doesn't warrant a separate thread, or any football-related observation you want to share! If you want to discuss a rumour / article, please include a link! ",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vqkytv/weekly_discussion_thread_17082026/",
-      "published": "2026-08-17T07:00:18+00:00",
+      "id": "fa698e98f6c4e063",
+      "title": "Weekly Transfer Rumor thread (2026 Summer Edition) #7",
+      "summary": "Reus and Hummels to Dortmund ? Return of the lost Son Sancho ? This will be the thread to collect ANY rumors . Post sources of Dortmund related rumours and discuss those rumors :P this thread will be THE thread for all rumors and transfer talk. All other threads will be removed to help the sub be more organized. Also Dear fans from other clubs that come here to discuss players and potential transfers, please don't be dicks , okay? Cool, Thanks :) Confirmed transfers so far: IN: IN Name Fee Club ",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vqj87m/weekly_transfer_rumor_thread_2026_summer_edition_7/",
+      "published": "2026-08-17T05:22:06+00:00",
       "source_id": "reddit_bvb",
       "source_name": "Reddit r/borussiadortmund",
       "tier": 5,
@@ -1104,6 +1119,20 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://preview.redd.it/012cgee7hkkh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=5211e1d316773f8feaca6f0bcd9f62f9b0324221"
+    },
+    {
+      "id": "e628d716560775c1",
+      "title": "Free Talk Friday (21/08/2026)",
+      "summary": "Welcome to this week's open thread! What's up? Talk about anything, or something else! &#32; submitted by &#32; /u/AutoModerator [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vu8w2x/free_talk_friday_21082026/",
+      "published": "2026-08-21T07:00:12+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
     },
     {
       "id": "a38149443db5ddb5",
@@ -1379,21 +1408,6 @@
       "image": "https://external-preview.redd.it/cmwCQsTbEw94AxAPH8bfnuKvUpzz6BMIwjmiUZJhiIQ.jpeg?width=640&crop=smart&auto=webp&s=415f66eeaadb850a76bd626fb2fac59ea3c188a1"
     },
     {
-      "id": "76d250448aadfaee",
-      "title": "BVB leiht Diant Ramaj an den FC Kopenhagen aus",
-      "summary": "&#32; submitted by &#32; /u/Chazy89 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vqpm8o/bvb_leiht_diant_ramaj_an_den_fc_kopenhagen_aus/",
-      "published": "2026-08-17T11:26:08+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://external-preview.redd.it/4Vz6ktIrQLbCSDmCg--mtTLNK_CzqNSRKTa-4irrmtk.jpeg?width=640&crop=smart&auto=webp&s=a119df60db7bfb9c0b6b777c9873e47156cabfe5"
-    },
-    {
       "id": "bc769c107f2f339b",
       "title": "Niklas Süle: Tor und deutliche Niederlage beim Kreisliga-Debüt für den SV Tiefenbach",
       "summary": "Mit seinem Engagement beim Kreisligisten SV Tiefenbach hat Niklas Süle reichlich Trubel ausgelöst. Beim Einstand gelingt ihm gleich ein Tor. Die herbe Niederlage kann das aber nicht verhindern.",
@@ -1437,6 +1451,21 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://cdn.prod.www.11freunde.de/images/e7e8ddb3-8f15-40a4-83e8-1aa9ccb64185_w1920_r1.778_fpx50_fpy52.9.jpg"
+    },
+    {
+      "id": "24167d99a3f3b86b",
+      "title": "WOW 🤩 What a stunner by our U16 🤩",
+      "summary": "Justin Ejodamen from our U16s has really pulled off a cracking goal! #shorts",
+      "url": "https://www.youtube.com/shorts/6L7uvmLIh-M",
+      "published": "2026-08-21T08:00:21+00:00",
+      "source_id": "yt_bvb_official",
+      "source_name": "YouTube BVB (offiziell)",
+      "tier": 3,
+      "credibility": 9,
+      "host": "www.youtube.com",
+      "lang": "de",
+      "kind": "youtube",
+      "image": "https://i.ytimg.com/vi/6L7uvmLIh-M/hqdefault.jpg"
     },
     {
       "id": "5ac6f84094b673c8",
@@ -1647,21 +1676,6 @@
       "lang": "de",
       "kind": "youtube",
       "image": "https://i.ytimg.com/vi/-hqYj_NGRNE/hqdefault.jpg"
-    },
-    {
-      "id": "b704cf64d63f23fb",
-      "title": "Goals, Free Kicks & Kovac in Action | Inside Training",
-      "summary": "Borussia Dortmund’s first-team pre-season preparations are continuing at full speed this week. Ahead of the season opener against AS Roma, the training programme includes a small-sided tournament, attacking moves in the final third and direct free kicks – and head coach Niko Kovac is getting stuck in too. Check out the video for the best moments of the week. ▶ Subscribe & hit the bell: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Twitch: https://www.twitch.tv/bvb_official Twitter: https://t",
-      "url": "https://www.youtube.com/watch?v=FJQySnMqvog",
-      "published": "2026-08-14T13:30:04+00:00",
-      "source_id": "yt_bvb_official",
-      "source_name": "YouTube BVB (offiziell)",
-      "tier": 3,
-      "credibility": 9,
-      "host": "www.youtube.com",
-      "lang": "de",
-      "kind": "youtube",
-      "image": "https://i.ytimg.com/vi/FJQySnMqvog/hqdefault.jpg"
     },
     {
       "id": "dda3339fa0a8fd4c",
@@ -1893,7 +1907,7 @@
       "title": "RN-Talk vor dem Supercup: Erste BVB-Härtefälle und Gerüchte um Silva",
       "summary": "DORTMUND, 21.08.26: BVB-Trainer Kovac muss beim Supercup gegen den FC Bayern erste Härtefallentscheidungen treffen. Wie belastbar sind die Silva-Gerüchte? Der RN-Talk mit Florian Groeger und Kevin Pinnow. 📧 Jetzt unseren neuen BVB-Newsletter abonnieren: https://www.ruhrnachrichten.de/newsletter/bvb/ 🎫 Kostenlose Tickets für unseren BVB-Sonderpodcast: https://rausgegangen.de/events/groe-bvb-nacht-bei-den-filmnachten-dortmund-0/ 🚨 Jetzt BVB-Abo sichern - nur ein Euro für acht Wochen: https://www.r",
       "url": "https://www.youtube.com/watch?v=yWSMzQFumHo",
-      "published": "2026-08-20T22:58:06+00:00",
+      "published": "2026-08-21T08:00:06+00:00",
       "source_id": "yt_rn_bvb",
       "source_name": "YouTube Ruhr Nachr. BVB",
       "tier": 2,
@@ -46350,6 +46364,21 @@
       "kind": "rss"
     },
     {
+      "id": "ae75971f9c94cd56",
+      "title": "Kobel ready for one last Supercup clash with Neuer",
+      "summary": "With Neuer’s supposed final Supercup before retirement, the Dortmund goalkeeper is excited to take him on",
+      "url": "https://bulinews.com/kobel-ready-for-one-last-supercup-clash-neuer",
+      "published": "2026-08-21T08:29:00+00:00",
+      "source_id": "bulinews_bvb",
+      "source_name": "Bulinews Dortmund",
+      "tier": 2,
+      "credibility": 7,
+      "host": "bulinews.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://bulinews.com/i/1280/19865.jpg"
+    },
+    {
       "id": "46d4007974c6c8c4",
       "title": "Kobel looks forward to seeing new signings shine as the season kicks off",
       "summary": "He can already see the quality in Konstantinos Karetsas.",
@@ -47083,21 +47112,6 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://bulinews.com/i/1280/19590.jpg"
-    },
-    {
-      "id": "a65dcf1ae7cd8156",
-      "title": "Dortmund verging on submitting fresh €55m bid for Köln's Said El Mala",
-      "summary": "The Ruhrpott giants are making a third and improved bid for the 19-year-old winger who they feel could revolutionize their attack.",
-      "url": "https://bulinews.com/dortmund-verging-submitting-fresh-55m-bid-for-koln-mala",
-      "published": "2026-08-11T20:06:00+00:00",
-      "source_id": "bulinews_bvb",
-      "source_name": "Bulinews Dortmund",
-      "tier": 2,
-      "credibility": 7,
-      "host": "bulinews.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://bulinews.com/i/1280/19589.jpg"
     },
     {
       "id": "922dc502da6d6908",
@@ -55488,6 +55502,356 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://media.bundesliga-gruppe.de/sites/2/2026/08/6E5A5054_16x9.jpg"
+    },
+    {
+      "id": "a480c5ea71dd652d",
+      "title": "[Sky] Fábio Silva and Carney Chukwuemeka may leave Dortmund if an appropriate offer comes in. BVB have also sounded out the possibility of loaning Nick Woltemade.",
+      "summary": "&#32; submitted by &#32; /u/Anionan [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vslfu2/sky_fábio_silva_and_carney_chukwuemeka_may_leave/",
+      "published": "2026-08-19T12:46:21+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "9e3d48bd47fec51c",
+      "title": "[BVB] Borussia Dortmund sign Giannis Konstantelias",
+      "summary": "&#32; submitted by &#32; /u/Mooon8983 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vqtbqr/bvb_borussia_dortmund_sign_giannis_konstantelias/",
+      "published": "2026-08-17T14:06:16+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "9f359498f491e910",
+      "title": "[Bild+] Leipzig are now pushing very hard to sign Said El-Mala from Köln to replace Yan Diomande. An offer of €50m guaranteed with bonuses up to €10m will currently be prepared. El-Mala is open to join Leipzig after Dortmund left the race last week.",
+      "summary": "&#32; submitted by &#32; /u/nutelamitbutter [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vqocf5/bild_leipzig_are_now_pushing_very_hard_to_sign/",
+      "published": "2026-08-17T10:19:23+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "c836d4f198d8aaae",
+      "title": "PAOK fans protest outside the club's ground after Giannis Konstantelias' transfer to Dortmund has reportedly been finalized",
+      "summary": "Chant roughly translates to &quot;You've got fans, gallant and brave, but a c*nt for an owner&quot; &#32; submitted by &#32; /u/KoupDetat [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vq62up/paok_fans_protest_outside_the_clubs_ground_after/",
+      "published": "2026-08-16T19:24:20+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "90d143a0558e2d5a",
+      "title": "PAOK are in advanced talks with Borussia Dortmund over the signing of 17yr old midfielder Christos Kostoglou as part of the Konstantelias deal",
+      "summary": "&#32; submitted by &#32; /u/Krakper [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vq5wrv/paok_are_in_advanced_talks_with_borussia_dortmund/",
+      "published": "2026-08-16T19:17:46+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "29591d7b2ca964e4",
+      "title": "PAOK Ultras have occupied the club's stadium, demanding to speak with club owner Ivan Savidis, after the reported sale of Giannis Konstantelias",
+      "summary": "As you were informed earlier by Athletiko, a group of fans of the “Double-Headed Eagle of the North” spoke by phone with Giannis Konstantelias during his arrival in Germany. Subsequently, several PAOK fans gathered at Toumba Stadium to protest the player’s transfer to Borussia Dortmund. According to reports, a request has been submitted to the club to arrange a phone call with Ivan Savvidis so they can express their opposition to the move. In fact—just a few minutes ago—a banner with the message",
+      "url": "https://www.reddit.com/r/soccer/comments/1vpwz4t/paok_ultras_have_occupied_the_clubs_stadium/",
+      "published": "2026-08-16T13:23:49+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "d60adf1c2c50a000",
+      "title": "PSV sells Joey Veerman to Borussia Dortmund for 22 millions euros",
+      "summary": "&#32; submitted by &#32; /u/tigtogflip [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vpv1za/psv_sells_joey_veerman_to_borussia_dortmund_for/",
+      "published": "2026-08-16T11:52:24+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "04392d161f9f1128",
+      "title": "What To Watch This Week (17-23 August)",
+      "summary": "These posts are as much for me as they are for you. So please feel free to reply with your suggestions for what to watch, and make a case for any game to be considered 'must watch', in which case I will bold it. The time zone used to sort games was LIS (Lisbon) time zone, so no, the game is not on a wrong date. Monday Time (LIS / LIS -5) Match Competition Round 17:00 / 12:00 AC Pisa 1909 vs Empoli Coppa Italia 18:00 / 13:00 Brøndby IF vs SønderjyskE Danish Superliga 19:45 / 14:45 Cremonese vs Sa",
+      "url": "https://www.reddit.com/r/soccer/comments/1vpsoct/what_to_watch_this_week_1723_august/",
+      "published": "2026-08-16T09:35:35+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "7663e11d2f557a15",
+      "title": "Giannis Konstantelias is flying to Dortmund to sign for Borussia",
+      "summary": "He will join Karetsas in creating a greek subunit within their squad, I just fell to my knees though we're doomed. &#32; submitted by &#32; /u/SonrieAlaVida [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vppwo7/giannis_konstantelias_is_flying_to_dortmund_to/",
+      "published": "2026-08-16T06:49:37+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "4ae107c8a5626c1e",
+      "title": "[VI] Borussia Dortmund are very interested in Joey Veerman. The 27 year old has a €20 million release clause that expires in a few days",
+      "summary": "&#32; submitted by &#32; /u/Mooon8983 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vp82ok/vi_borussia_dortmund_are_very_interested_in_joey/",
+      "published": "2026-08-15T17:02:31+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "081748d4666d7667",
+      "title": "German FA Fines by Club for unsporting behaviour (Season 25–26)",
+      "summary": "https://preview.redd.it/nlruhjkpdkjh1.png?width=1497&amp;format=png&amp;auto=webp&amp;s=8e2538a4899659de51f63c8f643014057e74d576 The North Derby against Werder Bremen in December 2025 alone resulted in a €300,000 fine. Hamburg fans set off 78 flares, 51 strobes, five smoke pots, and at least 80 smoke rockets. &#32; submitted by &#32; /u/Noisy_P [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vp7bre/german_fa_fines_by_club_for_unsporting_behaviour/",
+      "published": "2026-08-15T16:32:49+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "ac87ed32c26a9f16",
+      "title": "Dortmund [2] - 2 AS Roma - Serhou Guirassy 28'",
+      "summary": "&#32; submitted by &#32; /u/eliseihado [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vp6ze1/dortmund_2_2_as_roma_serhou_guirassy_28/",
+      "published": "2026-08-15T16:18:51+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "f68a74e2ed459055",
+      "title": "Dortmund [1] - 2 AS Roma - Julian Ryerson 12'",
+      "summary": "&#32; submitted by &#32; /u/eliseihado [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vp6dr7/dortmund_1_2_as_roma_julian_ryerson_12/",
+      "published": "2026-08-15T15:55:11+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "bac78235d43977f6",
+      "title": "Dortmund 0 - [2] AS Roma - Bryan Cristante 9'",
+      "summary": "&#32; submitted by &#32; /u/eliseihado [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vp677y/dortmund_0_2_as_roma_bryan_cristante_9/",
+      "published": "2026-08-15T15:47:48+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "a1558a637f5f1b3b",
+      "title": "Dortmund 0 - [1] AS Roma - Paulo Dybala 4'",
+      "summary": "&#32; submitted by &#32; /u/eliseihado [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vp663q/dortmund_0_1_as_roma_paulo_dybala_4/",
+      "published": "2026-08-15T15:46:31+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "d72e7735057f9fed",
+      "title": "Match Thread: Borussia Dortmund vs AS Roma | Club Friendly",
+      "summary": "This post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/globalscoreboard [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vp60ym/match_thread_borussia_dortmund_vs_as_roma_club/",
+      "published": "2026-08-15T15:40:44+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "194bcceda4ad39a1",
+      "title": "[Gazzetta] Giannis Konstantelias is Borussia Dortmund's number one transfer target",
+      "summary": "&#32; submitted by &#32; /u/Mooon8983 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vp56wk/gazzetta_giannis_konstantelias_is_borussia/",
+      "published": "2026-08-15T15:06:29+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "625d2841b6360968",
+      "title": "Daily Discussion | August 15, 2026",
+      "summary": "This post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/globalscoreboard [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1voz818/daily_discussion_august_15_2026/",
+      "published": "2026-08-15T10:20:50+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "94ea07607cb3b852",
+      "title": "[Sky Sports] Borussia Dortmund are interested in Hector Fort",
+      "summary": "&#32; submitted by &#32; /u/Mooon8983 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vohnxj/sky_sports_borussia_dortmund_are_interested_in/",
+      "published": "2026-08-14T19:54:04+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "98f67e02a69fe203",
+      "title": "[Official] NEC and Borussia Dortmund have reached agreement on loan transfer of Almugera Kabar (20)",
+      "summary": "&#32; submitted by &#32; /u/Roller95 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vo3a2z/official_nec_and_borussia_dortmund_have_reached/",
+      "published": "2026-08-14T10:14:58+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "66aa1fb8ada277be",
+      "title": "[Patrick Berger] BVB is out of the race for Said El Mala. It was just unanimously decided by the bosses at Borussia Dortmund after the renewed offer from 1. FC Köln was rejected.",
+      "summary": "&#32; submitted by &#32; /u/Crane977 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vo2zr6/patrick_berger_bvb_is_out_of_the_race_for_said_el/",
+      "published": "2026-08-14T09:58:55+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "736123df353e2ef4",
+      "title": "Rangers have failed to reach the league (formerly group) stage of the Champions League or Europa League for the first time since 2017/18",
+      "summary": "&#32; submitted by &#32; /u/CautiousCottager [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vnmi8l/rangers_have_failed_to_reach_the_league_formerly/",
+      "published": "2026-08-13T20:33:46+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "f49e48e945e1a909",
+      "title": "[Conor O'Neill] Football’s most expensive transfers by age and position.",
+      "summary": "&#32; submitted by &#32; /u/Sparky-moon [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vn2yf4/conor_oneill_footballs_most_expensive_transfers/",
+      "published": "2026-08-13T06:36:23+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "fac7aedbf36d7e06",
+      "title": "[Ben Jacobs] Newcastle United showing an interest in Borussia Dortmund’s chief scout Sebastian Krug. Other Premier League and European clubs also have Krug on their radar. Krug played a role in bringing Erling Haaland and Jude Bellingham to Dortmund.",
+      "summary": "&#32; submitted by &#32; /u/ElevensMelody [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vlis7w/ben_jacobs_newcastle_united_showing_an_interest/",
+      "published": "2026-08-11T14:19:38+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "2d766755a07dc800",
+      "title": "[Throwback] Top 10 Most Expensive Summer Signings from 5 years ago, 2021/22 season.",
+      "summary": "&#32; submitted by &#32; /u/MeteorFalls297 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vliql2/throwback_top_10_most_expensive_summer_signings/",
+      "published": "2026-08-11T14:17:52+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
     },
     {
       "id": "b6b5ee671b01a608",
