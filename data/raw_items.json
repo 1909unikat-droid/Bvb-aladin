@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-21T10:57:16.804398+00:00",
-  "duration_s": 124.6,
+  "fetched_at": "2026-08-21T11:20:20.775154+00:00",
+  "duration_s": 120.0,
   "sources_ok": 36,
   "sources_fail": 23,
   "stale_sources": [
@@ -8,7 +8,7 @@
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
       "days_silent": 105,
-      "fail_runs": 40
+      "fail_runs": 41
     },
     {
       "id": "pod_bvb_offiziell",
@@ -19,7 +19,7 @@
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
       "days_silent": 61,
-      "fail_runs": 40
+      "fail_runs": 41
     },
     {
       "id": "pod_auffeohren",
@@ -40,64 +40,78 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 5,
-      "fail_runs": 200
+      "fail_runs": 201
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
       "days_silent": 4,
-      "fail_runs": 29
+      "fail_runs": 30
     },
     {
       "id": "x_bvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 1,
-      "fail_runs": 35
+      "fail_runs": 36
     },
     {
       "id": "x_falk",
       "newest_item": "2026-08-19T12:13:33+00:00",
       "days_silent": 1,
-      "fail_runs": 29
+      "fail_runs": 30
     },
     {
       "id": "x_lafonatebvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 1,
-      "fail_runs": 41
+      "fail_runs": 42
     },
     {
       "id": "x_berger",
       "newest_item": "2026-08-20T17:53:52+00:00",
       "days_silent": 0,
-      "fail_runs": 20
+      "fail_runs": 21
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
       "days_silent": 0,
-      "fail_runs": 27
+      "fail_runs": 28
     },
     {
       "id": "x_optafranz",
       "newest_item": "2026-08-20T11:53:46+00:00",
       "days_silent": 0,
-      "fail_runs": 22
+      "fail_runs": 23
     },
     {
       "id": "x_plettenberg",
       "newest_item": "2026-08-20T17:30:31+00:00",
       "days_silent": 0,
-      "fail_runs": 21
+      "fail_runs": 22
     },
     {
       "id": "x_rn_bvb",
       "newest_item": "2026-08-20T12:27:25+00:00",
       "days_silent": 0,
-      "fail_runs": 27
+      "fail_runs": 28
     }
   ],
   "items": [
+    {
+      "id": "a4ac27b236f48550",
+      "title": "Der BVB schreibt rote Zahlen: \"Komplexes Geschäftsjahr\"",
+      "summary": "Borussia Dortmund fährt im Geschäftsjahr 2025/26 einen dicken Verlust ein. Sinkende TV-Einnahmen durch das frühe Aus in der Champions League führt der BVB als Grund dafür an.",
+      "url": "https://www.kicker.de/der-bvb-schreibt-rote-zahlen-komplexes-geschaeftsjahr-1245513/artikel#omrss",
+      "published": "2026-08-21T10:48:17+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
     {
       "id": "ebe81107f344686c",
       "title": "Bundesliga-Management-Index: \"Die Liga rückt enger zusammen\"",
@@ -365,13 +379,13 @@
       "kind": "rss"
     },
     {
-      "id": "601bf286de317dba",
-      "title": "Die Nachwehen im El-Mala-Poker: Dortmunds Rückzug hat Kessler nicht überrascht",
-      "summary": "Am Freitag erklärten die Verantwortlichen von Borussia Dortmund ihr Werben um Said El Mala für beendet. Thomas Kessler war das schon vorher klar. Kölns Sport-Geschäftsführer erlebt einen \"total stolzen\" 19-Jährigen.",
-      "url": "https://www.kicker.de/die-nachwehen-im-el-mala-poker-dortmunds-rueckzug-hat-kessler-nicht-ueberrascht-1243493/artikel#omrss",
-      "published": "2026-08-16T16:06:56+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
+      "id": "a4ac27b236f48550",
+      "title": "Der BVB schreibt rote Zahlen: \"Komplexes Geschäftsjahr\"",
+      "summary": "Borussia Dortmund fährt im Geschäftsjahr 2025/26 einen dicken Verlust ein. Sinkende TV-Einnahmen durch das frühe Aus in der Champions League führt der BVB als Grund dafür an.",
+      "url": "https://www.kicker.de/der-bvb-schreibt-rote-zahlen-komplexes-geschaeftsjahr-1245513/artikel#omrss",
+      "published": "2026-08-21T10:48:17+00:00",
+      "source_id": "kicker_bundesliga",
+      "source_name": "kicker Bundesliga",
       "tier": 2,
       "credibility": 8,
       "host": "www.kicker.de",
@@ -752,21 +766,6 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://assets-de.imgfoot.com/media/cache/1200x675/lars-ricken-2526-6a561ee0e55aa.jpg"
-    },
-    {
-      "id": "cd998002054c8d75",
-      "title": "Asllani doch noch zum BVB?",
-      "summary": "Vor kurzem platzte Fisnik Asllanis Wechsel zu RB Leipzig auf den letzten Drücker. Aber ein Transfer in diesem Sommer ist damit nicht vom Tisch, Borussia Dortmund liegt allem Anschein nach weiterhin (…)",
-      "url": "https://www.fussballtransfers.com/a1213647875446254513-asllani-doch-noch-zum-bvb",
-      "published": "2026-08-20T13:48:02+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/fisnik-asllani-2627-6a86e6ec1b110.jpg"
     },
     {
       "id": "cc2be62e7d2affbe",
@@ -55239,6 +55238,21 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c47/live/85680480-b69e-11f0-b2a1-6f537f66f9aa.jpg"
+    },
+    {
+      "id": "1c6fb6b279dcca61",
+      "title": "Traumstart für BVB-Frauen? Von wegen! Was Alex Popp noch stört",
+      "summary": "Trotz des klaren 3:0-Erfolgs über Arminia Bielefeld will man beim BVB nicht von einem Traumstart sprechen. Wo die Kapitänin Verbesserungspotenzial sieht.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412921855/traumstart-fuer-bvb-frauen-von-wegen-was-alex-popp-noch-stoert.html",
+      "published": "2026-08-21T11:08:50+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412924275/412924275_1787302933_v16_9_600.jpeg"
     },
     {
       "id": "4329f2a6a440c404",
