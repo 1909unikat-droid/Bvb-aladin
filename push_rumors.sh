@@ -11,6 +11,11 @@
 #   - vibe_history.json wird hier NICHT gepusht: die publiziert die GitHub
 #     Action gebündelt mit news.json (kein Extra-Deploy, Tages-Granularität
 #     reicht der Sparkline).
+#   - squad.json + squad_2026.json laufen höchstens 1x/Tag durch den Fetcher
+#     (Tageslimit in run_refresh.sh) — also maximal 2 Deploys/Tag, und auch
+#     die nur bei echter Kader-Änderung. Kein Eintrag in VOLATILE: marketValue
+#     ist bei TM keine Pro-Scrape-Jitter-Größe, sondern genau die Substanz,
+#     die die Kader-Seite anzeigt (und rumors.json führt dasselbe Feld).
 #   - Volatile Felder (tmProbability jittert pro TM-Scrape um ±1, sources/
 #     lastMention wandern mit dem rollenden News-Fenster) zählen NICHT als
 #     inhaltliche Änderung — sonst pusht fast jeder 30-min-Lauf (gemessen
@@ -105,7 +110,7 @@ push_file() {
   b64=$(base64 < "$path" | tr -d '\n') || return 0
 
   if gh api -X PUT "repos/$REPO/contents/$path" \
-      -f message="chore: rumors refresh $(date -u +%Y-%m-%dT%H:%MZ) [local]" \
+      -f message="chore: $(basename "$path" .json) refresh $(date -u +%Y-%m-%dT%H:%MZ) [local]" \
       -f content="$b64" \
       -f branch="$BRANCH" \
       ${remote_sha:+-f sha="$remote_sha"} >/dev/null 2>&1; then
@@ -118,4 +123,6 @@ push_file() {
 
 push_file "web/public/data/rumors.json"
 push_file "web/public/data/injuries.json"
+push_file "web/public/data/squad.json"
+push_file "web/public/data/squad_2026.json"
 exit 0

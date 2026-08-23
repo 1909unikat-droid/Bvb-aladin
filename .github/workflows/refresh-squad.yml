@@ -1,24 +1,33 @@
-name: Refresh BVB Squad
+name: Refresh BVB Squad (Diagnose)
 
+# PUBLISHER-SPLIT: Die Kader-Daten publiziert AUSSCHLIESSLICH der Mac
+# (squad_fetcher.py im halbstündlichen run_refresh.sh, max. 1x/Tag, danach
+# push_rumors.sh → web/public/data/squad*.json).
+#
+# Grund: Transfermarkt blockt die Runner-IPs. Im Lauf vom 2026-08-22 sind ALLE
+# Teams mit "[FAIL] … no items table found" gescheitert — inklusive profis —,
+# der Fetcher ist auf die zwischengespeicherten Daten zurückgefallen und hätte
+# einen Stand mit pending=true committet. Vom Mac (Residential-IP, HTTP 200)
+# kommen echte 26/27-Daten mit pending=false. Ein Commit von hier würde also
+# den guten Mac-Stand mit einem Fallback überschreiben — dasselbe
+# Dual-Publisher-Ping-Pong, das bei rumors.json/injuries.json schon beseitigt
+# wurde, und jedes Ping-Pong kostet einen Vercel-Deploy.
+#
+# Deshalb: kein schedule, kein push-Trigger, kein Commit-Schritt. Was bleibt,
+# ist ein rein manueller Notnagel — ein Lauf zeigt in den Logs, ob TM von den
+# Actions-IPs aus wieder erreichbar ist. Er schreibt nichts ins Repo.
 on:
-  schedule:
-    # Täglich um 05:00 UTC (07:00 MESZ) — TM-Daten ändern sich selten
-    - cron: "0 5 * * *"
-  workflow_dispatch: {}  # Manueller Trigger via GitHub UI
-  push:
-    branches: [main]
-    paths:
-      - "squad_fetcher.py"
+  workflow_dispatch: {}
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: refresh-squad
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  probe:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -34,17 +43,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch squad from Transfermarkt
+      - name: Probe Transfermarkt (Diagnose, wird NICHT committet)
         run: python squad_fetcher.py
-
-      - name: Commit squad data (only if changed)
-        run: |
-          git config user.name  "bvb-aladin-bot"
-          git config user.email "bvb-aladin-bot@users.noreply.github.com"
-          git add data/squad.json data/squad_2026.json
-          if git diff --cached --quiet; then
-            echo "no changes — skipping commit"
-          else
-            git commit -m "chore: refresh squad $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
-          fi
