@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T16:19:06.619377+00:00",
+  "updated_at": "2026-08-23T16:52:10.745918+00:00",
   "items": [
     {
       "id": "0a0b639ccc673d55",
@@ -11,7 +11,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.52,
+      "score": 6.48,
       "category": "injury",
       "confirmations": [
         {
@@ -24,7 +24,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.947,
+        "recency": 0.927,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -40,7 +40,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.4,
+      "score": 6.36,
       "category": "injury",
       "confirmations": [
         {
@@ -53,7 +53,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.888,
+        "recency": 0.869,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -68,7 +68,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 6.27,
+      "score": 6.25,
       "category": "other",
       "confirmations": [
         {
@@ -81,11 +81,40 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.5,
+        "recency": 0.489,
         "specificity": 0.5,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/2Nupbuokzjo/hqdefault.jpg"
+    },
+    {
+      "id": "1fab281fecbab208",
+      "title": "„Langwierig“: BVB-Star Schlotterbeck gibt Update zu seinem Verletzungsstand",
+      "summary": "Wann kehrt Nico Schlotterbeck zum BVB zurück? Am Rande eines Formel-1-Rennens äußert sich der Dortmunder zu seiner Verletzung.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412943366/langwierig-bvb-star-schlotterbeck-gibt-update-zu-seinem-verletzungsstand.html",
+      "published": "2026-08-23T16:17:29+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 6.23,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/borussia-dortmund/article412943366/langwierig-bvb-star-schlotterbeck-gibt-update-zu-seinem-verletzungsstand.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.978,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://img.sparknews.funkemedien.de/412943440/412943440_1787501820_v16_9_600.jpeg"
     },
     {
       "id": "aeaeb4f63c03f2a8",
@@ -97,7 +126,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 6.18,
+      "score": 6.14,
       "category": "matchday",
       "confirmations": [
         {
@@ -110,11 +139,40 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.955,
+        "recency": 0.934,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://assets-de.imgfoot.com/media/cache/1200x675/fabio-silva-2627-6a8b0bbac30a4.jpg"
+    },
+    {
+      "id": "721c4f397e819d28",
+      "title": "Bundesliga 2026/27 Tactical Previews | Borussia Dortmund",
+      "summary": "The next installment of our Get German Football News Bundesliga tactical previews series takes a look at Borussia Dortmund.",
+      "url": "https://www.getfootballnewsgermany.com/2026/bundesliga-dortmund-prev-26/",
+      "published": "2026-08-23T16:20:09+00:00",
+      "source": "Get German Football News BVB",
+      "source_id": "ggfn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 6.1,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Get German Football News BVB",
+          "url": "https://www.getfootballnewsgermany.com/2026/bundesliga-dortmund-prev-26/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.98,
+        "specificity": 0.4,
+        "relevance": 0.667
+      },
+      "image": "https://www.footballuser.com/formations/2026/08/648x810/2084688_Borussia-Dortmund.jpg"
     },
     {
       "id": "d648770d67c683b0",
@@ -126,7 +184,7 @@
       "source_id": "sportschau_bl",
       "tier": 2,
       "kind": "rss",
-      "score": 6.1,
+      "score": 6.07,
       "category": "other",
       "confirmations": [
         {
@@ -139,7 +197,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.737,
+        "recency": 0.722,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -155,7 +213,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.93,
+      "score": 5.9,
       "category": "other",
       "confirmations": [
         {
@@ -168,40 +226,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.82,
+        "recency": 0.802,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/23/11/630_0900_6723408_-320x160.jpg"
-    },
-    {
-      "id": "ef6e9879d5701482",
-      "title": "Wechsel von BVB-Flirt fix: Er kostet mindestens 50 Millionen Euro",
-      "summary": "Diego Moreira wechselt zur AC Mailand – ein Transfer, der den BVB am Ende auch aus sportlichen Gründen nicht überzeugt hätte.",
-      "url": "https://www.ruhr24.de/bvb/bvb-diego-moreira-transfer-wechsel-ac-mailand-abloese-news-strassburg-borussia-dortmund-94456054.html",
-      "published": "2026-08-23T13:45:14+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.92,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-diego-moreira-transfer-wechsel-ac-mailand-abloese-news-strassburg-borussia-dortmund-94456054.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.906,
-        "specificity": 0.7,
-        "relevance": 0.333
-      },
-      "image": "https://www.ruhr24.de/assets/images/43/809/43809828-ex-bvb-kandidat-diego-moreira-gibt-einem-kind-ein-autogramm-2gW8htiUsVef.jpg"
     },
     {
       "id": "9d32e634881f5954",
@@ -213,7 +242,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 5.92,
+      "score": 5.89,
       "category": "other",
       "confirmations": [
         {
@@ -226,11 +255,40 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.825,
+        "recency": 0.808,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://assets-de.imgfoot.com/media/cache/1200x675/ole-book-2526-69e0790d95c40.jpg"
+    },
+    {
+      "id": "ef6e9879d5701482",
+      "title": "Wechsel von BVB-Flirt fix: Er kostet mindestens 50 Millionen Euro",
+      "summary": "Diego Moreira wechselt zur AC Mailand – ein Transfer, der den BVB am Ende auch aus sportlichen Gründen nicht überzeugt hätte.",
+      "url": "https://www.ruhr24.de/bvb/bvb-diego-moreira-transfer-wechsel-ac-mailand-abloese-news-strassburg-borussia-dortmund-94456054.html",
+      "published": "2026-08-23T13:45:14+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.88,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/bvb/bvb-diego-moreira-transfer-wechsel-ac-mailand-abloese-news-strassburg-borussia-dortmund-94456054.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.887,
+        "specificity": 0.7,
+        "relevance": 0.333
+      },
+      "image": "https://www.ruhr24.de/assets/images/43/809/43809828-ex-bvb-kandidat-diego-moreira-gibt-einem-kind-ein-autogramm-2gW8htiUsVef.jpg"
     },
     {
       "id": "e7177ebfe1a71de2",
@@ -242,7 +300,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.9,
+      "score": 5.86,
       "category": "injury",
       "confirmations": [
         {
@@ -255,7 +313,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.981,
+        "recency": 0.96,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -271,7 +329,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 5.87,
+      "score": 5.83,
       "category": "injury",
       "confirmations": [
         {
@@ -284,7 +342,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.964,
+        "recency": 0.944,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -300,7 +358,7 @@
       "source_id": "bsky_schwatzgelb",
       "tier": 4,
       "kind": "rss",
-      "score": 5.87,
+      "score": 5.83,
       "category": "other",
       "confirmations": [
         {
@@ -313,7 +371,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.873,
+        "recency": 0.855,
         "specificity": 0.4,
         "relevance": 1.0
       }
@@ -328,7 +386,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.82,
+      "score": 5.8,
       "category": "other",
       "confirmations": [
         {
@@ -341,7 +399,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.599,
+        "recency": 0.586,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -357,7 +415,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 5.82,
+      "score": 5.8,
       "category": "other",
       "confirmations": [
         {
@@ -370,7 +428,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.599,
+        "recency": 0.586,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -386,7 +444,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.79,
+      "score": 5.76,
       "category": "matchday",
       "confirmations": [
         {
@@ -399,7 +457,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.748,
+        "recency": 0.732,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -415,7 +473,7 @@
       "source_id": "sportschau_bl",
       "tier": 2,
       "kind": "rss",
-      "score": 5.77,
+      "score": 5.73,
       "category": "other",
       "confirmations": [
         {
@@ -428,7 +486,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.737,
+        "recency": 0.721,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -444,7 +502,7 @@
       "source_id": "schwatzgelb",
       "tier": 4,
       "kind": "rss",
-      "score": 5.67,
+      "score": 5.63,
       "category": "other",
       "confirmations": [
         {
@@ -457,7 +515,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.873,
+        "recency": 0.854,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -473,7 +531,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.65,
+      "score": 5.61,
       "category": "other",
       "confirmations": [
         {
@@ -486,7 +544,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.853,
+        "recency": 0.835,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -502,7 +560,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.61,
+      "score": 5.59,
       "category": "other",
       "confirmations": [
         {
@@ -515,40 +573,11 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.486,
+        "recency": 0.476,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://i.ytimg.com/vi/oNoGKvPzXeY/hqdefault.jpg"
-    },
-    {
-      "id": "588cfa8c3a8732cc",
-      "title": "BVB-Spieler im Krankenhaus: Die Diagnose ist da",
-      "summary": "Nach seiner Verletzung im Supercup musste BVB-Star Ramy Bensebaini ins Krankenhaus. Ihm droht ein Ausfall.",
-      "url": "https://www.ruhr24.de/bvb/bvb-news-ramy-bensebaini-verletzt-diagnose-krankenhaus-supercup-rippe-fc-bayern-borussia-dortmund-94455857.html",
-      "published": "2026-08-23T11:27:02+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.6,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-news-ramy-bensebaini-verletzt-diagnose-krankenhaus-supercup-rippe-fc-bayern-borussia-dortmund-94455857.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.829,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://www.ruhr24.de/assets/images/43/815/43815241-bvb-profis-bensebaini-und-anton-2Cvrs6kBktef.jpg"
     },
     {
       "id": "337d149de8e1b728",
@@ -560,7 +589,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.59,
+      "score": 5.57,
       "category": "other",
       "confirmations": [
         {
@@ -573,11 +602,40 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.483,
+        "recency": 0.473,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/22/21/630_0900_6722167_-320x160.jpg"
+    },
+    {
+      "id": "588cfa8c3a8732cc",
+      "title": "BVB-Spieler im Krankenhaus: Die Diagnose ist da",
+      "summary": "Nach seiner Verletzung im Supercup musste BVB-Star Ramy Bensebaini ins Krankenhaus. Ihm droht ein Ausfall.",
+      "url": "https://www.ruhr24.de/bvb/bvb-news-ramy-bensebaini-verletzt-diagnose-krankenhaus-supercup-rippe-fc-bayern-borussia-dortmund-94455857.html",
+      "published": "2026-08-23T11:27:02+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.56,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/bvb/bvb-news-ramy-bensebaini-verletzt-diagnose-krankenhaus-supercup-rippe-fc-bayern-borussia-dortmund-94455857.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.812,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://www.ruhr24.de/assets/images/43/815/43815241-bvb-profis-bensebaini-und-anton-2Cvrs6kBktef.jpg"
     },
     {
       "id": "0085db9bf297cfbb",
@@ -589,7 +647,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.56,
+      "score": 5.54,
       "category": "background",
       "confirmations": [
         {
@@ -602,7 +660,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.466,
+        "recency": 0.456,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -618,7 +676,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 5.56,
+      "score": 5.54,
       "category": "matchday",
       "confirmations": [
         {
@@ -631,40 +689,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.644,
+        "recency": 0.63,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://img.sparknews.funkemedien.de/412937089/412937089_1787439191_v16_9_600.jpeg"
-    },
-    {
-      "id": "be997150be84f2db",
-      "title": "BVB und Bayern machen Werbung für die Bundesliga – mit Einschränkungen",
-      "summary": "Im Supercup bieten der BVB und die Bayern viel Tempo, Spannung und interessante Spieler. Die Hoffnung auf einen spannenden Titelkampf kann das Spiel aber nicht nähren.",
-      "url": "https://www.waz.de/sport/article412937340/bvb-und-bayern-machen-werbung-fuer-die-bundesliga-mit-einschraenkungen.html",
-      "published": "2026-08-23T14:54:58+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.5,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/article412937340/bvb-und-bayern-machen-werbung-fuer-die-bundesliga-mit-einschraenkungen.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.947,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://img.sparknews.funkemedien.de/412942391/412942391_1787494136_v16_9_600.jpeg"
     },
     {
       "id": "733d3a2698dfe2ee",
@@ -696,6 +725,35 @@
       "image": "https://i.ytimg.com/vi/O996Fe-EepI/hqdefault.jpg"
     },
     {
+      "id": "be997150be84f2db",
+      "title": "BVB und Bayern machen Werbung für die Bundesliga – mit Einschränkungen",
+      "summary": "Im Supercup bieten der BVB und die Bayern viel Tempo, Spannung und interessante Spieler. Die Hoffnung auf einen spannenden Titelkampf kann das Spiel aber nicht nähren.",
+      "url": "https://www.waz.de/sport/article412937340/bvb-und-bayern-machen-werbung-fuer-die-bundesliga-mit-einschraenkungen.html",
+      "published": "2026-08-23T14:54:58+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.46,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/article412937340/bvb-und-bayern-machen-werbung-fuer-die-bundesliga-mit-einschraenkungen.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.928,
+        "specificity": 0.2,
+        "relevance": 0.333
+      },
+      "image": "https://img.sparknews.funkemedien.de/412942391/412942391_1787494136_v16_9_600.jpeg"
+    },
+    {
       "id": "5b9e1314b072a996",
       "title": "\"Some promising signs\" - Dortmund custodian optimistic of revival after Supercup defeat",
       "summary": "BVB lost 2-1 to Bayern on Saturday as Niko Kovac's wait for a first trophy with the club continued!",
@@ -705,7 +763,7 @@
       "source_id": "bvbbuzz",
       "tier": 4,
       "kind": "rss",
-      "score": 5.48,
+      "score": 5.44,
       "category": "other",
       "confirmations": [
         {
@@ -718,7 +776,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.951,
+        "recency": 0.931,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -734,7 +792,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.47,
+      "score": 5.43,
       "category": "other",
       "confirmations": [
         {
@@ -747,7 +805,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.856,
+        "recency": 0.838,
         "specificity": 0.0,
         "relevance": 0.333
       },
@@ -763,7 +821,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.46,
+      "score": 5.42,
       "category": "other",
       "confirmations": [
         {
@@ -776,7 +834,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.926,
+        "recency": 0.907,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -792,7 +850,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.41,
+      "score": 5.4,
       "category": "other",
       "confirmations": [
         {
@@ -810,39 +868,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.5,
-        "recency": 0.247,
+        "recency": 0.242,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://img.sparknews.funkemedien.de/412930960/412930960_1787334434_v16_9_600.jpeg"
-    },
-    {
-      "id": "8729297351063253",
-      "title": "Schlotterbeck: \"Ich habe mich selbst hinterfragt\"",
-      "summary": "Der FC Augsburg steht in der nächsten Pokalrunde, auch dank Keven Schlotterbeck. Doch der Abwehrspieler blickt selbstkritisch auf seine Vorbereitung zurück.",
-      "url": "https://www.kicker.de/schlotterbeck-ich-habe-mich-selbst-hinterfragt-1245847/artikel#omrss",
-      "published": "2026-08-23T08:03:31+00:00",
-      "source": "kicker DFB-Pokal",
-      "source_id": "kicker_pokal",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.41,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "kicker DFB-Pokal",
-          "url": "https://www.kicker.de/schlotterbeck-ich-habe-mich-selbst-hinterfragt-1245847/artikel#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.728,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
     },
     {
       "id": "4da1f2f0e69bdfed",
@@ -867,9 +897,37 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.134,
+        "recency": 0.131,
         "specificity": 0.7,
         "relevance": 1.0
+      }
+    },
+    {
+      "id": "8729297351063253",
+      "title": "Schlotterbeck: \"Ich habe mich selbst hinterfragt\"",
+      "summary": "Der FC Augsburg steht in der nächsten Pokalrunde, auch dank Keven Schlotterbeck. Doch der Abwehrspieler blickt selbstkritisch auf seine Vorbereitung zurück.",
+      "url": "https://www.kicker.de/schlotterbeck-ich-habe-mich-selbst-hinterfragt-1245847/artikel#omrss",
+      "published": "2026-08-23T08:03:31+00:00",
+      "source": "kicker DFB-Pokal",
+      "source_id": "kicker_pokal",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.38,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "kicker DFB-Pokal",
+          "url": "https://www.kicker.de/schlotterbeck-ich-habe-mich-selbst-hinterfragt-1245847/artikel#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.712,
+        "specificity": 0.2,
+        "relevance": 0.333
       }
     },
     {
@@ -882,7 +940,7 @@
       "source_id": "ggfn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.38,
+      "score": 5.36,
       "category": "other",
       "confirmations": [
         {
@@ -895,39 +953,10 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.469,
+        "recency": 0.459,
         "specificity": 0.7,
         "relevance": 0.667
       }
-    },
-    {
-      "id": "5f6e2abfa9563cdb",
-      "title": "Borussia Dortmund 1-2 Bayern Munich: Player ratings for BVB from Supercup loss",
-      "summary": "Fabio Silva's second-half strike wasn't enough to keep Dortmund afloat as Bayern lifted 12th Supercup title.",
-      "url": "https://bvbbuzz.com/borussia-dortmund-1-2-bayern-munich-player-ratings-for-bvb-from-supercup-loss-01m0pqj273jj?utm_source=RSS",
-      "published": "2026-08-23T13:00:01+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
-      "tier": 4,
-      "kind": "rss",
-      "score": 5.34,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/borussia-dortmund-1-2-bayern-munich-player-ratings-for-bvb-from-supercup-loss-01m0pqj273jj?utm_source=RSS",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.88,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4282,h_2408,x_0,y_211/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0pqmztdp5fpq7t5bg.jpg"
     },
     {
       "id": "d872329a3c0135bf",
@@ -939,7 +968,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.32,
+      "score": 5.3,
       "category": "other",
       "confirmations": [
         {
@@ -952,11 +981,40 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.522,
+        "recency": 0.511,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://bulinews.com/i/1280/19916.jpg"
+    },
+    {
+      "id": "5f6e2abfa9563cdb",
+      "title": "Borussia Dortmund 1-2 Bayern Munich: Player ratings for BVB from Supercup loss",
+      "summary": "Fabio Silva's second-half strike wasn't enough to keep Dortmund afloat as Bayern lifted 12th Supercup title.",
+      "url": "https://bvbbuzz.com/borussia-dortmund-1-2-bayern-munich-player-ratings-for-bvb-from-supercup-loss-01m0pqj273jj?utm_source=RSS",
+      "published": "2026-08-23T13:00:01+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 5.3,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/borussia-dortmund-1-2-bayern-munich-player-ratings-for-bvb-from-supercup-loss-01m0pqj273jj?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.862,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4282,h_2408,x_0,y_211/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0pqmztdp5fpq7t5bg.jpg"
     },
     {
       "id": "4d31a3c1b67a5ad8",
@@ -968,7 +1026,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.31,
+      "score": 5.29,
       "category": "matchday",
       "confirmations": [
         {
@@ -981,93 +1039,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.51,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
-      "id": "f6df9015fba8a473",
-      "title": "BVB-Kapitän? Waldemar Anton gibt klare Antwort",
-      "summary": "Wer übernimmt das Amt des BVB‑Kapitäns? Nach einigen Experimenten bringt Waldemar Anton – der die Binde im Supercup trug – Licht ins Dunkel.",
-      "url": "https://www.ruhr24.de/bvb/bvb-kapitaen-waldemar-anton-nico-schlotterbeck-emre-can-felix-nmecha-borussia-dortmund-94455529.html",
-      "published": "2026-08-23T06:09:11+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.29,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-kapitaen-waldemar-anton-nico-schlotterbeck-emre-can-felix-nmecha-borussia-dortmund-94455529.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.676,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://www.ruhr24.de/assets/images/43/811/43811598-bvb-kapitaen-anton-2kKazXrK1kef.jpg"
-    },
-    {
-      "id": "13c43db9a85f24cf",
-      "title": "Nach BVB-Platzverweis im Supercup: Ramy Bensebaini direkt ins Krankenhaus",
-      "summary": "BVB-Profi Ramy Bensebaini fliegt im Supercup mit Rot vom Platz – und wird nach dem Schlusspfiff direkt ins Krankenhaus gebracht. Die Hintergründe.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-ramy-bensebaini-platzverweis-supercup-bayern-krankenhaus-w1237967-2002194716/",
-      "published": "2026-08-22T22:09:32+00:00",
-      "source": "Ruhr Nachrichten BVB",
-      "source_id": "rn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.29,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Ruhr Nachrichten BVB",
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-ramy-bensebaini-platzverweis-supercup-bayern-krankenhaus-w1237967-2002194716/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.497,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/23/09/630_0900_6722656_-320x160.jpg"
-    },
-    {
-      "id": "4dc0042603aae0e7",
-      "title": "Kovac über BVB-Neulinge: \"Gezeigt, warum wir sie verpflichtet haben\"",
-      "summary": "Niko Kovac sprach nach dem ersten Pflichtspiel-Auftritt über seinen Eindruck von den BVB-Neuzugängen. Er erkannte dabei durchaus gute Ansätze.",
-      "url": "https://www.kicker.de/kovac-ueber-bvb-neulinge-gezeigt-warum-wir-sie-verpflichtet-haben-1245941/video#omrss",
-      "published": "2026-08-22T22:00:20+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.28,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/kovac-ueber-bvb-neulinge-gezeigt-warum-wir-sie-verpflichtet-haben-1245941/video#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.494,
+        "recency": 0.499,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1095,11 +1067,68 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.052,
+        "recency": 0.051,
         "specificity": 0.4,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/Qnb9TJC4LqA/hqdefault.jpg"
+    },
+    {
+      "id": "4dc0042603aae0e7",
+      "title": "Kovac über BVB-Neulinge: \"Gezeigt, warum wir sie verpflichtet haben\"",
+      "summary": "Niko Kovac sprach nach dem ersten Pflichtspiel-Auftritt über seinen Eindruck von den BVB-Neuzugängen. Er erkannte dabei durchaus gute Ansätze.",
+      "url": "https://www.kicker.de/kovac-ueber-bvb-neulinge-gezeigt-warum-wir-sie-verpflichtet-haben-1245941/video#omrss",
+      "published": "2026-08-22T22:00:20+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.26,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/kovac-ueber-bvb-neulinge-gezeigt-warum-wir-sie-verpflichtet-haben-1245941/video#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.484,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
+    },
+    {
+      "id": "13c43db9a85f24cf",
+      "title": "Nach BVB-Platzverweis im Supercup: Ramy Bensebaini direkt ins Krankenhaus",
+      "summary": "BVB-Profi Ramy Bensebaini fliegt im Supercup mit Rot vom Platz – und wird nach dem Schlusspfiff direkt ins Krankenhaus gebracht. Die Hintergründe.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-ramy-bensebaini-platzverweis-supercup-bayern-krankenhaus-w1237967-2002194716/",
+      "published": "2026-08-22T22:09:32+00:00",
+      "source": "Ruhr Nachrichten BVB",
+      "source_id": "rn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.26,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Ruhr Nachrichten BVB",
+          "url": "https://www.ruhrnachrichten.de/bvb/bvb-ramy-bensebaini-platzverweis-supercup-bayern-krankenhaus-w1237967-2002194716/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.487,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/23/09/630_0900_6722656_-320x160.jpg"
     },
     {
       "id": "7e4dd785a766b874",
@@ -1111,7 +1140,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.27,
+      "score": 5.24,
       "category": "other",
       "confirmations": [
         {
@@ -1124,7 +1153,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.662,
+        "recency": 0.648,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -1140,7 +1169,7 @@
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.24,
+      "score": 5.21,
       "category": "other",
       "confirmations": [
         {
@@ -1153,7 +1182,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.751,
+        "recency": 0.735,
         "specificity": 0.0,
         "relevance": 0.667
       },
@@ -1198,7 +1227,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 5.1,
+      "score": 5.09,
       "category": "other",
       "confirmations": [
         {
@@ -1211,7 +1240,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.238,
+        "recency": 0.233,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1227,7 +1256,7 @@
       "source_id": "yt_poehlerz",
       "tier": 4,
       "kind": "youtube",
-      "score": 5.1,
+      "score": 5.08,
       "category": "other",
       "confirmations": [
         {
@@ -1240,7 +1269,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.488,
+        "recency": 0.478,
         "specificity": 0.4,
         "relevance": 1.0
       },
@@ -1256,7 +1285,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.08,
+      "score": 5.07,
       "category": "other",
       "confirmations": [
         {
@@ -1269,7 +1298,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.127,
+        "recency": 0.125,
         "specificity": 0.4,
         "relevance": 1.0
       }
@@ -1284,7 +1313,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.06,
+      "score": 5.05,
       "category": "other",
       "confirmations": [
         {
@@ -1297,7 +1326,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.124,
+        "recency": 0.121,
         "specificity": 0.7,
         "relevance": 0.333
       },
@@ -1313,7 +1342,7 @@
       "source_id": "fearthewall",
       "tier": 4,
       "kind": "rss",
-      "score": 5.04,
+      "score": 5.02,
       "category": "other",
       "confirmations": [
         {
@@ -1336,40 +1365,11 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.5,
-        "recency": 0.412,
+        "recency": 0.404,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2291565606.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "id": "2f522e4ed64542c2",
-      "title": "Kovac calls for apology after touchline clash with Bayern assistant Danks",
-      "summary": "Niko Kovac has opened up about his touchline spat with Bayern assistant coach Aaron Danks during the DFL-Supercup.",
-      "url": "https://bulinews.com/kovac-calls-for-apology-after-touchline-clash-bayern-assistant-danks",
-      "published": "2026-08-23T07:41:00+00:00",
-      "source": "Bulinews Dortmund",
-      "source_id": "bulinews_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.04,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Bulinews Dortmund",
-          "url": "https://bulinews.com/kovac-calls-for-apology-after-touchline-clash-bayern-assistant-danks",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.717,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://bulinews.com/i/1280/19918.jpg"
     },
     {
       "id": "544811a9b672de9d",
@@ -1381,7 +1381,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 5.04,
+      "score": 5.02,
       "category": "other",
       "confirmations": [
         {
@@ -1394,7 +1394,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.381,
+        "recency": 0.373,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1410,7 +1410,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.03,
+      "score": 5.01,
       "category": "transfers",
       "confirmations": [
         {
@@ -1423,56 +1423,28 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.537,
+        "recency": 0.526,
         "specificity": 0.2,
         "relevance": 0.333
       },
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/23/00/630_0900_6722291_-320x160.jpg"
     },
     {
-      "id": "7f0c62dc254c524c",
-      "title": "DFB-Pokal: Diese Erstrundenspiele laufen im Free-TV",
-      "summary": "Anstelle von vier Spielen werden sogar sechs Partien der ersten Runde des DFB-Pokals im Free-TV laufen. Möglich macht das die Übernahme von Sky durch RTL, das die zwei zusätzlichen Begegnungen übertragen wird. Ein Überblick über die Free-TV-Spiele.",
-      "url": "https://www.kicker.de/dfb-pokal-diese-erstrundenspiele-laufen-im-free-tv-1240383/artikel#omrss",
-      "published": "2026-08-23T06:44:28+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
+      "id": "2f522e4ed64542c2",
+      "title": "Kovac calls for apology after touchline clash with Bayern assistant Danks",
+      "summary": "Niko Kovac has opened up about his touchline spat with Bayern assistant coach Aaron Danks during the DFL-Supercup.",
+      "url": "https://bulinews.com/kovac-calls-for-apology-after-touchline-clash-bayern-assistant-danks",
+      "published": "2026-08-23T07:41:00+00:00",
+      "source": "Bulinews Dortmund",
+      "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
       "score": 5.01,
       "category": "other",
       "confirmations": [
         {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/dfb-pokal-diese-erstrundenspiele-laufen-im-free-tv-1240383/artikel#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.692,
-        "specificity": 0.2,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "0d62e5dccf49d31c",
-      "title": "FC Bayern setzt im Supercup ein Zeichen – BVB darf sich dennoch Hoffnung machen",
-      "summary": "Titelverteidiger FC Bayern beweist schon vor dem Bundesligastart beeindruckende Frühform. Doch auch der BVB sieht trotz Supercup-Niederlage viele positive Zeichen.",
-      "url": "https://www.waz.de/sport/article412937323/fc-bayern-setzt-im-supercup-ein-zeichen-bvb-darf-sich-dennoch-hoffnung-machen.html",
-      "published": "2026-08-23T10:33:32+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.01,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/article412937323/fc-bayern-setzt-im-supercup-ein-zeichen-bvb-darf-sich-dennoch-hoffnung-machen.html",
+          "source": "Bulinews Dortmund",
+          "url": "https://bulinews.com/kovac-calls-for-apology-after-touchline-clash-bayern-assistant-danks",
           "tier": 2
         }
       ],
@@ -1480,40 +1452,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.801,
-        "specificity": 0.0,
+        "recency": 0.702,
+        "specificity": 0.2,
         "relevance": 0.333
       },
-      "image": "https://img.sparknews.funkemedien.de/412937333/412937333_1787481212_v16_9_600.jpeg"
-    },
-    {
-      "id": "9ce70637b4abaa6a",
-      "title": "Post-Supercup Reactions: Sloppy, With Hints of Promise",
-      "summary": "Borussia Dortmund’s first “competitive” match of the season ended in defeat, with Die Schwarzgelben falling by the score of 2-1 to Bayern Munich at home in the Franz Beckenbauer Supercup. It was a close-fought battle and Dortmund were one reasonably competent finish from Maxi Beier away from sending the game to penalties, but the Bavarians [&#8230;]",
-      "url": "https://www.fearthewall.com/general/24643/post-supercup-reactions-sloppy-with-hints-of-promise",
-      "published": "2026-08-23T00:08:42+00:00",
-      "source": "Fear The Wall",
-      "source_id": "fearthewall",
-      "tier": 4,
-      "kind": "rss",
-      "score": 5.0,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Fear The Wall",
-          "url": "https://www.fearthewall.com/general/24643/post-supercup-reactions-sloppy-with-hints-of-promise",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.536,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2291590180.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+      "image": "https://bulinews.com/i/1280/19918.jpg"
     },
     {
       "id": "280b74532fe4e5b3",
@@ -1545,49 +1488,78 @@
       "image": "https://cdn.audiorella.com/podcasts/1498-auffe-sud-der-bvb-podcast-von-sky-sport/1498_cover.jpg?v=1"
     },
     {
-      "id": "2f3fba417013efb4",
-      "title": "What is your opinion on our new signings match yesterday?",
-      "summary": "What do you have to say about our new lads who played their first official match yesterday?Personally,i liked it.Konstantelias and Karetsas will lead Dortmund’s attack,they were amanzing and they actually tried.Passes, attacks.At one point,on of them evem cheered off the fans to get louder.And i also observed that with the greeks in the attack,Guirassy was playing better.I mean,he did not lose so many passes,and did not fall so easily.He actually presented attacking threa,and i think it was beca",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vwbbel/what_is_your_opinion_on_our_new_signings_match/",
-      "published": "2026-08-23T16:13:04+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
+      "id": "7f0c62dc254c524c",
+      "title": "DFB-Pokal: Diese Erstrundenspiele laufen im Free-TV",
+      "summary": "Anstelle von vier Spielen werden sogar sechs Partien der ersten Runde des DFB-Pokals im Free-TV laufen. Möglich macht das die Übernahme von Sky durch RTL, das die zwei zusätzlichen Begegnungen übertragen wird. Ein Überblick über die Free-TV-Spiele.",
+      "url": "https://www.kicker.de/dfb-pokal-diese-erstrundenspiele-laufen-im-free-tv-1240383/artikel#omrss",
+      "published": "2026-08-23T06:44:28+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
+      "tier": 2,
       "kind": "rss",
       "score": 4.98,
       "category": "other",
       "confirmations": [
         {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vwbbel/what_is_your_opinion_on_our_new_signings_match/",
-          "tier": 5
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/dfb-pokal-diese-erstrundenspiele-laufen-im-free-tv-1240383/artikel#omrss",
+          "tier": 2
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.4,
+        "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.996,
-        "specificity": 0.3,
-        "relevance": 0.667
+        "recency": 0.677,
+        "specificity": 0.2,
+        "relevance": 0.0
       }
     },
     {
-      "id": "bf59893d16d35115",
-      "title": "\"The most important thing is the mentality\" – Kompany reflects to Bayern's Supercup win",
-      "summary": "Vincent Kompany has shared his reaction after Bayern’s 2-1 Supercup victory over Borussia Dortmund.",
-      "url": "https://bulinews.com/the-most-important-thing-the-mentality-kompany-reflects-bayern-supercup-win",
-      "published": "2026-08-22T23:07:00+00:00",
-      "source": "Bulinews Dortmund",
-      "source_id": "bulinews_bvb",
-      "tier": 2,
+      "id": "9ce70637b4abaa6a",
+      "title": "Post-Supercup Reactions: Sloppy, With Hints of Promise",
+      "summary": "Borussia Dortmund’s first “competitive” match of the season ended in defeat, with Die Schwarzgelben falling by the score of 2-1 to Bayern Munich at home in the Franz Beckenbauer Supercup. It was a close-fought battle and Dortmund were one reasonably competent finish from Maxi Beier away from sending the game to penalties, but the Bavarians [&#8230;]",
+      "url": "https://www.fearthewall.com/general/24643/post-supercup-reactions-sloppy-with-hints-of-promise",
+      "published": "2026-08-23T00:08:42+00:00",
+      "source": "Fear The Wall",
+      "source_id": "fearthewall",
+      "tier": 4,
       "kind": "rss",
-      "score": 4.97,
+      "score": 4.98,
       "category": "other",
       "confirmations": [
         {
-          "source": "Bulinews Dortmund",
-          "url": "https://bulinews.com/the-most-important-thing-the-mentality-kompany-reflects-bayern-supercup-win",
+          "source": "Fear The Wall",
+          "url": "https://www.fearthewall.com/general/24643/post-supercup-reactions-sloppy-with-hints-of-promise",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.525,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2291590180.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "0d62e5dccf49d31c",
+      "title": "FC Bayern setzt im Supercup ein Zeichen – BVB darf sich dennoch Hoffnung machen",
+      "summary": "Titelverteidiger FC Bayern beweist schon vor dem Bundesligastart beeindruckende Frühform. Doch auch der BVB sieht trotz Supercup-Niederlage viele positive Zeichen.",
+      "url": "https://www.waz.de/sport/article412937323/fc-bayern-setzt-im-supercup-ein-zeichen-bvb-darf-sich-dennoch-hoffnung-machen.html",
+      "published": "2026-08-23T10:33:32+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.98,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/article412937323/fc-bayern-setzt-im-supercup-ein-zeichen-bvb-darf-sich-dennoch-hoffnung-machen.html",
           "tier": 2
         }
       ],
@@ -1595,96 +1567,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.516,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://bulinews.com/i/1280/19915.jpg"
-    },
-    {
-      "id": "043bccab08fe9508",
-      "title": "Bayern feiert: Supercup als \"Vorgeschmack auf das, was folgt\"",
-      "summary": "Im Supercup zwischen Dortmund und Bayern entwickelte sich ein flottes Spiel, an dessen Ende der Rekordmeister den nächsten Titel feiern konnte. Ein Auftakt, der Lust auf mehr versprühte.",
-      "url": "https://www.kicker.de/bayern-feiert-supercup-als-vorgeschmack-auf-das-was-folgt-1245944/video#omrss",
-      "published": "2026-08-22T22:24:50+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.96,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/bayern-feiert-supercup-als-vorgeschmack-auf-das-was-folgt-1245944/video#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.502,
-        "specificity": 0.2,
+        "recency": 0.784,
+        "specificity": 0.0,
         "relevance": 0.333
-      }
-    },
-    {
-      "id": "6b924c8ca8412a43",
-      "title": "Kovac nach Disput mit Bayerns Co-Trainer: \"Er sollte sich entschuldigen\"",
-      "summary": "Ein Einwurf und Bayerns Co-Trainer Aaron Danks sorgten für richtig Ärger bei Trainer Niko Kovac, der aber auch eine gute zweite Hälfte seines Teams sah.",
-      "url": "https://www.kicker.de/kovac-nach-disput-mit-bayerns-co-trainer-er-sollte-sich-entschuldigen-1245939/artikel#omrss",
-      "published": "2026-08-22T22:18:26+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.96,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/kovac-nach-disput-mit-bayerns-co-trainer-er-sollte-sich-entschuldigen-1245939/artikel#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.5,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "0b82cdebdad6d9af",
-      "title": "Exklusive BVB-Fotos!: Karetsas, Nmecha, Gadou und Co. auf dem Weg ins Teamhotel",
-      "summary": "Die BVB-Profis Karetsas, Nmecha, Gadou und Co. machen sich vor dem Supercup auf den Weg ins Teamhotel. Die exklusiven Fotos.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-fotos-karetsas-veermann-gadou-supercup-teamhotel-exklusive-einblicke-w1237828-2002194559/",
-      "published": "2026-08-22T11:22:05+00:00",
-      "source": "Ruhr Nachrichten BVB",
-      "source_id": "rn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.95,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Ruhr Nachrichten BVB",
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-fotos-karetsas-veermann-gadou-supercup-teamhotel-exklusive-einblicke-w1237828-2002194559/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.328,
-        "specificity": 0.2,
-        "relevance": 0.667
       },
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/22/11/630_0900_6721190_-320x160.jpg"
+      "image": "https://img.sparknews.funkemedien.de/412937333/412937333_1787481212_v16_9_600.jpeg"
     },
     {
       "id": "d8d1c83466167dae",
@@ -1716,6 +1603,148 @@
       "image": "https://i.ytimg.com/vi/akL6zGl6A68/hqdefault.jpg"
     },
     {
+      "id": "bf59893d16d35115",
+      "title": "\"The most important thing is the mentality\" – Kompany reflects to Bayern's Supercup win",
+      "summary": "Vincent Kompany has shared his reaction after Bayern’s 2-1 Supercup victory over Borussia Dortmund.",
+      "url": "https://bulinews.com/the-most-important-thing-the-mentality-kompany-reflects-bayern-supercup-win",
+      "published": "2026-08-22T23:07:00+00:00",
+      "source": "Bulinews Dortmund",
+      "source_id": "bulinews_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.95,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Bulinews Dortmund",
+          "url": "https://bulinews.com/the-most-important-thing-the-mentality-kompany-reflects-bayern-supercup-win",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.505,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://bulinews.com/i/1280/19915.jpg"
+    },
+    {
+      "id": "043bccab08fe9508",
+      "title": "Bayern feiert: Supercup als \"Vorgeschmack auf das, was folgt\"",
+      "summary": "Im Supercup zwischen Dortmund und Bayern entwickelte sich ein flottes Spiel, an dessen Ende der Rekordmeister den nächsten Titel feiern konnte. Ein Auftakt, der Lust auf mehr versprühte.",
+      "url": "https://www.kicker.de/bayern-feiert-supercup-als-vorgeschmack-auf-das-was-folgt-1245944/video#omrss",
+      "published": "2026-08-22T22:24:50+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.94,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/bayern-feiert-supercup-als-vorgeschmack-auf-das-was-folgt-1245944/video#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.491,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "6b924c8ca8412a43",
+      "title": "Kovac nach Disput mit Bayerns Co-Trainer: \"Er sollte sich entschuldigen\"",
+      "summary": "Ein Einwurf und Bayerns Co-Trainer Aaron Danks sorgten für richtig Ärger bei Trainer Niko Kovac, der aber auch eine gute zweite Hälfte seines Teams sah.",
+      "url": "https://www.kicker.de/kovac-nach-disput-mit-bayerns-co-trainer-er-sollte-sich-entschuldigen-1245939/artikel#omrss",
+      "published": "2026-08-22T22:18:26+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.94,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/kovac-nach-disput-mit-bayerns-co-trainer-er-sollte-sich-entschuldigen-1245939/artikel#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.489,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "2f3fba417013efb4",
+      "title": "What is your opinion on our new signings match yesterday?",
+      "summary": "What do you have to say about our new lads who played their first official match yesterday?Personally,i liked it.Konstantelias and Karetsas will lead Dortmund’s attack,they were amanzing and they actually tried.Passes, attacks.At one point,on of them evem cheered off the fans to get louder.And i also observed that with the greeks in the attack,Guirassy was playing better.I mean,he did not lose so many passes,and did not fall so easily.He actually presented attacking threa,and i think it was beca",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vwbbel/what_is_your_opinion_on_our_new_signings_match/",
+      "published": "2026-08-23T16:13:04+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 4.94,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vwbbel/what_is_your_opinion_on_our_new_signings_match/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.975,
+        "specificity": 0.3,
+        "relevance": 0.667
+      }
+    },
+    {
+      "id": "0b82cdebdad6d9af",
+      "title": "Exklusive BVB-Fotos!: Karetsas, Nmecha, Gadou und Co. auf dem Weg ins Teamhotel",
+      "summary": "Die BVB-Profis Karetsas, Nmecha, Gadou und Co. machen sich vor dem Supercup auf den Weg ins Teamhotel. Die exklusiven Fotos.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-fotos-karetsas-veermann-gadou-supercup-teamhotel-exklusive-einblicke-w1237828-2002194559/",
+      "published": "2026-08-22T11:22:05+00:00",
+      "source": "Ruhr Nachrichten BVB",
+      "source_id": "rn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.93,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Ruhr Nachrichten BVB",
+          "url": "https://www.ruhrnachrichten.de/bvb/bvb-fotos-karetsas-veermann-gadou-supercup-teamhotel-exklusive-einblicke-w1237828-2002194559/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.321,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/22/11/630_0900_6721190_-320x160.jpg"
+    },
+    {
       "id": "c17788a0cbf812df",
       "title": "BVB bangt nach Supercup um Bensebaini: Droht Ausfall – oder eine Sperre?",
       "summary": "",
@@ -1725,7 +1754,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.94,
+      "score": 4.92,
       "category": "injury",
       "confirmations": [
         {
@@ -1738,40 +1767,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.497,
+        "recency": 0.487,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://img.sparknews.funkemedien.de/412936842/412936842_1787436647_v16_9_600.jpeg"
-    },
-    {
-      "id": "a090a402b5e092b0",
-      "title": "\"We took more risks\" - Niko Kovac opens up on Dortmund's Supercup loss to Bayern",
-      "summary": "BVB went down 2-1 at the Westfalonstadion...",
-      "url": "https://bvbbuzz.com/we-took-more-risks-niko-kovac-opens-up-on-dortmund-s-supercup-loss-to-bayern-01m0pdpw7nd7?utm_source=RSS",
-      "published": "2026-08-23T06:00:00+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
-      "tier": 4,
-      "kind": "rss",
-      "score": 4.92,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/we-took-more-risks-niko-kovac-opens-up-on-dortmund-s-supercup-loss-to-bayern-01m0pdpw7nd7?utm_source=RSS",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.672,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3188,h_1793,x_0,y_63/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0pdxds13zyq9j67rr.jpg"
     },
     {
       "id": "fd592d032f0f5e33",
@@ -1796,11 +1796,40 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.153,
+        "recency": 0.149,
         "specificity": 0.5,
         "relevance": 0.333
       },
       "image": "https://i.ytimg.com/vi/5IwYut0Tiyc/hqdefault.jpg"
+    },
+    {
+      "id": "a090a402b5e092b0",
+      "title": "\"We took more risks\" - Niko Kovac opens up on Dortmund's Supercup loss to Bayern",
+      "summary": "BVB went down 2-1 at the Westfalonstadion...",
+      "url": "https://bvbbuzz.com/we-took-more-risks-niko-kovac-opens-up-on-dortmund-s-supercup-loss-to-bayern-01m0pdpw7nd7?utm_source=RSS",
+      "published": "2026-08-23T06:00:00+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.89,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/we-took-more-risks-niko-kovac-opens-up-on-dortmund-s-supercup-loss-to-bayern-01m0pdpw7nd7?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.658,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3188,h_1793,x_0,y_63/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0pdxds13zyq9j67rr.jpg"
     },
     {
       "id": "9bf37c653be2a7e6",
@@ -1812,7 +1841,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.9,
+      "score": 4.88,
       "category": "other",
       "confirmations": [
         {
@@ -1825,7 +1854,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.473,
+        "recency": 0.463,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -1841,7 +1870,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.89,
+      "score": 4.87,
       "category": "other",
       "confirmations": [
         {
@@ -1854,98 +1883,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.464,
+        "recency": 0.454,
         "specificity": 0.2,
         "relevance": 0.333
       },
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/22/20/630_0900_6722134_-320x160.jpg"
-    },
-    {
-      "id": "63874ab41ef2ae65",
-      "title": "Man of the Match: Newcomers Shine While BVB Fall 2-1 to Bayern",
-      "summary": "While starting out the season with a trophy would have been nice, what I was really looking for out of Borussia Dortmund’s Supercup performance today was any reason to be excited about the upcoming season. We’ve heard a lot of hype about Ole Book’s signings this summer, and today was their first real test under [&#8230;]",
-      "url": "https://www.fearthewall.com/general/24639/man-of-the-match-newcomers-shine-while-bvb-fall-2-1-to-bayern",
-      "published": "2026-08-22T21:03:35+00:00",
-      "source": "Fear The Wall",
-      "source_id": "fearthewall",
-      "tier": 4,
-      "kind": "rss",
-      "score": 4.88,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Fear The Wall",
-          "url": "https://www.fearthewall.com/general/24639/man-of-the-match-newcomers-shine-while-bvb-fall-2-1-to-bayern",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.476,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2291593387.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "id": "be8c2bc1e62388a4",
-      "title": "Silvas Tor kommt zu spät: Bayern entscheidet Supercup-Finale mit 2:1 für sich",
-      "summary": "Der FC Bayern gewinnt dank Treffern von Brown und Olise den Supercup. Dortmund wacht zu spät auf, Bensebaini fliegt. Der Ticker zum Nachlesen.",
-      "url": "https://www.waz.de/sport/article412933345/supercup-heute-live-bvb-oder-bayern-wer-holt-sich-den-ersten-titel-der-saison.html",
-      "published": "2026-08-22T20:32:00+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.88,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/article412933345/supercup-heute-live-bvb-oder-bayern-wer-holt-sich-den-ersten-titel-der-saison.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.467,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://img.sparknews.funkemedien.de/412936841/412936841_1787430841_v16_9_600.jpeg"
-    },
-    {
-      "id": "24278b728d382476",
-      "title": "FC Bayern beat Dortmund to win Supercup",
-      "summary": "Two first-half goals helped FC Bayern Munich to a deserved win away at Borussia Dortmund.",
-      "url": "https://bulinews.com/bayern-beat-dortmund-win-supercup",
-      "published": "2026-08-22T20:28:00+00:00",
-      "source": "Bulinews Dortmund",
-      "source_id": "bulinews_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.87,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Bulinews Dortmund",
-          "url": "https://bulinews.com/bayern-beat-dortmund-win-supercup",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.466,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://bulinews.com/i/1280/19914.jpg"
     },
     {
       "id": "bfac5e7565a95a06",
@@ -1982,21 +1924,21 @@
       "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/IMG_0637_ef71da.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "id": "07e3e3c0d4283d7e",
-      "title": "BVB vs. BAYERN um den ersten TITEL! 🏆🔥 | SUPERCUP LIVE WATCHALONG",
-      "summary": "BVB vs. BAYERN um den ersten TITEL! 🏆🔥 | SUPERCUP LIVE WATCHALONG BVB gegen FC Bayern – der Franz-Beckenbauer-Supercup LIVE aus Dortmund! 🏆🖤💛 Kurz vor dem Bundesliga-Start ist dieses Duell gleichzeitig die erste große Standortbestimmung. Wo steht Borussia Dortmund? Wie weit ist der FC Bayern? Und wer setzt direkt zum Saisonbeginn das erste Ausrufezeichen? Beide Mannschaften haben deutlich gemacht, dass sie dieses Spiel und die Chance auf den ersten Titel der Saison ernst nehmen. Schon der letzte",
-      "url": "https://www.youtube.com/watch?v=wbazikk47cM",
-      "published": "2026-08-22T20:33:34+00:00",
-      "source": "Die Pöhlerz (YouTube)",
-      "source_id": "yt_poehlerz",
+      "id": "63874ab41ef2ae65",
+      "title": "Man of the Match: Newcomers Shine While BVB Fall 2-1 to Bayern",
+      "summary": "While starting out the season with a trophy would have been nice, what I was really looking for out of Borussia Dortmund’s Supercup performance today was any reason to be excited about the upcoming season. We’ve heard a lot of hype about Ole Book’s signings this summer, and today was their first real test under [&#8230;]",
+      "url": "https://www.fearthewall.com/general/24639/man-of-the-match-newcomers-shine-while-bvb-fall-2-1-to-bayern",
+      "published": "2026-08-22T21:03:35+00:00",
+      "source": "Fear The Wall",
+      "source_id": "fearthewall",
       "tier": 4,
-      "kind": "youtube",
+      "kind": "rss",
       "score": 4.86,
       "category": "other",
       "confirmations": [
         {
-          "source": "Die Pöhlerz (YouTube)",
-          "url": "https://www.youtube.com/watch?v=wbazikk47cM",
+          "source": "Fear The Wall",
+          "url": "https://www.fearthewall.com/general/24639/man-of-the-match-newcomers-shine-while-bvb-fall-2-1-to-bayern",
           "tier": 4
         }
       ],
@@ -2004,11 +1946,40 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.467,
+        "recency": 0.466,
         "specificity": 0.2,
         "relevance": 1.0
       },
-      "image": "https://i.ytimg.com/vi/wbazikk47cM/hqdefault.jpg"
+      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2291593387.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
+      "id": "be8c2bc1e62388a4",
+      "title": "Silvas Tor kommt zu spät: Bayern entscheidet Supercup-Finale mit 2:1 für sich",
+      "summary": "Der FC Bayern gewinnt dank Treffern von Brown und Olise den Supercup. Dortmund wacht zu spät auf, Bensebaini fliegt. Der Ticker zum Nachlesen.",
+      "url": "https://www.waz.de/sport/article412933345/supercup-heute-live-bvb-oder-bayern-wer-holt-sich-den-ersten-titel-der-saison.html",
+      "published": "2026-08-22T20:32:00+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.86,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/article412933345/supercup-heute-live-bvb-oder-bayern-wer-holt-sich-den-ersten-titel-der-saison.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.457,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://img.sparknews.funkemedien.de/412936841/412936841_1787430841_v16_9_600.jpeg"
     },
     {
       "id": "9d970abc62974a8a",
@@ -2033,69 +2004,69 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.114,
+        "recency": 0.112,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/yWSMzQFumHo/hqdefault.jpg"
     },
     {
-      "id": "f8d416c95a7db0f7",
-      "title": "Borussia Dortmund eyeing India tour in near future",
-      "summary": "The club wants to see a long-term potential before visiting...",
-      "url": "https://bvbbuzz.com/borussia-dortmund-eyeing-india-tour-in-near-future-01m0pnayfq2r?utm_source=RSS",
-      "published": "2026-08-23T10:30:00+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
-      "tier": 4,
+      "id": "24278b728d382476",
+      "title": "FC Bayern beat Dortmund to win Supercup",
+      "summary": "Two first-half goals helped FC Bayern Munich to a deserved win away at Borussia Dortmund.",
+      "url": "https://bulinews.com/bayern-beat-dortmund-win-supercup",
+      "published": "2026-08-22T20:28:00+00:00",
+      "source": "Bulinews Dortmund",
+      "source_id": "bulinews_bvb",
+      "tier": 2,
       "kind": "rss",
+      "score": 4.85,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Bulinews Dortmund",
+          "url": "https://bulinews.com/bayern-beat-dortmund-win-supercup",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.456,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://bulinews.com/i/1280/19914.jpg"
+    },
+    {
+      "id": "07e3e3c0d4283d7e",
+      "title": "BVB vs. BAYERN um den ersten TITEL! 🏆🔥 | SUPERCUP LIVE WATCHALONG",
+      "summary": "BVB vs. BAYERN um den ersten TITEL! 🏆🔥 | SUPERCUP LIVE WATCHALONG BVB gegen FC Bayern – der Franz-Beckenbauer-Supercup LIVE aus Dortmund! 🏆🖤💛 Kurz vor dem Bundesliga-Start ist dieses Duell gleichzeitig die erste große Standortbestimmung. Wo steht Borussia Dortmund? Wie weit ist der FC Bayern? Und wer setzt direkt zum Saisonbeginn das erste Ausrufezeichen? Beide Mannschaften haben deutlich gemacht, dass sie dieses Spiel und die Chance auf den ersten Titel der Saison ernst nehmen. Schon der letzte",
+      "url": "https://www.youtube.com/watch?v=wbazikk47cM",
+      "published": "2026-08-22T20:33:34+00:00",
+      "source": "Die Pöhlerz (YouTube)",
+      "source_id": "yt_poehlerz",
+      "tier": 4,
+      "kind": "youtube",
       "score": 4.84,
       "category": "other",
       "confirmations": [
         {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/borussia-dortmund-eyeing-india-tour-in-near-future-01m0pnayfq2r?utm_source=RSS",
+          "source": "Die Pöhlerz (YouTube)",
+          "url": "https://www.youtube.com/watch?v=wbazikk47cM",
           "tier": 4
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.5,
+        "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.799,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4997,h_2810,x_0,y_329/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0pp1rt1te6cbyqfr0.jpg"
-    },
-    {
-      "id": "d2d5c2c96be2bcf7",
-      "title": "Borussia Dortmund beaten in Supercup; Bayern Munich clinch 12th title",
-      "summary": "Maximilian Beier wasted a golden chance in stoppage time...",
-      "url": "https://bvbbuzz.com/borussia-dortmund-beaten-in-supercup-bayern-munich-clinch-12th-title-01m0pczrbkp2?utm_source=RSS",
-      "published": "2026-08-23T04:15:49+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
-      "tier": 4,
-      "kind": "rss",
-      "score": 4.83,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/borussia-dortmund-beaten-in-supercup-bayern-munich-clinch-12th-title-01m0pczrbkp2?utm_source=RSS",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.629,
+        "recency": 0.457,
         "specificity": 0.2,
         "relevance": 1.0
       },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3332,h_1874,x_0,y_170/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0pd75hhvsx2m5yga4.jpg"
+      "image": "https://i.ytimg.com/vi/wbazikk47cM/hqdefault.jpg"
     },
     {
       "id": "6e1cbe9c54e157b9",
@@ -2149,11 +2120,69 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.094,
+        "recency": 0.092,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://images.podigee-cdn.net/0x,s3pK5Zbh9IsbHKC0Hby_0ZqjF_PfulpbcSd4YalFo7Kg=/https://main.podigee-cdn.net/uploads/u44972/b57ea38d-3dee-4681-82b6-573e5ce26b7b.jpeg"
+    },
+    {
+      "id": "f8d416c95a7db0f7",
+      "title": "Borussia Dortmund eyeing India tour in near future",
+      "summary": "The club wants to see a long-term potential before visiting...",
+      "url": "https://bvbbuzz.com/borussia-dortmund-eyeing-india-tour-in-near-future-01m0pnayfq2r?utm_source=RSS",
+      "published": "2026-08-23T10:30:00+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.81,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/borussia-dortmund-eyeing-india-tour-in-near-future-01m0pnayfq2r?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.782,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4997,h_2810,x_0,y_329/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0pp1rt1te6cbyqfr0.jpg"
+    },
+    {
+      "id": "d2d5c2c96be2bcf7",
+      "title": "Borussia Dortmund beaten in Supercup; Bayern Munich clinch 12th title",
+      "summary": "Maximilian Beier wasted a golden chance in stoppage time...",
+      "url": "https://bvbbuzz.com/borussia-dortmund-beaten-in-supercup-bayern-munich-clinch-12th-title-01m0pczrbkp2?utm_source=RSS",
+      "published": "2026-08-23T04:15:49+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.81,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/borussia-dortmund-beaten-in-supercup-bayern-munich-clinch-12th-title-01m0pczrbkp2?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.615,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3332,h_1874,x_0,y_170/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0pd75hhvsx2m5yga4.jpg"
     },
     {
       "id": "04f44c9283e21866",
@@ -2165,7 +2194,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.79,
+      "score": 4.78,
       "category": "other",
       "confirmations": [
         {
@@ -2178,7 +2207,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.257,
+        "recency": 0.251,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2194,7 +2223,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 4.78,
+      "score": 4.76,
       "category": "other",
       "confirmations": [
         {
@@ -2207,7 +2236,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.417,
+        "recency": 0.408,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -2223,7 +2252,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.77,
+      "score": 4.76,
       "category": "other",
       "confirmations": [
         {
@@ -2236,7 +2265,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.416,
+        "recency": 0.407,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -2252,7 +2281,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.76,
+      "score": 4.74,
       "category": "other",
       "confirmations": [
         {
@@ -2265,40 +2294,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.408,
+        "recency": 0.4,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://bulinews.com/i/1280/19908.jpg"
-    },
-    {
-      "id": "05beb28382af5a7b",
-      "title": "Supercup: BVB-Zugänge machen großen Spaß – aber es bleibt viel Luft nach oben",
-      "summary": "Die griechischen Neuzugänge machen beim BVB Lust auf mehr. Doch die Niederlage gegen Bayern zeigt auch: Bis zur Topform wartet noch einiges an Arbeit.",
-      "url": "https://www.waz.de/sport/article412936251/supercup-bvb-zugaenge-machen-grossen-spass-aber-es-bleibt-viel-luft-nach-oben.html",
-      "published": "2026-08-23T06:00:00+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.75,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/article412936251/supercup-bvb-zugaenge-machen-grossen-spass-aber-es-bleibt-viel-luft-nach-oben.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.672,
-        "specificity": 0.0,
-        "relevance": 0.333
-      },
-      "image": "https://img.sparknews.funkemedien.de/412937105/412937105_1787440185_v16_9_600.jpeg"
     },
     {
       "id": "2f37a30ef142da1d",
@@ -2310,7 +2310,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.74,
+      "score": 4.73,
       "category": "matchday",
       "confirmations": [
         {
@@ -2323,39 +2323,10 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.055,
+        "recency": 0.054,
         "specificity": 0.2,
         "relevance": 1.0
       }
-    },
-    {
-      "id": "c81b33c69308736b",
-      "title": "BVB vs. Bayern: Top-Noten für fast alle Neuzugänge",
-      "summary": "Der FC Bayern hat in einem am Ende packenden Spiel den deutschen Supercup 2026 gewonnen. Besonders im Fokus standen auf beiden Seiten die Neuzugänge. FT verteilt Einzelkritiken und Noten.## (…)",
-      "url": "https://www.fussballtransfers.com/a4428043237850186549-bvb-vs-bayern-top-noten-fuer-fast-alle-neuzugaenge",
-      "published": "2026-08-22T20:29:26+00:00",
-      "source": "fussballtransfers.com",
-      "source_id": "fussballtransfers",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.74,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "fussballtransfers.com",
-          "url": "https://www.fussballtransfers.com/a4428043237850186549-bvb-vs-bayern-top-noten-fuer-fast-alle-neuzugaenge",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.466,
-        "specificity": 0.4,
-        "relevance": 0.333
-      },
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/nathaniel-brown-2627-jubelt-mit-harry-kane.jpg"
     },
     {
       "id": "2c647439816256d7",
@@ -2380,10 +2351,68 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.053,
+        "recency": 0.052,
         "specificity": 0.2,
         "relevance": 1.0
       }
+    },
+    {
+      "id": "c81b33c69308736b",
+      "title": "BVB vs. Bayern: Top-Noten für fast alle Neuzugänge",
+      "summary": "Der FC Bayern hat in einem am Ende packenden Spiel den deutschen Supercup 2026 gewonnen. Besonders im Fokus standen auf beiden Seiten die Neuzugänge. FT verteilt Einzelkritiken und Noten.## (…)",
+      "url": "https://www.fussballtransfers.com/a4428043237850186549-bvb-vs-bayern-top-noten-fuer-fast-alle-neuzugaenge",
+      "published": "2026-08-22T20:29:26+00:00",
+      "source": "fussballtransfers.com",
+      "source_id": "fussballtransfers",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.72,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "fussballtransfers.com",
+          "url": "https://www.fussballtransfers.com/a4428043237850186549-bvb-vs-bayern-top-noten-fuer-fast-alle-neuzugaenge",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.456,
+        "specificity": 0.4,
+        "relevance": 0.333
+      },
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/nathaniel-brown-2627-jubelt-mit-harry-kane.jpg"
+    },
+    {
+      "id": "05beb28382af5a7b",
+      "title": "Supercup: BVB-Zugänge machen großen Spaß – aber es bleibt viel Luft nach oben",
+      "summary": "Die griechischen Neuzugänge machen beim BVB Lust auf mehr. Doch die Niederlage gegen Bayern zeigt auch: Bis zur Topform wartet noch einiges an Arbeit.",
+      "url": "https://www.waz.de/sport/article412936251/supercup-bvb-zugaenge-machen-grossen-spass-aber-es-bleibt-viel-luft-nach-oben.html",
+      "published": "2026-08-23T06:00:00+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.72,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/article412936251/supercup-bvb-zugaenge-machen-grossen-spass-aber-es-bleibt-viel-luft-nach-oben.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.658,
+        "specificity": 0.0,
+        "relevance": 0.333
+      },
+      "image": "https://img.sparknews.funkemedien.de/412937105/412937105_1787440185_v16_9_600.jpeg"
     },
     {
       "id": "83dc2d315a2d1ae2",
@@ -2437,40 +2466,39 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.126,
+        "recency": 0.124,
         "specificity": 0.7,
         "relevance": 0.667
       },
       "image": "https://img.sparknews.funkemedien.de/412925351/412925351_1787306824_v16_9_600.jpeg"
     },
     {
-      "id": "ad9ff36662df432c",
-      "title": "Borussia Dortmund 1-2 Bayern Munich: Talking points from Supercup defeat",
-      "summary": "Third consecutive loss in the German Supercup...",
-      "url": "https://bvbbuzz.com/borussia-dortmund-1-2-bayern-munich-talking-points-from-supercup-defeat-01m0ph8zy186?utm_source=RSS",
-      "published": "2026-08-23T07:30:00+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
-      "tier": 4,
+      "id": "844768f725ec23f7",
+      "title": "Heimspiel gegen Paderborn (12.09.) ausverkauft – als Nicht-Mitglied noch irgendeine Chance?",
+      "summary": "Moin zusammen, ich wollte unbedingt zum Heimspiel gegen Paderborn am 12. September ins Westfalenstadion, aber die Tickets sind ja mittlerweile komplett durch – Mitglieder-VVK und freier Verkauf beides vorbei. Bin leider (noch) kein BVB-Mitglied, daher hab ich vermutlich eh nie ne echte Chance gehabt. Hat jemand von euch nen Tipp, ob's trotzdem noch ne Möglichkeit gibt? Zweitmarkt/Ticketbörse, zurückgegebene Karten, oder generell irgendwas, worauf ich achten sollte? Bin für jeden Hinweis dankbar,",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vwc2xm/heimspiel_gegen_paderborn_1209_ausverkauft_als/",
+      "published": "2026-08-23T16:41:51+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
       "kind": "rss",
-      "score": 4.67,
+      "score": 4.68,
       "category": "other",
       "confirmations": [
         {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/borussia-dortmund-1-2-bayern-munich-talking-points-from-supercup-defeat-01m0ph8zy186?utm_source=RSS",
-          "tier": 4
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vwc2xm/heimspiel_gegen_paderborn_1209_ausverkauft_als/",
+          "tier": 5
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.5,
+        "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.712,
-        "specificity": 0.2,
+        "recency": 0.993,
+        "specificity": 0.0,
         "relevance": 0.667
-      },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_276/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0phbyk9dpv80xcpfb.jpg"
+      }
     },
     {
       "id": "1f43689a671b0cb1",
@@ -2495,7 +2523,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.019,
+        "recency": 0.018,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2529,6 +2557,35 @@
         "relevance": 0.333
       },
       "image": "https://i.ytimg.com/vi/SssJF6qp3lw/hqdefault.jpg"
+    },
+    {
+      "id": "ad9ff36662df432c",
+      "title": "Borussia Dortmund 1-2 Bayern Munich: Talking points from Supercup defeat",
+      "summary": "Third consecutive loss in the German Supercup...",
+      "url": "https://bvbbuzz.com/borussia-dortmund-1-2-bayern-munich-talking-points-from-supercup-defeat-01m0ph8zy186?utm_source=RSS",
+      "published": "2026-08-23T07:30:00+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.64,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/borussia-dortmund-1-2-bayern-munich-talking-points-from-supercup-defeat-01m0ph8zy186?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.697,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3000,h_1687,x_0,y_276/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0phbyk9dpv80xcpfb.jpg"
     },
     {
       "id": "f9e8917983ef7c95",
@@ -2582,7 +2639,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.004,
+        "recency": 0.003,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2640,7 +2697,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.004,
+        "recency": 0.003,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2734,35 +2791,6 @@
       "image": "https://images.podigee-cdn.net/0x,sBBBhtNL4umIO91ZytX1RsGTD1xQaz53qm73YyOE3t2I=/https://main.podigee-cdn.net/uploads/u43587/ccd4ee52-ffb4-4d0c-9a51-96b70c8d4f7a.jpeg"
     },
     {
-      "id": "5b6fd52e7d7b6d48",
-      "title": "READY for the SUPERCUP! 🏆",
-      "summary": "",
-      "url": "https://www.youtube.com/shorts/_ACeQnCu-ck",
-      "published": "2026-08-22T17:45:05+00:00",
-      "source": "YouTube BVB (offiziell)",
-      "source_id": "yt_bvb_official",
-      "tier": 3,
-      "kind": "youtube",
-      "score": 4.61,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "YouTube BVB (offiziell)",
-          "url": "https://www.youtube.com/shorts/_ACeQnCu-ck",
-          "tier": 3
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.9,
-        "confirmation": 0.25,
-        "recency": 0.419,
-        "specificity": 0.0,
-        "relevance": 0.0
-      },
-      "image": "https://i.ytimg.com/vi/_ACeQnCu-ck/hqdefault.jpg"
-    },
-    {
       "id": "60188fe55954b152",
       "title": "Informationen zum Franz Beckenbauer Supercup 2026",
       "summary": "Ausverkauftes Stadion verspricht stimmungsvollen Fußballabend in Dortmund, der für weltweites Interesse sorgt. The post Informationen zum Franz Beckenbauer Supercup 2026 appeared first on Bundesliga-Gruppe .",
@@ -2785,11 +2813,40 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.053,
+        "recency": 0.052,
         "specificity": 0.4,
         "relevance": 0.333
       },
       "image": "https://media.bundesliga-gruppe.de/sites/2/2026/08/6E5A5054_16x9.jpg"
+    },
+    {
+      "id": "5b6fd52e7d7b6d48",
+      "title": "READY for the SUPERCUP! 🏆",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/_ACeQnCu-ck",
+      "published": "2026-08-22T17:45:05+00:00",
+      "source": "YouTube BVB (offiziell)",
+      "source_id": "yt_bvb_official",
+      "tier": 3,
+      "kind": "youtube",
+      "score": 4.6,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "YouTube BVB (offiziell)",
+          "url": "https://www.youtube.com/shorts/_ACeQnCu-ck",
+          "tier": 3
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.9,
+        "confirmation": 0.25,
+        "recency": 0.411,
+        "specificity": 0.0,
+        "relevance": 0.0
+      },
+      "image": "https://i.ytimg.com/vi/_ACeQnCu-ck/hqdefault.jpg"
     },
     {
       "id": "aaf7e9f97edc0b95",
@@ -2801,7 +2858,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 4.55,
+      "score": 4.53,
       "category": "injury",
       "confirmations": [
         {
@@ -2814,7 +2871,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.302,
+        "recency": 0.296,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -2830,7 +2887,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.54,
+      "score": 4.52,
       "category": "other",
       "confirmations": [
         {
@@ -2843,7 +2900,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.465,
+        "recency": 0.455,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -2859,7 +2916,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.52,
+      "score": 4.51,
       "category": "other",
       "confirmations": [
         {
@@ -2872,7 +2929,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.112,
+        "recency": 0.11,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -2887,7 +2944,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.5,
+      "score": 4.48,
       "category": "other",
       "confirmations": [
         {
@@ -2900,7 +2957,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.436,
+        "recency": 0.427,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -2985,39 +3042,10 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.078,
+        "recency": 0.076,
         "specificity": 0.2,
         "relevance": 1.0
       }
-    },
-    {
-      "id": "b4e1c8ae02cb21c3",
-      "title": "Chelseas Plan mit Gittens",
-      "summary": "Jamie Gittens wird den FC Chelsea in diesem Sommer nicht verlassen. Wie Ben Jacobs berichtet, haben die Blues ein Leihangebot der AS Rom für den 22-Jährigen abgelehnt. Neu-Trainer Xabi Alonso plant (…)",
-      "url": "https://www.fussballtransfers.com/a6780430159606602840-chelseas-plan-mit-gittens",
-      "published": "2026-08-22T16:53:00+00:00",
-      "source": "fussballtransfers.com",
-      "source_id": "fussballtransfers",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.42,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "fussballtransfers.com",
-          "url": "https://www.fussballtransfers.com/a6780430159606602840-chelseas-plan-mit-gittens",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.406,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/jamie-gittens-2526-68cfc6ed7c116.jpg"
     },
     {
       "id": "0c0b3ed7ad812857",
@@ -3042,7 +3070,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.045,
+        "recency": 0.044,
         "specificity": 0.9,
         "relevance": 0.0
       }
@@ -3070,7 +3098,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.07,
+        "recency": 0.068,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -3099,10 +3127,39 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.053,
+        "recency": 0.052,
         "specificity": 0.2,
         "relevance": 0.667
       }
+    },
+    {
+      "id": "b4e1c8ae02cb21c3",
+      "title": "Chelseas Plan mit Gittens",
+      "summary": "Jamie Gittens wird den FC Chelsea in diesem Sommer nicht verlassen. Wie Ben Jacobs berichtet, haben die Blues ein Leihangebot der AS Rom für den 22-Jährigen abgelehnt. Neu-Trainer Xabi Alonso plant (…)",
+      "url": "https://www.fussballtransfers.com/a6780430159606602840-chelseas-plan-mit-gittens",
+      "published": "2026-08-22T16:53:00+00:00",
+      "source": "fussballtransfers.com",
+      "source_id": "fussballtransfers",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.4,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "fussballtransfers.com",
+          "url": "https://www.fussballtransfers.com/a6780430159606602840-chelseas-plan-mit-gittens",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.397,
+        "specificity": 0.2,
+        "relevance": 0.333
+      },
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/jamie-gittens-2526-68cfc6ed7c116.jpg"
     },
     {
       "id": "9f99f6940fcd83b0",
@@ -3114,7 +3171,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.39,
+      "score": 4.38,
       "category": "other",
       "confirmations": [
         {
@@ -3127,7 +3184,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.284,
+        "recency": 0.278,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -3155,7 +3212,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.119,
+        "recency": 0.116,
         "specificity": 0.7,
         "relevance": 0.0
       }
@@ -3183,7 +3240,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.117,
+        "recency": 0.115,
         "specificity": 0.7,
         "relevance": 0.333
       },
@@ -3199,7 +3256,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.33,
+      "score": 4.32,
       "category": "other",
       "confirmations": [
         {
@@ -3212,7 +3269,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.362,
+        "recency": 0.354,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -3450,35 +3507,6 @@
       }
     },
     {
-      "id": "e3e6a31c22d83fd5",
-      "title": "ENDLICH GEHT'S WIEDER LOS! 🔥 BVB vs. Bayern – der erste echte Gradmesser! | VORSPIEL",
-      "summary": "ENDLICH GEHT'S WIEDER LOS! 🔥 BVB vs. Bayern – der erste echte Gradmesser! | VORSPIEL ⸻ ENDLICH GEHT'S WIEDER LOS! 🖤💛🔥 Die Sommerpause ist vorbei, der Supercup steht vor der Tür – und Borussia Dortmund bekommt es direkt mit dem FC Bayern München zu tun. Viel größer könnte der erste echte Gradmesser der neuen Saison kaum sein. Im ersten VORSPIEL der Saison stimmen wir uns gemeinsam auf BVB gegen Bayern ein! Wir schauen uns die PKs von Niko Kovac & Vincent Kompany an, sprechen über die voraussichtl",
-      "url": "https://www.youtube.com/watch?v=yV_zg5sody8",
-      "published": "2026-08-21T19:21:32+00:00",
-      "source": "Die Pöhlerz (YouTube)",
-      "source_id": "yt_poehlerz",
-      "tier": 4,
-      "kind": "youtube",
-      "score": 4.28,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "Die Pöhlerz (YouTube)",
-          "url": "https://www.youtube.com/watch?v=yV_zg5sody8",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.177,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://i.ytimg.com/vi/yV_zg5sody8/hqdefault.jpg"
-    },
-    {
       "id": "955fde8b44344d66",
       "title": "Marcel Sabitzer facing swift Borussia Dortmund exit?",
       "summary": "With Joey Veerman set to bolster Borussia Dortmund’s midfield, Marcel Sabitzer could be heading for the exit door.",
@@ -3653,6 +3681,35 @@
       "image": "https://bulinews.com/i/1280/19656.jpg"
     },
     {
+      "id": "e3e6a31c22d83fd5",
+      "title": "ENDLICH GEHT'S WIEDER LOS! 🔥 BVB vs. Bayern – der erste echte Gradmesser! | VORSPIEL",
+      "summary": "ENDLICH GEHT'S WIEDER LOS! 🔥 BVB vs. Bayern – der erste echte Gradmesser! | VORSPIEL ⸻ ENDLICH GEHT'S WIEDER LOS! 🖤💛🔥 Die Sommerpause ist vorbei, der Supercup steht vor der Tür – und Borussia Dortmund bekommt es direkt mit dem FC Bayern München zu tun. Viel größer könnte der erste echte Gradmesser der neuen Saison kaum sein. Im ersten VORSPIEL der Saison stimmen wir uns gemeinsam auf BVB gegen Bayern ein! Wir schauen uns die PKs von Niko Kovac & Vincent Kompany an, sprechen über die voraussichtl",
+      "url": "https://www.youtube.com/watch?v=yV_zg5sody8",
+      "published": "2026-08-21T19:21:32+00:00",
+      "source": "Die Pöhlerz (YouTube)",
+      "source_id": "yt_poehlerz",
+      "tier": 4,
+      "kind": "youtube",
+      "score": 4.27,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "Die Pöhlerz (YouTube)",
+          "url": "https://www.youtube.com/watch?v=yV_zg5sody8",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.173,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://i.ytimg.com/vi/yV_zg5sody8/hqdefault.jpg"
+    },
+    {
       "id": "6c3bc49369b60e75",
       "title": "Borussia Dortmund confirm Veerman signing",
       "summary": "Joey Veerman has officially signed for Borussia Dortmund.",
@@ -3680,7 +3737,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.008,
+        "recency": 0.007,
         "specificity": 0.5,
         "relevance": 0.667
       },
@@ -3765,7 +3822,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.114,
+        "recency": 0.112,
         "specificity": 0.2,
         "relevance": 0.0
       },
@@ -3781,7 +3838,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.19,
+      "score": 4.18,
       "category": "other",
       "confirmations": [
         {
@@ -3794,7 +3851,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.124,
+        "recency": 0.122,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -3810,7 +3867,7 @@
       "source_id": "fearthewall",
       "tier": 4,
       "kind": "rss",
-      "score": 4.19,
+      "score": 4.18,
       "category": "other",
       "confirmations": [
         {
@@ -3823,7 +3880,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.199,
+        "recency": 0.194,
         "specificity": 0.4,
         "relevance": 0.667
       },
@@ -3852,7 +3909,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.116,
+        "recency": 0.114,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -3972,7 +4029,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.064,
+        "recency": 0.063,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -4001,40 +4058,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.06,
+        "recency": 0.059,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://bulinews.com/i/1280/19845.jpg"
-    },
-    {
-      "id": "29c39672d2ed217a",
-      "title": "Gregor Kobel reflects on his 2026 World Cup journey",
-      "summary": "As the season is due to get underway, Kobel remains excited for what the future could bring",
-      "url": "https://bulinews.com/gregor-kobel-reflects-his-2026-world-cup-journey",
-      "published": "2026-08-21T09:11:00+00:00",
-      "source": "Bulinews Dortmund",
-      "source_id": "bulinews_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.05,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Bulinews Dortmund",
-          "url": "https://bulinews.com/gregor-kobel-reflects-his-2026-world-cup-journey",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.12,
-        "specificity": 0.4,
-        "relevance": 0.333
-      },
-      "image": "https://bulinews.com/i/1280/19864.jpg"
     },
     {
       "id": "d86b9542ef8f48d3",
@@ -4059,7 +4087,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.053,
+        "recency": 0.052,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -4088,11 +4116,40 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.056,
+        "recency": 0.055,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://img.sparknews.funkemedien.de/412917126/412917126_1787225999_v16_9_600.jpeg"
+    },
+    {
+      "id": "29c39672d2ed217a",
+      "title": "Gregor Kobel reflects on his 2026 World Cup journey",
+      "summary": "As the season is due to get underway, Kobel remains excited for what the future could bring",
+      "url": "https://bulinews.com/gregor-kobel-reflects-his-2026-world-cup-journey",
+      "published": "2026-08-21T09:11:00+00:00",
+      "source": "Bulinews Dortmund",
+      "source_id": "bulinews_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.04,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Bulinews Dortmund",
+          "url": "https://bulinews.com/gregor-kobel-reflects-his-2026-world-cup-journey",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.117,
+        "specificity": 0.4,
+        "relevance": 0.333
+      },
+      "image": "https://bulinews.com/i/1280/19864.jpg"
     },
     {
       "id": "6eb65d94fbf9d11b",
@@ -4117,7 +4174,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.051,
+        "recency": 0.05,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -4146,37 +4203,9 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.048,
+        "recency": 0.047,
         "specificity": 0.2,
         "relevance": 0.667
-      }
-    },
-    {
-      "id": "7bed2d2b0bddb056",
-      "title": "Unsere #Kurvenfotos vom heutigen Heimspiel des #BVB im #Supercup gegen den #FCBayern München 📸. #BVBFCB",
-      "summary": "Unsere #Kurvenfotos vom heutigen Heimspiel des #BVB im #Supercup gegen den #FCBayern München 📸. #BVBFCB",
-      "url": "https://bsky.app/profile/schwatzgelb.de/post/3mtpawwcfps2i",
-      "published": "2026-08-22T21:49:00+00:00",
-      "source": "Schwatzgelb (Bluesky)",
-      "source_id": "bsky_schwatzgelb",
-      "tier": 4,
-      "kind": "rss",
-      "score": 4.04,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Schwatzgelb (Bluesky)",
-          "url": "https://bsky.app/profile/schwatzgelb.de/post/3mtpawwcfps2i",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.49,
-        "specificity": 0.0,
-        "relevance": 0.333
       }
     },
     {
@@ -4189,7 +4218,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 4.03,
+      "score": 4.02,
       "category": "other",
       "confirmations": [
         {
@@ -4202,7 +4231,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.126,
+        "recency": 0.124,
         "specificity": 0.0,
         "relevance": 0.0
       },
@@ -4218,7 +4247,7 @@
       "source_id": "bvbbuzz",
       "tier": 4,
       "kind": "rss",
-      "score": 4.03,
+      "score": 4.02,
       "category": "other",
       "confirmations": [
         {
@@ -4231,38 +4260,38 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.229,
+        "recency": 0.224,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6500,h_3656,x_0,y_213/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0k7ej62931w89ypyq.jpg"
     },
     {
-      "id": "2f4da8ec54d13d78",
-      "title": "Marco Reus?",
-      "summary": "Thoughts? &#32; submitted by &#32; /u/New_Patience_8107 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw6q05/marco_reus/",
-      "published": "2026-08-23T13:05:50+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
+      "id": "7bed2d2b0bddb056",
+      "title": "Unsere #Kurvenfotos vom heutigen Heimspiel des #BVB im #Supercup gegen den #FCBayern München 📸. #BVBFCB",
+      "summary": "Unsere #Kurvenfotos vom heutigen Heimspiel des #BVB im #Supercup gegen den #FCBayern München 📸. #BVBFCB",
+      "url": "https://bsky.app/profile/schwatzgelb.de/post/3mtpawwcfps2i",
+      "published": "2026-08-22T21:49:00+00:00",
+      "source": "Schwatzgelb (Bluesky)",
+      "source_id": "bsky_schwatzgelb",
+      "tier": 4,
       "kind": "rss",
-      "score": 3.99,
+      "score": 4.02,
       "category": "other",
       "confirmations": [
         {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw6q05/marco_reus/",
-          "tier": 5
+          "source": "Schwatzgelb (Bluesky)",
+          "url": "https://bsky.app/profile/schwatzgelb.de/post/3mtpawwcfps2i",
+          "tier": 4
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.4,
+        "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.883,
-        "specificity": 0.2,
-        "relevance": 0.0
+        "recency": 0.48,
+        "specificity": 0.0,
+        "relevance": 0.333
       }
     },
     {
@@ -4496,6 +4525,34 @@
         "relevance": 0.667
       },
       "image": "https://bulinews.com/i/1280/19769.jpg"
+    },
+    {
+      "id": "2f4da8ec54d13d78",
+      "title": "Marco Reus?",
+      "summary": "Thoughts? &#32; submitted by &#32; /u/New_Patience_8107 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw6q05/marco_reus/",
+      "published": "2026-08-23T13:05:50+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 3.95,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw6q05/marco_reus/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.865,
+        "specificity": 0.2,
+        "relevance": 0.0
+      }
     },
     {
       "id": "c071f189f6af557f",
@@ -5047,34 +5104,6 @@
       }
     },
     {
-      "id": "28f12cd82d23e707",
-      "title": "Borussia Dortmund and RB Leipzig both linked with Christopher Nkunku",
-      "summary": "France's preeminent sporting publication links two Bundesliga clubs with a swoop for disaffected AC Milan attacker Christopher Nkunku.",
-      "url": "https://www.getfootballnewsgermany.com/2026/christopher-nkunku-dortmund/",
-      "published": "2026-08-14T18:43:35+00:00",
-      "source": "Get German Football News BVB",
-      "source_id": "ggfn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 3.94,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Get German Football News BVB",
-          "url": "https://www.getfootballnewsgermany.com/2026/christopher-nkunku-dortmund/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.0,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
       "id": "cc2be62e7d2affbe",
       "title": "4D-Schach in Dortmund: BVB-Transfer von El Mala geplatzt!",
       "summary": "Said El Mala wird in diesem Sommer kein neuer Spieler mehr von Borussia Dortmund. Doch andere Kandidaten sollen schon parat liegen. Alle Infos zum geplatzen Deal.",
@@ -5242,7 +5271,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.002,
+        "recency": 0.001,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -5335,34 +5364,6 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3850/live/20ad1aa0-9bd9-11f1-aed2-8d6da8d75094.jpg"
     },
     {
-      "id": "61a0cc21ca5a6377",
-      "title": "So spielt der #BVB gleich im #Supercup gegen den #FCBayern. #BVBFCB",
-      "summary": "So spielt der #BVB gleich im #Supercup gegen den #FCBayern. #BVBFCB",
-      "url": "https://bsky.app/profile/schwatzgelb.de/post/3mtou23ubjs2d",
-      "published": "2026-08-22T17:58:00+00:00",
-      "source": "Schwatzgelb (Bluesky)",
-      "source_id": "bsky_schwatzgelb",
-      "tier": 4,
-      "kind": "rss",
-      "score": 3.9,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Schwatzgelb (Bluesky)",
-          "url": "https://bsky.app/profile/schwatzgelb.de/post/3mtou23ubjs2d",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.423,
-        "specificity": 0.0,
-        "relevance": 0.333
-      }
-    },
-    {
       "id": "2e06624f8f8ae1b6",
       "title": "BVB macht Konstantelias-Deal offiziell!",
       "summary": "Willkommen auf dem Kanal Borussia dortmund nachrichten! Ich bin hier, um die leidenschaftlichen Fans des BVB willkommen zu heißen. Dieser Kanal ist darauf ausgelegt, Ihnen die neuesten Nachrichten, Updates und Informationen über unseren geliebten Fußballverein, den bvb, zu liefern. Als Fans wissen wir, dass Borussia Dortmund eine reiche Geschichte und eine unglaubliche Fangemeinde auf der ganzen Welt hat. Hier finden Sie Spielanalysen, exklusive Interviews mit Spielern und Trainerstab, Informati",
@@ -5392,6 +5393,34 @@
       "image": "https://i.ytimg.com/vi/uNDYq2kDu8A/hqdefault.jpg"
     },
     {
+      "id": "61a0cc21ca5a6377",
+      "title": "So spielt der #BVB gleich im #Supercup gegen den #FCBayern. #BVBFCB",
+      "summary": "So spielt der #BVB gleich im #Supercup gegen den #FCBayern. #BVBFCB",
+      "url": "https://bsky.app/profile/schwatzgelb.de/post/3mtou23ubjs2d",
+      "published": "2026-08-22T17:58:00+00:00",
+      "source": "Schwatzgelb (Bluesky)",
+      "source_id": "bsky_schwatzgelb",
+      "tier": 4,
+      "kind": "rss",
+      "score": 3.89,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Schwatzgelb (Bluesky)",
+          "url": "https://bsky.app/profile/schwatzgelb.de/post/3mtou23ubjs2d",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.414,
+        "specificity": 0.0,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "a1027037fe380033",
       "title": "Borussia Dortmund vs Bayern Munich: 3 questions for BVB ahead of German Supercup",
       "summary": "A chance to win their first trophy since 2021...",
@@ -5401,7 +5430,7 @@
       "source_id": "bvbbuzz",
       "tier": 4,
       "kind": "rss",
-      "score": 3.89,
+      "score": 3.88,
       "category": "other",
       "confirmations": [
         {
@@ -5414,7 +5443,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.055,
+        "recency": 0.054,
         "specificity": 0.4,
         "relevance": 1.0
       },
@@ -5443,7 +5472,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.123,
+        "recency": 0.121,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -5458,7 +5487,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 3.87,
+      "score": 3.86,
       "category": "other",
       "confirmations": [
         {
@@ -5471,95 +5500,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.129,
+        "recency": 0.126,
         "specificity": 0.2,
         "relevance": 0.333
       },
       "image": "https://img.sparknews.funkemedien.de/412924275/412924275_1787302933_v16_9_600.jpeg"
-    },
-    {
-      "id": "dfa6b968cca314d3",
-      "title": "Do you know any website where I can watch yesterday's match?",
-      "summary": "I was at the birthday party and unfortunately I don't remember the second half haha &#32; submitted by &#32; /u/Diligent_Media4958 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw7hcn/do_you_know_any_website_where_i_can_watch/",
-      "published": "2026-08-23T13:39:31+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.83,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw7hcn/do_you_know_any_website_where_i_can_watch/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.903,
-        "specificity": 0.0,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "0e9ee7891f2d09c4",
-      "title": "Social Sunday (23/08/2026)",
-      "summary": "Grab your coffee and get comfortable, it's Sunday :) Talk about anything, or something else! &#32; submitted by &#32; /u/AutoModerator [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw027f/social_sunday_23082026/",
-      "published": "2026-08-23T07:00:14+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.82,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw027f/social_sunday_23082026/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.699,
-        "specificity": 0.4,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "023f9b0354935f27",
-      "title": "Post Match Thread - Supercup",
-      "summary": "Borussia Dortmund 1 - 2 Bayern &#32; submitted by &#32; /u/AverageCarey [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvn2g7/post_match_thread_supercup/",
-      "published": "2026-08-22T20:29:44+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.82,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvn2g7/post_match_thread_supercup/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.466,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
     },
     {
       "id": "46d4007974c6c8c4",
@@ -5584,7 +5529,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.107,
+        "recency": 0.105,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -5600,7 +5545,7 @@
       "source_id": "bvbbuzz",
       "tier": 4,
       "kind": "rss",
-      "score": 3.82,
+      "score": 3.81,
       "category": "other",
       "confirmations": [
         {
@@ -5613,11 +5558,95 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.121,
+        "recency": 0.119,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6701,h_3769,x_0,y_327/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0g03eb6xgeabhvgnh.jpg"
+    },
+    {
+      "id": "023f9b0354935f27",
+      "title": "Post Match Thread - Supercup",
+      "summary": "Borussia Dortmund 1 - 2 Bayern &#32; submitted by &#32; /u/AverageCarey [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvn2g7/post_match_thread_supercup/",
+      "published": "2026-08-22T20:29:44+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 3.8,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvn2g7/post_match_thread_supercup/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.456,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
+    },
+    {
+      "id": "0e9ee7891f2d09c4",
+      "title": "Social Sunday (23/08/2026)",
+      "summary": "Grab your coffee and get comfortable, it's Sunday :) Talk about anything, or something else! &#32; submitted by &#32; /u/AutoModerator [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw027f/social_sunday_23082026/",
+      "published": "2026-08-23T07:00:14+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 3.79,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw027f/social_sunday_23082026/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.684,
+        "specificity": 0.4,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "dfa6b968cca314d3",
+      "title": "Do you know any website where I can watch yesterday's match?",
+      "summary": "I was at the birthday party and unfortunately I don't remember the second half haha &#32; submitted by &#32; /u/Diligent_Media4958 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw7hcn/do_you_know_any_website_where_i_can_watch/",
+      "published": "2026-08-23T13:39:31+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 3.79,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw7hcn/do_you_know_any_website_where_i_can_watch/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.884,
+        "specificity": 0.0,
+        "relevance": 0.0
+      }
     },
     {
       "id": "f1dc5adda24a9ec1",
@@ -5649,35 +5678,6 @@
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5246,h_2950,x_0,y_517/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01kztnhkp90nfpvystx1.jpg"
     },
     {
-      "id": "c3cf2167a2a2820a",
-      "title": "I’m Ready to be Hurt Again",
-      "summary": "It may feel like it’s been an eternity, but it’s been barely two years since Borussia Dortmund took to the pitch against Real Madrid in a Champions League final. On that day, even though our beloved black-and-yellows ultimately fell one step short, the future undoubtedly felt bright. Unfortunately, the following two seasons felt like two [&#8230;]",
-      "url": "https://www.fearthewall.com/general/24620/im-ready-to-be-hurt-again",
-      "published": "2026-08-21T01:09:10+00:00",
-      "source": "Fear The Wall",
-      "source_id": "fearthewall",
-      "tier": 4,
-      "kind": "rss",
-      "score": 3.77,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Fear The Wall",
-          "url": "https://www.fearthewall.com/general/24620/im-ready-to-be-hurt-again",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.088,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2290571870.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
       "id": "48cb79365088f106",
       "title": "Barcelona talent Fort rejects other offers to tee up possible Dortmund move",
       "summary": "The 20-year-old La Masia graduate has reportedly indicated that he wants to join Dortmund by declining offers from other clubs in Italy and Spain.",
@@ -5700,11 +5700,40 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.077,
+        "recency": 0.075,
         "specificity": 0.2,
         "relevance": 0.333
       },
       "image": "https://bulinews.com/i/1280/19862.jpg"
+    },
+    {
+      "id": "c3cf2167a2a2820a",
+      "title": "I’m Ready to be Hurt Again",
+      "summary": "It may feel like it’s been an eternity, but it’s been barely two years since Borussia Dortmund took to the pitch against Real Madrid in a Champions League final. On that day, even though our beloved black-and-yellows ultimately fell one step short, the future undoubtedly felt bright. Unfortunately, the following two seasons felt like two [&#8230;]",
+      "url": "https://www.fearthewall.com/general/24620/im-ready-to-be-hurt-again",
+      "published": "2026-08-21T01:09:10+00:00",
+      "source": "Fear The Wall",
+      "source_id": "fearthewall",
+      "tier": 4,
+      "kind": "rss",
+      "score": 3.76,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Fear The Wall",
+          "url": "https://www.fearthewall.com/general/24620/im-ready-to-be-hurt-again",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.086,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2290571870.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "id": "da7d5357d78e106b",
@@ -5729,7 +5758,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.073,
+        "recency": 0.071,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -5758,7 +5787,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.073,
+        "recency": 0.072,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -5787,7 +5816,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.058,
+        "recency": 0.057,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -5803,7 +5832,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 3.71,
+      "score": 3.7,
       "category": "other",
       "confirmations": [
         {
@@ -5816,7 +5845,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.041,
+        "recency": 0.04,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -5831,7 +5860,7 @@
       "source_id": "yt_bvb_nachrichten",
       "tier": 4,
       "kind": "youtube",
-      "score": 3.67,
+      "score": 3.66,
       "category": "transfers",
       "confirmations": [
         {
@@ -5844,7 +5873,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.045,
+        "recency": 0.044,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -5931,7 +5960,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.015,
+        "recency": 0.014,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -5960,7 +5989,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.02,
+        "recency": 0.019,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -5976,7 +6005,7 @@
       "source_id": "bvbbuzz",
       "tier": 4,
       "kind": "rss",
-      "score": 3.6,
+      "score": 3.59,
       "category": "transfers",
       "confirmations": [
         {
@@ -5989,7 +6018,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.28,
+        "recency": 0.274,
         "specificity": 0.0,
         "relevance": 0.667
       },
@@ -6352,7 +6381,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 3.54,
+      "score": 3.53,
       "category": "other",
       "confirmations": [
         {
@@ -6365,7 +6394,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.132,
+        "recency": 0.129,
         "specificity": 0.2,
         "relevance": 0.0
       },
@@ -6394,7 +6423,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.141,
+        "recency": 0.138,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -6423,67 +6452,11 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.14,
+        "recency": 0.137,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4544,h_2556,x_0,y_141/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0j549rce70dr5dvkz.jpg"
-    },
-    {
-      "id": "5c18382609b8ef6a",
-      "title": "What was going on yesterday?",
-      "summary": "Did anyone notice a weird vibe yesterday? It was one of the weirdest matches I have attended. There was an extreme level of aggression where I was sitting, there were three fights and security had to escort multiple people out, they were in constant discussions with fans who wouldn’t clear the paths. Also there was no police outside and when I left a guy knocked another guy out and ran away. Of course there have been fights before, but I don’t remember witnessing a single one on the Osttribühne ",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw0qoe/what_was_going_on_yesterday/",
-      "published": "2026-08-23T07:39:04+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.46,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw0qoe/what_was_going_on_yesterday/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.716,
-        "specificity": 0.0,
-        "relevance": 0.0
-      }
-    },
-    {
-      "id": "087cac0a00859ca5",
-      "title": "Any interest in starting a Dortmund fan club in SW Florida?",
-      "summary": "Members of the German American Social Club in Cape Coral Florida want to add a fan club other than the one for Bayern. Message me to let me know. &#32; submitted by &#32; /u/TheBarnacle63 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvlpnn/any_interest_in_starting_a_dortmund_fan_club_in/",
-      "published": "2026-08-22T19:36:15+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.46,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvlpnn/any_interest_in_starting_a_dortmund_fan_club_in/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.45,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
     },
     {
       "id": "36a730f4c8737d6e",
@@ -6543,33 +6516,32 @@
       }
     },
     {
-      "id": "89def85e279a1aca",
-      "title": "Dortmund's books explain exactly why BVB keep selling their best players",
-      "summary": "A €21.7m hole in the accounts. Suddenly the summer's shopping list makes a lot more sense.",
-      "url": "https://bvbbuzz.com/dortmund-s-books-explain-exactly-why-bvb-keep-selling-their-best-players?utm_source=RSS",
-      "published": "2026-08-21T22:19:47+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
-      "tier": 4,
+      "id": "087cac0a00859ca5",
+      "title": "Any interest in starting a Dortmund fan club in SW Florida?",
+      "summary": "Members of the German American Social Club in Cape Coral Florida want to add a fan club other than the one for Bayern. Message me to let me know. &#32; submitted by &#32; /u/TheBarnacle63 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvlpnn/any_interest_in_starting_a_dortmund_fan_club_in/",
+      "published": "2026-08-22T19:36:15+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
       "kind": "rss",
       "score": 3.44,
       "category": "other",
       "confirmations": [
         {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/dortmund-s-books-explain-exactly-why-bvb-keep-selling-their-best-players?utm_source=RSS",
-          "tier": 4
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvlpnn/any_interest_in_starting_a_dortmund_fan_club_in/",
+          "tier": 5
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.5,
+        "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.199,
-        "specificity": 0.0,
-        "relevance": 0.667
-      },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6000,h_3375,x_0,y_314/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0k6e4218djr98nkdt.jpg"
+        "recency": 0.441,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
     },
     {
       "id": "cae5484c00373849",
@@ -6594,11 +6566,68 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.101,
+        "recency": 0.099,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4413,h_2482,x_0,y_254/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0gb0zyk3f2nx2gzy0.jpg"
+    },
+    {
+      "id": "5c18382609b8ef6a",
+      "title": "What was going on yesterday?",
+      "summary": "Did anyone notice a weird vibe yesterday? It was one of the weirdest matches I have attended. There was an extreme level of aggression where I was sitting, there were three fights and security had to escort multiple people out, they were in constant discussions with fans who wouldn’t clear the paths. Also there was no police outside and when I left a guy knocked another guy out and ran away. Of course there have been fights before, but I don’t remember witnessing a single one on the Osttribühne ",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw0qoe/what_was_going_on_yesterday/",
+      "published": "2026-08-23T07:39:04+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 3.43,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vw0qoe/what_was_going_on_yesterday/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.701,
+        "specificity": 0.0,
+        "relevance": 0.0
+      }
+    },
+    {
+      "id": "89def85e279a1aca",
+      "title": "Dortmund's books explain exactly why BVB keep selling their best players",
+      "summary": "A €21.7m hole in the accounts. Suddenly the summer's shopping list makes a lot more sense.",
+      "url": "https://bvbbuzz.com/dortmund-s-books-explain-exactly-why-bvb-keep-selling-their-best-players?utm_source=RSS",
+      "published": "2026-08-21T22:19:47+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 3.43,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/dortmund-s-books-explain-exactly-why-bvb-keep-selling-their-best-players?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.194,
+        "specificity": 0.0,
+        "relevance": 0.667
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6000,h_3375,x_0,y_314/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0k6e4218djr98nkdt.jpg"
     },
     {
       "id": "3f0aa61cdb9762c9",
@@ -6610,7 +6639,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 3.41,
+      "score": 3.4,
       "category": "transfers",
       "confirmations": [
         {
@@ -6623,7 +6652,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.065,
+        "recency": 0.064,
         "specificity": 0.2,
         "relevance": 0.0
       },
@@ -6652,7 +6681,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.063,
+        "recency": 0.062,
         "specificity": 0.2,
         "relevance": 0.0
       },
@@ -6688,35 +6717,6 @@
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_7354,h_4136,x_0,y_144/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m00w9mw2z3bze64749.jpg"
     },
     {
-      "id": "3007e71d86b932f2",
-      "title": "📺 Where to watch Borussia Dortmund vs FC Bayern München",
-      "summary": "📺 Here is a list of countries and TV stations that shows the match between: Borussia Dortmund vs FC Bayern München. 🌍 Check out the BVB Worldmap for Broadcasting information, Pubs and Fanclubs in your area. 🗺️ PlacetoBVB Worldmap: https://placetobvb.bvb.de/de 📻 Listen to BVB Netradio (in german) 🔖 Weblinks in this list are broken on purpose. Remove the space in the top level domain to make them work again. Country TV Station/App/Webpage \\ Local Kickoff time]) Albania: Tring Sport 2Tring \\ Thu, 2",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vtqeh2/where_to_watch_borussia_dortmund_vs_fc_bayern/",
-      "published": "2026-08-20T17:43:35+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 3.36,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vtqeh2/where_to_watch_borussia_dortmund_vs_fc_bayern/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.066,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://preview.redd.it/012cgee7hkkh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=5211e1d316773f8feaca6f0bcd9f62f9b0324221"
-    },
-    {
       "id": "76164dafebf557f0",
       "title": "\"Will have to drop a few players\" - Kovac issues squad update ahead of Bayern showdown",
       "summary": "BVB play the Franz Beckenbauer Supercup on Saturday...",
@@ -6739,11 +6739,40 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.059,
+        "recency": 0.058,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6000,h_3375,x_0,y_434/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0fkz75aqvxnk712am.jpg"
+    },
+    {
+      "id": "3007e71d86b932f2",
+      "title": "📺 Where to watch Borussia Dortmund vs FC Bayern München",
+      "summary": "📺 Here is a list of countries and TV stations that shows the match between: Borussia Dortmund vs FC Bayern München. 🌍 Check out the BVB Worldmap for Broadcasting information, Pubs and Fanclubs in your area. 🗺️ PlacetoBVB Worldmap: https://placetobvb.bvb.de/de 📻 Listen to BVB Netradio (in german) 🔖 Weblinks in this list are broken on purpose. Remove the space in the top level domain to make them work again. Country TV Station/App/Webpage \\ Local Kickoff time]) Albania: Tring Sport 2Tring \\ Thu, 2",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vtqeh2/where_to_watch_borussia_dortmund_vs_fc_bayern/",
+      "published": "2026-08-20T17:43:35+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 3.35,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vtqeh2/where_to_watch_borussia_dortmund_vs_fc_bayern/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.065,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://preview.redd.it/012cgee7hkkh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=5211e1d316773f8feaca6f0bcd9f62f9b0324221"
     },
     {
       "id": "cd3c022d06341bb2",
@@ -6768,7 +6797,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.051,
+        "recency": 0.05,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -6797,7 +6826,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.048,
+        "recency": 0.047,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -7069,35 +7098,6 @@
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4113,h_2313,x_0,y_198/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m09x8xt083q3nzz78k.jpg"
     },
     {
-      "id": "4bb0c07fe1b2f72b",
-      "title": "Dortmund chief wishes Bayern star a speedy recovery after injury",
-      "summary": "The rivals face-off in the Supercup tonight!",
-      "url": "https://bvbbuzz.com/dortmund-chief-wishes-bayern-star-a-speedy-recovery-after-injury-01m0kzsrm9n9?utm_source=RSS",
-      "published": "2026-08-22T06:16:20+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
-      "tier": 4,
-      "kind": "rss",
-      "score": 3.25,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/dortmund-chief-wishes-bayern-star-a-speedy-recovery-after-injury-01m0kzsrm9n9?utm_source=RSS",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.27,
-        "specificity": 0.0,
-        "relevance": 0.333
-      },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5332,h_2999,x_0,y_461/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0kzx3gmgq0yvw5w09.jpg"
-    },
-    {
       "id": "fc1b53c2da83624f",
       "title": "Why Dortmund actually need Schalke to survive this season",
       "summary": "Königsblau shipped three at their own birthday party on Sunday. There is still a reason for BVB to want them safe in May.",
@@ -7241,6 +7241,35 @@
         "relevance": 0.667
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3608,h_2029,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0749c40vdrq22mcpe.jpg"
+    },
+    {
+      "id": "4bb0c07fe1b2f72b",
+      "title": "Dortmund chief wishes Bayern star a speedy recovery after injury",
+      "summary": "The rivals face-off in the Supercup tonight!",
+      "url": "https://bvbbuzz.com/dortmund-chief-wishes-bayern-star-a-speedy-recovery-after-injury-01m0kzsrm9n9?utm_source=RSS",
+      "published": "2026-08-22T06:16:20+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 3.24,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/dortmund-chief-wishes-bayern-star-a-speedy-recovery-after-injury-01m0kzsrm9n9?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.264,
+        "specificity": 0.0,
+        "relevance": 0.333
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5332,h_2999,x_0,y_461/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0kzx3gmgq0yvw5w09.jpg"
     },
     {
       "id": "1763016d5a506860",
@@ -7816,7 +7845,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.147,
+        "recency": 0.144,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -7845,7 +7874,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.066,
+        "recency": 0.064,
         "specificity": 0.0,
         "relevance": 0.667
       },
@@ -7889,7 +7918,7 @@
       "source_id": "bvbbuzz",
       "tier": 4,
       "kind": "rss",
-      "score": 3.12,
+      "score": 3.11,
       "category": "other",
       "confirmations": [
         {
@@ -7947,7 +7976,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.09,
+      "score": 3.08,
       "category": "other",
       "confirmations": [
         {
@@ -7960,44 +7989,10 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.098,
+        "recency": 0.096,
         "specificity": 0.2,
         "relevance": 0.667
       }
-    },
-    {
-      "id": "c07714290591ef5b",
-      "title": "All 6 instances when Dortmund lost the Supercup: A glance",
-      "summary": "Their last two appearances have ended in a defeat too!",
-      "url": "https://bvbbuzz.com/all-6-instances-when-dortmund-lost-the-supercup-a-glance-01m0g7xkdvk3?utm_source=RSS",
-      "published": "2026-08-21T20:30:00+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
-      "tier": 4,
-      "kind": "rss",
-      "score": 3.08,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/all-6-instances-when-dortmund-lost-the-supercup-a-glance-01m0g7xkdvk3?utm_source=RSS",
-          "tier": 4
-        },
-        {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/all-6-instances-when-dortmund-won-the-supercup-a-glance-01m0g68y0gkb?utm_source=RSS",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.5,
-        "confirmation": 0.25,
-        "recency": 0.185,
-        "specificity": 0.0,
-        "relevance": 0.333
-      },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3641,h_2048,x_0,y_108/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0g7yxvwwg1dft348b.jpg"
     },
     {
       "id": "cf98e4536aaadab0",
@@ -8022,11 +8017,45 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.019,
+        "recency": 0.018,
         "specificity": 0.0,
         "relevance": 0.667
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4800,h_2700,x_0,y_237/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0cb6rs0zc73dwj7f8.jpg"
+    },
+    {
+      "id": "c07714290591ef5b",
+      "title": "All 6 instances when Dortmund lost the Supercup: A glance",
+      "summary": "Their last two appearances have ended in a defeat too!",
+      "url": "https://bvbbuzz.com/all-6-instances-when-dortmund-lost-the-supercup-a-glance-01m0g7xkdvk3?utm_source=RSS",
+      "published": "2026-08-21T20:30:00+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 3.07,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/all-6-instances-when-dortmund-lost-the-supercup-a-glance-01m0g7xkdvk3?utm_source=RSS",
+          "tier": 4
+        },
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/all-6-instances-when-dortmund-won-the-supercup-a-glance-01m0g68y0gkb?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.181,
+        "specificity": 0.0,
+        "relevance": 0.333
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3641,h_2048,x_0,y_108/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0g7yxvwwg1dft348b.jpg"
     },
     {
       "id": "cc43f1242d5d2ccf",
@@ -8051,7 +8080,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.083,
+        "recency": 0.081,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -8384,7 +8413,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 3.01,
+      "score": 3.0,
       "category": "transfers",
       "confirmations": [
         {
@@ -8397,7 +8426,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.393,
+        "recency": 0.385,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -8425,40 +8454,11 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.049,
+        "recency": 0.047,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://preview.redd.it/5jbjhacb2ikh1.jpeg?width=640&crop=smart&auto=webp&s=52d07a1a45ab8873a586dacb5f17204871ff9050"
-    },
-    {
-      "id": "5f1e2b88bbba6a21",
-      "title": "For pronunciation-spelling clarification",
-      "summary": "&#32; submitted by &#32; /u/Billgun [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvnhg1/for_pronunciationspelling_clarification/",
-      "published": "2026-08-22T20:46:38+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 2.97,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvnhg1/for_pronunciationspelling_clarification/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.471,
-        "specificity": 0.0,
-        "relevance": 0.0
-      },
-      "image": "https://preview.redd.it/84xo5z5snzkh1.png?width=640&crop=smart&auto=webp&s=8fa99fc4efcc79633c28e588d06af7ebea443a67"
     },
     {
       "id": "a2a33ed7a9f3e1f1",
@@ -8483,11 +8483,40 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.03,
+        "recency": 0.029,
         "specificity": 0.2,
         "relevance": 0.333
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5118,h_2878,x_0,y_530/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0dwyrrd3cmysweps5.jpg"
+    },
+    {
+      "id": "5f1e2b88bbba6a21",
+      "title": "For pronunciation-spelling clarification",
+      "summary": "&#32; submitted by &#32; /u/Billgun [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvnhg1/for_pronunciationspelling_clarification/",
+      "published": "2026-08-22T20:46:38+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 2.95,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvnhg1/for_pronunciationspelling_clarification/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.461,
+        "specificity": 0.0,
+        "relevance": 0.0
+      },
+      "image": "https://preview.redd.it/84xo5z5snzkh1.png?width=640&crop=smart&auto=webp&s=8fa99fc4efcc79633c28e588d06af7ebea443a67"
     },
     {
       "id": "96cd8a9b961c927a",
@@ -8633,34 +8662,6 @@
       }
     },
     {
-      "id": "b4b306313e35c0db",
-      "title": "Advice for Die gelbe Wand? 🇺🇸",
-      "summary": "Hello! A friend and I are coming to the yellow wall tonight for the game against Bayern, we have 4 hours in dortmund ahead of the game but we are not familiar with the standard practice, where to go for pregame, what songs to know, or the best place to jerseys before the game etc. any advice on making this special would be greatly appreciated, this is both of our first european football match. We are both coming from ohio (Big FC Cincinnati fans), my friend doesn’t have a european team (hes cons",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vv5boe/advice_for_die_gelbe_wand/",
-      "published": "2026-08-22T07:03:06+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 2.91,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vv5boe/advice_for_die_gelbe_wand/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.278,
-        "specificity": 0.0,
-        "relevance": 0.333
-      }
-    },
-    {
       "id": "f26c69ee473d3f60",
       "title": "Morning roundup: BVB chase Fort after Roma scare, Sunday 16th August",
       "summary": "A 2-2 draw in front of a full house, a fresh right-back target in Spain, and Cramer explaining where the El Mala money stopped.",
@@ -8748,6 +8749,34 @@
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3248,h_1827,x_0,y_85/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01kzxfzke3t8mgsfnehr.jpg"
     },
     {
+      "id": "b4b306313e35c0db",
+      "title": "Advice for Die gelbe Wand? 🇺🇸",
+      "summary": "Hello! A friend and I are coming to the yellow wall tonight for the game against Bayern, we have 4 hours in dortmund ahead of the game but we are not familiar with the standard practice, where to go for pregame, what songs to know, or the best place to jerseys before the game etc. any advice on making this special would be greatly appreciated, this is both of our first european football match. We are both coming from ohio (Big FC Cincinnati fans), my friend doesn’t have a european team (hes cons",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vv5boe/advice_for_die_gelbe_wand/",
+      "published": "2026-08-22T07:03:06+00:00",
+      "source": "Reddit r/borussiadortmund",
+      "source_id": "reddit_bvb",
+      "tier": 5,
+      "kind": "rss",
+      "score": 2.9,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Reddit r/borussiadortmund",
+          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vv5boe/advice_for_die_gelbe_wand/",
+          "tier": 5
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.4,
+        "confirmation": 0.25,
+        "recency": 0.272,
+        "specificity": 0.0,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "2037fa7f83d957d6",
       "title": "Bayern's injury list could hand Dortmund the perfect Supercup opening",
       "summary": "Bayern arrive on Saturday carrying knocks they can't explain away. Dortmund should be licking their lips.",
@@ -8770,7 +8799,7 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.035,
+        "recency": 0.034,
         "specificity": 0.0,
         "relevance": 0.333
       },
@@ -9075,7 +9104,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 2.65,
+      "score": 2.64,
       "category": "other",
       "confirmations": [
         {
@@ -9088,7 +9117,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.11,
+        "recency": 0.108,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -9116,35 +9145,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.038,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "6b055bf94a2f300e",
-      "title": "What is this Recent obsession of Wanting to Play Maxi Beier as lwb ?",
-      "summary": "I get he is versatile but still he is an attacker and more precisely a striker at the end of day , I feel he is better in front 3 than he is as lwb especially a permanent lwb and didn't we learn from the adeymi mistake on what happens to a players development if he is to be played too long in a different position altogether I mean even look at what happend Camavinga and his development issues after playing everything excpet a cm for this long. &#32; submitted by &#32; /u/rioasu [link] &#32; [com",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vspb5w/what_is_this_recent_obsession_of_wanting_to_play/",
-      "published": "2026-08-19T15:14:54+00:00",
-      "source": "Reddit r/borussiadortmund",
-      "source_id": "reddit_bvb",
-      "tier": 5,
-      "kind": "rss",
-      "score": 2.61,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Reddit r/borussiadortmund",
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vspb5w/what_is_this_recent_obsession_of_wanting_to_play/",
-          "tier": 5
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.4,
-        "confirmation": 0.25,
-        "recency": 0.024,
+        "recency": 0.037,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -9201,7 +9202,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.175,
+        "recency": 0.171,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -9258,7 +9259,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.075,
+        "recency": 0.073,
         "specificity": 0.2,
         "relevance": 0.0
       },
@@ -9274,7 +9275,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 2.31,
+      "score": 2.3,
       "category": "other",
       "confirmations": [
         {
@@ -9287,7 +9288,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.143,
+        "recency": 0.14,
         "specificity": 0.0,
         "relevance": 0.0
       },
@@ -9316,7 +9317,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.031,
+        "recency": 0.03,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -9331,7 +9332,7 @@
       "source_id": "reddit_bvb",
       "tier": 5,
       "kind": "rss",
-      "score": 2.28,
+      "score": 2.27,
       "category": "other",
       "confirmations": [
         {
@@ -9344,7 +9345,7 @@
       "components": {
         "credibility": 0.4,
         "confirmation": 0.25,
-        "recency": 0.128,
+        "recency": 0.125,
         "specificity": 0.0,
         "relevance": 0.0
       },
@@ -9363,8 +9364,8 @@
       "5": 23
     },
     "by_category": {
-      "injury": 9,
-      "other": 238,
+      "injury": 10,
+      "other": 237,
       "matchday": 9,
       "transfers": 64,
       "background": 2,
@@ -9377,7 +9378,7 @@
         "id": "x_kolsberger",
         "newest_item": "2026-05-07T16:04:00+00:00",
         "days_silent": 108,
-        "fail_runs": 125
+        "fail_runs": 126
       },
       {
         "id": "pod_bvb_offiziell",
@@ -9388,7 +9389,7 @@
         "id": "x_sky_jesco",
         "newest_item": "2026-06-20T19:35:55+00:00",
         "days_silent": 63,
-        "fail_runs": 125
+        "fail_runs": 126
       },
       {
         "id": "pod_auffeohren",
@@ -9399,7 +9400,7 @@
         "id": "x_sport1",
         "newest_item": "2026-07-18T19:25:01+00:00",
         "days_silent": 35,
-        "fail_runs": 94
+        "fail_runs": 95
       },
       {
         "id": "tm_geruechte",
@@ -9410,121 +9411,121 @@
         "id": "x_search_bvb_transfer",
         "newest_item": null,
         "days_silent": 8,
-        "fail_runs": 285
+        "fail_runs": 286
       },
       {
         "id": "x_jadenscout",
         "newest_item": "2026-08-16T16:15:04+00:00",
         "days_silent": 7,
-        "fail_runs": 114
+        "fail_runs": 115
       },
       {
         "id": "x_bvb",
         "newest_item": "2026-08-19T14:33:54+00:00",
         "days_silent": 4,
-        "fail_runs": 120
+        "fail_runs": 121
       },
       {
         "id": "x_falk",
         "newest_item": "2026-08-19T12:13:33+00:00",
         "days_silent": 4,
-        "fail_runs": 114
+        "fail_runs": 115
       },
       {
         "id": "x_gabumnn",
         "newest_item": "2026-08-19T13:47:25+00:00",
         "days_silent": 4,
-        "fail_runs": 95
+        "fail_runs": 96
       },
       {
         "id": "x_lafonatebvb",
         "newest_item": "2026-08-19T14:33:54+00:00",
         "days_silent": 4,
-        "fail_runs": 126
+        "fail_runs": 127
+      },
+      {
+        "id": "x_arooobvb",
+        "newest_item": "2026-08-20T16:23:19+00:00",
+        "days_silent": 3,
+        "fail_runs": 92
       },
       {
         "id": "x_bild_sport",
         "newest_item": "2026-08-20T15:42:00+00:00",
         "days_silent": 3,
-        "fail_runs": 90
+        "fail_runs": 91
       },
       {
         "id": "x_bvb_fanb",
         "newest_item": "2026-08-20T07:43:42+00:00",
         "days_silent": 3,
-        "fail_runs": 94
+        "fail_runs": 95
       },
       {
         "id": "x_bvbnewsflash",
         "newest_item": "2026-08-20T12:08:11+00:00",
         "days_silent": 3,
-        "fail_runs": 112
+        "fail_runs": 113
       },
       {
         "id": "x_hinze",
         "newest_item": "2026-08-20T15:29:31+00:00",
         "days_silent": 3,
-        "fail_runs": 97
+        "fail_runs": 98
       },
       {
         "id": "x_optafranz",
         "newest_item": "2026-08-20T11:53:46+00:00",
         "days_silent": 3,
-        "fail_runs": 107
+        "fail_runs": 108
       },
       {
         "id": "x_rn_bvb",
         "newest_item": "2026-08-20T12:27:25+00:00",
         "days_silent": 3,
-        "fail_runs": 112
-      },
-      {
-        "id": "x_arooobvb",
-        "newest_item": "2026-08-20T16:23:19+00:00",
-        "days_silent": 2,
-        "fail_runs": 91
+        "fail_runs": 113
       },
       {
         "id": "x_berger",
         "newest_item": "2026-08-20T17:53:52+00:00",
         "days_silent": 2,
-        "fail_runs": 105
+        "fail_runs": 106
       },
       {
         "id": "x_borussia0977",
         "newest_item": "2026-08-20T17:42:13+00:00",
         "days_silent": 2,
-        "fail_runs": 92
+        "fail_runs": 93
       },
       {
         "id": "x_bvbnewsblog",
         "newest_item": "2026-08-20T18:38:33+00:00",
         "days_silent": 2,
-        "fail_runs": 95
+        "fail_runs": 96
       },
       {
         "id": "x_ornstein",
         "newest_item": "2026-08-21T07:28:03+00:00",
         "days_silent": 2,
-        "fail_runs": 89
+        "fail_runs": 90
       },
       {
         "id": "x_plettenberg",
         "newest_item": "2026-08-20T17:30:31+00:00",
         "days_silent": 2,
-        "fail_runs": 106
+        "fail_runs": 107
       },
       {
         "id": "x_romano",
         "newest_item": "2026-08-20T23:25:40+00:00",
         "days_silent": 2,
-        "fail_runs": 95
+        "fail_runs": 96
       },
       {
         "id": "x_skysportde",
         "newest_item": "2026-08-20T20:33:38+00:00",
         "days_silent": 2,
-        "fail_runs": 101
+        "fail_runs": 102
       }
     ]
   }
