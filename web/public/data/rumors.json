@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T11:25:25.017893+00:00",
+  "generated_at": "2026-08-23T18:41:32.943113+00:00",
   "source": "transfermarkt.de + news-feed",
-  "count": 44,
+  "count": 26,
   "rumors": [
     {
       "player": "Héctor Fort",
@@ -40,6 +40,39 @@
         }
       ],
       "lastMention": "2026-08-22T16:05:26+00:00"
+    },
+    {
+      "player": "Konstantinos Karetsas",
+      "age": 18,
+      "position": "Offensives Mittelfeld",
+      "marketValue": "35 Mio. €",
+      "currentClub": "Borussia Dortmund",
+      "direction": "out",
+      "probability": 36,
+      "tmProbability": null,
+      "tmUrl": "https://www.transfermarkt.de/spieler/geruechte/spieler/990148",
+      "sources": [
+        {
+          "name": "Schwarzgelbe Runde",
+          "tier": 4,
+          "url": "https://schwarzgelberunde.podigee.io/46-e45",
+          "published": "2026-08-20T21:55:40+00:00"
+        },
+        {
+          "name": "BVB kompakt (WAZ/RN)",
+          "tier": 2,
+          "url": "https://bvb-kompakt.podigee.io/1884-neue-episode",
+          "published": "2026-08-16T03:00:00+00:00"
+        },
+        {
+          "name": "BVB Buzz",
+          "tier": 4,
+          "url": "https://bvbbuzz.com/how-borussia-dortmund-could-line-up-with-karetsas-and-el-mala-01kzrntsswfq?utm_source=RSS",
+          "published": "2026-08-11T16:45:00+00:00"
+        }
+      ],
+      "lastMention": "2026-08-20T21:55:40+00:00",
+      "interestedClub": "Galatasaray"
     },
     {
       "player": "Ethan Nwaneri",
@@ -153,228 +186,6 @@
       "lastMention": null
     },
     {
-      "player": "Guéla Doué",
-      "age": 23,
-      "position": "Rechter Verteidiger",
-      "marketValue": "20,00 Mio. €",
-      "currentClub": "Racing Straßburg",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/guela-doue-to-borussia-dortmund-/thread/forum/154/thread_id/1196584/post_id/3378877#3378877",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Marc Oliver Kempf",
-      "age": 31,
-      "position": "Innenverteidiger",
-      "marketValue": "3,50 Mio. €",
-      "currentClub": "Como 1907",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/m-kempf-zu-borussia-dortmund-/thread/forum/154/thread_id/1196521/post_id/3378662#3378662",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Tomás Araújo",
-      "age": 24,
-      "position": "Innenverteidiger",
-      "marketValue": "30,00 Mio. €",
-      "currentClub": "Benfica Lissabon",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/tomas-araujo-apontado-ao-borussia-dortmund/thread/forum/154/thread_id/1196308/post_id/3377920#3377920",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Farès Ghedjemis",
-      "age": 23,
-      "position": "Rechtsaußen",
-      "marketValue": "7,50 Mio. €",
-      "currentClub": "Frosinone Calcio",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/fares-ghedjemis-zu-borussia-dortmund-/thread/forum/154/thread_id/1195873/post_id/3376459#3376459",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Giovanni Baroni",
-      "age": 17,
-      "position": "Offensives Mittelfeld",
-      "marketValue": "2,50 Mio. €",
-      "currentClub": "CA Talleres",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/giovanni-baroni-zu-borussia-dortmund-/thread/forum/154/thread_id/1195849/post_id/3376404#3376404",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Dyran Stam",
-      "age": 16,
-      "position": "Linker Verteidiger",
-      "marketValue": null,
-      "currentClub": "PSV Eindhoven II",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/dyran-stam-naar-borussia-dortmund-/thread/forum/154/thread_id/1195762/post_id/3376047#3376047",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Mateus Mané",
-      "age": 18,
-      "position": "Offensives Mittelfeld",
-      "marketValue": "20,00 Mio. €",
-      "currentClub": "Wolverhampton Wanderers",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-mateus-mane-zu-borussia-dortmund-/thread/forum/154/thread_id/1189288/post_id/3375190#3375190",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Emmanuel Fernandez",
-      "age": 24,
-      "position": "Innenverteidiger",
-      "marketValue": "18,00 Mio. €",
-      "currentClub": "Glasgow Rangers",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/will-emmanuel-fernandez-join-borussia-dortmund-/thread/forum/154/thread_id/1187716/post_id/3374709#3374709",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Ismaëlo Ganiou",
-      "age": 21,
-      "position": "Innenverteidiger",
-      "marketValue": "20,00 Mio. €",
-      "currentClub": "RC Lens",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/ismaelo-ganiou-zu-borussia-dortmund-/thread/forum/154/thread_id/1194753/post_id/3371942#3371942",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Kacper Potulski",
-      "age": 18,
-      "position": "Innenverteidiger",
-      "marketValue": "18,00 Mio. €",
-      "currentClub": "1.FSV Mainz 05",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/kacper-potulski-zu-borussia-dortmund-/thread/forum/154/thread_id/1189756/post_id/3371336#3371336",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Milton Delgado",
-      "age": 21,
-      "position": "Defensives Mittelfeld",
-      "marketValue": "10,00 Mio. €",
-      "currentClub": "CA Boca Juniors",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/milton-delgado-zu-borussia-dortmund-/thread/forum/154/thread_id/1194609/post_id/3371314#3371314",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Bastien Meupiyou",
-      "age": 20,
-      "position": "Innenverteidiger",
-      "marketValue": "7,00 Mio. €",
-      "currentClub": "FC Alverca",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/b-meupiyou-zu-borussia-dortmund-/thread/forum/154/thread_id/1190717/post_id/3371150#3371150",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Ibrahima Cissé",
-      "age": 18,
-      "position": "Mittelstürmer",
-      "marketValue": "900 Tsd. €",
-      "currentClub": "KAA Gent",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/ibrahima-cisse-zu-borussia-dortmund-/thread/forum/154/thread_id/1194477/post_id/3370682#3370682",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Matias Fernandez-Pardo",
-      "age": 21,
-      "position": "Mittelstürmer",
-      "marketValue": "35,00 Mio. €",
-      "currentClub": "LOSC Lille",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/m-fernandez-pardo-zu-borussia-dortmund-/thread/forum/154/thread_id/1192462/post_id/3367189#3367189",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Lucas Beraldo",
-      "age": 22,
-      "position": "Innenverteidiger",
-      "marketValue": "22,00 Mio. €",
-      "currentClub": "Paris Saint-Germain",
-      "direction": "in",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/lucas-beraldo-vers-borussia-dortmund-/thread/forum/154/thread_id/1189357/post_id/3349495#3349495",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Karim Adeyemi",
-      "age": 24,
-      "position": "Rechtsaußen",
-      "marketValue": "40 Mio. €",
-      "currentClub": "Borussia Dortmund",
-      "direction": "out",
-      "probability": 20,
-      "tmProbability": null,
-      "tmUrl": "https://www.transfermarkt.de/spieler/geruechte/spieler/496094",
-      "sources": [],
-      "lastMention": null,
-      "interestedClub": "FC Barcelona"
-    },
-    {
-      "player": "Jadon Sancho",
-      "age": 26,
-      "position": "Linksaußen",
-      "marketValue": "18,00 Mio. €",
-      "currentClub": "Vereinslos",
-      "direction": "in",
-      "probability": 19,
-      "tmProbability": 29,
-      "tmUrl": "https://www.transfermarkt.de/jadon-sancho-zu-borussia-dortmund-/thread/forum/154/thread_id/1200072/post_id/3412883#3412883",
-      "sources": [],
-      "lastMention": null
-    },
-    {
       "player": "Valentín Gómez",
       "age": 23,
       "position": "Innenverteidiger",
@@ -384,6 +195,19 @@
       "probability": 19,
       "tmProbability": 29,
       "tmUrl": "https://www.transfermarkt.de/valentin-gomez-zu-borussia-dortmund-/thread/forum/154/thread_id/1203193/post_id/3406005#3406005",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Jadon Sancho",
+      "age": 26,
+      "position": "Linksaußen",
+      "marketValue": "18,00 Mio. €",
+      "currentClub": "Vereinslos",
+      "direction": "in",
+      "probability": 18,
+      "tmProbability": 28,
+      "tmUrl": "https://www.transfermarkt.de/jadon-sancho-zu-borussia-dortmund-/thread/forum/154/thread_id/1200072/post_id/3412883#3412883",
       "sources": [],
       "lastMention": null
     },
@@ -440,19 +264,6 @@
       "lastMention": null
     },
     {
-      "player": "Vasilije Kostov",
-      "age": 18,
-      "position": "Offensives Mittelfeld",
-      "marketValue": "25,00 Mio. €",
-      "currentClub": "Roter Stern Belgrad",
-      "direction": "in",
-      "probability": 11,
-      "tmProbability": 21,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-vasilije-kostov-zu-borussia-dortmund-/thread/forum/154/thread_id/1186713/post_id/3364998#3364998",
-      "sources": [],
-      "lastMention": null
-    },
-    {
       "player": "Anis Hadj Moussa",
       "age": 24,
       "position": "Rechtsaußen",
@@ -475,6 +286,19 @@
       "probability": 10,
       "tmProbability": 20,
       "tmUrl": "https://www.transfermarkt.de/wechselt-josh-acheampong-zu-borussia-dortmund-/thread/forum/154/thread_id/1077229/post_id/3410575#3410575",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Gilberto Mora",
+      "age": 17,
+      "position": "Offensives Mittelfeld",
+      "marketValue": "25,00 Mio. €",
+      "currentClub": "Club Tijuana",
+      "direction": "in",
+      "probability": 10,
+      "tmProbability": 20,
+      "tmUrl": "https://www.transfermarkt.de/gilberto-mora-zu-borussia-dortmund-/thread/forum/154/thread_id/1202175/post_id/3400913#3400913",
       "sources": [],
       "lastMention": null
     },
@@ -505,53 +329,14 @@
       "lastMention": null
     },
     {
-      "player": "Matías Soulé",
-      "age": 23,
-      "position": "Rechtsaußen",
-      "marketValue": "35,00 Mio. €",
-      "currentClub": "AS Rom",
-      "direction": "in",
-      "probability": 8,
-      "tmProbability": 18,
-      "tmUrl": "https://www.transfermarkt.de/matias-soule-zu-borussia-dortmund-/thread/forum/154/thread_id/1195040/post_id/3375248#3375248",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Cristiano Júnior",
-      "age": 16,
-      "position": "Mittelstürmer",
-      "marketValue": null,
-      "currentClub": "Al-Nassr FC U17",
-      "direction": "in",
-      "probability": 8,
-      "tmProbability": 18,
-      "tmUrl": "https://www.transfermarkt.de/cristiano-junior-zu-borussia-dortmund-/thread/forum/154/thread_id/1191803/post_id/3358060#3358060",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Gilberto Mora",
-      "age": 17,
-      "position": "Offensives Mittelfeld",
-      "marketValue": "25,00 Mio. €",
-      "currentClub": "Club Tijuana",
-      "direction": "in",
-      "probability": 7,
-      "tmProbability": 17,
-      "tmUrl": "https://www.transfermarkt.de/gilberto-mora-zu-borussia-dortmund-/thread/forum/154/thread_id/1202175/post_id/3400913#3400913",
-      "sources": [],
-      "lastMention": null
-    },
-    {
       "player": "Nicolò Tresoldi",
       "age": 22,
       "position": "Mittelstürmer",
       "marketValue": "25,00 Mio. €",
       "currentClub": "Club Brügge",
       "direction": "in",
-      "probability": 7,
-      "tmProbability": 17,
+      "probability": 8,
+      "tmProbability": 18,
       "tmUrl": "https://www.transfermarkt.de/wechselt-nicolo-tresoldi-zu-borussia-dortmund-/thread/forum/154/thread_id/1190359/post_id/3392978#3392978",
       "sources": [],
       "lastMention": null
@@ -603,7 +388,7 @@
       "currentClub": "Paris Saint-Germain",
       "direction": "in",
       "probability": 5,
-      "tmProbability": 8,
+      "tmProbability": 5,
       "tmUrl": "https://www.transfermarkt.de/ibrahim-mbaye-to-borussia-dortmund-/thread/forum/154/thread_id/1199666/post_id/3405435#3405435",
       "sources": [],
       "lastMention": null
