@@ -34,8 +34,8 @@ HEADERS = {
 
 TEAMS = [
     {"id": "profis",  "label": "Profis",  "league": "Bundesliga",       "tm_id": 16,    "tm_slug": "borussia-dortmund"},
-    {"id": "u23",     "label": "U23",     "league": "3. Liga",           "tm_id": 3811,  "tm_slug": "bvb-09-dortmund-ii"},
-    {"id": "u19",     "label": "U19",     "league": "U19-Bundesliga West","tm_id": 11558, "tm_slug": "borussia-dortmund-u19"},
+    {"id": "u23",     "label": "U23",     "league": "3. Liga",           "tm_id": 17,    "tm_slug": "borussia-dortmund-ii"},
+    {"id": "u19",     "label": "U19",     "league": "U19-Bundesliga West","tm_id": 1464,  "tm_slug": "borussia-dortmund-u19"},
 ]
 
 POSITION_GROUP_MAP: dict[str, str] = {
