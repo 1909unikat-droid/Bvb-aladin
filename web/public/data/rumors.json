@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:51:20.114865+00:00",
+  "generated_at": "2026-08-26T17:00:51.720817+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 42,
   "rumors": [
@@ -10,10 +10,16 @@
       "marketValue": "12,00 Mio. €",
       "currentClub": "FC Barcelona",
       "direction": "in",
-      "probability": 69,
-      "tmProbability": 55,
+      "probability": 64,
+      "tmProbability": 50,
       "tmUrl": "https://www.transfermarkt.de/wechselt-hector-fort-zu-borussia-dortmund-/thread/forum/154/thread_id/1086375/post_id/3416116#3416116",
       "sources": [
+        {
+          "name": "Transfermarkt Gerüchte",
+          "tier": 2,
+          "url": "https://www.transfermarkt.de/bvb-geht-leer-aus-barca-talent-fort-vor-wechsel-zu-real-sociedad-kein-back-up-fur-ryerson/view/news/485580",
+          "published": "2026-08-26T16:06:08+00:00"
+        },
         {
           "name": "fussballtransfers.com",
           "tier": 2,
@@ -67,15 +73,9 @@
           "tier": 4,
           "url": "https://bvbbuzz.com/bvb-news-fort-waits-on-move-21-7m-loss-posted-arsenal-loan-only-on-nwaneri?utm_source=RSS",
           "published": "2026-08-22T07:14:27+00:00"
-        },
-        {
-          "name": "Reddit r/borussiadortmund",
-          "tier": 5,
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1vvgaqn/balde_and_fort/",
-          "published": "2026-08-22T16:05:26+00:00"
         }
       ],
-      "lastMention": "2026-08-26T14:46:13+00:00"
+      "lastMention": "2026-08-26T16:06:08+00:00"
     },
     {
       "player": "Konstantinos Karetsas",
@@ -95,16 +95,16 @@
           "published": "2026-08-26T07:36:00+00:00"
         },
         {
-          "name": "Schwarzgelbe Runde",
-          "tier": 4,
-          "url": "https://schwarzgelberunde.podigee.io/46-e45",
-          "published": "2026-08-20T21:55:40+00:00"
-        },
-        {
           "name": "BVB kompakt (WAZ/RN)",
           "tier": 2,
           "url": "https://bvb-kompakt.podigee.io/1884-neue-episode",
           "published": "2026-08-16T03:00:00+00:00"
+        },
+        {
+          "name": "Schwarzgelbe Runde",
+          "tier": 4,
+          "url": "https://schwarzgelberunde.podigee.io/46-e45",
+          "published": "2026-08-20T21:55:40+00:00"
         }
       ],
       "lastMention": "2026-08-26T07:36:00+00:00",
@@ -129,26 +129,6 @@
         }
       ],
       "lastMention": "2026-08-26T14:03:55+00:00"
-    },
-    {
-      "player": "Nicolò Tresoldi",
-      "age": 22,
-      "position": "Mittelstürmer",
-      "marketValue": "25,00 Mio. €",
-      "currentClub": "Club Brügge",
-      "direction": "in",
-      "probability": 36,
-      "tmProbability": 22,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-nicolo-tresoldi-zu-borussia-dortmund-/thread/forum/154/thread_id/1190359/post_id/3415534#3415534",
-      "sources": [
-        {
-          "name": "RUHR24 BVB",
-          "tier": 2,
-          "url": "https://www.ruhr24.de/bvb/bvb-stuermer-transfer-news-nicolo-tresoldi-abloese-wechsel-fc-barcelona-guirassy-borussia-dortmund-94460354.html",
-          "published": "2026-08-26T08:48:55+00:00"
-        }
-      ],
-      "lastMention": "2026-08-26T08:48:55+00:00"
     },
     {
       "player": "Jadon Sancho",
@@ -531,6 +511,19 @@
       "probability": 16,
       "tmProbability": 26,
       "tmUrl": "https://www.transfermarkt.de/marcus-pedersen-zu-borussia-dortmund-/thread/forum/154/thread_id/1204099/post_id/3410850#3410850",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Nicolò Tresoldi",
+      "age": 22,
+      "position": "Mittelstürmer",
+      "marketValue": "25,00 Mio. €",
+      "currentClub": "Club Brügge",
+      "direction": "in",
+      "probability": 12,
+      "tmProbability": 22,
+      "tmUrl": "https://www.transfermarkt.de/wechselt-nicolo-tresoldi-zu-borussia-dortmund-/thread/forum/154/thread_id/1190359/post_id/3415534#3415534",
       "sources": [],
       "lastMention": null
     },
