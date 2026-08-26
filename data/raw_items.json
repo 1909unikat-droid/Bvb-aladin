@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-26T11:02:20.987127+00:00",
-  "duration_s": 112.92,
+  "fetched_at": "2026-08-26T11:55:34.390771+00:00",
+  "duration_s": 112.8,
   "sources_ok": 36,
   "sources_fail": 23,
   "stale_sources": [
@@ -8,7 +8,7 @@
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
       "days_silent": 110,
-      "fail_runs": 214
+      "fail_runs": 215
     },
     {
       "id": "pod_bvb_offiziell",
@@ -19,13 +19,13 @@
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
       "days_silent": 66,
-      "fail_runs": 214
+      "fail_runs": 215
     },
     {
       "id": "x_sport1",
       "newest_item": "2026-07-18T19:25:01+00:00",
       "days_silent": 38,
-      "fail_runs": 183
+      "fail_runs": 184
     },
     {
       "id": "tm_geruechte",
@@ -36,121 +36,121 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 10,
-      "fail_runs": 374
+      "fail_runs": 375
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
       "days_silent": 9,
-      "fail_runs": 203
+      "fail_runs": 204
     },
     {
       "id": "x_bvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 6,
-      "fail_runs": 209
+      "fail_runs": 210
     },
     {
       "id": "x_bvb_fanb",
       "newest_item": "2026-08-20T07:43:42+00:00",
       "days_silent": 6,
-      "fail_runs": 183
+      "fail_runs": 184
     },
     {
       "id": "x_falk",
       "newest_item": "2026-08-19T12:13:33+00:00",
       "days_silent": 6,
-      "fail_runs": 203
+      "fail_runs": 204
     },
     {
       "id": "x_gabumnn",
       "newest_item": "2026-08-19T13:47:25+00:00",
       "days_silent": 6,
-      "fail_runs": 184
+      "fail_runs": 185
     },
     {
       "id": "x_lafonatebvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 6,
-      "fail_runs": 215
+      "fail_runs": 216
+    },
+    {
+      "id": "x_optafranz",
+      "newest_item": "2026-08-20T11:53:46+00:00",
+      "days_silent": 6,
+      "fail_runs": 197
     },
     {
       "id": "x_arooobvb",
       "newest_item": "2026-08-20T16:23:19+00:00",
       "days_silent": 5,
-      "fail_runs": 180
+      "fail_runs": 181
     },
     {
       "id": "x_berger",
       "newest_item": "2026-08-20T17:53:52+00:00",
       "days_silent": 5,
-      "fail_runs": 194
+      "fail_runs": 195
     },
     {
       "id": "x_bild_sport",
       "newest_item": "2026-08-20T15:42:00+00:00",
       "days_silent": 5,
-      "fail_runs": 179
+      "fail_runs": 180
     },
     {
       "id": "x_borussia0977",
       "newest_item": "2026-08-20T17:42:13+00:00",
       "days_silent": 5,
-      "fail_runs": 181
+      "fail_runs": 182
     },
     {
       "id": "x_bvbnewsblog",
       "newest_item": "2026-08-20T18:38:33+00:00",
       "days_silent": 5,
-      "fail_runs": 184
+      "fail_runs": 185
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
       "days_silent": 5,
-      "fail_runs": 201
+      "fail_runs": 202
     },
     {
       "id": "x_hinze",
       "newest_item": "2026-08-20T15:29:31+00:00",
       "days_silent": 5,
-      "fail_runs": 186
-    },
-    {
-      "id": "x_optafranz",
-      "newest_item": "2026-08-20T11:53:46+00:00",
-      "days_silent": 5,
-      "fail_runs": 196
+      "fail_runs": 187
     },
     {
       "id": "x_ornstein",
       "newest_item": "2026-08-21T07:28:03+00:00",
       "days_silent": 5,
-      "fail_runs": 178
+      "fail_runs": 179
     },
     {
       "id": "x_plettenberg",
       "newest_item": "2026-08-20T17:30:31+00:00",
       "days_silent": 5,
-      "fail_runs": 195
+      "fail_runs": 196
     },
     {
       "id": "x_rn_bvb",
       "newest_item": "2026-08-20T12:27:25+00:00",
       "days_silent": 5,
-      "fail_runs": 201
+      "fail_runs": 202
     },
     {
       "id": "x_romano",
       "newest_item": "2026-08-20T23:25:40+00:00",
       "days_silent": 5,
-      "fail_runs": 184
+      "fail_runs": 185
     },
     {
       "id": "x_skysportde",
       "newest_item": "2026-08-20T20:33:38+00:00",
       "days_silent": 5,
-      "fail_runs": 190
+      "fail_runs": 191
     }
   ],
   "items": [
@@ -478,21 +478,6 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://www.ruhr24.de/assets/images/43/850/43850334-luca-reggiani-marcel-sabitzer-und-fabio-silva-scherzen-im-training-von-borussia-dortmund-1ESNqaeZy8ef.jpg"
-    },
-    {
-      "id": "a5355f746a91075c",
-      "title": "Kurz nach Transfer: BVB-Neuzugang schon im Bayern-Visier",
-      "summary": "Ein BVB-Neuzugang sorgt seit seiner Ankunft in Dortmund für Furore. Sogar Bayern-Trainer Vincent Kompany ist schwer beeindruckt.",
-      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-konstantinos-karetsas-fc-bayern-vincent-kompany-vertrag-borussia-dortmund-94459888.html",
-      "published": "2026-08-25T18:12:02+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/43/848/43848309-giannis-konstantelias-und-konstantinos-karetsas-schauen-ernst-2rAGMrLlAmef.jpg"
     },
     {
       "id": "a4ce1854226f3710",
@@ -46379,6 +46364,21 @@
       "image": "https://images.sportschau.de/image/a4c70be3-a7d7-44ff-a952-d3f6d807e0a9/AAABoDg6mTk/AAABnSSvrFg/16x9-big/bensebaini-rot-100.jpg?width=1920"
     },
     {
+      "id": "90e6aa164003f107",
+      "title": "Champions League: Alles zur Auslosung der Gruppenphase",
+      "summary": "Bayern München, Borussia Dortmund, RB Leipzig, VfB Stuttgart und 32 weitere Teams schauen am Donnerstag gespannt auf die Auslosung der Champions-League-Gruppenphase. Viel, aber nicht alles ist möglich.",
+      "url": "https://www.sportschau.de/fussball/championsleague/cl-rennen-2026-27-beginnt-mit-vier-lostoepfen,infos-cl-auslosung-100.html",
+      "published": "2026-08-26T11:34:49+00:00",
+      "source_id": "sportschau_cl",
+      "source_name": "Sportschau Champions League",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.sportschau.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://images.sportschau.de/image/6fe2aa8c-17c9-4c00-9045-3c2ac5cde1d9/AAABoDoLDko/AAABnSSvrFg/16x9-big/cl-pokal-116.jpg?width=1920"
+    },
+    {
       "id": "c0f1b332ee98a04b",
       "title": "Aus gegen Amateure: Sammers BVB geht in Wolfsburg baden",
       "summary": "Als Reserven von Bundesligisten noch im DFB-Pokal mitspielen durften, wurde dies dem BVB 2001 zum Verhängnis. Die Amateure der Wolfsburger schalteten vollkommen überraschend das Dortmunder Starensemble aus.",
@@ -55338,21 +55338,6 @@
       "image": "https://img.sparknews.funkemedien.de/412949952/412949952_1787650594_v16_9_600.jpeg"
     },
     {
-      "id": "4d76a4d9b8d46e5b",
-      "title": "Wer wird deutscher Meister? Die Bundesliga-Trainer geben ihre Tipps ab",
-      "summary": "Vor dem Saisonstart geben Bundesliga-Trainer ihren Meister-Tipp ab. Zwei Coaches nennen nicht den FC Bayern – aber auch nicht Borussia Dortmund.",
-      "url": "https://www.waz.de/sport/article412957238/wer-wird-deutscher-meister-die-bundesliga-trainer-geben-ihre-tipps-ab.html",
-      "published": "2026-08-25T14:02:06+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412957235/412957235_1787666528_v16_9_600.jpeg"
-    },
-    {
       "id": "9489d64ffab23886",
       "title": "BVB-Hype, Pläne nach der Karriere, feuchte Augen: Alexandra Popp im großen Interview",
       "summary": "Olympiasiegerin Alexandra Popp ist der neue Fixstern von Borussia Dortmund. Die 35-Jährige spricht hier über den BVB, ihre neuen Mitspielerinnen und Profitum in der Regionalliga.",
@@ -55383,11 +55368,11 @@
       "image": "https://img.sparknews.funkemedien.de/412425134/412425134_1782727009_v16_9_600.jpeg"
     },
     {
-      "id": "4889a2d2a6c5ee45",
-      "title": "Nach Rot im Supercup: So lange wird Bensebaini dem BVB fehlen",
-      "summary": "In der Schlussphase des Supercups sah Dortmunds Ramy Bensebaini die Rote Karte. Nun gab das Sportgericht seine Sperre bekannt.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412936975/nach-rot-im-supercup-so-lange-wird-bensebaini-dem-bvb-fehlen.html",
-      "published": "2026-08-25T08:50:00+00:00",
+      "id": "4d76a4d9b8d46e5b",
+      "title": "Wer wird deutscher Meister? Die Bundesliga-Trainer geben ihre Tipps ab",
+      "summary": "Vor dem Saisonstart geben Bundesliga-Trainer ihren Meister-Tipp ab. Zwei Coaches nennen nicht den FC Bayern – aber auch nicht Borussia Dortmund.",
+      "url": "https://www.waz.de/sport/article412957238/wer-wird-deutscher-meister-die-bundesliga-trainer-geben-ihre-tipps-ab.html",
+      "published": "2026-08-25T14:02:06+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55395,7 +55380,7 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412958104/412958104_1787647005_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/412957235/412957235_1787666528_v16_9_600.jpeg"
     },
     {
       "id": "05beb28382af5a7b",
@@ -55426,6 +55411,21 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://img.sparknews.funkemedien.de/412930094/412930094_1787325947_v16_9_600.jpeg"
+    },
+    {
+      "id": "4889a2d2a6c5ee45",
+      "title": "Nach Rot im Supercup: So lange wird Bensebaini dem BVB fehlen",
+      "summary": "In der Schlussphase des Supercups sah Dortmunds Ramy Bensebaini die Rote Karte. Nun gab das Sportgericht seine Sperre bekannt.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412936975/nach-rot-im-supercup-so-lange-wird-bensebaini-dem-bvb-fehlen.html",
+      "published": "2026-08-25T08:50:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412958104/412958104_1787647005_v16_9_600.jpeg"
     },
     {
       "id": "3cdb2e93e3ded9f3",
@@ -55516,21 +55516,6 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://img.sparknews.funkemedien.de/412942391/412942391_1787494136_v16_9_600.jpeg"
-    },
-    {
-      "id": "0d62e5dccf49d31c",
-      "title": "FC Bayern setzt im Supercup ein Zeichen – BVB darf sich dennoch Hoffnung machen",
-      "summary": "Titelverteidiger FC Bayern beweist schon vor dem Bundesligastart beeindruckende Frühform. Doch auch der BVB sieht trotz Supercup-Niederlage viele positive Zeichen.",
-      "url": "https://www.waz.de/sport/article412937323/fc-bayern-setzt-im-supercup-ein-zeichen-bvb-darf-sich-dennoch-hoffnung-machen.html",
-      "published": "2026-08-23T10:33:32+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412937333/412937333_1787481212_v16_9_600.jpeg"
     },
     {
       "id": "60188fe55954b152",
