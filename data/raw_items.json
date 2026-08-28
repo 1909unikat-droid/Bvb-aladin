@@ -1,31 +1,31 @@
 {
-  "fetched_at": "2026-08-28T14:29:20.350951+00:00",
-  "duration_s": 110.44,
+  "fetched_at": "2026-08-28T23:38:44.328508+00:00",
+  "duration_s": 116.85,
   "sources_ok": 36,
   "sources_fail": 23,
   "stale_sources": [
     {
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
-      "days_silent": 112,
-      "fail_runs": 226
+      "days_silent": 113,
+      "fail_runs": 227
     },
     {
       "id": "pod_bvb_offiziell",
       "newest_item": "2026-05-21T14:50:00+00:00",
-      "days_silent": 98
+      "days_silent": 99
     },
     {
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
-      "days_silent": 68,
-      "fail_runs": 226
+      "days_silent": 69,
+      "fail_runs": 227
     },
     {
       "id": "x_sport1",
       "newest_item": "2026-07-18T19:25:01+00:00",
-      "days_silent": 40,
-      "fail_runs": 195
+      "days_silent": 41,
+      "fail_runs": 196
     },
     {
       "id": "tm_geruechte",
@@ -36,53 +36,95 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 13,
-      "fail_runs": 386
+      "fail_runs": 387
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
-      "days_silent": 11,
-      "fail_runs": 215
+      "days_silent": 12,
+      "fail_runs": 216
+    },
+    {
+      "id": "x_bvb",
+      "newest_item": "2026-08-19T14:33:54+00:00",
+      "days_silent": 9,
+      "fail_runs": 222
     },
     {
       "id": "x_falk",
       "newest_item": "2026-08-19T12:13:33+00:00",
       "days_silent": 9,
-      "fail_runs": 215
+      "fail_runs": 216
     },
     {
       "id": "x_gabumnn",
       "newest_item": "2026-08-19T13:47:25+00:00",
       "days_silent": 9,
-      "fail_runs": 196
+      "fail_runs": 197
     },
     {
-      "id": "x_bvb",
+      "id": "x_lafonatebvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
+      "days_silent": 9,
+      "fail_runs": 228
+    },
+    {
+      "id": "x_arooobvb",
+      "newest_item": "2026-08-20T16:23:19+00:00",
       "days_silent": 8,
-      "fail_runs": 221
+      "fail_runs": 193
+    },
+    {
+      "id": "x_berger",
+      "newest_item": "2026-08-20T17:53:52+00:00",
+      "days_silent": 8,
+      "fail_runs": 207
+    },
+    {
+      "id": "x_bild_sport",
+      "newest_item": "2026-08-20T15:42:00+00:00",
+      "days_silent": 8,
+      "fail_runs": 192
+    },
+    {
+      "id": "x_borussia0977",
+      "newest_item": "2026-08-20T17:42:13+00:00",
+      "days_silent": 8,
+      "fail_runs": 194
     },
     {
       "id": "x_bvb_fanb",
       "newest_item": "2026-08-20T07:43:42+00:00",
       "days_silent": 8,
-      "fail_runs": 195
+      "fail_runs": 196
+    },
+    {
+      "id": "x_bvbnewsblog",
+      "newest_item": "2026-08-20T18:38:33+00:00",
+      "days_silent": 8,
+      "fail_runs": 197
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
       "days_silent": 8,
-      "fail_runs": 213
+      "fail_runs": 214
     },
     {
-      "id": "x_lafonatebvb",
-      "newest_item": "2026-08-19T14:33:54+00:00",
+      "id": "x_hinze",
+      "newest_item": "2026-08-20T15:29:31+00:00",
       "days_silent": 8,
-      "fail_runs": 227
+      "fail_runs": 199
     },
     {
       "id": "x_optafranz",
       "newest_item": "2026-08-20T11:53:46+00:00",
+      "days_silent": 8,
+      "fail_runs": 209
+    },
+    {
+      "id": "x_plettenberg",
+      "newest_item": "2026-08-20T17:30:31+00:00",
       "days_silent": 8,
       "fail_runs": 208
     },
@@ -90,67 +132,25 @@
       "id": "x_rn_bvb",
       "newest_item": "2026-08-20T12:27:25+00:00",
       "days_silent": 8,
-      "fail_runs": 213
+      "fail_runs": 214
     },
     {
-      "id": "x_arooobvb",
-      "newest_item": "2026-08-20T16:23:19+00:00",
-      "days_silent": 7,
-      "fail_runs": 192
+      "id": "x_romano",
+      "newest_item": "2026-08-20T23:25:40+00:00",
+      "days_silent": 8,
+      "fail_runs": 197
     },
     {
-      "id": "x_berger",
-      "newest_item": "2026-08-20T17:53:52+00:00",
-      "days_silent": 7,
-      "fail_runs": 206
-    },
-    {
-      "id": "x_bild_sport",
-      "newest_item": "2026-08-20T15:42:00+00:00",
-      "days_silent": 7,
-      "fail_runs": 191
-    },
-    {
-      "id": "x_borussia0977",
-      "newest_item": "2026-08-20T17:42:13+00:00",
-      "days_silent": 7,
-      "fail_runs": 193
-    },
-    {
-      "id": "x_bvbnewsblog",
-      "newest_item": "2026-08-20T18:38:33+00:00",
-      "days_silent": 7,
-      "fail_runs": 196
-    },
-    {
-      "id": "x_hinze",
-      "newest_item": "2026-08-20T15:29:31+00:00",
-      "days_silent": 7,
-      "fail_runs": 198
+      "id": "x_skysportde",
+      "newest_item": "2026-08-20T20:33:38+00:00",
+      "days_silent": 8,
+      "fail_runs": 203
     },
     {
       "id": "x_ornstein",
       "newest_item": "2026-08-21T07:28:03+00:00",
       "days_silent": 7,
-      "fail_runs": 190
-    },
-    {
-      "id": "x_plettenberg",
-      "newest_item": "2026-08-20T17:30:31+00:00",
-      "days_silent": 7,
-      "fail_runs": 207
-    },
-    {
-      "id": "x_romano",
-      "newest_item": "2026-08-20T23:25:40+00:00",
-      "days_silent": 7,
-      "fail_runs": 196
-    },
-    {
-      "id": "x_skysportde",
-      "newest_item": "2026-08-20T20:33:38+00:00",
-      "days_silent": 7,
-      "fail_runs": 202
+      "fail_runs": 191
     }
   ],
   "items": [
@@ -435,18 +435,49 @@
       "kind": "rss"
     },
     {
-      "id": "e295394fefda7a7f",
-      "title": "Der BVB hat Probleme hinten und Luxusprobleme vorne",
-      "summary": "In der Dreierkette muss Niko Kovac vor dem Auftakt von Borussia Dortmund wohl eine weitere Lücke schließen. Auf der Sechs und der Acht hat er dagegen ein Überangebot.",
-      "url": "https://www.kicker.de/der-bvb-hat-probleme-hinten-und-luxusprobleme-vorne-1247146/artikel#omrss",
-      "published": "2026-08-27T20:35:50+00:00",
-      "source_id": "kicker_bundesliga",
-      "source_name": "kicker Bundesliga",
+      "id": "e3cbe31afa1bc2ad",
+      "title": "BVB-Liebling stellt Negativrekord ein: Comeback geht schief",
+      "summary": "Lukasz Piszczek darf sich über eine neue BVB-Rolle freuen. Dafür erlebte der Pole als Trainer einen Horrorstart in die Saison.",
+      "url": "https://www.ruhr24.de/bvb/bvb-news-lukasz-piszczek-trainer-neuer-job-botschafter-karriere-aktuell-polen-borussia-dortmund-94465255.html",
+      "published": "2026-08-28T18:01:47+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
+      "credibility": 7,
+      "host": "www.ruhr24.de",
       "lang": "de",
-      "kind": "rss"
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/852/43852033-lukasz-piszczek-im-shirt-vom-polnischen-klub-goczalkowice-1MeN6wj0SVef.jpg"
+    },
+    {
+      "id": "0c490559267ed168",
+      "title": "Fahrplanwechsel in Dortmund: Was sich für Eltern und Schüler jetzt ändert",
+      "summary": "Zum Schulstart rollen in Dortmund mehr E-Busse, doch eine Baustelle bremst eine wichtige Buslinie aus. Worüber Eltern sich jetzt informieren sollten.",
+      "url": "https://www.ruhr24.de/dortmund/fahrplanwechsel-dortmund-eltern-und-schueler-busse-fahrplan-schulstart-sommerferien-schule-verkehr-94465196.html",
+      "published": "2026-08-28T16:48:44+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.ruhr24.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/855/43855576-die-buslinie-470-richtung-dortmund-mengede-1SMOn60ExLef.jpg"
+    },
+    {
+      "id": "e705c4fd10efcc2e",
+      "title": "BVB gegen HSV: Neuzugang beschäftigt plötzlich Kovac und Polzin",
+      "summary": "Zum Bundesliga-Auftakt empfängt der BVB den Hamburger SV. RUHR24 berichtet im Live-Ticker. Ein neuer Stürmer steht vor dem Topspiel im Trainerfokus.",
+      "url": "https://www.ruhr24.de/bvb/bvb-hamburger-sv-hsv-live-ticker-niko-kovac-polzin-bundesliga-neuzugaenge-moffi-borussia-dortmund-94465146.html",
+      "published": "2026-08-28T16:04:02+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.ruhr24.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/886/43886883-hsv-trainer-merlin-polzin-und-bvb-coach-niko-kovac-begruessen-sich-2hzirsuCj0ef.jpg"
     },
     {
       "id": "d852ddeef99e9e0e",
@@ -494,34 +525,34 @@
       "image": "https://www.ruhr24.de/assets/images/43/875/43875801-bvb-trainer-kovac-2ic6Pg0NaIef.jpg"
     },
     {
-      "id": "2d3f77a91da47604",
-      "title": "0 Punkte und letzter Platz: Ex-BVB-Trainer Terzic nach Fehlstart unter Druck",
-      "summary": "Edin Terzic kassierte in seinem zweiten Spiel mit Athletic Bilbao die zweite Niederlage. Ausgerechnet ein Ex-BVB-Star hatte daran seinen Anteil.",
-      "url": "https://www.ruhr24.de/bvb/bvb-trainer-edin-terzic-athletic-bilbao-fehlstart-fc-barcelona-karim-adeyemi-news-borussia-dortmund-94464099.html",
-      "published": "2026-08-28T09:42:46+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
+      "id": "b7c21d1b17639625",
+      "title": "Elias Benkara beendet sein Dortmund-Kapitel: BVB-News",
+      "summary": "Prominenter Abgang bei Borussia Dortmunds U23. Elias Benkara unterschreibt beim Zweitligisten SpVgg Greuther Fürth. Alle BVB-News",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-news-elias-benkara-beendet-sein-dortmund-kapitel-w1176107-2002025092/",
+      "published": "2026-08-28T22:37:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
       "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/43/881/43881284-edin-terzic-schaut-nachdenklich-322SpCGxIWef.jpg"
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/28/22/630_0900_6756265_-320x160.jpg"
     },
     {
-      "id": "8327e60de5a75785",
-      "title": "Nach Polizeieinsatz in Dortmund: JP Kraemer stellt Zukunft von JP Performance infrage",
-      "summary": "Am Wohnhaus von YouTuber JP Kraemer in Dortmund hat es einen Polizeieinsatz gegeben. Es gab eine Strafanzeige. Ist das das Aus für Kraemers Imperium?",
-      "url": "https://www.ruhr24.de/dortmund/jpkraemer-dortmund-polizei-einsatz-juli-2026-jeperformance-94464018.html",
-      "published": "2026-08-28T09:13:47+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
+      "id": "ed17a05721f3dd15",
+      "title": "Historischer BVB-Moment: KI erweckt Konietzkas Bundesliga-Tor zum Leben",
+      "summary": "Vom ersten Bundesliga-Tor von BVB-Spieler Timo Konietzka gibt es keine TV-Bilder. Jetzt wurde es mit KI rekonstruiert. Das Ergebnis beeindruckt.",
+      "url": "https://www.ruhrnachrichten.de/bvb/historisches-bvb-tor-konietzka-ki-rekonstruktion-bundesliga-premiere-w1240141-2002201746/",
+      "published": "2026-08-28T22:01:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
       "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/34/905/34905047-jp-kraemer-2SWu2baOCcef.jpg"
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/28/12/630_0900_6747318_-320x160.jpg"
     },
     {
       "id": "0f4004bd5d7e2c12",
@@ -614,21 +645,6 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/27/07/630_0900_6744038_-320x160.jpg"
     },
     {
-      "id": "c89b150912b6b587",
-      "title": "BVB kompakt: Die wichtigsten Dortmund-News täglich um 5 Uhr",
-      "summary": "Was wird heute wichtig beim BVB? Mit unserem täglichen Podcast gibt es jeden Morgen um 5 Uhr alle wichtigen Informationen zu Borussia Dortmund.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-kompakt-der-taegliche-podcast-zu-borussia-dortmund-w689747-2000732229/",
-      "published": "2026-08-28T03:00:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/01/14/00/630_0900_5284800_-320x160.jpg"
-    },
-    {
       "id": "ed8188bea02c7f5d",
       "title": "BVB-Kurswechsel mit deutlicher Handschrift: Garantiert Dortmunds neuer Weg direkt Erfolg?",
       "summary": "Borussia Dortmund startet mit Euphorie und einer neuen Ausrichtung in die Saison. Garantiert die klare BVB-Transferstrategie direkt Erfolg?",
@@ -659,21 +675,6 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/27/14/630_0900_6748321_-320x160.jpg"
     },
     {
-      "id": "01b420b08bb3e056",
-      "title": "Dortmund-Präsident Watzke sieht FC Bayern als „haushohen Favoriten“: BVB-News",
-      "summary": "Dortmunds Präsident Hans-Joachim Watzke sieht den FC Bayern in der neuen Saison als „haushohen Favoriten“. U19 patzt gegen Duisburg. Alle BVB-News",
-      "url": "https://www.ruhrnachrichten.de/bvb/borussia-dortmund-watzke-bayern-haushoher-favorit-bundesliga-saison-w1176107-2002025092/",
-      "published": "2026-08-26T14:50:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/26/10/630_0900_6738799_-320x160.jpg"
-    },
-    {
       "id": "21c12af0db915471",
       "title": "BVB-Probleme im defensiven Mittelfeld: Nmecha ist gesetzt – doch wer spielt neben ihm?",
       "summary": "Die BVB-Spiele gegen Bayern und Rom offenbaren Probleme im defensiven Mittelfeld. Dort ist Nmecha gesetzt. Doch wer spielt neben ihm?",
@@ -702,6 +703,36 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/24/23/630_0900_6732567_-320x160.jpg"
+    },
+    {
+      "id": "b6bd614788f30494",
+      "title": "BVB gibt Benkara ab",
+      "summary": "Innenverteidiger Elias Benkara verlässt Borussia Dortmund und wechselt in die 2. Bundesliga. Wie die ‚Bild‘ berichtet, schließt sich der 19-Jährige der SpVgg Greuther Fürth an, der Vertrag sei bereits (…)",
+      "url": "https://www.fussballtransfers.com/a5093467318799522906-bvb-gibt-benkara-ab",
+      "published": "2026-08-28T15:05:34+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/elias-benkara-2526-2.jpg"
+    },
+    {
+      "id": "6152bad594e6438e",
+      "title": "Der BVB empfängt den HSV: Es geht wieder los!",
+      "summary": "Die Wunden sind verheilt, die Euphorie geweckt! Die 64. Bundesligasaison kann beginnen und mit dem HSV gastiert ein Verein im Westfalenstadion, der trotz seiner siebenjährigen Abstinenz aus der Bundesliga zu den großen Namen im deutschen Fußball zählt.",
+      "url": "https://schwatzgelb.de/artikel/2026/warmlaufen/es-geht-wieder-los",
+      "published": "2026-08-28T18:12:00+00:00",
+      "source_id": "schwatzgelb",
+      "source_name": "Schwatzgelb",
+      "tier": 4,
+      "credibility": 6,
+      "host": "schwatzgelb.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.schwatzgelb.de/imager/www_bvb-fotos_de/storage/files/2957/1200/BIEL2632_a12e44e3210bc53d16e237a7c4555e81.JPG"
     },
     {
       "id": "5f82396b9f3bf148",
@@ -989,21 +1020,6 @@
       "image": "https://www.schwatzgelb.de/imager/assets/1189352/Screenshot_20260706_202204_Docs_2026-07-06-182527_bpmu_a12e44e3210bc53d16e237a7c4555e81.jpg"
     },
     {
-      "id": "4b439d556b2fcf13",
-      "title": "DFB sucht einen neuen Trainer: Es kann nur Jürgen Klopp werden?",
-      "summary": "Jürgen Klopp soll neuer Trainer der deutschen Nationalmannschaft werden. Doch ist diese Wahl wirklich alternativlos? Gedanken zur DFB-Trainerdiskussion von Gastautor Jahn.",
-      "url": "https://schwatzgelb.de/artikel/2026/eua-senf/es-kann-nur-juergen-klopp-werden",
-      "published": "2026-07-03T12:30:00+00:00",
-      "source_id": "schwatzgelb",
-      "source_name": "Schwatzgelb",
-      "tier": 4,
-      "credibility": 6,
-      "host": "schwatzgelb.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.schwatzgelb.de/imager/www_bvb-fotos_de/storage/library/2018-2019-sonstiges-weidenfeller/960x960/TBI_1621_a12e44e3210bc53d16e237a7c4555e81.jpg"
-    },
-    {
       "id": "5926d1b8aa5c2195",
       "title": "Pre Game Thread: Hamburger SV (BuLi #1)",
       "summary": "Competition: Bundesliga , Time: Saturday 29/08/26 18:30 CEST Location: Westfalenstadion, Dortmund Referee: BRUH Felix Zwayer , Berlin TV Schedule: livesoccertv Pre-Game Presser: YouTube Borussia Dortmund: Coach: Niko Kovac League position: Current Form: ( wiki ) Current Bans/Injuries: ︀︀Can(Inj), Schlotterbeck(Inj), Bensebaini(Dbt). Possible lineup: Kobel Gadou - Anton - Mane Ryerson - Veerman - Nmecha - Svensson Karetsas - Konstantelias Guirassy Hamburger SV: Coach: Merlin Polzin League positio",
@@ -1032,11 +1048,69 @@
       "kind": "rss"
     },
     {
+      "id": "02ca082c3800408f",
+      "title": "BVB Champions League Draw - How many points can we get!",
+      "summary": "How many points do you figure we can get out of this draw. I’m going with 14. &#32; submitted by &#32; /u/Advanced-Success3791 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w11nkk/bvb_champions_league_draw_how_many_points_can_we/",
+      "published": "2026-08-28T20:19:40+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://preview.redd.it/5vm1z3xbc6mh1.jpeg?width=640&crop=smart&auto=webp&s=0daf1cb6cecc2af963ff697fd5cea5b2bba439e0"
+    },
+    {
+      "id": "e38837068adadc7c",
+      "title": "Fandango Streaming",
+      "summary": "How to watch Via Fandango for the Americans. Web Browser (Chrome, Edge, Firefox, Safari, etc) Apple iOS Apple tvOS Roku TV Hisense TV Vizio TV LG TV PlayStation 5 Xfinity Xumo Samsung Mobile - Coming Sep 11 Android TV - Coming Sep 11 Fire TV - Coming Sep 11 Google Mobile - Release TBD Samsung TV - Release TBD XBOX - Release TBD &#32; submitted by &#32; /u/Embarrassed-Base-143 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1325p/fandango_streaming/",
+      "published": "2026-08-28T21:14:17+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
       "id": "b3f8104b91d0525c",
       "title": "Alex Popp bei Brinkhoff’s Ballgeflüster",
       "summary": "&#32; submitted by &#32; /u/Soccer77Girl [link] &#32; [comments]",
       "url": "https://www.reddit.com/r/borussiadortmund/comments/1w0pcna/alex_popp_bei_brinkhoffs_ballgeflüster/",
       "published": "2026-08-28T12:34:28+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "87a149edbd97c18d",
+      "title": "📺 Where to watch Borussia Dortmund vs Hamburger SV",
+      "summary": "📺 Here is a list of countries and TV stations that shows the match between: Borussia Dortmund vs Hamburger SV. 🌍 Check out the BVB Worldmap for Broadcasting information, Pubs and Fanclubs in your area. 🗺️ PlacetoBVB Worldmap: https://placetobvb.bvb.de/de 📻 Listen to BVB Netradio (in german) 🔖 Weblinks in this list are broken on purpose. Remove the space in the top level domain to make them work again. Country TV Station/App/Webpage \\ Local Kickoff time]) Afghanistan: FanCodeZEE5Unite8 Sports 2Un",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w10xmv/where_to_watch_borussia_dortmund_vs_hamburger_sv/",
+      "published": "2026-08-28T19:52:58+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://preview.redd.it/nduo4fjj76mh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=3fda0d2eb019533d05e8d815617564e08114210e"
+    },
+    {
+      "id": "15d6730c6e99fbc5",
+      "title": "Fanmarsch am Samstag?",
+      "summary": "&#32; submitted by &#32; /u/rocco_storm [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w0t4sk/fanmarsch_am_samstag/",
+      "published": "2026-08-28T15:06:28+00:00",
       "source_id": "reddit_bvb",
       "source_name": "Reddit r/borussiadortmund",
       "tier": 5,
@@ -1118,11 +1192,11 @@
       "image": "https://external-preview.redd.it/U2h82kMeHG0rmEKUFCegPHHNpERKqb1iRNqB_Pw0740.jpeg?width=640&crop=smart&auto=webp&s=36015fad52c9171f3af0184c886389afef379162"
     },
     {
-      "id": "8a7c517746f7e74d",
-      "title": "zweitmarkt seats vs hamburg are available but not clickable . api does not refresh?",
-      "summary": "hello im member trying to get seats against Hamburg. theres showing alot options in many blocks of the Arena. But every time u click on them its showing not available. then they dissappear and after a while the same seats are showing available again . this is happening in endless circles. Makes no sense. and its so many so u cant know which one are bugged and which are actually working. anyone having same Issues? &#32; submitted by &#32; /u/Relevant-Season3666 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w0dzi0/zweitmarkt_seats_vs_hamburg_are_available_but_not/",
-      "published": "2026-08-28T02:22:01+00:00",
+      "id": "fbc641d933f6bca5",
+      "title": "Stärkeres team",
+      "summary": "Hallo Borussen, schätzt ihr das Team insgesamt stärker als vergangene Saison ein? Was denkt ihr über die Transfers &#32; submitted by &#32; /u/ComprehensiveSir3864 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w051cy/stärkeres_team/",
+      "published": "2026-08-27T20:11:55+00:00",
       "source_id": "reddit_bvb",
       "source_name": "Reddit r/borussiadortmund",
       "tier": 5,
@@ -1132,11 +1206,25 @@
       "kind": "rss"
     },
     {
-      "id": "fbc641d933f6bca5",
-      "title": "Stärkeres team",
-      "summary": "Hallo Borussen, schätzt ihr das Team insgesamt stärker als vergangene Saison ein? Was denkt ihr über die Transfers &#32; submitted by &#32; /u/ComprehensiveSir3864 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w051cy/stärkeres_team/",
-      "published": "2026-08-27T20:11:55+00:00",
+      "id": "55a59b0062b2fb7a",
+      "title": "How can we compete with Bayern?",
+      "summary": "This situation is annoying me. What we need to do stop them? &#32; submitted by &#32; /u/Academic-Rough9351 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w0zrdw/how_can_we_compete_with_bayern/",
+      "published": "2026-08-28T19:09:34+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "8a7c517746f7e74d",
+      "title": "zweitmarkt seats vs hamburg are available but not clickable . api does not refresh?",
+      "summary": "hello im member trying to get seats against Hamburg. theres showing alot options in many blocks of the Arena. But every time u click on them its showing not available. then they dissappear and after a while the same seats are showing available again . this is happening in endless circles. Makes no sense. and its so many so u cant know which one are bugged and which are actually working. anyone having same Issues? &#32; submitted by &#32; /u/Relevant-Season3666 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w0dzi0/zweitmarkt_seats_vs_hamburg_are_available_but_not/",
+      "published": "2026-08-28T02:22:01+00:00",
       "source_id": "reddit_bvb",
       "source_name": "Reddit r/borussiadortmund",
       "tier": 5,
@@ -1291,79 +1379,6 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://external-preview.redd.it/ZAZ0z5hKhBYN1PWDvs08S6I6R9EJ3WHYV22UbxmE_Mc.jpeg?width=640&crop=smart&auto=webp&s=ebcab96ddd9943fef072bfff3c5c27ca6f791aac"
-    },
-    {
-      "id": "1337b99106542d1e",
-      "title": "Wie seht ihr Inacios Rolle in der Saison?",
-      "summary": "&#32; submitted by &#32; /u/alex828keke [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vy07xh/wie_seht_ihr_inacios_rolle_in_der_saison/",
-      "published": "2026-08-25T13:42:09+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
-      "id": "fec9786d72c87c32",
-      "title": "is that not a foul ?",
-      "summary": "I don't know the rules so asking, if its not a foul, Olise pulls Guirassy by arm. &#32; submitted by &#32; /u/Secret-Inevitable-21 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vx6qge/is_that_not_a_foul/",
-      "published": "2026-08-24T15:55:02+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://external-preview.redd.it/MHRjNnAxcWVoY2xoMYWyZwy72eh_q3h0dLa9y3stGREW2XsOFT52hSonJHLK.png?width=640&crop=smart&auto=webp&s=ef56819f4fe031efd37721c7c46ec8a3b09ac415"
-    },
-    {
-      "id": "24f34a7afae80205",
-      "title": "AUTOGRAPHED JERSEY",
-      "summary": "Hello everyone! I lived in Germany for a while back in 2014 and my ex-girlfriend used to work in the BVB stadium. She gifted me this jersey but I'm unable to recognize all the signatures. I think I already spotted Reus, Hummels and Schmelzer but I wanted to get some help to recognize all of them. I am not thinking of several selling it but I really want to know who signed it. Thank you all in advance!!! &#32; submitted by &#32; /u/testicletickling [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vxguhm/autographed_jersey/",
-      "published": "2026-08-24T21:56:35+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://preview.redd.it/103d0115aelh1.jpeg?width=640&crop=smart&auto=webp&s=a2b1b4fe05b7a94d7046297863db392fc982cd9e"
-    },
-    {
-      "id": "bd6c61caa930cc69",
-      "title": "If Kovac leaves, who would you like to see in his place?",
-      "summary": "&#32; submitted by &#32; /u/Academic-Rough9351 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vy9ilo/if_kovac_leaves_who_would_you_like_to_see_in_his/",
-      "published": "2026-08-25T19:17:52+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://preview.redd.it/04pv5e8qmklh1.jpeg?width=640&crop=smart&auto=webp&s=e6c83e075c265dfbcd89e2ec9809813bb1b73240"
-    },
-    {
-      "id": "72fec8c5bb36613b",
-      "title": "How to get the best out of Maxi Beier…..",
-      "summary": "In 23/24 Maxi scored 16 goals for Hoffenheim, how do we get that out of him now? Is it tactics? Formation? Him being played out of position? When he arrived he was viewed as one of Germanys top young striker prospects, BvB have sort of killed that, should he just be sold to somewhere like Stuttgart and allowed to reclaim what he was? &#32; submitted by &#32; /u/Maximum_Layer6361 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vx3czw/how_to_get_the_best_out_of_maxi_beier/",
-      "published": "2026-08-24T13:48:40+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
     },
     {
       "id": "bd456dcec570a90e",
@@ -46382,6 +46397,21 @@
       "image": "https://i.ytimg.com/vi/Q1JwbR-VFB0/hqdefault.jpg"
     },
     {
+      "id": "d86d4373f123c260",
+      "title": "HSV startet bei Borussia Dortmund mit Albert Grönbaek - und will Fabio Vieira",
+      "summary": "Der Däne scheint zurück zu alter Stärke zu finden. In Dortmund schließt sich für ihn ein kleiner Kreis. Für das Team soll sich dort Geschichte aber im besten Fall nicht wiederholen.",
+      "url": "https://www.sportschau.de/regional/ndr/Bundesliga-Hamburg-HSV-Borussia-Dortmund-Albert-Groenbaek-Fabio-Vieira,hsv-1846.html",
+      "published": "2026-08-28T18:07:41+00:00",
+      "source_id": "sportschau_bl",
+      "source_name": "Sportschau Bundesliga",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.sportschau.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://images.ndr.de/image/a99177df-3518-4768-9f22-823395bca5fc/AAABn1CzR90/AAABnSSvrFg/16x9-big/hsv-trainingslager-108.jpg?width=1920"
+    },
+    {
       "id": "4f0c8d2dd8a8099b",
       "title": "Plan B geht auf – Konstantelias und Veerman kommen zum BVB",
       "summary": "Der BVB investiert die gesparten El-Mala-Millionen in die beiden Neuzugänge Giannis Konstantelias und Joey Veerman.",
@@ -46468,6 +46498,21 @@
       "host": "www.kicker.de",
       "lang": "de",
       "kind": "rss"
+    },
+    {
+      "id": "7e46dce4cd73b9be",
+      "title": "Borussia Dortmund vs Hamburg preview: Runners up versus top half hopefuls",
+      "summary": "Borussia Dortmund will be looking to go one better than last year and win the Meisterschale in their Bundesliga opening game against Hamburg at home on Saturday evening.",
+      "url": "https://bulinews.com/borussia-dortmund-hamburg-preview-runners-versus-2025-best-promoted-side",
+      "published": "2026-08-28T21:03:00+00:00",
+      "source_id": "bulinews_bvb",
+      "source_name": "Bulinews Dortmund",
+      "tier": 2,
+      "credibility": 7,
+      "host": "bulinews.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://bulinews.com/i/1280/20078.jpg"
     },
     {
       "id": "b0deb3a6b4af316c",
@@ -47203,21 +47248,6 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://bulinews.com/i/1280/19712.jpg"
-    },
-    {
-      "id": "89a8df0a626e6694",
-      "title": "“It offended me a little” – Klopp responds to claims he advised El Mala to join Dortmund",
-      "summary": "Germany head coach Jürgen Klopp has strongly denied reports claiming that he advised Said El Mala to join Borussia Dortmund.",
-      "url": "https://bulinews.com/offended-little-klopp-responds-claims-advised-mala-join-dortmund",
-      "published": "2026-08-15T20:25:00+00:00",
-      "source_id": "bulinews_bvb",
-      "source_name": "Bulinews Dortmund",
-      "tier": 2,
-      "credibility": 7,
-      "host": "bulinews.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://bulinews.com/i/1280/19709.jpg"
     },
     {
       "id": "63178fcadd3b76dc",
@@ -48711,6 +48741,21 @@
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4400,h_2475,x_0,y_210/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m038nmcgt6edqvs39g.jpg"
     },
     {
+      "id": "c0227acf7e8b2055",
+      "title": "Match Preview: New-Look BVB Opens the Season Against Hamburg",
+      "summary": "All the star transfers, rumors that came to naught, and tedium of the long summer is over. Competitive Borussia Dortmund football is back. The squad that will take to the pitch of the Westfalenstadion has been infused with a load of new, young talent, and now it’s time to see how they can perform under [&#8230;]",
+      "url": "https://www.fearthewall.com/general/24664/match-preview-new-look-bvb-opens-the-season-against-hamburg",
+      "published": "2026-08-28T19:27:06+00:00",
+      "source_id": "fearthewall",
+      "source_name": "Fear The Wall",
+      "tier": 4,
+      "credibility": 6,
+      "host": "www.fearthewall.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2292297569.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
+    },
+    {
       "id": "e392872f8bbc9412",
       "title": "Borussia Dortmund’s Full Champions League Draw",
       "summary": "The Champions League draw was held today in Monaco to decide which teams will face off in the league phase of the Champions League. Here are the results of the draw for Borussia Dortmund: Here’s a brief summary of each opponent: The full schedule will be released on Saturday. What do you think? Does Dortmund [&#8230;]",
@@ -48844,21 +48889,6 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/IMG_0637_ef71da.jpeg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "id": "973841e5a5ffcaa3",
-      "title": "Sunday Morning Double-Whammy: BVB Set to Sign Joey Veerman and Giannis Konstantelias",
-      "summary": "What a surprise to wake up to! 48 hours ago, Borussia Dortmund’s final offer for Said El Mala was firmly rejected by FC Köln. Florian Plettenberg reported that BVB were already hard at work looking for backup signings, and expected action soon. I certainly didn’t expect Ole Book to work this quickly! Early this morning, [&#8230;]",
-      "url": "https://www.fearthewall.com/borussia-dortmund-transfer-news-rumors/24597/sunday-morning-double-whammy-bvb-set-to-sign-joey-veerman-and-giannis-konstantelias",
-      "published": "2026-08-16T15:52:51+00:00",
-      "source_id": "fearthewall",
-      "source_name": "Fear The Wall",
-      "tier": 4,
-      "credibility": 6,
-      "host": "www.fearthewall.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2290189106.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "id": "978c2636edb32b22",
@@ -55371,11 +55401,11 @@
       "image": "https://i.ytimg.com/vi/NrvY5klX26U/hqdefault.jpg"
     },
     {
-      "id": "47794541c2cee8be",
-      "title": "Transfer-Pläne beim BVB: Fort vor Spanien-Wechsel, was heißt das für Dortmund?",
-      "summary": "Der BVB hat vier Schienenspieler für zwei Positionen. Nur zwei davon sind gelernte Außenverteidiger – und Hector Fort kommt nicht dazu.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412983783/transfer-plaene-beim-bvb-fort-vor-spanien-wechsel-was-heisst-das-fuer-dortmund.html",
-      "published": "2026-08-28T04:00:00+00:00",
+      "id": "40bb5b3ed1609d84",
+      "title": "Viele Talente, Hoffnung auf Spektakel und Trainer Kovac: Passt die BVB-Mischung?",
+      "summary": "Der BVB hat einen aufregenden Kader mit vielversprechenden Talenten zusammengestellt, die Bosse wünschen sich mehr Spektakel. Der Trainer setzt auf Stabilität. Passt die Mischung?",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412990749/viele-talente-hoffnung-auf-spektakel-und-trainer-kovac-passt-die-bvb-mischung.html",
+      "published": "2026-08-28T15:14:32+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55383,37 +55413,7 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412984956/412984956_1787845500_v16_9_600.jpeg"
-    },
-    {
-      "id": "22703c6e9f643929",
-      "title": "Bundesliga-Check: Was der BVB leisten kann – wo Leverkusen und Hoffenheim landen",
-      "summary": "Die Bundesliga im großen Check: Wer wird Meister? Wer spielt Champions League? Wer steigt ab? Teil vier mit Borussia Dortmund, Bayer Leverkusen und TSG Hoffenheim.",
-      "url": "https://www.waz.de/sport/article412952660/bundesliga-check-warum-bvb-vizemeister-wird-wo-leverkusen-und-hoffenheim-landen.html",
-      "published": "2026-08-28T13:09:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412937105/412937105_1787440185_v16_9_600.jpeg"
-    },
-    {
-      "id": "3311fe2595598513",
-      "title": "BVB-Gegner Sabah: Diktator als Gönner, Ex-Schalker als Torjäger",
-      "summary": "Ein Diktator als Gönner, ein Ex-Schalker als Knipser. Borussia Dortmund trifft in der Königsklasse auf Aserbaidschans Meister Sabah FK.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412989048/bvb-gegner-sabah-diktator-als-goenner-ex-schalker-als-torjaeger.html",
-      "published": "2026-08-28T11:54:28+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412989466/412989466_1787911099_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/412992937/412992937_1787930072_v16_9_600.jpeg"
     },
     {
       "id": "9489d64ffab23886",
@@ -55446,6 +55446,36 @@
       "image": "https://img.sparknews.funkemedien.de/412425134/412425134_1782727009_v16_9_600.jpeg"
     },
     {
+      "id": "22703c6e9f643929",
+      "title": "Bundesliga-Check: Was der BVB leisten kann – wo Leverkusen und Hoffenheim landen",
+      "summary": "Die Bundesliga im großen Check: Wer wird Meister? Wer spielt Champions League? Wer steigt ab? Teil vier mit Borussia Dortmund, Bayer Leverkusen und TSG Hoffenheim.",
+      "url": "https://www.waz.de/sport/article412952660/bundesliga-check-warum-bvb-vizemeister-wird-wo-leverkusen-und-hoffenheim-landen.html",
+      "published": "2026-08-28T13:09:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412937105/412937105_1787440185_v16_9_600.jpeg"
+    },
+    {
+      "id": "3311fe2595598513",
+      "title": "BVB-Gegner Sabah: Diktator als Gönner, Ex-Schalker als Torjäger",
+      "summary": "Ein Diktator als Gönner, ein Ex-Schalker als Knipser. Borussia Dortmund trifft in der Königsklasse auf Aserbaidschans Meister Sabah FK.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412989048/bvb-gegner-sabah-diktator-als-goenner-ex-schalker-als-torjaeger.html",
+      "published": "2026-08-28T11:54:28+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412989466/412989466_1787911099_v16_9_600.jpeg"
+    },
+    {
       "id": "05beb28382af5a7b",
       "title": "Supercup: BVB-Zugänge machen großen Spaß – aber es bleibt viel Luft nach oben",
       "summary": "Die griechischen Neuzugänge machen beim BVB Lust auf mehr. Doch die Niederlage gegen Bayern zeigt auch: Bis zur Topform wartet noch einiges an Arbeit.",
@@ -55476,21 +55506,6 @@
       "image": "https://img.sparknews.funkemedien.de/412930094/412930094_1787325947_v16_9_600.jpeg"
     },
     {
-      "id": "001da9e432392625",
-      "title": "Terzic unterliegt Flick und Adeyemi – Ex-BVB-Coach muss Fehlstart rechtfertigen",
-      "summary": "Der Liga-Start von Edin Terzic in Spanien ist misslungen. Mit Athletic Bilbao unterlag der ehemalige BVB-Trainer dem FC Barcelona.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412986266/terzic-unterliegt-flick-und-adeyemi-ex-bvb-coach-muss-fehlstart-rechtfertigen.html",
-      "published": "2026-08-28T06:21:31+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412986349/412986349_1787897973_v16_9_600.jpeg"
-    },
-    {
       "id": "23589194b17d253d",
       "title": "BVB-Auftakt gegen den HSV: Benoten Sie hier Karetsas, Guirassy und Co.",
       "summary": "Borussia Dortmund startet gegen den Hamburger SV in die Bundesliga-Saison. Hier können Sie die BVB-Profis nach der Partie bewerten und ihnen Noten geben.",
@@ -55504,6 +55519,21 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://img.sparknews.funkemedien.de/412974280/412974280_1787760109_v16_9_600.jpeg"
+    },
+    {
+      "id": "47794541c2cee8be",
+      "title": "Transfer-Pläne beim BVB: Fort vor Spanien-Wechsel, was heißt das für Dortmund?",
+      "summary": "Der BVB hat vier Schienenspieler für zwei Positionen. Nur zwei davon sind gelernte Außenverteidiger – und Hector Fort kommt nicht dazu.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412983783/transfer-plaene-beim-bvb-fort-vor-spanien-wechsel-was-heisst-das-fuer-dortmund.html",
+      "published": "2026-08-28T04:00:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412984956/412984956_1787845500_v16_9_600.jpeg"
     },
     {
       "id": "9fe9474f5c41e521",
@@ -55641,19 +55671,60 @@
       "image": "https://img.sparknews.funkemedien.de/412971127/412971127_1787748148_v16_9_600.jpeg"
     },
     {
-      "id": "4d76a4d9b8d46e5b",
-      "title": "Wer wird deutscher Meister? Die Bundesliga-Trainer geben ihre Tipps ab",
-      "summary": "Vor dem Saisonstart geben Bundesliga-Trainer ihren Meister-Tipp ab. Zwei Coaches nennen nicht den FC Bayern – aber auch nicht Borussia Dortmund.",
-      "url": "https://www.waz.de/sport/article412957238/wer-wird-deutscher-meister-die-bundesliga-trainer-geben-ihre-tipps-ab.html",
-      "published": "2026-08-25T14:02:06+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412957235/412957235_1787666528_v16_9_600.jpeg"
+      "id": "5fa0d94f0c978ab5",
+      "title": "Post Match Thread: Bayern Munich 5-1 VfB Stuttgart | Bundesliga",
+      "summary": "FT: Bayern Munich 5 - 1 VfB Stuttgart ⚽ Bayern Munich: Dayot Upamecano 21' 21', Michael Olise 55' 55', Josha Vagnoman 57' OG 57', Aleksandar Pavlovic 82' 82', Luis Díaz 90'+2' 90'+2' ⚽ VfB Stuttgart: Josha Vagnoman 52' 52' Info Details Competition German Bundesliga Date Fri, August 28, 2026 Kickoff 6:30 PM UTC Status 90'+6' Line-ups Bayern Munich (4-2-3-1) Starting XI Bench 1 Manuel Neuer 11 Nathaniel Brown 2 Dayot Upamecano 19 Alphonso Davies 27 Konrad Laimer 9 Harry Kane 6 Joshua Kimmich 3 Kim",
+      "url": "https://www.reddit.com/r/soccer/comments/1w11v4t/post_match_thread_bayern_munich_51_vfb_stuttgart/",
+      "published": "2026-08-28T20:27:34+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "c9e38d22d5faa3ae",
+      "title": "Daily Discussion | August 28, 2026",
+      "summary": "This post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/globalscoreboard [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w11oqp/daily_discussion_august_28_2026/",
+      "published": "2026-08-28T20:20:50+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "eaaac5c2dba6e070",
+      "title": "Match Thread: Bayern Munich vs VfB Stuttgart | Bundesliga",
+      "summary": "This post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/globalscoreboard [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w0yjnw/match_thread_bayern_munich_vs_vfb_stuttgart/",
+      "published": "2026-08-28T18:24:46+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "0461a57d1604c173",
+      "title": "[Bundesliga 26/27] Longest serving current managers in the Bundesliga",
+      "summary": "&#32; submitted by &#32; /u/Noisy_P [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w0ugo1/bundesliga_2627_longest_serving_current_managers/",
+      "published": "2026-08-28T15:55:57+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
     },
     {
       "id": "f70f46d113bcfb3e",
@@ -55950,59 +56021,17 @@
       "kind": "rss"
     },
     {
-      "id": "9f359498f491e910",
-      "title": "[Bild+] Leipzig are now pushing very hard to sign Said El-Mala from Köln to replace Yan Diomande. An offer of €50m guaranteed with bonuses up to €10m will currently be prepared. El-Mala is open to join Leipzig after Dortmund left the race last week.",
-      "summary": "&#32; submitted by &#32; /u/nutelamitbutter [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/soccer/comments/1vqocf5/bild_leipzig_are_now_pushing_very_hard_to_sign/",
-      "published": "2026-08-17T10:19:23+00:00",
-      "source_id": "reddit_soccer_bvb",
-      "source_name": "Reddit r/soccer (Dortmund)",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
-      "id": "c836d4f198d8aaae",
-      "title": "PAOK fans protest outside the club's ground after Giannis Konstantelias' transfer to Dortmund has reportedly been finalized",
-      "summary": "Chant roughly translates to &quot;You've got fans, gallant and brave, but a c*nt for an owner&quot; &#32; submitted by &#32; /u/KoupDetat [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/soccer/comments/1vq62up/paok_fans_protest_outside_the_clubs_ground_after/",
-      "published": "2026-08-16T19:24:20+00:00",
-      "source_id": "reddit_soccer_bvb",
-      "source_name": "Reddit r/soccer (Dortmund)",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
-      "id": "90d143a0558e2d5a",
-      "title": "PAOK are in advanced talks with Borussia Dortmund over the signing of 17yr old midfielder Christos Kostoglou as part of the Konstantelias deal",
-      "summary": "&#32; submitted by &#32; /u/Krakper [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/soccer/comments/1vq5wrv/paok_are_in_advanced_talks_with_borussia_dortmund/",
-      "published": "2026-08-16T19:17:46+00:00",
-      "source_id": "reddit_soccer_bvb",
-      "source_name": "Reddit r/soccer (Dortmund)",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
-      "id": "29591d7b2ca964e4",
-      "title": "PAOK Ultras have occupied the club's stadium, demanding to speak with club owner Ivan Savidis, after the reported sale of Giannis Konstantelias",
-      "summary": "As you were informed earlier by Athletiko, a group of fans of the “Double-Headed Eagle of the North” spoke by phone with Giannis Konstantelias during his arrival in Germany. Subsequently, several PAOK fans gathered at Toumba Stadium to protest the player’s transfer to Borussia Dortmund. According to reports, a request has been submitted to the club to arrange a phone call with Ivan Savvidis so they can express their opposition to the move. In fact—just a few minutes ago—a banner with the message",
-      "url": "https://www.reddit.com/r/soccer/comments/1vpwz4t/paok_ultras_have_occupied_the_clubs_stadium/",
-      "published": "2026-08-16T13:23:49+00:00",
-      "source_id": "reddit_soccer_bvb",
-      "source_name": "Reddit r/soccer (Dortmund)",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
+      "id": "7471fece6805b071",
+      "title": "Die Wunden sind verheilt, die Euphorie geweckt! Die 64. Bundesligasaison kann beginnen und mit dem HSV gastiert ein",
+      "summary": "Die Wunden sind verheilt, die Euphorie geweckt! Die 64. Bundesligasaison kann beginnen und mit dem HSV gastiert ein Verein im Westfalenstadion, der trotz seiner siebenjährigen Abstinenz aus der Bundesliga zu den großen Namen im deutschen Fußball zählt. https://schwatzgelb.de/artikel/2026/warmlaufen/es-geht-wieder-los",
+      "url": "https://bsky.app/profile/schwatzgelb.de/post/3mu5xphq3tq2c",
+      "published": "2026-08-28T18:14:00+00:00",
+      "source_id": "bsky_schwatzgelb",
+      "source_name": "Schwatzgelb (Bluesky)",
+      "tier": 4,
+      "credibility": 6,
+      "host": "bsky.app",
+      "lang": "de",
       "kind": "rss"
     },
     {
@@ -56389,20 +56418,6 @@
       "summary": "Jürgen #Klopp wird neuer Bundestrainer. Warum diese Personalie längst nicht mehr bei allen in Dortmund und Fußballdeutschland auf Gegenliebe stößt, lest ihr in unserem Text zum Red-Bull-Wechsel: https://www.schwatzgelb.de/artikel/2024/unsa-senf/entkultet [Archiv] #DFB",
       "url": "https://bsky.app/profile/schwatzgelb.de/post/3mreyrn5ybs2y",
       "published": "2026-07-24T09:06:00+00:00",
-      "source_id": "bsky_schwatzgelb",
-      "source_name": "Schwatzgelb (Bluesky)",
-      "tier": 4,
-      "credibility": 6,
-      "host": "bsky.app",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "78998973b83d6a7d",
-      "title": "Die Frage, wo sich das wertvolle Archiv von Borussia Dortmund befindet, beschäftigte unseren Autor sehr lange. Er hatte",
-      "summary": "Die Frage, wo sich das wertvolle Archiv von Borussia Dortmund befindet, beschäftigte unseren Autor sehr lange. Er hatte nun die Möglichkeit, es zu besuchen. Eine Reportage. https://schwatzgelb.de/artikel/2026/geschichte/wo-ist-eigentlich-das-bvb-archiv",
-      "url": "https://bsky.app/profile/schwatzgelb.de/post/3mr2t7mpamw2r",
-      "published": "2026-07-20T08:00:00+00:00",
       "source_id": "bsky_schwatzgelb",
       "source_name": "Schwatzgelb (Bluesky)",
       "tier": 4,
