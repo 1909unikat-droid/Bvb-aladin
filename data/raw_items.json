@@ -1,14 +1,14 @@
 {
-  "fetched_at": "2026-08-29T16:01:57.821572+00:00",
-  "duration_s": 120.72,
-  "sources_ok": 35,
-  "sources_fail": 24,
+  "fetched_at": "2026-08-29T19:21:43.104800+00:00",
+  "duration_s": 117.81,
+  "sources_ok": 36,
+  "sources_fail": 23,
   "stale_sources": [
     {
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
-      "days_silent": 113,
-      "fail_runs": 230
+      "days_silent": 114,
+      "fail_runs": 231
     },
     {
       "id": "pod_bvb_offiziell",
@@ -19,13 +19,13 @@
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
       "days_silent": 69,
-      "fail_runs": 230
+      "fail_runs": 231
     },
     {
       "id": "x_sport1",
       "newest_item": "2026-07-18T19:25:01+00:00",
       "days_silent": 41,
-      "fail_runs": 199
+      "fail_runs": 200
     },
     {
       "id": "tm_geruechte",
@@ -36,65 +36,95 @@
       "id": "x_search_bvb_transfer",
       "newest_item": null,
       "days_silent": 14,
-      "fail_runs": 390
+      "fail_runs": 391
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
-      "days_silent": 12,
-      "fail_runs": 219
+      "days_silent": 13,
+      "fail_runs": 220
     },
     {
       "id": "x_bvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 10,
-      "fail_runs": 225
+      "fail_runs": 226
     },
     {
       "id": "x_falk",
       "newest_item": "2026-08-19T12:13:33+00:00",
       "days_silent": 10,
-      "fail_runs": 219
+      "fail_runs": 220
     },
     {
       "id": "x_gabumnn",
       "newest_item": "2026-08-19T13:47:25+00:00",
       "days_silent": 10,
-      "fail_runs": 200
+      "fail_runs": 201
     },
     {
       "id": "x_lafonatebvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 10,
-      "fail_runs": 231
+      "fail_runs": 232
+    },
+    {
+      "id": "x_arooobvb",
+      "newest_item": "2026-08-20T16:23:19+00:00",
+      "days_silent": 9,
+      "fail_runs": 197
+    },
+    {
+      "id": "x_berger",
+      "newest_item": "2026-08-20T17:53:52+00:00",
+      "days_silent": 9,
+      "fail_runs": 211
     },
     {
       "id": "x_bild_sport",
       "newest_item": "2026-08-20T15:42:00+00:00",
       "days_silent": 9,
-      "fail_runs": 195
+      "fail_runs": 196
+    },
+    {
+      "id": "x_borussia0977",
+      "newest_item": "2026-08-20T17:42:13+00:00",
+      "days_silent": 9,
+      "fail_runs": 198
     },
     {
       "id": "x_bvb_fanb",
       "newest_item": "2026-08-20T07:43:42+00:00",
       "days_silent": 9,
-      "fail_runs": 199
+      "fail_runs": 200
+    },
+    {
+      "id": "x_bvbnewsblog",
+      "newest_item": "2026-08-20T18:38:33+00:00",
+      "days_silent": 9,
+      "fail_runs": 201
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
       "days_silent": 9,
-      "fail_runs": 217
+      "fail_runs": 218
     },
     {
       "id": "x_hinze",
       "newest_item": "2026-08-20T15:29:31+00:00",
       "days_silent": 9,
-      "fail_runs": 202
+      "fail_runs": 203
     },
     {
       "id": "x_optafranz",
       "newest_item": "2026-08-20T11:53:46+00:00",
+      "days_silent": 9,
+      "fail_runs": 213
+    },
+    {
+      "id": "x_plettenberg",
+      "newest_item": "2026-08-20T17:30:31+00:00",
       "days_silent": 9,
       "fail_runs": 212
     },
@@ -102,58 +132,56 @@
       "id": "x_rn_bvb",
       "newest_item": "2026-08-20T12:27:25+00:00",
       "days_silent": 9,
-      "fail_runs": 217
-    },
-    {
-      "id": "x_arooobvb",
-      "newest_item": "2026-08-20T16:23:19+00:00",
-      "days_silent": 8,
-      "fail_runs": 196
-    },
-    {
-      "id": "x_berger",
-      "newest_item": "2026-08-20T17:53:52+00:00",
-      "days_silent": 8,
-      "fail_runs": 210
-    },
-    {
-      "id": "x_borussia0977",
-      "newest_item": "2026-08-20T17:42:13+00:00",
-      "days_silent": 8,
-      "fail_runs": 197
-    },
-    {
-      "id": "x_bvbnewsblog",
-      "newest_item": "2026-08-20T18:38:33+00:00",
-      "days_silent": 8,
-      "fail_runs": 200
+      "fail_runs": 218
     },
     {
       "id": "x_ornstein",
       "newest_item": "2026-08-21T07:28:03+00:00",
       "days_silent": 8,
-      "fail_runs": 194
-    },
-    {
-      "id": "x_plettenberg",
-      "newest_item": "2026-08-20T17:30:31+00:00",
-      "days_silent": 8,
-      "fail_runs": 211
+      "fail_runs": 195
     },
     {
       "id": "x_romano",
       "newest_item": "2026-08-20T23:25:40+00:00",
       "days_silent": 8,
-      "fail_runs": 200
+      "fail_runs": 201
     },
     {
       "id": "x_skysportde",
       "newest_item": "2026-08-20T20:33:38+00:00",
       "days_silent": 8,
-      "fail_runs": 206
+      "fail_runs": 207
     }
   ],
   "items": [
+    {
+      "id": "2106869ba0aa7c96",
+      "title": "\"Haben Sorgen\": Konstantelias zieht sich Knieverletzung zu",
+      "summary": "Giannis Konstantelias legte gegen den HSV einen starken Auftritt hin und erzielte auch das Tor zum 2:0. Aber dann verletzte sich der Grieche am Knie und musste ausgewechselt werden. Es droht ein längerer Ausfall.",
+      "url": "https://www.kicker.de/haben-sorgen-konstantelias-zieht-sich-knieverletzung-zu-1247913/artikel#omrss",
+      "published": "2026-08-29T19:03:36+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
+    {
+      "id": "4e6798536afd7681",
+      "title": "kicker-Managerspiele: Einstieg weiterhin noch möglich",
+      "summary": "Am 28. August ist die Bundesliga-Saison 2026/27 gestartet. Ihr könnt dennoch nachträglich euren Wunschkader zusammenstellen und noch einsteigen.",
+      "url": "https://www.kicker.de/kicker-managerspiele-einstieg-weiterhin-noch-moeglich-960837/artikel#omrss",
+      "published": "2026-08-29T18:11:05+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
     {
       "id": "2d9cd017b100a3fe",
       "title": "Dankbarer BVB-Start in die CL - Bayern gegen Arsenal am 21. Oktober",
@@ -393,39 +421,11 @@
       "kind": "rss"
     },
     {
-      "id": "72796e7b49a27c45",
-      "title": "Von bodenlosen Weltmeistern und unglücklichen Saarländern: Zehn Fragen zum Saisonauftakt",
-      "summary": "Am 28. August startet die Bundesliga in ihre 64. Spielzeit. Wir klären über den höchsten Sieg, die meisten Treffer und andere Rekorde des 1. Spieltags auf.",
-      "url": "https://www.kicker.de/von-bodenlosen-weltmeistern-und-ungluecklichen-saarlaendern-zehn-fragen-zum-saisonauftakt-1239781/artikel#omrss",
-      "published": "2026-08-27T05:57:29+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "d9a0b461d3be83b6",
-      "title": "So sehen die Champions-League-Töpfe für die Saison 2026/27 aus",
-      "summary": "Die Töpfe für die Auslosung der Champions-League-Ligaphase sind vollständig gefüllt. Die vier Bundesligisten verteilen sich auf alle vier. Ein Überblick.",
-      "url": "https://www.kicker.de/so-sehen-die-champions-league-toepfe-fuer-die-saison-2026-27-aus-1240962/artikel#omrss",
-      "published": "2026-08-26T21:48:23+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "e84236dca32d8a70",
-      "title": "LIVE! Gegen den HSV: Löst der BVB die erste Heimaufgabe?",
-      "summary": "Auf Dortmund wartet zum Saisonauftakt das Heimspiel gegen den Hamburger SV. Erfüllt der BVB die Erwartungshaltung seiner Fans mit einem Dreier?",
-      "url": "https://www.kicker.de/live-gegen-den-hsv-loest-der-bvb-die-erste-heimaufgabe-1247139/artikel#omrss",
-      "published": "2026-08-29T15:46:46+00:00",
+      "id": "152dbe13586fa9e5",
+      "title": "Sirtaki zur Pause, Sorgen danach: BVB schlägt HSV zum Start",
+      "summary": "Borussia Dortmund ist dominant in die neue Saison gestartet und hat den verdienten 2:0-Erfolg über den Hamburger SV am Ende eines ausgeglicheneren zweiten Abschnitts in Unterzahl über die Zeit gehievt. Mittendrin: die beiden BVB-Neuzugänge Karetsas und Konstantelias.",
+      "url": "https://www.kicker.de/dortmund-gegen-hsv-2026-bundesliga-5226811/spielbericht#omrss",
+      "published": "2026-08-29T18:33:00+00:00",
       "source_id": "kicker_bundesliga",
       "source_name": "kicker Bundesliga",
       "tier": 2,
@@ -447,6 +447,21 @@
       "host": "www.kicker.de",
       "lang": "de",
       "kind": "rss"
+    },
+    {
+      "id": "4f80514affd523a9",
+      "title": "BVB-Einzelkritik gegen den HSV: Pechvogel bekommt die Note 1",
+      "summary": "Der BVB hat gegen den HSV 2:0 gewonnen. Konstantelias‘ Verletzung ist der heutige Wermutstropfen. Hier gibt‘s die Noten in der Einzelkritik.",
+      "url": "https://www.ruhr24.de/bvb/bvb-einzelkritik-noten-hsv-giannis-konstantelias-verletzt-bundesliga-bewertung-borussia-dortmund-94465841.html",
+      "published": "2026-08-29T18:59:57+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.ruhr24.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/895/43895609-bvb-profi-konstantelias-2GZD1aR9wVef.jpg"
     },
     {
       "id": "cfdb21f3ebbf2ba9",
@@ -524,11 +539,11 @@
       "image": "https://www.ruhr24.de/assets/images/43/870/43870725-gregor-kobel-gibt-ein-interview-1LYrfL0CSCef.jpg"
     },
     {
-      "id": "44a374d91c72cbc3",
-      "title": "BVB will Favoritenrolle gegen HSV gerecht werden: Bundesliga-Topspiel im Live-Ticker",
-      "summary": "Borussia Dortmund geht als klarer Favorit in den Bundesliga-Auftakt gegen den Hamburger SV. Das BVB-Heimspiel im Live-Ticker.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-favoritenrolle-hsv-bundesliga-topspiel-live-ticker-w1240862-2002202785/",
-      "published": "2026-08-29T15:00:00+00:00",
+      "id": "bb15142e128c69ec",
+      "title": "BVB-Neuzugang Konstantelias droht lange Pause: „Das hört sich nicht gut an“",
+      "summary": "Große BVB-Sorgen um Neuzugang Konstantelias. Der Offensivspieler verdreht sich gegen den HSV das Knie. Kovac und Book befürchten Schlimmes.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-konstantelias-verletzt-knie-verdreht-hsv-neuzugang-ausgewechselt-w1240982-2002203269/",
+      "published": "2026-08-29T19:07:00+00:00",
       "source_id": "rn_bvb",
       "source_name": "Ruhr Nachrichten BVB",
       "tier": 2,
@@ -536,7 +551,67 @@
       "host": "www.ruhrnachrichten.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/29/09/630_0900_6756765_-315x160.jpg"
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/29/19/630_0900_6758880_-320x160.jpg"
+    },
+    {
+      "id": "ba76d3b0964e6705",
+      "title": "Svensson überrascht, Kobel souverän, Karetsas selbstbewusst: BVB-Einzelkritik gegen den HSV",
+      "summary": "Borussia Dortmund gelingt der Bundesliga-Auftakt gegen den Hamburger SV. Svensson überrascht, Kobel souverän, Karetsas selbstbewusst - die BVB-Einzelkritik.",
+      "url": "https://www.ruhrnachrichten.de/bvb/svensson-ueberrascht-kobel-souveraen-karetsas-selbstbewusst-bvb-einzelkritik-gegen-den-hsv-w1240864-2002203279/",
+      "published": "2026-08-29T18:40:05+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/29/18/630_0900_6758672_-320x160.jpg"
+    },
+    {
+      "id": "7b116c1fb6ec044b",
+      "title": "BVB schaltet gegen den HSV zu früh in Verwaltungsmodus: RN-Analyse zum Bundesliga-Auftakt",
+      "summary": "Der BVB holt einen ungefährdeten 2:0-Sieg gegen den Hamburger SV, schaltet aber zu früh in den Verwaltungsmodus. Die RN-Analyse.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-hsv-bundesliga-auftakt-rn-analyse-verwaltungsmodus-sieg-w1240863-2002203271/",
+      "published": "2026-08-29T18:24:29+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/29/18/630_0900_6758598_-320x160.jpg"
+    },
+    {
+      "id": "439ba9e648e549e9",
+      "title": "BVB holt ungefährdeten Heimsieg gegen zahnlosen HSV: Guirassy und Konstantelias treffen",
+      "summary": "Borussia Dortmund startet erfolgreich in die neue Saison. Den völlig harmlosen Hamburger SV besiegt der BVB mit 2:0.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-favoritenrolle-hsv-bundesliga-topspiel-live-ticker-w1240862-2002202785/",
+      "published": "2026-08-29T18:15:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/29/18/630_0900_6758622_-320x160.jpg"
+    },
+    {
+      "id": "b3c8da09bd86d717",
+      "title": "U23 mit Rückenwind ins Revierderby – Benkara beendet sein Dortmund-Kapitel: BVB-News",
+      "summary": "Die U23 des BVB bleibt in der Regionalliga ungeschlagen. Nachwuchs-Verteidiger Elias Benkara unterschreibt bei Zweitligist Greuther Fürth. Alle BVB-News",
+      "url": "https://www.ruhrnachrichten.de/bvb/borussia-dortmund-u23-hilden-revierderby-rueckenwind-benkara-wechsel-greuther-fuerth-bvb-news-w1176107-2002025092/",
+      "published": "2026-08-29T16:18:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/29/16/630_0900_6758078_-320x160.jpg"
     },
     {
       "id": "aaf934a2638016be",
@@ -599,21 +674,6 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/01/14/00/630_0900_5284800_-320x160.jpg"
     },
     {
-      "id": "b7c21d1b17639625",
-      "title": "Elias Benkara beendet sein Dortmund-Kapitel: BVB-News",
-      "summary": "Prominenter Abgang bei Borussia Dortmunds U23. Elias Benkara unterschreibt beim Zweitligisten SpVgg Greuther Fürth. Alle BVB-News",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-news-elias-benkara-beendet-sein-dortmund-kapitel-w1176107-2002025092/",
-      "published": "2026-08-28T22:37:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/28/22/630_0900_6756265_-320x160.jpg"
-    },
-    {
       "id": "56630d280e7488b6",
       "title": "Historischer BVB-Moment im Video: KI erweckt Konietzkas Bundesliga-Tor zum Leben",
       "summary": "Vom ersten Bundesliga-Tor von BVB-Spieler Timo Konietzka gibt es keine TV-Bilder. Jetzt wurde es mit KI rekonstruiert. Das Ergebnis beeindruckt. Zum Video.",
@@ -659,49 +719,19 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/26/20/630_0900_6743507_-320x160.jpg"
     },
     {
-      "id": "c390870048757ee1",
-      "title": "BVB investiert zwölf Millionen ins Stadion: Diese Neuerungen erwarten Fans im Signal Iduna Park",
-      "summary": "Borussia Dortmund investiert im Sommer fast zwölf Millionen Euro ins Stadion. Diese Neuerungen erwarten BVB-Fans im Signal Iduna Park.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-millionen-investition-signal-iduna-park-stadion-neuerungen-w1236382-2002198083/",
-      "published": "2026-08-28T09:25:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
+      "id": "038edda49c636c95",
+      "title": "Book äußert sich: BVB befürchtet Kreuzbandriss bei Konstantelias",
+      "summary": "Gerade erst hat Borussia Dortmund 26 Millionen Euro Ablöse in Giannis Konstantelias investiert. Jetzt ist der BVB in großer Sorge um den Offensivmann.Giannis Konstantelias (23) legte ein (…)",
+      "url": "https://www.fussballtransfers.com/a2507954792827512143-nach-traum-debuet-bvb-in-sorge-um-konstantelias",
+      "published": "2026-08-29T17:51:03+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/25/09/630_0900_6706427_-320x160.jpg"
-    },
-    {
-      "id": "55f15cf8dda10872",
-      "title": "BVB-Kantersieg im Premier League International Cup beim FC Fulham: Sorgen um Justin Lerma",
-      "summary": "Der BVB erwischt einen Start nach Maß im Premier League International Cup. Dortmund feiert Kantersieg beim FC Fulham. Sorgen bereitet Neuzugang Justin Lerma.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-kantersieg-premier-league-international-cup-fulham-sorgen-justin-lerma-w1239427-2002199085/",
-      "published": "2026-08-28T09:22:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/26/20/630_0900_6743584_-320x160.jpg"
-    },
-    {
-      "id": "8a360c1e0daecfd2",
-      "title": "Fort-Absage, Saisonprognose und gewagte Wetten: BVB-Podcast zum Bundesliga-Start",
-      "summary": "Verrückte Fort-Absage und gewagte Reporter-Wetten - die Sonderfolge des BVB-Podcasts vor Publikum steht im Zeichen des Bundesliga-Starts.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-podcast-fort-absage-saisonprognose-wetten-bundesliga-start-hafengarten-w1239821-2002200206/",
-      "published": "2026-08-28T09:12:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/27/07/630_0900_6744038_-320x160.jpg"
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/dpaphotosnine834269.jpg"
     },
     {
       "id": "ffd3f70eae423908",
@@ -1078,6 +1108,20 @@
       "kind": "rss"
     },
     {
+      "id": "630417c85b4c24b5",
+      "title": "Post Game Thread: Hamburger SV (BuLi #1)",
+      "summary": "Borussia Dortmund 2-0 Hamburger SV Guirassy(Karetsas) 9' Konstantelias(Beier) 45+1' Lineups Borussia Dortmund: Kobel, Anton - Gadou - Svensson(Yellow 84'), Ryerson (Yellow 57' Mane 74') - Bellingham - Nmecha (Veerman 74') - Beier (Kaua Prates 84'), Karetsas (Inacio 74' Red Card 77') - Konstantelias (Sabitzer 54'), Guirassy Bank: Meyer, Kaua Prates , Mane , Reggiani, Sabitzer , Veerman , Albert, Fabio Silva, Inacio Hamburger SV: Heuer-Fernandes, Capaldo, Bornauuw, Torunariga (Nadir 82'), Jatta (P",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1txwv/post_game_thread_hamburger_sv_buli_1/",
+      "published": "2026-08-29T18:24:13+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
       "id": "182ba76146972015",
       "title": "Game Thread: Hamburger SV (BuLi #1)",
       "summary": "&#32; submitted by &#32; /u/Chazy89 [link] &#32; [comments]",
@@ -1105,6 +1149,63 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://preview.redd.it/mryyhuu5tamh1.jpeg?width=640&crop=smart&auto=webp&s=8f602503c2557c7b629be2dc85f6f7f1e4550e96"
+    },
+    {
+      "id": "f8b78157fcabce5c",
+      "title": "Der sauberste Verein der Bundesliga",
+      "summary": "Da gibt sich jemand viel Mühe beim Ticker &#32; submitted by &#32; /u/Moist-Garbage8571 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1rnlq/der_sauberste_verein_der_bundesliga/",
+      "published": "2026-08-29T16:54:35+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://preview.redd.it/53vmzhdtgcmh1.jpg?width=140&height=96&auto=webp&s=d6bd22eac3838a16a1c794a99ac68834b0c6f9d4"
+    },
+    {
+      "id": "8fd26e5a03a51020",
+      "title": "Erinnerung: Bitte parkt nicht im Kreuzviertel und Umgebung",
+      "summary": "Der BVB hat mal wieder ein Heimspiel und wie immer parken die Anreisenden aus der nahen und weiten Umgebung den dort Lebenden die Straßen zu. Ich kann mein sperriges Gerümpel nicht aus dem Kofferraum ausladen, weil ewig weit weg parken müssend. Meine 85jährige Nachbarin am Rollator kann ihren täglichen Spaziergang nur mit massiven Beschwerden machen, weil auch die Kreuzungen zugeparkt werden und sie nicht zwischen den Autos durch kommt. Kreuzviertel, Klinikviertel, Tremonia &amp; Co sind seit Ja",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1qnnf/erinnerung_bitte_parkt_nicht_im_kreuzviertel_und/",
+      "published": "2026-08-29T16:14:25+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "738019f2bd7e3571",
+      "title": "Aficionados del BVB en Valencia?",
+      "summary": "Hola a todos! Me llamo David y soy aficionado del Borussia Dortmund desde mi nacimiento. Me gustaría compartir esa pasión por el club y poder ver partidos con alguien y quizás crear una comunidad aquí en Valencia/España. Existe gente de aquí que es aficionada del Dortmund ? &#32; submitted by &#32; /u/Artistic-Bit3147 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1s84p/aficionados_del_bvb_en_valencia/",
+      "published": "2026-08-29T17:16:36+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "d1ecba3b8742b7ba",
+      "title": "How to watch Bundesliga",
+      "summary": "hi! I’m from the U.S. and i used to be able to watch the bundesliga on espn+, but it appears that this year they’ve stopped showing the games on there. I saw that Fandango is streaming the bundesliga now for some reason. However when i went to the website the Dortmund game was not popping up for me. How are you guys watching the games in the U.S? &#32; submitted by &#32; /u/Hope_Significant [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1thdk/how_to_watch_bundesliga/",
+      "published": "2026-08-29T18:06:09+00:00",
+      "source_id": "reddit_bvb",
+      "source_name": "Reddit r/borussiadortmund",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
     },
     {
       "id": "02ca082c3800408f",
@@ -1250,20 +1351,6 @@
       "kind": "rss"
     },
     {
-      "id": "fe9fea6c05473736",
-      "title": "The Bundesliga \"is\" (Was and Has Been) a Farmers League.",
-      "summary": "Yes, I know I’m a Dortmund fan, and yes, I know this is probably influenced by my bias. But I feel like there is something we simply don’t want to acknowledge here in Germany. If you go around and ask football fans in Germany, and Bayern fans specifically, about Bayern dominating the league for the better part of the last two decades, you’ll often hear that it isn’t a problem because Bayern worked hard to get to this point. And, in a way, I understand that argument. It fits very well with German",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1a3p3/the_bundesliga_is_was_and_has_been_a_farmers/",
-      "published": "2026-08-29T02:22:47+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
       "id": "58c0c2b8a49dff2d",
       "title": "Kobel Supercup Trikot",
       "summary": "Guten Morgen, mein Sohn wünscht sich zum Geburtstag ein Kobel Trikot. Die neuen BuLi Trikots findet er aber absolut nicht toll. Dazu ist das Design anscheinend absoluter Puma Standard und so bei diversen Vereinen anzutreffen. Das vom Supercup findet er allerdings super. Ich konnte das bisher nirgends finden. Weiß da jemand mehr? Ansonsten wird es halt ein älteres. &#32; submitted by &#32; /u/StrictEnthusiasm4889 [link] &#32; [comments]",
@@ -1364,62 +1451,34 @@
       "kind": "rss"
     },
     {
-      "id": "637434005c1fda8c",
-      "title": "Tactical question.Why does Kovac play with invetted fullbacks?",
-      "summary": "What is Kovac trying to create with inverted fullback?Did we switch from the crosses to attacking fullbacks?I don’t get it.If somebody knows,can they explain it to me? &#32; submitted by &#32; /u/KurtosMaster2 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w025tf/tactical_questionwhy_does_kovac_play_with/",
-      "published": "2026-08-27T18:28:38+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
+      "id": "51de2bdc287c37aa",
+      "title": "WE ARE FINALLY BACK! 😍",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/apzC24Iis2Q",
+      "published": "2026-08-29T16:33:27+00:00",
+      "source_id": "yt_bvb_official",
+      "source_name": "YouTube BVB (offiziell)",
+      "tier": 3,
+      "credibility": 9,
+      "host": "www.youtube.com",
+      "lang": "de",
+      "kind": "youtube",
+      "image": "https://i.ytimg.com/vi/apzC24Iis2Q/hqdefault.jpg"
     },
     {
-      "id": "671df7832018144b",
-      "title": "Confirmed Groups for the 26/27 Champions League Group Phase",
-      "summary": "&#32; submitted by &#32; /u/AverageCarey [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vzbcep/confirmed_groups_for_the_2627_champions_league/",
-      "published": "2026-08-26T22:04:57+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://preview.redd.it/myfx2haglslh1.jpeg?width=640&crop=smart&auto=webp&s=22b65e6b2a6e58e7142d4a4af55234d7e7e209e2"
-    },
-    {
-      "id": "bcd7d5b633b0b95d",
-      "title": "First time doing fan art",
-      "summary": "I made this only for my phone i think it looks cool, i mean i did enjoy making it &#32; submitted by &#32; /u/No_Insect_9108 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vz0qn9/first_time_doing_fan_art/",
-      "published": "2026-08-26T15:44:57+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://preview.redd.it/u9mlqeqlpqlh1.png?width=640&crop=smart&auto=webp&s=1bfd6bb4fce2a9d3f7f61b73ad0bc95dc652caa1"
-    },
-    {
-      "id": "05fadde82ce74aa2",
-      "title": "Membership question",
-      "summary": "Me and 3 friends are coming to Dortmund end of October and were looking to get tickets for the Frankfurt game on the 24th. We were going to do the membership but it looks like we're too late to do that now as international memberships take longer to process so we'd miss the cut off for when the pre sale happens. Are there any suggestions on what we could do? Maybe we could borrow a membership or have someone purchase for us and we pay when in Dortmund itself? Thanks &#32; submitted by &#32; /u/B",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1vzq1sb/membership_question/",
-      "published": "2026-08-27T10:22:36+00:00",
-      "source_id": "reddit_bvb",
-      "source_name": "Reddit r/borussiadortmund",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
-      "kind": "rss"
+      "id": "12af9da66e268080",
+      "title": "THE YELLOW WALL IS BACK AGAIN! 😍",
+      "summary": "",
+      "url": "https://www.youtube.com/shorts/_anVvNghlRQ",
+      "published": "2026-08-29T16:14:17+00:00",
+      "source_id": "yt_bvb_official",
+      "source_name": "YouTube BVB (offiziell)",
+      "tier": 3,
+      "credibility": 9,
+      "host": "www.youtube.com",
+      "lang": "de",
+      "kind": "youtube",
+      "image": "https://i.ytimg.com/vi/_anVvNghlRQ/hqdefault.jpg"
     },
     {
       "id": "5d4e9b5367ca41da",
@@ -1495,6 +1554,21 @@
       "lang": "de",
       "kind": "youtube",
       "image": "https://i.ytimg.com/vi/VDn8ZrFCOFs/hqdefault.jpg"
+    },
+    {
+      "id": "d1f74ce155ef4ac2",
+      "title": "Live: Pressekonferenz mit Kovac & Polzin | BVB – Hamburger SV",
+      "summary": "Nach dem Bundesligaspiel zwischen Borussia Dortmund und dem Hamburger SV analysieren die beiden Cheftrainer Niko Kovac und Merlin Polzin die Partie aus ihrer Sicht und beantworten die Fragen der anwesenden Journalisten. Hier seht ihr die PK live. ▶ Abonnieren & die Glocke aktivieren: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Facebook: https://facebook.com/BVB Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Twitch: https://www.twitch.tv/bvb_official TikTok: BVB",
+      "url": "https://www.youtube.com/watch?v=VgbKZz4NeME",
+      "published": "2026-08-28T07:35:26+00:00",
+      "source_id": "yt_bvb_official",
+      "source_name": "YouTube BVB (offiziell)",
+      "tier": 3,
+      "credibility": 9,
+      "host": "www.youtube.com",
+      "lang": "de",
+      "kind": "youtube",
+      "image": "https://i.ytimg.com/vi/VgbKZz4NeME/hqdefault.jpg"
     },
     {
       "id": "d3171925152b7d82",
@@ -1600,51 +1674,6 @@
       "lang": "de",
       "kind": "youtube",
       "image": "https://i.ytimg.com/vi/4LDcpsfYS1Q/hqdefault.jpg"
-    },
-    {
-      "id": "08b8a19e44b6732f",
-      "title": "MAGICAL TOUCH 😳🧲",
-      "summary": "Konstantelias will be a joy to watch this season 🙌 #bvb #shorts",
-      "url": "https://www.youtube.com/shorts/f-f2OFXEaaM",
-      "published": "2026-08-24T21:00:22+00:00",
-      "source_id": "yt_bvb_official",
-      "source_name": "YouTube BVB (offiziell)",
-      "tier": 3,
-      "credibility": 9,
-      "host": "www.youtube.com",
-      "lang": "de",
-      "kind": "youtube",
-      "image": "https://i.ytimg.com/vi/f-f2OFXEaaM/hqdefault.jpg"
-    },
-    {
-      "id": "6a33f65d50e7770c",
-      "title": "KONSTANTELIAS DEBUT 💎🇬🇷",
-      "summary": "What a baller! 😮‍💨🔥 #shorts #bvb",
-      "url": "https://www.youtube.com/shorts/eUFVzyckqno",
-      "published": "2026-08-24T20:00:15+00:00",
-      "source_id": "yt_bvb_official",
-      "source_name": "YouTube BVB (offiziell)",
-      "tier": 3,
-      "credibility": 9,
-      "host": "www.youtube.com",
-      "lang": "de",
-      "kind": "youtube",
-      "image": "https://i.ytimg.com/vi/eUFVzyckqno/hqdefault.jpg"
-    },
-    {
-      "id": "5671302b1f850491",
-      "title": "Jobe NEVER gives up! 😳",
-      "summary": "Last-second tackle by Jobe denies Olise his second goal 🙌 #shorts #bvb",
-      "url": "https://www.youtube.com/shorts/ItpUIvTMXro",
-      "published": "2026-08-24T19:26:59+00:00",
-      "source_id": "yt_bvb_official",
-      "source_name": "YouTube BVB (offiziell)",
-      "tier": 3,
-      "credibility": 9,
-      "host": "www.youtube.com",
-      "lang": "de",
-      "kind": "youtube",
-      "image": "https://i.ytimg.com/vi/ItpUIvTMXro/hqdefault.jpg"
     },
     {
       "id": "dda3339fa0a8fd4c",
@@ -46232,7 +46261,7 @@
       "title": "JETZT MUSS DER BVB LIEFERN! 🔥 BVB vs. HSV LIVE | Bundesliga Watchalong",
       "summary": "JETZT MUSS DER BVB LIEFERN! 🔥 BVB vs. HSV LIVE | Bundesliga Watchalong BVB vs. HSV LIVE im Bundesliga Watchalong! 🟡⚫ Borussia Dortmund startet gegen den Hamburger SV in die neue Bundesliga-Saison – und jetzt muss der BVB liefern! ⸻ Endlich wieder Bundesliga! Der 1. Spieltag steht an und Borussia Dortmund empfängt den Hamburger SV im Signal Iduna Park. Nach der Euphorie rund um die Transferphase zählt jetzt wieder das, was auf dem Platz passiert: Punkte, Leistung und attraktiver Fußball. Die Erwa",
       "url": "https://www.youtube.com/watch?v=n6qsmyQaZ8E",
-      "published": "2026-08-29T11:02:57+00:00",
+      "published": "2026-08-29T18:32:37+00:00",
       "source_id": "yt_poehlerz",
       "source_name": "Die Pöhlerz (YouTube)",
       "tier": 4,
@@ -46453,11 +46482,11 @@
       "image": "https://i.ytimg.com/vi/mjiLfVG4uZA/hqdefault.jpg"
     },
     {
-      "id": "ae3c5b87141b9b4e",
-      "title": "Live hören: Borussia Dortmund gegen Hamburger SV - Bundesliga",
-      "summary": "1. Spieltag: Anpfiff des Spiels ist am 29.08.2026 um 18:30 Uhr. Hamburger SV spielt in Dortmund.",
-      "url": "https://www.sportschau.de/fussball/bundesliga/borussia-dortmund-gegen-hamburger-sv,audiostream-borussia-dortmund-gegen-hamburger-sv-102.html",
-      "published": "2026-08-29T16:15:00+00:00",
+      "id": "dafeab4ed99e9aab",
+      "title": "Bundesliga: Borussia Dortmund besiegt den HSV nach Blitzstart",
+      "summary": "Zum Bundesliga-Auftakt beflügeln Kartetsas und Konstantelias Borussia Dortmund gegen den Hamburger SV - zumindest eine Halbzeit lang.",
+      "url": "https://www.sportschau.de/fussball/bundesliga/dortmunds-griechischer-zauber-zu-viel-fuer-hsv,spielbericht-borussia-dortmund-hamburger-sv-102.html",
+      "published": "2026-08-29T19:04:51+00:00",
       "source_id": "sportschau_bl",
       "source_name": "Sportschau Bundesliga",
       "tier": 2,
@@ -46465,7 +46494,7 @@
       "host": "www.sportschau.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://images.sportschau.de/image/0ffa969d-e1ff-4cf5-880f-973498bb94f6/AAABnMVkR2s/AAABnSSvrFg/16x9-big/logo-borussia-dortmund-gegen-hamburger-sv-100.jpg?width=1920"
+      "image": "https://images.sportschau.de/image/2b1a6f4b-6a7b-4f5e-b3e5-170b913ab353/AAABoE6S9hY/AAABnSSvrFg/16x9-big/borussia-dortmund-240.jpg?width=1920"
     },
     {
       "id": "d86d4373f123c260",
@@ -46584,6 +46613,21 @@
       "host": "www.kicker.de",
       "lang": "de",
       "kind": "rss"
+    },
+    {
+      "id": "e2269f7c4992c456",
+      "title": "Dortmund start with comfortable win over HSV despite injury scare and red card",
+      "summary": "Borussia Dortmund started the Bundesliga season with a 2-0 win over Hamburger SV.",
+      "url": "https://bulinews.com/dortmund-start-comfortable-win-over-hsv-despite-injury-scare-and-red-card",
+      "published": "2026-08-29T18:23:00+00:00",
+      "source_id": "bulinews_bvb",
+      "source_name": "Bulinews Dortmund",
+      "tier": 2,
+      "credibility": 7,
+      "host": "bulinews.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://bulinews.com/i/1280/20109.jpg"
     },
     {
       "id": "b6334aa4e3fc7d50",
@@ -47321,19 +47365,18 @@
       "image": "https://bulinews.com/i/1280/19720.jpg"
     },
     {
-      "id": "e517227990415236",
-      "title": "“They need to speed things up” – PSV midfielder responds to Dortmund interest",
-      "summary": "PSV midfielder Joey Veerman has addressed interest from Borussia Dortmund, admitting that joining the Bundesliga club would be a “great option” for him.",
-      "url": "https://bulinews.com/they-need-speed-things-psv-midfielder-responds-dortmund-interest",
-      "published": "2026-08-15T21:21:00+00:00",
-      "source_id": "bulinews_bvb",
-      "source_name": "Bulinews Dortmund",
+      "id": "5782bb82ad4a813a",
+      "title": "Bundesliga Player Ratings | Borussia Dortmund 2-0 Hamburg",
+      "summary": "Get German Football News is pleased to supply full player ratings from the first Bundesliga \"Top-Spiel\" of the 2026/27 campaign.",
+      "url": "https://www.getfootballnewsgermany.com/2026/bundesliga-ratings-bvb-hsv/",
+      "published": "2026-08-29T18:56:54+00:00",
+      "source_id": "ggfn_bvb",
+      "source_name": "Get German Football News BVB",
       "tier": 2,
       "credibility": 7,
-      "host": "bulinews.com",
+      "host": "www.getfootballnewsgermany.com",
       "lang": "en",
-      "kind": "rss",
-      "image": "https://bulinews.com/i/1280/19714.jpg"
+      "kind": "rss"
     },
     {
       "id": "63178fcadd3b76dc",
@@ -47454,20 +47497,6 @@
       "summary": "Borussia Dortmund have officially confirmed another loan out for goalkeeper Diant Ramaj.",
       "url": "https://www.getfootballnewsgermany.com/2026/diant-ramaj-fck-official/",
       "published": "2026-08-17T12:08:27+00:00",
-      "source_id": "ggfn_bvb",
-      "source_name": "Get German Football News BVB",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.getfootballnewsgermany.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
-      "id": "7369196930f5ed5d",
-      "title": "PAOK fans protest at the imminent sale of Giannis Konstantelias to Borussia Dortmund: “You criminals and traitors: Hands off Konstantelias!”",
-      "summary": "With the signing of Giannis Konstantelias imminent at Borussia Dortmund, fans of PAOK have protested at the sale of the Greek international branding club officials as traitors, reports Kicker. Upon&#8230;",
-      "url": "https://www.getfootballnewsgermany.com/2026/paok-fans-protest-at-the-imminnet-sale-of-giannis-konstantelias-to-borussia-dortmund-you-criminals-and-traitors-hands-off-konstantelias/",
-      "published": "2026-08-17T11:58:37+00:00",
       "source_id": "ggfn_bvb",
       "source_name": "Get German Football News BVB",
       "tier": 2,
@@ -55472,11 +55501,11 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c47/live/85680480-b69e-11f0-b2a1-6f537f66f9aa.jpg"
     },
     {
-      "id": "f5e1d9f4addd14ba",
-      "title": "Live! BVB mit drei Neuzugängen gegen den HSV – Veerman auf der Bank",
-      "summary": "Der BVB startet mit einem Heimspiel gegen den Hamburger SV in die Bundesliga-Saison. Zum Auftakt sollen drei Punkte her. Der Live-Ticker.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412997977/bvb-jetzt-live-dortmund-mit-drei-neuzugaengen-gegen-den-hsv-zum-bundesliga-start-veerman-auf-der-bank.html",
-      "published": "2026-08-29T15:48:00+00:00",
+      "id": "5939265242e739fb",
+      "title": "BVB-Noten: Griechen-Duo sticht heraus, ein Dortmunder mit Licht und Schatten",
+      "summary": "Der BVB macht beim 2:0-Sieg gegen den HSV Lust auf mehr, weil die Neuen gleich einschlagen. Andere haben Nachholbedarf. Die Einzelkritik.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413000456/bvb-noten-griechen-duo-sticht-heraus-ein-dortmunder-mit-licht-und-schatten.html",
+      "published": "2026-08-29T18:29:09+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55484,14 +55513,14 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412983225/412983225_1788002254_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/413000812/413000812_1788024619_v16_9_600.jpeg"
     },
     {
-      "id": "c0af68e874e285cf",
-      "title": "Champions-League-Auslosung: Das sind die Auftakt-Gegner von Bayern, BVB und Co.",
-      "summary": "Die Ligaphase der Champions League steht bevor. Heute wurden die Gegner von Bayern, BVB, Leipzig und Stuttgart ermittelt. Alle Spiele im Überblick.",
-      "url": "https://www.waz.de/sport/article412958934/champions-league-auslosung-das-sind-die-auftakt-gegner-von-bayern-bvb-und-co.html",
-      "published": "2026-08-29T12:45:00+00:00",
+      "id": "ae1a95f70837e4f4",
+      "title": "Nmecha als Anker, starke Neue, mehr Dynamik – BVB macht gegen HSV Lust auf mehr",
+      "summary": "Der BVB besiegt den Hamburger SV verdient 2:0 und macht seinen Fans viel Freude. Neuzugang Konstantelias allerdings bereitet Sorgen.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413000377/nmecha-als-anker-starke-neue-mehr-dynamik-bvb-macht-gegen-hsv-lust-auf-mehr.html",
+      "published": "2026-08-29T18:23:17+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55499,14 +55528,14 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412998727/412998727_1788007974_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/413001079/413001079_1788027797_v16_9_600.jpeg"
     },
     {
-      "id": "0850ab0ee504c657",
-      "title": "Champions League: Heimspiel zum Start – das sind die BVB-Termine in der Ligaphase",
-      "summary": "Der Champions-League-Spielplan steht und Borussia Dortmund muss im Oktober zu zwei Auswärtsspielen in kurzer Zeit. Die Termine im Überblick.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412998567/champions-league-das-sind-die-bvb-termine-in-der-liga-phase.html",
-      "published": "2026-08-29T12:13:01+00:00",
+      "id": "b9c20e5fe87a8fb3",
+      "title": "Rot-Frust! Inacio schleudert Flasche auf BVB-Logo – „Schlimmer als das Foul“",
+      "summary": "Gebrauchter Tag für Samuele Inacio: Das Talent von Borussia Dortmund sieht kurz nach seiner Einwechslung Rot. Danach lässt er Frust am BVB-Wappen ab.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413001534/rot-frust-inacio-schleudert-flasche-auf-bvb-logo-schlimmer-als-das-foul.html",
+      "published": "2026-08-29T19:13:30+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55514,7 +55543,37 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412998542/412998542_1788005450_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/413001540/413001540_1788029106_v16_9_600.jpeg"
+    },
+    {
+      "id": "389ab9e29c5a0fe4",
+      "title": "Book reagiert auf BVB-Verletzungsschock: Schlimme Befürchtungen bei Konstantelias",
+      "summary": "Bitteres Debüt für Giannis Konstantelias: Der Neuzugang von Borussia Dortmund spielte gegen den HSV erst stark auf. Dann musste er verletzt raus. Der Stand.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413001030/book-reagiert-auf-bvb-verletzungsschock-schlimme-befuerchtungen-bei-konstantelias.html",
+      "published": "2026-08-29T19:00:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413001069/413001069_1788026720_v16_9_600.jpeg"
+    },
+    {
+      "id": "e3a57022df135738",
+      "title": "BVB feiert 2:0-Heimsieg gegen den HSV – Ticker zum Nachlesen",
+      "summary": "Borussia Dortmund hat einen erfolgreichen Auftakt in die neue Bundesliga-Saison gefeiert – überschattet von einer Verletzung. Der Spielverlauf zum Nachlesen.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412997977/bvb-feiert-20-heimsieg-gegen-den-hsv-ticker-zum-nachlesen.html",
+      "published": "2026-08-29T16:30:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413000878/413000878_1788025388_v16_9_600.jpeg"
     },
     {
       "id": "9489d64ffab23886",
@@ -55545,6 +55604,36 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://img.sparknews.funkemedien.de/412425134/412425134_1782727009_v16_9_600.jpeg"
+    },
+    {
+      "id": "c0af68e874e285cf",
+      "title": "Champions-League-Auslosung: Das sind die Auftakt-Gegner von Bayern, BVB und Co.",
+      "summary": "Die Ligaphase der Champions League steht bevor. Heute wurden die Gegner von Bayern, BVB, Leipzig und Stuttgart ermittelt. Alle Spiele im Überblick.",
+      "url": "https://www.waz.de/sport/article412958934/champions-league-auslosung-das-sind-die-auftakt-gegner-von-bayern-bvb-und-co.html",
+      "published": "2026-08-29T12:45:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412998727/412998727_1788007974_v16_9_600.jpeg"
+    },
+    {
+      "id": "0850ab0ee504c657",
+      "title": "Champions League: Heimspiel zum Start – das sind die BVB-Termine in der Ligaphase",
+      "summary": "Der Champions-League-Spielplan steht und Borussia Dortmund muss im Oktober zu zwei Auswärtsspielen in kurzer Zeit. Die Termine im Überblick.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412998567/champions-league-das-sind-die-bvb-termine-in-der-liga-phase.html",
+      "published": "2026-08-29T12:13:01+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412998542/412998542_1788005450_v16_9_600.jpeg"
     },
     {
       "id": "bd8093b01a7105bb",
@@ -55770,6 +55859,356 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://img.sparknews.funkemedien.de/412978798/412978798_1787823527_v16_9_600.jpeg"
+    },
+    {
+      "id": "92773dcde0b7fc8c",
+      "title": "Post Match Thread: Borussia Dortmund 2-0 Hamburg SV | Bundesliga",
+      "summary": "FT: Borussia Dortmund 2 - 0 Hamburg SV ⚽ Borussia Dortmund: Serhou Guirassy 9' 9', Sebastiaan Bornauw 45'+1' OG 45'+1' Info Details Competition German Bundesliga Date Sat, August 29, 2026 Kickoff 4:30 PM UTC Status 90'+5' Line-ups Borussia Dortmund (3-4-3) Starting XI Bench 1 Gregor Kobel 45 Giannis Konstantelias 3 Waldemar Anton 19 Konstantinos Karetsas 24 Daniel Svensson 8 Felix Nmecha 22 Kouakou Gadou 26 Julian Ryerson 7 Jobe Bellingham 14 Maximilian Beier 9 Serhou Guirassy 49 Luca Reggiani 3",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1tyci/post_match_thread_borussia_dortmund_20_hamburg_sv/",
+      "published": "2026-08-29T18:24:42+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "644ecc54a1820409",
+      "title": "Borussia Dortmund 2-0 Hamburger SV - Samuele Inácio red card 77'",
+      "summary": "&#32; submitted by &#32; /u/4gjdtokurwa [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1tjb2/borussia_dortmund_20_hamburger_sv_samuele_inácio/",
+      "published": "2026-08-29T18:08:18+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "84d1a9c5e2b3b96e",
+      "title": "Borussia Dortmund 2-0 Hamburger SV - Sebastiaan Bornauw OG 45+1'",
+      "summary": "&#32; submitted by &#32; /u/4gjdtokurwa [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1s96a/borussia_dortmund_20_hamburger_sv_sebastiaan/",
+      "published": "2026-08-29T17:17:47+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "4a2231cd7abffbb1",
+      "title": "Borussia Dortmund 1-0 Hamburger SV - Serhou Guirassy 9'",
+      "summary": "&#32; submitted by &#32; /u/4gjdtokurwa [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1rasm/borussia_dortmund_10_hamburger_sv_serhou_guirassy/",
+      "published": "2026-08-29T16:40:08+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "a521d9af4305fd99",
+      "title": "Match Thread: Borussia Dortmund vs Hamburg SV | Bundesliga",
+      "summary": "This post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/globalscoreboard [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1r1aa/match_thread_borussia_dortmund_vs_hamburg_sv/",
+      "published": "2026-08-29T16:29:45+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "307b6ce75ea48606",
+      "title": "Post Match Thread: Bundesliga Saturday Konferenz (Simulcast) - Round 1 | 2026/27",
+      "summary": "FT: Elversberg 3-2 Bayer Leverkusen Elversberg scorers: Lukas Petkov (8'), Cole Campbell (9'), David Mokwa (46') Leverkusen scorers: Patrik Schick (77'), Christian Kofane (90+1') Venue: URSAPHARM-Arena an der Kaiserlinde, Spiesen-Elversberg &nbsp; FT: Köln 3-2 Hoffenheim Köln scorers: Said El Mala (51'), Thijs Dallinga (72', 82') Hoffenheim scorers: Adam Daghim (27'), Ozan Kabak (67') Venue: RheinEnergieStadion, Cologne &nbsp; FT: Mainz 0-0 Paderborn Mainz scorers: Paderborn scorers: Venue: MEWA",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1pk3s/post_match_thread_bundesliga_saturday_konferenz/",
+      "published": "2026-08-29T15:30:48+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "b037f78cc666331a",
+      "title": "Match Thread: Bundesliga Saturday Konferenz (Simulcast) - Round 1 | 2026/27",
+      "summary": "Elversberg 3-2 Bayer Leverkusen Elversberg scorers: Lukas Petkov (8'), Cole Campbell (9'), David Mokwa (46') Leverkusen scorers: Patrik Schick (77'), Christian Kofane (90+1') Venue: URSAPHARM-Arena an der Kaiserlinde, Spiesen-Elversberg &nbsp; Köln 3-2 Hoffenheim Köln scorers: Said El Mala (51'), Thijs Dallinga (72', 82') Hoffenheim scorers: Adam Daghim (27'), Ozan Kabak (67') Venue: RheinEnergieStadion, Cologne &nbsp; Mainz 0-0 Paderborn Mainz scorers: Paderborn scorers: Venue: MEWA Arena, Main",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1mlcs/match_thread_bundesliga_saturday_konferenz/",
+      "published": "2026-08-29T13:28:26+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "e67031972cbe27a1",
+      "title": "Full UCL league phase schedule",
+      "summary": "&#32; submitted by &#32; /u/Wakanda-shit-is-that [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1ju0o/full_ucl_league_phase_schedule/",
+      "published": "2026-08-29T11:15:26+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "b529c2238099fa80",
+      "title": "The 2026/27 /r/soccer Predictions Survey - the results!",
+      "summary": "The 2026/27 /r/soccer Predictions Survey - the results! First, thank you to everyone who participated in the annual Predictions Survey - and second, read on for a summary of the results (janky charts and all). We had 575 participants this year - which although only a small minority of the /r/soccer userbase, is a good enough sample size to draw some conclusions. I will post a reminder of the results, after 2026/27 comes to a close - and then we will be able to look back with delight and dismay a",
+      "url": "https://www.reddit.com/r/soccer/comments/1w1j1ij/the_202627_rsoccer_predictions_survey_the_results/",
+      "published": "2026-08-29T10:32:07+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "5fa0d94f0c978ab5",
+      "title": "Post Match Thread: Bayern Munich 5-1 VfB Stuttgart | Bundesliga",
+      "summary": "FT: Bayern Munich 5 - 1 VfB Stuttgart ⚽ Bayern Munich: Dayot Upamecano 21' 21', Michael Olise 55' 55', Josha Vagnoman 57' OG 57', Aleksandar Pavlovic 82' 82', Luis Díaz 90'+2' 90'+2' ⚽ VfB Stuttgart: Josha Vagnoman 52' 52' Info Details Competition German Bundesliga Date Fri, August 28, 2026 Kickoff 6:30 PM UTC Status 90'+6' Line-ups Bayern Munich (4-2-3-1) Starting XI Bench 1 Manuel Neuer 11 Nathaniel Brown 2 Dayot Upamecano 19 Alphonso Davies 27 Konrad Laimer 9 Harry Kane 6 Joshua Kimmich 3 Kim",
+      "url": "https://www.reddit.com/r/soccer/comments/1w11v4t/post_match_thread_bayern_munich_51_vfb_stuttgart/",
+      "published": "2026-08-28T20:27:34+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "c9e38d22d5faa3ae",
+      "title": "Daily Discussion | August 28, 2026",
+      "summary": "This post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/globalscoreboard [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w11oqp/daily_discussion_august_28_2026/",
+      "published": "2026-08-28T20:20:50+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "eaaac5c2dba6e070",
+      "title": "Match Thread: Bayern Munich vs VfB Stuttgart | Bundesliga",
+      "summary": "This post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/globalscoreboard [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w0yjnw/match_thread_bayern_munich_vs_vfb_stuttgart/",
+      "published": "2026-08-28T18:24:46+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "f70f46d113bcfb3e",
+      "title": "UEFA 2026/27 Country and Club Coefficient rankings | after last qualifying round",
+      "summary": "Source is kassiesa.net Club coefficient does not care about clubs' performance in qualifying rounds (except the fact when they were eliminated). Teams ranked 25 th to 36 th in Champions League's league stage get 6 points for their league position (and whoever places better gets more points). That's why everyone in CL have 6 points. Similar positions in Europa and Conference Leagues give 0 points, so teams playing in those competitions get nothing for the coefficient score (you can see 0 in the b",
+      "url": "https://www.reddit.com/r/soccer/comments/1w07i1m/uefa_202627_country_and_club_coefficient_rankings/",
+      "published": "2026-08-27T21:43:22+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "9966e2320657a2db",
+      "title": "Last time when Rangers failed to catch any European group was almost a decade ago, when they lost to Progrès Niederkorn",
+      "summary": "&#32; submitted by &#32; /u/Nervous-Resolution-8 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w02gm4/last_time_when_rangers_failed_to_catch_any/",
+      "published": "2026-08-27T18:39:19+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "72b8be5941e1ae91",
+      "title": "Based on UEFA club coefficients, Arsenal, Real Betis, and Inter have the \"toughest\" draws. Napoli, Feyenoord, and Liverpool have the \"easiest\" ones.",
+      "summary": "UEFA club coefficients don't really mean too much, so this was more of a fun little exercise than something truly indicative how who's having to play against the hardest or easiest opponents to beat. Someone also posted a similar table based on Elo coefficients , which funnily enough has Inter having the second-easiest draw. &#32; submitted by &#32; /u/AppleWrench [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w02189/based_on_uefa_club_coefficients_arsenal_real/",
+      "published": "2026-08-27T18:24:03+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "13a682f77b3f8f69",
+      "title": "UCL Group Phase ELO Heatmap",
+      "summary": "I took each club's Elo and mapped it across the CL draw for every team. I didn't do home and away weighting though. &#32; submitted by &#32; /u/_opensourcebryan [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w01srt/ucl_group_phase_elo_heatmap/",
+      "published": "2026-08-27T18:15:46+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "83cd04d4e4a72e85",
+      "title": "UCL 2026/2027 Pot 2Fixtures",
+      "summary": "&#32; submitted by &#32; /u/Boydcrowde [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vzzonl/ucl_20262027_pot_2fixtures/",
+      "published": "2026-08-27T17:00:40+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "1110b888f69754aa",
+      "title": "UCL draw probabilities based on 55k simulations",
+      "summary": "@Julienguyon1977 The true draw probabilities of the league phase of the Champions League based on 55,000 simulations of the official draw procedure. Most likely matches: Villarreal vs PSG, Bayern, or Inter (43%). Small fluctuations are due to the sampling error. -- This shows why we need to amend the country protection rule. It's getting ridiculous. At least allow 1 domestic game for countries with 5 clubs of more (or even 4). Just look at the PSG probabilities, and how stupid it is. And PSG dra",
+      "url": "https://www.reddit.com/r/soccer/comments/1vzr3uz/ucl_draw_probabilities_based_on_55k_simulations/",
+      "published": "2026-08-27T11:19:09+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "0edc6e31ba97da97",
+      "title": "All 36 teams for champions league 2026/27 are now set",
+      "summary": "&#32; submitted by &#32; /u/ApocalypseBS [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vzalxk/all_36_teams_for_champions_league_202627_are_now/",
+      "published": "2026-08-26T21:36:25+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "d38988d59c447fd4",
+      "title": "[Carlos Monfort] Héctor Fort is one step away from Real Sociedad",
+      "summary": "The Txuri-Urdin team has squeezed very hard in the last few hours and has been ahead of Borussia Dortmund in the race to get the Barça side. The operation is not yet closed, but talks have advanced to the point that its exit can be considered imminent. This Wednesday's day has been especially important to unhing his future. As SPORT has revealed, Deco has met with Arturo Canales and Fernando Solanas, Héctor Fort's agents, to know first-hand the proposals that the footballer had and move forward ",
+      "url": "https://www.reddit.com/r/soccer/comments/1vyy9rg/carlos_monfort_héctor_fort_is_one_step_away_from/",
+      "published": "2026-08-26T14:13:05+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "a0bea7f7c6cfd6d7",
+      "title": "[Matteo Moretto] Battle between Real Sociedad and Borussia Dortmund for Hector Fort. The Germans have been in negotiations for some time without matching Barcelona's ~€15M demands. Real Sociedad are now close to making an offer that will satisfy Barcelona",
+      "summary": "&#32; submitted by &#32; /u/OleoleCholoSimeone [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vwvk2s/matteo_moretto_battle_between_real_sociedad_and/",
+      "published": "2026-08-24T07:10:30+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "0ee6edba87620712",
+      "title": "What To Watch This Week (24-30 August)",
+      "summary": "These posts are as much for me as they are for you. So please feel free to reply with your suggestions for what to watch, and make a case for any game to be considered 'must watch', in which case I will bold it. The time zone used to sort games was LIS (Lisbon) time zone, so no, the game is not on a wrong date. Monday Time (LIS / LIS -5) Match Competition Round 17:30 / 12:30 Bologna vs Lazio Serie A 18:00 / 13:00 Malmö FF vs Djurgårdens IF Allsvenskan 19:45 / 14:45 AS Roma vs Fiorentina Serie A ",
+      "url": "https://www.reddit.com/r/soccer/comments/1vw3us1/what_to_watch_this_week_2430_august/",
+      "published": "2026-08-23T10:40:56+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "d6a8b472dc46b3ba",
+      "title": "Alternate angles of Olise’s goal vs Dortmund.",
+      "summary": "&#32; submitted by &#32; /u/Sparky-moon [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vvyf51/alternate_angles_of_olises_goal_vs_dortmund/",
+      "published": "2026-08-23T05:27:12+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "7e5b0ec264041cbc",
+      "title": "Post Match Thread: Borussia Dortmund 1-2 Bayern Munich | German Supercup",
+      "summary": "FT: Borussia Dortmund 1-2 Bayern Munich Info Details Competition German Supercup Date Sat, August 22, 2026 Kickoff 6:30 PM UTC Status 14' Line-ups Borussia Dortmund (3-4-2-1) Starting XI Bench 1 Gregor Kobel 39 Filippo Mané 3 Waldemar Anton 33 Alexander Meyer 5 Ramy Bensebaini 45 Giannis Konstantelias 22 Kouakou Gadou 25 Joey Veerman 7 Jobe Bellingham 20 Marcel Sabitzer 8 Felix Nmecha 49 Luca Reggiani 26 Julian Ryerson 14 Maximilian Beier 24 Daniel Svensson 41 Mathis Albert 9 Serhou Guirassy 21 ",
+      "url": "https://www.reddit.com/r/soccer/comments/1vvmzef/post_match_thread_borussia_dortmund_12_bayern/",
+      "published": "2026-08-22T20:26:16+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
+    },
+    {
+      "id": "70db5c225d767430",
+      "title": "Dortmund [1] - 2 Bayern Munich - Fábio Silva 75'",
+      "summary": "&#32; submitted by &#32; /u/eliseihado [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1vvmezx/dortmund_1_2_bayern_munich_fábio_silva_75/",
+      "published": "2026-08-22T20:03:51+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
     },
     {
       "id": "fa5a7332906b9e77",
