@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-30T08:49:27.543306+00:00",
-  "duration_s": 111.7,
+  "fetched_at": "2026-08-30T14:13:19.524545+00:00",
+  "duration_s": 118.18,
   "sources_ok": 36,
   "sources_fail": 23,
   "stale_sources": [
@@ -8,7 +8,7 @@
       "id": "x_kolsberger",
       "newest_item": "2026-05-07T16:04:00+00:00",
       "days_silent": 114,
-      "fail_runs": 235
+      "fail_runs": 236
     },
     {
       "id": "pod_bvb_offiziell",
@@ -19,147 +19,175 @@
       "id": "x_sky_jesco",
       "newest_item": "2026-06-20T19:35:55+00:00",
       "days_silent": 70,
-      "fail_runs": 235
+      "fail_runs": 236
     },
     {
       "id": "x_sport1",
       "newest_item": "2026-07-18T19:25:01+00:00",
       "days_silent": 42,
-      "fail_runs": 204
+      "fail_runs": 205
     },
     {
       "id": "tm_geruechte",
       "newest_item": null,
-      "days_silent": 14
+      "days_silent": 15
     },
     {
       "id": "x_search_bvb_transfer",
       "newest_item": null,
-      "days_silent": 14,
-      "fail_runs": 395
+      "days_silent": 15,
+      "fail_runs": 396
     },
     {
       "id": "x_jadenscout",
       "newest_item": "2026-08-16T16:15:04+00:00",
       "days_silent": 13,
-      "fail_runs": 224
+      "fail_runs": 225
+    },
+    {
+      "id": "x_falk",
+      "newest_item": "2026-08-19T12:13:33+00:00",
+      "days_silent": 11,
+      "fail_runs": 225
+    },
+    {
+      "id": "x_gabumnn",
+      "newest_item": "2026-08-19T13:47:25+00:00",
+      "days_silent": 11,
+      "fail_runs": 206
     },
     {
       "id": "x_bvb",
       "newest_item": "2026-08-19T14:33:54+00:00",
       "days_silent": 10,
-      "fail_runs": 230
+      "fail_runs": 231
     },
     {
       "id": "x_bvb_fanb",
       "newest_item": "2026-08-20T07:43:42+00:00",
       "days_silent": 10,
-      "fail_runs": 204
-    },
-    {
-      "id": "x_falk",
-      "newest_item": "2026-08-19T12:13:33+00:00",
-      "days_silent": 10,
-      "fail_runs": 224
-    },
-    {
-      "id": "x_gabumnn",
-      "newest_item": "2026-08-19T13:47:25+00:00",
-      "days_silent": 10,
-      "fail_runs": 205
-    },
-    {
-      "id": "x_lafonatebvb",
-      "newest_item": "2026-08-19T14:33:54+00:00",
-      "days_silent": 10,
-      "fail_runs": 236
-    },
-    {
-      "id": "x_arooobvb",
-      "newest_item": "2026-08-20T16:23:19+00:00",
-      "days_silent": 9,
-      "fail_runs": 201
-    },
-    {
-      "id": "x_berger",
-      "newest_item": "2026-08-20T17:53:52+00:00",
-      "days_silent": 9,
-      "fail_runs": 215
-    },
-    {
-      "id": "x_bild_sport",
-      "newest_item": "2026-08-20T15:42:00+00:00",
-      "days_silent": 9,
-      "fail_runs": 200
-    },
-    {
-      "id": "x_borussia0977",
-      "newest_item": "2026-08-20T17:42:13+00:00",
-      "days_silent": 9,
-      "fail_runs": 202
-    },
-    {
-      "id": "x_bvbnewsblog",
-      "newest_item": "2026-08-20T18:38:33+00:00",
-      "days_silent": 9,
       "fail_runs": 205
     },
     {
       "id": "x_bvbnewsflash",
       "newest_item": "2026-08-20T12:08:11+00:00",
+      "days_silent": 10,
+      "fail_runs": 223
+    },
+    {
+      "id": "x_lafonatebvb",
+      "newest_item": "2026-08-19T14:33:54+00:00",
+      "days_silent": 10,
+      "fail_runs": 237
+    },
+    {
+      "id": "x_optafranz",
+      "newest_item": "2026-08-20T11:53:46+00:00",
+      "days_silent": 10,
+      "fail_runs": 218
+    },
+    {
+      "id": "x_rn_bvb",
+      "newest_item": "2026-08-20T12:27:25+00:00",
+      "days_silent": 10,
+      "fail_runs": 223
+    },
+    {
+      "id": "x_arooobvb",
+      "newest_item": "2026-08-20T16:23:19+00:00",
       "days_silent": 9,
-      "fail_runs": 222
+      "fail_runs": 202
+    },
+    {
+      "id": "x_berger",
+      "newest_item": "2026-08-20T17:53:52+00:00",
+      "days_silent": 9,
+      "fail_runs": 216
+    },
+    {
+      "id": "x_bild_sport",
+      "newest_item": "2026-08-20T15:42:00+00:00",
+      "days_silent": 9,
+      "fail_runs": 201
+    },
+    {
+      "id": "x_borussia0977",
+      "newest_item": "2026-08-20T17:42:13+00:00",
+      "days_silent": 9,
+      "fail_runs": 203
+    },
+    {
+      "id": "x_bvbnewsblog",
+      "newest_item": "2026-08-20T18:38:33+00:00",
+      "days_silent": 9,
+      "fail_runs": 206
     },
     {
       "id": "x_hinze",
       "newest_item": "2026-08-20T15:29:31+00:00",
       "days_silent": 9,
-      "fail_runs": 207
-    },
-    {
-      "id": "x_optafranz",
-      "newest_item": "2026-08-20T11:53:46+00:00",
-      "days_silent": 9,
-      "fail_runs": 217
+      "fail_runs": 208
     },
     {
       "id": "x_ornstein",
       "newest_item": "2026-08-21T07:28:03+00:00",
       "days_silent": 9,
-      "fail_runs": 199
+      "fail_runs": 200
     },
     {
       "id": "x_plettenberg",
       "newest_item": "2026-08-20T17:30:31+00:00",
       "days_silent": 9,
-      "fail_runs": 216
-    },
-    {
-      "id": "x_rn_bvb",
-      "newest_item": "2026-08-20T12:27:25+00:00",
-      "days_silent": 9,
-      "fail_runs": 222
+      "fail_runs": 217
     },
     {
       "id": "x_romano",
       "newest_item": "2026-08-20T23:25:40+00:00",
       "days_silent": 9,
-      "fail_runs": 205
+      "fail_runs": 206
     },
     {
       "id": "x_skysportde",
       "newest_item": "2026-08-20T20:33:38+00:00",
       "days_silent": 9,
-      "fail_runs": 211
+      "fail_runs": 212
     }
   ],
   "items": [
+    {
+      "id": "9446fc7f658766e0",
+      "title": "Die 18 Kapitäne der Bundesliga-Saison 2026/27",
+      "summary": "Drei Spieler streifen sich erstmals die Binde über den Arm: Das sind die Kapitäne der 18 Bundesligisten für die Saison 2026/27.",
+      "url": "https://www.kicker.de/die-18-kapitaene-der-bundesliga-saison-2026-27-963695/slideshow#omrss",
+      "published": "2026-08-30T10:21:51+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
     {
       "id": "431867547ef5d540",
       "title": "Fazit nach BVB-Sieg gegen den HSV: Neue Spielfreude und offene Transfer-Baustellen",
       "summary": "Nach dem ersten Bundesliga-Topspiel der neuen Bundesliga-Saison zwischen dem BVB und HSV sprechen die kicker-Reporter Matthias Dersch, Sebastian Wolff und Patrick Kleinmann über ihre Erkenntnisse der Partie.",
       "url": "https://www.kicker.de/fazit-nach-bvb-sieg-gegen-den-hsv-neue-spielfreude-und-offene-transfer-baustellen-1247983/video#omrss",
       "published": "2026-08-29T21:23:00+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
+    {
+      "id": "f4bab438f75ae12d",
+      "title": "Polzin: \"Steige nicht mit dem Gefühl eine schönen Fußballabends in den Bus\"",
+      "summary": "Nach der 0:2-Niederlage bei Borussia Dortmund hadert HSV-Trainer Merlin Polzin mit der schwachen ersten Hälfte seines Teams. Eine gute Halbzeit reiche in der Bundesliga nicht für Punkte.",
+      "url": "https://www.kicker.de/polzin-steige-nicht-mit-dem-gefuehl-eine-schoenen-fussballabends-in-den-bus-1247981/video#omrss",
+      "published": "2026-08-29T21:04:15+00:00",
       "source_id": "kicker_bvb",
       "source_name": "kicker BVB",
       "tier": 2,
@@ -393,39 +421,11 @@
       "kind": "rss"
     },
     {
-      "id": "5a36a6ec4a63d0d7",
-      "title": "Bayern und BVB gegen Arsenal - Hammerlose für Leipzig",
-      "summary": "Seit Donnerstagabend kennen die vier deutschen Teams ihre Champions-League-Gegner: Bayern und der BVB bekommen es mit dem englischen Meister zu tun, RB Leipzig erwischte echte Hammerlose.",
-      "url": "https://www.kicker.de/bayern-und-bvb-gegen-arsenal-hammerlose-fuer-leipzig-1247291/artikel#omrss",
-      "published": "2026-08-27T17:09:57+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "580c589a8b5d8171",
-      "title": "Einmal fiel sogar der Strom aus: Die spektakulärsten Eröffnungsspiele",
-      "summary": "Die Partie des FC Bayern gegen den VfB Stuttgart ist das 25. Eröffnungsspiel der Bundesliga-Geschichte. 2002 gab es die Premiere in Dortmund, seitdem haben die Eröffnungsspiele allerhand besondere Geschichten produziert. Sei es der Ausfall eines Flutlichtmasten, ein kurioser Doppel-Elfmeter oder ein Torrekord. Der kicker präsentiert euch die spektakulärsten Eröffnungsspiele der Bundesliga.",
-      "url": "https://www.kicker.de/einmal-fiel-sogar-der-strom-aus-die-spektakulaersten-eroeffnungsspiele-1247256/video#omrss",
-      "published": "2026-08-27T13:33:09+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "431867547ef5d540",
-      "title": "Fazit nach BVB-Sieg gegen den HSV: Neue Spielfreude und offene Transfer-Baustellen",
-      "summary": "Nach dem ersten Bundesliga-Topspiel der neuen Bundesliga-Saison zwischen dem BVB und HSV sprechen die kicker-Reporter Matthias Dersch, Sebastian Wolff und Patrick Kleinmann über ihre Erkenntnisse der Partie.",
-      "url": "https://www.kicker.de/fazit-nach-bvb-sieg-gegen-den-hsv-neue-spielfreude-und-offene-transfer-baustellen-1247983/video#omrss",
-      "published": "2026-08-29T21:23:00+00:00",
+      "id": "6cb624fa1c12d4c7",
+      "title": "HSV: Alles klar mit Fabio Vieira und El Ouahdi",
+      "summary": "Am Samstagabend verlor der Hamburger SV seinen Saisonauftakt bei Borussia Dortmund mit 0:2, tags darauf aber folgte ein bedeutender Sieg auf dem Transfermarkt: Fabio Vieira und Zakaria El Ouahdi kommen.",
+      "url": "https://www.kicker.de/hsv-alles-klar-mit-fabio-vieira-und-el-ouahdi-1248145/artikel#omrss",
+      "published": "2026-08-30T12:50:10+00:00",
       "source_id": "kicker_bundesliga",
       "source_name": "kicker Bundesliga",
       "tier": 2,
@@ -435,11 +435,11 @@
       "kind": "rss"
     },
     {
-      "id": "9dc257a4ed0ffd12",
-      "title": "Kovac nach Rot für Inacio: \"Der Junge saß da ... weinend\"",
-      "summary": "Erstes Saisonspiel, Einwechslung und quasi direkt Rot: Während Borussia Dortmund erfolgreich in die neue Bundesliga-Spielzeit startete, erlebte Samuele Inacio einen Abend zum Vergessen. Wut und Tränen inklusive.",
-      "url": "https://www.kicker.de/kovac-nach-rot-fuer-inacio-der-junge-sass-da-weinend-1247923/artikel#omrss",
-      "published": "2026-08-29T20:55:13+00:00",
+      "id": "63a0645b585a2f53",
+      "title": "\"Waren nicht der HSV, der wir sein wollen\": Klare Analyse, klare Transferziele",
+      "summary": "Dass die Hürde Dortmund zum Auftakt hoch sein würde, war allen Protagonisten in Hamburg bewusst. Die Deutlichkeit, mit der diese beim samstäglichen 0:2 insbesondere im ersten Durchgang gerissen wurde, hinterlässt dennoch Ernüchterung.",
+      "url": "https://www.kicker.de/waren-nicht-der-hsv-der-wir-sein-wollen-klare-analyse-klare-transferziele-1248029/artikel#omrss",
+      "published": "2026-08-30T09:17:17+00:00",
       "source_id": "kicker_bundesliga",
       "source_name": "kicker Bundesliga",
       "tier": 2,
@@ -449,18 +449,34 @@
       "kind": "rss"
     },
     {
-      "id": "4987785ffbc86eeb",
-      "title": "Kovac tröstet weinenden Inacio: \"Er war sehr geknickt\"",
-      "summary": "Der Sieg des BVB gegen den HSV wurde teuer bezahlt mit der möglicherweise schweren Verletzung von Giannis Konstantelias. Und auch Samuele Inacio musste nach seiner Roten Karte getröstet werden.",
-      "url": "https://www.kicker.de/kovac-troestet-weinenden-inacio-er-war-sehr-geknickt-1247967/video#omrss",
-      "published": "2026-08-29T20:29:41+00:00",
-      "source_id": "kicker_bundesliga",
-      "source_name": "kicker Bundesliga",
+      "id": "eca8bf79cc4c8822",
+      "title": "Wechsel-Gerüchte um Silva: BVB-Boss macht Transfer-Ansage",
+      "summary": "Fabio Silva wirkte nach dem 2:0 gegen den HSV alles andere als glücklich. BVB-Boss Lars Ricken bezog dazu in der Mixed Zone Stellung.",
+      "url": "https://www.ruhr24.de/bvb/bvb-wechsel-geruechte-fabio-silva-bvb-boss-lars-ricker-sturm-transfer-borussia-dortmund-94466297.html",
+      "published": "2026-08-30T12:05:56+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
+      "credibility": 7,
+      "host": "www.ruhr24.de",
       "lang": "de",
-      "kind": "rss"
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/107/43107041-bvb-spieler-guirassy-und-silva-35RDtuODfqef.jpg"
+    },
+    {
+      "id": "7194dd1b53b9a796",
+      "title": "Lichterfest ohne Feuerwerk? Stadt Dortmund erntet scharfe Kritik",
+      "summary": "Könnte das Dortmunder Lichterfest künftig ohne ein Feuerwerk auskommen? RUHR24 hat die Stadt Dortmund mit Tierschutzkritik konfrontiert.",
+      "url": "https://www.ruhr24.de/dortmund/lichterfest-ohne-feuerwerk-stadt-dortmund-scharfe-kritik-peta-tierschutz-laerm-unfaelle-toedlich-94466049.html",
+      "published": "2026-08-30T08:50:38+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.ruhr24.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/43/884/43884323-blick-auf-feuerwerk-und-die-leuchtende-pyramide-2o41fgD6txef.jpg"
     },
     {
       "id": "4e6bdeeeafdf8544",
@@ -478,10 +494,10 @@
       "image": "https://www.ruhr24.de/assets/images/43/896/43896182-schiedsrichter-felix-zwayer-zeigt-samuele-inacio-die-rote-karte-219yV55xUnef.jpg"
     },
     {
-      "id": "1029ee41e26f67d7",
+      "id": "b5d16cb70e93ea41",
       "title": "Giannis Konstantelias verletzt: BVB-Bosse bestätigen ernste Sorgen",
       "summary": "Der BVB konnte den ersten Saisonsieg feiern, aber Sorgen überschatten den Abend. Konstantelias hat sich nach Eindrücken der Bosse ernsthaft verletzt.",
-      "url": "https://www.ruhr24.de/bvb/bvb-giannis-konstantelias-verletzt-kreuzband-riss-sorgen-kovac-ricken-book-borussia-dortmund-94465855.html",
+      "url": "https://www.ruhr24.de/bvb/bvb-giannis-konstantelias-verletzt-kreuzband-riss-sorgen-kovac-book-ricken-borussia-dortmund-94465855.html",
       "published": "2026-08-29T20:12:02+00:00",
       "source_id": "ruhr24_bvb",
       "source_name": "RUHR24 BVB",
@@ -493,10 +509,10 @@
       "image": "https://www.ruhr24.de/assets/images/43/895/43895899-bvb-konstantelias-2KpDZMUvg9ef.jpg"
     },
     {
-      "id": "4f80514affd523a9",
+      "id": "8b81c11e94219b37",
       "title": "BVB-Einzelkritik gegen den HSV: Pechvogel bekommt die Note 1",
       "summary": "Der BVB hat gegen den HSV 2:0 gewonnen. Konstantelias‘ Verletzung ist der heutige Wermutstropfen. Hier gibt‘s die Noten in der Einzelkritik.",
-      "url": "https://www.ruhr24.de/bvb/bvb-einzelkritik-noten-hsv-giannis-konstantelias-verletzt-bundesliga-bewertung-borussia-dortmund-94465841.html",
+      "url": "https://www.ruhr24.de/bvb/bvb-einzelkritik-noten-hsv-giannis-konstantelias-verletzt-bewertung-bundesliga-borussia-dortmund-94465841.html",
       "published": "2026-08-29T18:59:57+00:00",
       "source_id": "ruhr24_bvb",
       "source_name": "RUHR24 BVB",
@@ -508,49 +524,19 @@
       "image": "https://www.ruhr24.de/assets/images/43/895/43895609-bvb-profi-konstantelias-2GZD1aR9wVef.jpg"
     },
     {
-      "id": "cfdb21f3ebbf2ba9",
-      "title": "Viele Dortmunder Eltern kennen eine Verhaltensregel zum Schulstart nicht",
-      "summary": "Am 2. September ist Schulstart in Dortmund. Damit es nicht wieder zu über tausend Verstößen im Verkehr kommt, hebt die Polizei eine wichtige Regel hervor.",
-      "url": "https://www.ruhr24.de/dortmund/dortmund-schule-start-eltern-taxis-regel-verkehr-schulstart-schulweg-unterricht-polizei-94465712.html",
-      "published": "2026-08-29T14:02:02+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
+      "id": "bdfdaa51364e73fe",
+      "title": "BVB sucht Konstantelias-Ersatz: Das sind jetzt die möglichen Kandidaten",
+      "summary": "Der mögliche Kreuzbandriss von Giannis Konstantelias dürfte den BVB zum Handeln zwingen. Diese Transfer-Kandidaten kommen als Ersatz infrage.",
+      "url": "https://www.ruhrnachrichten.de/bvb/borussia-dortmund-transfer-kandidaten-konstantelias-ersatz-sancho-asllani-nwaneri-w1241121-2002204230/",
+      "published": "2026-08-30T11:57:35+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
       "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/43/866/43866501-eine-frau-legt-den-arm-um-ein-schulkind-2eef.jpg"
-    },
-    {
-      "id": "afb7f40c2887ce70",
-      "title": "Statt 14,50 Euro im Westfalenpark: Lichterfest in Dortmund ist komplett kostenlos",
-      "summary": "Wem das Lichterfest im Westfalenpark zu teuer ist, hat eine Alternative: Dortmund feiert eine zweite Ausgabe – mit kostenlosem Eintritt.",
-      "url": "https://www.ruhr24.de/dortmund/lichterfest-dortmund-kostenlos-westfalenpark-eintritt-alternative-fredenbaumpark-laser-feuershow-94465615.html",
-      "published": "2026-08-29T11:13:02+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/35/469/35469785-menschen-und-beleuchtete-zelte-im-dunklen-fredenbaumpark-2mM3ipNdeOef.jpg"
-    },
-    {
-      "id": "1e4330eced7ee639",
-      "title": "BVB-Termine in der Champions League fix: Dortmund beginnt zuhause",
-      "summary": "BVB-Fans aufgepasst! Zückt die Kalender, öffnet die Seiten der Airlines: Der Spielplan für die Champions League steht fest. Hier gibt‘s die Infos.",
-      "url": "https://www.ruhr24.de/bvb/bvb-champions-league-termine-zeitgenau-ansetzung-buchung-fans-bodo-glimt-borussia-dortmund-94465611.html",
-      "published": "2026-08-29T11:07:31+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/43/893/43893803-bvb-star-ryerson-2pXKflYzQUef.jpg"
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/30/11/630_0900_6761174_-320x160.jpg"
     },
     {
       "id": "e68a2506279b6b2b",
@@ -718,19 +704,19 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/08/27/12/630_0900_6745432_-320x160.jpg"
     },
     {
-      "id": "c89b150912b6b587",
-      "title": "BVB kompakt: Die wichtigsten Dortmund-News täglich um 5 Uhr",
-      "summary": "Was wird heute wichtig beim BVB? Mit unserem täglichen Podcast gibt es jeden Morgen um 5 Uhr alle wichtigen Informationen zu Borussia Dortmund.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-kompakt-der-taegliche-podcast-zu-borussia-dortmund-w689747-2000732229/",
-      "published": "2026-08-29T03:00:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
+      "id": "5313f91fe4694688",
+      "title": "Ex-Dortmunder Balerdi zur Roma",
+      "summary": "Leonardo Balerdi (27) vollzieht einen Vereinswechsel. Der Innenverteidiger bricht seine Zelte bei Olympique Marseille ab, um sich der AS Rom anzuschließen. Es handelt sich um eine Leihe samt (…)",
+      "url": "https://www.fussballtransfers.com/a4634756363476724762-ex-dortmunder-balerdi-zur-roma",
+      "published": "2026-08-30T10:23:39+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/01/14/00/630_0900_5284800_-320x160.jpg"
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/le-havre-athletic-club-v-olympique-de-marseille-ligue-1-mc-2.jpg"
     },
     {
       "id": "11ed7b42da1a1e8c",
@@ -793,79 +779,19 @@
       "image": "https://assets-de.imgfoot.com/media/cache/1200x675/giannis-konstantelias-im-trikot-des-bvb-2627.jpg"
     },
     {
-      "id": "038edda49c636c95",
-      "title": "Book äußert sich: BVB befürchtet Kreuzbandriss bei Konstantelias",
-      "summary": "Gerade erst hat Borussia Dortmund 26 Millionen Euro Ablöse in Giannis Konstantelias investiert. Jetzt ist der BVB in großer Sorge um den Offensivmann.Giannis Konstantelias (23) legte ein (…)",
-      "url": "https://www.fussballtransfers.com/a2507954792827512143-nach-traum-debuet-bvb-in-sorge-um-konstantelias",
-      "published": "2026-08-29T17:51:03+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
+      "id": "82594f2982c47ca0",
+      "title": "BVB gewinnt gegen den HSV: Wir spielen wieder Fußball!",
+      "summary": "Ein Saisonstart wie eine Achterbahnfahrt: Der BVB reißt die Fans in der ersten Hälfte mit seiner furiosen Spielweise mit und muss in der zweiten einen herben Verlust verkraften. Unser Spielbericht zum Ligaauftakt.",
+      "url": "https://schwatzgelb.de/artikel/2026/maenner/wir-spielen-wieder-fussball",
+      "published": "2026-08-30T12:06:00+00:00",
+      "source_id": "schwatzgelb",
+      "source_name": "Schwatzgelb",
+      "tier": 4,
+      "credibility": 6,
+      "host": "schwatzgelb.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/dpaphotosnine834269.jpg"
-    },
-    {
-      "id": "ffd3f70eae423908",
-      "title": "BVB: Drei Neuzugänge in der Startelf",
-      "summary": "Mit drei Sommerneuzugängen geht Borussia Dortmund in das erste Bundesliga-Spiel der neuen Saison. Sowohl Innenverteidiger-Talent Joane Gadou (19) als auch die beiden griechischen Offensivspieler (…)",
-      "url": "https://www.fussballtransfers.com/a1993398652174424622-bvb-drei-neuzugaenge-in-der-startelf",
-      "published": "2026-08-29T15:41:50+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/dpaphotosnine821250.jpg"
-    },
-    {
-      "id": "2d686188a81cb186",
-      "title": "Schlotterbeck direkt in der Startelf",
-      "summary": "Der FC Southampton setzt direkt auf Keven Schlotterbeck (29). Beim ersten Pflichtspiel nach seinem Wechsel vor zwei Tagen steht der Neuzugang vom FC Augsburg gegen den FC Millwall (16 Uhr) in der (…)",
-      "url": "https://www.fussballtransfers.com/a6305520561808258599-schlotterbeck-direkt-in-der-startelf",
-      "published": "2026-08-29T12:58:17+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/keven-schlotterbeck-2627.jpg"
-    },
-    {
-      "id": "7be61b52d5ae81ec",
-      "title": "Neuer Klub für Ex-Dortmunder Balerdi",
-      "summary": "Leonardo Balerdi setzt seine Karriere in Italien fort. Der Transfer des Innenverteidigers von Olympique Marseille zur AS Rom ist laut Fabrizio Romano beschlossene Sache. Der 27-Jährige wechselt per (…)",
-      "url": "https://www.fussballtransfers.com/a2034263065855103460-neuer-klub-fuer-ex-dortmunder-balerdi",
-      "published": "2026-08-29T12:40:00+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/balerdi-6a91abbd62bee.jpg"
-    },
-    {
-      "id": "d3db10898dae5796",
-      "title": "BVB: Bensebaini-Entscheidung gefallen",
-      "summary": "Borussia Dortmund muss beim heutigen Bundesliga-Auftakt gegen den Hamburger SV (18:30 Uhr) auf Ramy Bensebaini (31) verzichten. Beim Supercup am vergangenen Samstag gegen den FC Bayern (1:2) zog sich (…)",
-      "url": "https://www.fussballtransfers.com/a2884938736558249010-bvb-bensebaini-entscheidung-gefallen",
-      "published": "2026-08-29T11:33:00+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/dpaphotosnine823684.jpg"
+      "image": "https://www.schwatzgelb.de/imager/assets/Redaktion/2026/bvb-hsv/1191962/into_8df1d2a16fa4d608f7441fde114817c6.jpg"
     },
     {
       "id": "6152bad594e6438e",
@@ -1153,21 +1079,6 @@
       "image": "https://www.schwatzgelb.de/imager/www_bvb-fotos_de/storage/files/2812/1200/BIEL3784_a12e44e3210bc53d16e237a7c4555e81.jpg"
     },
     {
-      "id": "348419bfbb618e79",
-      "title": "Donald Trump und Gianni Infantino: Wünsche an den Präsidenten",
-      "summary": "Tatsachenentscheidung? Nicht mit Trump und Infantino. Unsere Chance, die Fußballgeschichte richtig zu schreiben.",
-      "url": "https://schwatzgelb.de/artikel/2026/von-fans-fuer-fans/wuensche-an-den-praesidenten",
-      "published": "2026-07-06T18:02:00+00:00",
-      "source_id": "schwatzgelb",
-      "source_name": "Schwatzgelb",
-      "tier": 4,
-      "credibility": 6,
-      "host": "schwatzgelb.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.schwatzgelb.de/imager/assets/1189352/Screenshot_20260706_202204_Docs_2026-07-06-182527_bpmu_a12e44e3210bc53d16e237a7c4555e81.jpg"
-    },
-    {
       "id": "f4d5b5a562c90cf3",
       "title": "Social Sunday (30/08/2026)",
       "summary": "Grab your coffee and get comfortable, it's Sunday :) Talk about anything, or something else! &#32; submitted by &#32; /u/AutoModerator [link] &#32; [comments]",
@@ -1384,11 +1295,11 @@
       "image": "https://external-preview.redd.it/cE0resPnrgnf1xyZZ3H0d7xcZuRrYrAfwADhgqeZGVk.jpeg?width=320&crop=smart&auto=webp&s=03f9e90e4a7c7dc0afe135e09afd0f372a801b21"
     },
     {
-      "id": "bd674cdfbe7b0e0e",
-      "title": "BVB vs HSV",
-      "summary": "Hallo, hab mal ne doofe Frage. Eine Freundin und ich haben für heut Abend Karten fürs Stadion. Wir sitzen in Block 78, also auf der Nord. Darf sie im HSV Trikot dort sitzen? &#32; submitted by &#32; /u/SaraBVB [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1g86g/bvb_vs_hsv/",
-      "published": "2026-08-29T07:46:53+00:00",
+      "id": "0687a2fee02e1ff4",
+      "title": "Das „M.R.“-Kit aus dem Umfeld des Campo Bahia: eine Provenienzstudie zu Marco Reus und der Weltmeisterschaft 2014",
+      "summary": "&#32; submitted by &#32; /u/Shoddy-Raspberry-446 [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1vpni/das_mrkit_aus_dem_umfeld_des_campo_bahia_eine/",
+      "published": "2026-08-29T19:32:38+00:00",
       "source_id": "reddit_bvb",
       "source_name": "Reddit r/borussiadortmund",
       "tier": 5,
@@ -1398,11 +1309,11 @@
       "kind": "rss"
     },
     {
-      "id": "0687a2fee02e1ff4",
-      "title": "Das „M.R.“-Kit aus dem Umfeld des Campo Bahia: eine Provenienzstudie zu Marco Reus und der Weltmeisterschaft 2014",
-      "summary": "&#32; submitted by &#32; /u/Shoddy-Raspberry-446 [link] &#32; [comments]",
-      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1vpni/das_mrkit_aus_dem_umfeld_des_campo_bahia_eine/",
-      "published": "2026-08-29T19:32:38+00:00",
+      "id": "bd674cdfbe7b0e0e",
+      "title": "BVB vs HSV",
+      "summary": "Hallo, hab mal ne doofe Frage. Eine Freundin und ich haben für heut Abend Karten fürs Stadion. Wir sitzen in Block 78, also auf der Nord. Darf sie im HSV Trikot dort sitzen? &#32; submitted by &#32; /u/SaraBVB [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/borussiadortmund/comments/1w1g86g/bvb_vs_hsv/",
+      "published": "2026-08-29T07:46:53+00:00",
       "source_id": "reddit_bvb",
       "source_name": "Reddit r/borussiadortmund",
       "tier": 5,
@@ -1995,7 +1906,7 @@
       "title": "RN-Talk: Konstantelias-Schock setzt BVB unter Druck - neue Sancho-Debatten",
       "summary": "DORTMUND, 30.08.26: Der Konstantelias-Schock setzt den BVB unter Druck. Plötzlich könnte noch ein Offensivspieler kommen - das führt zu neuen Sancho-Debatten. Der RN-Talk mit Florian Groeger und Kevin Pinnow. 📩 Jetzt für den neuen BVB-Newsletter anmelden: https://www.ruhrnachrichten.de/newsletter/bvb/ 🚨 Jetzt BVB-Abo sichern - nur ein Euro für acht Wochen: https://www.ruhrnachrichten.de/bvb 📱 Besucht uns auf unseren anderen Kanälen: Facebook: https://www.facebook.com/BVB.News/ Instagram: https:/",
       "url": "https://www.youtube.com/watch?v=8lcUzdmmSiM",
-      "published": "2026-08-29T23:31:21+00:00",
+      "published": "2026-08-30T11:00:06+00:00",
       "source_id": "yt_rn_bvb",
       "source_name": "YouTube Ruhr Nachr. BVB",
       "tier": 2,
@@ -46347,6 +46258,21 @@
       "kind": "podcast"
     },
     {
+      "id": "5109681abe9344dd",
+      "title": "3 Punkte – aber Konstantelias verloren? 😳 BVB-SCHOCK nach HSV! Was jetzt? | NACHSPIEL LIVE",
+      "summary": "3 Punkte – aber Konstantelias verloren? 😳 BVB-SCHOCK nach HSV! Was jetzt? | NACHSPIEL LIVE ⸻ Der BVB schlägt den HSV mit 2:0 – doch am Tag danach spricht fast jeder nur über die Verletzung von Konstantelias. Drei Punkte für Borussia Dortmund, aber möglicherweise ein bitterer Preis. Wie schlimm hat es den BVB-Neuzugang erwischt und was bedeutet die Konstantelias-Verletzung für den BVB? Im Pöhlerz Nachspiel LIVE sprechen wir ausführlich über: BVB gegen HSV, das 2:0 von Borussia Dortmund gegen den ",
+      "url": "https://www.youtube.com/watch?v=2xAzHNbrAMU",
+      "published": "2026-08-30T13:03:53+00:00",
+      "source_id": "yt_poehlerz",
+      "source_name": "Die Pöhlerz (YouTube)",
+      "tier": 4,
+      "credibility": 6,
+      "host": "www.youtube.com",
+      "lang": "de",
+      "kind": "youtube",
+      "image": "https://i.ytimg.com/vi/2xAzHNbrAMU/hqdefault.jpg"
+    },
+    {
       "id": "b778739ef862b783",
       "title": "BVB gewinnt 2:0 – doch DIESER SCHOCK killt die Stimmung! 😳 | BVB – HSV Fazit",
       "summary": "BVB gewinnt 2:0 – doch DIESER SCHOCK killt die Stimmung! 😳 | BVB – HSV Fazit Der BVB schlägt den Hamburger SV mit 2:0 – doch richtig feiern kann man diesen Bundesliga-Sieg irgendwie nicht. ⸻ 🎁 2 BVB-TRIKOTS GEWINNEN + 15 € STARTGUTHABEN: 👉 www.whatnot.com/invite/toxypoehlerz ⸻ Borussia Dortmund spielte besonders in der ersten Halbzeit gegen den HSV richtig guten, offensiven Fußball und machte vieles von dem sichtbar, was man sich für diese Saison erhofft hat. Dann kam allerdings der Moment, der ",
@@ -46555,21 +46481,6 @@
       "lang": "de",
       "kind": "youtube",
       "image": "https://i.ytimg.com/vi/756MpThUTDk/hqdefault.jpg"
-    },
-    {
-      "id": "342ad69a6b987fa5",
-      "title": "🏆 JETZT WIRD’S ERNST! Arsenal – BVB | Emirates Cup WATCHALONG 🔴 LIVE",
-      "summary": "🏆 JETZT WIRD’S ERNST! Arsenal – BVB | Emirates Cup WATCHALONG 🔴 LIVE Der Emirates Cup wartet! 🏆 Arsenal empfängt Borussia Dortmund im Emirates Stadium in London. ⸻ Langsam wird es ernst in der Vorbereitung auf die Saison 2026/27. Wir schauen das Spiel gemeinsam im LIVE WATCHALONG! 🟡⚫ Die Mannschaft ist inzwischen komplett beieinander, die WM-Urlauber sind zurück und die Intensität im Training wird deutlich erhöht. Damit steigen auch die Erwartungen: Gegen Arsenal wollen wir sehen, ob der BVB spi",
-      "url": "https://www.youtube.com/watch?v=XoNrw28BMUE",
-      "published": "2026-08-09T15:20:59+00:00",
-      "source_id": "yt_poehlerz",
-      "source_name": "Die Pöhlerz (YouTube)",
-      "tier": 4,
-      "credibility": 6,
-      "host": "www.youtube.com",
-      "lang": "de",
-      "kind": "youtube",
-      "image": "https://i.ytimg.com/vi/XoNrw28BMUE/hqdefault.jpg"
     },
     {
       "id": "b12458e2ac05640f",
@@ -47594,6 +47505,36 @@
       "host": "www.getfootballnewsgermany.com",
       "lang": "en",
       "kind": "rss"
+    },
+    {
+      "id": "bc48c68add0ea988",
+      "title": "Konstantinos Karetsas revels in stellar debut in front of 'Yellow Wall'",
+      "summary": "The Greek teen bagged an assist in his first Bundesliga appearance.",
+      "url": "https://bvbbuzz.com/konstantinos-karetsas-revels-in-stellar-debut-in-front-of-yellow-wall-01m18m0wgwpw?utm_source=RSS",
+      "published": "2026-08-30T11:30:00+00:00",
+      "source_id": "bvbbuzz",
+      "source_name": "BVB Buzz",
+      "tier": 4,
+      "credibility": 5,
+      "host": "bvbbuzz.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4735,h_2663,x_0,y_202/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m18m4wqyfe7hj4nf4x.jpg"
+    },
+    {
+      "id": "377b506b761d7565",
+      "title": "\"Guirassy is a top 5 striker\" - BVB fans exalt striker after goal in Bundesliga season opener",
+      "summary": "It took him just nine minutes to open his account in the new league season.",
+      "url": "https://bvbbuzz.com/guirassy-is-a-top-5-striker-bvb-fans-exalt-striker-after-goal-in-bundesliga-season-opener-01m18hz010py?utm_source=RSS",
+      "published": "2026-08-30T09:45:00+00:00",
+      "source_id": "bvbbuzz",
+      "source_name": "BVB Buzz",
+      "tier": 4,
+      "credibility": 5,
+      "host": "bvbbuzz.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3980,h_2238,x_0,y_301/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m18j36syr82b153dc4.jpg"
     },
     {
       "id": "0178d8753cae0515",
@@ -48916,34 +48857,19 @@
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5586,h_3142,x_0,y_413/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m078ya96awaxvfr8tn.jpg"
     },
     {
-      "id": "f50589fcba04d69e",
-      "title": "Kovac approaches Karetsas case with caution",
-      "summary": "The manager revealed he won't be playing him twice every week...",
-      "url": "https://bvbbuzz.com/kovac-approaches-karetsas-case-with-caution-01m077byskcx?utm_source=RSS",
-      "published": "2026-08-17T09:10:00+00:00",
-      "source_id": "bvbbuzz",
-      "source_name": "BVB Buzz",
+      "id": "15a63b927a67d6e9",
+      "title": "Post-Match Reactions: 2-0 Win Overshadowed by Injury to Konstantelias",
+      "summary": "The good feelings lasted about 53 minutes. In that far-too-brief period of time, we got to see a glimpse of what the 2026-27 Borussia Dortmund squad could do, even without Joey Veerman or Nico Schlotterbeck. But with Konstantinos Karetsas and Giannis Konstantelias, the two signings designed more than anything to reinvigorate the club as a [&#8230;]",
+      "url": "https://www.fearthewall.com/general/24684/post-match-reactions-2-0-win-overshadowed-by-injury-to-konstantelias",
+      "published": "2026-08-30T09:07:45+00:00",
+      "source_id": "fearthewall",
+      "source_name": "Fear The Wall",
       "tier": 4,
-      "credibility": 5,
-      "host": "bvbbuzz.com",
+      "credibility": 6,
+      "host": "www.fearthewall.com",
       "lang": "en",
       "kind": "rss",
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6369,h_3582,x_0,y_94/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m077e4q30njrswrdz6.jpg"
-    },
-    {
-      "id": "a3e8d802761ed85e",
-      "title": "\"We're ready for next week\" - Dortmund defender upbeat ahead of Bayern showdown",
-      "summary": "Mane is happy to play twice a week",
-      "url": "https://bvbbuzz.com/we-re-ready-for-next-week-dortmund-defender-upbeat-ahead-of-bayern-showdown-01m074zhsrdz?utm_source=RSS",
-      "published": "2026-08-17T07:45:00+00:00",
-      "source_id": "bvbbuzz",
-      "source_name": "BVB Buzz",
-      "tier": 4,
-      "credibility": 5,
-      "host": "bvbbuzz.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2668,h_1500,x_0,y_154/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m0757jxhk703jv701g.jpg"
+      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2292597591.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "id": "ac1f85f525f35b0e",
@@ -49079,21 +49005,6 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2245767014.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "id": "c3cf2167a2a2820a",
-      "title": "I’m Ready to be Hurt Again",
-      "summary": "It may feel like it’s been an eternity, but it’s been barely two years since Borussia Dortmund took to the pitch against Real Madrid in a Champions League final. On that day, even though our beloved black-and-yellows ultimately fell one step short, the future undoubtedly felt bright. Unfortunately, the following two seasons felt like two [&#8230;]",
-      "url": "https://www.fearthewall.com/general/24620/im-ready-to-be-hurt-again",
-      "published": "2026-08-21T01:09:10+00:00",
-      "source_id": "fearthewall",
-      "source_name": "Fear The Wall",
-      "tier": 4,
-      "credibility": 6,
-      "host": "www.fearthewall.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/08/gettyimages-2290571870.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
       "id": "978c2636edb32b22",
@@ -55591,11 +55502,11 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c47/live/85680480-b69e-11f0-b2a1-6f537f66f9aa.jpg"
     },
     {
-      "id": "dd5aeb00fb06d45b",
-      "title": "Doppelt bitter! Inacio-Frust und Tränen beim BVB – so reagiert Ricken",
-      "summary": "Samuele Inacio erlebt einen Abend zum Vergessen. Warum der Platzverweis nicht nur das Talent, sondern auch den BVB hart trifft.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413003498/doppelt-bitter-inacio-frust-und-traenen-beim-bvb-so-reagiert-ricken.html",
-      "published": "2026-08-30T07:55:06+00:00",
+      "id": "b5857bdef6054a73",
+      "title": "BVB denkt an Konstantelias-Ersatz: Was das für Silva heißt – neue Sancho-Debatte",
+      "summary": "Borussia Dortmund bangt nach der Verletzung von Giannis Konstantelias um die Offensive. Transfers und interne Optionen werden jetzt diskutiert.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413003856/bvb-denkt-an-konstantelias-ersatz-was-das-fuer-silva-bedeutet-neue-sancho-debatte.html",
+      "published": "2026-08-30T11:17:15+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55603,14 +55514,14 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413003337/413003337_1788072939_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/411806198/411806198_1786218968_v16_9_600.jpeg"
     },
     {
-      "id": "4bcb1beb763999ca",
-      "title": "Konstantelias-Verletzung: BVB muss nachlegen – aber bitte nicht an Sancho denken",
-      "summary": "Sollte Giannis Konstantelias lange fehlen, müsste der BVB am Transfermarkt nachlegen – obwohl die Mittel knapp sind. Jadon Sancho wäre keine Lösung.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413001558/konstantelias-verletzung-bvb-muss-nachlegen-aber-bitte-nicht-an-sancho-denken.html",
-      "published": "2026-08-29T20:13:27+00:00",
+      "id": "7249705df1bbd885",
+      "title": "Transfer-Frage spaltet BVB-Fans: Muss Dortmund jetzt Jadon Sancho zurückholen?",
+      "summary": "Die schwere Verletzung von Giannis Konstantelias zwingt den BVB zum Handeln. Schon diskutieren die Fans über Sehnsuchtsspieler Jadon Sancho.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413006308/transfer-frage-spaltet-bvb-fans-muss-dortmund-jetzt-jadon-sancho-zurueckholen.html",
+      "published": "2026-08-30T13:29:00+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55618,97 +55529,7 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413001990/413001990_1788034358_v16_9_600.jpeg"
-    },
-    {
-      "id": "56d28cb8aca2d2fc",
-      "title": "XXL-Sorgen um Konstantelias beim BVB: Dortmund denkt über Not-Transfer nach",
-      "summary": "Giannis Konstantelias verlässt mit dick bandagiertem Knie das Stadion. Die Sorgen um den BVB-Neuzugang sind groß. Dortmund bereitet sich auf Ernstfall vor.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413001030/book-reagiert-auf-bvb-verletzungsschock-schlimme-befuerchtungen-bei-konstantelias.html",
-      "published": "2026-08-29T20:03:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413001982/413001982_1788033775_v16_9_600.jpeg"
-    },
-    {
-      "id": "5939265242e739fb",
-      "title": "BVB-Noten: Griechen-Duo sticht heraus, ein Dortmunder mit Licht und Schatten",
-      "summary": "Der BVB macht beim 2:0-Sieg gegen den HSV Lust auf mehr, weil die Neuen gleich einschlagen. Andere haben Nachholbedarf. Die Einzelkritik.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413000456/bvb-noten-griechen-duo-sticht-heraus-ein-dortmunder-mit-licht-und-schatten.html",
-      "published": "2026-08-29T18:29:09+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413000812/413000812_1788024619_v16_9_600.jpeg"
-    },
-    {
-      "id": "e32eecc2f89333d2",
-      "title": "Tillmann hofft auf „Befreiungsschlag“: Wie Schalke wieder zum BVB aufschließen kann",
-      "summary": "Im zweiten Teil des großen WAZ-Interviews spricht Schalkes Vorstandschef Matthias Tillmann über Kraft und Potenzial von Königsblau.",
-      "url": "https://www.waz.de/sport/fc-schalke-04/article412992393/tillmann-hofft-auf-befreiungsschlag-wie-schalke-wieder-zum-bvb-aufschliessen-kann.html",
-      "published": "2026-08-30T07:44:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413003726/413003726_1788075870_v16_9_600.jpeg"
-    },
-    {
-      "id": "b9c20e5fe87a8fb3",
-      "title": "Rot-Frust! Inacio schleudert Flasche auf BVB-Logo – „Schlimmer als das Foul“",
-      "summary": "Gebrauchter Tag für Samuele Inacio: Das Talent von Borussia Dortmund sieht kurz nach seiner Einwechslung Rot. Danach lässt er Frust am BVB-Wappen ab.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413001534/rot-frust-inacio-schleudert-flasche-auf-bvb-logo-schlimmer-als-das-foul.html",
-      "published": "2026-08-29T19:13:30+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413001540/413001540_1788029106_v16_9_600.jpeg"
-    },
-    {
-      "id": "ae1a95f70837e4f4",
-      "title": "Nmecha als Anker, starke Neue, mehr Dynamik – BVB macht gegen HSV Lust auf mehr",
-      "summary": "Der BVB besiegt den Hamburger SV verdient 2:0 und macht seinen Fans viel Freude. Die Verletzung von Neuzugang Konstantelias allerdings bereitet Sorgen.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413000377/nmecha-als-anker-starke-neue-mehr-dynamik-bvb-macht-gegen-hsv-lust-auf-mehr.html",
-      "published": "2026-08-29T18:23:17+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413001079/413001079_1788027797_v16_9_600.jpeg"
-    },
-    {
-      "id": "e3a57022df135738",
-      "title": "BVB feiert 2:0-Heimsieg gegen den HSV – Ticker zum Nachlesen",
-      "summary": "Borussia Dortmund hat einen erfolgreichen Auftakt in die neue Bundesliga-Saison gefeiert – überschattet von einer Verletzung. Der Spielverlauf zum Nachlesen.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412997977/bvb-feiert-20-heimsieg-gegen-den-hsv-ticker-zum-nachlesen.html",
-      "published": "2026-08-29T16:30:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413000878/413000878_1788025388_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/413006369/413006369_1788088506_v16_9_600.jpeg"
     },
     {
       "id": "9489d64ffab23886",
@@ -55741,11 +55562,11 @@
       "image": "https://img.sparknews.funkemedien.de/412425134/412425134_1782727009_v16_9_600.jpeg"
     },
     {
-      "id": "c0af68e874e285cf",
-      "title": "Champions-League-Auslosung: Das sind die Auftakt-Gegner von Bayern, BVB und Co.",
-      "summary": "Die Ligaphase der Champions League steht bevor. Heute wurden die Gegner von Bayern, BVB, Leipzig und Stuttgart ermittelt. Alle Spiele im Überblick.",
-      "url": "https://www.waz.de/sport/article412958934/champions-league-auslosung-das-sind-die-auftakt-gegner-von-bayern-bvb-und-co.html",
-      "published": "2026-08-29T12:45:00+00:00",
+      "id": "a1bb191c98357de1",
+      "title": "Noch mehr BVB-Verletzungsorgen: Dortmund-Spieler fällt vorerst aus",
+      "summary": "Borussia Dortmund beschäftigt das Verletzungsdrama um Giannis Konstantelias. Auch von einem anderen Spieler gibt es schlechte News.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413004414/noch-mehr-bvb-verletzungsorgen-dortmund-spieler-faellt-vorerst-aus.html",
+      "published": "2026-08-30T09:01:26+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55753,14 +55574,14 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412998727/412998727_1788007974_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/412983172/412983172_1787837859_v16_9_600.jpeg"
     },
     {
-      "id": "0850ab0ee504c657",
-      "title": "Champions League: Heimspiel zum Start – das sind die BVB-Termine in der Ligaphase",
-      "summary": "Der Champions-League-Spielplan steht und Borussia Dortmund muss im Oktober zu zwei Auswärtsspielen in kurzer Zeit. Die Termine im Überblick.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412998567/champions-league-das-sind-die-bvb-termine-in-der-liga-phase.html",
-      "published": "2026-08-29T12:13:01+00:00",
+      "id": "dd5aeb00fb06d45b",
+      "title": "Doppelt bitter! Inacio-Frust und Tränen beim BVB – so reagiert Ricken",
+      "summary": "Samuele Inacio erlebt einen Abend zum Vergessen. Warum der Platzverweis nicht nur das Talent, sondern auch den BVB hart trifft.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413003498/doppelt-bitter-inacio-frust-und-traenen-beim-bvb-so-reagiert-ricken.html",
+      "published": "2026-08-30T07:55:06+00:00",
       "source_id": "waz_sport",
       "source_name": "WAZ Sport",
       "tier": 2,
@@ -55768,7 +55589,37 @@
       "host": "www.waz.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412998542/412998542_1788005450_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/413003337/413003337_1788072939_v16_9_600.jpeg"
+    },
+    {
+      "id": "e32eecc2f89333d2",
+      "title": "Tillmann hofft auf „Befreiungsschlag“: Wie Schalke wieder zum BVB aufschließen kann",
+      "summary": "Im zweiten Teil des großen WAZ-Interviews spricht Schalkes Vorstandschef Matthias Tillmann über Kraft und Potenzial von Königsblau.",
+      "url": "https://www.waz.de/sport/fc-schalke-04/article412992393/tillmann-hofft-auf-befreiungsschlag-wie-schalke-wieder-zum-bvb-aufschliessen-kann.html",
+      "published": "2026-08-30T07:44:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413003726/413003726_1788075870_v16_9_600.jpeg"
+    },
+    {
+      "id": "4bcb1beb763999ca",
+      "title": "Konstantelias-Verletzung: BVB muss nachlegen – aber bitte nicht an Sancho denken",
+      "summary": "Sollte Giannis Konstantelias lange fehlen, müsste der BVB am Transfermarkt nachlegen – obwohl die Mittel knapp sind. Jadon Sancho wäre keine Lösung.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413001558/konstantelias-verletzung-bvb-muss-nachlegen-aber-bitte-nicht-an-sancho-denken.html",
+      "published": "2026-08-29T20:13:27+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413001990/413001990_1788034358_v16_9_600.jpeg"
     },
     {
       "id": "5e0dd2416c74fa04",
@@ -55814,6 +55665,111 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://img.sparknews.funkemedien.de/412930094/412930094_1787325947_v16_9_600.jpeg"
+    },
+    {
+      "id": "56d28cb8aca2d2fc",
+      "title": "XXL-Sorgen um Konstantelias beim BVB: Dortmund denkt über Not-Transfer nach",
+      "summary": "Giannis Konstantelias verlässt mit dick bandagiertem Knie das Stadion. Die Sorgen um den BVB-Neuzugang sind groß. Dortmund bereitet sich auf Ernstfall vor.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413001030/book-reagiert-auf-bvb-verletzungsschock-schlimme-befuerchtungen-bei-konstantelias.html",
+      "published": "2026-08-29T20:03:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413001982/413001982_1788033775_v16_9_600.jpeg"
+    },
+    {
+      "id": "b9c20e5fe87a8fb3",
+      "title": "Rot-Frust! Inacio schleudert Flasche auf BVB-Logo – „Schlimmer als das Foul“",
+      "summary": "Gebrauchter Tag für Samuele Inacio: Das Talent von Borussia Dortmund sieht kurz nach seiner Einwechslung Rot. Danach lässt er Frust am BVB-Wappen ab.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413001534/rot-frust-inacio-schleudert-flasche-auf-bvb-logo-schlimmer-als-das-foul.html",
+      "published": "2026-08-29T19:13:30+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413001540/413001540_1788029106_v16_9_600.jpeg"
+    },
+    {
+      "id": "5939265242e739fb",
+      "title": "BVB-Noten: Griechen-Duo sticht heraus, ein Dortmunder mit Licht und Schatten",
+      "summary": "Der BVB macht beim 2:0-Sieg gegen den HSV Lust auf mehr, weil die Neuen gleich einschlagen. Andere haben Nachholbedarf. Die Einzelkritik.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413000456/bvb-noten-griechen-duo-sticht-heraus-ein-dortmunder-mit-licht-und-schatten.html",
+      "published": "2026-08-29T18:29:09+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413000812/413000812_1788024619_v16_9_600.jpeg"
+    },
+    {
+      "id": "ae1a95f70837e4f4",
+      "title": "Nmecha als Anker, starke Neue, mehr Dynamik – BVB macht gegen HSV Lust auf mehr",
+      "summary": "Der BVB besiegt den Hamburger SV verdient 2:0 und macht seinen Fans viel Freude. Die Verletzung von Neuzugang Konstantelias allerdings bereitet Sorgen.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413000377/nmecha-als-anker-starke-neue-mehr-dynamik-bvb-macht-gegen-hsv-lust-auf-mehr.html",
+      "published": "2026-08-29T18:23:17+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413001079/413001079_1788027797_v16_9_600.jpeg"
+    },
+    {
+      "id": "e3a57022df135738",
+      "title": "BVB feiert 2:0-Heimsieg gegen den HSV – Ticker zum Nachlesen",
+      "summary": "Borussia Dortmund hat einen erfolgreichen Auftakt in die neue Bundesliga-Saison gefeiert – überschattet von einer Verletzung. Der Spielverlauf zum Nachlesen.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412997977/bvb-feiert-20-heimsieg-gegen-den-hsv-ticker-zum-nachlesen.html",
+      "published": "2026-08-29T16:30:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413000878/413000878_1788025388_v16_9_600.jpeg"
+    },
+    {
+      "id": "c0af68e874e285cf",
+      "title": "Champions-League-Auslosung: Das sind die Auftakt-Gegner von Bayern, BVB und Co.",
+      "summary": "Die Ligaphase der Champions League steht bevor. Heute wurden die Gegner von Bayern, BVB, Leipzig und Stuttgart ermittelt. Alle Spiele im Überblick.",
+      "url": "https://www.waz.de/sport/article412958934/champions-league-auslosung-das-sind-die-auftakt-gegner-von-bayern-bvb-und-co.html",
+      "published": "2026-08-29T12:45:00+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412998727/412998727_1788007974_v16_9_600.jpeg"
+    },
+    {
+      "id": "0850ab0ee504c657",
+      "title": "Champions League: Heimspiel zum Start – das sind die BVB-Termine in der Ligaphase",
+      "summary": "Der Champions-League-Spielplan steht und Borussia Dortmund muss im Oktober zu zwei Auswärtsspielen in kurzer Zeit. Die Termine im Überblick.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article412998567/champions-league-das-sind-die-bvb-termine-in-der-liga-phase.html",
+      "published": "2026-08-29T12:13:01+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/412998542/412998542_1788005450_v16_9_600.jpeg"
     },
     {
       "id": "bd8093b01a7105bb",
@@ -55891,94 +55847,18 @@
       "image": "https://img.sparknews.funkemedien.de/412986349/412986349_1787897973_v16_9_600.jpeg"
     },
     {
-      "id": "23589194b17d253d",
-      "title": "BVB-Auftakt gegen den HSV: Benoten Sie hier Karetsas, Guirassy und Co.",
-      "summary": "Borussia Dortmund startet gegen den Hamburger SV in die Bundesliga-Saison. Hier können Sie die BVB-Profis nach der Partie bewerten und ihnen Noten geben.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412974265/bvb-auftakt-gegen-den-hsv-benoten-sie-hier-karetsas-guirassy-und-co.html",
-      "published": "2026-08-28T04:14:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412974280/412974280_1787760109_v16_9_600.jpeg"
-    },
-    {
-      "id": "47794541c2cee8be",
-      "title": "Transfer-Pläne beim BVB: Fort vor Spanien-Wechsel, was heißt das für Dortmund?",
-      "summary": "Der BVB hat vier Schienenspieler für zwei Positionen. Nur zwei davon sind gelernte Außenverteidiger – und Hector Fort kommt nicht dazu.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412983783/transfer-plaene-beim-bvb-fort-vor-spanien-wechsel-was-heisst-das-fuer-dortmund.html",
-      "published": "2026-08-28T04:00:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412984956/412984956_1787845500_v16_9_600.jpeg"
-    },
-    {
-      "id": "9fe9474f5c41e521",
-      "title": "Ricken reagiert auf BVB-Lose in der CL – wann die Spiele terminiert werden",
-      "summary": "Borussia Dortmund kennt nun seine acht Gegner in der Champions League. Zwei lange Auswärtsreisen warten. Wie die Reaktionen ausfallen, wann terminiert wird und wann es Tickets gibt.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412985468/ricken-reagiert-auf-bvb-lose-in-der-champions-league-wann-die-spiele-terminiert-werden-und-es-tickets-gibt.html",
-      "published": "2026-08-27T18:44:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412985466/412985466_1787853809_v16_9_600.jpeg"
-    },
-    {
-      "id": "a05d74b49015d016",
-      "title": "Ist der BVB bereit für die Saison? Kaderanalyse, Neuzugänge und Hottakes",
-      "summary": "Der BVB startet in die Bundesliga. Welche Spieler machen den Unterschied? Wer wird zur Überraschung? Die Analyse in einer neuen Folge „Echte Tiefe.“",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412983575/ist-der-bvb-bereit-fuer-die-saison-kaderanalyse-neuzugaenge-und-hottakes.html",
-      "published": "2026-08-27T14:20:06+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412982969/412982969_1787837434_v16_9_600.jpeg"
-    },
-    {
-      "id": "b37dcab209fb899c",
-      "title": "BVB-Start gegen den HSV: Drei Startelf-Brennpunkte für Trainer Kovac",
-      "summary": "Vor dem Bundesliga-Auftakt des BVB stehen bei Trainer Kovac mehrere Startelf-Entscheidungen an. Ein Problem? Im Gegenteil.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412982725/bvb-start-gegen-den-hsv-drei-startelf-brennpunkte-fuer-trainer-kovac.html",
-      "published": "2026-08-27T13:50:39+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412983172/412983172_1787837859_v16_9_600.jpeg"
-    },
-    {
-      "id": "320d12750348a428",
-      "title": "BVB-Jugend siegt beim Premier League Cup – Kovac gibt Verletzungsupdate zu Lerma",
-      "summary": "Beim Auftaktsieg gegen den FC Fulham überzeugt der BVB-Nachwuchs. Doch es gibt Sorgen um Justin Lerma. Niko Kovac mit einem Verletzungsupdate.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article412961153/bvb-jugend-siegt-beim-premier-league-cup-niko-kovac-gibt-verletzungsupdate-zu-justin-lerma.html",
-      "published": "2026-08-27T12:15:00+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/412981577/412981577_1787832874_v16_9_600.jpeg"
+      "id": "943238169733f035",
+      "title": "Match Thread: SC Freiburg vs Werder Bremen | Bundesliga",
+      "summary": "This post contains content not supported on old Reddit. Click here to view the full post &#32; submitted by &#32; /u/globalscoreboard [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/soccer/comments/1w2haq4/match_thread_sc_freiburg_vs_werder_bremen/",
+      "published": "2026-08-30T13:15:47+00:00",
+      "source_id": "reddit_soccer_bvb",
+      "source_name": "Reddit r/soccer (Dortmund)",
+      "tier": 5,
+      "credibility": 4,
+      "host": "www.reddit.com",
+      "lang": "en",
+      "kind": "rss"
     },
     {
       "id": "2706ea0e64c06484",
@@ -56317,17 +56197,17 @@
       "kind": "rss"
     },
     {
-      "id": "7e5b0ec264041cbc",
-      "title": "Post Match Thread: Borussia Dortmund 1-2 Bayern Munich | German Supercup",
-      "summary": "FT: Borussia Dortmund 1-2 Bayern Munich Info Details Competition German Supercup Date Sat, August 22, 2026 Kickoff 6:30 PM UTC Status 14' Line-ups Borussia Dortmund (3-4-2-1) Starting XI Bench 1 Gregor Kobel 39 Filippo Mané 3 Waldemar Anton 33 Alexander Meyer 5 Ramy Bensebaini 45 Giannis Konstantelias 22 Kouakou Gadou 25 Joey Veerman 7 Jobe Bellingham 20 Marcel Sabitzer 8 Felix Nmecha 49 Luca Reggiani 26 Julian Ryerson 14 Maximilian Beier 24 Daniel Svensson 41 Mathis Albert 9 Serhou Guirassy 21 ",
-      "url": "https://www.reddit.com/r/soccer/comments/1vvmzef/post_match_thread_borussia_dortmund_12_bayern/",
-      "published": "2026-08-22T20:26:16+00:00",
-      "source_id": "reddit_soccer_bvb",
-      "source_name": "Reddit r/soccer (Dortmund)",
-      "tier": 5,
-      "credibility": 4,
-      "host": "www.reddit.com",
-      "lang": "en",
+      "id": "4710b34def4cfbfe",
+      "title": "Ein Saisonstart wie eine Achterbahnfahrt: Der BVB reißt die Fans in der ersten Hälfte mit seiner furiosen Spielweise",
+      "summary": "Ein Saisonstart wie eine Achterbahnfahrt: Der BVB reißt die Fans in der ersten Hälfte mit seiner furiosen Spielweise mit und muss in der zweiten einen herben Verlust verkraften. Unser Spielbericht zum Ligaauftakt. https://schwatzgelb.de/artikel/2026/maenner/wir-spielen-wieder-fussball",
+      "url": "https://bsky.app/profile/schwatzgelb.de/post/3muce6toqqe2v",
+      "published": "2026-08-30T12:08:00+00:00",
+      "source_id": "bsky_schwatzgelb",
+      "source_name": "Schwatzgelb (Bluesky)",
+      "tier": 4,
+      "credibility": 6,
+      "host": "bsky.app",
+      "lang": "de",
       "kind": "rss"
     },
     {
@@ -56714,20 +56594,6 @@
       "summary": "Bei der Japanreise kommt es zu einem Wiedersehen mit Shinji Kagawa. Grund genug für unseren Autor, in Erinnerungen an seinen Lieblingsspieler zu schwelgen, sein Trikot in Größe 176 hervorzukramen – und sich vor Augen zu führen, wie sehr solche Spieler in der heutigen Fußballwelt fehlen. https://schwatzgelb.de/artikel/2026/unsa-senf/kaaaaagawa-shinji-bvb-bvb-09",
       "url": "https://bsky.app/profile/schwatzgelb.de/post/3mrrv7ldncz2r",
       "published": "2026-07-29T12:07:00+00:00",
-      "source_id": "bsky_schwatzgelb",
-      "source_name": "Schwatzgelb (Bluesky)",
-      "tier": 4,
-      "credibility": 6,
-      "host": "bsky.app",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "0d907a01534fb056",
-      "title": "Das Westfalenstadion rückt mit seinen über 50 Jahren so langsam in die Kategorie \"Altbau\" ein. Warum sich Borussia",
-      "summary": "Das Westfalenstadion rückt mit seinen über 50 Jahren so langsam in die Kategorie \"Altbau\" ein. Warum sich Borussia Dortmund jedoch hüten sollte, aus reinen Kostengründen ein neues Stadion zu bauen, erklärt unser Autor Jannik in diesem Text. https://schwatzgelb.de/artikel/2026/unsa-senf/seit-1974-und-fuer-immer-westfalenstadion",
-      "url": "https://bsky.app/profile/schwatzgelb.de/post/3mroqmwbj3b2r",
-      "published": "2026-07-28T06:07:00+00:00",
       "source_id": "bsky_schwatzgelb",
       "source_name": "Schwatzgelb (Bluesky)",
       "tier": 4,
