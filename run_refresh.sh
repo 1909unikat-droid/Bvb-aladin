@@ -20,6 +20,10 @@ echo "=== $(date -u +%Y-%m-%dT%H:%MZ) refresh start ==="
 # Verletzungen & Sperren (Transfermarkt) — failsafe wie rumors
 /usr/bin/python3 injuries_fetcher.py || echo "injuries skipped"
 
+# X-Insider (Zweitaccount, Budget geteilt mit krypto-aladin) — failsafe;
+# drosselt sich selbst (min. 7 h Abstand, Skip in Krypto-Slot-Stunden)
+/usr/bin/python3 x_local_fetcher.py || echo "x_local skipped"
+
 # Vibe-Historie (Tages-Score aus news.json) — failsafe
 /usr/bin/python3 vibe_history.py || echo "vibe history skipped"
 
@@ -58,5 +62,9 @@ if [ -f data/squad_2026.json ];   then cp data/squad_2026.json   web/public/data
 # - squad.json + squad_2026.json ebenfalls nur vom Mac (die Action sah wegen
 #   der TM-Sperre nur ihren eigenen Fallback-Stand):
 ./push_rumors.sh || echo "rumors push skipped"
+
+# X-Items (nur der Mac hat die X-Session) → Contents-API; der Push triggert
+# den Action-Refresh, der sie in news.json einmischt:
+./push_x_items.sh || echo "x push skipped"
 
 echo "=== done ==="

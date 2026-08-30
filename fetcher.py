@@ -9,7 +9,7 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote, urlparse
 
@@ -371,6 +371,45 @@ def fetch_x_sources(sources: dict, bvb_keywords: list[str], freshness: dict) -> 
 # merkt sich pro Quelle das neueste je gesehene Item und meldet Verstummte.
 
 
+# --- X via Mac-Push (Publisher-Split) --------------------------------------
+# Die Action hat keine X-Session — der Mac fragt die Insider-Accounts mit dem
+# eingeloggten Zweitaccount ab (x_local_fetcher.py, Budget geteilt mit
+# krypto-aladin) und pusht fertige Items via Contents-API nach
+# data/x_items.json. Gleiche Mechanik wie rumors/injuries, nur dass diese
+# Items IN news.json einfließen statt separat zu bleiben.
+X_LOCAL_FILE = ROOT / "data" / "x_items.json"
+X_LOCAL_MAX_ALTER_H = 48
+
+
+def load_x_local_items(freshness: dict) -> list[dict]:
+    """Vom Mac gepushte X-Items laden; fehlende/kaputte Datei ist kein Fehler."""
+    if not X_LOCAL_FILE.exists():
+        return []
+    try:
+        raw_items = json.loads(X_LOCAL_FILE.read_text(encoding="utf-8")).get("items", [])
+    except Exception as exc:
+        print(f"  [WARN] x_items.json unlesbar ({type(exc).__name__}) — skip", file=sys.stderr)
+        return []
+    grenze = datetime.now(timezone.utc) - timedelta(hours=X_LOCAL_MAX_ALTER_H)
+    items, newest = [], None
+    for it in raw_items:
+        pub = it.get("published")
+        try:
+            dt = datetime.fromisoformat(pub) if pub else None
+        except ValueError:
+            dt = None
+        if dt is not None and dt < grenze:
+            continue
+        items.append(it)
+        if pub and (newest is None or pub > newest):
+            newest = pub
+    # Frische-Wächter: eine Datei ist keine Quelle mit ok/fail, aber ihr Alter
+    # verrät, ob der Mac-Publisher noch lebt.
+    freshness["x_local"] = {"newest": newest, "count": len(items), "failed": False}
+    print(f"  [ok]  X-lokal (Mac-Push)         -> {len(items)} items", file=sys.stderr)
+    return items
+
+
 # --- Telegram -------------------------------------------------------------
 # Öffentliche Kanal-Preview (https://t.me/s/<channel>): serverseitig gerendertes
 # HTML mit den letzten ~20 Posts — kein Login, kein API-Key. Seit dem Nitter-Aus
@@ -587,7 +626,10 @@ def main() -> int:
     print("== Telegram ==", file=sys.stderr)
     t_items, t_ok, t_fail = fetch_telegram_sources(sources, bvb_keywords, freshness)
 
-    items = rss_items + x_items + t_items
+    print("== X lokal (Mac-Push) ==", file=sys.stderr)
+    l_items = load_x_local_items(freshness)
+
+    items = rss_items + x_items + t_items + l_items
 
     # Negative filter (Mönchengladbach etc.) — nur wenn KEIN positiver BVB-Match drinsteht.
     cleaned: list[dict] = []
