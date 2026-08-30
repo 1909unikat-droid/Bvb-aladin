@@ -323,8 +323,48 @@
       "credibility": 8,
       "lang": "de",
       "filter_bvb": true
+    },
+    {
+      "id": "gnews_plettenberg",
+      "name": "Insider-Radar Plettenberg",
+      "url": "https://news.google.com/rss/search?q=%22Plettenberg%22%20BVB%20when%3A7d&hl=de&gl=DE&ceid=DE:de",
+      "tier": 1,
+      "credibility": 7,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "gnews_romano",
+      "name": "Insider-Radar Romano",
+      "url": "https://news.google.com/rss/search?q=%22Fabrizio%20Romano%22%20BVB%20when%3A7d&hl=de&gl=DE&ceid=DE:de",
+      "tier": 1,
+      "credibility": 7,
+      "lang": "de",
+      "filter_bvb": true
+    },
+    {
+      "id": "gnews_berger",
+      "name": "Insider-Radar Berger",
+      "url": "https://news.google.com/rss/search?q=%22Patrick%20Berger%22%20BVB%20when%3A7d&hl=de&gl=DE&ceid=DE:de",
+      "tier": 1,
+      "credibility": 7,
+      "lang": "de",
+      "filter_bvb": true
     }
   ],
+  "telegram": {
+    "_comment": "Öffentliche Kanal-Previews (https://t.me/s/<channel>) — kein Login, kein API-Key. Direkter Gratis-Draht zu Insidern seit dem Nitter-Aus. filter_bvb default true (Fremd-Kanäle posten alles).",
+    "channels": [
+      {
+        "id": "tg_romano",
+        "channel": "fabrizioromano",
+        "name": "Fabrizio Romano (Telegram)",
+        "tier": 1,
+        "credibility": 10,
+        "lang": "en"
+      }
+    ]
+  },
   "nitter_disabled": {
     "_comment": "GEPARKT 2026-08-30: X Corp hat am 24.08.2026 Cease-&-Desist-Briefe an Nitter-Betreiber geschickt, das zedeus/nitter-Repo ist seit 26.08. archiviert — alle 4 Mirrors liefern nichts mehr (410/403/Bot-Check), sämtliche X-Quellen waren seit ~20.08. stumm. fetcher.py liest nur den Key 'nitter', dieser Block ist damit inert; Accounts/Suchen bleiben als Doku erhalten. Reaktivierung: Key zurück in 'nitter' umbenennen.",
     "instances": [
