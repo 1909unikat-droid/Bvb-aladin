@@ -2,8 +2,11 @@ name: Refresh BVB News
 
 on:
   schedule:
-    # Alle 30 Minuten. GitHub Actions Cron ist nicht 100% pünktlich (manchmal +5-20 min Verzögerung).
-    - cron: "*/30 * * * *"
+    # Krumme Minuten statt */30: volle/halbe Stunde sind GitHubs meistbelegte
+    # Cron-Slots — dort wurden ab 27.08.2026 die meisten Ticks weggedrosselt
+    # (beobachtet: nur noch 5-8 Läufe/Tag, Lücken bis 12 h). Der Cron ist nur
+    # Fallback; den 30-min-Takt liefern die Mac-Pushes (s. push-Trigger unten).
+    - cron: "4,34 * * * *"
   workflow_dispatch: {}  # Manueller Trigger via GitHub UI
   push:
     branches: [main]
@@ -13,6 +16,14 @@ on:
       - "vibe_history.py"
       - "data/sources.json"
       - ".github/workflows/refresh-news.yml"
+      # Der Mac pusht rumors/injuries alle ~30 min via Contents-API (PAT) —
+      # jeder dieser Pushes triggert damit zuverlässig einen News-Refresh,
+      # denn push-Events drosselt GitHub nicht. Kein Loop: die Commits dieser
+      # Action laufen über GITHUB_TOKEN und lösen selbst keine Workflows aus.
+      - "data/rumors.json"
+      - "data/injuries.json"
+      - "web/public/data/rumors.json"
+      - "web/public/data/injuries.json"
 
 permissions:
   contents: write
