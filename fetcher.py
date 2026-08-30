@@ -9,7 +9,7 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote, urlparse
 
@@ -371,6 +371,119 @@ def fetch_x_sources(sources: dict, bvb_keywords: list[str], freshness: dict) -> 
 # merkt sich pro Quelle das neueste je gesehene Item und meldet Verstummte.
 
 
+# --- X via Mac-Push (Publisher-Split) --------------------------------------
+# Die Action hat keine X-Session — der Mac fragt die Insider-Accounts mit dem
+# eingeloggten Zweitaccount ab (x_local_fetcher.py, Budget geteilt mit
+# krypto-aladin) und pusht fertige Items via Contents-API nach
+# data/x_items.json. Gleiche Mechanik wie rumors/injuries, nur dass diese
+# Items IN news.json einfließen statt separat zu bleiben.
+X_LOCAL_FILE = ROOT / "data" / "x_items.json"
+X_LOCAL_MAX_ALTER_H = 48
+
+
+def load_x_local_items(freshness: dict) -> list[dict]:
+    """Vom Mac gepushte X-Items laden; fehlende/kaputte Datei ist kein Fehler."""
+    if not X_LOCAL_FILE.exists():
+        return []
+    try:
+        raw_items = json.loads(X_LOCAL_FILE.read_text(encoding="utf-8")).get("items", [])
+    except Exception as exc:
+        print(f"  [WARN] x_items.json unlesbar ({type(exc).__name__}) — skip", file=sys.stderr)
+        return []
+    grenze = datetime.now(timezone.utc) - timedelta(hours=X_LOCAL_MAX_ALTER_H)
+    items, newest = [], None
+    for it in raw_items:
+        pub = it.get("published")
+        try:
+            dt = datetime.fromisoformat(pub) if pub else None
+        except ValueError:
+            dt = None
+        if dt is not None and dt < grenze:
+            continue
+        items.append(it)
+        if pub and (newest is None or pub > newest):
+            newest = pub
+    # Frische-Wächter: eine Datei ist keine Quelle mit ok/fail, aber ihr Alter
+    # verrät, ob der Mac-Publisher noch lebt.
+    freshness["x_local"] = {"newest": newest, "count": len(items), "failed": False}
+    print(f"  [ok]  X-lokal (Mac-Push)         -> {len(items)} items", file=sys.stderr)
+    return items
+
+
+# --- Telegram -------------------------------------------------------------
+# Öffentliche Kanal-Preview (https://t.me/s/<channel>): serverseitig gerendertes
+# HTML mit den letzten ~20 Posts — kein Login, kein API-Key. Seit dem Nitter-Aus
+# (X-Corp-C&D 08/2026) der einzige direkte Gratis-Draht zu Insidern wie Romano.
+TG_POST_ID_RE = re.compile(r'^data-post="([^"]+)"')
+TG_TEXT_RE = re.compile(r"tgme_widget_message_text[^>]*>(.*?)</div>", re.S)
+TG_TIME_RE = re.compile(r'<time datetime="([^"]+)"')
+
+
+def fetch_telegram_channel(channel: str) -> list[dict]:
+    """Posts der Kanal-Preview als to_item-kompatible Pseudo-Entries."""
+    r = requests.get(f"https://t.me/s/{channel}", headers=HEADERS, timeout=TIMEOUT)
+    r.raise_for_status()
+    entries = []
+    # Split an den Post-Wrappern: ein Regex über das Gesamt-HTML könnte bei
+    # Posts ohne Text (reine Fotos) Text und Datum des Folge-Posts vermischen.
+    for chunk in re.split(r'(?=data-post=")', r.text)[1:]:
+        m_post = TG_POST_ID_RE.match(chunk)
+        m_text = TG_TEXT_RE.search(chunk)
+        if not (m_post and m_text):
+            continue
+        published = None
+        m_time = TG_TIME_RE.search(chunk)
+        if m_time:
+            try:
+                published = datetime.fromisoformat(m_time.group(1)).astimezone(timezone.utc).timetuple()
+            except ValueError:
+                pass
+        entries.append({
+            # Kein "title": to_item baut ihn (wie bei Bluesky) aus der Summary.
+            "link": f"https://t.me/{m_post.group(1)}",
+            "summary": m_text.group(1),
+            "published_parsed": published,
+        })
+    return entries
+
+
+def fetch_telegram_sources(sources: dict, bvb_keywords: list[str], freshness: dict) -> tuple[list[dict], int, int]:
+    """Telegram-Kanäle. Fremd-Kanäle (Romano) -> auf BVB-Keywords filtern."""
+    channels = sources.get("telegram", {}).get("channels", [])
+    items, ok, fail = [], 0, 0
+    for ch in channels:
+        src = {
+            "id": ch["id"],
+            "name": ch["name"],
+            "tier": ch["tier"],
+            "credibility": ch["credibility"],
+            "lang": ch.get("lang", "en"),
+            "kind": "x",
+        }
+        try:
+            entries = fetch_telegram_channel(ch["channel"])
+        except Exception as exc:
+            fail += 1
+            record_freshness(freshness, ch["id"], None)
+            print(f"  [FAIL] TG/{ch['channel']:18s} -> {type(exc).__name__}: {exc}", file=sys.stderr)
+            continue
+        record_freshness(freshness, ch["id"], entries)
+        kept = 0
+        for e in entries:
+            it = to_item(e, src)
+            if not it:
+                continue
+            if ch.get("filter_bvb", True):
+                blob = f"{it['title']} {it['summary']}"
+                if not text_contains_any(blob, bvb_keywords):
+                    continue
+            items.append(it)
+            kept += 1
+        ok += 1
+        print(f"  [ok]  TG/{ch['channel']:18s} -> {len(entries)} posts, {kept} BVB-relevant", file=sys.stderr)
+    return items, ok, fail
+
+
 def record_freshness(freshness: dict, source_id: str, entries: list | None) -> None:
     """Neuestes Item-Datum einer Quelle festhalten — VOR den BVB-Filtern.
 
@@ -510,7 +623,13 @@ def main() -> int:
     x_ok += s_ok
     x_fail += s_fail
 
-    items = rss_items + x_items
+    print("== Telegram ==", file=sys.stderr)
+    t_items, t_ok, t_fail = fetch_telegram_sources(sources, bvb_keywords, freshness)
+
+    print("== X lokal (Mac-Push) ==", file=sys.stderr)
+    l_items = load_x_local_items(freshness)
+
+    items = rss_items + x_items + t_items + l_items
 
     # Negative filter (Mönchengladbach etc.) — nur wenn KEIN positiver BVB-Match drinsteht.
     cleaned: list[dict] = []
@@ -537,15 +656,15 @@ def main() -> int:
     payload = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "duration_s": round(time.time() - started, 2),
-        "sources_ok": rss_ok + x_ok,
-        "sources_fail": rss_fail + x_fail,
+        "sources_ok": rss_ok + x_ok + t_ok,
+        "sources_fail": rss_fail + x_fail + t_fail,
         "stale_sources": stale,
         "items": cleaned,
     }
     RAW_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(
         f"\nfetched {len(cleaned)} items "
-        f"(rss ok/fail {rss_ok}/{rss_fail}, x ok/fail {x_ok}/{x_fail}) "
+        f"(rss ok/fail {rss_ok}/{rss_fail}, x ok/fail {x_ok}/{x_fail}, tg ok/fail {t_ok}/{t_fail}) "
         f"in {payload['duration_s']}s -> {RAW_FILE}",
         file=sys.stderr,
     )

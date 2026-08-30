@@ -22,6 +22,7 @@ on:
       # Action laufen über GITHUB_TOKEN und lösen selbst keine Workflows aus.
       - "data/rumors.json"
       - "data/injuries.json"
+      - "data/x_items.json"
       - "web/public/data/rumors.json"
       - "web/public/data/injuries.json"
 
