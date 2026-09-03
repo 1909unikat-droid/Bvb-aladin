@@ -1,8 +1,40 @@
 {
-  "generated_at": "2026-09-03T17:21:02.715084+00:00",
+  "generated_at": "2026-09-03T18:27:05.605155+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 26,
   "rumors": [
+    {
+      "player": "Marcel Regula",
+      "age": 19,
+      "position": "Offensives Mittelfeld",
+      "marketValue": "7,00 Mio. €",
+      "currentClub": "Zaglebie Lubin",
+      "direction": "in",
+      "probability": 47,
+      "tmProbability": 41,
+      "tmUrl": "https://www.transfermarkt.de/wechselt-marcel-regula-zu-borussia-dortmund-/thread/forum/154/thread_id/1202761/post_id/3422664#3422664",
+      "sources": [
+        {
+          "name": "WAZ Sport",
+          "tier": 2,
+          "url": "https://www.waz.de/sport/borussia-dortmund/article413026615/wie-bvb-kandidat-regula-auf-die-dortmund-absage-reagiert-neuer-versuch-2027.html",
+          "published": "2026-09-01T11:30:23+00:00"
+        },
+        {
+          "name": "Bulinews Dortmund",
+          "tier": 2,
+          "url": "https://bulinews.com/dortmund-set-loan-arsenal-nwaneri-move-for-polish-prodigy-regula-off",
+          "published": "2026-09-01T07:17:00+00:00"
+        },
+        {
+          "name": "Get German Football News BVB",
+          "tier": 2,
+          "url": "https://www.getfootballnewsgermany.com/2026/dortmund-regula-nwaneri/",
+          "published": "2026-08-31T17:48:00+00:00"
+        }
+      ],
+      "lastMention": "2026-09-01T11:30:23+00:00"
+    },
     {
       "player": "Jadon Sancho",
       "age": 26,
@@ -28,38 +60,6 @@
         }
       ],
       "lastMention": "2026-09-02T07:24:00+00:00"
-    },
-    {
-      "player": "Marcel Regula",
-      "age": 19,
-      "position": "Offensives Mittelfeld",
-      "marketValue": "7,00 Mio. €",
-      "currentClub": "Zaglebie Lubin",
-      "direction": "in",
-      "probability": 46,
-      "tmProbability": 40,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-marcel-regula-zu-borussia-dortmund-/thread/forum/154/thread_id/1202761/post_id/3422664#3422664",
-      "sources": [
-        {
-          "name": "WAZ Sport",
-          "tier": 2,
-          "url": "https://www.waz.de/sport/borussia-dortmund/article413026615/wie-bvb-kandidat-regula-auf-die-dortmund-absage-reagiert-neuer-versuch-2027.html",
-          "published": "2026-09-01T11:30:23+00:00"
-        },
-        {
-          "name": "Bulinews Dortmund",
-          "tier": 2,
-          "url": "https://bulinews.com/dortmund-set-loan-arsenal-nwaneri-move-for-polish-prodigy-regula-off",
-          "published": "2026-09-01T07:17:00+00:00"
-        },
-        {
-          "name": "Get German Football News BVB",
-          "tier": 2,
-          "url": "https://www.getfootballnewsgermany.com/2026/dortmund-regula-nwaneri/",
-          "published": "2026-08-31T17:48:00+00:00"
-        }
-      ],
-      "lastMention": "2026-09-01T11:30:23+00:00"
     },
     {
       "player": "Ethan Nwaneri",
@@ -91,16 +91,16 @@
           "published": "2026-09-01T18:32:20+00:00"
         },
         {
-          "name": "Ruhr Nachrichten BVB",
-          "tier": 2,
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-pikante-nwaneri-klausel-vertrag-rn-talk-vor-hoffenheim-w1243275-2002210728/",
-          "published": "2026-09-03T14:01:47+00:00"
-        },
-        {
           "name": "fussballtransfers.com",
           "tier": 2,
           "url": "https://www.fussballtransfers.com/a2784569382477876004-bvb-bittere-nwaneri-klausel-enthuellt",
           "published": "2026-09-03T08:53:26+00:00"
+        },
+        {
+          "name": "Ruhr Nachrichten BVB",
+          "tier": 2,
+          "url": "https://www.ruhrnachrichten.de/bvb/bvb-pikante-nwaneri-klausel-vertrag-rn-talk-vor-hoffenheim-w1243275-2002210728/",
+          "published": "2026-09-03T14:01:47+00:00"
         },
         {
           "name": "Bulinews Dortmund",
@@ -109,16 +109,16 @@
           "published": "2026-09-03T08:25:00+00:00"
         },
         {
-          "name": "Bulinews Dortmund",
-          "tier": 2,
-          "url": "https://bulinews.com/kovac-backs-nwaneri-fulfil-dortmund-expectations-after-arsenal-move",
-          "published": "2026-09-02T11:23:00+00:00"
-        },
-        {
           "name": "Ruhr Nachrichten BVB",
           "tier": 2,
           "url": "https://www.ruhrnachrichten.de/bvb/bvb-transfer-konstantelias-ersatz-ethan-nwaneri-marcel-regula-dortmund-ankunft-w1241910-2002207823/",
           "published": "2026-09-02T10:38:00+00:00"
+        },
+        {
+          "name": "Bulinews Dortmund",
+          "tier": 2,
+          "url": "https://bulinews.com/kovac-backs-nwaneri-fulfil-dortmund-expectations-after-arsenal-move",
+          "published": "2026-09-02T11:23:00+00:00"
         },
         {
           "name": "WAZ Sport",
@@ -406,6 +406,19 @@
       "lastMention": null
     },
     {
+      "player": "Vasilije Kostov",
+      "age": 18,
+      "position": "Offensives Mittelfeld",
+      "marketValue": "25,00 Mio. €",
+      "currentClub": "Roter Stern Belgrad",
+      "direction": "in",
+      "probability": 20,
+      "tmProbability": null,
+      "tmUrl": "https://www.transfermarkt.de/wechselt-vasilije-kostov-zu-borussia-dortmund-/thread/forum/154/thread_id/1186713/post_id/3364998#3364998",
+      "sources": [],
+      "lastMention": null
+    },
+    {
       "player": "Fisnik Asllani",
       "age": 24,
       "position": "Mittelstürmer",
@@ -433,15 +446,15 @@
       "interestedClub": "FC Barcelona"
     },
     {
-      "player": "Vasilije Kostov",
-      "age": 18,
-      "position": "Offensives Mittelfeld",
-      "marketValue": "25,00 Mio. €",
-      "currentClub": "Roter Stern Belgrad",
+      "player": "Cristiano Júnior",
+      "age": 16,
+      "position": "Mittelstürmer",
+      "marketValue": null,
+      "currentClub": "Al-Nassr FC U17",
       "direction": "in",
-      "probability": 12,
-      "tmProbability": 22,
-      "tmUrl": "https://www.transfermarkt.de/wechselt-vasilije-kostov-zu-borussia-dortmund-/thread/forum/154/thread_id/1186713/post_id/3364998#3364998",
+      "probability": 13,
+      "tmProbability": 23,
+      "tmUrl": "https://www.transfermarkt.de/cristiano-junior-zu-borussia-dortmund-/thread/forum/154/thread_id/1191803/post_id/3358060#3358060",
       "sources": [],
       "lastMention": null
     },
@@ -455,19 +468,6 @@
       "probability": 10,
       "tmProbability": 20,
       "tmUrl": "https://www.transfermarkt.de/wechselt-josh-acheampong-zu-borussia-dortmund-/thread/forum/154/thread_id/1077229/post_id/3410575#3410575",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Cristiano Júnior",
-      "age": 16,
-      "position": "Mittelstürmer",
-      "marketValue": null,
-      "currentClub": "Al-Nassr FC U17",
-      "direction": "in",
-      "probability": 10,
-      "tmProbability": 20,
-      "tmUrl": "https://www.transfermarkt.de/cristiano-junior-zu-borussia-dortmund-/thread/forum/154/thread_id/1191803/post_id/3358060#3358060",
       "sources": [],
       "lastMention": null
     },
@@ -492,7 +492,7 @@
       "currentClub": "Deportivo A Coruña",
       "direction": "in",
       "probability": 5,
-      "tmProbability": 13,
+      "tmProbability": 14,
       "tmUrl": "https://www.transfermarkt.de/wechselt-yeremay-hernandez-zu-borussia-dortmund-/thread/forum/154/thread_id/1076744/post_id/3409265#3409265",
       "sources": [],
       "lastMention": null
