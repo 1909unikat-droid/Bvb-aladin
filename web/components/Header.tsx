@@ -14,6 +14,13 @@ export function Header() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const navRef = useRef<HTMLElement>(null);
+  // Aktiv-Zustand erst nach Mount: bei Vercel-ISR-Regeneration sieht
+  // usePathname() serverseitig nicht die echte Route (live: Homepage-HTML
+  // ohne aktiven Link) — der Client rendert den Pill dann zusätzlich und
+  // React wirft #418 (Element-Mismatch, suppressHydrationWarning hilft
+  // auf Element-Ebene nicht). SSR + erste Client-Render sind so beide leer.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -85,7 +92,7 @@ export function Header() {
                 />
               );
             }
-            const active = pathname === r.href;
+            const active = mounted && pathname === r.href;
             return (
               <Link
                 key={r.href}

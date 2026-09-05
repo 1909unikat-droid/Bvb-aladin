@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -21,7 +21,10 @@ export function NavDropdown({ href, label, children }: Props) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const isActive = pathname.startsWith(href);
+  // mounted-Gate gegen Hydration-#418 bei ISR — siehe Kommentar in Header.tsx.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  const isActive = mounted && pathname.startsWith(href);
 
   const show = () => {
     if (timerRef.current) clearTimeout(timerRef.current);

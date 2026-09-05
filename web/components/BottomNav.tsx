@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Newspaper, ArrowRightLeft, Users, CalendarDays, MoreHorizontal, Mic2, Play } from "lucide-react";
@@ -17,6 +18,9 @@ const ITEMS = [
 
 export function BottomNav() {
   const pathname = usePathname();
+  // mounted-Gate gegen Hydration-#418 bei ISR — siehe Kommentar in Header.tsx.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
   return (
     <nav
       aria-label="Mobile Navigation"
@@ -24,7 +28,7 @@ export function BottomNav() {
     >
       <ul className="flex overflow-x-auto scrollbar-hide">
         {ITEMS.map((it) => {
-          const active = pathname === it.href;
+          const active = mounted && pathname === it.href;
           const Icon = it.icon;
           return (
             <li key={it.href} className="flex-shrink-0">
