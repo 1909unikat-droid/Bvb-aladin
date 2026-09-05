@@ -20,14 +20,16 @@ const COMPETITION_COLORS: Record<Competition, string> = {
 
 type Filter = "alle" | Competition;
 
+// timeZone fest auf Berlin: SSR läuft in UTC — ohne festen Offset weicht der
+// Server-Text vom Client ab und React meldet Hydration-Mismatch (#418).
 function formatDate(iso: string) {
   const d = new Date(iso);
-  return d.toLocaleDateString("de-DE", { weekday: "short", day: "2-digit", month: "2-digit", year: "2-digit" });
+  return d.toLocaleDateString("de-DE", { weekday: "short", day: "2-digit", month: "2-digit", year: "2-digit", timeZone: "Europe/Berlin" });
 }
 
 function formatTime(iso: string) {
   const d = new Date(iso);
-  return d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" }) + " Uhr";
+  return d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin" }) + " Uhr";
 }
 
 function ScoreBadge({ fixture }: { fixture: Fixture }) {
@@ -48,7 +50,10 @@ function ScoreBadge({ fixture }: { fixture: Fixture }) {
         draw ? "text-neutral-400" : bvbWon ? "text-bvb-yellow" : "text-red-400"
       )}
     >
-      {fixture.isBVBHome ? `${home}:${away}` : `${away}:${home}`}
+      {`${home}:${away}`}
+      {fixture.scoreNote && (
+        <span className="ml-1 text-xs font-semibold text-neutral-500">{fixture.scoreNote}</span>
+      )}
     </span>
   );
 }
@@ -179,7 +184,7 @@ export function TermineClient({ fixtures }: { fixtures: Fixture[] }) {
                 className="flex items-center gap-3 rounded-xl border border-asphalt-700 bg-asphalt-900 px-4 py-3"
               >
                 <div className="w-20 shrink-0 text-xs font-semibold text-white tabular-nums">
-                  {new Date(ev.date).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "2-digit" })}
+                  {new Date(ev.date).toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "2-digit", timeZone: "Europe/Berlin" })}
                 </div>
                 <span className={cn("shrink-0 text-xs px-2 py-0.5 rounded-full font-medium", TRAINING_TYPE_COLORS[ev.type])}>
                   {TRAINING_TYPE_LABELS[ev.type]}

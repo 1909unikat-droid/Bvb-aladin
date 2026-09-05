@@ -7,6 +7,16 @@ cd "$REPO"
 
 echo "=== $(date -u +%Y-%m-%dT%H:%MZ) refresh start ==="
 
+# Log-Rotation: launchd hängt stdout/err unbegrenzt an (refresh.err war 18 MB).
+# In-place kürzen — "cat > f" behält die Inode, der offene Append-FD von
+# launchd schreibt danach am neuen Ende weiter. Die letzten ~1 MB bleiben.
+for f in logs/refresh.out logs/refresh.err; do
+  if [ -f "$f" ] && [ "$(stat -f %z "$f")" -gt 5242880 ]; then
+    { tail -c 1048576 "$f" > "$f.tmp" && cat "$f.tmp" > "$f" && rm -f "$f.tmp"; } \
+      || echo "log rotation skipped: $f"
+  fi
+done
+
 # Sicherstellen dass pip-Deps vorhanden
 /usr/bin/python3 -m pip install -q -r requirements.txt
 

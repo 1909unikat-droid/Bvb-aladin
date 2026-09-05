@@ -113,7 +113,7 @@ export default async function AboutPage() {
         </h2>
         <p className="text-xs text-neutral-500 mb-6">
           Basierend auf dem aktuellen Feed-Snapshot vom{" "}
-          {new Date(feed.updated_at).toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "short" })} Uhr.
+          {new Date(feed.updated_at).toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "short", timeZone: "Europe/Berlin" })} Uhr.
         </p>
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {sources.map((src) => (

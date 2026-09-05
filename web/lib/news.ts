@@ -59,11 +59,14 @@ export function formatDate(iso: string | undefined): string {
   if (!iso) return "";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return "";
+  // timeZone fest auf Berlin: SSR läuft in UTC — ohne festen Offset weicht der
+  // Server-Text vom Client ab und React meldet Hydration-Mismatch (#418).
   return d.toLocaleString("de-DE", {
     day: "2-digit",
     month: "2-digit",
     hour: "2-digit",
-    minute: "2-digit"
+    minute: "2-digit",
+    timeZone: "Europe/Berlin"
   });
 }
 

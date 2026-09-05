@@ -15,7 +15,9 @@ interface Props {
 export function Hero({ totalItems, updatedAt, topItems = [] }: Props) {
   const updated = (() => {
     try {
-      return new Date(updatedAt).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" });
+      // timeZone fest auf Berlin: SSR läuft in UTC — ohne festen Offset weicht
+      // der Server-Text vom Client ab und React meldet Hydration-Mismatch (#418).
+      return new Date(updatedAt).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin" });
     } catch { return "—"; }
   })();
 

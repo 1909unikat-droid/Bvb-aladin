@@ -52,10 +52,10 @@ export default async function HomePage() {
         publisher: {
           "@type": "Organization",
           name: "BVB Hub",
-          url: "https://bvb-fanpage.vercel.app",
+          url: "https://bvb-aladin.vercel.app",
         },
         url: topItem.url,
-        isPartOf: { "@type": "WebSite", name: "BVB Hub", url: "https://bvb-fanpage.vercel.app" },
+        isPartOf: { "@type": "WebSite", name: "BVB Hub", url: "https://bvb-aladin.vercel.app" },
       }
     : null;
 
