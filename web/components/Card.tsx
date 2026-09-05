@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ExternalLink, RefreshCw, Flame, GitBranch } from "lucide-react";
@@ -52,8 +53,14 @@ function CardLink({
 
 function StandardCard({ item, index, onSourceTrail, clusterSize, clusterId }: { item: NewsItem; index: number; onSourceTrail?: SourceTrailOpener; clusterSize?: number; clusterId?: string }) {
   const showSummary = !isRedundantSummary(item);
-  const hot = isHot(item);
-  const live = isLive(item);
+  // hot/live hängen von Date.now() ab — im ISR-gecachten HTML kann ein Item bis
+  // zur Hydration über die Schwelle rutschen, das Badge erschiene/verschwände
+  // (React #418, Element-Ebene — suppressHydrationWarning hilft da nicht).
+  // Daher erst nach Mount rendern: SSR und erste Client-Render sind beide false.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  const hot = mounted && isHot(item);
+  const live = mounted && isLive(item);
   const hasCluster = (clusterSize ?? 1) > 1 && !!clusterId;
 
   return (
@@ -109,7 +116,8 @@ function StandardCard({ item, index, onSourceTrail, clusterSize, clusterId }: { 
         <footer className="mt-3 flex items-center justify-between text-[11px] text-neutral-500">
           <div className="flex items-center gap-2">
             {live && <span className="inline-flex h-1.5 w-1.5 rounded-full bg-bvb-yellow animate-pulse" aria-label="frisch" />}
-            <span>{relativeTime(item.published)}</span>
+            {/* relative Zeit driftet zwischen ISR-Cache und Hydration um bis zu 1 Min. */}
+            <span suppressHydrationWarning>{relativeTime(item.published)}</span>
             {item.confirmation_count > 1 && onSourceTrail ? (
               <button
                 type="button"
@@ -145,8 +153,12 @@ function HeroCard({ item, index, onSourceTrail, clusterSize, clusterId }: { item
       <div className="relative">
         <div className="flex items-center gap-3 mb-4 flex-wrap">
           <TierBadge tier={item.tier} source={item.source} />
+          {/* suppressHydrationWarning wirkt nur bei EINEM Text-Kind — die
+              relative Zeit (driftet zwischen ISR-Cache und Hydration) darum
+              in einen eigenen Span isolieren, sonst React-Error #418. */}
           <span className="text-xs text-neutral-400">
-            {CATEGORY_LABEL[item.category]} · {relativeTime(item.published)}
+            {CATEGORY_LABEL[item.category]} ·{" "}
+            <span suppressHydrationWarning>{relativeTime(item.published)}</span>
           </span>
           {onSourceTrail ? (
             <button
@@ -210,7 +222,7 @@ function CompactCard({ item, index }: { item: NewsItem; index: number }) {
       <CardLink item={item}>
         <div className="flex items-center justify-between mb-1.5">
           <TierBadge tier={item.tier} source={item.source} />
-          <span className="text-[10px] text-neutral-500">{relativeTime(item.published)}</span>
+          <span className="text-[10px] text-neutral-500" suppressHydrationWarning>{relativeTime(item.published)}</span>
         </div>
         <h4 className="text-sm font-semibold leading-snug line-clamp-3 group-hover:text-bvb-yellow transition-colors">
           {item.title}
