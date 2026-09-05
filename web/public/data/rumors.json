@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:27:15.819950+00:00",
+  "generated_at": "2026-09-05T18:07:15.396197+00:00",
   "source": "transfermarkt.de + news-feed",
   "count": 26,
   "rumors": [
@@ -14,6 +14,12 @@
       "tmProbability": 32,
       "tmUrl": "https://www.transfermarkt.de/spieler/geruechte/spieler/890719",
       "sources": [
+        {
+          "name": "Ruhr Nachrichten BVB",
+          "tier": 2,
+          "url": "https://www.ruhrnachrichten.de/bvb/borussia-dortmund-sieg-hoffenheim-nwaneri-matchwinner-kovac-wechsel-w1243391-2002213389/",
+          "published": "2026-09-05T16:50:05+00:00"
+        },
         {
           "name": "BBC Sport BVB",
           "tier": 2,
@@ -55,12 +61,6 @@
           "tier": 2,
           "url": "https://bulinews.com/kovac-backs-nwaneri-fulfil-dortmund-expectations-after-arsenal-move",
           "published": "2026-09-02T11:23:00+00:00"
-        },
-        {
-          "name": "Ruhr Nachrichten BVB",
-          "tier": 2,
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-pikante-nwaneri-klausel-vertrag-rn-talk-vor-hoffenheim-w1243275-2002210728/",
-          "published": "2026-09-03T14:01:47+00:00"
         },
         {
           "name": "Bulinews Dortmund",
@@ -129,16 +129,16 @@
           "published": "2026-09-01T07:20:00+00:00"
         },
         {
-          "name": "BVB Buzz",
-          "tier": 4,
-          "url": "https://bvbbuzz.com/ethan-nwaneri-to-borussia-dortmund-everything-you-need-to-know-01m1ep564we3?utm_source=RSS",
-          "published": "2026-09-01T16:28:32+00:00"
-        },
-        {
           "name": "Insider-Radar Berger",
           "tier": 1,
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUmFRSlJWMFJ1c0tKRkVSazFQcG54VDJlQ01NZ2wyeG1mQVhmOVh4TDFtekZsMmVQTTlvYjRkN1RuTEx5MU9vWEZKWWtKUFNfY09RaW9Ya2d5MUdMMWRsODNGazd4a29IOFp1cUdHanZfSTNXVFpDODBFVjFGT2k4VE1GRzV3bDU4UmU0OW5yb05VbEQxNGxySEprNngzdW4xMDlxQW9TTDA?oc=5",
           "published": "2026-08-31T14:01:00+00:00"
+        },
+        {
+          "name": "BVB Buzz",
+          "tier": 4,
+          "url": "https://bvbbuzz.com/ethan-nwaneri-to-borussia-dortmund-everything-you-need-to-know-01m1ep564we3?utm_source=RSS",
+          "published": "2026-09-01T16:28:32+00:00"
         },
         {
           "name": "Insider-Radar Romano",
@@ -157,21 +157,9 @@
           "tier": 5,
           "url": "https://www.reddit.com/r/soccer/comments/1w4cxts/jadon_sancho_remains_borussia_dortmund_target/",
           "published": "2026-09-01T14:03:54+00:00"
-        },
-        {
-          "name": "Reddit r/soccer (Dortmund)",
-          "tier": 5,
-          "url": "https://www.reddit.com/r/soccer/comments/1w3fjw1/sky_borussia_dortmund_are_considering_a_loan_of/",
-          "published": "2026-08-31T14:32:23+00:00"
-        },
-        {
-          "name": "Reddit r/borussiadortmund",
-          "tier": 5,
-          "url": "https://www.reddit.com/r/borussiadortmund/comments/1w4k2h9/bvb_loans_ethan_nwaneri_for_a_year/",
-          "published": "2026-09-01T18:13:38+00:00"
         }
       ],
-      "lastMention": "2026-09-05T08:31:23+00:00",
+      "lastMention": "2026-09-05T16:50:05+00:00",
       "interestedClub": "Fenerbahce"
     },
     {
@@ -268,6 +256,19 @@
       "probability": 20,
       "tmProbability": null,
       "tmUrl": "https://www.transfermarkt.de/tommy-marques-zu-borussia-dortmund-/thread/forum/154/thread_id/1203100/post_id/3413001#3413001",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Abde Ezzalzouli",
+      "age": 24,
+      "position": "Linksaußen",
+      "marketValue": "40,00 Mio. €",
+      "currentClub": "Real Betis Sevilla",
+      "direction": "in",
+      "probability": 20,
+      "tmProbability": null,
+      "tmUrl": "https://www.transfermarkt.de/abde-ezzalzouli-zu-borussia-dortmund-/thread/forum/154/thread_id/1203816/post_id/3408755#3408755",
       "sources": [],
       "lastMention": null
     },
@@ -455,20 +456,6 @@
       "lastMention": null
     },
     {
-      "player": "Serhou Guirassy",
-      "age": 30,
-      "position": "Mittelstürmer",
-      "marketValue": "32 Mio. €",
-      "currentClub": "Borussia Dortmund",
-      "direction": "out",
-      "probability": 15,
-      "tmProbability": 25,
-      "tmUrl": "https://www.transfermarkt.de/spieler/geruechte/spieler/270541",
-      "sources": [],
-      "lastMention": null,
-      "interestedClub": "FC Barcelona"
-    },
-    {
       "player": "Cristiano Júnior",
       "age": 16,
       "position": "Mittelstürmer",
@@ -482,6 +469,20 @@
       "lastMention": null
     },
     {
+      "player": "Serhou Guirassy",
+      "age": 30,
+      "position": "Mittelstürmer",
+      "marketValue": "32 Mio. €",
+      "currentClub": "Borussia Dortmund",
+      "direction": "out",
+      "probability": 12,
+      "tmProbability": 22,
+      "tmUrl": "https://www.transfermarkt.de/spieler/geruechte/spieler/270541",
+      "sources": [],
+      "lastMention": null,
+      "interestedClub": "FC Barcelona"
+    },
+    {
       "player": "Josh Acheampong",
       "age": 20,
       "position": "Innenverteidiger",
@@ -491,6 +492,19 @@
       "probability": 10,
       "tmProbability": 20,
       "tmUrl": "https://www.transfermarkt.de/wechselt-josh-acheampong-zu-borussia-dortmund-/thread/forum/154/thread_id/1077229/post_id/3410575#3410575",
+      "sources": [],
+      "lastMention": null
+    },
+    {
+      "player": "Alberto Moleiro",
+      "age": 22,
+      "position": "Linksaußen",
+      "marketValue": "50,00 Mio. €",
+      "currentClub": "FC Villarreal",
+      "direction": "in",
+      "probability": 9,
+      "tmProbability": 19,
+      "tmUrl": "https://www.transfermarkt.de/alberto-moleiro-zu-borussia-dortmund-/thread/forum/154/thread_id/1203817/post_id/3408756#3408756",
       "sources": [],
       "lastMention": null
     },
@@ -517,32 +531,6 @@
       "probability": 5,
       "tmProbability": 14,
       "tmUrl": "https://www.transfermarkt.de/wechselt-yeremay-hernandez-zu-borussia-dortmund-/thread/forum/154/thread_id/1076744/post_id/3409265#3409265",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Alberto Moleiro",
-      "age": 22,
-      "position": "Linksaußen",
-      "marketValue": "50,00 Mio. €",
-      "currentClub": "FC Villarreal",
-      "direction": "in",
-      "probability": 5,
-      "tmProbability": 15,
-      "tmUrl": "https://www.transfermarkt.de/alberto-moleiro-zu-borussia-dortmund-/thread/forum/154/thread_id/1203817/post_id/3408756#3408756",
-      "sources": [],
-      "lastMention": null
-    },
-    {
-      "player": "Abde Ezzalzouli",
-      "age": 24,
-      "position": "Linksaußen",
-      "marketValue": "40,00 Mio. €",
-      "currentClub": "Real Betis Sevilla",
-      "direction": "in",
-      "probability": 5,
-      "tmProbability": 8,
-      "tmUrl": "https://www.transfermarkt.de/abde-ezzalzouli-zu-borussia-dortmund-/thread/forum/154/thread_id/1203816/post_id/3408755#3408755",
       "sources": [],
       "lastMention": null
     }
