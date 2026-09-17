@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T11:15:56.544779+00:00",
+  "updated_at": "2026-09-17T07:37:57.403225+00:00",
   "season": "2026",
   "pending": false,
   "teams": [
@@ -491,7 +491,7 @@
       "id": "u23",
       "label": "U23",
       "league": "3. Liga",
-      "squadValue": "3 Mio. €",
+      "squadValue": "4 Mio. €",
       "players": [
         {
           "id": 1,
@@ -509,6 +509,20 @@
         },
         {
           "id": 2,
+          "tm_id": 1023091,
+          "name": "Aaron Held",
+          "number": 33,
+          "positionGroup": "Tor",
+          "positionShort": "TW",
+          "positionDetail": "Torwart",
+          "nationality": "Deutschland",
+          "flag": "🇩🇪",
+          "age": 18,
+          "contract": "2028",
+          "marketValue": "50 Tsd. €"
+        },
+        {
+          "id": 3,
           "tm_id": 662810,
           "name": "Yılmaz Aktaş",
           "number": 1,
@@ -520,20 +534,6 @@
           "age": 23,
           "contract": "2027",
           "marketValue": "25 Tsd. €"
-        },
-        {
-          "id": 3,
-          "tm_id": 1023091,
-          "name": "Aaron Held",
-          "number": 33,
-          "positionGroup": "Tor",
-          "positionShort": "TW",
-          "positionDetail": "Torwart",
-          "nationality": "Deutschland",
-          "flag": "🇩🇪",
-          "age": 18,
-          "contract": "2028",
-          "marketValue": null
         },
         {
           "id": 4,
@@ -593,6 +593,20 @@
         },
         {
           "id": 8,
+          "tm_id": 1024973,
+          "name": "Finn Fuchs",
+          "number": 3,
+          "positionGroup": "Abwehr",
+          "positionShort": "LV",
+          "positionDetail": "Linker Verteidiger",
+          "nationality": "Deutschland",
+          "flag": "🇩🇪",
+          "age": 20,
+          "contract": "2028",
+          "marketValue": "150 Tsd. €"
+        },
+        {
+          "id": 9,
           "tm_id": 724062,
           "name": "Mario Pejazic",
           "number": 21,
@@ -604,20 +618,6 @@
           "age": 21,
           "contract": "2027",
           "marketValue": "75 Tsd. €"
-        },
-        {
-          "id": 9,
-          "tm_id": 1024973,
-          "name": "Finn Fuchs",
-          "number": 3,
-          "positionGroup": "Abwehr",
-          "positionShort": "LV",
-          "positionDetail": "Linker Verteidiger",
-          "nationality": "Deutschland",
-          "flag": "🇩🇪",
-          "age": 20,
-          "contract": "2028",
-          "marketValue": null
         },
         {
           "id": 10,
@@ -649,6 +649,34 @@
         },
         {
           "id": 12,
+          "tm_id": 1080603,
+          "name": "Tim Degener",
+          "number": 7,
+          "positionGroup": "Mittelfeld",
+          "positionShort": "DM",
+          "positionDetail": "Defensives Mittelfeld",
+          "nationality": "Deutschland",
+          "flag": "🇩🇪",
+          "age": 19,
+          "contract": "2029",
+          "marketValue": "300 Tsd. €"
+        },
+        {
+          "id": 13,
+          "tm_id": 1211573,
+          "name": "Luke Fahrenhorst",
+          "number": 20,
+          "positionGroup": "Mittelfeld",
+          "positionShort": "DM",
+          "positionDetail": "Defensives Mittelfeld",
+          "nationality": "Deutschland",
+          "flag": "🇩🇪",
+          "age": 17,
+          "contract": "2027",
+          "marketValue": "300 Tsd. €"
+        },
+        {
+          "id": 14,
           "tm_id": 1141179,
           "name": "Mussa Kaba",
           "number": 18,
@@ -662,7 +690,7 @@
           "marketValue": "200 Tsd. €"
         },
         {
-          "id": 13,
+          "id": 15,
           "tm_id": 690147,
           "name": "Felix Paschke",
           "number": 8,
@@ -674,34 +702,6 @@
           "age": 23,
           "contract": "2027",
           "marketValue": "100 Tsd. €"
-        },
-        {
-          "id": 14,
-          "tm_id": 1080603,
-          "name": "Tim Degener",
-          "number": 7,
-          "positionGroup": "Mittelfeld",
-          "positionShort": "DM",
-          "positionDetail": "Defensives Mittelfeld",
-          "nationality": "Deutschland",
-          "flag": "🇩🇪",
-          "age": 19,
-          "contract": "2029",
-          "marketValue": null
-        },
-        {
-          "id": 15,
-          "tm_id": 1211573,
-          "name": "Luke Fahrenhorst",
-          "number": 20,
-          "positionGroup": "Mittelfeld",
-          "positionShort": "DM",
-          "positionDetail": "Defensives Mittelfeld",
-          "nationality": "Deutschland",
-          "flag": "🇩🇪",
-          "age": 17,
-          "contract": "2027",
-          "marketValue": null
         },
         {
           "id": 16,
@@ -743,7 +743,7 @@
           "flag": "🇩🇪",
           "age": 17,
           "contract": "2027",
-          "marketValue": null
+          "marketValue": "300 Tsd. €"
         },
         {
           "id": 19,
@@ -817,6 +817,20 @@
         },
         {
           "id": 24,
+          "tm_id": 1080602,
+          "name": "Diego Ngambia",
+          "number": 22,
+          "positionGroup": "Angriff",
+          "positionShort": "ST",
+          "positionDetail": "Mittelstürmer",
+          "nationality": "Belgien",
+          "flag": "🇧🇪",
+          "age": 18,
+          "contract": "-",
+          "marketValue": "50 Tsd. €"
+        },
+        {
+          "id": 25,
           "tm_id": 1081530,
           "name": "Pharell Kegni",
           "number": 19,
@@ -828,20 +842,6 @@
           "age": 19,
           "contract": "2027",
           "marketValue": "25 Tsd. €"
-        },
-        {
-          "id": 25,
-          "tm_id": 1080602,
-          "name": "Diego Ngambia",
-          "number": 22,
-          "positionGroup": "Angriff",
-          "positionShort": "ST",
-          "positionDetail": "Mittelstürmer",
-          "nationality": "Belgien",
-          "flag": "🇧🇪",
-          "age": 18,
-          "contract": "-",
-          "marketValue": null
         }
       ]
     },
@@ -1017,7 +1017,7 @@
           "flag": "🇩🇪",
           "age": 17,
           "contract": "2027",
-          "marketValue": null
+          "marketValue": "300 Tsd. €"
         },
         {
           "id": 13,
@@ -1073,7 +1073,7 @@
           "flag": "🇩🇪",
           "age": 17,
           "contract": "2027",
-          "marketValue": null
+          "marketValue": "300 Tsd. €"
         },
         {
           "id": 17,
