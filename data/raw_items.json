@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-11-18T01:50:38.932895+00:00",
-  "duration_s": 51.31,
+  "fetched_at": "2026-11-18T09:57:06.121949+00:00",
+  "duration_s": 64.21,
   "sources_ok": 39,
   "sources_fail": 2,
   "stale_sources": [
     {
       "id": "yt_bvb_nachrichten",
       "newest_item": "2026-08-20T08:00:11+00:00",
-      "days_silent": 89
+      "days_silent": 90
     },
     {
       "id": "yt_bvb_analyse",
@@ -18,7 +18,7 @@
       "id": "reddit_soccer_bvb",
       "newest_item": "2026-11-10T14:20:25+00:00",
       "days_silent": 7,
-      "fail_runs": 52
+      "fail_runs": 53
     }
   ],
   "items": [
@@ -261,24 +261,40 @@
       "kind": "rss"
     },
     {
-      "id": "0fe75c31f4f9bc8c",
-      "title": "Mohya, Wirtz und zwei Dortmunder: Die jüngsten Bundesliga-Torschützen",
-      "summary": "Die Bundesliga wird insgesamt immer jünger. Hier kommt die Top 5 der jüngsten Bundesliga-Torschützen im Video.",
-      "url": "https://www.kicker.de/mohya-wirtz-und-zwei-dortmunder-die-juengsten-bundesliga-torschuetzen-1271293/video#omrss",
-      "published": "2026-11-16T09:58:53+00:00",
-      "source_id": "kicker_bundesliga",
-      "source_name": "kicker Bundesliga",
+      "id": "8e7e32dba044a5f5",
+      "title": "Neuer BVB-Verteidiger: Jetzt führt eine Spur nach Portugal",
+      "summary": "Der BVB und der FC Bayern sind auf einen portugiesischen Verteidiger aufmerksam geworden. Seit dem Sommer ist er Nationalspieler.",
+      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-verteidigung-jordan-arnolin-u19-scouts-dfb-portugal-estoril-borussia-dortmund-94595909.html",
+      "published": "2026-11-18T09:42:27+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
+      "credibility": 7,
+      "host": "www.ruhr24.de",
       "lang": "de",
-      "kind": "rss"
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/44/910/44910417-das-logo-von-borussia-dortmund-und-fussballer-jordan-arnolin-2eFyy8LJ3kef.jpg"
     },
     {
-      "id": "7968bf8f68eb05cc",
+      "id": "680b45b42b5314bc",
+      "title": "BVB-Mitgliederversammlung 2026: Novum betrifft die Fans",
+      "summary": "Die BVB-Mitglieder treffen sich wieder in Präsenz. Bei den Abstimmungen gibt es in diesem Jahr eine Neuerung.",
+      "url": "https://www.ruhr24.de/bvb/bvb-mitgliederversammlung-2026-novum-watzke-antraege-abstimmung-praesenz-borussia-dortmund-94595536.html",
+      "published": "2026-11-18T06:52:10+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.ruhr24.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/44/901/44901563-im-rahmen-der-mitgliederversammlung-von-borussia-dortmund-steht-eine-neuerung-an-die-die-teilnehmenden-fans-betrifft-1cef.jpg"
+    },
+    {
+      "id": "d997d24019d82dd5",
       "title": "Mit 36 Jahren: Ex-BVB-Star trifft Entscheidung „über den Sommer hinaus“",
       "summary": "Für einen ehemaligen BVB-Profi läuft es aktuell überhaupt nicht rund. Doch trotz seines fortgeschrittenen Alters denkt er weiterhin nicht ans Aufhören.",
-      "url": "https://www.ruhr24.de/bvb/bvb-news-entscheidung-ilkay-guendogan-zukunft-galatasaray-vertrag-transfer-borussia-dortmund-94595264.html",
+      "url": "https://www.ruhr24.de/bvb/dortmund-bvb-news-entscheidung-ilkay-guendogan-zukunft-galatasaray-vertrag-transfer-borussia-94595264.html",
       "published": "2026-11-17T17:11:19+00:00",
       "source_id": "ruhr24_bvb",
       "source_name": "RUHR24 BVB",
@@ -303,6 +319,36 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://www.ruhr24.de/assets/images/44/903/44903819-jobe-bellingham-und-ethan-nwaneri-jubeln-2mKpFxkJE1ef.jpg"
+    },
+    {
+      "id": "e9616d4f7b72e14b",
+      "title": "BVB-U23 im Regionalliga-Höhenflug: Jetzt bloß keine Angst vor dem Aufstieg!",
+      "summary": "Beim BVB gilt die Devise: Talententwicklung vor Tabellenplatz. Doch die U23 hat sich an der Regionalliga-Spitze festgesetzt. Der Aufstieg darf daher kein Tabu sein.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-u23-regionalliga-hohenflug-aufstieg-darf-kein-tabu-sein-w1274118-2002304581/",
+      "published": "2026-11-18T09:00:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/18/09/630_0900_7146953_-320x160.jpg"
+    },
+    {
+      "id": "c89b150912b6b587",
+      "title": "BVB kompakt: Die wichtigsten Dortmund-News täglich um 5 Uhr",
+      "summary": "Was wird heute wichtig beim BVB? Mit unserem täglichen Podcast gibt es jeden Morgen um 5 Uhr alle wichtigen Informationen zu Borussia Dortmund.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-kompakt-der-taegliche-podcast-zu-borussia-dortmund-w689747-2000732229/",
+      "published": "2026-11-18T04:00:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/01/14/00/630_0900_5284800_-320x160.jpg"
     },
     {
       "id": "4f2ac973cb3e10cf",
@@ -455,34 +501,19 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/13/14/630_0900_7135674_-320x160.jpg"
     },
     {
-      "id": "5272fd1e0f14ec4f",
-      "title": "BVB-Frauen können sich nur selbst ein Bein stellen: Högner muss eine Gefahr im Blick haben",
-      "summary": "Die BVB-Frauen enteilen der Konkurrenz und können sich in der Regionalliga nur selbst ein Bein stellen. Einer Gefahr muss Trainer Markus Högner jedoch entgegenwirken.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-frauen-regionalliga-hoegner-popp-aufstieg-2-bundesliga-gefahr-selbst-schlagen-w1274635-2002302191/",
-      "published": "2026-11-15T23:01:03+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
+      "id": "9b75b9814a956429",
+      "title": "BVB: Der Preis für Reggiani",
+      "summary": "Borussia Dortmund würde Innenverteidiger Luca Reggiani (18) im Winter ziehen lassen, wenn der Preis stimmt. Laut den ‚Ruhr Nachrichten‘ fordert der BVB rund zehn Millionen Euro, ein Wechsel werde (…)",
+      "url": "https://www.fussballtransfers.com/a4613236518128484798-bvb-der-preis-fuer-reggiani",
+      "published": "2026-11-18T06:41:52+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/15/23/630_0900_7153967_-320x160.jpg"
-    },
-    {
-      "id": "32340f61edf5ae09",
-      "title": "BVB-Matchwinnerin Popp sieht noch Luft nach oben: Högner lobt Dortmunds Entwicklung",
-      "summary": "Alexandra Popp entscheidet das BVB-Revierderby gegen Schalke im Alleingang - sieht aber noch Luft nach oben. Trainer Markus Högner lobt die Entwicklung.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-frauen-siegen-im-revierderby-popp-hoegner-loben-entwicklung-w1274575-2002301965/",
-      "published": "2026-11-15T17:24:10+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/15/17/630_0900_7152856_-320x160.jpg"
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/luca-reggiani-2627-6a7f0b09c9149.jpg"
     },
     {
       "id": "5643a3a9f3a3cd6b",
@@ -515,19 +546,19 @@
       "image": "https://assets-de.imgfoot.com/media/cache/1200x675/epalivenine432179-1920x1080.jpg"
     },
     {
-      "id": "3637cc14b6fa852b",
-      "title": "Die riesige Verletztenakte des BVB",
-      "summary": "Einige Profis von Borussia Dortmund sind dieser Tage mehr oder weniger schlimm verletzt. FT verschafft einen Überblick über das BVB-Lazarett.## Waldemar Anton (30) Wegen muskulärer Problemen musste (…)",
-      "url": "https://www.fussballtransfers.com/a3241066444566191292-die-riesige-verletztenakte-des-bvb",
-      "published": "2026-11-16T20:40:00+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
+      "id": "b05a31ed9ba38852",
+      "title": "Hybride Versammlung beim BVB: Die neue Satzung im Fokus. Teil 2 - Die Mitgliederversammlung und das Abstimmungsprozedere",
+      "summary": "Nachdem wir im ersten Teil die Organe und Strukturen im Satzungsvorschlag beleuchtet haben, möchten wir nun einen Blick auf den Modus der Mitgliederversammlung sowie das Abstimmungs- und Wahlprozedere werfen.",
+      "url": "https://schwatzgelb.de/artikel/2026/unsa-senf/die-neue-satzung-im-fokus-teil-2-die-mitgliederversammlung-und-das-abstimmungsprozedere",
+      "published": "2026-11-18T08:30:00+00:00",
+      "source_id": "schwatzgelb",
+      "source_name": "Schwatzgelb",
+      "tier": 4,
+      "credibility": 6,
+      "host": "schwatzgelb.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/serhou-guirassy-2627-2.jpg"
+      "image": "https://www.schwatzgelb.de/imager/bvb-fotos_de/storage/library/2013-2014-sonstiges-jhv-bvb/960x960/BIE_8862_a12e44e3210bc53d16e237a7c4555e81.jpg"
     },
     {
       "id": "0eef4489855ba6b7",
@@ -813,21 +844,6 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://www.schwatzgelb.de/imager/assets/Redaktion/2026/bvb-bremen/1193989/intro_a12e44e3210bc53d16e237a7c4555e81.jpg"
-    },
-    {
-      "id": "55f36be50b527d2c",
-      "title": "BVB gegen Werder im Pokal: Die Bremer Stadtmusikanten mit Lücke",
-      "summary": "Schon wieder Pokal, schon wieder Werder. Schaffen die Kicker von der Weser das Unmögliche, so wie es Esel, Hund, Katze und Hahn vorgemacht haben? Führt ihr Zusammenhalt und ihr Mut dazu, dass sie sich das Westfalenstadion unter den Nagel reißen?",
-      "url": "https://schwatzgelb.de/artikel/2026/warmlaufen/die-bremer-stadtmusikanten-mit-luecke",
-      "published": "2026-10-26T07:09:00+00:00",
-      "source_id": "schwatzgelb",
-      "source_name": "Schwatzgelb",
-      "tier": 4,
-      "credibility": 6,
-      "host": "schwatzgelb.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.schwatzgelb.de/imager/www_bvb-fotos_de/storage/files/2981/1200/TBI_6169_a12e44e3210bc53d16e237a7c4555e81.JPG"
     },
     {
       "id": "db625b262f7e13fa",
@@ -1445,8 +1461,8 @@
       "image": "https://i.ytimg.com/vi/NAzGLJUdsbE/hqdefault.jpg"
     },
     {
-      "id": "4f7e0021afb46406",
-      "title": "BVB benötigt gegen Elversberg 45 Minuten Anlaufzeit Video-Analyse zum 2:1",
+      "id": "62ea2ffbdccc7498",
+      "title": "RN-Analyse zum 2:1: BVB benötigt gegen Elversberg 45 Minuten Anlaufzeit",
       "summary": "🚨 Jetzt BVB-Abo sichern - nur ein Euro für acht Wochen: https://www.ruhrnachrichten.de/bvb 📱 Besucht uns auf unseren anderen Kanälen: Facebook: https://www.facebook.com/BVB.News/ Instagram: https://www.instagram.com/rnbvb/ X: https://twitter.com/RNBVB #bvb #rnbvb #borussiadortmund #borussia #dortmund #fussball #bvbvideo #bvbvideos",
       "url": "https://www.youtube.com/watch?v=y9PpLsou-Sw",
       "published": "2026-11-08T05:00:21+00:00",
@@ -19433,6 +19449,21 @@
       "host": "schwarzgelberunde.podigee.io",
       "lang": "de",
       "kind": "podcast"
+    },
+    {
+      "id": "8fc77509cad21ad8",
+      "title": "Schlotterbeck startet in Nationalmannschaft durch | BVB-Talente kommen nicht zum Zug",
+      "summary": "Die deutsche Nationalmannschaft hat sich gegen die Niederlande in einen richtigen Rausch gespielt. Mittendrin: Nico Schlotterbeck. Der BVB-Profi hat ein richtig starkes Spiel gemacht und wird unter Klopp wohl eine wichtige Rolle spielen.",
+      "url": "https://bvb-kompakt.podigee.io/1978-schlotterbeck-startet-in-nationalmannschaft-durch-bvb-talente-kommen-nicht-zum-zug",
+      "published": "2026-11-18T04:00:00+00:00",
+      "source_id": "pod_bvb_kompakt",
+      "source_name": "BVB kompakt (WAZ/RN)",
+      "tier": 2,
+      "credibility": 8,
+      "host": "bvb-kompakt.podigee.io",
+      "lang": "de",
+      "kind": "podcast",
+      "image": "https://images.podigee-cdn.net/0x,sH6c0-2KOBYi2iLOAgjH1WKHmr3BzcTlrJqFhR7ZoMUI=/https://main.podigee-cdn.net/uploads/u1977/5477009d-bf67-4c95-b3d1-7fc376db6f92.jpeg"
     },
     {
       "id": "d069e890da711d14",
@@ -48134,6 +48165,21 @@
       "kind": "rss"
     },
     {
+      "id": "f6ca969569c30690",
+      "title": "Price tag named for AC Milan and Southampton-linked Borussia Dortmund defender",
+      "summary": "Borussia Dortmund are reportedly demanding around €10 million for Luca Reggiani, who has been linked with AC Milan and Southampton.",
+      "url": "https://bulinews.com/price-tag-named-for-milan-and-southampton-linked-borussia-dortmund-defender",
+      "published": "2026-11-18T08:36:00+00:00",
+      "source_id": "bulinews_bvb",
+      "source_name": "Bulinews Dortmund",
+      "tier": 2,
+      "credibility": 7,
+      "host": "bulinews.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://bulinews.com/i/1280/22288.jpg"
+    },
+    {
       "id": "85382f43c1d322c3",
       "title": "Klopp's Germany midfield pecking order after first six games",
       "summary": "Bild has outlined Jürgen Klopp's midfield hierarchy following his first six games as Germany coach.",
@@ -48869,19 +48915,32 @@
       "image": "https://bulinews.com/i/1280/21903.jpg"
     },
     {
-      "id": "fc2b300c9a2722a1",
-      "title": "INTERVIEW: Bayern sales chief Kasper on maintaining Kane hype and pushing other clubs to grow Bundesliga appeal",
-      "summary": "FC Bayern's Chief of Marketing and Sales Officer has his work cut out to keep up with Kane's Ballon d'Or viral streak and stresses the need for other teams to pull their weight in order to grow the Bundesliga.",
-      "url": "https://bulinews.com/interview-bayern-sales-chief-kasper-maintaining-kane-hype-and-pushing-other-clubs-grow-bundesliga-appeal",
-      "published": "2026-11-03T11:30:00+00:00",
-      "source_id": "bulinews_bvb",
-      "source_name": "Bulinews Dortmund",
+      "id": "96fef09272a637fa",
+      "title": "Gladbach’s Alexander Blessin relishes Borussia Dortmund clash",
+      "summary": "Borussia Mönchengladbach head coach Alexander Blessin has highlighted his plan to get a result against unbeaten Borussia Dortmund. The two Borussias clash in the Bundesliga on Saturday afternoon, with bottom&#8230;",
+      "url": "https://www.getfootballnewsgermany.com/2026/gladbachs-alexander-blessin-relishes-borussia-dortmund-clash/",
+      "published": "2026-11-18T07:33:22+00:00",
+      "source_id": "ggfn_bvb",
+      "source_name": "Get German Football News BVB",
       "tier": 2,
       "credibility": 7,
-      "host": "bulinews.com",
+      "host": "www.getfootballnewsgermany.com",
       "lang": "en",
-      "kind": "rss",
-      "image": "https://bulinews.com/i/1280/21895.jpg"
+      "kind": "rss"
+    },
+    {
+      "id": "af175a75aa4c982f",
+      "title": "Borussia Dortmund set price for Luca Reggiani",
+      "summary": "After making his breakthrough with 513 minutes across eight Bundesliga appearances for Borussia Dortmund in 2025/26, Luca Reggiani has struggled for playing time this term with Die Schwarzgelben open to&#8230;",
+      "url": "https://www.getfootballnewsgermany.com/2026/borussia-dortmund-set-price-for-luca-reggiani/",
+      "published": "2026-11-18T07:23:25+00:00",
+      "source_id": "ggfn_bvb",
+      "source_name": "Get German Football News BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.getfootballnewsgermany.com",
+      "lang": "en",
+      "kind": "rss"
     },
     {
       "id": "bd606b8834ac3306",
@@ -48987,34 +49046,6 @@
       "summary": "Serhou Guirassy will miss Borussia Dortmund’s next game due to injury, Niko Kovac has confirmed during his press conference.&#160; Borussia Dortmund are due to play Bundesliga newcomers and this season’s&#8230;",
       "url": "https://www.getfootballnewsgermany.com/2026/serhou-guirassy-to-miss-borussia-dortmunds-next-game-due-to-injury-the-diagnosis/",
       "published": "2026-11-06T12:44:09+00:00",
-      "source_id": "ggfn_bvb",
-      "source_name": "Get German Football News BVB",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.getfootballnewsgermany.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
-      "id": "a8893703d6b77b37",
-      "title": "Borussia Dortmund’s Jobe Bellingham earns first senior England call-up",
-      "summary": "Jobe Bellingham vs Bayern Munich",
-      "url": "https://www.getfootballnewsgermany.com/2026/borussia-dortmunds-jobe-bellingham-earns-first-senior-england-call-up/",
-      "published": "2026-11-06T10:59:24+00:00",
-      "source_id": "ggfn_bvb",
-      "source_name": "Get German Football News BVB",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.getfootballnewsgermany.com",
-      "lang": "en",
-      "kind": "rss"
-    },
-    {
-      "id": "9af75b584fe22cfa",
-      "title": "Niko Kovac sets 17-point-target after latest Borussia Dortmund Champions League win",
-      "summary": "Borussia Dortmund moved onto nine points after four Champions League league-phase matches with a 2-1 victory over Real Betis, as Niko Kovac outlined the points total he believes will be required to secure a top-eight finish.",
-      "url": "https://www.getfootballnewsgermany.com/2026/dortmunf-champions-league-top-8/",
-      "published": "2026-11-05T09:52:59+00:00",
       "source_id": "ggfn_bvb",
       "source_name": "Get German Football News BVB",
       "tier": 2,
@@ -57304,21 +57335,6 @@
       "image": "https://img.sparknews.funkemedien.de/413685866/413685866_1794759892_v16_9_600.jpeg"
     },
     {
-      "id": "5efc87e21a7e9241",
-      "title": "BVB-Kapitänin Popp: Schwarz-gelbes Herz, Schalker Vergangenheit",
-      "summary": "Das Duell mit Schalke wird für Alexandra Popp ein ganz besonderes. Nicht nur, weil es das erste Revierderby der BVB-Kapitänin ist.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413680058/bvb-kapitaenin-popp-schwarz-gelbes-herz-schalker-vergangenheit.html",
-      "published": "2026-11-14T20:14:21+00:00",
-      "source_id": "waz_sport",
-      "source_name": "WAZ Sport",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.waz.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://img.sparknews.funkemedien.de/413680043/413680043_1794686101_v16_9_600.jpeg"
-    },
-    {
       "id": "a0ab7f469189289f",
       "title": "Rückblick auf den ersten Themed Broadcast der Bundesliga",
       "summary": "Die gesamte Begegnung zwischen dem FC Bayern München und Borussia Dortmund wurde anhand der offiziellen Spieldaten live in einer Playmobil-Welt abgebildet. The post Rückblick auf den ersten Themed Broadcast der Bundesliga appeared first on Bundesliga-Gruppe .",
@@ -57332,6 +57348,20 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://www.bundesliga-gruppe.de/wp-content/plugins/dfl-embed-blocker/assets/img/icons/youtube.svg"
+    },
+    {
+      "id": "ee4edd9796a05bdc",
+      "title": "Nachdem wir im ersten Teil die Organe und Strukturen im Satzungsvorschlag beleuchtet haben, möchten wir nun einen Blick",
+      "summary": "Nachdem wir im ersten Teil die Organe und Strukturen im Satzungsvorschlag beleuchtet haben, möchten wir nun einen Blick auf den Modus der Mitgliederversammlung sowie das Abstimmungs- und Wahlprozedere werfen. https://schwatzgelb.de/artikel/2026/unsa-senf/die-neue-satzung-im-fokus-teil-2-die-mitgliederversammlung-und-das-abstimmungsprozedere",
+      "url": "https://bsky.app/profile/schwatzgelb.de/post/3n2l4qsdb3i2z",
+      "published": "2026-11-18T08:20:00+00:00",
+      "source_id": "bsky_schwatzgelb",
+      "source_name": "Schwatzgelb (Bluesky)",
+      "tier": 4,
+      "credibility": 6,
+      "host": "bsky.app",
+      "lang": "de",
+      "kind": "rss"
     },
     {
       "id": "e85757f03963b4ff",
@@ -57740,34 +57770,6 @@
       "kind": "rss"
     },
     {
-      "id": "afab04e37d73ea71",
-      "title": "Der BVB punktet endlich wieder in der Liga und zeigt trotz der Reisestrapazen eine wirklich gute, kämpferische Leistung",
-      "summary": "Der BVB punktet endlich wieder in der Liga und zeigt trotz der Reisestrapazen eine wirklich gute, kämpferische Leistung – auch wenn nicht alles gelingt. Was gegen Frankfurt auf dem Rasen und den Rängen los war, lest ihr in unserem Spielbericht. https://schwatzgelb.de/artikel/2026/maenner/geht-doch",
-      "url": "https://bsky.app/profile/schwatzgelb.de/post/3myozrkeqwq24",
-      "published": "2026-10-25T10:47:00+00:00",
-      "source_id": "bsky_schwatzgelb",
-      "source_name": "Schwatzgelb (Bluesky)",
-      "tier": 4,
-      "credibility": 6,
-      "host": "bsky.app",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "7564ebfcd544d48e",
-      "title": "Borussia Dortmund feiert einen 4:0-Sieg im Revierderby gegen den FC Schalke 04 und bleibt in dieser Saison weiter ohne",
-      "summary": "Borussia Dortmund feiert einen 4:0-Sieg im Revierderby gegen den FC Schalke 04 und bleibt in dieser Saison weiter ohne Punktverlust. Überragende Spielerin vor der Rekordkulisse im Stadion Rote Erde war Alexandra Popp mit drei Toren und einer Vorlage. https://www.kicker.de/dortmund-gegen-schalke-2026-frauen-regionalliga-west-5242554/spielbericht#omrss",
-      "url": "https://bsky.app/profile/kicker.de/post/3n2eg3lmmde2p",
-      "published": "2026-11-15T16:18:00+00:00",
-      "source_id": "bsky_kicker",
-      "source_name": "kicker (Bluesky)",
-      "tier": 2,
-      "credibility": 8,
-      "host": "bsky.app",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
       "id": "80a00fe935f95624",
       "title": "Dem BVB war er zu teuer: Maatsen unterschreibt Mega-Vertrag bei Aston Villa - BVBWLD.de - Aktuelle BVB News",
       "summary": "Dem BVB war er zu teuer: Maatsen unterschreibt Mega-Vertrag bei Aston Villa &nbsp;&nbsp; BVBWLD.de - Aktuelle BVB News",
@@ -57875,20 +57877,6 @@
       "source_name": "Sky Sport News DE",
       "tier": 2,
       "credibility": 8,
-      "host": "x.com",
-      "lang": "de",
-      "kind": "x"
-    },
-    {
-      "id": "30322d309afaf2c7",
-      "title": "#DFB - 🇩🇪 Das @DFB_Team bricht zum Anschwitzen auf. Schlotterbeck soll nach Sky Infos heute in Berlin wieder in die",
-      "summary": "#DFB - 🇩🇪 Das @DFB_Team bricht zum Anschwitzen auf. Schlotterbeck soll nach Sky Infos heute in Berlin wieder in die Startelf rutschen und an der Seite von Tah starten. Brown hat gute Chancen auf LV. Wie würdet ihr für das Spiel gegen Oranje aufstellen? @SkySportDE https://t.co/U89DEeRjXH",
-      "url": "https://x.com/berger_pj",
-      "published": "2026-11-16T09:54:32+00:00",
-      "source_id": "x_berger",
-      "source_name": "Patrick Berger",
-      "tier": 1,
-      "credibility": 9,
       "host": "x.com",
       "lang": "de",
       "kind": "x"
