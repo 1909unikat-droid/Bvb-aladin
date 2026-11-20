@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-20T18:24:29.707817+00:00",
-  "duration_s": 52.71,
+  "fetched_at": "2026-11-20T22:04:21.021630+00:00",
+  "duration_s": 50.52,
   "sources_ok": 39,
   "sources_fail": 2,
   "stale_sources": [
@@ -18,13 +18,13 @@
       "id": "reddit_soccer_bvb",
       "newest_item": "2026-11-10T14:20:25+00:00",
       "days_silent": 10,
-      "fail_runs": 80
+      "fail_runs": 81
     },
     {
       "id": "reddit_bvb",
       "newest_item": "2026-11-17T10:27:46+00:00",
       "days_silent": 3,
-      "fail_runs": 32
+      "fail_runs": 33
     }
   ],
   "items": [
@@ -281,23 +281,24 @@
       "kind": "rss"
     },
     {
-      "id": "24ba1cc6c19d0ce9",
-      "title": "Dortmunds doppelt auffällige Werte",
-      "summary": "Zwei Statistiken zeigen auf, wo Borussia Dortmund in der laufenden Bundesliga-Saison noch viel Luft nach oben hat. Das bestätigt auch Trainer Niko Kovac.",
-      "url": "https://www.kicker.de/dortmunds-doppelt-auffaellige-werte-1272955/artikel#omrss",
-      "published": "2026-11-19T22:22:13+00:00",
-      "source_id": "kicker_bundesliga",
-      "source_name": "kicker Bundesliga",
+      "id": "2a87b49317a537c0",
+      "title": "BVB jubelt über Traumtor und 2:0-Sieg",
+      "summary": "Die BVB-U23 gewinnt zum Hinrunden-Abschluss 2:0 gegen Schlusslicht Lotte. Finn Fuchs und Kevin Mutove treffen, Dortmund zieht mit Oberhausen gleich.",
+      "url": "https://www.ruhr24.de/bvb/bvb-u23-nachwuchs-sportfreunde-lotte-spiel-heute-kevin-mutove-finn-fuchs-news-borussia-dortmund-94601215.html",
+      "published": "2026-11-20T20:52:21+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
+      "credibility": 7,
+      "host": "www.ruhr24.de",
       "lang": "de",
-      "kind": "rss"
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/44/953/44953197-kevin-mutove-bei-der-bvb-u23-2gfpVA7vaPef.jpg"
     },
     {
-      "id": "cc6c0cb4b8dce9e8",
-      "title": "BVB-Aufstellung gegen Gladbach: Dauerbrenner wackelt",
-      "summary": "Muskelprobleme bei Waldemar Anton: Der BVB bangt vor dem Spiel in Gladbach um einen Stammspieler – und nicht nur um ihn.",
+      "id": "972645c9980558ed",
+      "title": "BVB-Aufstellung gegen Gladbach: Entscheidung um Anton gefallen",
+      "summary": "Der BVB bangte vor dem Spiel in Gladbach um Waldemar Anton. Jetzt ist eine Entscheidung gefallen – auch bei Serhou Guirassy und Carney Chukwuemeka.",
       "url": "https://www.ruhr24.de/bvb/bvb-aufstellung-borussia-gladbach-moenchengladbach-guirassy-anton-kovac-borussia-dortmund-94601103.html",
       "published": "2026-11-20T18:00:50+00:00",
       "source_id": "ruhr24_bvb",
@@ -355,19 +356,34 @@
       "image": "https://www.ruhr24.de/assets/images/44/947/44947710-der-weihnachtsbaum-von-dortmund-wird-auch-2026-die-massen-anlocken-bei-der-erleuchtung-gibt-es-eine-aenderung-2y4PhWrWRPef.jpg"
     },
     {
-      "id": "1d392b3b50645302",
-      "title": "BVB-News: Paris Brunner erhält neuen Vertrag",
-      "summary": "Paris Brunner steht vor einer Vertragsverlängerung bei der AS Monaco. Der Ex-BVB-Stürmer überzeugt mit Toren und weckt Begehrlichkeiten.",
-      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-paris-brunner-entscheidung-vertrag-verlaengerung-rueckkehr-borussia-dortmund-94600237.html",
-      "published": "2026-11-20T13:02:32+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
+      "id": "6db84783a1ad802c",
+      "title": "Dortmunds U23 beendet „glorreiche Hinrunde“ mit 2:0 gegen Lotte: BVB-News",
+      "summary": "Borussia Dortmunds U23 behauptet sich im Regionalliga-Titelkampf, besiegt Lotte mit 2:0 und zieht vorerst mit Tabellenführer Oberhausen gleich. Alle BVB-News.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-u23-sieg-gegen-lotte-glorreiche-hinrunde-borussia-dortmund-news-w1176107-2002025092/",
+      "published": "2026-11-20T20:51:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
       "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/44/940/44940457-ex-bvb-spieler-paris-brunner-1UDU2LPDXoef.jpg"
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/20/20/630_0900_7179177_-320x160.jpg"
+    },
+    {
+      "id": "c33deda6e55208f0",
+      "title": "BVB-Hotelwechsel vor Gladbach-Spiel: Wichtige Personal-Nachricht für Kovac",
+      "summary": "Für den BVB beginnt der Jahresendspurt bei Borussia Mönchengladbach - inklusive Hotelwechsel. Für Niko Kovac gibt es eine wichtige Personal-Nachricht.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-hotelwechsel-vor-gladbach-spiel-kovac-warnt-guirassy-ausfaelle-bundesliga-w1276668-2002307352/",
+      "published": "2026-11-20T18:30:00+00:00",
+      "source_id": "rn_bvb",
+      "source_name": "Ruhr Nachrichten BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.ruhrnachrichten.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/20/17/630_0900_7174557_-320x160.jpg"
     },
     {
       "id": "9a48610ac4340de1",
@@ -400,21 +416,6 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/20/10/630_0900_7174782_-320x160.jpg"
     },
     {
-      "id": "c6584fb0e0133473",
-      "title": "BVB-Mitgliederversammlung: Neue Satzung und wichtige Entscheidungen stehen an",
-      "summary": "Beim BVB steht eine richtungsweisende Mitgliederversammlung an. Zwei Streitpunkte sind entschärft. Im Mittelpunkt steht die neue Satzung mit wichtigen Änderungen.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-mitgliederversammlung-2026-neue-satzung-wichtige-entscheidungen-westfalenhalle-w1276446-2002306154/",
-      "published": "2026-11-19T19:00:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/19/17/630_0900_7172530_-320x160.jpg"
-    },
-    {
       "id": "f835c7daaf857ac0",
       "title": "Beim BVB außen vor, in England gefeiert: Pascal Groß verblüfft die Premier League",
       "summary": "Vom BVB-Reservisten zum Premier-League-König! Pascal Groß erlebt in Brighton einen erstaunlichen Höhenflug – und lässt sogar Erling Haaland hinter sich.",
@@ -430,11 +431,11 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/19/18/630_0900_7148533_-320x160.jpg"
     },
     {
-      "id": "a770b69e110878af",
-      "title": "Dortmunds Frauen wochenlang ohne Stürmerin Ramona Maier: BVB-News",
-      "summary": "Borussia Dortmunds Fußballerinnen müssen in den kommenden Wochen auf Stürmerin Ramona Maier verzichten. Alle BVB-News.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-frauen-ohne-stuermerin-ramona-maier-wochenlang-ausfall-news-w1176107-2002025092/",
-      "published": "2026-11-19T18:52:00+00:00",
+      "id": "c6584fb0e0133473",
+      "title": "BVB-Mitgliederversammlung: Neue Satzung und wichtige Entscheidungen stehen an",
+      "summary": "Beim BVB steht eine richtungsweisende Mitgliederversammlung an. Zwei Streitpunkte sind entschärft. Im Mittelpunkt steht die neue Satzung mit wichtigen Änderungen.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-mitgliederversammlung-2026-neue-satzung-wichtige-entscheidungen-westfalenhalle-w1276446-2002306154/",
+      "published": "2026-11-19T19:00:00+00:00",
       "source_id": "rn_bvb",
       "source_name": "Ruhr Nachrichten BVB",
       "tier": 2,
@@ -442,7 +443,7 @@
       "host": "www.ruhrnachrichten.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/19/18/630_0900_7173458_-320x160.jpg"
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/19/17/630_0900_7172530_-320x160.jpg"
     },
     {
       "id": "4fe9ef910e90f342",
@@ -535,19 +536,19 @@
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/17/17/630_0900_7163779_-320x160.jpg"
     },
     {
-      "id": "bd0e7fb1acc2580f",
-      "title": "BVB will mit Waldemar Anton verlängern: Es gibt nur einen Knackpunkt",
-      "summary": "Waldemar Anton soll über 2028 hinaus bei Borussia Dortmund bleiben. Bei den BVB-Verhandlungen gibt es allerdings einen Knackpunkt.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-will-waldemar-anton-vertrag-verlaengern-knackpunkt-gehalt-2028-2030-w1276002-2002305343/",
-      "published": "2026-11-18T22:30:00+00:00",
-      "source_id": "rn_bvb",
-      "source_name": "Ruhr Nachrichten BVB",
+      "id": "79a0a792523846a1",
+      "title": "BVB: Klarheit bei Anton",
+      "summary": "Borussia Dortmund kann beim Auswärtsspiel gegen Borussia Mönchengladbach (Samstag, 15:30 Uhr) wieder auf Waldemar Anton zurückgreifen. Das berichten die ‚Ruhr Nachrichten‘, laut denen der 30-Jährige (…)",
+      "url": "https://www.fussballtransfers.com/a5851522335082355121-bvb-klarheit-bei-anton",
+      "published": "2026-11-20T18:59:17+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.ruhrnachrichten.de",
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/18/22/630_0900_7168689_-320x160.jpg"
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/waldemar-anton-nico-schlotterbeck-gregor-kobel-2627.jpg"
     },
     {
       "id": "8fd1f6f2184fa2d6",
@@ -638,21 +639,6 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://assets-de.imgfoot.com/media/cache/1200x675/niko-kovac-2627-2.jpg"
-    },
-    {
-      "id": "578bd65b3f0d177d",
-      "title": "BVB: Die Details zum Anton-Angebot",
-      "summary": "Borussia Dortmund würde den Vertrag von Waldemar Anton (30) gerne um zwei Jahre bis 2030 verlängern. Die ‚Ruhr Nachrichten‘ berichten außerdem, dass der BVB seinem Abwehrmann acht Millionen Euro (…)",
-      "url": "https://www.fussballtransfers.com/a3951789650360808621-bvb-die-details-zum-anton-angebot",
-      "published": "2026-11-19T12:47:20+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/waldemar-anton-2627.jpg"
     },
     {
       "id": "b05a31ed9ba38852",
@@ -940,26 +926,11 @@
       "image": "https://www.schwatzgelb.de/imager/assets/1-AuffeOhren/1194038/auffe-ohren-152_a12e44e3210bc53d16e237a7c4555e81.png"
     },
     {
-      "id": "93475d43767c33c5",
-      "title": "Wilder Pokalritt mit Happy End: Die schönste Art zu siegen - keiner ahnt es...",
-      "summary": "Wenn Bremen zu Gast ist, weiß man in Dortmund mittlerweile: eine Führung heißt hier gar nichts. Aber manchmal dauert ein Spiel nunmal 93 Minuten und benötigt nur einen Lucky Punch, um ganz Schwarz-Gelb in einen Freudentaumel zu schicken.",
-      "url": "https://schwatzgelb.de/artikel/2026/maenner/die-schoenste-art-zu-siegen-keiner-ahnt-es",
-      "published": "2026-10-28T20:33:00+00:00",
-      "source_id": "schwatzgelb",
-      "source_name": "Schwatzgelb",
-      "tier": 4,
-      "credibility": 6,
-      "host": "schwatzgelb.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.schwatzgelb.de/imager/assets/Redaktion/2026/bvb-bremen/1193989/intro_a12e44e3210bc53d16e237a7c4555e81.jpg"
-    },
-    {
-      "id": "109ae84c6fafd7f5",
-      "title": "From Spain: Man United star part of three-man list of Barcelona transfer targets",
-      "summary": "Manchester United centre-back Lisandro Martinez is reportedly one of Barcelona&#8217;s transfer targets in defence at the moment. The Catalan giants are said to be on the lookout for new signings at the back, and Man Utd misfit Martinez is named alongside Nico Schlotterbeck and Alessandro Bastoni as targets being considered. That&#8217;s according to a report [&#8230;] The post From Spain: Man United star part of three-man list of Barcelona transfer targets appeared first on CaughtOffside .",
-      "url": "https://www.caughtoffside.com/2026/11/20/man-uniteds-lisandro-martinez-eyed-for-barcelona-transfer/",
-      "published": "2026-11-20T08:29:25+00:00",
+      "id": "ac2c095f2f717edc",
+      "title": "Manchester United make contact to sign €100m Liverpool target from Bundesliga club",
+      "summary": "Real Madrid are reportedly among several European heavyweights interested in signing Borussia Dortmund midfielder Felix Nmecha, with Manchester United and Manchester City also exploring a potential move for the German international. The 26-year-old has attracted considerable attention following his performances for Dortmund, with his physical attributes, technical ability and versatility making him an attractive option [&#8230;] The post Manchester United make contact to sign €100m Liverpool tar",
+      "url": "https://www.caughtoffside.com/2026/11/20/manchester-united-make-contact-to-sign-e100m-liverpool-target-from-bundesliga-club/",
+      "published": "2026-11-20T20:30:00+00:00",
       "source_id": "caughtoffside",
       "source_name": "CaughtOffside",
       "tier": 4,
@@ -967,7 +938,7 @@
       "host": "www.caughtoffside.com",
       "lang": "en",
       "kind": "rss",
-      "image": "https://icdn.caughtoffside.com/2026/11/COS-Featured_Hero-Image-Templates-86.jpg"
+      "image": "https://icdn.caughtoffside.com/2024/12/Felix-Nmecha-in-action-for-Borussia-Dortmund.jpg"
     },
     {
       "id": "220bae14c9cb1e27",
@@ -57308,9 +57279,24 @@
       "image": "https://img.sparknews.funkemedien.de/413724753/413724753_1795099582_v16_9_600.jpeg"
     },
     {
+      "id": "141a2b3202fb39ad",
+      "title": "BVB-Mitgliederversammlung: Was steht an, was könnte für Ärger sorgen? Der Ticker",
+      "summary": "Borussia Dortmund lädt am Sonntag zur Mitgliederversammlung. Zwei Themen könnten für Diskussionen sorgen. Alle Infos im Ticker.",
+      "url": "https://www.waz.de/sport/article413734962/bvb-mitgliederversammlung-was-steht-an-was-koennte-fuer-aerger-sorgen-der-ticker.html",
+      "published": "2026-11-20T20:31:23+00:00",
+      "source_id": "waz_sport",
+      "source_name": "WAZ Sport",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.waz.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://img.sparknews.funkemedien.de/413737548/413737548_1795202942_v16_9_600.jpeg"
+    },
+    {
       "id": "620f7d716b36972b",
       "title": "Trotz 12-Punkte-Vorsprung: BVB-Aufstieg „noch nicht in trockenen Tüchern“",
-      "summary": "Nach dem 4:0-Derbysieg fragen sich manchen: Wer soll diesen BVB noch stoppen? In Dortmund hat man darauf eine klare Antwort.",
+      "summary": "Nach dem 4:0-Derbysieg fragen sich manche: Wer soll diesen BVB noch stoppen? In Dortmund hat man darauf eine klare Antwort.",
       "url": "https://www.waz.de/sport/borussia-dortmund/article413733298/trotz-12-punkte-vorsprung-bvb-aufstieg-noch-nicht-in-trockenen-tuechern.html",
       "published": "2026-11-20T17:08:29+00:00",
       "source_id": "waz_sport",
@@ -57954,20 +57940,6 @@
       "kind": "rss"
     },
     {
-      "id": "066cacfd730912c8",
-      "title": "Unsere #Kurvenfotos vom heutigen Heimspiel des #BVB gegen die SG Eintracht Frankfurt 📸. #BVBSGE #SüdtribüneDortmund",
-      "summary": "Unsere #Kurvenfotos vom heutigen Heimspiel des #BVB gegen die SG Eintracht Frankfurt 📸. #BVBSGE #SüdtribüneDortmund #BVBFans #BorussiaDortmund",
-      "url": "https://bsky.app/profile/schwatzgelb.de/post/3myp42s3tlc2b",
-      "published": "2026-10-25T11:28:00+00:00",
-      "source_id": "bsky_schwatzgelb",
-      "source_name": "Schwatzgelb (Bluesky)",
-      "tier": 4,
-      "credibility": 6,
-      "host": "bsky.app",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
       "id": "c73ec3dec81d174d",
       "title": "Daniel Batz hat seinem Trainer Alexander Blessin in der Abwesenheit von Moritz Nicolas genug Argumente geliefert, um",
       "summary": "Daniel Batz hat seinem Trainer Alexander Blessin in der Abwesenheit von Moritz Nicolas genug Argumente geliefert, um die etatmäßige Nummer 1 auch gegen Dortmund zu verdrängen. Die wird sich mit der Backup-Rolle langfristig aber nicht zufriedengeben. https://www.kicker.de/blessin-setzt-nicolas-auf-die-bank-batz-beginnt-gegen-den-bvb-1273261/artikel#omrss",
@@ -58119,6 +58091,20 @@
       "credibility": 10,
       "host": "t.me",
       "lang": "en",
+      "kind": "x"
+    },
+    {
+      "id": "174f553032f3883d",
+      "title": "👋 Schwarzgelb meldet sich zurück aus der Länderspielpause! Und zwar mit einem Auswärtsspiel bei den Fohlen. Zum 109.",
+      "summary": "👋 Schwarzgelb meldet sich zurück aus der Länderspielpause! Und zwar mit einem Auswärtsspiel bei den Fohlen. Zum 109. Mal treffen die beiden Borussias morgen in der Bundesliga aufeinander. 👀🐎 📈 https://t.co/1BBn539ZSZ https://t.co/yQJq7E0dfK",
+      "url": "https://x.com/BVB",
+      "published": "2026-11-20T17:28:06+00:00",
+      "source_id": "x_bvb",
+      "source_name": "BVB (offiziell)",
+      "tier": 3,
+      "credibility": 10,
+      "host": "x.com",
+      "lang": "de",
       "kind": "x"
     },
     {
