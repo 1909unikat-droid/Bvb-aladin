@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-22T18:02:08.438589+00:00",
-  "duration_s": 66.01,
-  "sources_ok": 39,
-  "sources_fail": 2,
+  "fetched_at": "2026-11-22T19:05:59.305187+00:00",
+  "duration_s": 80.01,
+  "sources_ok": 38,
+  "sources_fail": 3,
   "stale_sources": [
     {
       "id": "yt_bvb_nachrichten",
@@ -18,16 +18,30 @@
       "id": "reddit_soccer_bvb",
       "newest_item": "2026-11-10T14:20:25+00:00",
       "days_silent": 12,
-      "fail_runs": 99
+      "fail_runs": 100
     },
     {
       "id": "reddit_bvb",
       "newest_item": "2026-11-17T10:27:46+00:00",
       "days_silent": 5,
-      "fail_runs": 51
+      "fail_runs": 52
     }
   ],
   "items": [
+    {
+      "id": "ba63d2d89d5f34c1",
+      "title": "\"Es ehrt mich unfassbar\": Gechter äußert sich zu BVB-Gerüchten",
+      "summary": "Wie ein Spitzenreiter präsentierte sich Hertha BSC am Sonntag bei Aufsteiger Energie Cottbus und baute durch den 4:0-Erfolg seine Tabellenführung auf zehn Punkte aus. Glücklich waren sie alle bei der Alten Dame, bei einer Frage zum umworbenen Linus Gechter wurde Trainer Stefan Leitl aber deutlich.",
+      "url": "https://www.kicker.de/es-ehrt-mich-unfassbar-gechter-aeussert-sich-zu-bvb-geruechten-1273992/artikel#omrss",
+      "published": "2026-11-22T18:19:07+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
     {
       "id": "68f1ecb3ab24b27b",
       "title": "Applaus aus dem Saal: Watzke schickt Genesungswünsche an Kane",
@@ -309,6 +323,21 @@
       "kind": "rss"
     },
     {
+      "id": "4806784d37ce3d83",
+      "title": "5:4! BVB-Team dreht Spiel in letzter Sekunde",
+      "summary": "Die U17 des BVB liegt gegen Rot-Weiss Essen dreimal mit zwei Toren hinten. Am Ende gewinnt Dortmund dank eines Treffers in der Nachspielzeit 5:4.",
+      "url": "https://www.ruhr24.de/bvb/bvb-u17-nachwuchs-jugend-spiel-ergebnis-rot-weiss-essen-janis-tunkel-news-borussia-dortmund-94602714.html",
+      "published": "2026-11-22T18:13:53+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.ruhr24.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/44/961/44961930-janis-tunkel-vom-bvb-2hT5e3TwTzef.jpg"
+    },
+    {
       "id": "7b855279e3ad290a",
       "title": "Was läuft da zwischen dem BVB und Jose Antonio Morante?",
       "summary": "Jose Antonio Morante gilt als eines der größten Talente Spaniens. Auch der BVB soll den Flügelspieler von Real Betis im Blick haben.",
@@ -369,21 +398,6 @@
       "image": "https://www.ruhr24.de/assets/images/44/930/44930258-erwartet-in-den-kommenden-wochen-viel-vom-bvb-lars-ricken-29ef.jpg"
     },
     {
-      "id": "083bb729cb576306",
-      "title": "10.000 Krähen fallen über NRW-Stadt her: Kolonien nähern sich schon Dortmund",
-      "summary": "Es geht mittlerweile um Geld und Gesundheit, sagt Pressesprecher Thorsten Bottin. Das 10.000-Krähen-Problem beschäftigt inzwischen sogar die EU.",
-      "url": "https://www.ruhr24.de/nrw/kraehen-nrw-soest-10000-eu-parlament-marcus-schiffer-buergermeister-anwohner-tierschutz-94601854.html",
-      "published": "2026-11-22T07:07:33+00:00",
-      "source_id": "ruhr24_bvb",
-      "source_name": "RUHR24 BVB",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.ruhr24.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://www.ruhr24.de/assets/images/44/935/44935303-kraehen-in-der-nrw-stadt-soest-2lLTW6Sqepef.jpg"
-    },
-    {
       "id": "f8c5285ecd58c56c",
       "title": "Satzungsänderung beschlossen, Pfiffe gegen Cramer, Lob für Book und Kovac: BVB-Versammlung",
       "summary": "BVB-Satzungsänderung beschlossen, Pfiffe gegen Cramer in der Nmecha-Debatte, Lob für Book und Kovac - so lief die Mitgliederversammlung.",
@@ -396,7 +410,7 @@
       "host": "www.ruhrnachrichten.de",
       "lang": "de",
       "kind": "rss",
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/22/13/630_0900_7183845_-320x160.jpg"
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/22/18/630_0900_7184978_-320x160.jpg"
     },
     {
       "id": "8143e4be1c11f639",
@@ -562,51 +576,6 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/20/11/630_0900_7173555_-315x160.jpg"
-    },
-    {
-      "id": "ca96a7811fc341e0",
-      "title": "BVB: Der Stand bei Anton",
-      "summary": "Bei Borussia Dortmund hofft man weiter auf eine Vertragsverlängerung mit Waldemar Anton (30). „Wir möchten es natürlich über die Bühne bringen, weil wir wissen, wie wichtig Waldi für uns ist. Wir (…)",
-      "url": "https://www.fussballtransfers.com/a8773654345351078125-bvb-der-stand-bei-anton",
-      "published": "2026-11-22T07:08:18+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/anton-schlotterbeck-2627.jpg"
-    },
-    {
-      "id": "76f1149818245660",
-      "title": "BVB-Aufstellung: Anton-Entscheidung gefallen",
-      "summary": "Borussia Dortmund muss beim Gastspiel bei Borussia Mönchengladbach am heutigen Samstagnachmittag (15:30 Uhr) sowohl auf Torjäger Serhou Guirassy als auch auf Mittelfeldspieler Carney Chukwuemeka (…)",
-      "url": "https://www.fussballtransfers.com/a2100909226156320086-bvb-aufstellung-anton-entscheidung-gefallen",
-      "published": "2026-11-21T13:41:03+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/serhou-guirassy-2627-2.jpg"
-    },
-    {
-      "id": "2774bda6f2325643",
-      "title": "„Keine Grenzen“ für BVB-Shootingstar Gadou",
-      "summary": "Joane Gadou kam im Sommer als hoffnungsvolles Talent zum BVB und schlug direkt voll ein. Der Youngster hat sich einen Stammplatz erkämpft und formuliert ehrgeizige Ziele.Joane Gadou ist die positivste (…)",
-      "url": "https://www.fussballtransfers.com/a1874025951618905097-keine-grenzen-fuer-bvb-shootingstar-gadou",
-      "published": "2026-11-21T11:50:05+00:00",
-      "source_id": "fussballtransfers",
-      "source_name": "fussballtransfers.com",
-      "tier": 2,
-      "credibility": 7,
-      "host": "www.fussballtransfers.com",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/joane-gadou-2627-6b017958d3f6e.jpg"
     },
     {
       "id": "ef7cada386976d95",
@@ -48005,6 +47974,21 @@
       "image": "https://i.ytimg.com/vi/KWGE_DZIewo/hqdefault.jpg"
     },
     {
+      "id": "c8595d6c59ad77a5",
+      "title": "Felix Nmecha schließt Kronen-Jubel nicht aus",
+      "summary": "Auch wenn er beim 1:0-Sieg in Gladbach anders jubelte: BVB-Profi Felix Nmecha schließt die umstrittene Kronen-Geste nicht aus.",
+      "url": "https://www.sportschau.de/regional/wdr/wdr-nmecha-schliesst-kronen-jubel-nicht-aus-102.html",
+      "published": "2026-11-21T18:53:00+00:00",
+      "source_id": "sportschau_bl",
+      "source_name": "Sportschau Bundesliga",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.sportschau.de",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://images.sportschau.de/image/b77553a7-d0e1-4185-8a55-99efa8e62532/AAABof-bBNo/AAABnSSvrFg/16x9-big/nmecha-176.jpg?width=1920"
+    },
+    {
       "id": "8ba2ec86955b4301",
       "title": "Bei Borussia Mönchengladbach geht aktuell alles schief",
       "summary": "Borussia Mönchengladbach verliert auch gegen den BVB und bleibt Tabellenletzter. Die Umstände dieser Niederlage sprechen Bände.",
@@ -57547,6 +57531,20 @@
       "image": "https://www.bundesliga-gruppe.de/wp-content/plugins/dfl-embed-blocker/assets/img/icons/youtube.svg"
     },
     {
+      "id": "aad3c4c8fb3599d3",
+      "title": "Unsere 📸 zur heutigen #Jahreshauptversammlung des Ballspielverein Borussia 09 e.V. Dortmund für das Jahr 2025/26 in den",
+      "summary": "Unsere 📸 zur heutigen #Jahreshauptversammlung des Ballspielverein Borussia 09 e.V. Dortmund für das Jahr 2025/26 in den Dortmunder Westfalenhallen. #BVBMV #BVB #BVBJHV #BorussiaDortmund",
+      "url": "https://bsky.app/profile/schwatzgelb.de/post/3n2waz55ilk2h",
+      "published": "2026-11-22T18:35:00+00:00",
+      "source_id": "bsky_schwatzgelb",
+      "source_name": "Schwatzgelb (Bluesky)",
+      "tier": 4,
+      "credibility": 6,
+      "host": "bsky.app",
+      "lang": "de",
+      "kind": "rss"
+    },
+    {
       "id": "c1da2a7bdcc420de",
       "title": "Wie immer im November werden wir von der Mitgliederversammlung berichten. Da es diesmal keine hybirde Sitzung gibt (ein",
       "summary": "Wie immer im November werden wir von der Mitgliederversammlung berichten. Da es diesmal keine hybirde Sitzung gibt (ein Schelm, der sich was böses denken würde), werden wir wie immer euch davon berichten https://schwatzgelb.de/artikel/2026/unsa-senf/wir-sind-wieder-vor-ort-in-der-westfalenhalle",
@@ -57939,20 +57937,6 @@
       "kind": "rss"
     },
     {
-      "id": "4af95f40d7d54edb",
-      "title": "Noch knapp zwei Stunden bis #FCBBVB. #bvb",
-      "summary": "Noch knapp zwei Stunden bis #FCBBVB. #bvb",
-      "url": "https://bsky.app/profile/schwatzgelb.de/post/3mz6mlda5u22m",
-      "published": "2026-10-31T15:33:00+00:00",
-      "source_id": "bsky_schwatzgelb",
-      "source_name": "Schwatzgelb (Bluesky)",
-      "tier": 4,
-      "credibility": 6,
-      "host": "bsky.app",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
       "id": "7b1de61f7c577fa1",
       "title": "Dortmund hat am 10. Spieltag die Tabellenführung in der Bundesliga übernommen. Der BVB setzte sich in einem umkämpften",
       "summary": "Dortmund hat am 10. Spieltag die Tabellenführung in der Bundesliga übernommen. Der BVB setzte sich in einem umkämpften Spiel letztlich verdient mit 1:0 in Mönchengladbach durch. Der sonst so starke Fohlen-Rückhalt Batz sah beim Tor des Tages nicht gut aus. https://www.kicker.de/mgladbach-gegen-dortmund-2026-bundesliga-5226895/spielbericht#omrss",
@@ -58065,11 +58049,11 @@
       "kind": "rss"
     },
     {
-      "id": "368f8e500469c0f3",
-      "title": "15-jähriges BVB-Talent: Jetzt schaut Jürgen Klopp hin - RUHR24",
-      "summary": "15-jähriges BVB-Talent: Jetzt schaut Jürgen Klopp hin &nbsp;&nbsp; RUHR24",
+      "id": "d0a732e09a9c8d0b",
+      "title": "15-jähriges BVB-Talent: Jetzt schaut Jürgen Klopp hin - Ruhr24",
+      "summary": "15-jähriges BVB-Talent: Jetzt schaut Jürgen Klopp hin &nbsp;&nbsp; Ruhr24",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQUxhWnFMLVVLV2hCMFU0VWZydHlEek5CYzd6bTM2b1ZFQU9ZU1BhX2hSTWJYR2RCMG42ejg2RW1HdWlETERvcy1PWkVJNll2dmlQZDFibDJEM1lPemw2QUphZGJCSXpVcDR3N1d5NnB4YVVLX1BRa0U4LWZKVXlLMEs4Z1Q1UFBXVE1NRWk1R2owMGJGaTBVRFFjYkhrY0phYm1OWnE0czJJWTJKbEtFVmNudU9LMmN5Y1pCOTdhUlhWUFk4WW9WNGlEUQ?oc=5",
-      "published": "2026-11-18T14:32:53+00:00",
+      "published": "2026-11-17T20:12:51+00:00",
       "source_id": "gnews_berger",
       "source_name": "Insider-Radar Berger",
       "tier": 1,
@@ -58077,6 +58061,34 @@
       "host": "news.google.com",
       "lang": "de",
       "kind": "rss"
+    },
+    {
+      "id": "49e61435d141a5de",
+      "title": "Über gewonnene Titel, verpasste Meisterschaften und unvergessliche Momente im vergangenen Jahr berichteten die",
+      "summary": "Über gewonnene Titel, verpasste Meisterschaften und unvergessliche Momente im vergangenen Jahr berichteten die Abteilungsleiterinnen und Abteilungsleiter bei der Mitgliederversammlung von Borussia Dortmund. Alle Beiträge: https://t.co/GZjOIZlTjX https://t.co/nMpfzmgUHh",
+      "url": "https://x.com/BVB",
+      "published": "2026-11-22T14:41:17+00:00",
+      "source_id": "x_bvb",
+      "source_name": "BVB (offiziell)",
+      "tier": 3,
+      "credibility": 10,
+      "host": "x.com",
+      "lang": "de",
+      "kind": "x"
+    },
+    {
+      "id": "9a7b22eaf1e699e1",
+      "title": "Mit 251.200 Mitgliedern zählt Borussia Dortmund zu den fünf größten Sportvereinen der Welt. Eines davon ist Horst",
+      "summary": "Mit 251.200 Mitgliedern zählt Borussia Dortmund zu den fünf größten Sportvereinen der Welt. Eines davon ist Horst Koschmieder, der heute für 70 Jahre BVB-Mitgliedschaft geehrt wurde. Danke für diese bedingungslose Treue! 💛 Alle Jubilare: https://t.co/t4DyLl3LhA https://t.co/gjZgM7PGPa",
+      "url": "https://x.com/BVB",
+      "published": "2026-11-22T12:28:40+00:00",
+      "source_id": "x_bvb",
+      "source_name": "BVB (offiziell)",
+      "tier": 3,
+      "credibility": 10,
+      "host": "x.com",
+      "lang": "de",
+      "kind": "x"
     },
     {
       "id": "f9216aaaf5f971b5",
