@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T11:53:19.117902+00:00",
+  "updated_at": "2026-11-26T12:24:47.125438+00:00",
   "items": [
     {
       "id": "0abcf793fd0b38ed",
@@ -11,7 +11,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 6.71,
+      "score": 6.67,
       "category": "other",
       "confirmations": [
         {
@@ -24,7 +24,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.967,
+        "recency": 0.948,
         "specificity": 0.7,
         "relevance": 1.0
       },
@@ -40,7 +40,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.48,
+      "score": 6.45,
       "category": "other",
       "confirmations": [
         {
@@ -53,7 +53,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.93,
+        "recency": 0.911,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -69,7 +69,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 6.48,
+      "score": 6.45,
       "category": "background",
       "confirmations": [
         {
@@ -82,39 +82,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.929,
+        "recency": 0.91,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://images.podigee-cdn.net/0x,sOGvJPFscVy8surOAf-Pv0U6KdLzGSrKNrNZZ0PCSY3Q=/https://main.podigee-cdn.net/uploads/u44972/9280440a-5a0c-47e7-a078-bb8b40b4b388.jpeg"
-    },
-    {
-      "id": "76adb68b6de85939",
-      "title": "Bellingham lobt, hadert und stichelt: So lief seine England-Rückkehr",
-      "summary": "Jobe Bellingham stand beim Gastspiel von Borussia Dortmund beim FC Arsenal besonders im Fokus. Worüber sich der Engländer ärgerte und warum er auch neben dem Platz eine gute Figur abgab.",
-      "url": "https://www.kicker.de/bellingham-lobt-hadert-und-stichelt-so-lief-seine-england-rueckkehr-1275171/artikel#omrss",
-      "published": "2026-11-26T11:47:18+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 6.28,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/bellingham-lobt-hadert-und-stichelt-so-lief-seine-england-rueckkehr-1275171/artikel#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.996,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
     },
     {
       "id": "a736e974536941b9",
@@ -126,7 +98,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 6.28,
+      "score": 6.26,
       "category": "other",
       "confirmations": [
         {
@@ -139,11 +111,39 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.502,
+        "recency": 0.492,
         "specificity": 0.5,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/vEhaQpmYAfM/hqdefault.jpg"
+    },
+    {
+      "id": "76adb68b6de85939",
+      "title": "Bellingham lobt, hadert und stichelt: So lief seine England-Rückkehr",
+      "summary": "Jobe Bellingham stand beim Gastspiel von Borussia Dortmund beim FC Arsenal besonders im Fokus. Worüber sich der Engländer ärgerte und warum er auch neben dem Platz eine gute Figur abgab.",
+      "url": "https://www.kicker.de/bellingham-lobt-hadert-und-stichelt-so-lief-seine-england-rueckkehr-1275171/artikel#omrss",
+      "published": "2026-11-26T11:47:18+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 6.24,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/bellingham-lobt-hadert-und-stichelt-so-lief-seine-england-rueckkehr-1275171/artikel#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.976,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
     },
     {
       "id": "8eab2c6e87658c88",
@@ -155,7 +155,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 6.21,
+      "score": 6.17,
       "category": "other",
       "confirmations": [
         {
@@ -168,7 +168,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.965,
+        "recency": 0.946,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -184,7 +184,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 6.16,
+      "score": 6.13,
       "category": "other",
       "confirmations": [
         {
@@ -197,40 +197,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.767,
+        "recency": 0.752,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/25/13/630_0900_7196655_-320x160.jpg"
-    },
-    {
-      "id": "7014a903a2cef1c2",
-      "title": "BVB-Talent Tom Faust könnte Vereinsgeschichte schreiben: Was dem 18-Jährigen noch fehlt",
-      "summary": "Tom Faust spielt seit der U9 für den BVB. Nach seinem U23-Debüt fehlt nur noch ein Schritt zu einem möglicherweise einzigartigen Kapitel der Vereinsgeschichte.",
-      "url": "https://www.ruhrnachrichten.de/bvb/bvb-talent-tom-faust-u9-bis-u23-vor-profi-debuet-w1279069-2002313139/",
-      "published": "2026-11-26T11:43:54+00:00",
-      "source": "Ruhr Nachrichten BVB",
-      "source_id": "rn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.95,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Ruhr Nachrichten BVB",
-          "url": "https://www.ruhrnachrichten.de/bvb/bvb-talent-tom-faust-u9-bis-u23-vor-profi-debuet-w1279069-2002313139/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.994,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/26/11/630_0900_7201054_-320x160.jpg"
     },
     {
       "id": "8713332aacb93862",
@@ -242,7 +213,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.93,
+      "score": 5.92,
       "category": "other",
       "confirmations": [
         {
@@ -255,11 +226,40 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.329,
+        "recency": 0.322,
         "specificity": 0.5,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/wW6_ftH-4D0/hqdefault.jpg"
+    },
+    {
+      "id": "7014a903a2cef1c2",
+      "title": "BVB-Talent Tom Faust könnte Vereinsgeschichte schreiben: Was dem 18-Jährigen noch fehlt",
+      "summary": "Tom Faust spielt seit der U9 für den BVB. Nach seinem U23-Debüt fehlt nur noch ein Schritt zu einem möglicherweise einzigartigen Kapitel der Vereinsgeschichte.",
+      "url": "https://www.ruhrnachrichten.de/bvb/bvb-talent-tom-faust-u9-bis-u23-vor-profi-debuet-w1279069-2002313139/",
+      "published": "2026-11-26T11:43:54+00:00",
+      "source": "Ruhr Nachrichten BVB",
+      "source_id": "rn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.91,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Ruhr Nachrichten BVB",
+          "url": "https://www.ruhrnachrichten.de/bvb/bvb-talent-tom-faust-u9-bis-u23-vor-profi-debuet-w1279069-2002313139/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.974,
+        "specificity": 0.2,
+        "relevance": 0.333
+      },
+      "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/26/11/630_0900_7201054_-320x160.jpg"
     },
     {
       "id": "73ab11e4f0d1ac43",
@@ -271,7 +271,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 5.85,
+      "score": 5.81,
       "category": "other",
       "confirmations": [
         {
@@ -284,7 +284,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.953,
+        "recency": 0.934,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -300,7 +300,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.78,
+      "score": 5.77,
       "category": "other",
       "confirmations": [
         {
@@ -313,7 +313,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.25,
+        "recency": 0.245,
         "specificity": 0.5,
         "relevance": 1.0
       },
@@ -329,7 +329,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.77,
+      "score": 5.75,
       "category": "other",
       "confirmations": [
         {
@@ -342,40 +342,11 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.413,
+        "recency": 0.405,
         "specificity": 0.5,
         "relevance": 0.667
       },
       "image": "https://i.ytimg.com/vi/lKUDiYA0n74/hqdefault.jpg"
-    },
-    {
-      "id": "d6f009620e583c08",
-      "title": "Champions League: AS Rom bremst PSG-Serie aus",
-      "summary": "Der ehemalige Dortmunder Donyell Malen verhindert einen weiteren Pflichtspielsieg von PSG - es wäre der 13. in Folge gewesen.",
-      "url": "https://www.sportschau.de/fussball/championsleague/staerkster-gegner-grandiose-as-rom-stoppt-psg,paris-saint-germain-as-rom-100.html",
-      "published": "2026-11-26T08:29:35+00:00",
-      "source": "Sportschau Champions League",
-      "source_id": "sportschau_cl",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.71,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Sportschau Champions League",
-          "url": "https://www.sportschau.de/fussball/championsleague/staerkster-gegner-grandiose-as-rom-stoppt-psg,paris-saint-germain-as-rom-100.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.877,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://images.sportschau.de/image/fded03d7-97ae-4c27-b91a-3478bc499df5/AAABoha3ofI/AAABnSSvrFg/16x9-big/malen-jubel-104.jpg?width=1920"
     },
     {
       "id": "f30f9c5607f7211c",
@@ -387,7 +358,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.7,
+      "score": 5.68,
       "category": "other",
       "confirmations": [
         {
@@ -400,40 +371,40 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.528,
+        "recency": 0.518,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://i.ytimg.com/vi/JEQoInLTBCk/hqdefault.jpg"
     },
     {
-      "id": "1ea51fefc9fcf312",
-      "title": "BVB „wird ihn nicht lang halten können“: Starkes Interesse an Joane Gadou",
-      "summary": "Nach seinem starken Auftritt gegen den FC Arsenal weckt Joane Gadou Begehrlichkeiten. Mehrere europäische Topklubs beobachten den BVB-Verteidiger.",
-      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-joane-gadou-fc-arsenal-insider-vertrag-wechsel-zukunft-madrid-borussia-dortmund-94609316.html",
-      "published": "2026-11-26T11:49:34+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
+      "id": "d6f009620e583c08",
+      "title": "Champions League: AS Rom bremst PSG-Serie aus",
+      "summary": "Der ehemalige Dortmunder Donyell Malen verhindert einen weiteren Pflichtspielsieg von PSG - es wäre der 13. in Folge gewesen.",
+      "url": "https://www.sportschau.de/fussball/championsleague/staerkster-gegner-grandiose-as-rom-stoppt-psg,paris-saint-germain-as-rom-100.html",
+      "published": "2026-11-26T08:29:35+00:00",
+      "source": "Sportschau Champions League",
+      "source_id": "sportschau_cl",
       "tier": 2,
       "kind": "rss",
-      "score": 5.6,
-      "category": "transfers",
+      "score": 5.68,
+      "category": "other",
       "confirmations": [
         {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-joane-gadou-fc-arsenal-insider-vertrag-wechsel-zukunft-madrid-borussia-dortmund-94609316.html",
+          "source": "Sportschau Champions League",
+          "url": "https://www.sportschau.de/fussball/championsleague/staerkster-gegner-grandiose-as-rom-stoppt-psg,paris-saint-germain-as-rom-100.html",
           "tier": 2
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.7,
+        "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.998,
+        "recency": 0.86,
         "specificity": 0.2,
         "relevance": 0.333
       },
-      "image": "https://www.ruhr24.de/assets/images/45/16/45016110-praesentiert-sich-aktuell-in-topform-bvb-verteidiger-joane-gadou-39ef.jpg"
+      "image": "https://images.sportschau.de/image/fded03d7-97ae-4c27-b91a-3478bc499df5/AAABoha3ofI/AAABnSSvrFg/16x9-big/malen-jubel-104.jpg?width=1920"
     },
     {
       "id": "32c9afc6db899c9a",
@@ -445,7 +416,7 @@
       "source_id": "11freunde",
       "tier": 2,
       "kind": "rss",
-      "score": 5.6,
+      "score": 5.58,
       "category": "other",
       "confirmations": [
         {
@@ -458,28 +429,28 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.487,
+        "recency": 0.477,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://cdn.prod.www.11freunde.de/images/ba213d96-0402-48e3-aff9-4a8aefd47cae_w1920_r1.778_fpx50_fpy50.jpg"
     },
     {
-      "id": "ceb6665c7b480ba2",
-      "title": "BVB-Zukunft: Jetzt spricht Serhou Guirassy ganz offen",
-      "summary": "Abschied oder Vertragsverlängerung? BVB-Torjäger Serhou Guirassy gibt tiefe Einblicke in sein Inneres.",
-      "url": "https://www.ruhr24.de/bvb/bvb-serhou-guirassy-vertrag-verlaengerung-wechsel-abgang-transfer-news-borussia-dortmund-94608656.html",
-      "published": "2026-11-26T06:13:04+00:00",
+      "id": "1ea51fefc9fcf312",
+      "title": "BVB „wird ihn nicht lang halten können“: Starkes Interesse an Joane Gadou",
+      "summary": "Nach seinem starken Auftritt gegen den FC Arsenal weckt Joane Gadou Begehrlichkeiten. Mehrere europäische Topklubs beobachten den BVB-Verteidiger.",
+      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-joane-gadou-fc-arsenal-insider-vertrag-wechsel-zukunft-madrid-borussia-dortmund-94609316.html",
+      "published": "2026-11-26T11:49:34+00:00",
       "source": "RUHR24 BVB",
       "source_id": "ruhr24_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.55,
-      "category": "other",
+      "score": 5.56,
+      "category": "transfers",
       "confirmations": [
         {
           "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-serhou-guirassy-vertrag-verlaengerung-wechsel-abgang-transfer-news-borussia-dortmund-94608656.html",
+          "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-joane-gadou-fc-arsenal-insider-vertrag-wechsel-zukunft-madrid-borussia-dortmund-94609316.html",
           "tier": 2
         }
       ],
@@ -487,11 +458,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.804,
+        "recency": 0.978,
         "specificity": 0.2,
-        "relevance": 0.667
+        "relevance": 0.333
       },
-      "image": "https://www.ruhr24.de/assets/images/45/11/45011606-bei-den-bvb-fans-beliebt-serhou-guirassy-2mLi70vyTKef.jpg"
+      "image": "https://www.ruhr24.de/assets/images/45/16/45016110-praesentiert-sich-aktuell-in-topform-bvb-verteidiger-joane-gadou-39ef.jpg"
     },
     {
       "id": "2d2700329d1d4438",
@@ -516,11 +487,40 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.027,
+        "recency": 0.026,
         "specificity": 0.7,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/STEHcGx543w/hqdefault.jpg"
+    },
+    {
+      "id": "ceb6665c7b480ba2",
+      "title": "BVB-Zukunft: Jetzt spricht Serhou Guirassy ganz offen",
+      "summary": "Abschied oder Vertragsverlängerung? BVB-Torjäger Serhou Guirassy gibt tiefe Einblicke in sein Inneres.",
+      "url": "https://www.ruhr24.de/bvb/bvb-serhou-guirassy-vertrag-verlaengerung-wechsel-abgang-transfer-news-borussia-dortmund-94608656.html",
+      "published": "2026-11-26T06:13:04+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.52,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/bvb/bvb-serhou-guirassy-vertrag-verlaengerung-wechsel-abgang-transfer-news-borussia-dortmund-94608656.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.788,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://www.ruhr24.de/assets/images/45/11/45011606-bei-den-bvb-fans-beliebt-serhou-guirassy-2mLi70vyTKef.jpg"
     },
     {
       "id": "0571c5b7ff0b383a",
@@ -532,7 +532,7 @@
       "source_id": "bbc_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.47,
+      "score": 5.44,
       "category": "other",
       "confirmations": [
         {
@@ -545,40 +545,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.588,
+        "recency": 0.576,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e240/live/832f36d0-e860-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "id": "a76ac5cf17da5183",
-      "title": "BVB-Abgang mittendrin: Plötzlich schlägt der Blitz ein",
-      "summary": "Glück im Unglück für Salih Özcan! Der Ex-BVB-Profi und seine Mannschaftskollegen sind in der Luft in ein Unwetter geraten.",
-      "url": "https://www.ruhr24.de/bvb/bvb-news-salih-oezcan-besiktas-flug-gewitter-blitzeinschlag-tuerkei-europa-league-borussia-dortmund-94608994.html",
-      "published": "2026-11-26T09:39:50+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.44,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/bvb/bvb-news-salih-oezcan-besiktas-flug-gewitter-blitzeinschlag-tuerkei-europa-league-borussia-dortmund-94608994.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.918,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://www.ruhr24.de/assets/images/45/15/45015652-salih-oezcan-und-ein-flugzeug-waehrend-eines-gewitters-2nlCQtGPb7ef.jpg"
     },
     {
       "id": "e050e290409d2e09",
@@ -590,7 +561,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.44,
+      "score": 5.43,
       "category": "other",
       "confirmations": [
         {
@@ -603,69 +574,11 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.251,
+        "recency": 0.246,
         "specificity": 0.5,
         "relevance": 0.667
       },
       "image": "https://i.ytimg.com/vi/xuYoxHfqlKA/hqdefault.jpg"
-    },
-    {
-      "id": "18f6037e996e11ec",
-      "title": "US-Amerikanerin lebt seit 9 Monaten in Dortmund – ihr Urteil überrascht",
-      "summary": "Dortmund gilt als grau und gefährlich. Eine Amerikanerin zieht trotzdem in die Stadt. Nach neun Monaten fällt ihr Urteil überraschend aus.",
-      "url": "https://www.ruhr24.de/dortmund/dortmund-amerikanerin-kate-bergstrom-new-york-kriminalitaet-vorurteile-erfahrungen-bvb-youtube-94608863.html",
-      "published": "2026-11-26T09:25:00+00:00",
-      "source": "RUHR24 BVB",
-      "source_id": "ruhr24_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.43,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "RUHR24 BVB",
-          "url": "https://www.ruhr24.de/dortmund/dortmund-amerikanerin-kate-bergstrom-new-york-kriminalitaet-vorurteile-erfahrungen-bvb-youtube-94608863.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.909,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://www.ruhr24.de/assets/images/45/8/45008788-die-us-amerikanerin-kate-bergstrom-blickt-auf-die-belebte-dortmunder-innenstadt-mit-einer-amerikanischen-flagge-ueber-den-schultern-steht-sie-auf-dem-2sU7t5dWY3ef.jpg"
-    },
-    {
-      "id": "18d39cae7b2f9041",
-      "title": "\"Ein großer Punkt!\" | PK mit Niko Kovac | Arsenal - BVB 1:1",
-      "summary": "Wie Niko Kovac die Leistung seines Teams beim Spiel gegen Arsenal bewertet, welche Spielsysteme umgesetzt wurden und wie das Team momentan schnell lernt, erfahrt Ihr in diesem Video. ▶ Abonnieren & die Glocke aktivieren: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Facebook: https://facebook.com/BVB Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Twitch: https://www.twitch.tv/bvb_official TikTok: BVB Website: https://www.bvb.de/ #BVB",
-      "url": "https://www.youtube.com/watch?v=JROUi9IKe1Y",
-      "published": "2026-11-24T22:55:24+00:00",
-      "source": "YouTube BVB (offiziell)",
-      "source_id": "yt_bvb_official",
-      "tier": 3,
-      "kind": "youtube",
-      "score": 5.42,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "YouTube BVB (offiziell)",
-          "url": "https://www.youtube.com/watch?v=JROUi9IKe1Y",
-          "tier": 3
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.9,
-        "confirmation": 0.25,
-        "recency": 0.241,
-        "specificity": 0.5,
-        "relevance": 0.667
-      },
-      "image": "https://i.ytimg.com/vi/JROUi9IKe1Y/hqdefault.jpg"
     },
     {
       "id": "02c772e114b1ab74",
@@ -690,39 +603,98 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.072,
+        "recency": 0.07,
         "specificity": 0.5,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/76F7-g07UoI/hqdefault.jpg"
     },
     {
-      "id": "7f4bd051cfc9478e",
-      "title": "5 Spieltage der CL-Ligaphase sind durch und die Königlichen grüßen mit fünf Siegen von der Tabellenspitze. 👑🚨 Dortmund",
-      "summary": "5 Spieltage der CL-Ligaphase sind durch und die Königlichen grüßen mit fünf Siegen von der Tabellenspitze. 👑🚨 Dortmund auf Platz 10, Bayern auf 15 der VfB auf 17 und Leipzig auf Platz 23. Alle deutschen Teams müssen derzeit in die Playoffs. 😮‍💨 https://t.co/CmQ0TlSxzy",
-      "url": "https://x.com/SkySportDE",
-      "published": "2026-11-26T06:30:50+00:00",
-      "source": "Sky Sport News DE",
-      "source_id": "x_skysportde",
+      "id": "a76ac5cf17da5183",
+      "title": "BVB-Abgang mittendrin: Plötzlich schlägt der Blitz ein",
+      "summary": "Glück im Unglück für Salih Özcan! Der Ex-BVB-Profi und seine Mannschaftskollegen sind in der Luft in ein Unwetter geraten.",
+      "url": "https://www.ruhr24.de/bvb/bvb-news-salih-oezcan-besiktas-flug-gewitter-blitzeinschlag-tuerkei-europa-league-borussia-dortmund-94608994.html",
+      "published": "2026-11-26T09:39:50+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
       "tier": 2,
-      "kind": "x",
-      "score": 5.38,
-      "category": "other",
+      "kind": "rss",
+      "score": 5.41,
+      "category": "transfers",
       "confirmations": [
         {
-          "source": "Sky Sport News DE",
-          "url": "https://x.com/SkySportDE",
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/bvb/bvb-news-salih-oezcan-besiktas-flug-gewitter-blitzeinschlag-tuerkei-europa-league-borussia-dortmund-94608994.html",
           "tier": 2
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.8,
+        "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.813,
-        "specificity": 0.0,
+        "recency": 0.9,
+        "specificity": 0.2,
         "relevance": 0.333
-      }
+      },
+      "image": "https://www.ruhr24.de/assets/images/45/15/45015652-salih-oezcan-und-ein-flugzeug-waehrend-eines-gewitters-2nlCQtGPb7ef.jpg"
+    },
+    {
+      "id": "18d39cae7b2f9041",
+      "title": "\"Ein großer Punkt!\" | PK mit Niko Kovac | Arsenal - BVB 1:1",
+      "summary": "Wie Niko Kovac die Leistung seines Teams beim Spiel gegen Arsenal bewertet, welche Spielsysteme umgesetzt wurden und wie das Team momentan schnell lernt, erfahrt Ihr in diesem Video. ▶ Abonnieren & die Glocke aktivieren: https://goo.gl/kujepC BVB-TV: https://www.bvb.tv/ Facebook: https://facebook.com/BVB Twitter: https://twitter.com/BVB Instagram: https://www.instagram.com/bvb09 Twitch: https://www.twitch.tv/bvb_official TikTok: BVB Website: https://www.bvb.de/ #BVB",
+      "url": "https://www.youtube.com/watch?v=JROUi9IKe1Y",
+      "published": "2026-11-24T22:55:24+00:00",
+      "source": "YouTube BVB (offiziell)",
+      "source_id": "yt_bvb_official",
+      "tier": 3,
+      "kind": "youtube",
+      "score": 5.41,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "YouTube BVB (offiziell)",
+          "url": "https://www.youtube.com/watch?v=JROUi9IKe1Y",
+          "tier": 3
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.9,
+        "confirmation": 0.25,
+        "recency": 0.236,
+        "specificity": 0.5,
+        "relevance": 0.667
+      },
+      "image": "https://i.ytimg.com/vi/JROUi9IKe1Y/hqdefault.jpg"
+    },
+    {
+      "id": "18f6037e996e11ec",
+      "title": "US-Amerikanerin lebt seit 9 Monaten in Dortmund – ihr Urteil überrascht",
+      "summary": "Dortmund gilt als grau und gefährlich. Eine Amerikanerin zieht trotzdem in die Stadt. Nach neun Monaten fällt ihr Urteil überraschend aus.",
+      "url": "https://www.ruhr24.de/dortmund/dortmund-amerikanerin-kate-bergstrom-new-york-kriminalitaet-vorurteile-erfahrungen-bvb-youtube-94608863.html",
+      "published": "2026-11-26T09:25:00+00:00",
+      "source": "RUHR24 BVB",
+      "source_id": "ruhr24_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.39,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "RUHR24 BVB",
+          "url": "https://www.ruhr24.de/dortmund/dortmund-amerikanerin-kate-bergstrom-new-york-kriminalitaet-vorurteile-erfahrungen-bvb-youtube-94608863.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.891,
+        "specificity": 0.2,
+        "relevance": 0.333
+      },
+      "image": "https://www.ruhr24.de/assets/images/45/8/45008788-die-us-amerikanerin-kate-bergstrom-blickt-auf-die-belebte-dortmunder-innenstadt-mit-einer-amerikanischen-flagge-ueber-den-schultern-steht-sie-auf-dem-2sU7t5dWY3ef.jpg"
     },
     {
       "id": "f265894c831872ed",
@@ -734,7 +706,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 5.37,
+      "score": 5.35,
       "category": "other",
       "confirmations": [
         {
@@ -747,40 +719,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.549,
+        "recency": 0.538,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://assets-de.imgfoot.com/media/cache/1200x675/hansi-flick-2627-6ae4a70ad2dc7.jpg"
-    },
-    {
-      "id": "c379da99721dd175",
-      "title": "Erstes Tor seit sechs Wochen: Ex-BVB-Star Adeyemi führt FC Barcelona zum Sieg",
-      "summary": "Angetrieben von Karim Adeyemi hat der FC Barcelona den nächsten Sieg in der Champions League eingefahren. Der Ex-Dortmunder glänzte beim 4:1 über Sabah FK.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413779159/ein-tor-zwei-vorlagen-ex-bvb-star-adeyemi-fuehrt-den-fc-barcelona-zum-sieg.html",
-      "published": "2026-11-25T20:11:29+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.37,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/borussia-dortmund/article413779159/ein-tor-zwei-vorlagen-ex-bvb-star-adeyemi-fuehrt-den-fc-barcelona-zum-sieg.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.546,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://img.sparknews.funkemedien.de/413779163/413779163_1795637427_v16_9_600.jpeg"
     },
     {
       "id": "73a82385916a4859",
@@ -805,11 +748,68 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.038,
+        "recency": 0.037,
         "specificity": 0.5,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/A3CwxZcK5rQ/hqdefault.jpg"
+    },
+    {
+      "id": "c379da99721dd175",
+      "title": "Erstes Tor seit sechs Wochen: Ex-BVB-Star Adeyemi führt FC Barcelona zum Sieg",
+      "summary": "Angetrieben von Karim Adeyemi hat der FC Barcelona den nächsten Sieg in der Champions League eingefahren. Der Ex-Dortmunder glänzte beim 4:1 über Sabah FK.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413779159/ein-tor-zwei-vorlagen-ex-bvb-star-adeyemi-fuehrt-den-fc-barcelona-zum-sieg.html",
+      "published": "2026-11-25T20:11:29+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.35,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/borussia-dortmund/article413779159/ein-tor-zwei-vorlagen-ex-bvb-star-adeyemi-fuehrt-den-fc-barcelona-zum-sieg.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.535,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://img.sparknews.funkemedien.de/413779163/413779163_1795637427_v16_9_600.jpeg"
+    },
+    {
+      "id": "7f4bd051cfc9478e",
+      "title": "5 Spieltage der CL-Ligaphase sind durch und die Königlichen grüßen mit fünf Siegen von der Tabellenspitze. 👑🚨 Dortmund",
+      "summary": "5 Spieltage der CL-Ligaphase sind durch und die Königlichen grüßen mit fünf Siegen von der Tabellenspitze. 👑🚨 Dortmund auf Platz 10, Bayern auf 15 der VfB auf 17 und Leipzig auf Platz 23. Alle deutschen Teams müssen derzeit in die Playoffs. 😮‍💨 https://t.co/CmQ0TlSxzy",
+      "url": "https://x.com/SkySportDE",
+      "published": "2026-11-26T06:30:50+00:00",
+      "source": "Sky Sport News DE",
+      "source_id": "x_skysportde",
+      "tier": 2,
+      "kind": "x",
+      "score": 5.35,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Sky Sport News DE",
+          "url": "https://x.com/SkySportDE",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.797,
+        "specificity": 0.0,
+        "relevance": 0.333
+      }
     },
     {
       "id": "5f8b81bfa790b2e8",
@@ -821,7 +821,7 @@
       "source_id": "bsky_kicker",
       "tier": 2,
       "kind": "rss",
-      "score": 5.3,
+      "score": 5.29,
       "category": "matchday",
       "confirmations": [
         {
@@ -834,7 +834,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.236,
+        "recency": 0.231,
         "specificity": 0.4,
         "relevance": 1.0
       }
@@ -849,7 +849,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.27,
+      "score": 5.26,
       "category": "other",
       "confirmations": [
         {
@@ -862,40 +862,11 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.163,
+        "recency": 0.16,
         "specificity": 0.5,
         "relevance": 0.667
       },
       "image": "https://i.ytimg.com/vi/AsAMJoKt3aM/hqdefault.jpg"
-    },
-    {
-      "id": "c39bedbf5507b167",
-      "title": "The highlights from an INTENSE game 🔥",
-      "summary": "All the highlights from an incredible game against Arsenal FC #shorts #bvb",
-      "url": "https://www.youtube.com/shorts/WXyJ2FlIzmg",
-      "published": "2026-11-25T21:00:21+00:00",
-      "source": "YouTube BVB (offiziell)",
-      "source_id": "yt_bvb_official",
-      "tier": 3,
-      "kind": "youtube",
-      "score": 5.24,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "YouTube BVB (offiziell)",
-          "url": "https://www.youtube.com/shorts/WXyJ2FlIzmg",
-          "tier": 3
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.9,
-        "confirmation": 0.25,
-        "recency": 0.564,
-        "specificity": 0.0,
-        "relevance": 0.333
-      },
-      "image": "https://i.ytimg.com/vi/WXyJ2FlIzmg/hqdefault.jpg"
     },
     {
       "id": "c36e59a362908775",
@@ -907,7 +878,7 @@
       "source_id": "yt_rn_bvb",
       "tier": 2,
       "kind": "youtube",
-      "score": 5.23,
+      "score": 5.22,
       "category": "background",
       "confirmations": [
         {
@@ -920,11 +891,40 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.304,
+        "recency": 0.298,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/V--lV3ic5CY/hqdefault.jpg"
+    },
+    {
+      "id": "c39bedbf5507b167",
+      "title": "The highlights from an INTENSE game 🔥",
+      "summary": "All the highlights from an incredible game against Arsenal FC #shorts #bvb",
+      "url": "https://www.youtube.com/shorts/WXyJ2FlIzmg",
+      "published": "2026-11-25T21:00:21+00:00",
+      "source": "YouTube BVB (offiziell)",
+      "source_id": "yt_bvb_official",
+      "tier": 3,
+      "kind": "youtube",
+      "score": 5.21,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "YouTube BVB (offiziell)",
+          "url": "https://www.youtube.com/shorts/WXyJ2FlIzmg",
+          "tier": 3
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.9,
+        "confirmation": 0.25,
+        "recency": 0.552,
+        "specificity": 0.0,
+        "relevance": 0.333
+      },
+      "image": "https://i.ytimg.com/vi/WXyJ2FlIzmg/hqdefault.jpg"
     },
     {
       "id": "a10b53e9f9875a7f",
@@ -936,7 +936,7 @@
       "source_id": "pod_schwarzgelberunde",
       "tier": 4,
       "kind": "podcast",
-      "score": 5.23,
+      "score": 5.21,
       "category": "other",
       "confirmations": [
         {
@@ -949,7 +949,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.478,
+        "recency": 0.468,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -964,7 +964,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.22,
+      "score": 5.2,
       "category": "other",
       "confirmations": [
         {
@@ -977,7 +977,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.462,
+        "recency": 0.452,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -993,7 +993,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 5.21,
+      "score": 5.2,
       "category": "matchday",
       "confirmations": [
         {
@@ -1006,7 +1006,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.293,
+        "recency": 0.287,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1022,7 +1022,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.16,
+      "score": 5.15,
       "category": "other",
       "confirmations": [
         {
@@ -1035,40 +1035,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.266,
+        "recency": 0.261,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/25/01/630_0900_7194936_-320x160.jpg"
-    },
-    {
-      "id": "dab0a81d99c6eb77",
-      "title": "Forsche Töne von BVB-Star: Das ist Guirassys großer Karriere-Traum",
-      "summary": "Serhou Guirassy ist der Torgarant von Borussia Dortmund. Hat der BVB-Stürmer sogar Chancen auf die ultimative Auszeichnung?",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413776099/forsche-toene-von-bvb-star-das-ist-guirassys-grosser-karriere-traum.html",
-      "published": "2026-11-25T14:24:00+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.15,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/borussia-dortmund/article413776099/forsche-toene-von-bvb-star-das-ist-guirassys-grosser-karriere-traum.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.437,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://img.sparknews.funkemedien.de/413776267/413776267_1795616374_v16_9_600.jpeg"
     },
     {
       "id": "3c19306cf9b463aa",
@@ -1080,7 +1051,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.14,
+      "score": 5.13,
       "category": "matchday",
       "confirmations": [
         {
@@ -1093,11 +1064,40 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.081,
+        "recency": 0.079,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/fhGKGWjoRzQ/hqdefault.jpg"
+    },
+    {
+      "id": "dab0a81d99c6eb77",
+      "title": "Forsche Töne von BVB-Star: Das ist Guirassys großer Karriere-Traum",
+      "summary": "Serhou Guirassy ist der Torgarant von Borussia Dortmund. Hat der BVB-Stürmer sogar Chancen auf die ultimative Auszeichnung?",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413776099/forsche-toene-von-bvb-star-das-ist-guirassys-grosser-karriere-traum.html",
+      "published": "2026-11-25T14:24:00+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.13,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/borussia-dortmund/article413776099/forsche-toene-von-bvb-star-das-ist-guirassys-grosser-karriere-traum.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.428,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://img.sparknews.funkemedien.de/413776267/413776267_1795616374_v16_9_600.jpeg"
     },
     {
       "id": "eac0eeb24ded919a",
@@ -1109,7 +1109,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.13,
+      "score": 5.12,
       "category": "other",
       "confirmations": [
         {
@@ -1122,39 +1122,10 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.25,
+        "recency": 0.245,
         "specificity": 0.2,
         "relevance": 1.0
       }
-    },
-    {
-      "id": "2da889fa2dbc41e4",
-      "title": "BVB-Transferticker: Führt eine Spur zu teurem deutschen Nationalstürmer?",
-      "summary": "Bei Borussia Dortmund haben Sportdirektor Ole Book und Co. die Planung des Winter-Transferfensters eingeleitet. Der BVB-Transferticker.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article410673171/bvb-transferticker-bosse-sollen-ueber-diesen-deutschen-nationalstuermer-diskutieren.html",
-      "published": "2026-11-25T13:45:00+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.13,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/borussia-dortmund/article410673171/bvb-transferticker-bosse-sollen-ueber-diesen-deutschen-nationalstuermer-diskutieren.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.426,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://img.sparknews.funkemedien.de/412299119/412299119_1781608685_v16_9_600.jpeg"
     },
     {
       "id": "de1fbf9d00894eeb",
@@ -1166,7 +1137,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.12,
+      "score": 5.11,
       "category": "other",
       "confirmations": [
         {
@@ -1179,11 +1150,40 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.246,
+        "recency": 0.241,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/24/23/630_0900_7194893_-320x160.jpg"
+    },
+    {
+      "id": "2da889fa2dbc41e4",
+      "title": "BVB-Transferticker: Führt eine Spur zu teurem deutschen Nationalstürmer?",
+      "summary": "Bei Borussia Dortmund haben Sportdirektor Ole Book und Co. die Planung des Winter-Transferfensters eingeleitet. Der BVB-Transferticker.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article410673171/bvb-transferticker-bosse-sollen-ueber-diesen-deutschen-nationalstuermer-diskutieren.html",
+      "published": "2026-11-25T13:45:00+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 5.11,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/borussia-dortmund/article410673171/bvb-transferticker-bosse-sollen-ueber-diesen-deutschen-nationalstuermer-diskutieren.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.418,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://img.sparknews.funkemedien.de/412299119/412299119_1781608685_v16_9_600.jpeg"
     },
     {
       "id": "c3461eb0f6add3a1",
@@ -1195,7 +1195,7 @@
       "source_id": "sportschau_cl",
       "tier": 2,
       "kind": "rss",
-      "score": 5.1,
+      "score": 5.09,
       "category": "other",
       "confirmations": [
         {
@@ -1208,7 +1208,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.235,
+        "recency": 0.231,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1224,7 +1224,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.09,
+      "score": 5.08,
       "category": "other",
       "confirmations": [
         {
@@ -1237,7 +1237,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.233,
+        "recency": 0.228,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1253,7 +1253,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 5.09,
+      "score": 5.08,
       "category": "background",
       "confirmations": [
         {
@@ -1266,7 +1266,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.231,
+        "recency": 0.226,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1282,7 +1282,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 5.07,
+      "score": 5.06,
       "category": "other",
       "confirmations": [
         {
@@ -1295,7 +1295,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.399,
+        "recency": 0.391,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1311,7 +1311,7 @@
       "source_id": "yt_bvb_official",
       "tier": 3,
       "kind": "youtube",
-      "score": 5.07,
+      "score": 5.06,
       "category": "other",
       "confirmations": [
         {
@@ -1324,7 +1324,7 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.233,
+        "recency": 0.228,
         "specificity": 0.5,
         "relevance": 0.333
       },
@@ -1340,7 +1340,7 @@
       "source_id": "x_skysportde",
       "tier": 2,
       "kind": "x",
-      "score": 5.05,
+      "score": 5.04,
       "category": "other",
       "confirmations": [
         {
@@ -1353,7 +1353,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.381,
+        "recency": 0.373,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1368,7 +1368,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 5.04,
+      "score": 5.03,
       "category": "matchday",
       "confirmations": [
         {
@@ -1381,7 +1381,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.383,
+        "recency": 0.376,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1397,7 +1397,7 @@
       "source_id": "bsky_kicker",
       "tier": 2,
       "kind": "rss",
-      "score": 5.04,
+      "score": 5.02,
       "category": "matchday",
       "confirmations": [
         {
@@ -1410,39 +1410,10 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.54,
+        "recency": 0.529,
         "specificity": 0.2,
         "relevance": 0.333
       }
-    },
-    {
-      "id": "d72bcc2473b3c6fc",
-      "title": "Das Geheimnis der BVB-Halbzeitpause",
-      "summary": "15 Minuten in der Kabine, ein anderes Gesicht auf dem Fußball-Platz: Dortmunds Auftritte nach der Halbzeit werfen Fragen auf.",
-      "url": "https://www.sportschau.de/regional/wdr/wdr-das-geheimnis-der-bvb-halbzeitpause-100.html",
-      "published": "2026-11-25T08:55:00+00:00",
-      "source": "Sportschau Champions League",
-      "source_id": "sportschau_cl",
-      "tier": 2,
-      "kind": "rss",
-      "score": 5.0,
-      "category": "injury",
-      "confirmations": [
-        {
-          "source": "Sportschau Champions League",
-          "url": "https://www.sportschau.de/regional/wdr/wdr-das-geheimnis-der-bvb-halbzeitpause-100.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.354,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://images.sportschau.de/image/cdb48b57-9c49-4fa5-9697-1b21a89f4825/AAABohLB9hQ/AAABnSSvrFg/16x9-big/wdr-jubel-beim-bvb-nach-dem-11-ausgleich-100.jpg?width=1920"
     },
     {
       "id": "487d0f18e40a0514",
@@ -1467,11 +1438,40 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.083,
+        "recency": 0.081,
         "specificity": 0.4,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/PlclKXjvFSE/hqdefault.jpg"
+    },
+    {
+      "id": "d72bcc2473b3c6fc",
+      "title": "Das Geheimnis der BVB-Halbzeitpause",
+      "summary": "15 Minuten in der Kabine, ein anderes Gesicht auf dem Fußball-Platz: Dortmunds Auftritte nach der Halbzeit werfen Fragen auf.",
+      "url": "https://www.sportschau.de/regional/wdr/wdr-das-geheimnis-der-bvb-halbzeitpause-100.html",
+      "published": "2026-11-25T08:55:00+00:00",
+      "source": "Sportschau Champions League",
+      "source_id": "sportschau_cl",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.99,
+      "category": "injury",
+      "confirmations": [
+        {
+          "source": "Sportschau Champions League",
+          "url": "https://www.sportschau.de/regional/wdr/wdr-das-geheimnis-der-bvb-halbzeitpause-100.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.347,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://images.sportschau.de/image/cdb48b57-9c49-4fa5-9697-1b21a89f4825/AAABohLB9hQ/AAABnSSvrFg/16x9-big/wdr-jubel-beim-bvb-nach-dem-11-ausgleich-100.jpg?width=1920"
     },
     {
       "id": "157351c423c7fe3b",
@@ -1483,7 +1483,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.98,
+      "score": 4.97,
       "category": "other",
       "confirmations": [
         {
@@ -1496,65 +1496,9 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.347,
+        "recency": 0.34,
         "specificity": 0.2,
         "relevance": 0.667
-      }
-    },
-    {
-      "id": "7f50a0de25bafb4c",
-      "title": "Kovac zu möglichem Handelfmeter: \"Ich heule nicht rum\"",
-      "summary": "Nach der Partie bei Arsenal gab es im BVB-Lager größere Diskussionen, ob man nicht noch einen Handelfmeter hätte bekommen müssen. Trainer Niko Kovac sieht vor allem die Regellage kritisch.",
-      "url": "https://www.kicker.de/kovac-zu-moeglichem-handelfmeter-ich-heule-nicht-rum-1274806/video#omrss",
-      "published": "2026-11-25T07:44:10+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.97,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/kovac-zu-moeglichem-handelfmeter-ich-heule-nicht-rum-1274806/video#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.338,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
-      "id": "be9df1689d334a8e",
-      "title": "Erster Sieg im Emirates seit 2013? Worauf es für den BVB am Abend ankommt",
-      "summary": "Borussia Dortmund spielt am fünften Spieltag der Champions League beim FC Arsenal. Der kicker fasst zusammen, was den BVB in London erwartet, wie er es angeht und auf welche Duelle es ankommt.",
-      "url": "https://www.kicker.de/erster-sieg-im-emirates-seit-2013-worauf-es-fuer-den-bvb-am-abend-ankommt-1273841/artikel#omrss",
-      "published": "2026-11-24T13:58:36+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.97,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/erster-sieg-im-emirates-seit-2013-worauf-es-fuer-den-bvb-am-abend-ankommt-1273841/artikel#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.171,
-        "specificity": 0.2,
-        "relevance": 1.0
       }
     },
     {
@@ -1580,11 +1524,67 @@
       "components": {
         "credibility": 0.9,
         "confirmation": 0.25,
-        "recency": 0.013,
+        "recency": 0.012,
         "specificity": 0.5,
         "relevance": 0.667
       },
       "image": "https://i.ytimg.com/vi/9LCQFa5dKTo/hqdefault.jpg"
+    },
+    {
+      "id": "be9df1689d334a8e",
+      "title": "Erster Sieg im Emirates seit 2013? Worauf es für den BVB am Abend ankommt",
+      "summary": "Borussia Dortmund spielt am fünften Spieltag der Champions League beim FC Arsenal. Der kicker fasst zusammen, was den BVB in London erwartet, wie er es angeht und auf welche Duelle es ankommt.",
+      "url": "https://www.kicker.de/erster-sieg-im-emirates-seit-2013-worauf-es-fuer-den-bvb-am-abend-ankommt-1273841/artikel#omrss",
+      "published": "2026-11-24T13:58:36+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.96,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/erster-sieg-im-emirates-seit-2013-worauf-es-fuer-den-bvb-am-abend-ankommt-1273841/artikel#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.167,
+        "specificity": 0.2,
+        "relevance": 1.0
+      }
+    },
+    {
+      "id": "7f50a0de25bafb4c",
+      "title": "Kovac zu möglichem Handelfmeter: \"Ich heule nicht rum\"",
+      "summary": "Nach der Partie bei Arsenal gab es im BVB-Lager größere Diskussionen, ob man nicht noch einen Handelfmeter hätte bekommen müssen. Trainer Niko Kovac sieht vor allem die Regellage kritisch.",
+      "url": "https://www.kicker.de/kovac-zu-moeglichem-handelfmeter-ich-heule-nicht-rum-1274806/video#omrss",
+      "published": "2026-11-25T07:44:10+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.95,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/kovac-zu-moeglichem-handelfmeter-ich-heule-nicht-rum-1274806/video#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.331,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
     },
     {
       "id": "058071ce68f32922",
@@ -1596,7 +1596,7 @@
       "source_id": "ggfn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.95,
+      "score": 4.94,
       "category": "other",
       "confirmations": [
         {
@@ -1609,7 +1609,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.339,
+        "recency": 0.332,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1624,7 +1624,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.95,
+      "score": 4.94,
       "category": "other",
       "confirmations": [
         {
@@ -1637,7 +1637,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.338,
+        "recency": 0.332,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1682,7 +1682,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.93,
+      "score": 4.91,
       "category": "other",
       "confirmations": [
         {
@@ -1695,7 +1695,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.317,
+        "recency": 0.311,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1710,7 +1710,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.92,
+      "score": 4.91,
       "category": "other",
       "confirmations": [
         {
@@ -1723,7 +1723,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.483,
+        "recency": 0.474,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -1739,7 +1739,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.85,
+      "score": 4.84,
       "category": "other",
       "confirmations": [
         {
@@ -1752,7 +1752,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.187,
+        "recency": 0.183,
         "specificity": 0.4,
         "relevance": 1.0
       },
@@ -1768,7 +1768,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.84,
+      "score": 4.83,
       "category": "matchday",
       "confirmations": [
         {
@@ -1781,7 +1781,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.274,
+        "recency": 0.269,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -1797,7 +1797,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.82,
+      "score": 4.81,
       "category": "background",
       "confirmations": [
         {
@@ -1810,7 +1810,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.264,
+        "recency": 0.259,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -1826,7 +1826,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.82,
+      "score": 4.8,
       "category": "other",
       "confirmations": [
         {
@@ -1839,7 +1839,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.438,
+        "recency": 0.429,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -1868,7 +1868,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.084,
+        "recency": 0.082,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1883,7 +1883,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.79,
+      "score": 4.78,
       "category": "other",
       "confirmations": [
         {
@@ -1896,7 +1896,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.259,
+        "recency": 0.254,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -1912,7 +1912,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.78,
+      "score": 4.77,
       "category": "other",
       "confirmations": [
         {
@@ -1925,7 +1925,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.246,
+        "recency": 0.241,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -1940,7 +1940,7 @@
       "source_id": "ggfn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.78,
+      "score": 4.77,
       "category": "other",
       "confirmations": [
         {
@@ -1953,7 +1953,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.251,
+        "recency": 0.246,
         "specificity": 0.2,
         "relevance": 1.0
       }
@@ -1968,7 +1968,7 @@
       "source_id": "rn_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.77,
+      "score": 4.76,
       "category": "other",
       "confirmations": [
         {
@@ -1981,68 +1981,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.237,
+        "recency": 0.233,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/24/22/630_0900_7194875_-320x160.jpg"
-    },
-    {
-      "id": "c859006f518fa08f",
-      "title": "BVB vs. Arsenal – die Netzreaktionen: „Die beiden haben mein Leben verändert“",
-      "summary": "Dortmund besteht überraschend gegen Arsenal – und so langsam bekommt Niko Kovač sogar Rückendeckung vom Internet. Oder wie er dort genannt wird: der Don!",
-      "url": "https://www.11freunde.de/international/champions-league/borussia-dortmund-vs-arsenal-in-der-champions-league-die-netzreaktionen-die-beiden-haben-mein-leben-veraendert-a-7752f079-9b4d-4a22-b27b-bea2d7891cde#ref=rss",
-      "published": "2026-11-25T07:42:00+00:00",
-      "source": "11Freunde",
-      "source_id": "11freunde",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.77,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "11Freunde",
-          "url": "https://www.11freunde.de/international/champions-league/borussia-dortmund-vs-arsenal-in-der-champions-league-die-netzreaktionen-die-beiden-haben-mein-leben-veraendert-a-7752f079-9b4d-4a22-b27b-bea2d7891cde#ref=rss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.338,
-        "specificity": 0.0,
-        "relevance": 0.667
-      },
-      "image": "https://cdn.prod.www.11freunde.de/images/063b9fb8-b528-487a-8f01-b0514e800ca6_w1920_r1.778_fpx50_fpy50.jpg"
-    },
-    {
-      "id": "784b35e1036b33f9",
-      "title": "Niko Kovač ‘happy’ with Borussia Dortmund’s mentality against Arsenal",
-      "summary": "Niko Kovač has instilled somewhat of a winning mentality into his Borussia Dortmund side this season. With three 1-0 wins in the Bundesliga, his BVB team faced arguably their biggest&#8230;",
-      "url": "https://www.getfootballnewsgermany.com/2026/niko-kovac-happy-with-borussia-dortmunds-mentality-against-arsenal/",
-      "published": "2026-11-24T23:42:13+00:00",
-      "source": "Get German Football News BVB",
-      "source_id": "ggfn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.77,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Get German Football News BVB",
-          "url": "https://www.getfootballnewsgermany.com/2026/niko-kovac-happy-with-borussia-dortmunds-mentality-against-arsenal/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.248,
-        "specificity": 0.2,
-        "relevance": 1.0
-      }
     },
     {
       "id": "6e7460ca2ce433e5",
@@ -2067,11 +2010,68 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.067,
+        "recency": 0.065,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/JOLQyaCIt04/hqdefault.jpg"
+    },
+    {
+      "id": "784b35e1036b33f9",
+      "title": "Niko Kovač ‘happy’ with Borussia Dortmund’s mentality against Arsenal",
+      "summary": "Niko Kovač has instilled somewhat of a winning mentality into his Borussia Dortmund side this season. With three 1-0 wins in the Bundesliga, his BVB team faced arguably their biggest&#8230;",
+      "url": "https://www.getfootballnewsgermany.com/2026/niko-kovac-happy-with-borussia-dortmunds-mentality-against-arsenal/",
+      "published": "2026-11-24T23:42:13+00:00",
+      "source": "Get German Football News BVB",
+      "source_id": "ggfn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.76,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Get German Football News BVB",
+          "url": "https://www.getfootballnewsgermany.com/2026/niko-kovac-happy-with-borussia-dortmunds-mentality-against-arsenal/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.243,
+        "specificity": 0.2,
+        "relevance": 1.0
+      }
+    },
+    {
+      "id": "c859006f518fa08f",
+      "title": "BVB vs. Arsenal – die Netzreaktionen: „Die beiden haben mein Leben verändert“",
+      "summary": "Dortmund besteht überraschend gegen Arsenal – und so langsam bekommt Niko Kovač sogar Rückendeckung vom Internet. Oder wie er dort genannt wird: der Don!",
+      "url": "https://www.11freunde.de/international/champions-league/borussia-dortmund-vs-arsenal-in-der-champions-league-die-netzreaktionen-die-beiden-haben-mein-leben-veraendert-a-7752f079-9b4d-4a22-b27b-bea2d7891cde#ref=rss",
+      "published": "2026-11-25T07:42:00+00:00",
+      "source": "11Freunde",
+      "source_id": "11freunde",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.75,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "11Freunde",
+          "url": "https://www.11freunde.de/international/champions-league/borussia-dortmund-vs-arsenal-in-der-champions-league-die-netzreaktionen-die-beiden-haben-mein-leben-veraendert-a-7752f079-9b4d-4a22-b27b-bea2d7891cde#ref=rss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.331,
+        "specificity": 0.0,
+        "relevance": 0.667
+      },
+      "image": "https://cdn.prod.www.11freunde.de/images/063b9fb8-b528-487a-8f01-b0514e800ca6_w1920_r1.778_fpx50_fpy50.jpg"
     },
     {
       "id": "8a014f137b62d81a",
@@ -2083,7 +2083,7 @@
       "source_id": "pod_rn_bvb",
       "tier": 2,
       "kind": "podcast",
-      "score": 4.76,
+      "score": 4.75,
       "category": "other",
       "confirmations": [
         {
@@ -2096,7 +2096,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.065,
+        "recency": 0.064,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2112,7 +2112,7 @@
       "source_id": "x_skysportde",
       "tier": 2,
       "kind": "x",
-      "score": 4.75,
+      "score": 4.74,
       "category": "other",
       "confirmations": [
         {
@@ -2125,7 +2125,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.228,
+        "recency": 0.224,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -2140,7 +2140,7 @@
       "source_id": "kicker_bundesliga",
       "tier": 2,
       "kind": "rss",
-      "score": 4.74,
+      "score": 4.73,
       "category": "transfers",
       "confirmations": [
         {
@@ -2153,7 +2153,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.392,
+        "recency": 0.384,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -2168,7 +2168,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.74,
+      "score": 4.73,
       "category": "other",
       "confirmations": [
         {
@@ -2181,7 +2181,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.234,
+        "recency": 0.23,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2197,7 +2197,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.74,
+      "score": 4.73,
       "category": "other",
       "confirmations": [
         {
@@ -2210,7 +2210,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.232,
+        "recency": 0.227,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2226,7 +2226,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.74,
+      "score": 4.73,
       "category": "other",
       "confirmations": [
         {
@@ -2239,7 +2239,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.234,
+        "recency": 0.229,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2255,7 +2255,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.74,
+      "score": 4.73,
       "category": "matchday",
       "confirmations": [
         {
@@ -2268,39 +2268,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.231,
+        "recency": 0.227,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://img.sparknews.funkemedien.de/413769487/413769487_1795556314_v16_9_600.jpeg"
-    },
-    {
-      "id": "4390665e0adf1fd6",
-      "title": "Es war ein Abend voller Gänsehautmomente. Im Mittelpunkt stand ein ganz besonderes Projekt, das am 26. Mai 2001 aus der",
-      "summary": "Es war ein Abend voller Gänsehautmomente. Im Mittelpunkt stand ein ganz besonderes Projekt, das am 26. Mai 2001 aus der Initiative „Buntkicktgut” hervorging und inzwischen weit über die Nordstadt hinaus Anerkennung findet. https://schwatzgelb.de/artikel/2026/report/25-jahre-nordstadtliga",
-      "url": "https://bsky.app/profile/schwatzgelb.de/post/3n36z7p4vl32n",
-      "published": "2026-11-26T06:10:00+00:00",
-      "source": "Schwatzgelb (Bluesky)",
-      "source_id": "bsky_schwatzgelb",
-      "tier": 4,
-      "kind": "rss",
-      "score": 4.73,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Schwatzgelb (Bluesky)",
-          "url": "https://bsky.app/profile/schwatzgelb.de/post/3n36z7p4vl32n",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.802,
-        "specificity": 0.4,
-        "relevance": 0.0
-      }
     },
     {
       "id": "3724da11e92634e8",
@@ -2312,7 +2284,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.72,
+      "score": 4.71,
       "category": "other",
       "confirmations": [
         {
@@ -2325,7 +2297,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.222,
+        "recency": 0.218,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -2354,11 +2326,39 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.038,
+        "recency": 0.037,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://images.sportschau.de/image/e74f7d04-6ded-4977-a012-ee8cace593e4/AAABof-EPZY/AAABnSSvrFg/16x9-big/nmecha-jubel-108.jpg?width=1920"
+    },
+    {
+      "id": "4390665e0adf1fd6",
+      "title": "Es war ein Abend voller Gänsehautmomente. Im Mittelpunkt stand ein ganz besonderes Projekt, das am 26. Mai 2001 aus der",
+      "summary": "Es war ein Abend voller Gänsehautmomente. Im Mittelpunkt stand ein ganz besonderes Projekt, das am 26. Mai 2001 aus der Initiative „Buntkicktgut” hervorging und inzwischen weit über die Nordstadt hinaus Anerkennung findet. https://schwatzgelb.de/artikel/2026/report/25-jahre-nordstadtliga",
+      "url": "https://bsky.app/profile/schwatzgelb.de/post/3n36z7p4vl32n",
+      "published": "2026-11-26T06:10:00+00:00",
+      "source": "Schwatzgelb (Bluesky)",
+      "source_id": "bsky_schwatzgelb",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.7,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Schwatzgelb (Bluesky)",
+          "url": "https://bsky.app/profile/schwatzgelb.de/post/3n36z7p4vl32n",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.786,
+        "specificity": 0.4,
+        "relevance": 0.0
+      }
     },
     {
       "id": "2d2e4348540e0643",
@@ -2383,40 +2383,11 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.021,
+        "recency": 0.02,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://cdn.prod.www.11freunde.de/images/a5240ff3-ac8e-4a81-b506-f424b51444eb_w1920_r1.778_fpx50.24_fpy55.png"
-    },
-    {
-      "id": "e3589ef051bac03c",
-      "title": "BVB-Aktionärsversammlung: Carsten Cramer spricht über möglichen Stadionumbau",
-      "summary": "DORTMUND, 24.11.26: Die Rede von BVB-Geschäftsführer Carsten Cramer auf der Hauptversammlung 2026 in der Westfalenhalle. 🚨 Jetzt BVB-Abo sichern - nur ein Euro für acht Wochen: https://www.ruhrnachrichten.de/bvb 📱 Besucht uns auf unseren anderen Kanälen: Facebook: https://www.facebook.com/BVB.News/ Instagram: https://www.instagram.com/rnbvb/ X: https://twitter.com/RNBVB #bvb #rnbvb #borussiadortmund #borussia #dortmund #fussball #bvbvideo #bvbvideos",
-      "url": "https://www.youtube.com/watch?v=ph7M_wY4cLk",
-      "published": "2026-11-23T19:02:09+00:00",
-      "source": "YouTube Ruhr Nachr. BVB",
-      "source_id": "yt_rn_bvb",
-      "tier": 2,
-      "kind": "youtube",
-      "score": 4.66,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "YouTube Ruhr Nachr. BVB",
-          "url": "https://www.youtube.com/watch?v=ph7M_wY4cLk",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.082,
-        "specificity": 0.4,
-        "relevance": 0.667
-      },
-      "image": "https://i.ytimg.com/vi/ph7M_wY4cLk/hqdefault.jpg"
     },
     {
       "id": "f9782b4649f6af01",
@@ -2477,6 +2448,35 @@
       "image": "https://images.podigee-cdn.net/0x,sphgbKpXsyLACJEIUdESqY51wmICP2GhKfFFDnyJfC7I=/https://main.podigee-cdn.net/uploads/u1977/d39aea08-51fe-4e75-a206-debc52047601.jpeg"
     },
     {
+      "id": "e3589ef051bac03c",
+      "title": "BVB-Aktionärsversammlung: Carsten Cramer spricht über möglichen Stadionumbau",
+      "summary": "DORTMUND, 24.11.26: Die Rede von BVB-Geschäftsführer Carsten Cramer auf der Hauptversammlung 2026 in der Westfalenhalle. 🚨 Jetzt BVB-Abo sichern - nur ein Euro für acht Wochen: https://www.ruhrnachrichten.de/bvb 📱 Besucht uns auf unseren anderen Kanälen: Facebook: https://www.facebook.com/BVB.News/ Instagram: https://www.instagram.com/rnbvb/ X: https://twitter.com/RNBVB #bvb #rnbvb #borussiadortmund #borussia #dortmund #fussball #bvbvideo #bvbvideos",
+      "url": "https://www.youtube.com/watch?v=ph7M_wY4cLk",
+      "published": "2026-11-23T19:02:09+00:00",
+      "source": "YouTube Ruhr Nachr. BVB",
+      "source_id": "yt_rn_bvb",
+      "tier": 2,
+      "kind": "youtube",
+      "score": 4.65,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "YouTube Ruhr Nachr. BVB",
+          "url": "https://www.youtube.com/watch?v=ph7M_wY4cLk",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.081,
+        "specificity": 0.4,
+        "relevance": 0.667
+      },
+      "image": "https://i.ytimg.com/vi/ph7M_wY4cLk/hqdefault.jpg"
+    },
+    {
       "id": "b8470640ac8f37b4",
       "title": "Bayern and Dortmund join Tottenham and Juventus in monitoring Eintracht Frankfurt striker",
       "summary": "Younes Ebnoutalib is reportedly attracting interest from several clubs, with Bayern Munich and Borussia Dortmund among those monitoring the Eintracht Frankfurt striker.",
@@ -2486,7 +2486,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.66,
+      "score": 4.65,
       "category": "other",
       "confirmations": [
         {
@@ -2499,7 +2499,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.359,
+        "recency": 0.352,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -2515,7 +2515,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 4.65,
+      "score": 4.64,
       "category": "other",
       "confirmations": [
         {
@@ -2528,40 +2528,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.354,
+        "recency": 0.347,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://assets-de.imgfoot.com/media/cache/1200x675/joane-gadou-2627-2-6b0693ee104e4.jpg"
-    },
-    {
-      "id": "285891ded55f89b4",
-      "title": "Rot, 2:0, später Schock: Bittere Pleite für BVB um Profi-Duo beim FC Arsenal",
-      "summary": "Vor dem Gastspiel von Borussia Dortmund beim FC Arsenal standen sich Nachwuchsteams beider Klubs in der Youth League gegenüber. Der BVB verlor unglücklich.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413767730/rot-20-spaeter-schock-bittere-pleite-fuer-bvb-um-profi-duo-beim-fc-arsenal.html",
-      "published": "2026-11-24T15:44:00+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.64,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/borussia-dortmund/article413767730/rot-20-spaeter-schock-bittere-pleite-fuer-bvb-um-profi-duo-beim-fc-arsenal.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.183,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://img.sparknews.funkemedien.de/413767804/413767804_1795534983_v16_9_600.jpeg"
     },
     {
       "id": "be4783819a92a8c7",
@@ -2651,6 +2622,35 @@
       "image": "https://images.podigee-cdn.net/0x,scKz_dDeQ0qboOek8UoNZhmPgxzjL-fKT4W5ykS8sR2I=/https://main.podigee-cdn.net/uploads/u43587/95edd2a3-29c0-4801-b547-a6fa461c0773.jpeg"
     },
     {
+      "id": "285891ded55f89b4",
+      "title": "Rot, 2:0, später Schock: Bittere Pleite für BVB um Profi-Duo beim FC Arsenal",
+      "summary": "Vor dem Gastspiel von Borussia Dortmund beim FC Arsenal standen sich Nachwuchsteams beider Klubs in der Youth League gegenüber. Der BVB verlor unglücklich.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413767730/rot-20-spaeter-schock-bittere-pleite-fuer-bvb-um-profi-duo-beim-fc-arsenal.html",
+      "published": "2026-11-24T15:44:00+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.63,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/borussia-dortmund/article413767730/rot-20-spaeter-schock-bittere-pleite-fuer-bvb-um-profi-duo-beim-fc-arsenal.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.179,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://img.sparknews.funkemedien.de/413767804/413767804_1795534983_v16_9_600.jpeg"
+    },
+    {
       "id": "e4e969b7e2c8901e",
       "title": "Topspiel in der CL gegen Arsenal | zwei Defensivblöcke treffen aufeinander",
       "summary": "Borussia Dortmund spielt in der Champions-League gegen Arsenal. Beide Mannschaften stehen für defensive Sicherheit und sind Tabellenführer in ihren Ligen.",
@@ -2660,7 +2660,7 @@
       "source_id": "pod_bvb_kompakt",
       "tier": 2,
       "kind": "podcast",
-      "score": 4.62,
+      "score": 4.61,
       "category": "other",
       "confirmations": [
         {
@@ -2673,7 +2673,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.164,
+        "recency": 0.161,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -2689,7 +2689,7 @@
       "source_id": "x_bvb",
       "tier": 3,
       "kind": "x",
-      "score": 4.61,
+      "score": 4.6,
       "category": "official",
       "confirmations": [
         {
@@ -2702,67 +2702,10 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.244,
+        "recency": 0.239,
         "specificity": 0.0,
         "relevance": 0.0
       }
-    },
-    {
-      "id": "efe402ae87952a7c",
-      "title": "Book schwärmt von Gadou-Vorlage: \"Es war toll, ein Highlight\"",
-      "summary": "BVB-Sportdirektor Ole Book lobte Joane Gadou und sprach darüber, welche Qualitäten der athletische Verteidiger den Schwarz-Gelben geben kann.. Von der Vorlage zum Tor war er nicht überrascht.",
-      "url": "https://www.kicker.de/book-schwaermt-von-gadou-vorlage-es-war-toll-ein-highlight-1274785/video#omrss",
-      "published": "2026-11-25T06:12:54+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.6,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/book-schwaermt-von-gadou-vorlage-es-war-toll-ein-highlight-1274785/video#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.319,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "cb2ac3eb3bafb3be",
-      "title": "Das hat noch KEINER gegen Arsenal geschafft! 🔥 | Arsenal – BVB 1:1",
-      "summary": "Das hat noch KEINER gegen Arsenal geschafft! 🔥 | Arsenal – BVB 1:1 ⸻ 🎁 SORARE: Gold Pack mit Erling Haaland garantiert – exklusiv für Neuanmeldungen! 👉 https://sorare.com/de/football/invite/arcade/poehlerz Werbung | Bezahlte Partnerschaft ⸻ Borussia Dortmund setzt ein Ausrufezeichen in der Champions League! Der BVB erkämpft sich beim FC Arsenal ein starkes 1:1 und schafft damit etwas, das in dieser Saison zuvor noch keiner Mannschaft gelungen ist. Der amtierende englische Meister und aktuelle Ta",
-      "url": "https://www.youtube.com/watch?v=KAX33NNc6A8",
-      "published": "2026-11-25T07:30:08+00:00",
-      "source": "Die Pöhlerz (YouTube)",
-      "source_id": "yt_poehlerz",
-      "tier": 4,
-      "kind": "youtube",
-      "score": 4.6,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Die Pöhlerz (YouTube)",
-          "url": "https://www.youtube.com/watch?v=KAX33NNc6A8",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.335,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://i.ytimg.com/vi/KAX33NNc6A8/hqdefault.jpg"
     },
     {
       "id": "9f640ef3809bf0ab",
@@ -2774,7 +2717,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.6,
+      "score": 4.59,
       "category": "matchday",
       "confirmations": [
         {
@@ -2787,11 +2730,39 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.331,
+        "recency": 0.324,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://img.sparknews.funkemedien.de/413769990/413769990_1795590406_v16_9_600.jpeg"
+    },
+    {
+      "id": "efe402ae87952a7c",
+      "title": "Book schwärmt von Gadou-Vorlage: \"Es war toll, ein Highlight\"",
+      "summary": "BVB-Sportdirektor Ole Book lobte Joane Gadou und sprach darüber, welche Qualitäten der athletische Verteidiger den Schwarz-Gelben geben kann.. Von der Vorlage zum Tor war er nicht überrascht.",
+      "url": "https://www.kicker.de/book-schwaermt-von-gadou-vorlage-es-war-toll-ein-highlight-1274785/video#omrss",
+      "published": "2026-11-25T06:12:54+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.58,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/book-schwaermt-von-gadou-vorlage-es-war-toll-ein-highlight-1274785/video#omrss",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.313,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
     },
     {
       "id": "efa1ba2ea17452e2",
@@ -2803,7 +2774,7 @@
       "source_id": "yt_rn_bvb",
       "tier": 2,
       "kind": "youtube",
-      "score": 4.59,
+      "score": 4.58,
       "category": "other",
       "confirmations": [
         {
@@ -2816,11 +2787,40 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.148,
+        "recency": 0.145,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://i.ytimg.com/vi/alO8Una_sH0/hqdefault.jpg"
+    },
+    {
+      "id": "cb2ac3eb3bafb3be",
+      "title": "Das hat noch KEINER gegen Arsenal geschafft! 🔥 | Arsenal – BVB 1:1",
+      "summary": "Das hat noch KEINER gegen Arsenal geschafft! 🔥 | Arsenal – BVB 1:1 ⸻ 🎁 SORARE: Gold Pack mit Erling Haaland garantiert – exklusiv für Neuanmeldungen! 👉 https://sorare.com/de/football/invite/arcade/poehlerz Werbung | Bezahlte Partnerschaft ⸻ Borussia Dortmund setzt ein Ausrufezeichen in der Champions League! Der BVB erkämpft sich beim FC Arsenal ein starkes 1:1 und schafft damit etwas, das in dieser Saison zuvor noch keiner Mannschaft gelungen ist. Der amtierende englische Meister und aktuelle Ta",
+      "url": "https://www.youtube.com/watch?v=KAX33NNc6A8",
+      "published": "2026-11-25T07:30:08+00:00",
+      "source": "Die Pöhlerz (YouTube)",
+      "source_id": "yt_poehlerz",
+      "tier": 4,
+      "kind": "youtube",
+      "score": 4.58,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Die Pöhlerz (YouTube)",
+          "url": "https://www.youtube.com/watch?v=KAX33NNc6A8",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.328,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://i.ytimg.com/vi/KAX33NNc6A8/hqdefault.jpg"
     },
     {
       "id": "cd82cb5c2b27da93",
@@ -2832,7 +2832,7 @@
       "source_id": "x_bvb",
       "tier": 3,
       "kind": "x",
-      "score": 4.59,
+      "score": 4.58,
       "category": "official",
       "confirmations": [
         {
@@ -2845,7 +2845,7 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.231,
+        "recency": 0.226,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -2860,7 +2860,7 @@
       "source_id": "x_bvb",
       "tier": 3,
       "kind": "x",
-      "score": 4.57,
+      "score": 4.56,
       "category": "official",
       "confirmations": [
         {
@@ -2873,7 +2873,7 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.222,
+        "recency": 0.217,
         "specificity": 0.0,
         "relevance": 0.0
       }
@@ -2888,7 +2888,7 @@
       "source_id": "fussballtransfers",
       "tier": 2,
       "kind": "rss",
-      "score": 4.56,
+      "score": 4.54,
       "category": "other",
       "confirmations": [
         {
@@ -2901,7 +2901,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.476,
+        "recency": 0.466,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -2917,7 +2917,7 @@
       "source_id": "x_bvb",
       "tier": 3,
       "kind": "x",
-      "score": 4.54,
+      "score": 4.53,
       "category": "official",
       "confirmations": [
         {
@@ -2930,39 +2930,10 @@
       "components": {
         "credibility": 1.0,
         "confirmation": 0.25,
-        "recency": 0.205,
+        "recency": 0.201,
         "specificity": 0.0,
         "relevance": 0.0
       }
-    },
-    {
-      "id": "0fb38e4e039bfaf1",
-      "title": "Festakt im Fußballmuseum: 25 Jahre Nordstadtliga",
-      "summary": "Es war ein Abend voller Gänsehautmomente. Im Mittelpunkt stand ein ganz besonderes Projekt, das am 26. Mai 2001 als Nordstadt-Fußballliga begann und inzwischen weit über die Nordstadt hinaus Anerkennung findet.",
-      "url": "https://schwatzgelb.de/artikel/2026/report/25-jahre-nordstadtliga",
-      "published": "2026-11-26T06:09:00+00:00",
-      "source": "Schwatzgelb",
-      "source_id": "schwatzgelb",
-      "tier": 4,
-      "kind": "rss",
-      "score": 4.53,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Schwatzgelb",
-          "url": "https://schwatzgelb.de/artikel/2026/report/25-jahre-nordstadtliga",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.802,
-        "specificity": 0.2,
-        "relevance": 0.0
-      },
-      "image": "https://www.schwatzgelb.de/imager/assets/1209400/IMG_4549_a12e44e3210bc53d16e237a7c4555e81.jpeg"
     },
     {
       "id": "fa316b9e87ea960e",
@@ -2974,7 +2945,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.52,
+      "score": 4.51,
       "category": "other",
       "confirmations": [
         {
@@ -2987,11 +2958,40 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.121,
+        "recency": 0.118,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://img.sparknews.funkemedien.de/413758456/413758456_1795449675_v16_9_600.jpeg"
+    },
+    {
+      "id": "0fb38e4e039bfaf1",
+      "title": "Festakt im Fußballmuseum: 25 Jahre Nordstadtliga",
+      "summary": "Es war ein Abend voller Gänsehautmomente. Im Mittelpunkt stand ein ganz besonderes Projekt, das am 26. Mai 2001 als Nordstadt-Fußballliga begann und inzwischen weit über die Nordstadt hinaus Anerkennung findet.",
+      "url": "https://schwatzgelb.de/artikel/2026/report/25-jahre-nordstadtliga",
+      "published": "2026-11-26T06:09:00+00:00",
+      "source": "Schwatzgelb",
+      "source_id": "schwatzgelb",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.5,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Schwatzgelb",
+          "url": "https://schwatzgelb.de/artikel/2026/report/25-jahre-nordstadtliga",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.786,
+        "specificity": 0.2,
+        "relevance": 0.0
+      },
+      "image": "https://www.schwatzgelb.de/imager/assets/1209400/IMG_4549_a12e44e3210bc53d16e237a7c4555e81.jpeg"
     },
     {
       "id": "00dbf81b9cf034b1",
@@ -3003,7 +3003,7 @@
       "source_id": "bsky_schwatzgelb",
       "tier": 4,
       "kind": "rss",
-      "score": 4.5,
+      "score": 4.49,
       "category": "matchday",
       "confirmations": [
         {
@@ -3016,7 +3016,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.356,
+        "recency": 0.349,
         "specificity": 0.4,
         "relevance": 0.667
       }
@@ -3044,37 +3044,9 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.091,
+        "recency": 0.089,
         "specificity": 0.2,
         "relevance": 0.667
-      }
-    },
-    {
-      "id": "c524c719445a16ce",
-      "title": "Kovac grinst wegen Gadou: \"Heißt nicht, dass er jetzt jedes Spiel spielt\"",
-      "summary": "Niko Kovac spricht bemerkenswert offen über Joane Gadou, lobt den Innenverteidiger und betont trotzdem, dass er körperlich noch aufzuholen habe.",
-      "url": "https://www.kicker.de/kovac-grinst-wegen-gadou-heisst-nicht-dass-er-jetzt-jedes-spiel-spielt-1274768/video#omrss",
-      "published": "2026-11-24T23:58:13+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.46,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "kicker BVB",
-          "url": "https://www.kicker.de/kovac-grinst-wegen-gadou-heisst-nicht-dass-er-jetzt-jedes-spiel-spielt-1274768/video#omrss",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.251,
-        "specificity": 0.2,
-        "relevance": 0.333
       }
     },
     {
@@ -3100,56 +3072,27 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.086,
+        "recency": 0.084,
         "specificity": 0.2,
         "relevance": 0.667
       }
     },
     {
-      "id": "9ec80af5d2c7f0c6",
-      "title": "Champions League: Schmerzhafte Ausfälle für BVB-Gegner FC Arsenal",
-      "summary": "Borussia Dortmund gastiert am Dienstagabend zum Champions-League-Duell beim FC Arsenal. Dem Gegner fehlt unter anderem seine Nummer eins.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413759654/champions-league-schmerzhafte-ausfaelle-fuer-bvb-gegner-fc-arsenal.html",
-      "published": "2026-11-23T20:35:48+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
+      "id": "c524c719445a16ce",
+      "title": "Kovac grinst wegen Gadou: \"Heißt nicht, dass er jetzt jedes Spiel spielt\"",
+      "summary": "Niko Kovac spricht bemerkenswert offen über Joane Gadou, lobt den Innenverteidiger und betont trotzdem, dass er körperlich noch aufzuholen habe.",
+      "url": "https://www.kicker.de/kovac-grinst-wegen-gadou-heisst-nicht-dass-er-jetzt-jedes-spiel-spielt-1274768/video#omrss",
+      "published": "2026-11-24T23:58:13+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
       "score": 4.45,
       "category": "other",
       "confirmations": [
         {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/borussia-dortmund/article413759654/champions-league-schmerzhafte-ausfaelle-fuer-bvb-gegner-fc-arsenal.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.087,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://img.sparknews.funkemedien.de/413759644/413759644_1795465871_v16_9_600.jpeg"
-    },
-    {
-      "id": "68f41f9324f0f602",
-      "title": "Bellingham: \"Habe Gadou gesagt, dass er das öfter machen soll\"",
-      "summary": "Mit einem Solo übers halbe Feld hat BVB-Verteidiger Joane Gadou das wichtige 1:1 beim FC Arsenal vorbereitet. Mitspieler Jobe Bellingham zeigte sich danach begeistert.",
-      "url": "https://www.kicker.de/bellingham-habe-gadou-gesagt-dass-er-das-oefter-machen-soll-1274764/video#omrss",
-      "published": "2026-11-24T23:08:56+00:00",
-      "source": "kicker BVB",
-      "source_id": "kicker_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.44,
-      "category": "other",
-      "confirmations": [
-        {
           "source": "kicker BVB",
-          "url": "https://www.kicker.de/bellingham-habe-gadou-gesagt-dass-er-das-oefter-machen-soll-1274764/video#omrss",
+          "url": "https://www.kicker.de/kovac-grinst-wegen-gadou-heisst-nicht-dass-er-jetzt-jedes-spiel-spielt-1274768/video#omrss",
           "tier": 2
         }
       ],
@@ -3157,7 +3100,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.243,
+        "recency": 0.246,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3185,57 +3128,28 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.082,
+        "recency": 0.081,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://bulinews.com/i/1280/22434.jpg"
     },
     {
-      "id": "a1c2881976072549",
-      "title": "Post Match Reactions: Dortmund Escape London With a Point",
-      "summary": "Physically and mentally grueling— that’s what typically exemplifies a match against Arsenal. Tuesday was no different for Borussia Dortmund. BVB traveled to the Emirates to face the North London side in the Champions League. Both teams came into the match mirroring each other across their respective domestic leagues in terms of goals scored (17), goals [&#8230;]",
-      "url": "https://www.fearthewall.com/bvb-european-games/25472/post-match-reactions-dortmund-escape-with-a-point",
-      "published": "2026-11-25T00:24:55+00:00",
-      "source": "Fear The Wall",
-      "source_id": "fearthewall",
-      "tier": 4,
-      "kind": "rss",
-      "score": 4.44,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Fear The Wall",
-          "url": "https://www.fearthewall.com/bvb-european-games/25472/post-match-reactions-dortmund-escape-with-a-point",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.255,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/11/gettyimages-2306702877.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
-    },
-    {
-      "id": "e7c5176e737b99b1",
-      "title": "Mit lauten Gesängen feierten die Dortmunder Fans im eisigen Londoner Wind den bemerkenswerten Punkt beim FC Arsenal.",
-      "summary": "Mit lauten Gesängen feierten die Dortmunder Fans im eisigen Londoner Wind den bemerkenswerten Punkt beim FC Arsenal. Mit großem Einsatz hat sich die Borussia ein Remis beim englischen Meister erkämpft und bleibt in der Champions League auf Kurs K.o.-Phase. 👏 https://t.co/KkLZLpKKgs",
-      "url": "https://x.com/SkySportDE",
-      "published": "2026-11-24T22:50:19+00:00",
-      "source": "Sky Sport News DE",
-      "source_id": "x_skysportde",
+      "id": "68f41f9324f0f602",
+      "title": "Bellingham: \"Habe Gadou gesagt, dass er das öfter machen soll\"",
+      "summary": "Mit einem Solo übers halbe Feld hat BVB-Verteidiger Joane Gadou das wichtige 1:1 beim FC Arsenal vorbereitet. Mitspieler Jobe Bellingham zeigte sich danach begeistert.",
+      "url": "https://www.kicker.de/bellingham-habe-gadou-gesagt-dass-er-das-oefter-machen-soll-1274764/video#omrss",
+      "published": "2026-11-24T23:08:56+00:00",
+      "source": "kicker BVB",
+      "source_id": "kicker_bvb",
       "tier": 2,
-      "kind": "x",
-      "score": 4.44,
+      "kind": "rss",
+      "score": 4.43,
       "category": "other",
       "confirmations": [
         {
-          "source": "Sky Sport News DE",
-          "url": "https://x.com/SkySportDE",
+          "source": "kicker BVB",
+          "url": "https://www.kicker.de/bellingham-habe-gadou-gesagt-dass-er-das-oefter-machen-soll-1274764/video#omrss",
           "tier": 2
         }
       ],
@@ -3243,7 +3157,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.24,
+        "recency": 0.238,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3277,130 +3191,45 @@
       }
     },
     {
-      "id": "a9bf93854b394828",
-      "title": "Arsenal 1-1 Borussia Dortmund: Player ratings for the BVB as Beier cancels Gyokeres",
-      "summary": "Borussia Dortmund came away with a solid point from London!",
-      "url": "https://bvbbuzz.com/arsenal-1-1-borussia-dortmund-player-ratings-for-the-bvb-as-beier-cancels-gyokeres-01m89cgnx299?utm_source=RSS",
-      "published": "2026-11-25T13:29:16+00:00",
-      "source": "BVB Buzz",
-      "source_id": "bvbbuzz",
+      "id": "a1c2881976072549",
+      "title": "Post Match Reactions: Dortmund Escape London With a Point",
+      "summary": "Physically and mentally grueling— that’s what typically exemplifies a match against Arsenal. Tuesday was no different for Borussia Dortmund. BVB traveled to the Emirates to face the North London side in the Champions League. Both teams came into the match mirroring each other across their respective domestic leagues in terms of goals scored (17), goals [&#8230;]",
+      "url": "https://www.fearthewall.com/bvb-european-games/25472/post-match-reactions-dortmund-escape-with-a-point",
+      "published": "2026-11-25T00:24:55+00:00",
+      "source": "Fear The Wall",
+      "source_id": "fearthewall",
       "tier": 4,
       "kind": "rss",
-      "score": 4.42,
+      "score": 4.43,
       "category": "other",
       "confirmations": [
         {
-          "source": "BVB Buzz",
-          "url": "https://bvbbuzz.com/arsenal-1-1-borussia-dortmund-player-ratings-for-the-bvb-as-beier-cancels-gyokeres-01m89cgnx299?utm_source=RSS",
+          "source": "Fear The Wall",
+          "url": "https://www.fearthewall.com/bvb-european-games/25472/post-match-reactions-dortmund-escape-with-a-point",
           "tier": 4
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.5,
+        "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.422,
+        "recency": 0.25,
         "specificity": 0.2,
         "relevance": 1.0
       },
-      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3911,h_2199,x_0,y_226/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m89cnmwrdx9n0a4yte.jpg"
+      "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/11/gettyimages-2306702877.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "id": "a9ee281c9dbde338",
-      "title": "„Viel klarer wird‘s nicht“: Schalke-Ikone sieht BVB um Elfmeter gebracht",
-      "summary": "Eine Fehlentscheidung sorgt im Topspiel zwischen dem FC Arsenal und dem BVB für Gesprächsstoff. Auch Nico Schlotterbeck ist verwundert.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413769540/viel-klarer-wirdE28098s-nicht-schalke-ikone-sieht-bvb-um-elfmeter-gebracht.html",
-      "published": "2026-11-24T22:40:00+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.42,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/borussia-dortmund/article413769540/viel-klarer-wirdE28098s-nicht-schalke-ikone-sieht-bvb-um-elfmeter-gebracht.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.239,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://img.sparknews.funkemedien.de/413769564/413769564_1795559814_v16_9_600.jpeg"
-    },
-    {
-      "id": "76fcaf18fe435132",
-      "title": "Mit Chukwuemeka und Guirassy: Dieser BVB-Kader reist zum Champions-League-Spiel nach London - Tribuna.com",
-      "summary": "Mit Chukwuemeka und Guirassy: Dieser BVB-Kader reist zum Champions-League-Spiel nach London &nbsp;&nbsp; Tribuna.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRmgtUl8zY2dfY3dFZUdGT3JGcmp3Zk1kRjZIN2hFRmw5eEkySDNockdaTVBBZlhNeE54bkN1Tmt0X2dZZEdfb2JTTnlwcFpNTkJfRlhwZ05Rcmk2LUR3QVd4SWs1dWJZcVVOX2JRZ1JjMVlJOXk3RW5sdVZySU9RaEN2bWNsbjhvaHVjS3RZc3BpbTJ0WmllWHI1cS1rY2dIa0lXWXFVQ1dPc0RYbld2WWdwLVMtUktqLTc1c3luWGRZWjhmMWfSAcsBQVVfeXFMUFp4QkFEUjFsb0NuNmZMVk16VERzdWJ3MmJ4Q1VsdkdmN2tYWkpqRWQ3cEFsUEJPU0Z2Y3RoRVZWSFgzVC0zMW1aM3ZpNnN3SUpRYkZvRDg3LW0zUzVodWY5T0pENURCS2ZxOE5sWjlzWXlEOFVWM1dhYU55SGZ2d3ZiUEU4MF9pQVZ3Q3F3SU51TlhKUHQxSEc4S01Dc1VISzVmaTJFRTZ3bmJkaW1QeWQ0SkVPNHN5Z0lDajVFODZXdzc1X1p3cGNOb28?oc=5",
-      "published": "2026-11-23T15:20:00+00:00",
-      "source": "Insider-Radar Romano",
-      "source_id": "gnews_romano",
-      "tier": 1,
-      "kind": "rss",
-      "score": 4.42,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Insider-Radar Romano",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRmgtUl8zY2dfY3dFZUdGT3JGcmp3Zk1kRjZIN2hFRmw5eEkySDNockdaTVBBZlhNeE54bkN1Tmt0X2dZZEdfb2JTTnlwcFpNTkJfRlhwZ05Rcmk2LUR3QVd4SWs1dWJZcVVOX2JRZ1JjMVlJOXk3RW5sdVZySU9RaEN2bWNsbjhvaHVjS3RZc3BpbTJ0WmllWHI1cS1rY2dIa0lXWXFVQ1dPc0RYbld2WWdwLVMtUktqLTc1c3luWGRZWjhmMWfSAcsBQVVfeXFMUFp4QkFEUjFsb0NuNmZMVk16VERzdWJ3MmJ4Q1VsdkdmN2tYWkpqRWQ3cEFsUEJPU0Z2Y3RoRVZWSFgzVC0zMW1aM3ZpNnN3SUpRYkZvRDg3LW0zUzVodWY5T0pENURCS2ZxOE5sWjlzWXlEOFVWM1dhYU55SGZ2d3ZiUEU4MF9pQVZ3Q3F3SU51TlhKUHQxSEc4S01Dc1VISzVmaTJFRTZ3bmJkaW1QeWQ0SkVPNHN5Z0lDajVFODZXdzc1X1p3cGNOb28?oc=5",
-          "tier": 1
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.071,
-        "specificity": 0.2,
-        "relevance": 1.0
-      }
-    },
-    {
-      "id": "f7d773561555c61f",
-      "title": "Dortmund erkämpft sich beim englischen Meister Arsenal ein 1:1 und verdient sich den Punkt dank einer deutlichen",
-      "summary": "Dortmund erkämpft sich beim englischen Meister Arsenal ein 1:1 und verdient sich den Punkt dank einer deutlichen Leistungssteigerung in der zweiten Halbzeit. https://t.co/oNJfVpe5hU",
+      "id": "e7c5176e737b99b1",
+      "title": "Mit lauten Gesängen feierten die Dortmunder Fans im eisigen Londoner Wind den bemerkenswerten Punkt beim FC Arsenal.",
+      "summary": "Mit lauten Gesängen feierten die Dortmunder Fans im eisigen Londoner Wind den bemerkenswerten Punkt beim FC Arsenal. Mit großem Einsatz hat sich die Borussia ein Remis beim englischen Meister erkämpft und bleibt in der Champions League auf Kurs K.o.-Phase. 👏 https://t.co/KkLZLpKKgs",
       "url": "https://x.com/SkySportDE",
-      "published": "2026-11-24T21:53:14+00:00",
+      "published": "2026-11-24T22:50:19+00:00",
       "source": "Sky Sport News DE",
       "source_id": "x_skysportde",
       "tier": 2,
       "kind": "x",
-      "score": 4.42,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "Sky Sport News DE",
-          "url": "https://x.com/SkySportDE",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.8,
-        "confirmation": 0.25,
-        "recency": 0.231,
-        "specificity": 0.2,
-        "relevance": 0.333
-      }
-    },
-    {
-      "id": "9a1bfbffff5f6543",
-      "title": "Eigentlich eine klare Sache oder wie habt ihr die Szene gesehen? 🤔 ➡️Nachdem eine Dortmunder Ecke von der linken Seite",
-      "summary": "Eigentlich eine klare Sache oder wie habt ihr die Szene gesehen? 🤔 ➡️Nachdem eine Dortmunder Ecke von der linken Seite abgewehrt wird, gibt es Proteste der Schwarz-Gelben. Gyökeres, der am ersten Pfosten hochgeht, hat den Ball nämlich recht klar an den leicht erhobenen Unterarm bekommen. Der Schiedsrichter lässt aber weiterlaufen. Da sich auch der VAR nicht meldet, geht es ohne Strafstoß weiter.",
-      "url": "https://x.com/SkySportDE",
-      "published": "2026-11-24T21:48:45+00:00",
-      "source": "Sky Sport News DE",
-      "source_id": "x_skysportde",
-      "tier": 2,
-      "kind": "x",
-      "score": 4.42,
+      "score": 4.43,
       "category": "other",
       "confirmations": [
         {
@@ -3413,7 +3242,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.231,
+        "recency": 0.235,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -3441,11 +3270,153 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.069,
+        "recency": 0.068,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://bulinews.com/i/1280/22424.jpg"
+    },
+    {
+      "id": "a9ee281c9dbde338",
+      "title": "„Viel klarer wird‘s nicht“: Schalke-Ikone sieht BVB um Elfmeter gebracht",
+      "summary": "Eine Fehlentscheidung sorgt im Topspiel zwischen dem FC Arsenal und dem BVB für Gesprächsstoff. Auch Nico Schlotterbeck ist verwundert.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413769540/viel-klarer-wirdE28098s-nicht-schalke-ikone-sieht-bvb-um-elfmeter-gebracht.html",
+      "published": "2026-11-24T22:40:00+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.41,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/borussia-dortmund/article413769540/viel-klarer-wirdE28098s-nicht-schalke-ikone-sieht-bvb-um-elfmeter-gebracht.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.234,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://img.sparknews.funkemedien.de/413769564/413769564_1795559814_v16_9_600.jpeg"
+    },
+    {
+      "id": "76fcaf18fe435132",
+      "title": "Mit Chukwuemeka und Guirassy: Dieser BVB-Kader reist zum Champions-League-Spiel nach London - Tribuna.com",
+      "summary": "Mit Chukwuemeka und Guirassy: Dieser BVB-Kader reist zum Champions-League-Spiel nach London &nbsp;&nbsp; Tribuna.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRmgtUl8zY2dfY3dFZUdGT3JGcmp3Zk1kRjZIN2hFRmw5eEkySDNockdaTVBBZlhNeE54bkN1Tmt0X2dZZEdfb2JTTnlwcFpNTkJfRlhwZ05Rcmk2LUR3QVd4SWs1dWJZcVVOX2JRZ1JjMVlJOXk3RW5sdVZySU9RaEN2bWNsbjhvaHVjS3RZc3BpbTJ0WmllWHI1cS1rY2dIa0lXWXFVQ1dPc0RYbld2WWdwLVMtUktqLTc1c3luWGRZWjhmMWfSAcsBQVVfeXFMUFp4QkFEUjFsb0NuNmZMVk16VERzdWJ3MmJ4Q1VsdkdmN2tYWkpqRWQ3cEFsUEJPU0Z2Y3RoRVZWSFgzVC0zMW1aM3ZpNnN3SUpRYkZvRDg3LW0zUzVodWY5T0pENURCS2ZxOE5sWjlzWXlEOFVWM1dhYU55SGZ2d3ZiUEU4MF9pQVZ3Q3F3SU51TlhKUHQxSEc4S01Dc1VISzVmaTJFRTZ3bmJkaW1QeWQ0SkVPNHN5Z0lDajVFODZXdzc1X1p3cGNOb28?oc=5",
+      "published": "2026-11-23T15:20:00+00:00",
+      "source": "Insider-Radar Romano",
+      "source_id": "gnews_romano",
+      "tier": 1,
+      "kind": "rss",
+      "score": 4.41,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Insider-Radar Romano",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRmgtUl8zY2dfY3dFZUdGT3JGcmp3Zk1kRjZIN2hFRmw5eEkySDNockdaTVBBZlhNeE54bkN1Tmt0X2dZZEdfb2JTTnlwcFpNTkJfRlhwZ05Rcmk2LUR3QVd4SWs1dWJZcVVOX2JRZ1JjMVlJOXk3RW5sdVZySU9RaEN2bWNsbjhvaHVjS3RZc3BpbTJ0WmllWHI1cS1rY2dIa0lXWXFVQ1dPc0RYbld2WWdwLVMtUktqLTc1c3luWGRZWjhmMWfSAcsBQVVfeXFMUFp4QkFEUjFsb0NuNmZMVk16VERzdWJ3MmJ4Q1VsdkdmN2tYWkpqRWQ3cEFsUEJPU0Z2Y3RoRVZWSFgzVC0zMW1aM3ZpNnN3SUpRYkZvRDg3LW0zUzVodWY5T0pENURCS2ZxOE5sWjlzWXlEOFVWM1dhYU55SGZ2d3ZiUEU4MF9pQVZ3Q3F3SU51TlhKUHQxSEc4S01Dc1VISzVmaTJFRTZ3bmJkaW1QeWQ0SkVPNHN5Z0lDajVFODZXdzc1X1p3cGNOb28?oc=5",
+          "tier": 1
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.07,
+        "specificity": 0.2,
+        "relevance": 1.0
+      }
+    },
+    {
+      "id": "f7d773561555c61f",
+      "title": "Dortmund erkämpft sich beim englischen Meister Arsenal ein 1:1 und verdient sich den Punkt dank einer deutlichen",
+      "summary": "Dortmund erkämpft sich beim englischen Meister Arsenal ein 1:1 und verdient sich den Punkt dank einer deutlichen Leistungssteigerung in der zweiten Halbzeit. https://t.co/oNJfVpe5hU",
+      "url": "https://x.com/SkySportDE",
+      "published": "2026-11-24T21:53:14+00:00",
+      "source": "Sky Sport News DE",
+      "source_id": "x_skysportde",
+      "tier": 2,
+      "kind": "x",
+      "score": 4.41,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "Sky Sport News DE",
+          "url": "https://x.com/SkySportDE",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.227,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "9a1bfbffff5f6543",
+      "title": "Eigentlich eine klare Sache oder wie habt ihr die Szene gesehen? 🤔 ➡️Nachdem eine Dortmunder Ecke von der linken Seite",
+      "summary": "Eigentlich eine klare Sache oder wie habt ihr die Szene gesehen? 🤔 ➡️Nachdem eine Dortmunder Ecke von der linken Seite abgewehrt wird, gibt es Proteste der Schwarz-Gelben. Gyökeres, der am ersten Pfosten hochgeht, hat den Ball nämlich recht klar an den leicht erhobenen Unterarm bekommen. Der Schiedsrichter lässt aber weiterlaufen. Da sich auch der VAR nicht meldet, geht es ohne Strafstoß weiter.",
+      "url": "https://x.com/SkySportDE",
+      "published": "2026-11-24T21:48:45+00:00",
+      "source": "Sky Sport News DE",
+      "source_id": "x_skysportde",
+      "tier": 2,
+      "kind": "x",
+      "score": 4.41,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Sky Sport News DE",
+          "url": "https://x.com/SkySportDE",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.8,
+        "confirmation": 0.25,
+        "recency": 0.226,
+        "specificity": 0.2,
+        "relevance": 0.333
+      }
+    },
+    {
+      "id": "a9bf93854b394828",
+      "title": "Arsenal 1-1 Borussia Dortmund: Player ratings for the BVB as Beier cancels Gyokeres",
+      "summary": "Borussia Dortmund came away with a solid point from London!",
+      "url": "https://bvbbuzz.com/arsenal-1-1-borussia-dortmund-player-ratings-for-the-bvb-as-beier-cancels-gyokeres-01m89cgnx299?utm_source=RSS",
+      "published": "2026-11-25T13:29:16+00:00",
+      "source": "BVB Buzz",
+      "source_id": "bvbbuzz",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.4,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "BVB Buzz",
+          "url": "https://bvbbuzz.com/arsenal-1-1-borussia-dortmund-player-ratings-for-the-bvb-as-beier-cancels-gyokeres-01m89cgnx299?utm_source=RSS",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.5,
+        "confirmation": 0.25,
+        "recency": 0.414,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3911,h_2199,x_0,y_226/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m89cnmwrdx9n0a4yte.jpg"
     },
     {
       "id": "bbb12559f26ebeec",
@@ -3457,7 +3428,7 @@
       "source_id": "bvbbuzz",
       "tier": 4,
       "kind": "rss",
-      "score": 4.4,
+      "score": 4.39,
       "category": "other",
       "confirmations": [
         {
@@ -3470,40 +3441,11 @@
       "components": {
         "credibility": 0.5,
         "confirmation": 0.25,
-        "recency": 0.413,
+        "recency": 0.405,
         "specificity": 0.2,
         "relevance": 1.0
       },
       "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3538,h_1990,x_0,y_246/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/395/01m89a6mn586h67jv9z6.jpg"
-    },
-    {
-      "id": "77345febc1c33c3d",
-      "title": "Arsenal – BVB 🔥 DUELL DER TABELLENFÜHRER! | Champions League Watchalong LIVE",
-      "summary": "Arsenal – BVB 🔥 DUELL DER TABELLENFÜHRER! | Champions League Watchalong LIVE ⸻ 🔥 Arsenal London gegen Borussia Dortmund – das Duell der Tabellenführer in der UEFA Champions League! Der amtierende englische Meister und aktuelle Spitzenreiter der Premier League empfängt mit dem BVB den Tabellenführer der Bundesliga. Ein echter Härtetest für Schwarzgelb im Emirates Stadium! Kann Borussia Dortmund auch gegen eines der stärksten Teams Europas bestehen? Wie stellt Niko Kovac seine Mannschaft gegen den",
-      "url": "https://www.youtube.com/watch?v=YadDO-7fiko",
-      "published": "2026-11-24T22:00:19+00:00",
-      "source": "Die Pöhlerz (YouTube)",
-      "source_id": "yt_poehlerz",
-      "tier": 4,
-      "kind": "youtube",
-      "score": 4.39,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Die Pöhlerz (YouTube)",
-          "url": "https://www.youtube.com/watch?v=YadDO-7fiko",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.233,
-        "specificity": 0.2,
-        "relevance": 1.0
-      },
-      "image": "https://i.ytimg.com/vi/YadDO-7fiko/hqdefault.jpg"
     },
     {
       "id": "d5461c8d69e632d3",
@@ -3528,11 +3470,40 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.046,
+        "recency": 0.045,
         "specificity": 0.2,
         "relevance": 0.667
       },
       "image": "https://images.podigee-cdn.net/0x,s2OYEY67oexVtT82UWHQjtuoL0ZMVMRGya-vdaBMP1Eg=/https://main.podigee-cdn.net/uploads/u1977/175e54d1-d7e1-484a-ae74-078750219d96.jpeg"
+    },
+    {
+      "id": "77345febc1c33c3d",
+      "title": "Arsenal – BVB 🔥 DUELL DER TABELLENFÜHRER! | Champions League Watchalong LIVE",
+      "summary": "Arsenal – BVB 🔥 DUELL DER TABELLENFÜHRER! | Champions League Watchalong LIVE ⸻ 🔥 Arsenal London gegen Borussia Dortmund – das Duell der Tabellenführer in der UEFA Champions League! Der amtierende englische Meister und aktuelle Spitzenreiter der Premier League empfängt mit dem BVB den Tabellenführer der Bundesliga. Ein echter Härtetest für Schwarzgelb im Emirates Stadium! Kann Borussia Dortmund auch gegen eines der stärksten Teams Europas bestehen? Wie stellt Niko Kovac seine Mannschaft gegen den",
+      "url": "https://www.youtube.com/watch?v=YadDO-7fiko",
+      "published": "2026-11-24T22:00:19+00:00",
+      "source": "Die Pöhlerz (YouTube)",
+      "source_id": "yt_poehlerz",
+      "tier": 4,
+      "kind": "youtube",
+      "score": 4.38,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Die Pöhlerz (YouTube)",
+          "url": "https://www.youtube.com/watch?v=YadDO-7fiko",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.228,
+        "specificity": 0.2,
+        "relevance": 1.0
+      },
+      "image": "https://i.ytimg.com/vi/YadDO-7fiko/hqdefault.jpg"
     },
     {
       "id": "3ae32a326269cefd",
@@ -3557,7 +3528,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.038,
+        "recency": 0.037,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -3586,7 +3557,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.046,
+        "recency": 0.045,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -3615,7 +3586,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.206,
+        "recency": 0.202,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -3631,7 +3602,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.35,
+      "score": 4.34,
       "category": "other",
       "confirmations": [
         {
@@ -3644,50 +3615,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.373,
+        "recency": 0.365,
         "specificity": 0.2,
         "relevance": 0.333
       },
       "image": "https://img.sparknews.funkemedien.de/413772390/413772390_1795606104_v16_9_600.jpeg"
-    },
-    {
-      "id": "3a260a338baf7b61",
-      "title": "Predicted Bundesliga lineups: Matchday 11 starting XIs",
-      "summary": "We take a look at the predicted starting lineups for every team ahead of Matchday 11 of the 2026/27 Bundesliga season.",
-      "url": "https://bulinews.com/predicted-bundesliga-lineups-matchday-11-starting-xis",
-      "published": "2026-11-25T13:46:00+00:00",
-      "source": "Bulinews Dortmund",
-      "source_id": "bulinews_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.33,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Bulinews Dortmund",
-          "url": "https://bulinews.com/predicted-bundesliga-lineups-matchday-11-starting-xis",
-          "tier": 2
-        },
-        {
-          "source": "Bulinews Dortmund",
-          "url": "https://bulinews.com/champions-league-2026/27-predicted-lineups-projected-starting-xis-for-matchday-5",
-          "tier": 2
-        },
-        {
-          "source": "Bulinews Dortmund",
-          "url": "https://bulinews.com/predicted-bundesliga-lineups-matchday-10-starting-xis",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.427,
-        "specificity": 0.4,
-        "relevance": 0.0
-      },
-      "image": "https://bulinews.com/i/1280/22479.jpg"
     },
     {
       "id": "b617d01b3cebb4a1",
@@ -3699,7 +3631,7 @@
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 4.33,
+      "score": 4.32,
       "category": "matchday",
       "confirmations": [
         {
@@ -3712,7 +3644,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.195,
+        "recency": 0.191,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -3777,6 +3709,45 @@
       "image": "https://images.podigee-cdn.net/0x,sIEuqYRnan-ey_PFrR_Ji0P-OdDMKrs6iAlMtPrZOPuM=/https://main.podigee-cdn.net/uploads/u1977/4b66bba2-1f8d-44cb-810e-8591e248c031.jpeg"
     },
     {
+      "id": "3a260a338baf7b61",
+      "title": "Predicted Bundesliga lineups: Matchday 11 starting XIs",
+      "summary": "We take a look at the predicted starting lineups for every team ahead of Matchday 11 of the 2026/27 Bundesliga season.",
+      "url": "https://bulinews.com/predicted-bundesliga-lineups-matchday-11-starting-xis",
+      "published": "2026-11-25T13:46:00+00:00",
+      "source": "Bulinews Dortmund",
+      "source_id": "bulinews_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.31,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Bulinews Dortmund",
+          "url": "https://bulinews.com/predicted-bundesliga-lineups-matchday-11-starting-xis",
+          "tier": 2
+        },
+        {
+          "source": "Bulinews Dortmund",
+          "url": "https://bulinews.com/champions-league-2026/27-predicted-lineups-projected-starting-xis-for-matchday-5",
+          "tier": 2
+        },
+        {
+          "source": "Bulinews Dortmund",
+          "url": "https://bulinews.com/predicted-bundesliga-lineups-matchday-10-starting-xis",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.418,
+        "specificity": 0.4,
+        "relevance": 0.0
+      },
+      "image": "https://bulinews.com/i/1280/22479.jpg"
+    },
+    {
       "id": "c343a1ff46e8615b",
       "title": "Die CL-Tabelle, in der Bayern und der VfB perfekt dastehen - und Arsenal abrutscht",
       "summary": "Wie sähe die Champions-League-Tabelle aus, wenn statt der tatsächlichen Tore die \"Expected Goals\" die Spiele entschieden hätten? Der BVB sollte vor dem Arsenal-Duell gewarnt sein.",
@@ -3799,39 +3770,10 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.172,
+        "recency": 0.169,
         "specificity": 0.2,
         "relevance": 0.333
       }
-    },
-    {
-      "id": "13b9fb092d055fb2",
-      "title": "Remis in London erkämpft: Das Gesicht gewahrt, einen Punkt geholt",
-      "summary": "Mit einer deutlichen Leistungssteigerung, einem Wahnsinns-Antritt von Joane Gadou und ein wenig Fortune erkämpft sich Borussia Dortmund einen Punkt in London. Dabei sah es nach den ersten Minuten noch so aus, als gäbe es die nächste Klatsche auf englischem Boden. Der Spielbericht.",
-      "url": "https://schwatzgelb.de/artikel/2026/maenner/das-gesicht-gewahrt-einen-punkt-geholt",
-      "published": "2026-11-25T09:01:00+00:00",
-      "source": "Schwatzgelb",
-      "source_id": "schwatzgelb",
-      "tier": 4,
-      "kind": "rss",
-      "score": 4.3,
-      "category": "matchday",
-      "confirmations": [
-        {
-          "source": "Schwatzgelb",
-          "url": "https://schwatzgelb.de/artikel/2026/maenner/das-gesicht-gewahrt-einen-punkt-geholt",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.355,
-        "specificity": 0.2,
-        "relevance": 0.667
-      },
-      "image": "https://www.schwatzgelb.de/imager/assets/1209421/AA402ACE-7D51-47BD-9816-12F7AC5C9B9B_2026-11-25-085357_tgpc_2026-11-25-085527_uqjp_a2fbca37355fbe15050ec71fb42c20dd.jpeg"
     },
     {
       "id": "c5fe411cc8dea214",
@@ -3976,6 +3918,35 @@
         "relevance": 1.0
       },
       "image": "https://img.sparknews.funkemedien.de/413741327/413741327_1795282344_v16_9_600.jpeg"
+    },
+    {
+      "id": "13b9fb092d055fb2",
+      "title": "Remis in London erkämpft: Das Gesicht gewahrt, einen Punkt geholt",
+      "summary": "Mit einer deutlichen Leistungssteigerung, einem Wahnsinns-Antritt von Joane Gadou und ein wenig Fortune erkämpft sich Borussia Dortmund einen Punkt in London. Dabei sah es nach den ersten Minuten noch so aus, als gäbe es die nächste Klatsche auf englischem Boden. Der Spielbericht.",
+      "url": "https://schwatzgelb.de/artikel/2026/maenner/das-gesicht-gewahrt-einen-punkt-geholt",
+      "published": "2026-11-25T09:01:00+00:00",
+      "source": "Schwatzgelb",
+      "source_id": "schwatzgelb",
+      "tier": 4,
+      "kind": "rss",
+      "score": 4.29,
+      "category": "matchday",
+      "confirmations": [
+        {
+          "source": "Schwatzgelb",
+          "url": "https://schwatzgelb.de/artikel/2026/maenner/das-gesicht-gewahrt-einen-punkt-geholt",
+          "tier": 4
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.6,
+        "confirmation": 0.25,
+        "recency": 0.348,
+        "specificity": 0.2,
+        "relevance": 0.667
+      },
+      "image": "https://www.schwatzgelb.de/imager/assets/1209421/AA402ACE-7D51-47BD-9816-12F7AC5C9B9B_2026-11-25-085357_tgpc_2026-11-25-085527_uqjp_a2fbca37355fbe15050ec71fb42c20dd.jpeg"
     },
     {
       "id": "e10739d5c43d4997",
@@ -4317,7 +4288,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.032,
+        "recency": 0.031,
         "specificity": 0.4,
         "relevance": 1.0
       }
@@ -4332,7 +4303,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.13,
+      "score": 4.12,
       "category": "other",
       "confirmations": [
         {
@@ -4345,7 +4316,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.15,
+        "recency": 0.147,
         "specificity": 0.4,
         "relevance": 0.0
       }
@@ -4360,7 +4331,7 @@
       "source_id": "bulinews_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.12,
+      "score": 4.11,
       "category": "other",
       "confirmations": [
         {
@@ -4373,7 +4344,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.088,
+        "recency": 0.086,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -4389,7 +4360,7 @@
       "source_id": "fearthewall",
       "tier": 4,
       "kind": "rss",
-      "score": 4.12,
+      "score": 4.11,
       "category": "other",
       "confirmations": [
         {
@@ -4402,7 +4373,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.264,
+        "recency": 0.259,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -4418,7 +4389,7 @@
       "source_id": "kicker_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 4.11,
+      "score": 4.1,
       "category": "other",
       "confirmations": [
         {
@@ -4431,7 +4402,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.245,
+        "recency": 0.24,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -4459,7 +4430,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.071,
+        "recency": 0.07,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -4488,7 +4459,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.074,
+        "recency": 0.073,
         "specificity": 0.2,
         "relevance": 0.667
       },
@@ -4517,63 +4488,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.075,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
-      "id": "becf8d908131e1d9",
-      "title": "Mikel Arteta backs Ethan Nwaneri to get back on form",
-      "summary": "Arsenal manager Mikel Arteta said that Ethan Nwaneri, who is currently on loan at Borussia Dortmund from the Gunners, needs to earn the right to play. &#8220;He had started playing&#8230;",
-      "url": "https://www.getfootballnewsgermany.com/2026/mikel-arteta-backs-ethan-nwaneri-to-get-back-on-form/",
-      "published": "2026-11-23T15:44:00+00:00",
-      "source": "Get German Football News BVB",
-      "source_id": "ggfn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.09,
-      "category": "transfers",
-      "confirmations": [
-        {
-          "source": "Get German Football News BVB",
-          "url": "https://www.getfootballnewsgermany.com/2026/mikel-arteta-backs-ethan-nwaneri-to-get-back-on-form/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.072,
-        "specificity": 0.2,
-        "relevance": 0.667
-      }
-    },
-    {
-      "id": "016c14ab2fcc0e8c",
-      "title": "Mikel Arteta praises Bellingham parents ahead of Arsenal vs Borussia Dortmund",
-      "summary": "Speaking at Monday&#8217;s press conference ahead of Arsenal&#8217;s UEFA Champions League against Borussia Dortmund, Gunners boss Mikel Arteta has given credit to the parents of Jobe Bellingham. &#8220;I think you&#8230;",
-      "url": "https://www.getfootballnewsgermany.com/2026/mikel-arteta-praises-bellingham-parents-ahead-of-arsenal-vs-borussia-dortmund/",
-      "published": "2026-11-23T15:36:08+00:00",
-      "source": "Get German Football News BVB",
-      "source_id": "ggfn_bvb",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.09,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Get German Football News BVB",
-          "url": "https://www.getfootballnewsgermany.com/2026/mikel-arteta-praises-bellingham-parents-ahead-of-arsenal-vs-borussia-dortmund/",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.072,
+        "recency": 0.073,
         "specificity": 0.2,
         "relevance": 0.667
       }
@@ -4601,7 +4516,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.082,
+        "recency": 0.08,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -4630,11 +4545,67 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.061,
+        "recency": 0.06,
         "specificity": 0.2,
         "relevance": 0.333
       },
       "image": "https://cdn.prod.www.11freunde.de/images/ba213d96-0402-48e3-aff9-4a8aefd47cae_w1920_r1.778_fpx50_fpy50.jpg"
+    },
+    {
+      "id": "becf8d908131e1d9",
+      "title": "Mikel Arteta backs Ethan Nwaneri to get back on form",
+      "summary": "Arsenal manager Mikel Arteta said that Ethan Nwaneri, who is currently on loan at Borussia Dortmund from the Gunners, needs to earn the right to play. &#8220;He had started playing&#8230;",
+      "url": "https://www.getfootballnewsgermany.com/2026/mikel-arteta-backs-ethan-nwaneri-to-get-back-on-form/",
+      "published": "2026-11-23T15:44:00+00:00",
+      "source": "Get German Football News BVB",
+      "source_id": "ggfn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.08,
+      "category": "transfers",
+      "confirmations": [
+        {
+          "source": "Get German Football News BVB",
+          "url": "https://www.getfootballnewsgermany.com/2026/mikel-arteta-backs-ethan-nwaneri-to-get-back-on-form/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.071,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
+    },
+    {
+      "id": "016c14ab2fcc0e8c",
+      "title": "Mikel Arteta praises Bellingham parents ahead of Arsenal vs Borussia Dortmund",
+      "summary": "Speaking at Monday&#8217;s press conference ahead of Arsenal&#8217;s UEFA Champions League against Borussia Dortmund, Gunners boss Mikel Arteta has given credit to the parents of Jobe Bellingham. &#8220;I think you&#8230;",
+      "url": "https://www.getfootballnewsgermany.com/2026/mikel-arteta-praises-bellingham-parents-ahead-of-arsenal-vs-borussia-dortmund/",
+      "published": "2026-11-23T15:36:08+00:00",
+      "source": "Get German Football News BVB",
+      "source_id": "ggfn_bvb",
+      "tier": 2,
+      "kind": "rss",
+      "score": 4.08,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Get German Football News BVB",
+          "url": "https://www.getfootballnewsgermany.com/2026/mikel-arteta-praises-bellingham-parents-ahead-of-arsenal-vs-borussia-dortmund/",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.071,
+        "specificity": 0.2,
+        "relevance": 0.667
+      }
     },
     {
       "id": "d0e3ed705b9f2d6c",
@@ -4659,7 +4630,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.189,
+        "recency": 0.186,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -4687,39 +4658,10 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.123,
+        "recency": 0.121,
         "specificity": 0.0,
         "relevance": 0.333
       }
-    },
-    {
-      "id": "37886e0186dd3925",
-      "title": "Trotz Dreierpack beim 12:0-Sieg des BVB: Comebackerin sieht „immer Luft nach oben“",
-      "summary": "Nachdem ihr Saisonstart von Verletzungen geplagt war, durfte eine BVB-Spielerin im Pokal erstmals für 90 Minuten ran. Eine andere debütierte.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413759752/trotz-dreierpack-beim-120-sieg-des-bvb-comebackerin-sieht-immer-luft-nach-oben.html",
-      "published": "2026-11-24T17:15:47+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 4.0,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/borussia-dortmund/article413759752/trotz-dreierpack-beim-120-sieg-des-bvb-comebackerin-sieht-immer-luft-nach-oben.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.194,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://img.sparknews.funkemedien.de/413768746/413768746_1795540236_v16_9_600.jpeg"
     },
     {
       "id": "8ba2ec86955b4301",
@@ -4744,28 +4686,28 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.014,
+        "recency": 0.013,
         "specificity": 0.2,
         "relevance": 0.333
       },
       "image": "https://images.sportschau.de/image/77dc62a4-84b7-4267-8ffc-ffe73d24ee7b/AAABof-gzfE/AAABnSSvrFg/16x9-big/wdr-die-spieler-von-gladbach-enttaeuscht-104.jpg?width=1920"
     },
     {
-      "id": "3054414d3f5a127a",
-      "title": "Wie eine Dortmunder Bankerin FC-Bayern-Gegner OSC Lille wieder aufgepäppelt hat",
-      "summary": "Ein Investmentfonds um die Dortmunder Bankerin Maren Schirmer bewahrte den OSC Lille vor der Insolvenz. Heute ist der Bayern-Gegner ein Vorzeigeverein – sportlich und finanziell.",
-      "url": "https://www.waz.de/sport/article413760656/fc-bayern-gegner-lille-entscheidend-isE28098-aufE28098m-bankkonto.html",
-      "published": "2026-11-24T15:56:52+00:00",
+      "id": "37886e0186dd3925",
+      "title": "Trotz Dreierpack beim 12:0-Sieg des BVB: Comebackerin sieht „immer Luft nach oben“",
+      "summary": "Nachdem ihr Saisonstart von Verletzungen geplagt war, durfte eine BVB-Spielerin im Pokal erstmals für 90 Minuten ran. Eine andere debütierte.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413759752/trotz-dreierpack-beim-120-sieg-des-bvb-comebackerin-sieht-immer-luft-nach-oben.html",
+      "published": "2026-11-24T17:15:47+00:00",
       "source": "WAZ Sport",
       "source_id": "waz_sport",
       "tier": 2,
       "kind": "rss",
-      "score": 3.98,
+      "score": 3.99,
       "category": "other",
       "confirmations": [
         {
           "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/article413760656/fc-bayern-gegner-lille-entscheidend-isE28098-aufE28098m-bankkonto.html",
+          "url": "https://www.waz.de/sport/borussia-dortmund/article413759752/trotz-dreierpack-beim-120-sieg-des-bvb-comebackerin-sieht-immer-luft-nach-oben.html",
           "tier": 2
         }
       ],
@@ -4773,11 +4715,11 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.184,
+        "recency": 0.19,
         "specificity": 0.2,
         "relevance": 0.333
       },
-      "image": "https://img.sparknews.funkemedien.de/413767956/413767956_1795535795_v16_9_600.jpeg"
+      "image": "https://img.sparknews.funkemedien.de/413768746/413768746_1795540236_v16_9_600.jpeg"
     },
     {
       "id": "220bae14c9cb1e27",
@@ -4836,6 +4778,35 @@
         "relevance": 1.0
       },
       "image": "https://i.ytimg.com/vi/0hEGc-KRFA8/hqdefault.jpg"
+    },
+    {
+      "id": "3054414d3f5a127a",
+      "title": "Wie eine Dortmunder Bankerin FC-Bayern-Gegner OSC Lille wieder aufgepäppelt hat",
+      "summary": "Ein Investmentfonds um die Dortmunder Bankerin Maren Schirmer bewahrte den OSC Lille vor der Insolvenz. Heute ist der Bayern-Gegner ein Vorzeigeverein – sportlich und finanziell.",
+      "url": "https://www.waz.de/sport/article413760656/fc-bayern-gegner-lille-entscheidend-isE28098-aufE28098m-bankkonto.html",
+      "published": "2026-11-24T15:56:52+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 3.97,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/article413760656/fc-bayern-gegner-lille-entscheidend-isE28098-aufE28098m-bankkonto.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.18,
+        "specificity": 0.2,
+        "relevance": 0.333
+      },
+      "image": "https://img.sparknews.funkemedien.de/413767956/413767956_1795535795_v16_9_600.jpeg"
     },
     {
       "id": "af1f23fc92782b83",
@@ -4947,7 +4918,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.017,
+        "recency": 0.016,
         "specificity": 0.2,
         "relevance": 1.0
       },
@@ -5156,35 +5127,6 @@
       "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/11/gettyimages-2306216913.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
-      "id": "61ed5aa1c5d36309",
-      "title": "BVB-Frauen sorgen für Euphorie – Boss Cramer setzt noch einen drauf",
-      "summary": "Die BVB-Frauen sorgen auf der Mitgliederversammlung für Begeisterung. Geschäftsführer Carsten Cramer bekräftigt eine besondere Zusage.",
-      "url": "https://www.waz.de/sport/borussia-dortmund/article413749588/bvb-frauen-sorgen-fuer-euphorie-boss-cramer-setzt-noch-einen-drauf.html",
-      "published": "2026-11-24T13:40:00+00:00",
-      "source": "WAZ Sport",
-      "source_id": "waz_sport",
-      "tier": 2,
-      "kind": "rss",
-      "score": 3.95,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "WAZ Sport",
-          "url": "https://www.waz.de/sport/borussia-dortmund/article413749588/bvb-frauen-sorgen-fuer-euphorie-boss-cramer-setzt-noch-einen-drauf.html",
-          "tier": 2
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.7,
-        "confirmation": 0.25,
-        "recency": 0.169,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://img.sparknews.funkemedien.de/413765620/413765620_1795527839_v16_9_600.jpeg"
-    },
-    {
       "id": "a7eeebb957ee28c5",
       "title": "Dortmund transfer target Regula suffers injury while representing Poland",
       "summary": "The 20-year-old, who has been heavily linked with a switch to BVB, could see his move fall through if the injury sustained is a serious one.",
@@ -5300,6 +5242,35 @@
       "image": "https://platform.fearthewall.com/wp-content/uploads/sites/79/2026/11/gettyimages-2303543602.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100"
     },
     {
+      "id": "61ed5aa1c5d36309",
+      "title": "BVB-Frauen sorgen für Euphorie – Boss Cramer setzt noch einen drauf",
+      "summary": "Die BVB-Frauen sorgen auf der Mitgliederversammlung für Begeisterung. Geschäftsführer Carsten Cramer bekräftigt eine besondere Zusage.",
+      "url": "https://www.waz.de/sport/borussia-dortmund/article413749588/bvb-frauen-sorgen-fuer-euphorie-boss-cramer-setzt-noch-einen-drauf.html",
+      "published": "2026-11-24T13:40:00+00:00",
+      "source": "WAZ Sport",
+      "source_id": "waz_sport",
+      "tier": 2,
+      "kind": "rss",
+      "score": 3.94,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "WAZ Sport",
+          "url": "https://www.waz.de/sport/borussia-dortmund/article413749588/bvb-frauen-sorgen-fuer-euphorie-boss-cramer-setzt-noch-einen-drauf.html",
+          "tier": 2
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.165,
+        "specificity": 0.2,
+        "relevance": 0.333
+      },
+      "image": "https://img.sparknews.funkemedien.de/413765620/413765620_1795527839_v16_9_600.jpeg"
+    },
+    {
       "id": "4c48b724b6e6dd26",
       "title": "Rüdiger-Nachfolge im Blick: Real Madrid zeigt erneut Interesse an BVB-Star Nico Schlotterbeck - Romano - Tribuna.com",
       "summary": "Rüdiger-Nachfolge im Blick: Real Madrid zeigt erneut Interesse an BVB-Star Nico Schlotterbeck - Romano &nbsp;&nbsp; Tribuna.com",
@@ -5395,7 +5366,7 @@
       "source_id": "gnews_berger",
       "tier": 1,
       "kind": "rss",
-      "score": 3.88,
+      "score": 3.87,
       "category": "other",
       "confirmations": [
         {
@@ -5408,7 +5379,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.135,
+        "recency": 0.132,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -5436,7 +5407,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.03,
+        "recency": 0.029,
         "specificity": 0.4,
         "relevance": 0.667
       },
@@ -5465,7 +5436,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.117,
+        "recency": 0.115,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -5509,7 +5480,7 @@
       "source_id": "bbc_bvb",
       "tier": 2,
       "kind": "rss",
-      "score": 3.77,
+      "score": 3.76,
       "category": "other",
       "confirmations": [
         {
@@ -5522,7 +5493,7 @@
       "components": {
         "credibility": 0.8,
         "confirmation": 0.25,
-        "recency": 0.07,
+        "recency": 0.069,
         "specificity": 0.2,
         "relevance": 0.0
       },
@@ -5538,7 +5509,7 @@
       "source_id": "gnews_romano",
       "tier": 1,
       "kind": "rss",
-      "score": 3.75,
+      "score": 3.74,
       "category": "other",
       "confirmations": [
         {
@@ -5551,7 +5522,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.069,
+        "recency": 0.067,
         "specificity": 0.2,
         "relevance": 0.333
       }
@@ -5579,7 +5550,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.057,
+        "recency": 0.056,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -5608,7 +5579,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.132,
+        "recency": 0.13,
         "specificity": 0.0,
         "relevance": 0.333
       },
@@ -5624,7 +5595,7 @@
       "source_id": "fearthewall",
       "tier": 4,
       "kind": "rss",
-      "score": 3.67,
+      "score": 3.66,
       "category": "other",
       "confirmations": [
         {
@@ -5637,7 +5608,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.203,
+        "recency": 0.199,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -5666,7 +5637,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.012,
+        "recency": 0.011,
         "specificity": 0.2,
         "relevance": 0.333
       },
@@ -5954,7 +5925,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.072,
+        "recency": 0.07,
         "specificity": 0.4,
         "relevance": 0.333
       },
@@ -6012,7 +5983,7 @@
       "components": {
         "credibility": 0.7,
         "confirmation": 0.25,
-        "recency": 0.057,
+        "recency": 0.056,
         "specificity": 0.4,
         "relevance": 0.0
       },
@@ -6173,7 +6144,7 @@
       "source_id": "bsky_schwatzgelb",
       "tier": 4,
       "kind": "rss",
-      "score": 3.49,
+      "score": 3.48,
       "category": "matchday",
       "confirmations": [
         {
@@ -6190,35 +6161,6 @@
         "specificity": 0.4,
         "relevance": 0.333
       }
-    },
-    {
-      "id": "f0d35f7281b29253",
-      "title": "BVB gegen den FC Arsenal: North London Forever",
-      "summary": "&quot;Gut, dass ich diesen Text erst nach dem Gladbach-Spiel anfange&quot;, war mein erster Gedanke. Sonst hätte ich einen neuen Einstieg finden müssen. So trifft am Dienstag also der Tabellenerste der Premier League auf den Tabellenersten der Bundesliga. Und damit sind wir gemeint.",
-      "url": "https://schwatzgelb.de/artikel/2026/warmlaufen/north-london-forever",
-      "published": "2026-11-23T18:09:00+00:00",
-      "source": "Schwatzgelb",
-      "source_id": "schwatzgelb",
-      "tier": 4,
-      "kind": "rss",
-      "score": 3.42,
-      "category": "other",
-      "confirmations": [
-        {
-          "source": "Schwatzgelb",
-          "url": "https://schwatzgelb.de/artikel/2026/warmlaufen/north-london-forever",
-          "tier": 4
-        }
-      ],
-      "confirmation_count": 1,
-      "components": {
-        "credibility": 0.6,
-        "confirmation": 0.25,
-        "recency": 0.08,
-        "specificity": 0.2,
-        "relevance": 0.333
-      },
-      "image": "https://www.schwatzgelb.de/imager/bvb-fotos_de/storage/library/2011-2012-europa-london-bvb/960x960/TOM_3843_a12e44e3210bc53d16e237a7c4555e81.jpg"
     },
     {
       "id": "a671b2e85dfdb298",
@@ -6249,32 +6191,33 @@
       }
     },
     {
-      "id": "a0f4f4d269a78647",
-      "title": "Fußball-Transfergerüchte heute: BVB-Konkurrenz im Werben um Hertha-Juwel – XXL-Budget für Pochettino - 90min.de",
-      "summary": "Fußball-Transfergerüchte heute: BVB-Konkurrenz im Werben um Hertha-Juwel – XXL-Budget für Pochettino &nbsp;&nbsp; 90min.de",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qbE5mUDQ5QjJJTXhZS0J6ek01aU4tQ21YYXNFVmVrc2VoNFFVRDhURTROdWVxaVZfTlBFWDRMamRGX2ZtVWN6Q2VNWEVPbGVVdXZwWUJLYkh3WEtDc2tyNE96UnE0VkpXNWZjeGx5Zjg?oc=5",
-      "published": "2026-11-20T08:07:32+00:00",
-      "source": "Insider-Radar Romano",
-      "source_id": "gnews_romano",
-      "tier": 1,
+      "id": "f0d35f7281b29253",
+      "title": "BVB gegen den FC Arsenal: North London Forever",
+      "summary": "&quot;Gut, dass ich diesen Text erst nach dem Gladbach-Spiel anfange&quot;, war mein erster Gedanke. Sonst hätte ich einen neuen Einstieg finden müssen. So trifft am Dienstag also der Tabellenerste der Premier League auf den Tabellenersten der Bundesliga. Und damit sind wir gemeint.",
+      "url": "https://schwatzgelb.de/artikel/2026/warmlaufen/north-london-forever",
+      "published": "2026-11-23T18:09:00+00:00",
+      "source": "Schwatzgelb",
+      "source_id": "schwatzgelb",
+      "tier": 4,
       "kind": "rss",
-      "score": 3.42,
+      "score": 3.41,
       "category": "other",
       "confirmations": [
         {
-          "source": "Insider-Radar Romano",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qbE5mUDQ5QjJJTXhZS0J6ek01aU4tQ21YYXNFVmVrc2VoNFFVRDhURTROdWVxaVZfTlBFWDRMamRGX2ZtVWN6Q2VNWEVPbGVVdXZwWUJLYkh3WEtDc2tyNE96UnE0VkpXNWZjeGx5Zjg?oc=5",
-          "tier": 1
+          "source": "Schwatzgelb",
+          "url": "https://schwatzgelb.de/artikel/2026/warmlaufen/north-london-forever",
+          "tier": 4
         }
       ],
       "confirmation_count": 1,
       "components": {
-        "credibility": 0.7,
+        "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.003,
-        "specificity": 0.0,
+        "recency": 0.078,
+        "specificity": 0.2,
         "relevance": 0.333
-      }
+      },
+      "image": "https://www.schwatzgelb.de/imager/bvb-fotos_de/storage/library/2011-2012-europa-london-bvb/960x960/TOM_3843_a12e44e3210bc53d16e237a7c4555e81.jpg"
     },
     {
       "id": "a6ebedb7767f54c4",
@@ -6335,6 +6278,34 @@
       "image": "https://bulinews.com/i/1280/22150.jpg"
     },
     {
+      "id": "a0f4f4d269a78647",
+      "title": "Fußball-Transfergerüchte heute: BVB-Konkurrenz im Werben um Hertha-Juwel – XXL-Budget für Pochettino - 90min.de",
+      "summary": "Fußball-Transfergerüchte heute: BVB-Konkurrenz im Werben um Hertha-Juwel – XXL-Budget für Pochettino &nbsp;&nbsp; 90min.de",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qbE5mUDQ5QjJJTXhZS0J6ek01aU4tQ21YYXNFVmVrc2VoNFFVRDhURTROdWVxaVZfTlBFWDRMamRGX2ZtVWN6Q2VNWEVPbGVVdXZwWUJLYkh3WEtDc2tyNE96UnE0VkpXNWZjeGx5Zjg?oc=5",
+      "published": "2026-11-20T08:07:32+00:00",
+      "source": "Insider-Radar Romano",
+      "source_id": "gnews_romano",
+      "tier": 1,
+      "kind": "rss",
+      "score": 3.41,
+      "category": "other",
+      "confirmations": [
+        {
+          "source": "Insider-Radar Romano",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qbE5mUDQ5QjJJTXhZS0J6ek01aU4tQ21YYXNFVmVrc2VoNFFVRDhURTROdWVxaVZfTlBFWDRMamRGX2ZtVWN6Q2VNWEVPbGVVdXZwWUJLYkh3WEtDc2tyNE96UnE0VkpXNWZjeGx5Zjg?oc=5",
+          "tier": 1
+        }
+      ],
+      "confirmation_count": 1,
+      "components": {
+        "credibility": 0.7,
+        "confirmation": 0.25,
+        "recency": 0.003,
+        "specificity": 0.0,
+        "relevance": 0.333
+      }
+    },
+    {
       "id": "ef7cada386976d95",
       "title": "BVB gewinnt gegen Gladbach: Von Spitzenreitern und Absteigern",
       "summary": "Der BVB müht sich mit einer miesen ersten und einer guten zweiten Halbzeit zu einem 1:0 beim Schlusslicht vom Niederrhein und übernimmt die Tabellenführung. Unser Bericht aus dem Gladbacher Gästeblock.",
@@ -6344,7 +6315,7 @@
       "source_id": "schwatzgelb",
       "tier": 4,
       "kind": "rss",
-      "score": 3.29,
+      "score": 3.28,
       "category": "matchday",
       "confirmations": [
         {
@@ -6559,7 +6530,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.075,
+        "recency": 0.074,
         "specificity": 0.0,
         "relevance": 0.333
       },
@@ -6730,7 +6701,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.073,
+        "recency": 0.072,
         "specificity": 0.2,
         "relevance": 0.0
       },
@@ -6759,7 +6730,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.021,
+        "recency": 0.02,
         "specificity": 0.2,
         "relevance": 0.0
       }
@@ -6816,7 +6787,7 @@
       "components": {
         "credibility": 0.6,
         "confirmation": 0.25,
-        "recency": 0.067,
+        "recency": 0.066,
         "specificity": 0.0,
         "relevance": 0.0
       },
@@ -6824,17 +6795,17 @@
     }
   ],
   "stats": {
-    "total": 237,
-    "raw_total": 4014,
-    "clusters": 237,
+    "total": 236,
+    "raw_total": 4013,
+    "clusters": 236,
     "by_tier": {
-      "2": 161,
+      "2": 160,
       "3": 20,
       "4": 49,
       "1": 7
     },
     "by_category": {
-      "other": 185,
+      "other": 184,
       "background": 8,
       "transfers": 13,
       "matchday": 25,
@@ -6858,13 +6829,13 @@
         "id": "reddit_soccer_bvb",
         "newest_item": "2026-11-10T14:20:25+00:00",
         "days_silent": 15,
-        "fail_runs": 138
+        "fail_runs": 139
       },
       {
         "id": "reddit_bvb",
         "newest_item": "2026-11-17T10:27:46+00:00",
         "days_silent": 9,
-        "fail_runs": 90
+        "fail_runs": 91
       }
     ]
   }
