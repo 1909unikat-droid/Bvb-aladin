@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-27T15:31:03.260939+00:00",
-  "duration_s": 67.34,
+  "fetched_at": "2026-11-27T16:43:04.476241+00:00",
+  "duration_s": 65.95,
   "sources_ok": 39,
   "sources_fail": 2,
   "stale_sources": [
@@ -12,22 +12,50 @@
     {
       "id": "yt_bvb_analyse",
       "newest_item": "2026-09-16T15:31:10+00:00",
-      "days_silent": 71
+      "days_silent": 72
     },
     {
       "id": "reddit_soccer_bvb",
       "newest_item": "2026-11-10T14:20:25+00:00",
       "days_silent": 17,
-      "fail_runs": 150
+      "fail_runs": 151
     },
     {
       "id": "reddit_bvb",
       "newest_item": "2026-11-17T10:27:46+00:00",
       "days_silent": 10,
-      "fail_runs": 102
+      "fail_runs": 103
     }
   ],
   "items": [
+    {
+      "id": "02b1d1dbdc95824d",
+      "title": "HSV und Bayern im Duell der Extreme: Die Laufleistung der 18 Bundesligisten",
+      "summary": "Wenn der Hamburger SV am Samstagnachmittag den FC Bayern empfängt, wartet ein Duell der Extreme - in Bezug auf die Laufleistung beider Teams. Wir blicken auf die Werte der 18 Bundesligisten nach zehn Spieltagen.",
+      "url": "https://www.kicker.de/hsv-und-bayern-im-duell-der-extreme-die-laufleistung-der-18-bundesligisten-1275414/slideshow#omrss",
+      "published": "2026-11-27T16:30:53+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
+    {
+      "id": "341265a2beb2b01e",
+      "title": "Ryerson: Viele Flanken, wenig Ertrag und woran es liegt",
+      "summary": "Nach seiner Fabel-Halbserie in der vergangenen Saison bringen die Flanken von Julian Ryerson Borussia Dortmund in dieser Spielzeit noch nicht den erhofften Ertrag. Sein Trainer Niko Kovac weiß warum.",
+      "url": "https://www.kicker.de/ryerson-viele-flanken-wenig-ertrag-und-woran-es-liegt-1275559/artikel#omrss",
+      "published": "2026-11-27T15:45:55+00:00",
+      "source_id": "kicker_bvb",
+      "source_name": "kicker BVB",
+      "tier": 2,
+      "credibility": 8,
+      "host": "www.kicker.de",
+      "lang": "de",
+      "kind": "rss"
+    },
     {
       "id": "7d354b481fc3ca95",
       "title": "BVB vor Reifeprüfung: \"Standortbestimmung für Titelambitionen\"",
@@ -281,27 +309,13 @@
       "kind": "rss"
     },
     {
-      "id": "be9df1689d334a8e",
-      "title": "Erster Sieg im Emirates seit 2013? Worauf es für den BVB am Abend ankommt",
-      "summary": "Borussia Dortmund spielt am fünften Spieltag der Champions League beim FC Arsenal. Der kicker fasst zusammen, was den BVB in London erwartet, wie er es angeht und auf welche Duelle es ankommt.",
-      "url": "https://www.kicker.de/erster-sieg-im-emirates-seit-2013-worauf-es-fuer-den-bvb-am-abend-ankommt-1273841/artikel#omrss",
-      "published": "2026-11-24T13:58:36+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
-      "lang": "de",
-      "kind": "rss"
-    },
-    {
-      "id": "6bf51f212ca41ebf",
-      "title": "Via Sublizenz: Bundesliga-Highlights ab Januar auch bei Disney+",
-      "summary": "Fans des deutschen Spitzenfußballs können die Highlights der Spiele der 1. und 2. Bundesliga ab dem 8. Januar 2027 auf einer weiteren Plattform abrufen: Via Sublizenz steigt \"Disney+\" in den Rechtemarkt im Fußball der Männer ein.",
-      "url": "https://www.kicker.de/via-sublizenz-bundesliga-highlights-ab-januar-auch-bei-disney-1274545/artikel#omrss",
-      "published": "2026-11-24T10:39:15+00:00",
-      "source_id": "kicker_bvb",
-      "source_name": "kicker BVB",
+      "id": "341265a2beb2b01e",
+      "title": "Ryerson: Viele Flanken, wenig Ertrag und woran es liegt",
+      "summary": "Nach seiner Fabel-Halbserie in der vergangenen Saison bringen die Flanken von Julian Ryerson Borussia Dortmund in dieser Spielzeit noch nicht den erhofften Ertrag. Sein Trainer Niko Kovac weiß warum.",
+      "url": "https://www.kicker.de/ryerson-viele-flanken-wenig-ertrag-und-woran-es-liegt-1275559/artikel#omrss",
+      "published": "2026-11-27T15:45:55+00:00",
+      "source_id": "kicker_bundesliga",
+      "source_name": "kicker Bundesliga",
       "tier": 2,
       "credibility": 8,
       "host": "www.kicker.de",
@@ -337,18 +351,19 @@
       "kind": "rss"
     },
     {
-      "id": "091784e8b000fe16",
-      "title": "\"Zwei geile Spiele\": Andrich freut sich auf BVB und Leipzig",
-      "summary": "Robert Andrich freut sich auf den Bundesliga-Kracher gegen den BVB und das Pokalspiel gegen RB Leipzig.",
-      "url": "https://www.kicker.de/zwei-geile-spiele-andrich-freut-sich-auf-bvb-und-leipzig-1275464/video#omrss",
-      "published": "2026-11-26T20:30:01+00:00",
-      "source_id": "kicker_bundesliga",
-      "source_name": "kicker Bundesliga",
+      "id": "6e972e8f8f689ce9",
+      "title": "Transfer-Bericht: BVB ist heiß auf 46-Tore-Stürmer",
+      "summary": "Bahnt sich der nächste Italien-Coup an? Der BVB soll ein Sturmtalent im Visier haben – doch diesmal wird es teurer. Was Dortmund zahlen müsste.",
+      "url": "https://www.ruhr24.de/bvb/bvb-transfer-news-gabriel-kulla-us-sassuolo-wechsel-vertrag-alter-reggiani-inacio-borussia-dortmund-94611975.html",
+      "published": "2026-11-27T15:45:24+00:00",
+      "source_id": "ruhr24_bvb",
+      "source_name": "RUHR24 BVB",
       "tier": 2,
-      "credibility": 8,
-      "host": "www.kicker.de",
+      "credibility": 7,
+      "host": "www.ruhr24.de",
       "lang": "de",
-      "kind": "rss"
+      "kind": "rss",
+      "image": "https://www.ruhr24.de/assets/images/45/35/45035985-bvb-sportdirektor-ole-book-macht-jagd-auf-einen-jungen-stuermer-2b8OaV2HmHef.jpg"
     },
     {
       "id": "dc61ab73b6db2aea",
@@ -544,6 +559,21 @@
       "lang": "de",
       "kind": "rss",
       "image": "https://www.ruhrnachrichten.de/wp-content/uploads/2026/11/25/01/630_0900_7194918_-320x160.jpg"
+    },
+    {
+      "id": "9eeee301cab89569",
+      "title": "BVB-Transfer: El Mala gibt überraschende Antwort",
+      "summary": "Trotz großer Bemühungen seitens Borussia Dortmund ist Said El Mala im Sommer beim 1. FC Köln geblieben. Mit einer Aussage lässt der Nationalspieler nun aufhorchen.Die Nachricht, dass Said El Mala (19) (…)",
+      "url": "https://www.fussballtransfers.com/a8031791207031081399-bvb-transfer-el-mala-gibt-ueberraschende-antwort",
+      "published": "2026-11-27T15:35:06+00:00",
+      "source_id": "fussballtransfers",
+      "source_name": "fussballtransfers.com",
+      "tier": 2,
+      "credibility": 7,
+      "host": "www.fussballtransfers.com",
+      "lang": "de",
+      "kind": "rss",
+      "image": "https://assets-de.imgfoot.com/media/cache/1200x675/said-el-mala-2627-6.jpg"
     },
     {
       "id": "af4cef546cb41499",
@@ -48136,21 +48166,6 @@
       "image": "https://i.ytimg.com/vi/NYyhxk8YD0o/hqdefault.jpg"
     },
     {
-      "id": "a8b36cd9d1ae816d",
-      "title": "Bundesliga: Tabellenführung wird für Borussia Dortmund zur Kopfsache",
-      "summary": "Die Bayern-Krise ist die Chance für Borussia Dortmund. Doch die Tabellenführung wird für den BVB zur mentalen Herausforderung.",
-      "url": "https://www.sportschau.de/regional/wdr/wdr-tabellenfuehrung-wird-fuer-den-bvb-zur-kopfsache-100.html",
-      "published": "2026-11-26T15:53:16+00:00",
-      "source_id": "sportschau_bl",
-      "source_name": "Sportschau Bundesliga",
-      "tier": 2,
-      "credibility": 8,
-      "host": "www.sportschau.de",
-      "lang": "de",
-      "kind": "rss",
-      "image": "https://images.sportschau.de/image/1456fe77-4dd0-40e2-b30c-f028160a5a4e/AAABohhevLE/AAABnSSvrFg/16x9-big/wdr-die-spieler-vom-bvb-jubeln-100.jpg?width=1920"
-    },
-    {
       "id": "931e59a405372d04",
       "title": "Dortmund nutzt Batz' und Bayerns Patzer",
       "summary": "Borussia Dortmund setzt sich in der Bundesliga mit 1:0 bei Borussia Mönchengladbach durch. Ein harmlos wirkender Schuss sorgt für die Entscheidung und beschert dem BVB die Tabellenführung.",
@@ -48386,6 +48401,21 @@
       "host": "www.kicker.de",
       "lang": "de",
       "kind": "rss"
+    },
+    {
+      "id": "9dbafc421a8cff35",
+      "title": "\"I couldn't see myself anywhere else\" – El Mala loyal to Köln despite prior Dortmund links",
+      "summary": "The Cathedral City outfit's mercurial talent has claimed, contrary to previous media reports, that he couldn't envisage himself representing another club.",
+      "url": "https://bulinews.com/couldn-see-myself-anywhere-mala-loyal-koln-despite-prior-dortmund-links",
+      "published": "2026-11-27T16:02:00+00:00",
+      "source_id": "bulinews_bvb",
+      "source_name": "Bulinews Dortmund",
+      "tier": 2,
+      "credibility": 7,
+      "host": "bulinews.com",
+      "lang": "en",
+      "kind": "rss",
+      "image": "https://bulinews.com/i/1280/22538.jpg"
     },
     {
       "id": "a252c1db52803884",
@@ -49121,21 +49151,6 @@
       "lang": "en",
       "kind": "rss",
       "image": "https://bulinews.com/i/1280/22076.jpg"
-    },
-    {
-      "id": "3c9a26cd9ac8112e",
-      "title": "Could Nwaneri's lack of playing time prompt Arsenal to end Dortmund loan early?",
-      "summary": "Ethan Nwaneri has seen his playing time decrease in recent weeks, with the youngster increasingly limited to brief cameos. Unless his situation changes before the end of the year, Arsenal could look to recall him from his loan in January, with the club reportedly having the option to do so.",
-      "url": "https://bulinews.com/nwaneri-lack-playing-time-prompt-arsenal-end-dortmund-loan-early",
-      "published": "2026-11-09T14:24:00+00:00",
-      "source_id": "bulinews_bvb",
-      "source_name": "Bulinews Dortmund",
-      "tier": 2,
-      "credibility": 7,
-      "host": "bulinews.com",
-      "lang": "en",
-      "kind": "rss",
-      "image": "https://bulinews.com/i/1280/22065.jpg"
     },
     {
       "id": "8fa1661b728a81e3",
